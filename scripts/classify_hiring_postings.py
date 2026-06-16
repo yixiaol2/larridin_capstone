@@ -138,7 +138,7 @@ def main() -> int:
             json.dumps(
                 {"ticker": ticker, "company": doc["company"], "snapshot": args.snapshot,
                  "model": args.model, "prompt_version": "jobclass-v1",
-                 "classified_at": dt.datetime.now(dt.timezone.utc).isoformat(), "postings": rows},
+                 "classified_at": dt.datetime.now(dt.UTC).isoformat(), "postings": rows},
                 ensure_ascii=False,
             )
         )
@@ -156,8 +156,10 @@ def main() -> int:
         dfp = pd.DataFrame(d["postings"])
         matched = dfp[dfp["is_company_match"]] if len(dfp) else dfp
         counts = matched["ai_role_type"].value_counts() if len(matched) else {}
-        n_b = int(counts.get("ai-builder", 0)); n_u = int(counts.get("ai-user", 0))
-        n_l = int(counts.get("ai-leader", 0)); n_m = int(len(matched))
+        n_b = int(counts.get("ai-builder", 0))
+        n_u = int(counts.get("ai-user", 0))
+        n_l = int(counts.get("ai-leader", 0))
+        n_m = int(len(matched))
         agg.append(
             {
                 "ticker": d["ticker"], "company": d["company"], "snapshot": d["snapshot"],

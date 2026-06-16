@@ -81,7 +81,7 @@ def main() -> int:
     out_dir = Path(f"data/raw/exa/{args.snapshot}")
     out_dir.mkdir(parents=True, exist_ok=True)
     start_date = (
-        dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=WINDOW_DAYS)
+        dt.datetime.now(dt.UTC) - dt.timedelta(days=WINDOW_DAYS)
     ).strftime("%Y-%m-%dT00:00:00.000Z")
 
     total_cost = 0.0
@@ -114,7 +114,7 @@ def main() -> int:
                     "snapshot": args.snapshot,
                     "query": query,
                     "window_start": start_date,
-                    "fetched_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+                    "fetched_at": dt.datetime.now(dt.UTC).isoformat(),
                     "n_results": len(results),
                     "results": results,
                 },
@@ -135,7 +135,7 @@ def main() -> int:
         "skipped_existing": n_skipped,
         "saturation_topups": n_topped,
         "exa_cost_dollars": round(total_cost, 3),
-        "finished_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "finished_at": dt.datetime.now(dt.UTC).isoformat(),
     }
     (out_dir / "_manifest.json").write_text(json.dumps(manifest, indent=2))
     print(json.dumps(manifest, indent=2))

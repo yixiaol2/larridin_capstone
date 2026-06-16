@@ -181,7 +181,7 @@ def main() -> int:
             continue
         parsed["_meta"] = {**meta, "model": MODEL, "n_excerpts": len(excerpts),
                            "maturity_index": float(row["maturity_index"]),
-                           "extracted_at": dt.datetime.now(dt.timezone.utc).isoformat()}
+                           "extracted_at": dt.datetime.now(dt.UTC).isoformat()}
         out_path.write_text(json.dumps(parsed, ensure_ascii=False, indent=1))
         dims = parsed.get("dimensions", {})
         scores = {k: (v or {}).get("score") for k, v in dims.items()}

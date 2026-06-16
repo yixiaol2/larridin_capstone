@@ -91,7 +91,7 @@ def main() -> int:
 
     manifest = {
         "supabase_url": base_url,
-        "fetched_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "fetched_at": dt.datetime.now(dt.UTC).isoformat(),
         "tables": {},
     }
     for table in TABLES:
