@@ -1,0 +1,51 @@
+{
+ "ticker": "FITB",
+ "source_document_id": "0000035527-26-000124",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Fifth Third invests in automation and emerging technologies such as AI, to prevent, detect and remedy any interruptions or failures",
+    "Fifth Third launched a comprehensive platform designed to deliver leadership development content and experiences... including generative Artificial Intelligence (AI) training",
+    "These additional risks are increasing the costs of Fifth Third s investment in technology and cybersecurity and require further investment"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Several new development offerings were launched, including generative Artificial Intelligence (AI) training, coaching skills for managers",
+    "Fifth Third invests in automation and emerging technologies such as AI, to prevent, detect and remedy any interruptions or failures",
+    "AI may be developed internally by Fifth Third, or may be provided to Fifth Third by third- or fourth-party service providers"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI models employed by Fifth Third or its service providers might be flawed due to improper design, implementation, or training or outputs based on data or algorithms that are incomplete, inadequate, misleading, biased",
+    "AI is also expected to be governed by new laws and regulations... federal, state and international authorities either implementing or considering legal frameworks that could impact Fifth Third s ability to leverage AI effectively",
+    "The prospect that AI may be used to conduct attacks may make them more difficult to detect. Additionally, the growing sophistication of AI increases the risk of cyber-attacks"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 based on named initiatives and named technology categories without quantification.",
+  "AI narrative concreteness scored 3 because named use cases (generative AI training, fraud prevention, cybersecurity automation) are described but no deployment metrics or quantified business outcomes are disclosed.",
+  "Risk disclosure scored 4 rather than 5 because specific risk mechanisms are described (model flaws, regulatory exposure, cyber-attack amplification, data rights liabilities) but no quantified risk figures or formally named AI governance body with explicit mandate appears in the excerpts; the Operational Risk Committee and Technology and Information Security Governance Committee are referenced but their AI-specific mandates are not detailed."
+ ],
+ "_meta": {
+  "accession": "0000035527-26-000124",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000124/fitb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:00:37.560672+00:00"
+ }
+}

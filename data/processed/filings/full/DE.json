@@ -1,0 +1,61 @@
+{
+ "ticker": "DE",
+ "source_document_id": "0001104659-25-122321",
+ "source_type": "sec_filing",
+ "source_date": "2025-12-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We make substantial investments in research and development... integrating emerging technologies such as artificial intelligence driven analytics and advanced robotics into our manufacturing processes",
+    "The development of our own artificial intelligence applications will require additional investment in the development of proprietary systems, models, or datasets, which are complex, costly",
+    "In 2023, we acquired SparkAI Inc. (Spark AI) and Smart Apply, Inc. (Smart Apply) to accelerate the integration of smart technology innovation in our products"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We use automation software, digital tools, applications, and analytics on the S7 Series Combines and our See Spray targeted spraying solution",
+    "cameras, obstacle detection, radars, and machine learning have been applied to our CF Smart Detect tool to identify obstacles on jobsites",
+    "John Deere Operations Center... stores substantial volumes of data... used to support our customers and to develop or enhance our product offerings, including the development of machine learning, large language models and SaaS products"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "artificial intelligence technologies have rapidly developed, and our business may be adversely affected if we cannot successfully integrate the technology into our internal business processes, products, and services in a timely, cost-effective, compliant, and responsible manner",
+    "any confidential information that is disclosed to a third-party generative artificial intelligence platform could be leaked or disclosed to others, including sensitive information that is used to train the third parties model",
+    "if the data used to train the solution or the content, analyses, or recommendations that the machine learning and intelligence applications assist in producing is deemed to be inaccurate, incomplete, biased or questionable, our brand and reputation may be harmed, and we may be subject to legal liability claims"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "combined cost of these acquisitions was $82, net of cash acquired of $2",
+   "context": "2023 acquisitions of SparkAI Inc. and Smart Apply, Inc. to accelerate smart technology integration"
+  },
+  {
+   "quote": "combined purchase price consideration for these acquisitions was $115, consisting of $101 cash, net of cash acquired, and $14 loan forgiven",
+   "context": "2024/2025 acquisitions assigned to PPA, SAT, and CF segments, mostly allocated to goodwill and intangibles"
+  }
+ ],
+ "limitations": [
+  "No multi-year quantified AI-specific capex or dedicated AI budget disclosed; investment intensity scored 3 due to named systems and vendor/acquisition activity but absence of dollar-quantified AI spend lines",
+  "Acquisition amounts ($82M, $115M) are total deal values for technology-focused acquisitions, not purely AI capex; included for completeness but context is mixed",
+  "Narrative concreteness scored 4 (deployed with operating detail) but no quantified business results (e.g., yield improvement %, cost savings) were disclosed, preventing a score of 5",
+  "Risk disclosure is company-specific with named mechanisms (reputational harm, legal liability, competitive displacement, data leakage) but no quantified risk exposure or named AI governance body, capping score at 4"
+ ],
+ "_meta": {
+  "accession": "0001104659-25-122321",
+  "filing_date": "2025-12-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465925122321/de-20251102x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:47:48.631351+00:00"
+ }
+}

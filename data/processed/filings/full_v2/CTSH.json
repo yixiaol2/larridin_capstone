@@ -1,0 +1,65 @@
+{
+ "ticker": "CTSH",
+ "source_document_id": "0001058290-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "We have incurred and plan to continue to incur significant development and operational costs to build and support our AI capabilities, including costs to ensure ongoing compliance with the complex and rapidly evolving legal landscape around AI",
+    "from July 2023 to end of 2025, we have upskilled more than 330,000 associates on GenAI via more than 1,000 learning programs",
+    "we pursue select strategic acquisitions to expand our talent, experience and capabilities in key technologies... investments to scale our AI capabilities"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Our Intuitive Operations and Automation practice helps clients build and run modern operations through AI-led automation, which includes advisory and process and IT automation solutions",
+    "Cognizant Moment delivers intelligent ecosystem orchestration... enabling clients to leverage GenAI's content generation capabilities alongside human ingenuity to innovate and differentiate",
+    "In 2025, Cognizant achieved a GUINNESS WORLD RECORD for the largest online GenAI hackathon... producing more than 30,000 prototypes"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "Although we maintain a responsible AI framework aligned with recognized international standards that includes risk assessment processes, oversight structures and controls across the AI lifecycle, it may not be sufficient",
+    "the EU AI Act which entered into force in 2024 and parts of which began applying in 2025... may impose obligations on companies developing and using AI or automated decision-making technologies",
+    "AI technology and services require access to high-quality datasets, models (including foundation models)... We currently rely, in part, on third parties to provide these components"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "significant development and operational costs to build and support our AI capabilities",
+   "context": "Risk factors section describing ongoing and planned AI investment costs"
+  },
+  {
+   "quote": "investments to scale our AI capabilities",
+   "context": "Competition section listing key competitive factors and investment priorities"
+  },
+  {
+   "quote": "Compliance with new or changing laws... may impose significant operational costs, require additional investment in governance, documentation and controls",
+   "context": "AI risk disclosure discussing regulatory compliance costs"
+  }
+ ],
+ "limitations": [
+  "No specific dollar amounts or quantified capex figures for AI investment are disclosed in the excerpts; investment intensity scored 4 rather than 5 due to absence of quantified multi-year program amounts",
+  "Narrative concreteness scored 4 rather than 5 because while named deployed practices are described in detail, quantified business outcomes (%, $, time saved) for client-facing AI deployments are not present in the excerpts",
+  "Risk disclosure depth scored 5 based on named governance framework (responsible AI framework), specific regulatory mechanisms (EU AI Act, U.S. state AI laws), named risk categories (bias, IP infringement, cybersecurity, vendor dependence), and described oversight structures; no explicit risk quantification in dollar terms was found",
+  "Excerpts are pre-filtered and may not represent the full filing; financial statements and quantitative disclosures may contain additional AI-attributable spend figures not captured here"
+ ],
+ "_meta": {
+  "accession": "0001058290-26-000008",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1058290/000105829026000008/ctsh-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:28:41.341947+00:00"
+ }
+}

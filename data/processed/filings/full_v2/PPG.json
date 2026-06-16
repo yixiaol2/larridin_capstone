@@ -1,0 +1,50 @@
+{
+ "ticker": "PPG",
+ "source_document_id": "0000079879-26-000046",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are incorporating artificial intelligence technologies into our research, products, services and processes.",
+    "If we cannot incorporate these rapidly advancing technologies as quickly or effectively as other companies, our competitive position and business results may suffer."
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We are incorporating artificial intelligence technologies into our research, products, services and processes.",
+    "The use of AI in the development of our products and services could increase the risk of loss or theft of our intellectual property."
+   ],
+   "confidence": 0.55
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Incorporation of these new technologies into our processes may result in new or expanded risks, including risks related to regulatory compliance, litigation, ethical concerns, confidentiality or cybersecurity.",
+    "The use of AI can lead to unintended consequences, including generating content that appears correct but is factually inaccurate, misleading or otherwise flawed, or that results in unintended biases.",
+    "We face risks of competitive disadvantage if our competitors are able to more effectively use AI to create products or services at a lower cost or higher quality."
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or named programs disclosed; scored 3 based on named domains (research, products, services, processes) without scale.",
+  "ai_narrative_concreteness: AI use cases named at category level (research, products, services, processes) but no deployment status, metrics, or specific product names provided; scored 3.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains multiple named, company-specific AI risk mechanisms (IP theft, regulatory compliance, competitive disadvantage, bias/inaccuracy), warranting score 4; no quantification or named governance bodies to reach score 5.",
+  "Excerpts appear to be from a risk-factors section embedded within item_8; no capex figures tied to AI were found."
+ ],
+ "_meta": {
+  "accession": "0000079879-26-000046",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/79879/000007987926000046/ppg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.1,
+  "extracted_at": "2026-06-15T21:20:05.938110+00:00"
+ }
+}

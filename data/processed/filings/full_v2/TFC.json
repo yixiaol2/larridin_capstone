@@ -1,0 +1,51 @@
+{
+ "ticker": "TFC",
+ "source_document_id": "0000092230-26-000030",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Truist has invested in technology to automate functions previously performed manually, to facilitate the ability of clients to engage in financial transactions, and otherwise to enhance the client experience",
+    "Truist has invested in innovative talent marketplace and learning technologies and believes that skill development leads to healthy and robust career mobility",
+    "The Company uses new and evolving technologies, including AI, to help improve our marketing, referrals, products, services, and client service, to increase productivity for internal code and software development and testing"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "The Company uses AI to help improve our marketing, referrals, products, services, and client service, to increase productivity for internal code and software development and testing, and to automate certain business decisions and risk management practices, such as fraud identification",
+    "Truist relies on models to measure risks, estimate certain financial values, and inform certain business decisions, including AI models... determining the pricing of various products, grading loans and extending credit, measuring interest rate and other market risks",
+    "The Company s expanding use of AI tools and related technologies introduces additional operational risks, including reliance on data integrity and model performance as well as third-party AI services"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "Truist s AI program is foundationally based on the National Institute of Standards and Technology AI Risk Management Framework Core... Oversight of Truist s AI program is a regular focus of the Board, the BRC, and the BTC",
+    "The use of AI in our products and services... may negatively impact our business, operations, financial condition... models, prompts, algorithms, and datasets... are flawed, inaccurate, of poor quality, insufficient, biased, or otherwise erroneous",
+    "AI-enabled technologies may further expand the cyber-attack surface and velocity, including exposure to adversarial manipulation, data poisoning, and vulnerabilities in third-party AI and other platforms"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific AI investment figures disclosed in the excerpts; investment intensity scored 3 based on named programs and use cases without quantified scale.",
+  "Promotional language present in some investment descriptions; concreteness score reflects named deployed use cases (fraud identification, loan grading, model-based risk management) with operational detail but no quantified business results.",
+  "Risk disclosure depth scored 5 based on named governance bodies (Board, BRC, BTC), NIST AI RMF alignment, and specific risk mechanisms; no explicit quantification of risk exposure in dollar terms found in excerpts."
+ ],
+ "_meta": {
+  "accession": "0000092230-26-000030",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000030/tfc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 14,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T21:40:27.271695+00:00"
+ }
+}

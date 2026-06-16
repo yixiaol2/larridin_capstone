@@ -1,0 +1,52 @@
+{
+ "ticker": "SYK",
+ "source_document_id": "0000310764-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have begun to deploy AI and other emerging technologies in various facets of our operations and products and we continue to explore further use cases.",
+    "clinical communication and artificial intelligence-assisted virtual care platform technology",
+    "Although we have made investments and expect to continue to make investments seeking to address these threats, including...use of AI"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "clinical communication and artificial intelligence-assisted virtual care platform technology (Medical)",
+    "We have begun to deploy AI and other emerging technologies in various facets of our operations and products and we continue to explore further use cases.",
+    "The rapid advancement of these technologies presents opportunities for us in research, manufacturing, commercialization, and other business endeavors"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI-generated content, analyses, or recommendations we utilize could be deficient, that our competitors may more quickly or effectively adopt AI capabilities, or that our use of AI...increases regulatory, cybersecurity and other significant risks.",
+    "any disruption or failure in the AI functionality we incorporate into our business activities, products or services could adversely impact our business or result in delays or errors in our product offerings.",
+    "Emerging technologies such as generative AI may be used by malicious actors to create more targeted phishing narratives, spread disinformation about us or our products or otherwise strengthen social engineering capabilities."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI narrative concreteness: the AI-assisted virtual care platform is named and described as a product in production, but no quantified business results (revenue share, outcomes metrics) are disclosed; scored 4 not 5.",
+  "Risk disclosure scored 4 based on named company-specific risk mechanisms (product errors, regulatory compliance costs, cybersecurity, competitive disadvantage); no quantified risk exposure or named governance body found in excerpts to support score 5.",
+  "Capex mentions list is empty as no dollar figures tied to AI investment appear in the provided excerpts."
+ ],
+ "_meta": {
+  "accession": "0000310764-26-000010",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/310764/000031076426000010/syk-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-15T21:34:33.621458+00:00"
+ }
+}

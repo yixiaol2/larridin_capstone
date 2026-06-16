@@ -1,0 +1,60 @@
+{
+ "ticker": "NUE",
+ "source_document_id": "0001193125-26-071575",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "In April 2024 we acquired Southwest Data Products, Inc. to expand and enhance NRG's ability to serve the rapidly growing data center market with steel racking and other products.",
+    "SWDP provides Nucor with expanded capabilities in airflow containment structures, as well as new product capabilities that include manufacturing cabinets/enclosures and caging for data centers"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "NRG produces and installs standard and custom designed steel racking systems for warehouse applications, including rack supported buildings and warehouses designed to leverage emerging automatic storage and retrieval (ASRS) technology.",
+    "growing demand from data center construction",
+    "NRG now has six primary manufacturing locations and a team of dedicated installers"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 2,
+   "evidence": [
+    "growing demand from data center construction",
+    "decreased profitability of the steel products segment... decreased average selling prices and margin compression"
+   ],
+   "confidence": 0.45
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "acquired Southwest Data Products, Inc. ... for $115 million",
+   "context": "April 2024 acquisition of data center infrastructure manufacturer to expand NRG capabilities"
+  },
+  {
+   "quote": "acquired Rytec, a manufacturer and seller of high-speed, high-performance commercial doors, for $565 million",
+   "context": "July 2024 acquisition to form overhead door platform"
+  }
+ ],
+ "limitations": [
+  "Nucor's AI exposure is indirect — as a steel/materials supplier to data center construction, not an AI technology investor; scores reflect this downstream positioning.",
+  "No direct AI capex, GPU, or cloud/chip partnership disclosures found; investment intensity score reflects data-center-market strategic acquisitions only.",
+  "Risk-factor section excerpt discusses financial performance and demand trends but contains no named AI-specific risk categories; risk disclosure score reflects only generic/indirect data center demand references.",
+  "Promotional language present regarding data center market growth; concreteness score reflects named initiatives without quantified AI-attributable business results.",
+  "Excerpts are limited; full risk-factor section may contain more AI-specific disclosure not captured here."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-071575",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/73309/000119312526071575/nue-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T18:40:36.026407+00:00"
+ }
+}

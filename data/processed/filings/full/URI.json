@@ -1,0 +1,51 @@
+{
+ "ticker": "URI",
+ "source_document_id": "0001067701-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-28",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "allow for the incorporation of AI solutions into our products, services and features, as well as the leveraging of AI in our product development and our operations",
+    "using AI for automated threat detection and response, as well as engaging experts",
+    "We have continued to expand investments in IT security to attempt to mitigate cybersecurity risks, including additional end-user training, using layered defenses"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We incorporate AI solutions into our products, services and features, and we leverage AI in our product development and our operations",
+    "using AI for automated threat detection and response",
+    "allow for the incorporation of AI solutions into our products, services and features, as well as the leveraging of AI in our product development"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "use or offering of AI technologies may result in new or expanded risks and liabilities, including enhanced government or regulatory scrutiny, litigation, privacy and compliance issues, ethical concerns, confidentiality, reputational harm",
+    "Changes in laws, rules, directives, and regulations governing the use of AI may adversely affect our ability to develop and use AI or subject us to legal liability",
+    "If we are unable to effectively integrate AI into our business processes or keep pace with rapidly evolving AI technological developments, we may face a competitive disadvantage"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific spend, headcount, or capex figures appear in the excerpts; investment intensity scored 3 based on named use cases and stated expansion of IT security investments without dollar amounts.",
+  "AI narrative concreteness scored 4 based on named deployed use cases (automated threat detection, product/service integration, operations) with operational detail, but no quantified business results are disclosed.",
+  "Risk disclosure scored 4 because specific risk mechanisms are described (regulatory scrutiny, litigation, competitive disadvantage, compliance cost impact on operating expenses), though no quantification or named governance body is provided."
+ ],
+ "_meta": {
+  "accession": "0001067701-26-000007",
+  "filing_date": "2026-01-28",
+  "url": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000007/uri-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-11T19:06:44.148805+00:00"
+ }
+}

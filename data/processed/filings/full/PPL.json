@@ -1,0 +1,51 @@
+{
+ "ticker": "PPL",
+ "source_document_id": "0000922224-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Utilizing artificial intelligence and other advanced technologies to inform decision making, optimize asset planning and maintenance and better manage supply and demand on the grid.",
+    "development, testing, and deployment of AI capabilities may require significant computational resources, specialized personnel, and additional investment, resulting in increased costs.",
+    "PPL and Blackstone Infrastructure have created a joint venture to build, own and operate new electricity generation stations to power data centers in Pennsylvania under long-term energy services agreements"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Utilizing artificial intelligence and other advanced technologies to inform decision making, optimize asset planning and maintenance and better manage supply and demand on the grid.",
+    "manages PPL's cyber security operations overseeing the implementation of security strategies and solutions across the Registrants, threat management, access management, cloud security and artificial intelligence.",
+    "AI technologies remain in the early stages of development and industry standards are still emerging, their use, whether by PPL, its subsidiaries or third-party vendors, presents inherent risks."
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms that we or our third-party vendors use may be flawed or may be based on datasets that are biased or insufficient, which may introduce risks involving data quality, data integrity, cybersecurity, adversarial manipulation, intellectual property, regulatory compliance",
+    "We may not be able to recover these costs through our regulatory proceedings.",
+    "Future laws, regulations, Executive Orders, or industry standards relating to AI...could materially affect how we design, procure, or use AI technologies and could increase compliance costs."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to PPL's own AI investment were found in the excerpts; the joint venture capex figures relate to generation infrastructure for data center customers, not PPL's internal AI spend.",
+  "AI use cases named (asset planning, grid management, cybersecurity) are described as strategic objectives without deployment status or quantified outcomes, limiting concreteness score to 3.",
+  "The $1.4 billion Mill Creek Unit 6 NGCC figure relates to generation construction for data center load growth, not AI infrastructure investment by PPL itself, and is therefore excluded from capex_mentions."
+ ],
+ "_meta": {
+  "accession": "0000922224-26-000008",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/922224/000092222426000008/ppl-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T18:43:20.479827+00:00"
+ }
+}

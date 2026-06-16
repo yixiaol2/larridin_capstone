@@ -1,0 +1,48 @@
+{
+ "ticker": "ORLY",
+ "source_document_id": "0000898173-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "our information technology systems, infrastructure, and personnel require substantial investments... including artificial intelligence",
+    "designing or acquiring new systems or functionality, including artificial intelligence"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "designing or acquiring new systems or functionality, including artificial intelligence",
+    "the increased adoption of artificial intelligence could heighten certain of these risks"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the increased adoption of artificial intelligence could heighten certain of these risks",
+    "including artificial intelligence. These efforts can result in significant potential risks, including failure of the systems to operate as designed, potential loss or corruption of data"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: AI investment referenced only in generic terms alongside broader IT infrastructure spending; no named systems, vendors, dollar amounts, or dedicated AI budgets disclosed in these excerpts",
+  "ai_narrative_concreteness: AI mentioned only in the context of IT risk and general system investment; no named AI initiatives, use cases, or deployment details present in the excerpts",
+  "ai_risk_disclosure_depth: Risk-section material is present and names AI-specific risk categories (system failure, data loss, cost overruns, security heightening) but does not describe company-specific mechanisms by which AI risk would hit revenue/operations in quantified or governance-backed terms"
+ ],
+ "_meta": {
+  "accession": "0000898173-26-000009",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/898173/000089817326000009/orly-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-11T18:41:25.481408+00:00"
+ }
+}

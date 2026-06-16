@@ -1,0 +1,65 @@
+{
+ "ticker": "CHRW",
+ "source_document_id": "0001043277-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "approximately 800 technologists across product, data, engineering, and AI, we continue to make smart, talent-focused investments globally in this critical area",
+    "Capital expenditures consisted primarily of investments in software...including those driven by AI...We anticipate capital expenditures in 2026 to be approximately $75 mi[llion]",
+    "2025 Restructuring Program aimed at enhancing operational efficiency and achieving cost savings through the adoption of advanced technologies, including artificial intelligence"
+   ],
+   "confidence": 0.82
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Our fleet of more than 30 AI agents is integrated with Navisphere...automates steps across the lifecycle of a shipment: from giving customers a price quote, to processing orders, to setting appointments",
+    "Transactions are performed in seconds, giving customers greater efficiency, speed-to-market, and cost savings while improving employee productivity, as measured by shipments per person per day",
+    "Our enhancements to our dynamic costing and pricing models are key contributors to expanding our operating margins and growing volume and market share"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "use or offering of AI technologies may result in new or expanded risks and liabilities, including enhanced government or regulatory scrutiny, litigation, privacy and compliance issues, ethical concerns, confidentiality, reputational harm",
+    "If we fail to maintain the pace, scale, or quality of automation and AI adoption, we may be unable to achieve our strategic goals for operational efficiency and digital transformation",
+    "cost of complying with laws and regulations governing AI could be significant and would increase our operating expenses, which could adversely affect our business, financial condition"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "capital expenditures in 2026 to be approximately $75 mi[llion]",
+   "context": "2026 capex guidance, primarily software investments driven by AI"
+  },
+  {
+   "quote": "restructuring charges of $30.4 million primarily related to workforce reductions",
+   "context": "2025 Restructuring Program costs tied to AI/automation-driven workforce reduction"
+  },
+  {
+   "quote": "expect to incur restructuring charges of $50 million to $75 million in total over the duration of the 2025 Restructuring Program",
+   "context": "Total expected restructuring charges linked to AI/automation integration"
+  }
+ ],
+ "limitations": [
+  "2026 capex figure is truncated in the excerpt ('approximately $75 mi'); full amount not confirmed but context strongly implies ~$75 million",
+  "Narrative concreteness scored 4 rather than 5: productivity metric ('shipments per person per day') is cited as a measure but no specific quantified improvement figures (e.g., % increase) are provided in the excerpts",
+  "AI investment intensity scored 4 rather than 5: capex is quantified at a single-year level (~$75M guidance) but no explicit multi-year AI-specific commitment or breakdown of AI share of total capex is disclosed",
+  "Some AI language (e.g., 'Lean AI supply chains') is promotional/branding; scored on operational disclosures rather than marketing claims"
+ ],
+ "_meta": {
+  "accession": "0001043277-26-000009",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/1043277/000104327726000009/chrw-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-15T20:20:32.311030+00:00"
+ }
+}

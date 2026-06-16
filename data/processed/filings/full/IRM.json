@@ -1,0 +1,51 @@
+{
+ "ticker": "IRM",
+ "source_document_id": "0001020569-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we continue to make investments in initiatives focused on the further development and deployment of these technologies",
+    "launched version 2.0 of DXP, which offers enhanced content management and smart document processing...workflow tools and AI agents",
+    "utilizing data analytics and machine learning to provide effective customer acquisition and a convenient and seamless consumer storage experience"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "In October 2025, we launched version 2.0 of DXP, which offers enhanced content management and smart document processing, an easy-to-use secure platform with workflow tools and AI agents",
+    "Some of our products, services and processes leverage AI, including both machine learning and generative AI",
+    "utilizing data analytics and machine learning to provide effective customer acquisition and a convenient and seamless consumer storage experience"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The use of AI in our product initiatives...may give rise to risks related to accuracy, bias, discrimination, intellectual property infringement, misappropriation or leakage of proprietary, confidential and personal information, defamation, data privacy, and cybersecurity",
+    "emerging AI technology...have become subject to regulation under new laws and new applications of prior existing laws which require additional resources and increase compliance risks as we integrate AI into our services",
+    "Recent developments in the cybersecurity threat landscape include the use of AI and machine learning, as well as an increased number of cyber extortion and ransomware attacks"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or dollar amounts disclosed in the excerpts; investment intensity scored 3 due to named initiatives and deployed products but absence of quantified spend",
+  "Narrative concreteness scored 4 based on named deployed products (DXP 2.0 with AI agents, ML for consumer storage) with operational detail, but no quantified business results (e.g., % efficiency gains, revenue attributable to AI) were found in the excerpts",
+  "Risk disclosure scored 4 as multiple company-specific risk mechanisms are described (regulatory compliance costs, IP infringement, data privacy, cybersecurity via AI-enabled attacks) with operational impact pathways, but no quantified risk exposure or named governance oversight body was identified in the excerpts"
+ ],
+ "_meta": {
+  "accession": "0001020569-26-000013",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1020569/000102056926000013/irm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:20:39.468010+00:00"
+ }
+}

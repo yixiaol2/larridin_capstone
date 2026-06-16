@@ -1,0 +1,50 @@
+{
+ "ticker": "BAX",
+ "source_document_id": "0001628280-26-007733",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "thoughtful exploration of artificial intelligence initiatives",
+    "We use both internally developed and third party-provided AI and machine learning (ML) technologies to support our functions and operations (including Generative AI tools)"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We use both internally developed and third party-provided AI and machine learning (ML) technologies to support our functions and operations (including Generative AI tools)",
+    "anticipate integrating such technology in select products and services in the future (consistent with our internal AI-related governance procedures and policies)",
+    "thoughtful exploration of artificial intelligence initiatives"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "adversarial use of AI also poses unique challenges and may impact real-time detection capabilities and containment efforts",
+    "internal AI-related policies may not be effective in managing AI use and reducing inherent risks associated with the use of AI, including but not limited to AI-specific cybersecurity risks",
+    "subject to...the EU's General Data Protection Regulation...the EU Data Act, the Artificial Intelligence Act, and the NIS2 Directive...failure to comply...could lead to substantial and material regulatory fines"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or investment amounts disclosed in the excerpts; investment intensity scored 2 due to generic/exploratory language with no named vendors, dollar amounts, or dedicated budgets.",
+  "Narrative concreteness scored 3: named use cases (Generative AI tools for internal operations, future product integration) are mentioned but no deployment metrics or quantified outcomes are provided.",
+  "Risk disclosure scored 4: multiple company-specific risk mechanisms are described (regulatory compliance failures with named laws, adversarial AI cybersecurity impacts, policy ineffectiveness) with governance oversight noted (Board, Audit Committee), but no quantified risk exposure figures are provided."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-007733",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/10456/000162828026007733/bax-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T17:28:45.015524+00:00"
+ }
+}

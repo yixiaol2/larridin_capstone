@@ -1,0 +1,53 @@
+{
+ "ticker": "GLW",
+ "source_document_id": "0000024741-26-000124",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We invented new fibers, cables and connectors to capture the generative AI enterprise demand. This includes our SMF-28e Contour fiber, a 40% smaller fiber delivering improved bend resistance in high-density environments.",
+    "rapid acceleration of artificial intelligence (AI) is driving strong demand for fiber and connectivity products inside and between data centers",
+    "continued growth in our Enterprise business driven by strong demand for our Generative AI products"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We invented new fibers, cables and connectors to capture the generative AI enterprise demand. This includes our SMF-28e Contour fiber...Contour Flow Cable, which can fit double the fiber into the same cable diameter.",
+    "These components are being adopted by hyperscale data centers as well as the carriers building data center interconnect networks",
+    "increase in segment net sales was primarily due to continued growth in our Enterprise business driven by strong demand for our Generative AI products"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Implementation of emerging technologies, such as artificial intelligence and machine learning, as part of the manufacturing process by us or members of our supply chain",
+    "rapid development and increasing adoption of emerging technologies, such as artificial intelligence and machine learning, may further complicate our ability to anticipate and implement effective protective measures against cyber events",
+    "optical communications business faces risks related to fluctuations in telecommunication and hyperscale data center capital spending, which may negatively affect the demand for our products"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, capex figures, or R&D spend tied specifically to AI found in the excerpts; investment intensity capped at 3.",
+  "AI narrative concreteness scored 4 (deployed products with operating detail) but no quantified business results (revenue attributable to AI products, units shipped, etc.) were disclosed in the excerpts to justify a 5.",
+  "Risk disclosure references named categories (manufacturing process risk, cybersecurity complication from AI, data center capex fluctuation) but lacks quantified risk scenarios or named governance/oversight bodies; scored 3.",
+  "Capex mentions list is empty as no specific dollar amounts tied to AI investment appear in the excerpts.",
+  "Board member biography referencing AI/semiconductor background (Ami Badani) was noted but not scored as investment evidence."
+ ],
+ "_meta": {
+  "accession": "0000024741-26-000124",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000124/glw-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:30:38.215674+00:00"
+ }
+}

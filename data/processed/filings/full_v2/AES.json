@@ -1,0 +1,57 @@
+{
+ "ticker": "AES",
+ "source_document_id": "0000874761-26-000063",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-02",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "AES furthered its partnership with the AI Fund to combine its power sector expertise with the fund's artificial intelligence capabilities, leveraging generative AI technology to address bottlenecks in the energy transition.",
+    "AES made significant advancements with Maximo, an AI-powered robot designed to enhance the speed, efficiency, and safety of solar installations.",
+    "In 2025, AES made its first equity investments in two co-built companies [with the AI Fund]."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "As of December 31, 2025, AES had a fleet of five Maximo units in operation that assisted with construction at the 2 GW Bellefield solar-plus-storage facility in California.",
+    "In 2025, two co-built companies developed commercial products, and AES was the first company to test and use the first versions of these products.",
+    "Fluence is a leading global provider of energy storage and services and AI-enabled digital applications for renewables and storage."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.6
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "The budget for construction of the projects currently under construction and the contracted projects is over $12 billion.",
+   "context": "AES Clean Energy contracted renewables backlog construction budget; linked to data center/generative AI demand growth"
+  },
+  {
+   "quote": "entered into a development framework agreement...transaction price was approximately $481 million...to develop a private-use network structure to support the customer's planned data center in Texas.",
+   "context": "Data center-linked development agreement, July 2025"
+  }
+ ],
+ "limitations": [
+  "No risk-section (Item 1A) excerpts were provided; ai_risk_disclosure_depth scored null — absence from excerpts does not imply absence from the filing.",
+  "The $12 billion construction budget covers all contracted renewables projects, not exclusively AI-driven ones; AI-attributable share is not disaggregated.",
+  "AI investment intensity is partially inferred from named programs (Maximo, AI Fund) with limited quantified dollar amounts specific to AI R&D; score reflects named equity investments and deployed assets rather than a fully quantified multi-year AI capex program.",
+  "Some language around generative AI driving data center demand is promotional/forward-looking; concreteness score anchored to deployed Maximo units and co-built commercial products rather than aspirational claims."
+ ],
+ "_meta": {
+  "accession": "0000874761-26-000063",
+  "filing_date": "2026-03-02",
+  "url": "https://www.sec.gov/Archives/edgar/data/874761/000087476126000063/aes-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 3.1,
+  "extracted_at": "2026-06-15T20:03:40.877052+00:00"
+ }
+}

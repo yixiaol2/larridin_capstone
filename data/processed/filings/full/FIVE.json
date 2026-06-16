@@ -1,0 +1,49 @@
+{
+ "ticker": "FIVE",
+ "source_document_id": "0001177609-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "advancements in technology may allow us to expand the use of AI, including generative AI, into key operational and/or administrative aspects of our business",
+    "The rapid evolution of AI...may require significant resources to develop, test and maintain our implementations of AI"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We use, and may over time increase the usage of, machine learning and other types of artificial intelligence in our business",
+    "applications of AI may become important in our operations over time"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "if the types of information that AI applications assist in producing are or are alleged to be deficient, inaccurate, or biased, our business, financial condition, and results of operations may be adversely affected",
+    "Our competitors or other third parties may incorporate AI into their businesses more quickly or more successfully than us, which could impair our ability to compete effectively",
+    "our proprietary, confidential, and/or sensitive information could be leaked, disclosed, or revealed as a result of or in connection with the use of generative artificial intelligence technologies"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI spend, headcount, or infrastructure commitments appear in the excerpts; investment intensity scored 2 based on generic forward-looking language only.",
+  "AI narrative is entirely aspirational/forward-looking with no named deployed initiatives or production use cases; score reflects disclosed intent, not outcomes.",
+  "Risk disclosure names specific risk categories (competitive disadvantage, model inaccuracy/bias, data leakage via generative AI, regulatory evolution) but provides no quantified risk scenarios or named governance/oversight bodies, capping score at 3."
+ ],
+ "_meta": {
+  "accession": "0001177609-26-000010",
+  "filing_date": "2026-03-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000010/five-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T18:06:23.373497+00:00"
+ }
+}

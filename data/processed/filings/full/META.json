@@ -1,0 +1,64 @@
+{
+ "ticker": "META",
+ "source_document_id": "0001628280-26-003942",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-29",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "Our FoA investments were $96.29 billion in 2025 and include expenses relating to headcount, data centers and technical infrastructure as part of our efforts to develop our apps and our advertising services.",
+    "our investments in Reality Labs reduced our 2025 overall operating profit by approximately $19.19 bil[lion]",
+    "we expect our AI initiatives will require increased investment in infrastructure and headcount"
+   ],
+   "confidence": 0.82
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we continue to launch new AI features on our products, including support for new modalities, conversational AIs, AI profiles, stickers, photos, videos, and editing tools",
+    "Meta AI is an assistant that's available across our apps, as a stand-alone app, on our AI glasses, and on the web",
+    "AI investments support initiatives across our products and services, helping power the systems that rank content in our apps, our discovery engine that recommends relevant content, the tools advertisers use to reach customers"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "our AI-related efforts, particularly those related to generative AI and superintelligence, subject us to risks related to harmful or illegal content, accuracy, misinformation and deepfakes...bias, discrimination, toxicity, consumer protection, products liability, intellectual property infringement",
+    "we have been the subject of media and government scrutiny relating to AI and AI chatbots, including inquiries and investigations by the FTC, members of Congress and state attorneys general",
+    "our ability to continue to develop and effectively deploy AI technologies is dependent on access to specific third-party equipment, technology...as to which we cannot control the availability or pricing, especially in a highly competitive environment"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Our FoA investments were $96.29 billion in 2025 and include expenses relating to headcount, data centers and technical infrastructure",
+   "context": "2025 Family of Apps segment total investment including AI infrastructure"
+  },
+  {
+   "quote": "Our total RL investments were $21.40 billion in 2025 and include expenses relating to headcount and technology development",
+   "context": "2025 Reality Labs segment total investment including AI/AR/VR hardware and research"
+  },
+  {
+   "quote": "our investments in Reality Labs reduced our 2025 overall operating profit by approximately $19.19 bil[lion]",
+   "context": "Reality Labs operating loss impact on 2025 overall operating profit"
+  }
+ ],
+ "limitations": [
+  "No explicit multi-year quantified AI capex commitment found in excerpts; FoA and RL figures are total segment costs, not AI-only line items, limiting precision on ai_investment_intensity — scored 4 rather than 5.",
+  "ai_narrative_concreteness scored 4 (not 5) because no quantified business results (e.g., % lift in ad revenue, volume of AI assistant queries) are disclosed in the excerpts; deployment is confirmed but outcomes are not quantified.",
+  "ai_risk_disclosure_depth scored 4 (not 5) because while specific risk mechanisms and named regulatory bodies are cited, no formal quantification of risk exposure or named internal AI governance/oversight body is disclosed in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-003942",
+  "filing_date": "2026-01-29",
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 22,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T18:32:31.880441+00:00"
+ }
+}

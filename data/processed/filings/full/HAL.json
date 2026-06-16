@@ -1,0 +1,57 @@
+{
+ "ticker": "HAL",
+ "source_document_id": "0000045012-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Landmark Software and Services: provides cloud based digital services and artificial intelligence solutions on an open architecture for subsurface insights, integrated well construction, and reservoir and production management.",
+    "Continue to drive differentiation and efficiencies through the deployment of digital and automation technologies, both internally and for our customers.",
+    "Maintain our capital expenditures at about $1.1 billion, while leveraging technology and targeted process improvements"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Landmark Software and Services: provides cloud based digital services and artificial intelligence solutions on an open architecture for subsurface insights, integrated well construction, and reservoir and production management.",
+    "utilizing our Zeus IQ electric fracturing platform, our iCruise rotary steerable systems and LOGIX automation.",
+    "Continue to drive differentiation and efficiencies through the deployment of digital and automation technologies, both internally and for our customers."
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The increased use of artificial intelligence by threat actors has heightened risks, as AI-driven cyberattacks can automate the discovery of vulnerabilities, generate highly convincing phishing attempts, and evade traditional detection methods.",
+    "if we are not able to design, develop, and produce commercially competitive products...in response to...technology trends, including artificial intelligence and machine learning, our business and consolidated results of operations could be materially and adversely affected.",
+    "We routinely monitor our systems for cybersecurity threats and have processes in place aimed at detecting and remediating vulnerabilities and incidents."
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Maintain our capital expenditures at about $1.1 billion",
+   "context": "2026 capital efficiency focus; not exclusively AI-specific, but covers technology and process improvements"
+  }
+ ],
+ "limitations": [
+  "The $1.1 billion capex figure is company-wide and not disaggregated for AI/digital specifically, preventing a score of 4 or 5 on investment intensity.",
+  "AI narrative describes named products (Landmark AI solutions, LOGIX automation) but no deployment metrics or quantified business outcomes are disclosed in these excerpts, capping concreteness at 3.",
+  "Risk section material is present; AI risk is discussed both as a competitive/technology risk and as a cybersecurity threat vector with specific mechanisms (phishing, vulnerability discovery), supporting a score of 4.",
+  "Excerpts are pre-filtered; additional AI use-case or financial detail may exist elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0000045012-26-000015",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/45012/000004501226000015/hal-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:12:30.773320+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "MU",
+ "source_document_id": "0000723125-25-000028",
+ "source_type": "sec_filing",
+ "source_date": "2025-10-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we announced plans for a second leading-edge memory manufacturing fab in Idaho to serve growing market demand fueled by AI",
+    "announced plans to invest in leading-edge memory manufacturing sites in Idaho and New York, based on CHIPS Act support through grants and investment tax credits",
+    "We equip our team members with the latest AI tools and training to unlock human potential and labor productivity"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 5,
+   "evidence": [
+    "CMBU revenue increased 257% primarily due to increases in DRAM bit shipments and average selling prices driven by accelerating AI demand in cloud server markets for HBM",
+    "In 2025, we delivered samples of HBM4 36GB 12-high to multiple key customers to power next-generation AI platforms",
+    "In 2025, we began shipping qualification samples of our first LPDDR5X memory built on the 1 node, engineered to accelerate AI applications on flagship smartphones"
+   ],
+   "confidence": 0.88
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms or training methodologies may be flawed, and datasets may contain irrelevant, insufficient or biased information, which can cause errors in outputs",
+    "increasing geopolitical tensions have resulted in new and proposed export controls associated with products, including those that support or enable AI applications, which could restrict future sales of certain products to China",
+    "Although AI is a relatively new demand driver for our products, it is evolving rapidly, and the expected timing and amount of investments related to AI can change significantly... we may incur costs in anticipation of demand that ultimately does not materialize"
+   ],
+   "confidence": 0.83
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No specific dollar amounts or quantified capex figures tied to AI infrastructure were found in the excerpts; fab investment plans are described qualitatively and linked to CHIPS Act support but without disclosed dollar commitments, capping score at 3",
+  "capex_mentions: The excerpts reference capital spending plans for Idaho and New York fabs and mention 'capital spending in 2026' in forward-looking statements, but no specific dollar figures for AI-related capex appear in the provided excerpts"
+ ],
+ "_meta": {
+  "accession": "0000723125-25-000028",
+  "filing_date": "2025-10-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:33:24.204864+00:00"
+ }
+}

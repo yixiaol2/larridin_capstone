@@ -1,0 +1,49 @@
+{
+ "ticker": "MTB",
+ "source_document_id": "0000036270-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "The Company or its third-party vendors, clients or counterparties may develop or incorporate AI technology in certain business processes, services or products.",
+    "the Company frequently attempts to introduce new technology-driven products and services that are aimed at allowing the Company to better serve customers and to reduce costs."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "advances in robotic process automation and AI, could significantly affect the competition for financial services.",
+    "The Company or its third-party vendors, clients or counterparties may develop or incorporate AI technology in certain business processes, services or products."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI models, including generative AI models may produce output...that are incorrect, that result in the release of private, confidential or proprietary information, that reflect biases included in the data on which they are trained.",
+    "The legal and regulatory environment relating to AI is uncertain and rapidly evolving...could require changes in the Company s or third parties implementation of AI technology and increase the Company s compliance costs and risk of non-compliance.",
+    "Use of AI technologies by bad actors can contribute to the evolution of new and more effective techniques, which can hinder the Company s efforts to prevent, detect and remediate such harmful activities."
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment figures, named AI programs, or dedicated AI budget disclosures appear in the excerpts; investment intensity scored on qualitative references only.",
+  "AI narrative concreteness is limited to risk-framing language; no named internal AI initiatives, deployment status, or business results are described in the excerpts.",
+  "Risk disclosure is detailed and company-specific but lacks quantification or named governance bodies, capping the score at 4."
+ ],
+ "_meta": {
+  "accession": "0000036270-26-000010",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000010/mtb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T21:06:54.180124+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "EVRG",
+ "source_document_id": "0001711269-26-000017",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Developing, testing and deploying resource-intensive AI systems may require additional investment and increase the Evergy Companies' costs.",
+    "Several of the Evergy Companies' security tools employ AI and machine learning to enhance their respective capabilities.",
+    "Much of this demand is driven by interconnecting with and providing power to data centers and large load customers to serve an increasingly digital economy and to support artificial intelligence."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Several of the Evergy Companies' security tools employ AI and machine learning to enhance their respective capabilities.",
+    "Generative AI technologies are still in their early stages of development and deployment.",
+    "the Evergy Companies seek contractual protections with its third-party vendors regarding the use of AI technology"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms that the Evergy Companies or its third-party vendors use may be flawed or may be based on datasets that are biased or insufficient... could lead to operational interruptions or otherwise adversely affect the Evergy Companies' business, reputation or financial results.",
+    "cyber-attacks are increasingly sophisticated and more frequent through the use of such tools as AI, there can be no assurance that such incidents will not have a material adverse effect",
+    "the rapidly evolving nature of AI technologies may cause new laws and regulations to be enacted which could dramatically affect business practices, including the costs to comply"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts or quantified AI-specific spend disclosed; Evergy is a utility whose primary AI-related investment signal is as an electricity provider to AI/data center customers, not a direct AI builder or buyer at scale.",
+  "ai_narrative_concreteness: AI use cases are named (security tools, vendor contracts) but no deployment metrics or quantified outcomes are provided; some language remains aspirational.",
+  "capex_mentions: No AI-attributable dollar figures found in the excerpts; general capital investment references are tied to power generation infrastructure, not AI directly."
+ ],
+ "_meta": {
+  "accession": "0001711269-26-000017",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1711269/000171126926000017/evrg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 2.4,
+  "extracted_at": "2026-06-15T20:41:56.183425+00:00"
+ }
+}

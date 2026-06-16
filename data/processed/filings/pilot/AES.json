@@ -1,0 +1,57 @@
+{
+ "ticker": "AES",
+ "source_document_id": "0000874761-26-000063",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-02",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "The budget for construction of the projects currently under construction and the contracted projects is over $12 billion.",
+    "AES made its first equity investments in two co-built companies... AES furthered its partnership with the AI Fund to combine its power sector expertise with the fund's artificial intelligence capabilities",
+    "AES had a fleet of five Maximo units in operation... The Company expects to expand its fleet to serve a growing backlog of installation contracts in 2026."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Maximo is an AI-enabled robot that enhances solar module installation speed, efficiency, and safety... AES had a fleet of five Maximo units in operation that assisted with construction at the 2 GW Bellefield solar-plus-storage facility",
+    "In 2025, two co-built companies developed commercial products, and AES was the first company to test and use the first versions of these products.",
+    "Fluence is a leading global provider of energy storage and services and AI-enabled digital applications for renewables and storage."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "budget for construction of the projects currently under construction and the contracted projects is over $12 billion",
+   "context": "AES Clean Energy U.S. renewables construction budget, includes projects driven by data center/AI demand"
+  },
+  {
+   "quote": "transaction price was approximately $481 million",
+   "context": "Development framework agreement to support a customer's planned data center in Texas, July 2025"
+  }
+ ],
+ "limitations": [
+  "ai_risk_disclosure_depth is null: no risk-factor-section material (item_1a or equivalent) appears in the provided excerpts; absence from excerpts cannot be treated as absence from the filing.",
+  "The $12 billion capex figure covers all contracted renewables construction broadly, not exclusively AI-related spend; AI demand is cited as a driver but the figure is not disaggregated.",
+  "AI narrative concreteness scored 4 rather than 5 because no quantified business results (%, $, time saved) for AI-specific initiatives (Maximo, AI Fund co-builds) are disclosed in these excerpts; deployment is confirmed but outcomes are not quantified.",
+  "Some language around generative AI driving data center demand is promotional/forward-looking, which tempers confidence slightly."
+ ],
+ "_meta": {
+  "accession": "0000874761-26-000063",
+  "filing_date": "2026-03-02",
+  "url": "https://www.sec.gov/Archives/edgar/data/874761/000087476126000063/aes-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 3.1,
+  "extracted_at": "2026-06-11T17:00:37.900333+00:00"
+ }
+}

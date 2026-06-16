@@ -1,0 +1,49 @@
+{
+ "ticker": "FAST",
+ "source_document_id": "0000815556-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Other applications are assisted by artificial intelligence (AI) to analyze customer usage data to recommend optimized parts and quantity for specific devices",
+    "Our ability to maintain and enhance our competitive position depends in part on our capacity to adopt and integrate emerging technologies, including AI and advanced analytics"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "applications are assisted by artificial intelligence (AI) to analyze customer usage data to recommend optimized parts and quantity for specific devices, which improves customer inventories while reducing the risk of stock-outs",
+    "Our Vending App moves our fulfillment process from a vending device-based keypad function to a tablet or scanning interaction, which improves the restock process"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If we fail to identify, develop, or implement relevant technologies in a timely and cost-effective manner, or if such technologies do not deliver the anticipated benefits, our business operations, customer experience, and financial performance could be adversely affected",
+    "The evolving regulatory landscape surrounding AI and data usage may also introduce compliance risks and additional costs",
+    "the use of AI by threat actors engaged in these activities... may materially affect us, including our execution of business strategy, reputation, results of operations"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts or headcount figures appear in the excerpts; investment intensity capped at 3.",
+  "AI narrative describes deployed use cases (inventory optimization apps in production) but no quantified business results (e.g., % stock-out reduction, volume handled) are provided, capping concreteness at 4.",
+  "Risk disclosure names specific mechanisms (competitive loss, regulatory compliance costs, AI-enabled threat actors affecting operations/reputation) justifying score 4, but no quantified risk exposure or formal named AI governance body beyond the Audit Committee's general oversight scope is disclosed."
+ ],
+ "_meta": {
+  "accession": "0000815556-26-000009",
+  "filing_date": "2026-02-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/815556/000081555626000009/fast-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.1,
+  "extracted_at": "2026-06-15T20:44:23.420448+00:00"
+ }
+}

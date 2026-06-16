@@ -1,0 +1,50 @@
+{
+ "ticker": "RJF",
+ "source_document_id": "0000720005-25-000093",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We use, develop, and incorporate within our technology platform and services, systems and tools that incorporate AI and machine learning, including generative AI.",
+    "New technologies have required, and could require us in the future, to spend more to modify or adapt our products to attract and retain clients"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We use, develop, and incorporate within our technology platform and services, systems and tools that incorporate AI and machine learning, including generative AI.",
+    "we strive to establish and maintain appropriate governance and risk management processes",
+    "we seek to mitigate by relying on proprietary or walled-garden environments to enhance data protection and operational controls"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "ineffective or inadequate AI development or deployment practices by us or third-party vendors could result in unintended consequences such as AI algorithms that produce inaccurate output or that are based on biased, incomplete, and/or inaccurate datasets.",
+    "Compliance with new or changing laws, regulations, or industry standards relating to AI may impose significant operational costs and limit our ability to develop, deploy, or use AI",
+    "The E.U. Artificial Intelligence Act...poses further challenges for organizations in managing transparency, fairness, and accountability for AI use."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/cloud partnerships disclosed in the excerpts; generic language about technology investment only.",
+  "ai_narrative_concreteness: Named use cases (generative AI, ML in technology platform) are mentioned but no deployment status metrics or quantified business results are provided; some language is aspirational.",
+  "ai_risk_disclosure_depth: Risk-section and MD&A material is present with named, company-specific risk mechanisms (vendor dependence, regulatory compliance costs, algorithm bias, cybersecurity via AI-enabled phishing), justifying score 4; no quantified risk figures or named oversight governance bodies are disclosed, precluding score 5."
+ ],
+ "_meta": {
+  "accession": "0000720005-25-000093",
+  "filing_date": "2025-11-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/720005/000072000525000093/rjf-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T18:50:32.795061+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "PEP",
+ "source_document_id": "0000077476-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "foundational investments in technology and artificial intelligence to position ourselves to be fit for the future, building a set of high impact commercial, operational, and digital capabilities",
+    "Through our collaborations with cutting-edge technology providers, we are using artificial intelligence to reimagine our go-to-market model, enhance customer support, and empower sales teams"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We are building smarter systems with technologies like artificial intelligence to better serve our customers and consumers, so we can have the right products, at the right place, at the right price.",
+    "using artificial intelligence to reimagine our go-to-market model, enhance customer support, and empower sales teams to focus on strategic growth. This allows us to unify data, gain real-time inventory visibility",
+    "Global Capability Centers now support multiple functions, enabling us to centralize information, reduce duplicative work, and share best practices across the organization"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "rapid evolution and increased adoption of artificial intelligence technologies may increase our cybersecurity risks, including generative artificial intelligence augmenting threat actors technological sophistication to enhance existing or create new malware",
+    "our use of artificial intelligence may result in increased claims of infringement or other claims, including those based on unauthorized use of third-party technology or content",
+    "increasing adoption of artificial intelligence technologies has led data protection authorities in many jurisdictions...to consider and adopt new and evolving interpretations of privacy and data protection laws"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; the $6.15 billion productivity plan charge is tied to broad technology/automation/restructuring, not AI specifically, so it was not included in capex_mentions.",
+  "AI narrative concreteness scored 4 based on named deployed use cases (inventory visibility, customer support, go-to-market) with operational detail, but no quantified business results (%, $, time saved) were disclosed; score could not reach 5.",
+  "Some AI investment language is promotional/aspirational; confidence adjusted downward accordingly for investment intensity."
+ ],
+ "_meta": {
+  "accession": "0000077476-26-000007",
+  "filing_date": "2026-02-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 15,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T18:45:59.606645+00:00"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "ticker": "AKAM",
+ "source_document_id": "0001086222-26-000022",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are investing significant resources in our cloud computing solutions and platform, working on expanding capacity, adding additional sites and developing increased cloud computing features and functionality",
+    "we introduced new NVIDIA GPUs that are well-suited for... training and inference with neural networks... and high-performance computing applications",
+    "In November 2025, Akamai acquired serverless WebAssembly company Fermyon Technologies... As AI inference shifts to the edge, combining Fermyon's cloud-native WebAssembly function-as-a-service with Akamai's globally distributed platform enables enterprises to build edge-native applications"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "In 2025, Akamai launched Firewall for AI, a new solution designed to provide protection for AI applications against unauthorized queries, adversarial inputs and large-scale data-scraping attempts",
+    "Also in 2025, Akamai launched Akamai Inference Cloud ('AIC'), a platform that expands AI inference from core data centers to the edge of the internet",
+    "AI network labeling examines how assets are behaving and suggests labels to help security teams apply appropriate controls, and generative AI allows security professionals to ask natural language questions of their network"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "We may not be successful in our artificial intelligence initiatives... we recently launched AIC... This introduces additional risks, as we now compete with established and emerging companies providing AI infrastructure and inference solutions",
+    "AI systems and third-party AI services that we use may also introduce operational resilience and stability risks that could disrupt our services or customers' workloads",
+    "The EU began implementing the Artificial Intelligence Act on August 1, 2024... imposes significant obligations on providers and deployers of high-risk AI systems, and non-compliance can lead to substantial fines"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "we are experiencing continued volatility in certain server component costs, including as a result of recently imposed tariffs, that support the continued build out of our AI, infrastructure and platform services",
+   "context": "Risk factors discussion of supply chain and cost pressures for AI infrastructure build-out"
+  },
+  {
+   "quote": "additional operating leases for co-location arrangements that had not yet commenced of $278.0 million, of which a majority will commence in 2026",
+   "context": "Operating lease commitments for co-location/data center infrastructure supporting compute and AI services — not exclusively AI-attributable"
+  }
+ ],
+ "limitations": [
+  "No explicit dollar amounts are disclosed as AI-attributable R&D or capex; investment intensity scored 3 (named programs, no quantified AI-specific spend).",
+  "The $278M co-location lease commitment and other infrastructure figures are not explicitly tied to AI workloads alone, so excluded from primary capex_mentions scoring.",
+  "Narrative concreteness scored 4 based on named deployed products (AIC, Firewall for AI, Guardicore AI labeling) with operational detail, but no quantified business results (e.g., revenue, customers, performance metrics) were disclosed to support a score of 5.",
+  "Promotional language present in business section descriptions of AI products; confidence adjusted accordingly."
+ ],
+ "_meta": {
+  "accession": "0001086222-26-000022",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1086222/000108622226000022/akam-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:05:56.266943+00:00"
+ }
+}

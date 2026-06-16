@@ -1,0 +1,50 @@
+{
+ "ticker": "EQT",
+ "source_document_id": "0000033213-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "Excerpts mention data center development as a demand source but contain no disclosure of EQT making AI/compute infrastructure investments itself; no capex figures tied to AI appear."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "we believe we are well positioned to excel during times of market volatility and to serve growing sources of demand, including power generation, industrial consumption, domestic data center development and LNG exports",
+    "we cannot be certain that we will be able to successfully execute combo-development projects, LNG export initiatives, midstream growth projects, data center development or other strategic projects"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "we cannot be certain that we will be able to successfully execute combo-development projects, LNG export initiatives, midstream growth projects, data center development or other strategic projects at the pace and scale that we project",
+    "Such projects may be delayed, cost more than expected, fail to reach final investment decisions, fail to achieve commercial operations, or be terminated altogether"
+   ],
+   "confidence": 0.6
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI/data center references in these excerpts position EQT as a natural gas supplier to data centers, not as an AI investor or deployer; no AI capex or internal AI use cases are disclosed.",
+  "ai_investment_intensity scored null: the excerpts discuss data center demand as a revenue opportunity, not EQT's own AI infrastructure spend.",
+  "ai_narrative_concreteness scored 2 (aspirational): data center development is named as a demand category but no specific AI-related initiative, deployment, or metric is described.",
+  "ai_risk_disclosure_depth: the [mdna] section contains risk-adjacent language about strategic project execution risk including data center development, but it is not a dedicated risk-factor section; score reflects named risk categories with some mechanism detail.",
+  "No risk-factor section ([risk_factors]) excerpts were provided; depth score may understate full filing disclosure."
+ ],
+ "_meta": {
+  "accession": "0000033213-26-000018",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/33213/000003321326000018/eqt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-11T17:52:30.036079+00:00"
+ }
+}

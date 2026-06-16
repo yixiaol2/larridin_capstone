@@ -1,0 +1,52 @@
+{
+ "ticker": "MAR",
+ "source_document_id": "0001048286-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are incorporating AI and other emerging technologies into certain of our processes, offerings, and services, and these technologies may become increasingly important in our operations over time.",
+    "We are undertaking a multi-year transformation of our reservations, property management, and loyalty systems.",
+    "if we fail to keep pace with rapidly-evolving technological developments in AI and other emerging technologies, our competitive position and business may suffer"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We are incorporating AI and other emerging technologies into certain of our processes, offerings, and services, and these technologies may become increasingly important in our operations over time.",
+    "The introduction of these technologies, particularly generative AI, into our processes, offerings, and services may also result in new or expanded risks and liabilities",
+    "introduction of AI capabilities by existing and emerging travel intermediaries may change the way guests plan, book, and pay for travel"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI could be improperly utilized by associates while carrying out their responsibilities or lead to unintended consequences, including generating content that is factually inaccurate, misleading or otherwise flawed, or biased",
+    "our use of AI and other emerging technologies increases the Company's exposure to potential cybersecurity incidents",
+    "Compliance with evolving regulatory frameworks governing AI and other emerging technologies may affect our use of such technologies...may result in increased costs and exposure to legal proceedings"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 (named initiatives, no quantified scale).",
+  "AI use cases are named at category level (processes, offerings, services, reservations/loyalty systems) but no deployment metrics or quantified business results are disclosed; concreteness capped at 3.",
+  "Risk disclosure is company-specific with named mechanisms (regulatory, cybersecurity, associate misuse, distribution disruption) but no quantification of risk exposure or formal named mitigation programs beyond governance committee structure, supporting score of 4.",
+  "Excerpts are pre-filtered; additional AI investment or use-case detail may exist elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0001048286-26-000007",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/1048286/000104828626000007/mar-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:08:19.071194+00:00"
+ }
+}

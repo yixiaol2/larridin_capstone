@@ -1,0 +1,50 @@
+{
+ "ticker": "IEX",
+ "source_document_id": "0000832101-26-000003",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We are in the initial stages of our phased approach in reviewing AI solutions and capabilities and incorporating AI into our business activities and product and service offerings.",
+    "The Company s competitors may adopt new technologies and technological advancements, such as using artificial intelligence (AI) and machine learning to pursue new products and approaches more quickly."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We are in the initial stages of our phased approach in reviewing AI solutions and capabilities and incorporating AI into our business activities and product and service offerings.",
+    "The increasing use and development of AI has increased demand for AI-related projects, including data center power solutions and semiconductor applications."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may be flawed or may be based on datasets that are biased or insufficient. Any disruption or failure in the AI functionality we have incorporated...could adversely impact our business or result in delays or errors.",
+    "The legal and regulatory landscape surrounding AI technologies is rapidly evolving...Compliance with new or changing laws...may impose significant costs and may limit our ability to develop, deploy or use AI technologies.",
+    "The rapid evolution and increased adoption of AI technologies may intensify our cybersecurity risks. The Company s cybersecurity defenses may be insufficient to fully mitigate cyber risks."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored at 2 (generic/aspirational statements only).",
+  "AI narrative is largely aspirational and early-stage; no named deployed AI initiatives or quantified outcomes disclosed in the excerpts.",
+  "AI risk disclosure is company-specific with named mechanisms (algorithmic bias, regulatory compliance costs, cybersecurity intensification) but no quantified risk figures or named governance bodies, capping the score at 4.",
+  "Promotional language absent; disclosures are cautionary in tone, which is reflected in confidence levels."
+ ],
+ "_meta": {
+  "accession": "0000832101-26-000003",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000003/iex-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-15T20:56:06.094613+00:00"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "ticker": "TPL",
+ "source_document_id": "0001811074-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "$50.0 million minority investment in Bolt Data Energy, Inc. pursuant to a strategic agreement to develop and enable large scale data center campuses and supporting infrastructure across our land.",
+    "Bolt is a data energy infrastructure company co-founded by Eric Schmidt, former CEO and Chairman of Google."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Strategic agreement to develop and enable large scale data center campuses and supporting infrastructure across our land.",
+    "We received an equity interest, warrants, and a right of first refusal to supply water to Bolt-affiliated projects and related infrastructure.",
+    "Projects include evaluation of data centers, power generation, grid-connected batteries, and carbon capture and sequestration, among other opportunities."
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Continually evaluate emerging threats and improved mitigation methods, including but not limited to, generative and agentic artificial intelligence and machine learning.",
+    "Minority investments inherently involve a lesser degree of control over business operations, thereby potentially increasing the financial, legal, operational and/or compliance risks."
+   ],
+   "confidence": 0.68
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "$50.0 million in Bolt pursuant to a strategic agreement to develop and enable large scale data center campuses",
+   "context": "December 2025 minority equity investment in Bolt Data Energy, Inc. for data center infrastructure on TPL land"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity: the $50M Bolt investment is primarily a data center infrastructure play; AI is not explicitly named as the core purpose — data centers are AI-adjacent but the filing does not directly label this as an AI investment. Score reflects named initiative without explicit AI-attributable quantification.",
+  "Narrative concreteness: named initiative and use cases described but no deployment metrics or quantified business results disclosed; projects described as in feasibility/development stage.",
+  "Risk disclosure: risk-section material is present; AI is mentioned only in the cybersecurity context as an emerging threat to monitor, not as a company-specific operational or strategic risk scenario with detailed mechanisms. Minority investment risks are named but not AI-specific."
+ ],
+ "_meta": {
+  "accession": "0001811074-26-000018",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1811074/000181107426000018/tpl-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-15T21:38:23.000199+00:00"
+ }
+}

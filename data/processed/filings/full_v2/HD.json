@@ -1,0 +1,51 @@
+{
+ "ticker": "HD",
+ "source_document_id": "0001628280-26-019436",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are leveraging AI tools to improve our search, recommendations, and chat features, and offering new AI-powered customer-facing tools such as Magic Apron TM",
+    "our 'ship from best location' initiative seeks to optimize delivery speed, reliability, cost, and capacity by leveraging machine learning algorithms to route orders",
+    "testing, developing and deploying AI tools, including generative AI"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI-powered customer-facing tools such as Magic Apron TM, which supports customers and associates with online product and project inquiries, and our AI-powered Blueprint Takeoffs Tool and Material List Builder",
+    "leveraging machine learning algorithms to route orders to the optimal fulfillment node",
+    "we are leveraging AI tools to improve our search, recommendations, and chat features"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The availability of AI may enable new types of threat actors who may not otherwise have had the capabilities to engage in malicious activity, or may enhance the capabilities of nation-state actors",
+    "The regulatory environment related to data privacy, cybersecurity, and AI and other emerging technologies is constantly changing, with new and increasingly rigorous requirements applicable to our business",
+    "generative and agentic AI tools, may dramatically change customer shopping and buying habits... implementing new technologies using AI... could disrupt or reduce the efficiency of our operations"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-attributable investment figures appear in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "Narrative concreteness scored 4 based on named deployed tools (Magic Apron, Blueprint Takeoffs Tool, ML routing); no quantified business results (e.g., % conversion lift, $ savings) were disclosed in the excerpts to warrant a score of 5.",
+  "Risk disclosure scored 4 based on named company-specific risk mechanisms (cybersecurity threat amplification via AI, regulatory compliance costs, operational disruption from AI implementation); no quantified risk figures or named governance bodies appeared in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-019436",
+  "filing_date": "2026-03-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:53:49.464422+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "MCO",
+ "source_document_id": "0001628280-26-009136",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "New products, services, proprietary data and technology capabilities, including Gen AI and Agentic AI offerings, to help customers attain competitive advantage and improve internal productivity",
+    "Moody s invests in initiatives to implement the Company s strategy, including internally-led organic development and targeted acquisitions",
+    "We invest in AI powered technologies in order to provide our employees with a world-class experience accessing and managing their benefits"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "MA's curated data and analytics transform information into decision-grade intelligence and power its AI-enabled cloud-based workflow tools, helping customers start business relationships, monitor and manage risk",
+    "As an early adopter of Gen AI and agentic AI...we are evolving how Moody's delivers insights on exponential risk to our customers with the potential to reimagine knowledge-intensive workflows",
+    "The integration of AI and agentic solutions across our platforms, grounded in and informed by our vast proprietary and curated data, enables our customers to increase their efficiency and productivity"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Large language models, agentic workflows and related AI-technologies licensed by or developed by the Company, and the data used to train or power them may be incomplete or inadequate...may result in adverse impacts to our business operations or reputation",
+    "The EU AI Act...could increase the Company's costs and expose it to the risk of penalties over time",
+    "Gen AI has contributed to an increase in the prevalence and sophistication of cyber threats, expanding the Company's exposure to potential breaches and systems disruptions"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-attributable dollar amounts or headcount figures found in excerpts; named programs exist but scale is unquantified, capping score at 3. Purchase obligations of ~$650M cover data center/cloud hosting broadly but are not explicitly AI-attributable.",
+  "ai_narrative_concreteness: Named AI-enabled products and deployment described (cloud-based workflow tools, agentic AI platforms), but no quantified business results (%, $, time saved) found in excerpts; scored 4 rather than 5.",
+  "capex_mentions: No AI-specific dollar amounts tied to investment were extractable from the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-009136",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1059556/000162828026009136/mco-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 23,
+  "maturity_index": 4.6,
+  "extracted_at": "2026-06-15T21:13:45.395222+00:00"
+ }
+}

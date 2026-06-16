@@ -1,0 +1,60 @@
+{
+ "ticker": "ZBRA",
+ "source_document_id": "0001628280-26-007668",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "net of re-investment into advancing the Company s AI product portfolio, reorganizing our sales force, and absorbing increased employee-related costs",
+    "We will continue to invest in technologies that connect the frontline, provide real-time visibility, and enable automation, which we believe will drive our competitive differentiation",
+    "Leveraging a combination of on-device and cloud-based AI, smart context-aware software companions are beginning to augment worker productivity"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Our industrial machine vision platform-independent AI-enabled software, software development kits, smart cameras, vision controllers, frame grabbers...capture, inspect, assess, and record data from industrial vision systems",
+    "We are leveraging artificial intelligence to automate the detailed generation of tasks within complex workflows, bring knowledge and product companions to workers and deliver conversational interfaces",
+    "The CF segment is focused on unifying teams, customers, and AI agents to deliver enhanced frontline experiences"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI technologies that we use to support our operations may carry inherent risks related to: data privacy and security...copyright...data quality and bias...challenges implementing and maintaining AI tools",
+    "in 2024 the European Artificial Intelligence Act (EU) 2024/1689 went into force and established requirements and obligations for developers and deployers of AI systems",
+    "we may ultimately be unsuccessful in identifying or resolving such issues before they arise...we may experience reputational harm or employee attrition"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "acquired Elo Holdings, Inc. for $1,303 million in cash",
+   "context": "September 2025 acquisition expanding self-service and automation portfolio, included in CF segment"
+  },
+  {
+   "quote": "acquired Photoneo for $62 million in cash",
+   "context": "February 2025 acquisition of 3D machine vision developer, included in AVA segment"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity scored 3 (not 4) because no explicit dollar amounts are disclosed for AI-specific R&D or AI infrastructure spend; the Elo and Photoneo acquisitions are automation/machine-vision related but not exclusively AI-attributable",
+  "Narrative concreteness scored 4 rather than 5 because no quantified business results (%, $, time saved) are provided for deployed AI use cases — descriptions are operational but unquantified",
+  "Risk disclosure includes named risk categories and regulatory mechanisms (EU AI Act) with some scenario specificity, but no quantified risk exposure or named internal oversight body, limiting score to 4"
+ ],
+ "_meta": {
+  "accession": "0001628280-26-007668",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026007668/zbra-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-15T21:50:36.476295+00:00"
+ }
+}

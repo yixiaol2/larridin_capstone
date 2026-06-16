@@ -1,0 +1,51 @@
+{
+ "ticker": "CDNS",
+ "source_document_id": "0000813672-26-000016",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "we are making significant investments in AI initiatives, including expanding our generative AI platform and applications, to enable our customers to optimize their products performance",
+    "We expect that increased investment will be required in the future to continuously improve our development and use of AI Technologies.",
+    "In fiscal 2025, we acquired industry leading technology that expands our AI driven design and verification capabilities to include advanced agentic AI technology purpose built for semiconductor development."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 5,
+   "evidence": [
+    "reducing verification cycles from weeks to days and enabling customers to scale productivity",
+    "Verisium generative AI solution enhances productivity, automation, and quality across the entire verification flow",
+    "Allegro X AI is our generative AI solution designed to provide significant cycle-time compression for PCB design, enhancing an engineer s productivity"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Such other companies may develop AI Technologies that are similar or superior to ours and/or are more cost-effective and/or quicker to develop, deploy and maintain... could have a materially adverse impact on our operating results, customer relationships and growth.",
+    "EU AI Act... includes fines for breach of up to 7% of worldwide annual turnover... cost to comply with such laws, regulations... could be significant and would increase our operating expenses",
+    "The implementation of AI Technologies may accelerate or exacerbate potential risks... AI Technologies malfunctioning, producing biased, misleading or inaccurate content or failing to meet performance expectations."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No specific dollar amounts for AI R&D or capex were disclosed in the excerpts; investment intensity scored 4 based on named multi-year AI programs, multiple acquisitions, and explicit statements of significant ongoing investment, but without quantified spend figures confidence is moderated.",
+  "Narrative concreteness score of 5 is supported by a quantified outcome ('weeks to days') but this is a product claim rather than a customer-reported metric; promotional framing noted.",
+  "No dedicated AI governance body or quantified risk treatment was disclosed, limiting risk disclosure depth to 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0000813672-26-000016",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:22:12.866471+00:00"
+ }
+}

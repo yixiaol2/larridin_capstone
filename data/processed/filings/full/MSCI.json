@@ -1,0 +1,51 @@
+{
+ "ticker": "MSCI",
+ "source_document_id": "0001408198-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We also partner with global technology companies to accelerate the development of our AI capabilities to enhance our solutions, insights and the client experience.",
+    "In 2025, we introduced an AI Upskilling Framework to provide targeted learning opportunities ranging from foundational skills to technical specialization.",
+    "Advancing data processing, content quality and product development through data science, machine learning and AI... enable more efficient data collection, enhance content and support quality-control processes."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We have developed AI-enabled solutions including AI Portfolio Insights, which features a generative AI-powered interface to help deliver risk and portfolio insights, and GeoSpatial Asset Intelligence, which incorporates AI-driven data processing.",
+    "AI Portfolio Insights offering calculates, stores, and delivers a broad range of risk, performance, climate, and sustainability measures... features a generative AI-powered chatbot to deliver risk insights.",
+    "We designed our AI governance framework, which includes review and approval processes for AI uses, to provide oversight designed to support responsible use, data protection and risk management."
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI-enabled tools may allow clients... to develop in-house capabilities to replace our products such as custom indexes, risk analytics, and sustainability and climate data.",
+    "Large-scale data scraping and generative AI models trained on publicly available information could also diminish the perceived uniqueness and commercial value of our proprietary content.",
+    "Emerging AI regulations, such as the European Union's Artificial Intelligence Act, impose requirements for transparency, fairness and oversight of AI systems... requiring audits, documentation and human oversight."
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or dollar amounts disclosed in the excerpts; investment intensity scored 3 based on named partnerships, named initiatives, and a dedicated AI upskilling framework without financial quantification.",
+  "Narrative concreteness scored 4 (deployed with operating detail) rather than 5 because no quantified business results (%, $, time saved, volume) are provided for AI Portfolio Insights or GeoSpatial Asset Intelligence.",
+  "Risk disclosure scored 4 (company-specific scenarios with mechanisms) rather than 5 because no quantified risk exposure or formally named oversight body with governance metrics is disclosed beyond the AI governance framework description."
+ ],
+ "_meta": {
+  "accession": "0001408198-26-000011",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1408198/000140819826000011/msci-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 20,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T18:28:54.697403+00:00"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "ticker": "DELL",
+ "source_document_id": "0001571996-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-16",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "total R&D expenses of $3.1 billion for both Fiscal 2026 and Fiscal 2025 and $2.8 billion for Fiscal 2024",
+    "we have increased our purchases of certain components with suppliers, which has resulted in increased inventory levels, higher purchase obligations, and new working capital dynamics",
+    "we held strategic investments in non-marketable securities of $1.6 billion and $1.5 billion as of January 30, 2026 and January 31, 2025"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we disaggregated our servers and networking offerings within revenue by major product category into AI-optimized servers offerings and traditional servers and networking offerings",
+    "AI-optimized servers designed to handle the most demanding compute-intensive workloads, including AI model training, fine-tuning, and inferencing",
+    "increase in ISG net revenue was primarily driven by growth in our AI-optimized servers offerings... net revenue increased by 19%"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "use of AI technologies, including generative and agentic AI, may make us susceptible to unanticipated security threats from adversaries as we incorporate such technologies into our internal systems",
+    "AI solutions have been purchased primarily by a small number of larger customers and cloud service providers... large orders may cause fluctuations in our results of operations... intense competition and pricing pressure",
+    "laws, rules, directives and regulations governing the use of AI are rapidly proliferating and evolving... failure or perceived failure to comply could impair our ability to claim intellectual property ownership"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "total R&D expenses of $3.1 billion for both Fiscal 2026 and Fiscal 2025 and $2.8 billion for Fiscal 2024",
+   "context": "Overall R&D spend; not exclusively AI-dedicated but includes AI/ML software development"
+  },
+  {
+   "quote": "strategic investments in non-marketable securities of $1.6 billion and $1.5 billion as of January 30, 2026 and January 31, 2025",
+   "context": "Venture capital investments including machine learning and AI focus areas"
+  }
+ ],
+ "limitations": [
+  "R&D figures of $3.1B are total company R&D, not AI-specific; no dedicated AI capex dollar amount is disclosed, limiting investment intensity score to 3 rather than 4",
+  "AI-optimized server revenue growth is described qualitatively and as a driver of 19% ISG revenue increase, but no standalone AI revenue figure is broken out in these excerpts",
+  "Risk disclosure is detailed and company-specific (score 4) but no quantified risk exposure or named governance oversight body is cited in the excerpts, precluding score 5",
+  "Excerpts do not include a dedicated capital expenditure table; any AI-specific capex line items may exist elsewhere in the filing but are not visible here"
+ ],
+ "_meta": {
+  "accession": "0001571996-26-000008",
+  "filing_date": "2026-03-16",
+  "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-11T17:48:07.370468+00:00"
+ }
+}

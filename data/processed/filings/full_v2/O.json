@@ -1,0 +1,52 @@
+{
+ "ticker": "O",
+ "source_document_id": "0000726728-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Since 2019, we have meaningfully expanded our investment in people, systems, and automation to enhance our decision-making, efficiency, and risk management across the full investment lifecycle.",
+    "Our predictive analytics platform uses machine learning models trained on proprietary financial and leasing data across more than 15,500 properties, combined with millions of external data points.",
+    "These tools are built and supported by dedicated data science, machine learning engineering, and business analysis teams."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "A key component of our platform is predictive analytics, which is embedded in our business system and applied to underwriting acquisitions through ongoing portfolio optimization and disposition decisions.",
+    "This technology foundation has supported our evaluation of more than $50 billion in transaction volume to date and reinforces our discipline in underwriting and capital allocation.",
+    "Our One Team leverages these proprietary capabilities daily, including predictive analytics, a tailored ERP platform with source-to-book workflow automation, and robotic process automation (RPA) initiatives."
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The risk of a cybersecurity breach or operational disruption has generally increased as the number, intensity and sophistication of attempted attacks (including through the use of artificial intelligence) have increased.",
+    "Our use of or inability to adopt and deliver new technological capabilities, including artificial intelligence and machine learning, may put us at a competitive disadvantage or adversely impact our business, reputation, results of operations.",
+    "The use of emerging technologies, including artificial intelligence, entails risks including intellectual property infringement; data privacy; potential for inaccuracy; bias; new or enhanced governmental or regulatory scrutiny; cybersecurity concerns."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts for AI-specific investment were found in the excerpts; investment intensity scored 3 rather than 4 or 5.",
+  "The $50 billion figure references transaction volume evaluated using the platform, not AI investment spend itself.",
+  "Data center joint venture capex ($216.8 million remaining estimated costs) relates to real estate development with Digital Realty, not directly to Realty Income's own AI investment.",
+  "Risk disclosure covers named categories and mechanisms (competitive disadvantage, regulatory scrutiny, cybersecurity) but no quantified risk exposure or named governance body was found, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0000726728-26-000011",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/726728/000072672826000011/o-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-15T21:27:16.165177+00:00"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "ticker": "UNP",
+ "source_document_id": "0000100885-26-000037",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We will continue to transform our railroad using technology and automation to further improve our service product, improve resource utilization, and lower our overall cost structure."
+   ],
+   "confidence": 0.45
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We will continue to transform our railroad using technology and automation to further improve our service product, improve resource utilization, and lower our overall cost structure."
+   ],
+   "confidence": 0.55
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The rapid evolution and increased availability of artificial intelligence may intensify cybersecurity risks by making cyber-attacks more sophisticated and cybersecurity incidents more difficult to detect, contain, and mitigate.",
+    "A cyber incident that results in significant service interruption; safety failure; other operational difficulties; unauthorized access to...critical data or systems...could have a material adverse impact on our results of operations."
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity scored conservatively at 3: the only AI-adjacent investment language references 'technology and automation' broadly with no named AI programs, dollar amounts, or explicit AI attribution; excerpts are limited and may not capture fuller capex or R&D disclosures elsewhere in the filing.",
+  "ai_narrative_concreteness: no named AI initiatives or deployment details present in excerpts; 'technology and automation' language is aspirational and not AI-specific.",
+  "ai_risk_disclosure_depth: risk-section material (item_8) is present and describes a specific AI-linked risk mechanism (AI intensifying cyberattack sophistication and detection difficulty) with named operational and financial consequences, supporting score 4; however, no quantified risk treatment or named governance body is evidenced in these excerpts.",
+  "Excerpts are limited; broader AI strategy, capex, and additional risk disclosures may exist elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0000100885-26-000037",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000037/unp-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:41:59.846289+00:00"
+ }
+}

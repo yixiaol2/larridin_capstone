@@ -1,0 +1,51 @@
+{
+ "ticker": "ACI",
+ "source_document_id": "0001646972-26-000032",
+ "source_type": "sec_filing",
+ "source_date": "2026-04-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Technology and AI are an important component of our transformation and long-term growth strategy.",
+    "As part of our investments in an AI-enabled supply chain, we have launched a proprietary forecasting capability we call Gateway to enhance replenishment performance.",
+    "modernizing capabilities through technology and AI, and driving transformational productivity"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI-driven capabilities are helping to modernize the way customers shop, delivering increased personalization intended to drive engagement, basket size and loyalty.",
+    "Our AI-enabled shopping assistant continues to evolve as customer adoption increases.",
+    "we have launched a proprietary forecasting capability we call Gateway to enhance replenishment performance and improve efficiency across promotional center store SKUs"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The emergence of artificial intelligence powered agentic shopping tools...could further disrupt traditional grocery retail. If customers increasingly rely on these tools...we could lose our direct relationship with customers.",
+    "We and our third parties are increasingly incorporating artificial intelligence solutions into our operations...Developing and incorporating AI solutions into our business is uncertain and may result in increased costs and business disruptions.",
+    "The rapid evolution of AI, including expected government regulation of AI and automated decision making, requires resources, formalized AI governance, a commitment to the ethical and responsible use of data"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Capital expenditures sentence in the risk_factors excerpt is truncated and no dollar amount for AI-specific or total capex is visible; ai_investment_intensity cannot be scored above 3 without quantified figures.",
+  "ai_narrative_concreteness scored 4 (deployed with operating detail) based on named, in-production tools (Gateway, AI shopping assistant), but no quantified business results (%, $, volume) are disclosed in the excerpts.",
+  "Promotional/aspirational language is present alongside deployment descriptions; confidence adjusted accordingly."
+ ],
+ "_meta": {
+  "accession": "0001646972-26-000032",
+  "filing_date": "2026-04-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:19:10.442598+00:00"
+ }
+}

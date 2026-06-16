@@ -1,0 +1,51 @@
+{
+ "ticker": "EQIX",
+ "source_document_id": "0001101239-26-000032",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are currently investing in our AI strategy to serve the large footprint we foresee for customers AI workloads.",
+    "We have begun leveraging AI and machine learning capabilities for our employees to use in their day-to-day operations.",
+    "Equinix has curated a leading AI ecosystem of model providers, data platforms, neoclouds and gateways to serve the AI requirements of enterprises."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI-driven use cases spanning fraud detection, predictive maintenance, connected mobility, personalized retail, energy optimization and agentic connectivity depend on secure, low-latency pathways.",
+    "xScale data centers... hyperscale customers add to their core hyperscale data center deployments... for cloud and AI initiatives.",
+    "We have begun leveraging AI and machine learning capabilities for our employees to use in their day-to-day operations."
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Failure to invest adequately in such capabilities may result in us lagging behind our competitors... shortage of appropriate data to train internal AI models, a lack of skilled talent... tools we utilize may not deliver the intended value.",
+    "Use of third-party AI tools can also bring information security, data privacy and legal risks.",
+    "Because of the expected growth and opportunity related to AI, we anticipate significant investments in the data center industry by both current competitors and new investors... If Equinix is unable to compete against these new market entrants... we could lose market share."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific capex figures tied to AI investment were found in the excerpts; investment intensity scored 3 rather than 4 or 5.",
+  "AI narrative concreteness: use cases are named and described as deployed/in-production (e.g., employee AI tools, xScale for hyperscaler AI workloads, AI ecosystem), but no quantified business results (%, $, time saved) are disclosed; scored 4.",
+  "Risk disclosure scored 4 based on named company-specific risk scenarios with described mechanisms (competitive loss, talent shortage, data insufficiency, security/privacy risks from third-party AI tools, chip shortages impacting customer deployments), but no quantified risk figures or named governance/oversight bodies were found to justify a score of 5."
+ ],
+ "_meta": {
+  "accession": "0001101239-26-000032",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000032/eqix-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-15T20:40:53.100472+00:00"
+ }
+}

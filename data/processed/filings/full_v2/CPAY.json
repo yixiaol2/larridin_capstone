@@ -1,0 +1,52 @@
+{
+ "ticker": "CPAY",
+ "source_document_id": "0001175454-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Corpay's spend management solution also incorporates advanced analytics, including artificial intelligence (AI) enabled capabilities, to enhance spend oversight and decision-making.",
+    "The credit review includes a combination of machine learning models, as well as judgmental underwriting based on customer financials.",
+    "If we do not identify, develop, license, acquire and integrate AI technologies into our products and operations on a timely basis... our products and services may become less competitive."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI enabled capabilities... help automatically categorize spend, identify anomalies and surface actionable insights related to policy compliance, potential fraud and optimization opportunities.",
+    "The credit review includes a combination of machine learning models, as well as judgmental underwriting based on customer financials.",
+    "Corpay's spend management solution also incorporates advanced analytics, including artificial intelligence (AI) enabled capabilities, to enhance spend oversight and decision-making."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Heightened threats and risks associated with artificial intelligence and other technologies... techniques used to sabotage or obtain unauthorized access... may not be recognized until launched against a target.",
+    "If we do not identify, develop, license, acquire and integrate AI technologies... we may experience slower growth, reduced transaction volumes, loss of customers or partners, and pressure on margins.",
+    "AI-enabled products offered by competitors or third parties could disintermediate aspects of our offerings or reduce demand for certain of our solutions."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or R&D spend found in excerpts; investment intensity capped at 3.",
+  "AI narrative describes deployed use cases (spend categorization, anomaly detection, ML credit underwriting) with operational detail but no quantified business results (e.g., % fraud reduction, time saved), capping concreteness at 4.",
+  "Risk disclosure describes specific mechanisms (competitive disintermediation, revenue/margin impact, cybersecurity threat amplification) but no quantified risk exposure or named governance bodies, capping at 4.",
+  "No capex figures tied specifically to AI investment appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001175454-26-000018",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000018/flt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T20:30:53.960893+00:00"
+ }
+}

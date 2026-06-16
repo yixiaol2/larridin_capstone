@@ -1,0 +1,65 @@
+{
+ "ticker": "TTD",
+ "source_document_id": "0001671933-26-000014",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "In 2025, we used $293 million of cash in investing activities, consisting of $197 million to purchase property and equipment, $79 million of net purchases of short-term investments, $13 million of investments in capitalized software",
+    "we intend to continue strategically investing in hosting infrastructure to support our growing artificial intelligence and machine learning capabilities",
+    "We expect platform operations expense to increase in absolute dollars in future periods as we...invest in our hosting capabilities, including to support new technical features and functionality...and our growing AI and machine learning capabilities"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Koa is our platform s AI co-pilot. It processes and analyzes robust data sets to surface insights, optimizations and recommendations...Koa s artificial intelligence capabilities are used across...predictive clearing, ad impression relevance scoring, measurement and forecasting, budget optimization",
+    "we are developing new methods of media buying our platform that increasingly leverage data and AI features, meant to make it easier for our clients to utilize data and AI to enhance the effectiveness of their advertising campaigns",
+    "Audience Unlimited, which will enable the radical simplification of the data buying process using the agentic co-pilot features available on our platform"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the impact of AI on our industry is still emerging and uncertain...there can be no assurance that our implementation of AI initiatives will continue to enhance our platform...We expect our AI initiatives will require increased investment in infrastructure",
+    "as we introduce new offerings...those that increasingly incorporate or utilize AI and machine learning...they may raise new, or heighten existing, technological, security, legal, commercial and other risks and challenges",
+    "evolution of the use of AI and machine learning in digital advertising may create challenges and further ecosystem uncertainty...deployment of techniques to circumvent our security measures may occur...including through the use of AI"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "$197 million to purchase property and equipment",
+   "context": "2025 investing activities; includes data center/hosting capex supporting AI and ML capabilities"
+  },
+  {
+   "quote": "$13 million of investments in capitalized software",
+   "context": "2025 investing activities; capitalized software for platform development including AI features"
+  },
+  {
+   "quote": "$98 million to purchase property and equipment",
+   "context": "2024 investing activities for comparison; includes hosting/data center capex"
+  }
+ ],
+ "limitations": [
+  "Total capex figures ($197M property/equipment) are not disaggregated by AI vs. non-AI spend; AI-specific capex cannot be isolated from the excerpts.",
+  "Audience Unlimited described as in development ('will enable'), not yet deployed — partially aspirational; score reflects mix of deployed (Koa) and pipeline features.",
+  "No quantified business results (e.g., % improvement in campaign performance) from AI features disclosed in excerpts, capping narrative concreteness at 4.",
+  "Risk disclosure references named risk categories and mechanisms (competitive harm, infrastructure cost, security, legal/regulatory) but no quantified risk exposure or named governance body beyond the executive risk committee mentioned in a cybersecurity context."
+ ],
+ "_meta": {
+  "accession": "0001671933-26-000014",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1671933/000167193326000014/ttd-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 25,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-11T19:03:12.093403+00:00"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "ticker": "ABT",
+ "source_document_id": "0001628280-26-010185",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "informatics and automation solutions for use in various care settings, including laboratory automation systems such as the GLP systems Track, AlinIQ, a suite of informatics tools",
+    "informatics solutions to help optimize diagnostic laboratory performance and automation solutions to increase efficiency in laboratories"
+   ],
+   "confidence": 0.5
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "informatics solutions to help optimize diagnostic laboratory performance and automation solutions to increase efficiency in laboratories",
+    "AlinIQ, a suite of informatics tools and professional services, the Indexor system for pre-analytics sample traceability, and the RALS point-of-care solution"
+   ],
+   "confidence": 0.55
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the development of new technologies, including disruptive technologies such as artificial intelligence, healthcare products and medicines...could significantly change the competitive landscape of the healthcare industry and negatively impact the demand for certain Abbott products"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity is difficult to score precisely: excerpts reference informatics and automation products but do not explicitly label them as AI-driven, nor provide any quantified R&D or capex figures attributable to AI; score reflects generic AI-adjacent language only.",
+  "Narrative concreteness is limited: named informatics platforms (AlinIQ, RALS) are described but no deployment metrics or quantified outcomes are provided; it is unclear from excerpts whether these are AI-powered or conventional software.",
+  "Risk disclosure references AI as a competitive/disruptive technology threat but does not detail company-specific mechanisms beyond competitive pressure; no quantification or governance structures mentioned.",
+  "Excerpts do not include detailed R&D spending figures or capex breakdowns attributable to AI."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-010185",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1800/000162828026010185/abt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T20:04:06.535500+00:00"
+ }
+}

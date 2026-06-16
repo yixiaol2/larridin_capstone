@@ -1,0 +1,51 @@
+{
+ "ticker": "MA",
+ "source_document_id": "0001141391-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We continually invest in data cleansing, structuring and modeling and robust governance to help make this data accurate and available for use in AI to be deployed at scale.",
+    "Further evolving our data infrastructure and utilizing AI to unlock incremental value and differentiated offerings",
+    "Improving the speed in which we deliver for our customers through a combination of AI-enabled tools and customer-centric practices"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We launched Mastercard Agent Pay, a new framework designed to enable secure, scalable and trusted payments in agentic commerce... enabled all U.S.-based Mastercard cardholders to participate in this program",
+    "Personalization services, which leverage AI to help businesses provide personalized digital experiences... delivers product recommendations, offers and content to consumers across digital channels.",
+    "Advanced analytics and AI solutions consisting of proprietary and privacy-first data solutions, AI models and analytics software designed to power strategy optimization, business experimentation and transformation"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may generate inaccurate, unintended, unfair, biased or discriminatory outcomes (which may not be easily detectable or explainable) and may inadvertently disclose confidential information and/or breach intellectual property, privacy or other rights.",
+    "The widespread use of AI, and its increasing capabilities, is enhancing the frequency and effectiveness of threat actors.",
+    "Laws and regulations on AI, data governance and credit decisioning may overlap or conflict with, or diverge from, general privacy rules... could result in fines, sanctions or other enforcement actions or penalties"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or dollar amounts disclosed in the excerpts; investment intensity scored 3 based on named infrastructure and initiatives without quantification.",
+  "ai_narrative_concreteness scored 4 based on named deployed use cases (Agent Pay, personalization platform) with operational detail, but no quantified business results (e.g., % fraud reduction, revenue contribution) were present in the excerpts.",
+  "capex_mentions is empty as no dollar or quantity figures tied to AI/compute investment appear in the provided excerpts."
+ ],
+ "_meta": {
+  "accession": "0001141391-26-000013",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-11T18:30:40.306203+00:00"
+ }
+}

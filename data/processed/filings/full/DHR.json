@@ -1,0 +1,50 @@
+{
+ "ticker": "DHR",
+ "source_document_id": "0000313616-26-000062",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "the development and deployment of AI has required and will require additional investment that increases our costs",
+    "Danaher s CIO... reports to Danaher s Chief Technology and Artificial Intelligence Officer",
+    "These risks are exacerbated by the increasing importance of AI and the increasing incorporation of AI in our business"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We are in the early stages of incorporating AI, including machine learning technologies, into our business activities and our product and service offerings",
+    "rapid technological development (particularly with respect to computing, automation, AI, mobile connectivity and digitization) in most of the Company s served markets"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may be flawed or may be based on datasets that are biased or insufficient or contain errors... disruption or failure in the AI functionality... could adversely impact our business",
+    "Incorporating AI into our business operations presents new risks relating to intellectual property, disclosure of confidential data, data protection, data privacy and cybersecurity",
+    "Compliance with new or changing laws, regulations or industry standards relating to AI may impose significant costs and may limit our ability to develop, deploy or use AI technologies"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or capex figures disclosed in the excerpts; a named Chief Technology and Artificial Intelligence Officer role and acknowledgment of required investment support a score of 3 but not higher.",
+  "ai_narrative_concreteness: Company explicitly states it is in 'early stages' of AI incorporation with no named deployed initiatives or use cases described; language is largely aspirational and risk-oriented rather than operational.",
+  "ai_risk_disclosure_depth: Risk-section and MD&A material is present and contains detailed, company-specific AI risk mechanisms (IP loss, regulatory penalties, cybersecurity, competitive harm, data privacy) with named regulatory frameworks (GDPR), supporting score 4; no quantified risk exposure or named AI governance/oversight body beyond the CISO/IRSC structure (which is cybersecurity-focused rather than AI-specific)."
+ ],
+ "_meta": {
+  "accession": "0000313616-26-000062",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000062/dhr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T17:46:47.497847+00:00"
+ }
+}

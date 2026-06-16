@@ -1,0 +1,52 @@
+{
+ "ticker": "IQV",
+ "source_document_id": "0001628280-26-008322",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are also investing significantly in our AI strategy by launching AI-enabled solutions across our business units, developing AI agents for internal use and external offerings, and developing relationships with key strategic partners across the health-tech sector",
+    "We have established private instances of certain public large language models. This ensures proprietary IQVIA content is not used to train public models",
+    "Executive Vice President, AI and Technology Solutions — named C-suite role dedicated to AI, created December 2025"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI can be used to generate new insights and recommendations, helping to increase clinical trials efficiency at all stages from trial design to data submission",
+    "We launched the AI and Data Analytics Skills training series in 2025 … generative AI learning resources have received over 230,000 views",
+    "developing AI agents for internal use and external offerings … cloud-based platform with a growing number of applications to support commercial and clinical operations"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "models may not perform as intended, may produce incomplete, misleading, or biased outputs, or may not be adopted by customers at the pace or scale we expect",
+    "If customers are able to obtain comparable insights through alternative AI enabled solutions … demand for certain of our services and offerings could decline, pricing pressure could increase, and our margins … could be adversely affected",
+    "Regulations relating to the use of AI … are in the early stages of development and evolving, which may make it difficult to identify or implement adequate compliance requirements … including the EU AI Act"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified capex figures tied to AI investment appear in the excerpts; investment intensity scored 3 (named initiatives, named partners, dedicated EVP role) rather than 4/5 due to absence of quantified spend.",
+  "Narrative concreteness scored 4 (deployed use cases with operating detail) but no quantified business-outcome metrics (e.g., % efficiency gain, $ saved) were disclosed, preventing a score of 5.",
+  "Promotional/aspirational language is present throughout; confidence adjusted downward accordingly.",
+  "230,000 views of generative AI learning resources is an internal engagement metric, not a business-outcome metric, and was weighted accordingly."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008322",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1478242/000162828026008322/iqv-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 4.3,
+  "extracted_at": "2026-06-11T18:17:09.359594+00:00"
+ }
+}

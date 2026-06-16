@@ -1,0 +1,52 @@
+{
+ "ticker": "EQR",
+ "source_document_id": "0001193125-26-051433",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "artificial intelligence responses to customer inquiries and enhanced service and maintenance management",
+    "We have incorporated and may continue to incorporate the use of generative and/or agentic artificial intelligence ('AI') within our business",
+    "Our research and development of AI remains ongoing"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "self-guided tours, artificial intelligence responses to customer inquiries and enhanced service and maintenance management",
+    "incorporated the use of generative and/or agentic artificial intelligence ('AI') within our business",
+    "business intelligence platform and other data analytics...leverage the data to understand trends and predict outcomes to improve decision making"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "rapid evolution and increased adoption of artificial intelligence technologies...may also heighten our cybersecurity risks by making cyber attacks more difficult to detect, contain and mitigate",
+    "complex and rapidly evolving landscape around AI may expose us to claims, demands and proceedings by private parties and regulatory authorities and subject us to legal liability as well as reputational harm",
+    "public perception of new technologies (including AI), such as concerns about data privacy and algorithmic bias, could affect customer acceptance of technology-driven services"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no dollar amounts, headcount figures, or quantified AI-attributable spend disclosed in excerpts; named programs present but unquantified, capping score at 3",
+  "ai_narrative_concreteness: use cases named and described as deployed (AI customer inquiry responses, self-guided tours) but no quantified business results (%, $, volume) disclosed; score capped at 4",
+  "capex_mentions: no AI-attributable dollar figures found in excerpts",
+  "risk disclosure includes company-specific mechanisms (cybersecurity amplification, regulatory exposure, reputational harm from algorithmic bias) but no quantification or named governance bodies, capping at 4"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-051433",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/906107/000119312526051433/eqr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:41:03.898765+00:00"
+ }
+}

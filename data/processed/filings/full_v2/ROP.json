@@ -1,0 +1,64 @@
+{
+ "ticker": "ROP",
+ "source_document_id": "0000882835-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "approximately $1,850 for the acquisition of CentralReach, a leading provider of SaaS and AI-enabled solutions for applied behavior analysis therapy clinicians",
+    "approximately $800 for the acquisition of Subsplash, a leading provider of AI-enabled SaaS, and integrated giving solutions, for faith-based organizations",
+    "In the last three years, we have deployed approximately $8,960 of capital toward acquisitions"
+   ],
+   "confidence": 0.82
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Increasingly, this includes AI-enabled products and functionality embedded within customers mission-critical workflows... we believe these AI capabilities enhance product differentiation, and drive incremental automation and improved customer outcomes",
+    "Aderant comprehensive management software and AI-enabled solutions for law and other professional services firms... Deltek enterprise software, SaaS, and AI-enabled information solutions for government contractors",
+    "DAT... AI-enabled analytics solutions... iPipeline cloud-based software and AI-enabled analytics solutions for the life insurance/annuities and financial services industries"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "We rely on third-party AI platforms and services, including proprietary and open-source large language models... providers may change their terms of service, increase pricing, discontinue services... our exposure to pricing changes from these providers increases",
+    "We face emerging risks from AI-powered attacks, including deepfakes used to impersonate executives or customers, AI-assisted social engineering, prompt injection attempts against AI systems, and data poisoning targeting machine learning models",
+    "The EU AI Act classifies AI systems by risk level and may prohibit certain high-risk applications, requiring significant change to product design, documentation, governance processes, and risk management practices"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "approximately $1,850 for the acquisition of CentralReach, a leading provider of SaaS and AI-enabled solutions",
+   "context": "2025 acquisition of AI-enabled ABA therapy software platform"
+  },
+  {
+   "quote": "approximately $800 for the acquisition of Subsplash, a leading provider of AI-enabled SaaS",
+   "context": "2025 acquisition of AI-enabled SaaS for faith-based organizations"
+  },
+  {
+   "quote": "approximately $8,960 of capital toward acquisitions",
+   "context": "Total capital deployed over last three years toward acquisitions, several of which are AI-enabled"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity is driven primarily by acquisition spend on AI-enabled targets; no standalone AI R&D or infrastructure capex figures are disclosed separately, so the $8,960 total acquisition figure is not fully AI-attributable.",
+  "Narrative concreteness scores 4 rather than 5 because no quantified business results (%, $, time saved) from deployed AI features are provided in the excerpts; descriptions are operational but not outcome-quantified.",
+  "Risk disclosure depth scores 4 rather than 5 because no quantified risk exposure figures or named internal AI governance oversight bodies are cited in the excerpts; mechanisms are described but not quantified."
+ ],
+ "_meta": {
+  "accession": "0000882835-26-000009",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-15T21:29:28.876208+00:00"
+ }
+}

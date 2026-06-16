@@ -1,0 +1,49 @@
+{
+ "ticker": "PGR",
+ "source_document_id": "0000080661-26-000086",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-02",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we have developed, and used for many years, new technologies, including machine learning and other forms of artificial intelligence (AI), predictive models, algorithms and automated processes",
+    "will in the future develop and use AI and other new technologies in our business"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "the growing development and use of generative and agentic AI (Advanced AI) presents additional risks that may adversely affect our business",
+    "Advanced AI might produce or reveal datasets that are flawed or insufficient or contain biased information, which could result in unintentionally and unfairly discriminatory outcomes in our business processes"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Advanced AI might produce or reveal datasets that are flawed or insufficient or contain biased information, which could result in unintentionally and unfairly discriminatory outcomes in our business processes",
+    "we are subject to new AI-focused regulations and regulatory expectations that could impose varied compliance and reporting requirements and challenges that could impact our operations or ability to write business profitably",
+    "competitors or other third parties may be able to replace legacy systems, incorporate Advanced AI into their products and operations...more quickly, or more successfully, than us"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or infrastructure commitments disclosed in the excerpts; only general references to ongoing development and use of AI technologies.",
+  "ai_narrative_concreteness: Named technology categories (generative AI, agentic AI, machine learning, predictive models) are mentioned but no specific deployed use cases with operational detail or metrics are described in the excerpts; risk-framing dominates over deployment description.",
+  "ai_risk_disclosure_depth: Risk-section material is present and substantive; scored 4 because company-specific risk mechanisms are described (discriminatory outcomes, regulatory compliance costs, competitive displacement, reputational harm) with named oversight body (Technology Committee of the Board) and named regulatory frameworks (NAIC AI model bulletin); however, no quantified risk exposure or formal mitigation program metrics are disclosed, preventing a score of 5."
+ ],
+ "_meta": {
+  "accession": "0000080661-26-000086",
+  "filing_date": "2026-03-02",
+  "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000086/pgr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T18:47:54.581538+00:00"
+ }
+}

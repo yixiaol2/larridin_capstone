@@ -1,0 +1,49 @@
+{
+ "ticker": "BSX",
+ "source_document_id": "0000885725-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our information systems require an ongoing commitment of significant resources to maintain, protect and enhance existing systems... This includes opportunities as well as risks associated with the integration of AI into our or our suppliers' or customers' operations.",
+    "We also use a managed security service provider to enhance our security operations center with AI-enabled monitoring, analysis, and threat correlation capabilities."
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We also use a managed security service provider to enhance our security operations center with AI-enabled monitoring, analysis, and threat correlation capabilities.",
+    "Digital technologies, including artificial intelligence (AI) and machine learning capabilities, have and may continue to increase in their applicability and importance to various aspects of our business... R&D pipeline and product portfolio."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "cybersecurity issues, including vulnerabilities introduced through our IT and OT systems, the use of artificial intelligence technologies, and risks arising from third-party software and service providers, are analyzed by subject matter experts... for potential financial, operational, and reputational risks",
+    "emerging technologies which increase our threat landscape, such as generative AI and quantum computing... for cyber-attacks including through enhanced social engineering, and for cyber-attacks on industry standard data protections through increased computing capabilities.",
+    "Matters determined to present potential material impacts to our financial results, operations, and/or reputation are immediately reported by management to the Board, or individual members or committees thereof"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; investment intensity scored 3 based on named AI infrastructure use (AI-enabled SOC) and general commitment language without dollar amounts.",
+  "Narrative concreteness scored 4 based on one deployed use case (AI-enabled security operations center) with operational detail, but no quantified business results are disclosed.",
+  "Risk disclosure includes named governance mechanisms (Board escalation, ERM program, crisis committee) and specific risk mechanisms (financial, operational, reputational impacts from AI vulnerabilities), supporting score 4; no quantified risk exposure disclosed to warrant score 5."
+ ],
+ "_meta": {
+  "accession": "0000885725-26-000010",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000010/bsx-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:31:32.035023+00:00"
+ }
+}

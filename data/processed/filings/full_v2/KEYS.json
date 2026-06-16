@@ -1,0 +1,51 @@
+{
+ "ticker": "KEYS",
+ "source_document_id": "0001601046-25-000127",
+ "source_type": "sec_filing",
+ "source_date": "2025-12-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have used AI capability, such as machine learning and neural network models, across many Keysight solutions to enhance our value to customers.",
+    "We continuously evolve our marketing practices and technology stack to leverage AI for innovation and productivity while supporting a data-driven approach.",
+    "We continue to evaluate and, where appropriate, integrate AI technologies into our product offerings and internal operations to enhance innovation, efficiency, and customer value."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Keysight is enabling rapid advances in AI through solutions to increase the efficiency of AI compute clusters and to accelerate the deployment of new interconnect technologies in AI data center infrastructure.",
+    "We continued to see investments in high-speed networks due to increasing need for AI capabilities in the data center infrastructure ecosystem, which drove demand for our 400G/800G Ethernet solutions, in both R&D and manufacturing.",
+    "R&D investments in terabit solutions and expanding 400G/800G transceiver manufacturing capacity to meet rising demand for AI capabilities."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "These risks include competitive disadvantages if peers more effectively leverage AI, legal, regulatory, and reputational risks in jurisdictions with evolving regulatory frameworks governing AI, data privacy, and cybersecurity.",
+    "Deployment of AI tools may result in unintended consequences such as biased or inaccurate outputs, loss or compromise of confidential information or intellectual property, and challenges in asserting or defending intellectual property rights.",
+    "New threats emerge, including the use of artificial intelligence by threat actors, it is virtually impossible to entirely eliminate this risk."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI narrative concreteness scored 4 based on named deployed use cases (400G/800G Ethernet solutions, AI compute cluster efficiency tools) with operating detail but no quantified business results (e.g., revenue share, % improvement) attributable specifically to AI products.",
+  "Risk disclosure scored 4 based on named company-specific risk mechanisms (competitive disadvantage, IP loss, regulatory compliance costs, biased outputs) but no quantified risk exposure or named governance/oversight bodies appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001601046-25-000127",
+  "filing_date": "2025-12-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1601046/000160104625000127/keys-20251031.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:02:57.941396+00:00"
+ }
+}

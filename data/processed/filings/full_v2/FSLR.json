@@ -1,0 +1,50 @@
+{
+ "ticker": "FSLR",
+ "source_document_id": "0001274494-26-000021",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We use systems and tools that incorporate AI-based technologies, including generative AI, for customers and our workforce.",
+    "Developing, testing, and deploying resource-intensive AI systems may require additional investment and increase our costs."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We use systems and tools that incorporate AI-based technologies, including generative AI, for customers and our workforce.",
+    "The development, adoption, integration, and use of generative AI technology remains in early stages, and ineffective or inadequate AI governance...could result in unintended consequences."
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms that we use may be flawed or may be based on datasets that are biased or insufficient. Any latency, disruption, or failure in our AI systems or infrastructure could result in delays or errors.",
+    "Compliance with new or changing laws, regulations, or industry standards relating to AI may impose significant operational costs and may limit our ability to develop, deploy, or use AI technologies.",
+    "Recent developments in the threat landscape include the use of AI and machine learning, as well as an increased number of cyber extortion attacks, with higher financial ransom demand amounts."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity: no dollar amounts or quantified AI-specific spend disclosed in excerpts; named internal use of generative AI tools but no program scale or budget figures provided.",
+  "AI narrative concreteness: generative AI use for customers and workforce is named but no deployment metrics, production status details, or quantified outcomes are disclosed; language around generative AI is partly cautionary/early-stage.",
+  "First Solar's primary business is solar module manufacturing; AI appears as a demand driver for its customers (data centers) and as an internal tool, not as a core product or R&D focus — AI investment intensity scored accordingly.",
+  "Capex mentions: all capex references in excerpts relate to manufacturing facility expansion, not AI-attributable spend."
+ ],
+ "_meta": {
+  "accession": "0001274494-26-000021",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000021/fslr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:45:32.476456+00:00"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "ticker": "NI",
+ "source_document_id": "0001111711-26-000027",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "we expect to construct, through GenCo, 400 MW of new battery storage and a new power generation facility consisting of two 1,300 MW CCGTs, which are expected to reach commercial operation between 2028 and 2032",
+    "we expect to incur significant additional long-term debt and issue additional equity in NiSource...to support construction of the Contract Assets",
+    "the generating capacity of the Contract Assets, when fully delivered into service, is expected to be approximately equivalent to the generating capacity of all NIPSCO s existing generating assets"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we entered into the ADS Contract, a customized agreement under which NIPSCO will provide electric service to ADS by procuring power from GenCo, which will develop related generation assets",
+    "accurately predicting future power needs of data centers due to rapidly changing technology and market dynamics",
+    "Deployment or adoption of new or emerging business technologies, including artificial intelligence, Internet of Things (IoT) devices, and cloud-based platforms...heightens our exposure to risks"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "a change in investor sentiment toward us or the utilities industry or the cloud-computing, artificial intelligence and data center industry generally could adversely affect our ability to raise the necessary capital",
+    "DATA CENTER OPERATIONS AND STRATEGY RISKS Data center growth...provide significant financial, operational, and regulatory risks...Construction delays, cost overruns or performance issues with the Contract Assets could reduce our returns",
+    "Our partnership with ADS exposes us to significant customer concentration risk...ADS has the right to terminate the ADS Contract for convenience following certain notice periods"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "400 MW of new battery storage and a new power generation facility consisting of two 1,300 MW CCGTs, which are expected to reach commercial operation between 2028 and 2032",
+   "context": "Contract Assets to be constructed by GenCo under the ADS Contract for data center power supply"
+  },
+  {
+   "quote": "significant additional long-term debt and issue additional equity in NiSource...to support construction of the Contract Assets",
+   "context": "Financing required for data center generation and transmission infrastructure build-out"
+  }
+ ],
+ "limitations": [
+  "NiSource is primarily a utility company providing power infrastructure to data center customers (notably ADS, an Amazon subsidiary); AI investment intensity score reflects large-scale power infrastructure capex tied to data center demand rather than direct AI software/hardware spend by NiSource itself.",
+  "Dollar amounts for total capex are not explicitly quoted in the excerpts; capacity figures (400 MW storage, 2x1,300 MW CCGTs) are used as proxies for scale — score of 4 reflects quantified capacity commitments without a single total dollar figure.",
+  "AI narrative concreteness scored 3 because NiSource's AI exposure is indirect (serving AI data center customers); the company names the ADS Contract and infrastructure initiatives but does not describe its own internal AI use cases in deployment.",
+  "Risk disclosure depth scored 4 because the excerpts contain an extensive dedicated 'DATA CENTER OPERATIONS AND STRATEGY RISKS' section with named, company-specific risk mechanisms (customer concentration, MISO accreditation, construction overruns, ASC 980 accounting risk, financing risk), though no quantified risk dollar amounts or named internal AI governance bodies are present."
+ ],
+ "_meta": {
+  "accession": "0001111711-26-000027",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/1111711/000111171126000027/nix-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-11T18:39:14.897212+00:00"
+ }
+}

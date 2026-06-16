@@ -1,0 +1,51 @@
+{
+ "ticker": "EXPE",
+ "source_document_id": "0001324424-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have leveraged AI by integrating it into our products and technology as well as to drive efficiencies from enhancing developer productivity and improving resolution speed in our customer service teams.",
+    "our research, development and deployment of AI technologies for internal productivity and customer or partner-facing initiatives remains ongoing. These efforts will continue to require significant investment and resources",
+    "we have continued to invest in our customer service platform technology, which leverages technology and artificial intelligence to provide our customers with online customer service options"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We have leveraged AI by integrating it into our products and technology as well as to drive efficiencies from enhancing developer productivity and improving resolution speed in our customer service teams.",
+    "We have incorporated third-party AI technology in certain of our products, services and business operations",
+    "With greatly improved product driven by the latest in machine learning and artificial intelligence capabilities, we believe we will continue to drive greater retention, repeat and direct business."
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The rapid emergence and adoption of generative and agentic AI is likely to further intensify competition... If we are unable to successfully innovate and integrate advanced AI capabilities... we may experience a loss of market share, reduced direct-booking rates, and increased marketing expenses",
+    "The rapid evolution and increased adoption of AI technologies, including agentic booking capabilities that may lack strong consent controls, may significantly increase our fraud risks",
+    "AI algorithms and training methodologies may be flawed... AI-related issues, deficiencies and/or failures could give rise to legal and/or regulatory action... damage our reputation; or otherwise materially harm our business"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific budget figures tied to AI investment were found in the excerpts; investment intensity scored 3 based on named initiatives and vendor references (AWS, third-party AI) without quantified scale.",
+  "ai_narrative_concreteness scored 4 (deployed with operating detail) but no quantified business results (%, $, time saved) were disclosed; language around outcomes remains partially promotional.",
+  "capex_mentions is empty as no specific dollar or capacity figures for AI/compute investment appeared in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001324424-26-000008",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:57:49.418239+00:00"
+ }
+}

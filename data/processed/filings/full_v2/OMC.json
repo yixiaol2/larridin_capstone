@@ -1,0 +1,51 @@
+{
+ "ticker": "OMC",
+ "source_document_id": "0000029989-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "in 2023, we entered into strategic partnerships with leading AI technology companies, enabling enhanced product and service capabilities using AI",
+    "In January 2026, we unveiled our next generation of Omni, our proprietary marketing intelligence platform... integrates... cutting-edge AI into a single operating system",
+    "These technologies may require significant and ongoing investment, involve long development cycles and uncertain returns"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Omni integrates our connected capabilities, high-quality and comprehensive identity and data infrastructure, and cutting-edge AI into a single operating system",
+    "integration of emerging AI-based tools, such as generative AI, into planning, creative advertising, media, and analytics workflows",
+    "generative AI is listed as a primary focus area alongside media, content, commerce, and branding communications"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "risks related to AI algorithms and training methodologies that may be flawed, datasets or outputs that may be over-broad, insufficient or contain biased, misleading or inaccurate information",
+    "Evolving rules, regulations and industry standards governing AI may require us to spend significantly to modify, maintain, or align our business practices... inconsistent from region to region",
+    "we may be unable to hire or retain talent who are trained in artificial intelligence, machine learning and advanced algorithms, to keep up with the rapid and ongoing technological advancements"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied to AI investment were found in the excerpts; investment intensity capped at 3 due to absence of quantified spend",
+  "Narrative concreteness scored 4 (deployed platform with operating detail) but no quantified business results (e.g., productivity %, revenue lift) were disclosed, preventing a score of 5",
+  "Promotional language present throughout business and MD&A sections; Omni platform claims reflect company assertions, not independently verified outcomes"
+ ],
+ "_meta": {
+  "accession": "0000029989-26-000006",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/29989/000002998926000006/omc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:19:09.003722+00:00"
+ }
+}

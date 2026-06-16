@@ -1,0 +1,50 @@
+{
+ "ticker": "MPWR",
+ "source_document_id": "0001437749-26-006113",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Enterprise Data: Cloud-based and on-premises CPU servers and workstations, and artificial intelligence (AI) systems — 25.2% of total revenue in 2025",
+    "DC to DC solutions are used to convert and control voltages within... AI systems, memory, storage solutions, notebooks, infotainment, power sources",
+    "Our success depends on our investment of significant resources in research and development"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Enterprise Data end market includes AI systems, contributing 25.2% of total revenue in 2025, down from 32.5% in 2024",
+    "DC to DC products used in AI systems differentiated by high degree of integration, high voltage operation, high switching speed, high energy efficiency"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Regulatory restrictions target products capable of enabling or facilitating AI, and could impact sales of our products supporting AI applications",
+    "Unauthorized use of AI tools poses risks: IP and data protection, exposure of proprietary information, misuse of IP, inability to claim ownership of AI tool outputs",
+    "EU AI Act, U.S. federal/state AI laws, Executive Orders create inconsistent compliance obligations; failure to comply could subject us to legal liability and damage reputation"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-attributable R&D or capex figures found in excerpts; AI revenue contribution is disclosed but reflects customer demand, not MPWR's own AI investment spend. Score reflects named AI product lines without quantified investment scale.",
+  "ai_narrative_concreteness: Excerpts describe AI as an end-market application for power management products but provide no deployment metrics or quantified business outcomes from AI-specific initiatives.",
+  "capex_mentions: No dollar amounts tied to AI-attributable investment appear in the provided excerpts."
+ ],
+ "_meta": {
+  "accession": "0001437749-26-006113",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1280452/000143774926006113/mpwr20251231_10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-15T21:13:18.414003+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "NTRS",
+ "source_document_id": "0000073124-26-000016",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Northern Trust will continue to enable its strategy through significant investments in talent and culture, technology, data, AI and operational excellence.",
+    "AI Risk Program - a program to identify, assess, and monitor risks from the use of AI, ensuring AI technologies operate safely, responsibly, and within Northern Trust s risk appetite.",
+    "Model Risk Management administers the enterprise-wide model risk framework...The framework also applies to artificial intelligence, machine learning, and other advanced analytics models"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Northern Trust uses a variety of machine learning and artificial intelligence (AI) solutions...These uses currently include, among others, digitizing documents, detecting anomalous, fraudulent transactions and training services teams on operational processes.",
+    "We use various systems and models, including AI-powered solutions, in analyzing and monitoring several risk categories, as well as for other business purposes.",
+    "Northern Trust has certain processes and controls in place designed to mitigate the risks associated with the use of AI solutions, including monitoring the development and applicability of such evolving laws and regulations"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "generative AI has been known to produce false or hallucinatory inferences or output...which can create inaccurate, incomplete, or misleading content, unintended biases, and other discriminatory or unexpected results",
+    "AI Risk Program - a program to identify, assess, and monitor risks from the use of AI, ensuring AI technologies operate safely, responsibly, and within Northern Trust s risk appetite.",
+    "The framework also applies to artificial intelligence, machine learning, and other advanced analytics models, which are subject to risk-based governance, independent validation, and ongoing monitoring commensurate with their complexity, materiality, and use."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex, headcount, or budget figures appear in the excerpts; investment intensity scored 3 based on named programs and dedicated governance structures without dollar amounts.",
+  "Narrative concreteness scored 4 based on named deployed use cases (document digitization, fraud detection, training services) with operational detail but no quantified business results (e.g., cost savings, volume handled).",
+  "Risk disclosure scored 5 due to named oversight bodies (AI Risk Program, Operational Risk Committee, Model Risk Management), specific risk mechanisms (hallucination, IP/data leakage, regulatory non-compliance), and governance-backed mitigation programs — though no quantified risk exposure figures are provided."
+ ],
+ "_meta": {
+  "accession": "0000073124-26-000016",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000016/ntrs-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 15,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T18:40:01.622457+00:00"
+ }
+}

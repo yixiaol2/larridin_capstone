@@ -1,0 +1,65 @@
+{
+ "ticker": "ROP",
+ "source_document_id": "0000882835-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "approximately $1,850 for the acquisition of CentralReach, a leading provider of SaaS and AI-enabled solutions for applied behavior analysis therapy clinicians",
+    "approximately $800 for the acquisition of Subsplash, a leading provider of AI-enabled SaaS",
+    "In August 2025, Roper acquired Spectrum AI, Inc., as well as the legal technology assets of Zero Cognitive Systems, Inc. (HerculesAI)"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Increasingly, this includes AI-enabled products and functionality embedded within customers mission-critical workflows",
+    "Aderant comprehensive management software and AI-enabled solutions for law and other professional services firms",
+    "DAT... freight tracking and financing, and AI-enabled analytics solutions... ConstructConnect... AI-enabled solutions focused on the pre-construction phase"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "We rely on third-party AI platforms... including OpenAI, Anthropic, Google, and Microsoft. These providers may change their terms of service, increase pricing, discontinue services",
+    "We face emerging risks from AI-powered attacks, including deepfakes used to impersonate executives or customers, AI-assisted social engineering, prompt injection attempts",
+    "The EU AI Act classifies AI systems by risk level and may prohibit certain high-risk applications, requiring significant change to product design, documentation, governance processes"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "approximately $1,850 for the acquisition of CentralReach, a leading provider of SaaS and AI-enabled solutions",
+   "context": "2025 acquisition of AI-enabled ABA therapy software platform"
+  },
+  {
+   "quote": "approximately $800 for the acquisition of Subsplash, a leading provider of AI-enabled SaaS",
+   "context": "2025 acquisition of AI-enabled SaaS for faith-based organizations"
+  },
+  {
+   "quote": "In the last three years, we have deployed approximately $8,960 of capital toward acquisitions",
+   "context": "Total three-year acquisition spend, includes AI-enabled platforms among others"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity scored 3 rather than 4/5 because disclosed dollar amounts are acquisition purchase prices for AI-enabled companies, not discrete AI capex or R&D budgets; the AI component of spend is not separately quantified",
+  "Narrative concreteness scored 4 because multiple named AI use cases are described as deployed/in-production across business units, but no quantified business results (%, $, time saved) are provided in the excerpts",
+  "Acquisition spend figures ($1,850 CentralReach, $800 Subsplash) reflect total deal values for companies described as AI-enabled, not isolated AI infrastructure investment",
+  "No earnings transcript material present; all signals derived from 10-K filing sections only"
+ ],
+ "_meta": {
+  "accession": "0000882835-26-000009",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-11T18:53:02.615678+00:00"
+ }
+}

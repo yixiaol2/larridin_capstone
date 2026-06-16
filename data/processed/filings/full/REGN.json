@@ -1,0 +1,49 @@
+{
+ "ticker": "REGN",
+ "source_document_id": "0000872589-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-04",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We are increasingly utilizing artificial intelligence ('AI')-based solutions in various facets of our operations and continue to explore further use cases for AI.",
+    "RGC utilizes laboratory automation and innovative approaches to cloud computing to achieve high-quality throughput, attaining over 3 million samples sequenced to date."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We are increasingly utilizing artificial intelligence ('AI')-based solutions in various facets of our operations and continue to explore further use cases for AI.",
+    "RGC utilizes laboratory automation and innovative approaches to cloud computing to achieve high-quality throughput"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The misuse of AI solutions in contravention of our internal policies, data protection laws, other applicable laws, or contractual requirements may give rise to liability, lead to the loss of trade secrets",
+    "The misuse of AI solutions could also result in unauthorized access and use of personal data of our employees, clinical trial participants, collaborators, or other third parties.",
+    "new regulations have recently passed or have been proposed to ensure the ethical use, privacy, and security of AI solutions and the data processed thereby"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/chip partnerships disclosed in these excerpts; cloud computing mentioned only generically in the context of genomics throughput.",
+  "ai_narrative_concreteness: AI use cases described only in broad operational terms ('various facets of our operations') with no named initiatives, deployment status, or metrics; language is largely aspirational/exploratory.",
+  "ai_risk_disclosure_depth: Risk-section material is present and discusses AI risks with company-specific mechanisms (data exposure, regulatory non-compliance, trade secret loss, bias outcomes affecting specific stakeholder groups), warranting a score of 4; however, no quantified risk exposure or named governance/oversight body is disclosed, precluding a score of 5."
+ ],
+ "_meta": {
+  "accession": "0000872589-26-000008",
+  "filing_date": "2026-02-04",
+  "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000008/regn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:51:15.576538+00:00"
+ }
+}

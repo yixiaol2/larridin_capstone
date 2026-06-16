@@ -1,0 +1,52 @@
+{
+ "ticker": "FCX",
+ "source_document_id": "0000831259-26-000012",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we may develop and apply AI in decision support systems, material characterization, equipment reliability enhancement, mineral extraction optimization and remote/autonomous operation",
+    "we utilize AI and other new technologies in our software, applications and technology platforms to enhance our capabilities in producing copper, improve business processes",
+    "pursuing opportunities to leverage new technologies and analytic tools in automation and operating practices with a goal of improving operating efficiencies and reducing costs"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we may develop and apply AI in decision support systems, material characterization, equipment reliability enhancement, mineral extraction optimization and remote/autonomous operation",
+    "Many of our business and operational processes utilize traditional and emerging technology systems, including AI, to conduct day-to-day operations, improve safety and efficiency, and lower costs",
+    "We are continuing to incorporate new applications, technologies and data analytics into our leaching processes"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The use of AI may increase our exposure to cybersecurity risks and additional risks relating to the protection of data, including increased exposure of confidential or otherwise protected information to unauthorized recipients",
+    "attacks have included and may include...those that are increasingly using AI and machine learning and quantum computing",
+    "Failure to successfully implement, advance or develop new technology systems...may adversely affect our business...Such advancements may not achieve their intended objectives"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3",
+  "AI use cases are named but described as prospective ('we may develop and apply') rather than confirmed deployed, limiting concreteness to 3",
+  "AI is primarily referenced as a demand driver for copper (FCX's product) rather than as an internal investment; internal AI deployment detail is limited",
+  "No quantified risk metrics or named AI governance bodies disclosed; risk score reflects company-specific mechanisms but stops short of quantification"
+ ],
+ "_meta": {
+  "accession": "0000831259-26-000012",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000012/fcx-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 4.1,
+  "extracted_at": "2026-06-15T20:47:30.613807+00:00"
+ }
+}

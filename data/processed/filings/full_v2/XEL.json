@@ -1,0 +1,61 @@
+{
+ "ticker": "XEL",
+ "source_document_id": "0000072903-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are transforming and expanding our electric grid to accommodate this load growth, and supporting our expanded portfolio of renewable energy",
+    "NSP-Minnesota entered into an electric service agreement to power a new Google data center in Minnesota",
+    "Requests for approval of the Electric Service Agreement and 1,900 MW of proposed renewable generation to support the data center is expected to be filed"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we fuel the rapid growth from AI and data centers, industrial electrification and electric vehicle adoption",
+    "NSP-Minnesota entered into an electric service agreement to power a new Google data center in Minnesota. Under the agreement, Google will pay all costs for its new service",
+    "Requests for approval of the Electric Service Agreement and 1,900 MW of proposed renewable generation to support the data center is expected to be filed with the MPUC by April 2026"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Advancements in artificial intelligence and large language models may increase cybersecurity threats and operational risks.",
+    "Threat actors may use artificial intelligence to enhance their attacks, increasing the frequency, sophistication and potential impact of cyber incidents affecting our IT and OT environment.",
+    "Our supply chain for procurement of digital equipment and services may expose software or hardware to these risks and could result in a breach or significant costs of remediation."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "1,900 MW of proposed renewable generation to support the data center",
+   "context": "NSP-Minnesota filing for MPUC approval of generation to power new Google data center"
+  },
+  {
+   "quote": "Google will pay all costs for its new service for the duration of the agreement",
+   "context": "Electric service agreement for Google data center in Minnesota, cost recovery mechanism"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity scored 3 (not 4) because the 1,900 MW figure is a proposed/pending regulatory filing, not yet a committed or approved capital expenditure; no dollar amount for AI-attributable capex is disclosed in these excerpts.",
+  "Xcel Energy is a utility — AI is a demand driver for its grid/infrastructure investment, not a technology it builds or deploys internally; investment intensity reflects grid expansion to serve AI customers rather than direct AI R&D or AI compute spend.",
+  "Narrative concreteness scored 4 based on a named, in-progress commercial agreement with an identified customer (Google), though quantified business results (revenue, load volumes) are not yet disclosed.",
+  "Risk disclosure scored 4 because the excerpts describe specific mechanisms (supply chain exposure, IT/OT environment impact, increased attack sophistication) but no quantification of risk or named governance/oversight body is present."
+ ],
+ "_meta": {
+  "accession": "0000072903-26-000009",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000009/xel-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T21:49:44.583131+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "DPZ",
+ "source_document_id": "0001193125-26-062321",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We may incorporate traditional and generative AI solutions into our business, and these solutions may become important in our operations over time.",
+    "We may pursue certain of those technologies and consumer offerings if we believe they offer a sustainable customer proposition and can be successfully integrated into our business model."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We may incorporate traditional and generative AI solutions into our business, and these solutions may become important in our operations over time.",
+    "the impact of new or improved technologies, including AI, and alternative methods of delivery on consumer behavior"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The continued rise in AI technologies may intensify our cybersecurity risks... The rapid evolution and continued increased adoption of AI technologies amplifies these concerns.",
+    "if we were to incorporate AI technologies which we become dependent on or fail to adopt AI in a timely or effective manner",
+    "social media and the rise of artificial intelligence-generated content has dramatically increased the rate at which negative publicity... can be disseminated before there is any meaningful opportunity to respond"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or named AI programs disclosed in the excerpts; investment intensity scored low accordingly.",
+  "All AI narrative content is aspirational/conditional ('may incorporate', 'may become important') with no named deployed use cases or metrics; concreteness capped at 2.",
+  "Risk disclosure is company-specific (reputational harm from AI-generated content, cybersecurity amplification, dependency/adoption risk) with described mechanisms, but no quantified risk exposure or named governance/oversight bodies, capping at 4.",
+  "Excerpts are exclusively from risk_factors section; no business description or MD&A sections available to assess operational AI deployment detail."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-062321",
+  "filing_date": "2026-02-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/1286681/000119312526062321/dpz-20251228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:36:05.687254+00:00"
+ }
+}

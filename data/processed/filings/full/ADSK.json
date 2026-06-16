@@ -1,0 +1,56 @@
+{
+ "ticker": "ADSK",
+ "source_document_id": "0000769397-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We dedicate considerable technical and financial resources to research and development to deliver additional automation and insights to our customers through artificial intelligence, machine learning, and generative design",
+    "Autodesk AI, reflecting nearly a decade of investment in artificial intelligence technologies used to augment, automate, and analyze customer workflows",
+    "reallocate resources to Autodesk s strategic priorities such as investments in cloud, platform, and artificial intelligence"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Autodesk AI, reflecting nearly a decade of investment in artificial intelligence technologies used to augment, automate, and analyze customer workflows",
+    "we are integrating Model Context Protocol (MCP) servers to provide a standardized foundation to support AI-enabled integrations and workflow automation for developers and partners",
+    "Autodesk acquired 100% of Aether Media, Inc., a provider of a cloud-based artificial intelligence pipeline for creating computer-generated 3D characters into live-action scenes, for total consideration of $131 million"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if the content, analyses, or recommendations that AI applications assist in producing are or are alleged to be deficient, inaccurate, or biased, our business, financial condition, and results of operations may be adversely affected",
+    "Our competitors or other third parties may incorporate AI into their products more quickly or more successfully than us, which could impair our ability to compete effectively and adversely affect our results of operations",
+    "the European Union s Artificial Intelligence Act...imposes obligations on providers and users of AI technologies. Some U.S. states have proposed, and in certain cases enacted, laws addressing aspects of the development and use of AI"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "acquired 100% of Aether Media, Inc...for total consideration of $131 million in cash",
+   "context": "Fiscal 2025 acquisition of AI pipeline company for 3D character generation"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: No quantified annual AI-specific capex or R&D dollar amounts disclosed in excerpts; restructuring reallocation to AI is mentioned but dollar amounts tied specifically to AI investment are not broken out; score capped at 3",
+  "ai_narrative_concreteness: Named platforms (Autodesk AI, Forma, Fusion, APS/MCP) and deployment described, but no quantified business results (e.g., % efficiency gains, revenue attributable to AI features) found in excerpts; score capped at 4",
+  "ai_risk_disclosure_depth: Risk section material is present and contains detailed AI risk scenarios with mechanisms (revenue/operations/compliance impact, regulatory specifics); governance/quantification of risk treatment not evidenced in excerpts"
+ ],
+ "_meta": {
+  "accession": "0000769397-26-000015",
+  "filing_date": "2026-03-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000015/adsk-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 22,
+  "maturity_index": 4.3,
+  "extracted_at": "2026-06-11T17:26:25.225942+00:00"
+ }
+}

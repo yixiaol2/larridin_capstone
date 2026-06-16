@@ -1,0 +1,49 @@
+{
+ "ticker": "PHM",
+ "source_document_id": "0000822416-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-04",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Our development, integration, and use of artificial intelligence (AI) technology in our operations remains in the early phases. We have started to assess the use of AI technology to drive productivity and analyze data.",
+    "rapidly changing technological developments including, but not limited to, the use of artificial intelligence in the homebuilding industry"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We have started to assess the use of AI technology to drive productivity and analyze data.",
+    "AI is a new and emerging technology in early stages of commercial use and presents a number of risks inherent in its use"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "We may ultimately be unsuccessful in identifying or resolving issues, such as accuracy limitations, cybersecurity risks, unintended biases, and discriminatory outputs, before they arise.",
+    "if our competitors are able to develop or leverage AI technologies more effectively than we do, including to better anticipate customer preferences, improve operational efficiency... our competitive position could be adversely affected.",
+    "malicious uses of AI such as deepfakes, to launch attacks that are increasingly difficult to detect and defend against"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or named programs disclosed; investment intensity scored 2 based on early-phase assessment language only.",
+  "Narrative concreteness limited to aspirational/assessment-stage language; no named deployed initiatives or metrics found in excerpts.",
+  "Risk disclosure is detailed and company-specific (competitive displacement, accuracy limitations, deepfake cyber threats, regulatory compliance) but lacks quantification or named governance bodies, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0000822416-26-000007",
+  "filing_date": "2026-02-04",
+  "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000007/phm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-15T21:25:37.513961+00:00"
+ }
+}

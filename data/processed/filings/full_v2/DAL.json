@@ -1,0 +1,51 @@
+{
+ "ticker": "DAL",
+ "source_document_id": "0000027904-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have made and continue to make significant investments in customer facing technology such as delta.com, the Delta app… new AI-based tools and services, and related initiatives",
+    "In 2025, we launched the beta version of Delta Concierge, an AI-powered virtual assistant within the Delta app",
+    "we are beginning to adopt artificial intelligence models to help us route and distribute bags… and make gating decisions… also using AI to optimize the frequency and timing of maintenance tasks"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we are beginning to adopt artificial intelligence models to help us route and distribute bags with short timeframes to make connections in our hubs and make gating decisions",
+    "we launched the beta version of Delta Concierge, an AI-powered virtual assistant within the Delta app, which aims to deliver real-time travel support",
+    "We are also using AI to optimize the frequency and timing of maintenance tasks to increase reliability"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Threat actors are also increasingly leveraging advanced technologies, including the use of AI and automated tools, to enhance the scale, speed and effectiveness of cyberattacks",
+    "AI enabled tools may also be used to generate, manipulate or amplify inaccurate, misleading or fabricated content… which may be difficult to promptly identify or correct",
+    "emerging laws and regulations governing the use of AI… may pose material risks to our business, including increased operational burdens and costs, regulatory enforcement, and legal claims"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-attributable spend disclosed in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "Delta Concierge described as 'beta version' — deployment is partial/early; concreteness scored 4 rather than 5 as no quantified business results are provided.",
+  "Risk disclosure includes named categories and mechanisms (cyber, reputational, regulatory) but no quantification of risk exposure or named governance body, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0000027904-26-000013",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/27904/000002790426000013/dal-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:34:12.108223+00:00"
+ }
+}

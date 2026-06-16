@@ -1,0 +1,52 @@
+{
+ "ticker": "VZ",
+ "source_document_id": "0000732712-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are using and intend to further expand the use of AI in our operations, including in the areas of network deployment and maintenance, customer and employee support services, sales, marketing and administrative functions",
+    "integrating rapidly evolving technologies, including AI, and optimizing our business and organizational structure",
+    "implement operational efficiencies and leverage the latest technological and digital capabilities... including through AI-driven technologies"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "leveraging artificial intelligence (AI) technologies and digital capabilities as a part of the customer experience in order to offer choice and convenience",
+    "networks leverage advanced technologies, including 5G wireless, fiber-based transport, cloud infrastructures, AI and automation, private networks and IP routing solutions",
+    "expand the use of AI in our operations, including in the areas of network deployment and maintenance, customer and employee support services, sales, marketing and administrative functions"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "There are technological, regulatory, ethical and other risks involved in deploying and using AI, particularly generative AI models. These risks could expose us to liability or adverse legal or regulatory consequences and harm our reputation.",
+    "rapid evolution and increased adoption of artificial intelligence technologies may intensify our cybersecurity risks by increasing the frequency and severity of cyberattacks... making cyberattacks more difficult to detect, contain or mitigate",
+    "Our investments in AI and related technologies may not result in the benefits we anticipate or enable us to obtain or maintain a competitive advantage"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases are named but described without deployment metrics or quantified outcomes; concreteness capped at 3.",
+  "Risk disclosure includes named categories (regulatory, cybersecurity, competitive, reputational, financial return) with mechanisms described, supporting score 4, but no quantified risk figures or named governance bodies appear in the excerpts.",
+  "Promotional/aspirational language present alongside named initiatives; confidence adjusted accordingly."
+ ],
+ "_meta": {
+  "accession": "0000732712-26-000007",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000007/vz-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:44:02.192106+00:00"
+ }
+}

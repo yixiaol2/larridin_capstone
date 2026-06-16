@@ -1,0 +1,49 @@
+{
+ "ticker": "TDG",
+ "source_document_id": "0001260221-25-000081",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "capital expenditures incurred from year-to-year are funded using existing cash on hand and are primarily for projects... such as automation projects",
+    "The Company estimates its capital expenditures in fiscal year 2026 to be approximately 2.50% to 3.25% of net sales"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The rapid evolution and increased adoption of artificial intelligence (AI) technologies may intensify these risks",
+    "threat actors increasingly use AI and other techniques to circumvent security controls, evade detection and remove forensic evidence"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The rapid evolution and increased adoption of artificial intelligence (AI) technologies may intensify these risks. Any failure to comply, could result in significant penalties, fines, legal challenges and reputational harm.",
+    "threat actors increasingly use AI and other techniques to circumvent security controls, evade detection and remove forensic evidence"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity: no AI-specific capex or named AI infrastructure disclosed; capex guidance (2.50%–3.25% of net sales) references automation broadly, not AI specifically, so scored 2 rather than null given generic AI/digital framing",
+  "AI narrative concreteness: AI is mentioned only in risk and threat contexts, not as a named internal initiative or deployed use case; scored 2 for aspirational/threat-framing language without named initiatives",
+  "Capex mentions: the capex percentage cited is not tied to AI specifically and therefore excluded from capex_mentions",
+  "Excerpts are pre-filtered; additional AI disclosure may exist elsewhere in the filing not visible here"
+ ],
+ "_meta": {
+  "accession": "0001260221-25-000081",
+  "filing_date": "2025-11-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1260221/000126022125000081/tdg-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 1.0,
+  "extracted_at": "2026-06-11T19:03:41.224029+00:00"
+ }
+}

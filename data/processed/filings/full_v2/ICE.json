@@ -1,0 +1,52 @@
+{
+ "ticker": "ICE",
+ "source_document_id": "0001571949-26-000004",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We employ a significant number of employees in technology-related activities, including product management, system architecture, software development, artificial intelligence, data center engineering",
+    "We also expect to continue to invest in mortgage technology, including through artificial intelligence, to streamline and automate more workflows and build new capabilities.",
+    "Leveraging artificial intelligence has been a natural extension of our growth strategy given that technology and innovation have been foundational to ICE since our inception."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "ICE Mortgage Technology's Data Document Automation, or DDA, Mortgage Analyzer solutions...streamlining data collection and validation through our automated document recognition and data extraction capabilities.",
+    "We are leveraging artificial intelligence to further our efforts to enable automation for our customers by building tools that drive efficiency and deliver enhanced analytical insights.",
+    "Data and Analytics revenues increased 4% in 2025 from 2024 driven by continued adoption of data solutions and increased purchases by existing customers."
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our artificial intelligence-related product initiatives...may give rise to risks related to accuracy, transparency, bias, discrimination, intellectual property infringement, misappropriation or leakage, defamation, data privacy and cybersecurity",
+    "artificial intelligence may allow for the commoditization of certain data pricing products...clients may use artificial intelligence to develop in-house pricing capabilities, which could reduce demand for our evaluated pricing services",
+    "the use of artificial intelligence is governed by an evolving set of laws and regulations, and there is no single global regulatory framework for artificial intelligence, which creates further uncertainties regarding compliance"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific dollar amounts or headcount figures found in excerpts; investment intensity scored 3 rather than 4 due to absence of quantified AI-attributable spend.",
+  "Data and Analytics revenue growth (4% in 2025) is cited as partial evidence of concreteness but is not exclusively AI-attributable; confidence adjusted accordingly.",
+  "No named AI governance bodies or quantified risk mitigation programs found; risk disclosure scored 4 (company-specific mechanisms described) rather than 5.",
+  "Capex mentions list is empty as no AI-attributable dollar investment figures appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001571949-26-000004",
+  "filing_date": "2026-02-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1571949/000157194926000004/ice-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:58:06.414203+00:00"
+ }
+}

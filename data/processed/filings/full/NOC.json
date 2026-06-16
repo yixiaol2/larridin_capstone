@@ -1,0 +1,50 @@
+{
+ "ticker": "NOC",
+ "source_document_id": "0001133421-26-000003",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "it is increasingly necessary to differentiate our offerings and to achieve efficiencies in our operations through digital based solutions, including artificial intelligence",
+    "invest in additional employee training, manage impacts on morale and retention and compete for candidates who possess more advanced technological skills"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Leveraging artificial intelligence in our business processes and operations can enhance our performance and enable our workforce to meet the needs of the customer",
+    "identify, adopt and integrate new digital technologies, including artificial intelligence, into our manufacturing, operations, business processes, products and services"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "artificial intelligence techniques to automate and enhance cyber attacks pose an evolving and increased level of risk to our information systems",
+    "improper use of, or failure to adequately integrate, artificial intelligence could increase costs and lead to data breaches, reputational risks",
+    "emerging and potential regulations governing the use of artificial intelligence could impose additional requirements that may increase our costs or adversely impact our speed of delivery"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or named vendor/infrastructure partnerships disclosed in the excerpts; language is generic and aspirational.",
+  "ai_narrative_concreteness: Named use cases (manufacturing, operations, business processes, products) are mentioned but no deployment status, metrics, or quantified outcomes are provided.",
+  "capex_mentions: No dollar amounts or quantified AI/compute investment figures appear in the excerpts.",
+  "Excerpts are pre-filtered; additional AI investment or use-case detail may exist elsewhere in the filing but is not visible here."
+ ],
+ "_meta": {
+  "accession": "0001133421-26-000003",
+  "filing_date": "2026-01-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:40:12.475735+00:00"
+ }
+}

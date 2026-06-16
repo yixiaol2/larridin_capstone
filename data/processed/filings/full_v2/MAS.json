@@ -1,0 +1,48 @@
+{
+ "ticker": "MAS",
+ "source_document_id": "0000062996-26-000005",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "Excerpts contain no discussion of AI investment, AI R&D, AI capex, or AI-related spending by Masco; only AI-related risk language appears."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "Excerpts contain no named AI initiatives, use cases, or deployment descriptions; AI is referenced only in risk-factor context."
+   ]
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "cybersecurity vulnerabilities...which may be increasingly exacerbated by the proliferation of and advance in artificial intelligence, pose a risk to our information technology systems and to critical third-party information technology platforms",
+    "we may be harmed if our proprietary or confidential information regarding our business is exposed through the unauthorized use of artificial intelligence technologies"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity not scorable: no AI investment, capex, or R&D spend discussed in excerpts.",
+  "ai_narrative_concreteness not scorable: no AI use cases or initiatives described in excerpts.",
+  "ai_risk_disclosure_depth scored at 3: two named, company-specific AI risk categories identified (AI-exacerbated cybersecurity threats to IT systems and third-party platforms; unauthorized AI use exposing proprietary information), but no quantified risk scenarios or named governance/mitigation programs disclosed in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000062996-26-000005",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/62996/000006299626000005/mas-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-15T21:08:53.726188+00:00"
+ }
+}

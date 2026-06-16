@@ -1,0 +1,50 @@
+{
+ "ticker": "COF",
+ "source_document_id": "0000927628-26-000024",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "A key part of our strategic focus is the development and use of efficient, flexible computer and operational systems, such as cloud or artificial intelligence (AI) technologies.",
+    "We continue to invest in building new capabilities that use new AI technologies, such as generative AI, and we expect our use of these technologies to increase over time."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We use models and AI in certain processes... determining the pricing of products, identifying potentially fraudulent transactions, grading loans, extending credit, measuring market and interest rate risks, predicting deposit levels or loan losses.",
+    "Some examples may include... personalizing customer experiences and other operational functions.",
+    "We continue to invest in building new capabilities that use new AI technologies, such as generative AI, and we expect our use of these technologies to increase over time."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Emerging generative AI capabilities, such as synthetic video, images and identity documents may introduce new risks, in the form of identity fraud and scams. Additionally, the growth of agentic commerce... may increase fraud losses.",
+    "AI may subject us to new or heightened legal, regulatory, ethical or other challenges... If the models or AI solutions... are (or are perceived to be) deficient, inaccurate, biased, unethical or controversial we could incur operational inefficiencies, competitive harm, legal liability.",
+    "The regulation of AI is rapidly evolving worldwide... Several U.S. states and foreign jurisdictions are applying (or are considering applying) their platform moderation, privacy, data protection, and data security laws and regulations to AI."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex, headcount, or budget figures appear in the excerpts; investment intensity scored 2 reflecting generic strategic commitment language only.",
+  "Narrative concreteness scored 4 based on named deployed use cases with operational detail, but no quantified business results (e.g., cost savings, efficiency metrics) were disclosed in the excerpts.",
+  "Risk disclosure is extensive and company-specific with named mechanisms (fraud, agentic commerce, regulatory compliance, hallucination), but no quantified risk exposure or named governance/oversight body was identified, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0000927628-26-000024",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.6,
+  "extracted_at": "2026-06-11T17:36:12.506393+00:00"
+ }
+}

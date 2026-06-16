@@ -1,0 +1,57 @@
+{
+ "ticker": "FFIV",
+ "source_document_id": "0001048695-25-000157",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "On September 26, 2025, the Company closed on a transaction for the acquisition of CalypsoAI Corp., a provider in enterprise AI security for $145.2 million in cash",
+    "we are pursuing partnerships with global leaders in AI to help deliver and secure AI workloads",
+    "we are innovating to create new offerings based on the rapidly evolving application and data security landscapes"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We are selling F5 solutions in support of AI data delivery, AI runtime security and AI factory load balancing use cases",
+    "Next-generation, AI enabled bot mitigation through F5 Distributed Cloud Bot Defense...leverages AI to analyze massive amounts of traffic and machine learning to ensure sustainable bot prediction models",
+    "CalypsoAI's platform brings real-time threat defense, red teaming at scale, and data security to enterprises racing to deploy generative and agentic AI"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI solutions may use algorithms, datasets, or training methodologies that are incomplete, reflect biases, or contain other flaws or deficiencies",
+    "AI-related issues could (i) give rise to legal and/or regulatory action, including with respect to proposed legislation regulating AI in jurisdictions such as the European Union...and as a result of new applications of existing data protection, privacy, intellectual property, and other laws",
+    "Our obligations to comply with the evolving legal and regulatory landscape could entail significant costs or limit our ability to incorporate certain AI capabilities into our offerings"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "acquisition of CalypsoAI Corp., a provider in enterprise AI security for $145.2 million in cash",
+   "context": "Fiscal Year 2025 acquisition closed September 26, 2025; CalypsoAI to be integrated into F5 ADSP for securing AI inference"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity scored 4 (single quantified transaction) rather than 5; no multi-year AI capex program or recurring dedicated AI budget disclosed in excerpts beyond the CalypsoAI acquisition",
+  "ai_narrative_concreteness: named use cases described as deployed/in production with operating detail, but no quantified business results (%, $, time saved) found in excerpts; score capped at 4",
+  "ai_risk_disclosure_depth: risk-section material is present and contains named company-specific risk categories and mechanisms (regulatory action, revenue/operations impact, compliance costs); no quantified risk figures or named governance oversight bodies found, so scored 4 rather than 5",
+  "Excerpts are pre-filtered; additional AI investment or risk disclosures may exist elsewhere in the full filing"
+ ],
+ "_meta": {
+  "accession": "0001048695-25-000157",
+  "filing_date": "2025-11-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1048695/000104869525000157/ffiv-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T17:58:47.481604+00:00"
+ }
+}

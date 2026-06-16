@@ -1,0 +1,48 @@
+{
+ "ticker": "EIX",
+ "source_document_id": "0000827052-26-000012",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "No AI capex, infrastructure spend, or investment commitment mentioned in the excerpts; AI appears only as a cybersecurity risk factor."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "No AI use cases, initiatives, or deployment details described in the excerpts; AI is referenced only as an external threat vector."
+   ]
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "emerging cybersecurity risks created by artificial intelligence, quantum computing, cyber skills shortages, and regulatory constraints",
+    "current security controls and defenses may also not protect against insider threats, including deliberate and unintentional actions (e.g., human error) and other emerging cybersecurity risks created by artificial intelligence"
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts are very limited; only two text windows were provided, neither containing AI investment or use-case material.",
+  "AI risk disclosure scored from mdna section language that reads like risk-factor content; no explicit [risk_factors] section label present, which slightly reduces confidence.",
+  "Risk disclosure names AI as a specific threat category (named risk category) but does not elaborate on mechanisms by which AI risk would hit revenue/operations, capping score at 3."
+ ],
+ "_meta": {
+  "accession": "0000827052-26-000012",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/827052/000082705226000012/eix-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T17:53:31.365148+00:00"
+ }
+}

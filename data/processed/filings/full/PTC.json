@@ -1,0 +1,50 @@
+{
+ "ticker": "PTC",
+ "source_document_id": "0001193125-25-291326",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-21",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We are increasingly incorporating AI capabilities into many of our products to enable our customers to become more agile and productive.",
+    "We also use AI tools internally to make certain business processes more efficient."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "This includes the growing emphasis on AI-driven transformation across our customers teams, operations, and processes. A product data foundation is the backbone of AI-driven transformation.",
+    "We are increasingly incorporating AI capabilities into many of our products to enable our customers to become more agile and productive.",
+    "statements about our anticipated financial results...our artificial intelligence initiatives...and the development of our products"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "our AI-based solutions could produce inaccurate results or have other unintended consequences, or...may expose us to lawsuits, regulatory investigations, or other proceedings, and subject us to legal liability",
+    "Inadvertent selection of AI tools that introduce bias, errors, or hallucinations...could result in violations of confidentiality obligations, laws, or regulations, jeopardize our intellectual property rights",
+    "we implement measures to address the accuracy and appropriate use of AI tools, including internal AI policies and training, these efforts may not always be successful"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or named vendor/cloud/chip partnerships disclosed in the excerpts; only generic statements about incorporating AI into products and internal use.",
+  "ai_narrative_concreteness: AI use cases are named at a category level (PLM/Windchill product suite, internal process efficiency) but no deployment metrics, production status details, or quantified results are provided; score reflects named initiatives without deployment confirmation.",
+  "capex_mentions: No dollar amounts or quantified AI/compute investment figures appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001193125-25-291326",
+  "filing_date": "2025-11-21",
+  "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312525291326/ptc-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:43:31.741572+00:00"
+ }
+}

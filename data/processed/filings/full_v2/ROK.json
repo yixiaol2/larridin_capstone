@@ -1,0 +1,57 @@
+{
+ "ticker": "ROK",
+ "source_document_id": "0001024478-25-000116",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our key priorities for inorganic investments include: industrial AI applications; market access in Europe and Asia; and product portfolio expansion.",
+    "We strive to stay competitive by continuously advancing technologies, including through the adoption and integration of artificial intelligence (AI), for new hardware and software products.",
+    "We plan to invest over $2 billion over the next five years in manufacturing facilities, digital infrastructure, and talent to support market share growth, operational resilience, and margin expansion."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We see converging megatrends including digitization and AI, energy transition and sustainability, shifting demographics, and an increased need for resiliency.",
+    "As we broaden the application of AI across product development, manufacturing, customer operations, and enterprise operations, we face evolving risks related to safety, data governance, regulatory compliance.",
+    "If we are not able to anticipate, identify, develop, and market products that respond to changes in customer preferences and emerging technological trends, including the adoption and integration of AI, demand for our products could decline."
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Integrating AI into our offerings and internal processes may lead to unintended consequences, including biased outputs, inaccurate decision-making, and increased vulnerability to adversarial attacks, that could significantly impact our business, reputation, and financial results.",
+    "As global standards and regulations relating to AI increase and change, it could result in additional costs, reputational harm, legal liability, and regulatory scrutiny related to our use of AI.",
+    "The adoption of AI has resulted in more sophisticated attacks, increasing our risk exposure... Given our commercial product offerings can be used in critical infrastructure and critical manufacturing, these threats could indicate increased risk."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "invest over $2 billion over the next five years in manufacturing facilities, digital infrastructure, and talent",
+   "context": "Five-year investment plan for manufacturing, digital infrastructure, and talent; not exclusively AI-attributed but digital infrastructure is partially AI-linked"
+  }
+ ],
+ "limitations": [
+  "The $2 billion five-year investment figure is not exclusively AI-attributable; it covers manufacturing facilities, digital infrastructure, and talent broadly, so it was not scored as a quantified AI-specific capex commitment.",
+  "AI narrative concreteness is limited to named application domains (product development, manufacturing, customer operations) without deployment status or quantified outcomes; no specific AI product names or metrics disclosed in excerpts.",
+  "AI investment intensity scored 3 rather than 4 because no dollar amount is explicitly tied to AI alone; the $2B figure is broader and the industrial AI acquisition priority is named but unquantified.",
+  "Risk section material is present in excerpts (labeled [mdna] and [risk_factors]) and contains substantive AI risk discussion, supporting a score of 4 due to named company-specific risk mechanisms (biased outputs, adversarial attacks, regulatory compliance, data governance) with described impact pathways."
+ ],
+ "_meta": {
+  "accession": "0001024478-25-000116",
+  "filing_date": "2025-11-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447825000116/rok-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 28,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:28:58.462823+00:00"
+ }
+}

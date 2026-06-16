@@ -1,0 +1,49 @@
+{
+ "ticker": "CMI",
+ "source_document_id": "0000026172-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are leveraging AI, including generative AI, machine learning and similar tools and technologies, in our product development, operations and software programming",
+    "The rapid evolution of AI...will require significant resources to develop, test and maintain our platforms, offerings, services and features to implement AI ethically"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We are incorporating AI solutions into our business, products, services and features, and we are leveraging AI, including generative AI, machine learning and similar tools and technologies, in our product development, operations and software programming",
+    "the use of artificial intelligence (AI) in our business and in our products, services and features, and challenges with properly managing its use"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The use of AI in the development of our products and services could cause loss or theft of intellectual property, as well as subject us to risks related to intellectual property infringement or misappropriation, data privacy and cybersecurity",
+    "If the AI tools that we use are deficient, inaccurate or controversial, we could incur operational inefficiencies, competitive harm, legal liability, brand or reputational harm",
+    "our personnel could, unbeknownst to us, improperly utilize AI and machine learning-technology while carrying out their responsibilities"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or capex figures disclosed in excerpts; named use cases exist but scale is unquantified, limiting score to 3",
+  "ai_narrative_concreteness: AI use cases named (product development, operations, software programming, generative AI) but no deployment metrics, production status details, or quantified outcomes disclosed; score capped at 3",
+  "capex_mentions: Data center demand growth is discussed as a revenue driver for power generation products (customer-side), not as Cummins AI-attributable capex; no AI-specific dollar investment figures appear in excerpts"
+ ],
+ "_meta": {
+  "accession": "0000026172-26-000009",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/26172/000002617226000009/cmi-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:31:54.094759+00:00"
+ }
+}

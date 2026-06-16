@@ -1,0 +1,49 @@
+{
+ "ticker": "ULTA",
+ "source_document_id": "0001104659-26-035243",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "our digital innovations such as try-on applications and AI",
+    "Failure to adapt to a rapidly changing technological environment or failure to adopt emerging technologies, including advances relating to AI and agentic commerce, in a timely manner could negatively affect our business"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "our digital innovations such as try-on applications and AI",
+    "if we are unable to match or surpass the advances in technologies and capabilities of our competitors for either external (guest)-facing or internal use cases"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "algorithms and models utilized in generative AI systems may have limitations, including biases, errors, or the inability to handle certain data types or scenarios",
+    "risk of system failures, disruptions, or vulnerabilities that could compromise the integrity, security, or privacy of data inputs or generated content",
+    "An increasing number of jurisdictions around the globe, including several U.S. states, have already proposed or enacted laws governing AI... may render the use of such technologies challenging"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or named investment programs disclosed in the excerpts; named use cases (try-on applications, agentic commerce) suggest real investment but no dollar or resource figures are provided.",
+  "ai_narrative_concreteness: Only risk-factor excerpts provided; no business/operations or MD&A sections included, limiting visibility into deployment status or quantified outcomes. Try-on applications are named but no deployment metrics or results are disclosed.",
+  "capex_mentions: No dollar amounts tied to AI investment appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001104659-26-035243",
+  "filing_date": "2026-03-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926035243/ulta-20260131x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:41:49.405806+00:00"
+ }
+}

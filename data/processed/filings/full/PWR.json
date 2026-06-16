@@ -1,0 +1,50 @@
+{
+ "ticker": "PWR",
+ "source_document_id": "0001050915-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "the investment of capital into the build out of data centers by technology customers in order to, among other things, expand cloud-based services and develop artificial intelligence (AI) training and inference, increases demand for our solutions offerings",
+    "Our acquisition of Cupertino Electric, Inc. (CEI) during 2024 also resulted in increased demand for our critical path electrical design and installation solutions from the technology and data center industry",
+    "Our acquisition of Dynamic Systems (DSI), LLC during 2025 expanded our capabilities and solutions related to turnkey mechanical, plumbing and process infrastructure solutions"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Quanta is well positioned to provide turnkey infrastructure solutions for these facilities, such as critical-path low-voltage electrical infrastructure solutions inside data centers; high-voltage substation, transformer and transmission interconnection infrastructure",
+    "we believe Quanta is well positioned to provide turnkey infrastructure solutions for these facilities, such as critical-path low-voltage electrical infrastructure solutions inside data centers (e.g., advanced manufactured and modular solutions)",
+    "We see strong demand for these services by data center, manufacturing, semiconductor and other large load facilities"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "threat actors are increasingly using tools, including artificial intelligence, that are designed to circumvent controls and evade detection",
+    "we are unable to anticipate all attacker techniques or to implement comprehensive preventative measures, particularly because threat actors are increasingly using tools, including artificial intelligence"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: Quanta is a services/infrastructure contractor — AI investment is discussed as customer-driven demand for Quanta's services, not as Quanta's own AI capex; no dollar amounts or quantified AI-specific spend by Quanta disclosed in excerpts",
+  "ai_narrative_concreteness: Named use cases (data center electrical infrastructure, modular solutions) are described as market opportunities and positioning claims rather than deployed production outcomes with metrics; score reflects named initiatives without quantified results",
+  "ai_risk_disclosure_depth: Risk-section material is present; AI risk is narrowly scoped to cybersecurity threat-actor use of AI tools — no broader AI operational, regulatory, or model-risk discussion found in excerpts"
+ ],
+ "_meta": {
+  "accession": "0001050915-26-000006",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000006/pwr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 2.1,
+  "extracted_at": "2026-06-11T18:49:36.078274+00:00"
+ }
+}

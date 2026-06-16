@@ -1,0 +1,52 @@
+{
+ "ticker": "DOW",
+ "source_document_id": "0001751788-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Investments in innovation for growth are focused on addressing market needs such as thermal management in high-performance computing and artificial intelligence applications, industrial power systems and electric vehicle electronics",
+    "The Industrial Solutions business further advanced applications in data center cooling with DOWFROST TM LC heat transfer fluid, which is specifically formulated for liquid-cooled, direct-to-chip applications",
+    "demand in consumer and electronics is expected to benefit from continued investments in artificial intelligence, data centers, and advanced devices"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "The Industrial Solutions business further advanced applications in data center cooling with DOWFROST TM LC heat transfer fluid, which is specifically formulated for liquid-cooled, direct-to-chip applications and provides exceptional corrosion protection",
+    "expanding the ramp up of previously completed investments on the U.S. Gulf Coast and in Europe to expand capacity of specialty amines and alkoxylation chemistries to serve fast-growing energy transition... end-markets",
+    "the expanding utilization of AI in Company operations, including but not limited to its manufacturing process controls, supply chain optimization, and human resources analysis"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the expanding utilization of AI in Company operations, including but not limited to its manufacturing process controls, supply chain optimization, and human resources analysis... could result in an unplanned or unintended event that could be significant in scale",
+    "The Company s use of AI software may create additional risks related to the unintentional disclosure of proprietary, confidential, personal or otherwise sensitive information",
+    "the Board has delegated responsibility for oversight of the Company s cybersecurity and information security framework and risk management to the Audit Committee of the Board... receives information and updates at least quarterly"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-attributable capex/R&D figures appear in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "AI investment is primarily on the 'selling to AI-adjacent markets' side (data center cooling fluids, thermal management materials) rather than internal AI R&D or AI compute purchases; this is credited as named AI-linked investment.",
+  "Risk disclosure depth scored 4 based on named operational risk scenarios and board/audit committee governance structure; no quantified risk figures found to justify score 5.",
+  "Excerpts do not include a standalone risk-factors section header for AI specifically, but risk-factor-adjacent material in [mdna] and [risk_factors] sections contains substantive AI risk discussion."
+ ],
+ "_meta": {
+  "accession": "0001751788-26-000018",
+  "filing_date": "2026-02-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/1751788/000175178826000018/dow-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:36:49.701468+00:00"
+ }
+}

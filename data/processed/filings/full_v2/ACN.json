@@ -1,0 +1,64 @@
+{
+ "ticker": "ACN",
+ "source_document_id": "0001467373-25-000217",
+ "source_type": "sec_filing",
+ "source_date": "2025-10-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 5,
+   "evidence": [
+    "our early and decisive decision in fiscal 2023 to invest significantly to become a leader in generative AI with a $3 billion multi-year investment has positioned us to capture this new area of spend",
+    "in fiscal 2025, we invested $1.5 billion across 23 strategic acquisitions, $0.8 billion in R&D, and approximately $1.0 billion in learning and professional development",
+    "we are continuing to incur significant development and operational costs to develop and deploy our AI solutions and services for ourselves and for our clients"
+   ],
+   "confidence": 0.95
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We have significantly embedded advanced AI into our proprietary platforms like GenWizard, which enables us to deliver differently for our clients",
+    "reaching approximately 77,000 skilled AI and data practitioners at the end of fiscal 2025, against our goal of doubling our AI and data workforce to 80,000 by the end of fiscal 2026",
+    "SynOps, our proprietary AI-powered, cloud-enabled platform that empowers people with data, processes, automation and a broad ecosystem of technology partners to transform enterprise operations"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms and training methodologies may be flawed and datasets may be overbroad, insufficient or contain biased or inaccurate information... risks related to harmful content, accuracy, bias, intellectual property infringement, defamation, data privacy, cybersecurity",
+    "Evolving rules, regulations and industry standards governing AI may require us to incur significant costs... such as the European Union's AI Act... increasing divergence globally among AI regulations",
+    "Threat actors are leveraging AI technologies to develop new hacking tools and attack vectors, exploit vulnerabilities, obscure their activities, and increase the difficulty of threat attribution"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "$3 billion multi-year investment has positioned us to capture this new area of spend",
+   "context": "Fiscal 2023 decision to invest in generative AI leadership, multi-year commitment"
+  },
+  {
+   "quote": "invested $1.5 billion across 23 strategic acquisitions, $0.8 billion in R&D",
+   "context": "Fiscal 2025 total investment including acquisitions and R&D, AI-linked"
+  },
+  {
+   "quote": "approximately $1.0 billion in learning and professional development, including approximately 47 million training hours",
+   "context": "Fiscal 2025 workforce investment including AI upskilling"
+  }
+ ],
+ "limitations": [
+  "Narrative concreteness scored 4 rather than 5 because named platforms (GenWizard, SynOps) and workforce metrics are disclosed but no quantified business outcomes (e.g., % efficiency gains, revenue attributable to AI products) appear in the excerpts.",
+  "The $3B multi-year investment and $1.5B acquisitions figures are partially overlapping; exact AI-attributable share of R&D and acquisitions is not fully disaggregated in the excerpts.",
+  "Risk disclosure scored 4 (company-specific mechanisms) rather than 5 because no quantified risk exposure amounts or formally named AI risk governance body (beyond Audit Committee cybersecurity oversight) are evident in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001467373-25-000217",
+  "filing_date": "2025-10-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737325000217/acn-20250831.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 23,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T20:04:26.543959+00:00"
+ }
+}

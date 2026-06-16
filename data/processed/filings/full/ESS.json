@@ -1,0 +1,51 @@
+{
+ "ticker": "ESS",
+ "source_document_id": "0000920522-26-000003",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We rely on, or may rely on in the future, certain key software vendors, including artificial intelligence platforms, to support business practices critical to our operations",
+    "we use artificial intelligence technologies in our business and there are significant information technology risks involved in maintaining and deploying these technologies",
+    "our failure, or our software vendors failure, to adopt, anticipate or keep pace with the new technologies, such as artificial intelligence solutions, may harm our ability to compete"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "artificial intelligence platforms, to support business practices critical to our operations, including the collection and understanding of rent, leads and leasing, and ancillary income, communication with our tenants",
+    "interaction and evaluation and/or qualification of our prospective tenants, and to provide us with data",
+    "the Company has adopted internal guidelines designed to address employee use of third-party artificial intelligence tools"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if the models underlying our artificial intelligence technologies are: incorrectly designed or implemented; trained or reliant on incomplete, inadequate, inaccurate, biased or otherwise poor quality data; used without sufficient oversight",
+    "market is currently experiencing a consolidation of and increased scrutiny on these software vendors, particularly in the multifamily space and algorithmic platforms, which may negatively impact the Company s choice of vendor and pricing",
+    "These threats may be amplified by emerging artificial intelligence technologies, which are expected to pose new or unknown cybersecurity risks and challenges, including as integrated into our or any third party s operations"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI spend, headcount, or capex figures appear in the excerpts; investment intensity scored 3 based on named vendor/platform relationships and disclosed use cases without dollar amounts.",
+  "Narrative concreteness scored 3: use cases named (leasing, rent collection, tenant qualification) but no deployment metrics or quantified outcomes disclosed.",
+  "Risk disclosure scored 4: company-specific risk mechanisms described (model errors, vendor consolidation, data quality, cybersecurity amplification) with some governance detail (internal guidelines, risk assessment processes), but no quantified risk exposure or named oversight body with formal mandate."
+ ],
+ "_meta": {
+  "accession": "0000920522-26-000003",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/920522/000092052226000003/ess-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T17:56:16.131829+00:00"
+ }
+}

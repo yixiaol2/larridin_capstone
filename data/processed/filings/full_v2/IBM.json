@@ -1,0 +1,52 @@
+{
+ "ticker": "IBM",
+ "source_document_id": "0000051143-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The company continues to invest significantly in key strategic areas, including AI, to drive revenue growth and market share gains.",
+    "IBM is investing in and offering new products and services associated with AI development, deployment, governance, and management.",
+    "IBM has moved into areas, including those that incorporate or utilize hybrid cloud, AI, quantum and other disruptive technologies, in which it can differentiate itself through responsible innovation, by leveraging its investments in R&D."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Our hybrid cloud and AI platforms allow clients to realize their digital and AI transformations across the applications, data, and environments in which they operate.",
+    "IBM is increasingly applying AI technologies to its services and products, to how it delivers solutions to IBM clients, and to its own internal operations.",
+    "IBM seeks to drive greater agility, productivity, flexibility and cost savings by continuously transforming with the use of automation, AI, agile processes and changes to the ways of working."
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If our AI technologies do not work as intended or produce unexpected outcomes, IBM's ongoing efforts to maintain and increase its market share and its profit margins, its reputation, and its competitiveness could be harmed.",
+    "The evolving global AI regulatory and legal environment may affect the company's business and the company's overall results of operations.",
+    "The increased use of AI technologies may introduce novel methods of attack... the company, its customers and other third parties could be exposed to liability, litigation, and regulatory or other government action, including debarment."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts, headcount, or capex figures tied to AI investment appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases are named at a category level (hybrid cloud, AI platforms, internal operations) but no deployment metrics or quantified business results are disclosed in these excerpts; concreteness capped at 3.",
+  "Risk disclosure describes specific mechanisms (market share impact, regulatory exposure, novel cyberattack vectors) and links them to revenue/operations/reputation, supporting a score of 4; no quantified risk figures or named governance bodies appear in these excerpts to support a score of 5.",
+  "No dollar-denominated capex or AI-specific spend figures found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000051143-26-000010",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-15T20:55:51.141850+00:00"
+ }
+}

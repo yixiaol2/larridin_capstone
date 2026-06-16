@@ -1,0 +1,48 @@
+{
+ "ticker": "AWK",
+ "source_document_id": "0001410636-26-000034",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have made and plan to continue to make significant investments in developing, deploying, integrating, enhancing and maintaining... intelligent automation technologies",
+    "meter data management and analytics, and intelligent automation technologies"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "investments in developing, deploying, integrating... customer-facing technologies, applications to support field service and customer service operations, water source monitoring technologies, meter data management and analytics, and intelligent automation technologies"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "these new technologies may be more costly or time-consuming than expected to design, develop, integrate and complete and may not ultimately deliver the expected or desired benefits",
+    "There can be no assurance that we will be successful in designing, developing, deploying, integrating or maintaining these new technologies"
+   ],
+   "confidence": 0.6
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-attributable spend disclosed in the excerpts; investment intensity scored 3 based on named programs without quantification.",
+  "The term 'AI' or 'artificial intelligence' is not used explicitly; 'intelligent automation' and 'analytics' are the closest proxies — scores reflect this indirect language.",
+  "Risk-factor excerpts focus primarily on cybersecurity controls rather than AI-specific risks; AI/automation risk language appears in item_3 rather than a dedicated risk-factors AI section.",
+  "Excerpts are limited; broader risk-factor and MD&A sections may contain additional AI-relevant disclosures not visible here."
+ ],
+ "_meta": {
+  "accession": "0001410636-26-000034",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1410636/000141063626000034/awk-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 1.3,
+  "extracted_at": "2026-06-15T20:09:11.220849+00:00"
+ }
+}

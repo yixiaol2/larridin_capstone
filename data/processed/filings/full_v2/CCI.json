@@ -1,0 +1,48 @@
+{
+ "ticker": "CCI",
+ "source_document_id": "0001051470-26-000016",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Our industry continues to experience increasing operational complexity and growing reliance on digital tools, automation, data analytics, and integrated systems, including the use of artificial intelligence.",
+    "We continue to seek to drive organizational improvement through digital transformation initiatives and modernizing our legacy IT systems."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "integration and adoption of artificial intelligence and machine learning ('AI') into our business may pose new information security risks and challenges",
+    "the adoption of other bandwidth-intensive applications (such as cloud services, artificial intelligence and video communications)"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "AI-enabled systems, as well as AI-driven techniques used by threat actors, may increase the sophistication, scale, frequency, and speed of cyberattacks targeting our information technology systems, operational technology, or sensitive data.",
+    "integration and adoption of artificial intelligence and machine learning ('AI') into our business may pose new information security risks and challenges. The increased prevalence of AI may also heighten cybersecurity and data protection risks."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts, headcount, or named AI programs found in excerpts; investment intensity scored 2 based on generic aspirational language only.",
+  "AI narrative is primarily framed as a demand driver for tower tenants and a risk factor, not as a deployed internal capability; no named AI initiatives or deployment metrics present.",
+  "Risk section material is present and does name specific AI risk categories (cybersecurity, threat actor sophistication), but no quantification or named governance bodies are disclosed, capping score at 3."
+ ],
+ "_meta": {
+  "accession": "0001051470-26-000016",
+  "filing_date": "2026-02-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147026000016/cci-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T20:31:37.136054+00:00"
+ }
+}

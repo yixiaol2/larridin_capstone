@@ -1,0 +1,65 @@
+{
+ "ticker": "AMZN",
+ "source_document_id": "0001018724-26-000004",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "We expect spending in technology and infrastructure will increase over time, which can negatively impact short-term free cash flow, as we add infrastructure and employees, including to support our artificial intelligence and machine learning initiatives",
+    "Effective January 1, 2025 we changed our estimate of the useful lives of a subset of our servers and networking equipment from six years to five years. The shorter useful lives are due to the increased pace of technology development, particularly in the area of artificial intelligence and machine learning. The effect...was an increase in depreciation and amortization expense of $1.4 billion",
+    "We further expect to continue making additional investments in our artificial intelligence initiatives."
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "AWS, which offers a broad set of on-demand technology services, including compute, storage, database, analytics, artificial intelligence and machine learning, and other services to developers and enterprises of all sizes",
+    "We are also investing in initiatives to build and deploy innovative and efficient software and electronic devices as well as other initiatives including the development of a satellite network...and autonomous vehicles for ride-hailing services",
+    "We rely on a limited group of suppliers for semiconductor products, including products related to artificial intelligence infrastructure such as graphics processing units."
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "our and our customers development and use of artificial intelligence may result in increased claims of infringement or other claims, including those based on unauthorized use of third-party technology or content",
+    "Constraints on the availability of these products [GPUs] could adversely affect our ability to develop and operate artificial intelligence technologies, products, or services",
+    "security incidents...may fail to operate as intended or be circumvented, including by use of developing technologies such as artificial intelligence"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "increase in depreciation and amortization expense of $1.4 billion and a reduction in net income of $1.0 billion",
+   "context": "Effect of shortening server/networking equipment useful lives from 6 to 5 years due to AI/ML technology pace, primarily impacting AWS segment, FY2025"
+  },
+  {
+   "quote": "Depreciation and amortization expense on property and equipment was $30.2 billion, $32.1 billion, and $41.9 billion",
+   "context": "Total D&A on property and equipment for 2023, 2024, 2025 respectively; includes data center and server infrastructure supporting AWS and AI initiatives"
+  },
+  {
+   "quote": "Property and equipment acquired but not yet paid...were $16.8 billion and $27.0 billion as of December 31, 2024 and 2025",
+   "context": "Unpaid capex commitments year-over-year, reflecting accelerating infrastructure build including AI/data center capacity"
+  }
+ ],
+ "limitations": [
+  "No explicit standalone AI capex dollar figure is disclosed; the $1.4B D&A impact is an accounting estimate change consequence, not a direct AI spend figure, limiting precision of investment intensity scoring.",
+  "AI narrative concreteness is limited by excerpts: AWS AI/ML services are named but no deployed use-case metrics or quantified business outcomes appear in the provided sections, capping score at 3.",
+  "Risk disclosure excerpts are extensive and cover multiple named AI-specific risk mechanisms (IP infringement, GPU supply constraints, cybersecurity circumvention), supporting a score of 4, but no quantified risk exposure or named governance body for AI risk was found in the excerpts.",
+  "Total capex figures in the filing are not disaggregated by AI vs. non-AI spend; AI-attributable share is inferred from contextual statements rather than explicit line items."
+ ],
+ "_meta": {
+  "accession": "0001018724-26-000004",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 27,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T18:27:16.583334+00:00"
+ }
+}

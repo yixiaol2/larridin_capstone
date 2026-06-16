@@ -1,0 +1,50 @@
+{
+ "ticker": "SJM",
+ "source_document_id": "0000091419-26-000050",
+ "source_type": "sec_filing",
+ "source_date": "2026-06-09",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "our ability to achieve our strategic and operating goals depends on our ability to identify, recruit, hire, train, and retain qualified individuals, including...expertise related to emerging technologies, such as artificial intelligence",
+    "if we are unable to...adequately leverage technology to improve operating efficiencies (including artificial intelligence, machine learning, and augmented reality)...our business performance may be impacted"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We are committed to...transforming our manufacturing, commercial, and corporate operations through digital technologies, and enhancing our data analytics capabilities",
+    "if we are unable to effectively compete in the expanding e-commerce market, adequately leverage technology to improve operating efficiencies (including artificial intelligence, machine learning, and augmented reality)"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "content produced by artificial intelligence, could damage our brands and reputation",
+    "the rapid evolution of emerging technologies such as artificial intelligence may intensify our cybersecurity risks",
+    "we are routinely subject to new or modified...laws and regulations (including new laws and regulations governing the use of artificial intelligence)"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts, headcount, or named AI programs disclosed in the excerpts; investment intensity scored low accordingly.",
+  "AI narrative is entirely aspirational/risk-framed with no named deployed initiatives or use cases; concreteness score reflects this.",
+  "Risk disclosure names specific risk categories (reputational harm via AI-generated content, cybersecurity intensification, AI regulation) but provides no quantified risk treatment or named governance bodies, capping the score at 3.",
+  "Excerpts are limited to risk_factors sections; no MD&A, business description, or capital allocation discussion is present, which may understate actual AI investment activity."
+ ],
+ "_meta": {
+  "accession": "0000091419-26-000050",
+  "filing_date": "2026-06-09",
+  "url": "https://www.sec.gov/Archives/edgar/data/91419/000009141926000050/sjm-20260430.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-15T21:00:03.206787+00:00"
+ }
+}

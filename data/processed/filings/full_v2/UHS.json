@@ -1,0 +1,59 @@
+{
+ "ticker": "UHS",
+ "source_document_id": "0001193125-26-071676",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "In July, 2023 we invested in the non-marketable securities of a healthcare generative artificial intelligence company, in which we hold a small minority ownership percentage.",
+    "$10 million spent in connection with our minority ownership interest in a healthcare generative artificial intelligence company.",
+    "non-marketable securities of a healthcare generative artificial intelligence company ($115 million and $12 million as of December 31, 2025 and 2024, respectively)"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "an increase of $93 million from an unrealized gain recorded during 2025 in connection with our minority ownership in a healthcare generative artificial intelligence company",
+    "In July, 2023 we invested in the non-marketable securities of a healthcare generative artificial intelligence company, in which we hold a small minority ownership percentage."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "emerging risks associated with ransomware, supply-chain dependencies, and the increasing use of artificial intelligence by threat actors",
+    "Our risk management practices also incorporate lessons learned from operational events, cybersecurity incidents, near misses, and changes in the external threat landscape"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "$10 million spent in connection with our minority ownership interest in a healthcare generative artificial intelligence company",
+   "context": "2025 investing activities cash flow breakdown"
+  },
+  {
+   "quote": "non-marketable securities of a healthcare generative artificial intelligence company ($115 million and $12 million as of December 31, 2025 and 2024, respectively)",
+   "context": "Balance sheet carrying value of minority equity stake in healthcare generative AI company"
+  }
+ ],
+ "limitations": [
+  "The $115 million balance sheet figure reflects current market value of the minority stake (including a $93 million unrealized gain), not cumulative cash invested; actual cash outlay appears to be approximately $10 million in 2025 plus prior-year amounts — investment intensity score reflects named but modestly scaled commitment.",
+  "The healthcare generative AI company is not named and its products/use cases are not described, limiting concreteness scoring to level 3.",
+  "Risk-section excerpts labeled 'risk_factors' contain financial results discussion rather than a traditional risk-factor section; the AI risk mention appears in item_1b (cybersecurity), which names AI as an external threat vector but does not describe company-specific AI operational or regulatory risks in depth.",
+  "No AI R&D or internal AI deployment programs are described; AI exposure is entirely through a minority financial investment."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-071676",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/352915/000119312526071676/uhs-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T21:42:52.070629+00:00"
+ }
+}

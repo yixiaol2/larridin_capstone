@@ -1,0 +1,51 @@
+{
+ "ticker": "LULU",
+ "source_document_id": "0001397187-26-000020",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We may not efficiently and effectively implement and leverage technological advancements such as AI to support these interactions, which could have an adverse impact on our results of operations",
+    "Sovereign AI initiatives… could limit our ability to deploy centralized AI tools globally and may require significant investment in region-specific infrastructure.",
+    "our increasing use of AI tools and technologies, including generative AI, introduces new security risks"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "The rapid rise of artificial intelligence ('AI') enabled shopping tools may reduce our control over consumer decision making and brand loyalty, as third party AI platforms increasingly influence product discovery",
+    "our increasing use of AI tools and technologies, including generative AI, introduces new security risks, such as adversarial manipulation of AI models, unintended data exposure"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Emerging laws and regulations governing AI, including the European Union AI Act, China's generative AI regulations, and potential U.S. federal and state AI legislation, may impose new compliance obligations",
+    "Sovereign AI initiatives… could limit our ability to deploy centralized AI tools globally and may require significant investment in region-specific infrastructure.",
+    "audit committee… responsible for overseeing… risks related to information security, cybersecurity, data protection, and AI… cybersecurity sub-committee… comprised of our Chief AI Technology Officer ('CATO'), our SVP, Chief Information Security Officer"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount figures, or quantified AI spend disclosed in the excerpts; named AI use is inferred from risk language rather than explicit investment disclosures. Score reflects named but unquantified AI deployment/adoption.",
+  "ai_narrative_concreteness: Excerpts are drawn entirely from risk-factor sections; no business/operations or MD&A sections present to reveal deployed use cases or quantified outcomes. Score reflects named initiatives/risks only.",
+  "capex_mentions: No AI-attributable dollar figures appear in the provided excerpts.",
+  "Promotional language absent; risk-factor framing means AI references describe potential harms and compliance obligations rather than strategic achievements."
+ ],
+ "_meta": {
+  "accession": "0001397187-26-000020",
+  "filing_date": "2026-03-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1397187/000139718726000020/lulu-20260201.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:06:33.698939+00:00"
+ }
+}

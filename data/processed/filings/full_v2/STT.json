@@ -1,0 +1,57 @@
+{
+ "ticker": "STT",
+ "source_document_id": "0000093751-26-000124",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Many features of our present initiatives include investment in systems integration and new technologies and also the development of new, and the evolution of existing, methods and tools, including the introduction and deployment of artificial intelligence",
+    "information systems and communications expenses increased 14% in 2025 compared to 2024, largely driven by higher technology and infrastructure investments",
+    "the implementation of complex products and services, such as State Street Alpha, wealth services, digital investment servicing or incorporating artificial intelligence, agentic artificial intelligence, blockchain and emerging quantum computing technologies requires substantial systems development and expense"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We also use artificial intelligence, generative artificial intelligence and machine learning models to automate or enhance certain business processes",
+    "All regulatory capital calculation models, including any artificial intelligence and machine learning models, must comply with the model risk management framework",
+    "new products and services, such as State Street Alpha and those related to wealth servicing, alternative investment management or digital assets or incorporating artificial intelligence"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Failure to successfully manage all of the above risks in the development and implementation of new products or services, including State Street Alpha...or incorporating artificial intelligence, could have a material adverse effect on our business and reputation, consolidated results of operations or financial condition",
+    "Weaknesses in the underlying model including input data, assumptions, parameters, or implementation, as well as inappropriate model use, could result in unanticipated and adverse consequences, including material loss and material non-compliance with regulatory requirements",
+    "These technologies introduce additional risks, including potential vulnerabilities in cryptographic protocols, interoperability challenges, and accelerated obsolescence of existing security frameworks"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "information systems and communications expenses increased 14% in 2025 compared to 2024, largely driven by higher technology and infrastructure investments",
+   "context": "2025 vs 2024 IT expense increase; not exclusively AI-attributable but linked to technology/infrastructure investments including AI deployment"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts explicitly attributed to AI specifically; the 14% IT expense increase is not exclusively AI-attributable. Named AI programs exist (State Street Alpha, agentic AI) but no AI-specific budget or capex figures disclosed in excerpts, capping score at 3.",
+  "ai_narrative_concreteness: AI use cases named (model risk, capital calculation, business process automation) and described as deployed, but no quantified business results (e.g., cost savings, efficiency metrics) provided in excerpts, capping score at 3.",
+  "ai_risk_disclosure_depth: Risk-factor sections are present and contain company-specific AI risk scenarios with mechanisms (material adverse effect on financials, model weaknesses causing losses, regulatory non-compliance), supporting score of 4; no quantified risk exposure or named AI-specific oversight body beyond the general MRC/MRM framework, which prevents score of 5.",
+  "Promotional/aspirational language present alongside operational disclosures; confidence adjusted accordingly."
+ ],
+ "_meta": {
+  "accession": "0000093751-26-000124",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000124/stt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:34:06.264724+00:00"
+ }
+}

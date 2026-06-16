@@ -1,0 +1,51 @@
+{
+ "ticker": "ETN",
+ "source_document_id": "0001551182-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Recent technological advances in artificial intelligence (AI) and machine-learning technology have presented opportunities for us to drive internal efficiencies in our business operations",
+    "adoption and integration of artificial intelligence... demand for our products could decline [if not addressed]",
+    "the development and use of artificial intelligence in our business operations, including potential impacts on compliance with law and our reputation"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "AI and machine-learning technology have presented opportunities for us to drive internal efficiencies in our business operations",
+    "introduction of AI technologies, particularly generative AI, into internal processes and/or new and existing offerings may result in new or expanded risks"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "introduction of AI technologies, particularly generative AI, into internal processes... may result in new or expanded risks... enhanced governmental or regulatory scrutiny, litigation, compliance issues, ethical concerns, confidentiality or security risks",
+    "any confidential information that is disclosed to a third-party generative AI platform could be leaked or disclosed to others, which could result in loss or theft of intellectual property",
+    "rapidly evolving legal and regulatory environment relating to AI, in the United States and globally, could also impact Eaton s implementation of AI technology, and increase compliance costs and the risk of non-compliance"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No AI-attributable dollar amounts, headcount, or quantified investment figures appear in the excerpts; AI investment intensity scored 3 (named but unquantified).",
+  "Eaton's primary AI-related disclosures concern risk factors and internal efficiency opportunities; no named AI products, platforms, or R&D programs are described, limiting concreteness to score 2.",
+  "Large acquisitions (Fibrebond $1.43B, Boyd Thermal $9.5B, Ultra PCS $1.53B) are tied to data center markets but are not explicitly linked to AI investment in the excerpts — they are infrastructure/product portfolio plays; not credited as AI-attributable capex.",
+  "AI narrative is largely aspirational/risk-framed with no deployed use cases or quantified outcomes described."
+ ],
+ "_meta": {
+  "accession": "0001551182-26-000007",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000007/etn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:38:21.372077+00:00"
+ }
+}

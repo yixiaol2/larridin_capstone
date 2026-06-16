@@ -1,0 +1,49 @@
+{
+ "ticker": "ABBV",
+ "source_document_id": "0001551152-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "AbbVie has invested significantly in equipping employees with foundational artificial intelligence (AI) skills, reflecting both the opportunities AI presents and its commitment to supporting employees as work evolves.",
+    "AbbVie utilizes AI and other emerging technologies in select applications to support its operations."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "AbbVie has invested significantly in equipping employees with foundational artificial intelligence (AI) skills.",
+    "AbbVie utilizes AI and other emerging technologies in select applications to support its operations."
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "a failure to adequately adopt emerging technologies such as artificial intelligence, could have a material adverse effect on AbbVie's business.",
+    "AI-generated analyses utilized by AbbVie could be deficient or exacerbate regulatory, cybersecurity or other significant risks.",
+    "our failure to effectively implement these technologies could hinder our ability to compete, as competitors' advancements in AI may lead to more efficient operations."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or program budgets disclosed; investment intensity scored on named but unquantified commitment.",
+  "AI use cases described only at a high level ('select applications', employee skills training); no deployment status or operational metrics provided.",
+  "Risk disclosure includes named risk categories and mechanisms (regulatory, cybersecurity, competitive disadvantage) but no quantification or named governance bodies, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0001551152-26-000008",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-15T18:26:34.074990+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "MMM",
+ "source_document_id": "0000066740-26-000014",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Rapid advances in AI may also create competitive pressures or require ongoing investment to maintain effectiveness",
+    "Emerging and evolving regulations related to AI use...may require additional investment, changes to existing processes"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Artificial intelligence (AI) technologies support a range of the Company s activities, including research and development, operational processes, customer facing tools, and other business functions.",
+    "changes in the business environment related to disruptive technologies, such as artificial intelligence and machine learning technologies"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI systems may produce inaccurate, biased, or incomplete outputs, which could lead to operational errors, reduced product or service quality, or unintentional impacts on business decisions.",
+    "Use of AI tools...increases the risk of unauthorized disclosure, loss, or misuse of confidential, personal, or commercially sensitive information.",
+    "failures to manage, govern, or deploy AI responsibly could impair the Company s ability to achieve expected efficiencies or strategic objectives."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/infrastructure partnerships disclosed in the excerpts; only forward-looking qualitative references to potential investment requirements.",
+  "ai_narrative_concreteness: Named use-case categories (R&D, operational processes, customer-facing tools) are listed but no deployment status, metrics, or specific initiative names are provided; scored 3 accordingly.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains a dedicated AI risk factor with named mechanisms (model errors, vendor dependence, data governance, regulatory compliance, competitive pressure); scored 4 for company-specific risk scenarios with described mechanisms, though no quantification or named oversight body is disclosed to warrant a 5."
+ ],
+ "_meta": {
+  "accession": "0000066740-26-000014",
+  "filing_date": "2026-02-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000014/mmm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:16:28.541251+00:00"
+ }
+}

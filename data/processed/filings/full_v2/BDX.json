@@ -1,0 +1,57 @@
+{
+ "ticker": "BDX",
+ "source_document_id": "0000010795-25-000099",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Accelerating innovation in smart devices, robotics, analytics, and artificial intelligence in order to enable new care settings, improve outcomes, streamline care workflows, and reduce costs",
+    "We have integrated (and expect to continue to integrate) AI into our products and business operations generally... expand our existing AI capabilities to include agentic solutions, as well as pursue new AI technology partnerships",
+    "Advanced Patient Monitoring is a global leader in advanced monitoring solutions... advanced AI-enabled clinical decision tools and robust innovation pipeline"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Advanced Patient Monitoring... advanced AI-enabled clinical decision tools and robust innovation pipeline that complement our existing technologies serving operating rooms and intensive care units",
+    "We have integrated (and expect to continue to integrate) AI into our products and business operations generally... expand our existing AI capabilities to include agentic solutions",
+    "The nature of our technologies and data-driven solutions amplifies privacy and data protection risks, especially as we employ cloud-based infrastructures, AI and other emerging digital capabilities"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The development, deployment and use of AI (particularly generative AI) is in the early stages and presents various risks, including from confidentiality, privacy, data protection, cybersecurity and compliance perspectives, and raises intellectual property issues",
+    "AI is increasingly being used by malicious actors to create more targeted cyberattacks and spread misinformation... could result in our and our customers personal, confidential or proprietary information being accessed, destroyed, lost, stolen",
+    "Risks associated with our development, deployment and use of AI in our products and business operations... failure to adapt to medical technology industry trends and developments related to AI in a timely manner could adversely affect our business, financial condition"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "fair value of consideration transferred in connection with the acquisition was $3.914 billion",
+   "context": "Acquisition of Edwards Lifesciences Critical Care product group (Advanced Patient Monitoring), which includes AI-enabled clinical decision tools"
+  }
+ ],
+ "limitations": [
+  "The $3.914 billion acquisition capex is only partially AI-attributable; AI-enabled tools are one component of the acquired business, not the sole stated rationale.",
+  "No standalone AI-specific R&D or capex dollar amounts are disclosed in the excerpts; investment intensity scored 3 (named programs, no quantified AI-specific spend).",
+  "Narrative concreteness scored 4 based on deployed AI-enabled products (Advanced Patient Monitoring clinical decision tools) with operating detail, but no quantified business results (e.g., outcomes metrics) were found in the excerpts.",
+  "Some AI language in risk factors is partially promotional/forward-looking; confidence adjusted accordingly."
+ ],
+ "_meta": {
+  "accession": "0000010795-25-000099",
+  "filing_date": "2025-11-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/10795/000001079525000099/bdx-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-15T20:16:10.881208+00:00"
+ }
+}

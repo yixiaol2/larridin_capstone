@@ -1,0 +1,42 @@
+{
+ "ticker": "PH",
+ "source_document_id": "0000076334-25-000035",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-22",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the increased adoption of generative artificial intelligence may increase our vulnerability to cyber and data protection risks",
+    "any adoption or deployment of or exposure to new technologies via acquisitions or internal initiatives...may increase our exposure to risks, breaches, or failures"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity not scorable: excerpts contain no discussion of AI capex, infrastructure, or investment commitments",
+  "ai_narrative_concreteness not scorable: excerpts contain only risk-factor material with no AI use-case or initiative descriptions",
+  "ai_risk_disclosure_depth scored on single risk-factor excerpt; generative AI is named as a specific risk category (cyber/data protection) tied to company operations, but no quantified risk treatment or named oversight body is present; scored 3 rather than 4 because the mechanism is stated at a general level without company-specific operational detail"
+ ],
+ "_meta": {
+  "accession": "0000076334-25-000035",
+  "filing_date": "2025-08-22",
+  "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633425000035/ph-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T18:44:44.038917+00:00"
+ }
+}

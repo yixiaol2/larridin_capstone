@@ -1,0 +1,49 @@
+{
+ "ticker": "SNA",
+ "source_document_id": "0000091440-26-000045",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Further building our proprietary databases to enhance software solutions, including using artificial intelligence (AI) to accelerate expansion in that arena",
+    "Continuing software and hardware upgrades to further improve functionality, performance and efficiency"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Further building our proprietary databases to enhance software solutions, including using artificial intelligence (AI) to accelerate expansion in that arena",
+    "technological developments and enhancements of products and service offerings in our industry may require our expanded use of artificial intelligence"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Techniques used to breach information technology systems are growing in sophistication from emerging technologies, such as advanced forms of AI, and increasingly come from threat actors of all types",
+    "increasing global regulation of privacy rights and use of AI, may also adversely affect the customers to which, and the markets into which, we sell our products",
+    "supply and demand imbalances (including due to the proliferation of AI data centers)... Energy price increases raise both our operating costs and the costs of our materials"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use case (database/software enhancement via AI) is named as a 2026 strategic priority but described as forward-looking with no deployment metrics or quantified results, limiting concreteness to 3.",
+  "Risk disclosures name specific mechanisms (cybersecurity threat sophistication, regulatory compliance costs, energy cost pass-through from AI data centers) linking AI to revenue/operations impact, supporting score 4; no quantified risk figures or named governance bodies found to justify score 5."
+ ],
+ "_meta": {
+  "accession": "0000091440-26-000045",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/91440/000009144026000045/sna-20260103.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-15T21:32:35.866658+00:00"
+ }
+}

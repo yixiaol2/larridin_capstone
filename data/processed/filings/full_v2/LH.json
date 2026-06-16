@@ -1,0 +1,52 @@
+{
+ "ticker": "LH",
+ "source_document_id": "0000920148-26-000111",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "For several years, the Company has deployed AI and machine learning tools to supplement its existing data analysis projects and support greater efficiency in its operations.",
+    "Introduced an AI learning hub to drive workforce enablement and adoption by building foundational capabilities, accelerating readiness, and supporting future innovation.",
+    "The Company deploys AI enabled tools to augment data analytics, streamline workflows, and improve access to clinically relevant information for healthcare providers."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Generative AI enabled Test Selection (Test Finder): A generative AI enabled tool that supports laboratory test search and selection by allowing providers to use plain language prompts.",
+    "Test Finder is available on Labcorp.com and integrated into Labcorp Diagnostic Assistant, enabling access to test information within the clinical workflow.",
+    "nearly 10 million enhanced CDS reports delivered to physicians and health systems to support clinical decision-making."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Improper use may lead to data leaks of sensitive, proprietary, or confidential information, flawed outputs, biased decisions, or reputational harm.",
+    "application of AI to testing could reduce demand for the Company s services, or competitors could adopt use of these technologies and derive benefits from them sooner.",
+    "emerging laws regulating AI, algorithms, and automated processing, which may increase compliance costs... Failure to comply could materially and adversely affect."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 rather than 4 or 5.",
+  "The CDS report volume (10 million) is attributed to analytics-enabled reporting broadly and may not be exclusively AI-attributable; used only as supporting context for concreteness.",
+  "No AI-specific capex or R&D spend figures disclosed in the excerpts; capex_mentions list is empty.",
+  "Risk disclosure scored 4 based on named company-specific risk mechanisms (data leaks, competitive displacement, regulatory penalties, cybersecurity via AI threat actors), but no quantified risk figures or formal named oversight body metrics were provided beyond governance structure description."
+ ],
+ "_meta": {
+  "accession": "0000920148-26-000111",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/920148/000092014826000111/lh-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T21:04:25.084407+00:00"
+ }
+}

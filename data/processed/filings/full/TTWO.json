@@ -1,0 +1,50 @@
+{
+ "ticker": "TTWO",
+ "source_document_id": "0001628280-26-037434",
+ "source_type": "sec_filing",
+ "source_date": "2026-05-22",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We are continually innovating the design and development of our products, including by investing in artificial intelligence ('AI') tools and technologies, in order to enhance game play",
+    "This uncertainty may require additional investments in oversight and the development of protections and safeguards to ensure compliance"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "investing in artificial intelligence ('AI') tools and technologies, in order to enhance game play, anticipate changes in consumer behavior, and evolve our business",
+    "The growth of AI technologies in our industry has influenced game production for developers and gaming experience for players",
+    "our internal development studios must anticipate and adapt to rapid technological changes affecting software development, such as cloud-based game streaming and AI technologies"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Any integration of any AI technologies into our products or services may result in new or enhanced governmental or regulatory scrutiny, litigation, confidentiality or security risks, ethical concerns",
+    "intellectual property ownership surrounding AI technologies has not been fully addressed by U.S. courts...use or adoption of third-party AI technologies...may result in exposure to claims of copyright infringement",
+    "as artificial intelligence capabilities develop rapidly, individuals or groups of hackers...may use these technologies to create new attack methods that are increasingly automated, targeted, coordinated"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or named vendor/infrastructure partnerships disclosed in excerpts; only generic references to investing in AI tools.",
+  "ai_narrative_concreteness: Named use cases (game production, gameplay enhancement) mentioned but no deployment status, metrics, or quantified outcomes provided; language remains largely aspirational.",
+  "capex_mentions: No dollar amounts or quantified AI/compute investment figures appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-037434",
+  "filing_date": "2026-05-22",
+  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026037434/ttwo-20260331.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 1.9,
+  "extracted_at": "2026-06-11T19:00:42.817481+00:00"
+ }
+}

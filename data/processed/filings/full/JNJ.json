@@ -1,0 +1,50 @@
+{
+ "ticker": "JNJ",
+ "source_document_id": "0000200406-26-000016",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "The Company leverages the use of data science, machine learning and other forms of AI and emerging technologies across varying parts of its business and operations",
+    "Our investments in these technologies may not result in the benefits we anticipate or enable us to obtain or maintain a competitive advantage"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The Company leverages the use of data science, machine learning and other forms of AI and emerging technologies across varying parts of its business and operations",
+    "The application of AI in our business is emerging and evolving alongside new laws and regulations that may entail significant costs"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI technology is continuously evolving, and the AI technologies we develop and adopt may become obsolete earlier than planned",
+    "The increasing use of AI and other emerging technology could also increase these risks... reputational, competitive, operational or other business harm as well as financial costs and regulatory action",
+    "multiple directives and laws (including NIS2, EHDS, the Data Act, the Cyber Resilience Act, and the AI Act) are rapidly changing privacy and cybersecurity compliance requirements while introducing new enforcement risks"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No named AI systems, vendor/cloud/chip partnerships, dedicated AI budgets, or quantified spend disclosed in excerpts; only generic references to leveraging AI and unspecified investments.",
+  "ai_narrative_concreteness: No named AI initiatives, deployment status, or quantified results present in excerpts; language is aspirational and generic about use across 'varying parts of its business'.",
+  "ai_risk_disclosure_depth: Excerpts are from item_8 (financial statements/notes section label) but content reads as risk-factor material; scored on observable content. Risk scenarios include regulatory mechanisms (EU AI Act, FDA), obsolescence, competitive disadvantage, and cybersecurity amplification — company-specific mechanisms described but no quantification or named governance bodies visible in these excerpts.",
+  "No capex dollar amounts or quantified AI/compute investment figures appear in the provided excerpts."
+ ],
+ "_meta": {
+  "accession": "0000200406-26-000016",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-11T18:22:15.143728+00:00"
+ }
+}

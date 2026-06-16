@@ -1,0 +1,50 @@
+{
+ "ticker": "LH",
+ "source_document_id": "0000920148-26-000111",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Introduced an AI learning hub to drive workforce enablement and adoption by building foundational capabilities, accelerating readiness, and supporting future innovation",
+    "The Company has established an AI governance structure that includes oversight by the Board, an AI Code of Ethics, and an ethics board that is comprised of members from compliance, law, information technology, security"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Generative AI enabled Test Selection (Test Finder): A generative AI enabled tool that supports laboratory test search and selection by allowing providers to use plain language prompts to identify clinically relevant tests",
+    "Test Finder is available on Labcorp.com and integrated into Labcorp Diagnostic Assistant, enabling access to test information within the clinical workflow",
+    "The Company deploys AI enabled tools to augment data analytics, streamline workflows, and improve access to clinically relevant information for healthcare providers"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Improper use may lead to data leaks of sensitive, proprietary, or confidential information, flawed outputs, biased decisions, or reputational harm",
+    "emerging regulations may subject the Company to new restrictions or penalties, and AI systems may be vulnerable to new security threats. These risks could result in legal liabilities, customer loss, and reputational damage",
+    "application of AI to testing could reduce demand for the Company's services, or competitors could adopt use of these technologies and derive benefits from them sooner than the Company"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific dollar amounts, GPU counts, or capex figures appear in the excerpts; investment intensity scored 3 based on named governance structures and named tools without financial scale",
+  "ai_narrative_concreteness scored 4 based on deployed named tools with operational detail; no quantified business results (e.g., efficiency %, cost savings) were disclosed in the excerpts to warrant a score of 5",
+  "Risk disclosure includes company-specific mechanisms (data leaks, competitive displacement, regulatory penalties, cybersecurity via AI threat actors) but no quantified risk exposure or formal risk-quantification program disclosed in excerpts"
+ ],
+ "_meta": {
+  "accession": "0000920148-26-000111",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/920148/000092014826000111/lh-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T18:25:50.564699+00:00"
+ }
+}

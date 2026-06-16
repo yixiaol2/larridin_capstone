@@ -1,0 +1,51 @@
+{
+ "ticker": "SNPS",
+ "source_document_id": "0000883241-25-000028",
+ "source_type": "sec_filing",
+ "source_date": "2025-12-22",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have incorporated, and are continuing to develop and deploy, AI into our products and the operations of our business.",
+    "Our EDA software stack spanning design, verification, and manufacturing is augmented with AI and machine learning through our Synopsys.ai suite of complementary solutions.",
+    "in response to recent market trends and underperformance of our Design IP segment, we are in the process of reallocating resources in our IP business to certain higher growth opportunities."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Synopsys.ai offers industry leading AI-driven workflow optimization and data analytics solutions along with Synopsys.ai Copilot generative AI assistive and creatives capabilities.",
+    "DSO.ai Design Space Optimization for best quality of results and productivity; VSO.ai Verification Space Optimization for optimal functional verification coverage and faster turnaround time.",
+    "Silicon.da Silicon data analytics for root-cause analysis and part-level traceability of failures to improve key production and silicon operational metrics."
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If we fail to develop and timely offer products with AI features, if such products fail to meet our customers demands...we may experience brand or reputational harm and lose our competitive position.",
+    "The technologies underlying AI and its uses are expected to be subject to new laws and regulations...including in the areas of intellectual property, privacy, data protection and cybersecurity.",
+    "techniques used to obtain unauthorized access...change frequently, increasingly leverage technologies such as AI, and generally are not recognized until launched against a target."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts or headcount figures tied specifically to AI R&D or AI infrastructure investment were found in the excerpts; named AI programs exist but scale is unquantified, limiting score to 3.",
+  "ai_narrative_concreteness: Multiple named AI products and use cases described with operational detail (product names, functions, deployment context), but no quantified business results (e.g., % productivity gains, revenue from AI products) found in excerpts, capping score at 4.",
+  "capex_mentions: No AI-attributable dollar figures for capex or R&D spending were present in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000883241-25-000028",
+  "filing_date": "2025-12-22",
+  "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324125000028/snps-20251031.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 28,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-15T21:35:28.715040+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "BSX",
+ "source_document_id": "0000885725-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We believe we will need to develop new and enhanced digital capabilities and competences in order to remain competitive.",
+    "We also use a managed security service provider to enhance our security operations center with AI-enabled monitoring, analysis, and threat correlation capabilities."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We also use a managed security service provider to enhance our security operations center with AI-enabled monitoring, analysis, and threat correlation capabilities.",
+    "Digital technologies, including artificial intelligence (AI) and machine learning capabilities, have and may continue to increase in their applicability and importance to various aspects of our business."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "cybersecurity issues, including vulnerabilities introduced through our IT and OT systems, the use of artificial intelligence technologies, and risks arising from third-party software and service providers, are analyzed by subject matter experts",
+    "emerging technologies which increase our threat landscape, such as generative AI and quantum computing...for cyber-attacks including through enhanced social engineering",
+    "Matters determined to present potential material impacts to our financial results, operations, and/or reputation are immediately reported by management to the Board"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or R&D spend tied specifically to AI found in excerpts; investment intensity capped at 3.",
+  "AI narrative concreteness is limited to one named deployed use case (AI-enabled SOC monitoring); no quantified business results disclosed, capping score at 4.",
+  "Risk disclosure references Board-level escalation and ERM program governance but does not quantify risk exposure or name a dedicated AI risk oversight body beyond general cybersecurity governance."
+ ],
+ "_meta": {
+  "accession": "0000885725-26-000010",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000010/bsx-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:18:32.292643+00:00"
+ }
+}

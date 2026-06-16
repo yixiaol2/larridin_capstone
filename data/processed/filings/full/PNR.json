@@ -1,0 +1,50 @@
+{
+ "ticker": "PNR",
+ "source_document_id": "0000077360-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we are incorporating artificial intelligence solutions into our products, services and features, and we are leveraging artificial intelligence, including generative artificial intelligence and machine learning, in our product development, operations and software programming",
+    "The rapid evolution of artificial intelligence...will require significant resources to develop, test and maintain our platforms, offerings, services and features"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "we are incorporating artificial intelligence solutions into our products, services and features, and we are leveraging artificial intelligence, including generative artificial intelligence and machine learning, in our product development, operations and software programming",
+    "Our competitors or other third parties may incorporate artificial intelligence into their products or operational processes more quickly or more successfully than us"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "threat actors will leverage emerging technology, such as artificial intelligence, to exploit vulnerabilities. These threats pose a risk to the security of our systems and networks and the confidentiality, availability and integrity of the data we process",
+    "Use of artificial intelligence tools or technology may also result in inaccurate results that could cause mistakes in the Company's decision-making or other business activities, which may have a material adverse impact",
+    "Use of artificial intelligence tools or technology may also result in claims against us alleging violation of third-party intellectual property rights"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 2 based on generic directional language only.",
+  "AI narrative concreteness scored 2 because no named initiatives, deployment status, or metrics are disclosed — language is aspirational and categorical rather than specific.",
+  "Risk disclosure scored 4 because multiple company-specific risk mechanisms are described (cybersecurity exploitation, IP claims, decision-making errors, confidential data exposure), though no quantified risk figures or named governance bodies appear in the excerpts.",
+  "Excerpts are limited to risk_factors sections; no MD&A, business description, or earnings commentary is present, which may understate investment intensity and narrative concreteness."
+ ],
+ "_meta": {
+  "accession": "0000077360-26-000007",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/77360/000007736026000007/pnr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T18:45:45.173996+00:00"
+ }
+}

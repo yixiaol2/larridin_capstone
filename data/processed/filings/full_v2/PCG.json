@@ -1,0 +1,58 @@
+{
+ "ticker": "PCG",
+ "source_document_id": "0001004980-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Utility has identified opportunities for investment in the coming years including investments in transmission for data centers and system investments, transportation electrification capacity, hydroelectric facilities, energy storage, information technology, and automation.",
+    "The Utility expects customer electric load to increase in coming years primarily as a result of data center usage, electric vehicle adoption, and building electrification."
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The Utility has identified opportunities for investment in the coming years in addition to its forecast, including investments in transmission for data centers and system investments... information technology, and automation.",
+    "The Utility expects customer electric load to increase in coming years primarily as a result of data center usage."
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "personal information... could nonetheless become compromised or improperly disclosed, including through the use of generative artificial intelligence or as a result of a cyber incident, human error, the misappropriation of data.",
+    "artificial intelligence, including generative artificial intelligence, may be used to facilitate or perpetrate these cybersecurity threats... the Utility may not be able to prevent unauthorized access to its operational networks."
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Total capital expenditures recorded in 2025 were $13.4 billion",
+   "context": "2025 actual capex; not AI-attributable specifically"
+  },
+  {
+   "quote": "forecasted to be $12.4 billion for 2026, $13.4 billion for 2027, $15.4 billion for 2028, $16.3 billion for 2029, and $16.0 billion for 2030",
+   "context": "Multi-year capex forecast; includes data center transmission but not AI-attributable in isolation"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity: the excerpts reference data center load growth and automation as investment opportunities but do not isolate AI-specific capex from the broader $13.4B figure; scored 3 (named but unquantified AI-attributable investment).",
+  "AI narrative concreteness: AI is mentioned primarily in the context of cybersecurity risk and indirectly as a driver of data center load; no named AI deployment programs or use cases with operational detail are described.",
+  "Capex figures are total utility capex; no AI-attributable subset is disclosed in these excerpts.",
+  "Risk disclosure: excerpts appear to be from the business/risk section and describe specific mechanisms (generative AI enabling data compromise, AI-facilitated cyberattacks on operational networks), supporting a score of 4; no quantification or named governance body found to justify score 5."
+ ],
+ "_meta": {
+  "accession": "0001004980-26-000009",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000009/pcg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:19:40.543694+00:00"
+ }
+}

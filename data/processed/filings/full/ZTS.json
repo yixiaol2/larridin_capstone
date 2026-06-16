@@ -1,0 +1,51 @@
+{
+ "ticker": "ZTS",
+ "source_document_id": "0001555280-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have been investing in data and digital capabilities, including incorporating the use of certain AI capabilities into the development of new technologies and products",
+    "added AI urine sediment analysis to the Vetscan Imagyst platform and launched Vetscan OptiCell TM a cartridge-based, AI powered hematology analyzer",
+    "We incorporate (and expect to continue incorporating) AI capabilities in the development of new technologies and products and continue to expand the use of AI"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "In 2023, the company enhanced its Vetscan Imagyst platform by adding AI dermatology and AI fecal for equine, which uses image recognition technology, algorithms and cloud-based AI",
+    "In 2024, the company added AI urine sediment analysis to the Vetscan Imagyst platform and launched Vetscan OptiCell TM...provides advanced Complete Blood Count (CBC) analysis",
+    "In 2025, the company added AI Masses, which detects potentially neoplastic cells, to the Vetscan Imagyst platform"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "EU AI Act prohibits certain AI systems that are categorized as High Risk, and requires certain disclosures about the use of AI tools...rapidly changing regulatory complexities may increase our compliance costs",
+    "risk that confidential information, including material non-public information, trade secrets or personal identifiable information, is input into AI applications, resulting in such information becoming accessible by third parties",
+    "Disruption or failure of our AI systems, or those of various third parties on whom we rely on, could lead to delays and operational challenges, as well as compliance and reputational issues"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; investment intensity scored 3 based on named systems and ongoing program descriptions only.",
+  "ai_narrative_concreteness scored 4 (deployed with operating detail) based on named, production-deployed Vetscan Imagyst features across multiple years; no quantified business results (e.g., volume, accuracy %, revenue) were disclosed in the excerpts.",
+  "Risk disclosure scored 4 rather than 5: specific mechanisms (regulatory, IP, confidentiality, operational disruption) are described with named frameworks (EU AI Act, NIS2, US state laws), but no quantified risk exposure or named internal AI governance/oversight body is cited in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001555280-26-000011",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1555280/000155528026000011/zts-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T19:15:57.750988+00:00"
+ }
+}

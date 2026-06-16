@@ -1,0 +1,60 @@
+{
+ "ticker": "MRSH",
+ "source_document_id": "0000062709-26-000022",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-09",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we created a new unit, Business Client Services ('BCS') to accelerate innovation and centralize investments in operational excellence, data, AI and other analytics",
+    "We are actively investing in generative AI tools. While our internal generative AI tool, LenAI, was designed to meet our standards for data security",
+    "We have a number of strategic initiatives involving investments in, or partnerships with, technology companies...as well as investments in technology, including generative AI, and infrastructure"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "our internal generative AI tool, LenAI, was designed to meet our standards for data security and to address and mitigate the risks associated with this new technology",
+    "Since the launch of our AI Academy in August 2024, more than 46,000 colleagues have received their AI Academy credentials",
+    "Oliver Wyman includes the following specializations: Actuarial, AI Transformation, Climate and Sustainability, Customer Innovation and Growth"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the advance of AI and large language models has given rise to additional vulnerabilities...Attackers may develop AI agents to fully automate the attack cycle, which could discover new and unexploited applications",
+    "emerging AI-related laws such as the EU's AI Act, the AI Transparency Act of California and the AI Act of Colorado...complying with these evolving legal and regulatory frameworks is likely to be both challenging and costly",
+    "While we have implemented certain mitigation measures and governance related to the proliferation of AI tools, these measures may be inadequate or may not satisfy a growing number of legal and regulatory requirements"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "the Company expects to incur approximately $500 million of cost over the three years",
+   "context": "Three-year Thrive program costs covering severance, technology and outside services; BCS centralizes investments in AI and analytics"
+  },
+  {
+   "quote": "Total annualized savings are expected to be approximately $400 million",
+   "context": "Expected savings from Thrive program including process and automation efficiencies"
+  }
+ ],
+ "limitations": [
+  "The $500 million Thrive program cost is not exclusively attributed to AI; it covers severance, technology broadly, and outside services — AI share is not separately quantified, limiting ai_investment_intensity to score 3 rather than 4",
+  "LenAI deployment is described with operating detail but no quantified business results (e.g., productivity gains, cost savings), capping ai_narrative_concreteness at 4",
+  "Risk disclosure is detailed and company-specific with named mechanisms (regulatory, cyber, competitive) but no quantified risk exposure or formally named AI governance body, capping ai_risk_disclosure_depth at 4"
+ ],
+ "_meta": {
+  "accession": "0000062709-26-000022",
+  "filing_date": "2026-02-09",
+  "url": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000022/mrsh-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 15,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-11T18:30:03.087656+00:00"
+ }
+}

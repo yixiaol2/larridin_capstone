@@ -1,0 +1,51 @@
+{
+ "ticker": "KEY",
+ "source_document_id": "0001628280-26-010546",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We use, and will increasingly use AI, including through third party vendors acting on our behalf and other counterparties, in connection with our business and operations.",
+    "in order to compete with other banks and financial institutions effectively, we must incorporate new and emerging AI technology into our business"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Some models we use employ methodologies based on artificial intelligence or machine learning... may involve some additional complexities, such as the need for large datasets for training, the potential for algorithmic bias",
+    "Increased model and generative AI use could expose us to liability or adverse legal or regulatory consequences",
+    "our use of emerging technology-based products and services, including cloud computing and artificial intelligence may introduce new and evolving cybersecurity risks"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The models underlying AI that we may leverage... may be incorrectly or inadequately designed or implemented and trained on... data or algorithms that are incomplete, inadequate, misleading, biased, or otherwise flawed",
+    "If the AI that we leverage is flawed in such ways, we may make inaccurate or ineffective decisions and otherwise incur operational inefficiencies, compliance issues, competitive and reputational harm, adverse legal and regulatory actions",
+    "The legal and regulatory environment relating to AI is uncertain and evolving, and any changes to applicable laws and regulations could require changes to our use of AI technology and could cause an increase in associated costs"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or named vendor/infrastructure partnerships disclosed in the excerpts; only generic statements about current and future AI use.",
+  "ai_narrative_concreteness: Named use cases (ML-based risk models, generative AI) are referenced but no deployment metrics or quantified business outcomes are provided; score reflects named initiatives without production detail.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains detailed company-specific AI risk mechanisms (model flaws, regulatory uncertainty, reputational harm, operational inefficiency) with described causal pathways, justifying score 4; no quantified risk figures or named governance bodies found to reach score 5.",
+  "capex_mentions: No dollar amounts tied to AI or compute investment appear in the excerpts; data center figures in the CRE loan table reflect lending exposure, not KeyCorp's own capex."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-010546",
+  "filing_date": "2026-02-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/91576/000162828026010546/key-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T18:23:48.398701+00:00"
+ }
+}

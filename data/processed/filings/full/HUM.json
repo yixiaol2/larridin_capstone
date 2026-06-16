@@ -1,0 +1,50 @@
+{
+ "ticker": "HUM",
+ "source_document_id": "0000049071-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "These systems require an ongoing commitment of significant resources to maintain, protect, and enhance existing systems and develop and integrate new systems, including systems powered by or incorporating artificial intelligence and machine learning (including generative AI)",
+    "automate and deploy new technologies to simplify administrative processes and clinical decision making"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "automate and deploy new technologies to simplify administrative processes and clinical decision making",
+    "develop new and innovative products and services (including enhanced technologies that improve... tions for engaging in their health care)",
+    "systems powered by or incorporating artificial intelligence and machine learning (including generative AI) (AI/ML)"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "changes to laws, regulations and guidance regarding how we may use AI/ML could make it harder for us to conduct our business using AI/ML, require us to retrain our AI/ML, delete data produced by our AI/ML",
+    "if our use of AI/ML technologies were to result in inaccuracies, biases or errors, we could have operational disruptions, problems in determining medical cost estimates and establishing appropriate pricing",
+    "techniques used to obtain unauthorized access...are increasing in sophistication, in part due to use of evolving AI/ML technologies (including generative AI)"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no quantified AI spend, headcount, or capex figures appear in the excerpts; named use cases and commitment language support score 3 but not higher",
+  "ai_narrative_concreteness: use cases named (clinical decision-making, administrative automation, member-facing products) but no deployment status, metrics, or quantified outcomes disclosed in these excerpts",
+  "excerpts are exclusively from risk_factors section; business/MD&A sections with potentially more concrete deployment detail are not present, which may understate both investment intensity and narrative concreteness"
+ ],
+ "_meta": {
+  "accession": "0000049071-26-000009",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000009/hum-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-11T18:15:57.046503+00:00"
+ }
+}

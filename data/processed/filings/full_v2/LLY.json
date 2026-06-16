@@ -1,0 +1,51 @@
+{
+ "ticker": "LLY",
+ "source_document_id": "0000059478-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have expanded relationships with contract manufacturing organizations, entities supporting consumer directed access channels, artificial intelligence vendors, and other third parties in recent periods",
+    "we have also entered into, and may continue to enter into, partnerships and collaborations relating to the use of AI technology to aid in drug discovery and other efforts",
+    "there can be no assurance that our usage of AI or our significant investments in AI will enhance our products or services"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We deploy AI and other emerging technologies in various facets of our operations and we continue to explore the development and use of AI technologies",
+    "partnerships and collaborations relating to the use of AI technology to aid in drug discovery and other efforts",
+    "rapid advancement of these technologies presents opportunities for us in research, manufacturing, commercialization, and other business endeavors"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "algorithms and models utilized in AI systems may have limitations, including biases, errors, insufficient or erroneous training data, or inability to handle certain data types",
+    "use of AI technologies could lead to unintended consequences, such as data leakage, healthcare fraud and abuse, cybersecurity incidents, intellectual property infringement",
+    "developing laws and regulations related to AI...may require significant resources to adjust business practices for compliance...such as the EU Artificial Intelligence Act"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no dollar amounts or quantified AI spend disclosed in excerpts; 'significant investments in AI' is referenced but not quantified, capping score at 3",
+  "ai_narrative_concreteness: named use cases (drug discovery, manufacturing, commercialization) are described but no deployment metrics or quantified outcomes are provided; language mixes deployed ('we deploy') with exploratory ('we continue to explore')",
+  "capex_mentions: no specific dollar figures tied to AI investment appear in the excerpts"
+ ],
+ "_meta": {
+  "accession": "0000059478-26-000013",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T20:39:23.761961+00:00"
+ }
+}

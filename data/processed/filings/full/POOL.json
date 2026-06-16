@@ -1,0 +1,49 @@
+{
+ "ticker": "POOL",
+ "source_document_id": "0001193125-26-074833",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we are integrating artificial intelligence to support our internal business functions and exploring additional uses for the future",
+    "In recent years, we have increased our investment in technology and automation enabling us to operate more efficiently"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "As part of our broader digital transformation strategy, we are integrating artificial intelligence to support our internal business functions and exploring additional uses for the future",
+    "we aim to develop and use AI responsibly"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms and training methodologies may be flawed... AI-related issues, deficiencies and failures could also give rise to legal or regulatory action",
+    "Our obligations to comply with the evolving legal and regulatory landscape could entail significant costs or limit our ability to incorporate certain AI capabilities",
+    "the increasing use of machine learning, artificial intelligence (AI) and other sophisticated techniques to initiate cyber attacks and social engineering threats, such as phishing or deepfake schemes"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts or quantified AI-specific spend disclosed; general technology capex (~1% of net sales) is not attributed to AI specifically",
+  "ai_narrative_concreteness: AI use described only in aspirational/exploratory terms with no named initiatives, deployed systems, or quantified outcomes; promotional language noted",
+  "ai_risk_disclosure_depth: Risk-section material is present; scored 4 because specific risk mechanisms are described (regulatory compliance costs, legal liability, operational failures, jurisdiction-specific legislation) though no quantification or named governance body specifically for AI risk beyond the general Audit Committee oversight"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-074833",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/945841/000119312526074833/pool-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-11T18:47:20.194018+00:00"
+ }
+}

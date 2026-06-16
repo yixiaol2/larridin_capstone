@@ -1,0 +1,49 @@
+{
+ "ticker": "LNT",
+ "source_document_id": "0000352541-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Alliant Energy, IPL and WPL currently plan to make investments in technology to enhance productivity and efficiency through automation and customer self-service.",
+    "construction and acquisition expenditures for 2026 through 2029 are currently anticipated... focused on adding renewable generation and energy storage projects and dispatchable gas generation projects to meet growing customer demand"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Emerging artificial intelligence technologies may be used to develop new hacking tools, exploit vulnerabilities, obscure malicious activities, and increase the difficulty detecting threats.",
+    "investments in technology to enhance productivity and efficiency through automation and customer self-service"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Emerging artificial intelligence technologies may be used to develop new hacking tools, exploit vulnerabilities, obscure malicious activities, and increase the difficulty detecting threats.",
+    "Our ability to manage the development and implementation of complex business opportunities related to the growing demand for data centers may be limited by financial, operational, or regulatory factors.",
+    "Federal, state or local legislation, rulemaking, or siting standards that specifically restrict or delay the zoning, siting or operation of data centers could reduce or defer expected load growth"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity: No dollar amounts or quantified AI-specific capex are disclosed in the excerpts; the multi-year capex table references data center load growth and technology broadly but does not isolate AI spend.",
+  "AI narrative concreteness: AI is mentioned primarily in the context of cybersecurity threat vectors (adversarial AI use), not as a deployed internal capability; no named AI initiatives or production deployments are described.",
+  "AI risk disclosure: Risk sections are present and do name AI as a cybersecurity threat vector and data center demand driver, but mechanisms are described at a category level rather than with quantified scenarios or named governance bodies, limiting score to 3."
+ ],
+ "_meta": {
+  "accession": "0000352541-26-000007",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000007/lnt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-11T17:01:30.261704+00:00"
+ }
+}

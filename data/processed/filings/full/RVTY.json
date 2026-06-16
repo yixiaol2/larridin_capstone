@@ -1,0 +1,51 @@
+{
+ "ticker": "RVTY",
+ "source_document_id": "0000031791-26-000012",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Advancing the use of Artificial Intelligence (AI) to further strengthen our differentiated offerings and to drive internal operating efficiencies",
+    "The development of AI technology will require significant investment in resources and human capital and could increase our costs",
+    "we are in the initial phases of expanding AI into the core functions of our business"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Phenologic.AI software...uses a pre-trained deep-learning image-analysis model to enable analysis of brightfield images...Nuclei AI building block enables reliable nucleus detection without staining",
+    "EUROPattern Classifier 2.4 AI-enhanced software...offers automatically generated result proposals from images captured with the all-in-one IFA instrument",
+    "Revvity Transcribe AI innovative OCR service designed to convert handwritten text on test request forms into a digitized format"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms utilized in the deployment may be flawed or based on datasets that are biased or insufficient, and do not adequately take into account the underlying nature of our business",
+    "Our competitiveness could also be negatively impacted by our failure to timely develop or deploy AI in our products and services, particularly if our competitors are successful",
+    "There is uncertainty related to the legal and regulatory landscape surrounding rapidly evolving AI technologies, particularly in the areas of cybersecurity, intellectual property, and privacy"
+   ],
+   "confidence": 0.83
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; investment intensity scored 3 based on named initiatives and strategic commitment language only.",
+  "ai_narrative_concreteness scored 4 based on named deployed products with operational detail; no quantified business results (e.g., throughput improvements, cost savings) were present to support a score of 5.",
+  "Risk disclosure scored 4 due to company-specific mechanisms described (biased datasets, employee training failures, competitive disadvantage, regulatory exposure); no quantified risk figures or named governance bodies were present to support a score of 5."
+ ],
+ "_meta": {
+  "accession": "0000031791-26-000012",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000012/revv-20251228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T18:52:12.974493+00:00"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "ticker": "CSX",
+ "source_document_id": "0000277948-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "if CSX is unable to successfully acquire, develop, implement, or update new or existing technology, including artificial intelligence, it may suffer adverse financial impacts or a competitive disadvantage"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "if CSX is unable to successfully acquire, develop, implement, or update new or existing technology, including artificial intelligence, it may suffer adverse financial impacts or a competitive disadvantage"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "increased maturity of artificial intelligence leveraged by threat actors, the Company may be required to expend significant additional resources to modify or enhance its protective measures",
+    "if CSX is unable to successfully acquire, develop, implement, or update new or existing technology, including artificial intelligence, it may suffer adverse financial impacts or a competitive disadvantage"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no named AI programs, dollar amounts, or quantified commitments disclosed in excerpts; only risk-framed references to AI adoption",
+  "ai_narrative_concreteness: AI references are entirely risk-factor framing with no named initiatives, use cases, or deployment details; scored 2 for aspirational/risk-framed language rather than 1 because a specific technology category (AI) is named in context of competitive and cybersecurity risk",
+  "No operational, MD&A, or business-description sections included in excerpts; actual AI investment or deployment detail may exist elsewhere in the filing but cannot be scored here"
+ ],
+ "_meta": {
+  "accession": "0000277948-26-000006",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000006/csx-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-15T20:21:41.018275+00:00"
+ }
+}

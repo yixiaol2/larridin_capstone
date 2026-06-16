@@ -1,0 +1,50 @@
+{
+ "ticker": "EA",
+ "source_document_id": "0001628280-26-033617",
+ "source_type": "sec_filing",
+ "source_date": "2026-05-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are investing, and intend to continue to invest, in research and development to incorporate artificial intelligence into our products and services",
+    "We expect developments in artificial intelligence or our investments in artificial intelligence to accelerate the production of our products and services and enable new experiences"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we are investing, and intend to continue to invest, in research and development to incorporate artificial intelligence into our products and services",
+    "We are integrating artificial intelligence tools and technologies into our business and development processes"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The use of artificial intelligence might present social and ethical issues that, if not managed appropriately, may result in legal and reputational harm, cause consumers to lose confidence in our business",
+    "as artificial intelligence capabilities develop rapidly, individuals or groups of hackers...may use these technologies to create new sophisticated attack methods that are increasingly automated, targeted and coordinated",
+    "We are integrating artificial intelligence technologies into our business...it is possible that we could become subject to new regulations...that could negatively impact our operational and financial results"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3",
+  "AI use cases named (integration into development processes, product acceleration) but no deployment metrics or quantified outcomes disclosed; concreteness capped at 3",
+  "Risk disclosures describe specific mechanisms (reputational harm, cybersecurity attack vectors, regulatory exposure) but no quantification or named governance/oversight bodies, capping risk depth at 4",
+  "MDNA excerpt contains no AI-specific financial detail"
+ ],
+ "_meta": {
+  "accession": "0001628280-26-033617",
+  "filing_date": "2026-05-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/712515/000162828026033617/ea-20260331.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:39:01.736929+00:00"
+ }
+}

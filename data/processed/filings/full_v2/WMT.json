@@ -1,0 +1,60 @@
+{
+ "ticker": "WMT",
+ "source_document_id": "0000104169-26-000055",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "Our strategy includes allocating the majority of our capital to higher-return areas focused on automation such as eCommerce, supply chain and store and club investments... Supply chain, customer-facing initiatives, technology and other $16,468 [million fiscal 2026]",
+    "investments in eCommerce, technology, AI, talent, supply chain automation and enhancements, advertising, acquisitions, joint ventures, new store and club openings and remodels",
+    "We continue to invest in AI to enhance our customers' shopping experience and our associate work experience and to improve efficiencies of our supply chain, operations, management functions"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI-powered tools to support customer and member-facing experiences, associate productivity and operational efficiency across our ecosystem",
+    "company wide AI learning pathways and certifications designed to meet associates where they are",
+    "AI-powered search and discovery platforms and capabilities, useful interfaces and other marketing tools such as third-party recommendation engines, paid search and mobile applications"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "ineffective use or misuse of AI technologies, inaccurate, biased or otherwise flawed AI search and discovery results... could quickly erode trust and confidence in our business and could result in customer dissatisfaction, consumer boycotts, workforce unrest and government investigations",
+    "Continued advancements and increased use of AI have intensified existing cybersecurity risks by enabling faster and more automated attack techniques, lowering the barrier to creating sophisticated threats",
+    "A growing patchwork of AI laws and targeted privacy and consumer protection statutes may also create varying obligations around notice, customer rights and appeals, data minimization, restrictions on sensitive data"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Supply chain, customer-facing initiatives, technology and other $16,468 [million fiscal 2026] vs $14,603 [million fiscal 2025]",
+   "context": "U.S. capital expenditure allocation including technology and automation; AI-attributable share not separately broken out"
+  },
+  {
+   "quote": "Total Capital Expenditures $26,642 [million fiscal 2026] vs $23,783 [million fiscal 2025]",
+   "context": "Total company capex; includes eCommerce, supply chain automation, technology — AI share not isolated"
+  }
+ ],
+ "limitations": [
+  "AI-attributable capex is not separately disclosed; the $16.5B 'supply chain, customer-facing initiatives, technology and other' line bundles AI with non-AI spend, reducing precision of investment_intensity score.",
+  "Narrative concreteness is scored 4 rather than 5 because no quantified business results (%, $, time saved) are provided for any named AI use case; deployment is described but outcomes are not measured.",
+  "Risk disclosure is scored 4 because specific risk mechanisms (revenue/operations/compliance impact pathways) are named but no quantified risk exposure or named AI governance/oversight body is disclosed."
+ ],
+ "_meta": {
+  "accession": "0000104169-26-000055",
+  "filing_date": "2026-03-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:46:27.461913+00:00"
+ }
+}

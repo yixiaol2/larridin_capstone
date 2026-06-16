@@ -1,0 +1,51 @@
+{
+ "ticker": "INTU",
+ "source_document_id": "0000896878-25-000035",
+ "source_type": "sec_filing",
+ "source_date": "2025-09-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we expect to continue to invest significant resources in our product development, marketing and sales capabilities, including products and services incorporating artificial intelligence",
+    "Our innovation has been possible with the investments in our proprietary Generative AI Operating System (GenOS), which have enabled us to fuel innovation with unparalleled speed",
+    "We continue to build and invest in systems and tools that incorporate AI technologies, including GenAI for customers, experts, and our workforce. We also use third parties to support this work."
+   ],
+   "confidence": 0.8
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "In fiscal 2025, we launched a transformative set of AI agents that provide customers with a virtual team to complete jobs on their behalf, dramatically improving how businesses run and grow.",
+    "We also launched AI agents in Intuit Enterprise Suite, including accounting, payments, finance, and project management agents, transforming how our small and mid-market business customers manage their finances",
+    "Our strategy is to be an AI-driven expert platform by connecting customers to a virtual team of AI agents and AI-enabled human tax and financial experts."
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms that we use may be flawed or may be based on datasets that are biased or insufficient. In addition, any latency, disruption, or failure in our AI systems or infrastructure could result in delays or errors in our offerings.",
+    "The legal and regulatory landscape surrounding AI technologies is rapidly evolving and uncertain including in the areas of intellectual property, cybersecurity, and privacy and data protection.",
+    "in February 2025, the European Union's Artificial Intelligence Act (AI Act) went into force regulating AI systems that affect individuals located in the EU. Additionally, countries and states are applying their data and consumer protection laws to AI"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts, GPU counts, or percentage-of-capex figures tied to AI investment were found in the excerpts; investment intensity scored 3 (named infrastructure/platform, no quantified scale).",
+  "ai_narrative_concreteness scored 4 (deployed use cases with operating detail) but no quantified business results (%, $, time saved) were present in the excerpts to justify a score of 5; some language remains promotional.",
+  "capex_mentions list is empty because no specific dollar or capacity figures for AI/compute investment appeared in the provided excerpts."
+ ],
+ "_meta": {
+  "accession": "0000896878-25-000035",
+  "filing_date": "2025-09-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000035/intu-20250731.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 27,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T18:19:39.153249+00:00"
+ }
+}

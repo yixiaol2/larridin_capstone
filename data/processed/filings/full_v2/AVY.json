@@ -1,0 +1,50 @@
+{
+ "ticker": "AVY",
+ "source_document_id": "0000008818-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "establishing AI policies, governance and risk management",
+    "our increasing use of AI carries risks related to data security, privacy events, and potential algorithmic bias"
+   ],
+   "confidence": 0.5
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "our digital business transformation, remote or hybrid employees, the increasing use of artificial intelligence (AI), and interconnected supply chains expanding the risk of attack",
+    "establishing AI policies, governance and risk management"
+   ],
+   "confidence": 0.55
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Threat actors are increasingly leveraging AI for cyberattacks, and our increasing use of AI carries risks related to data security, privacy events, and potential algorithmic bias.",
+    "These AI risks could lead to operational disruptions, regulatory investigations or actions, data security events and potential financial loss.",
+    "establishing AI policies, governance and risk management; maturing our data loss prevention framework"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts are limited to risk-factor sections only; no business, MD&A, or financial sections are present, so AI investment intensity and narrative concreteness cannot be fully assessed — scores reflect only what is disclosed in risk language.",
+  "AI investment intensity scored 3 (named but unquantified) based solely on references to 'increasing use of AI' and governance program establishment; no dollar amounts, headcount, or named AI products are disclosed in these excerpts.",
+  "Narrative concreteness scored 2 because AI use is referenced only in the context of risk, with no named AI initiatives, products, or deployment details provided.",
+  "Promotional language is absent; all AI references are risk-oriented disclosures."
+ ],
+ "_meta": {
+  "accession": "0000008818-26-000015",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/8818/000000881826000015/avy-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:14:04.622535+00:00"
+ }
+}

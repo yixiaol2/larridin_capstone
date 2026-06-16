@@ -1,0 +1,50 @@
+{
+ "ticker": "MS",
+ "source_document_id": "0000895421-26-000086",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "the introduction and application of new technologies, including generative artificial intelligence and tokenization, will likely continue the pressure on our revenues",
+    "expect to continue to do so in the future... introduction and application of new technologies, such as artificial intelligence and tokenization"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "our ability to effectively compete... is affected by multiple factors including... technology supporting evolving client needs, including generative artificial intelligence and tokenization",
+    "introduction and application of new technologies, including generative artificial intelligence and tokenization, will likely continue the pressure on revenues"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the use of artificial intelligence and the emergence of quantum computing... increased sophistication and activities of organized crime, hackers, terrorists, nation-states",
+    "such parties may see their effectiveness enhanced by the use of advanced systems, such as artificial intelligence",
+    "laws and regulations related to new technologies, including artificial intelligence and tokenization... could materially impact the profitability of our businesses"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or dedicated AI budget disclosed in the excerpts; investment intensity scored 2 based on generic forward-looking language only.",
+  "AI narrative is entirely aspirational/competitive-framing; no named internal initiatives, deployed systems, or quantified outcomes appear in the excerpts.",
+  "Risk disclosure scored 4 because excerpts include risk-section material with company-specific mechanisms (cybersecurity threat amplification via AI, regulatory/compliance impact on profitability, risk model adaptation challenges) but no quantified risk exposure or named governance body for AI specifically.",
+  "Promotional/boilerplate language is prevalent; concreteness score reflects claims, not confirmed outcomes."
+ ],
+ "_meta": {
+  "accession": "0000895421-26-000086",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000086/ms-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:36:03.032492+00:00"
+ }
+}

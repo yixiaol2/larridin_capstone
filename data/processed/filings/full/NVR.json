@@ -1,0 +1,44 @@
+{
+ "ticker": "NVR",
+ "source_document_id": "0000906163-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": 1,
+   "evidence": [
+    "The rapid evolution and increased adoption of artificial intelligence technologies may also heighten our cybersecurity risks by making cyber-attacks more difficult to detect, contain, and mitigate."
+   ],
+   "confidence": 0.85
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The rapid evolution and increased adoption of artificial intelligence technologies may also heighten our cybersecurity risks by making cyber-attacks more difficult to detect, contain, and mitigate."
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no AI investment, capex, infrastructure, or vendor/partnership disclosures appear in the excerpts; scored null rather than 1 as excerpts may be incomplete.",
+  "ai_narrative_concreteness: AI is mentioned only in the context of cybersecurity risk, with no named AI initiatives, use cases, or deployments by NVR itself; scored 1 as the only AI reference is boilerplate risk language.",
+  "ai_risk_disclosure_depth: excerpt appears to be from the mdna/risk section and names a specific risk category (AI heightening cybersecurity threats) but does not quantify the risk or describe governance/mitigation programs beyond general security measures; scored 3.",
+  "Only one short excerpt was provided; broader risk-factor sections may contain additional AI risk disclosures not visible here."
+ ],
+ "_meta": {
+  "accession": "0000906163-26-000018",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000018/nvr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 1.0,
+  "extracted_at": "2026-06-11T18:36:52.703777+00:00"
+ }
+}

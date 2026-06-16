@@ -1,0 +1,56 @@
+{
+ "ticker": "ZBH",
+ "source_document_id": "0001193125-26-059853",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "exploring new technologies, including artificial intelligence and machine learning, with possible applications in multiple areas",
+    "completed the acquisition of all the outstanding shares of OrthoGrid Systems, Inc., a privately-held medical device technology company focused on artificial intelligence-driven surgical guidance",
+    "approximately 2,000 research and development employees worldwide"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "OrthoGrid Systems, Inc., a privately-held medical device technology company focused on artificial intelligence-driven surgical guidance for total hip replacement",
+    "suite of integrated digital and robotic technologies that leverage data, data analytics and artificial intelligence",
+    "threat monitoring and detection tools (including those using artificial intelligence and machine learning)"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "use of artificial intelligence and machine learning...exposes us to a variety of threats...risks of inaccuracies, errors and interruptions to our products and services using artificial intelligence, which could result in harm to patients",
+    "Emerging opportunities, including those presented by the use of machine learning and artificial intelligence...expected to present new, complex and potentially inconsistent legal and regulatory requirements across the various jurisdictions",
+    "subject to emerging regulations, directives, voluntary commitments and guidance relating to artificial intelligence. Failure to comply...could result in government enforcement actions...civil and/or criminal penalties"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Initial consideration related to the 2024 acquisitions was $294.8 million, with additional consideration up to $111.6 million",
+   "context": "Acquisitions including OrthoGrid (AI-driven surgical guidance); not purely AI capex but includes AI-focused acquisition"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: No dedicated AI capex dollar amounts disclosed; OrthoGrid acquisition total is bundled with three other 2024 acquisitions, preventing isolation of AI-specific spend; scored 3 rather than 4",
+  "ai_narrative_concreteness: Named use cases described with operational detail but no quantified business results (e.g., procedure volumes, accuracy rates, revenue contribution) disclosed in excerpts; scored 4 rather than 5",
+  "ai_risk_disclosure_depth: Risk scenarios are company-specific with named mechanisms (patient harm, regulatory non-compliance, cyber attack amplification), but no quantified risk exposure or named governance oversight body for AI specifically; scored 4 rather than 5"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-059853",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1136869/000119312526059853/zbh-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T19:15:41.733815+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "TEL",
+ "source_document_id": "0001104659-25-109150",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "our broad range of connectivity and sensor solutions enable the distribution of power, signal, and data to advance next-generation transportation, energy networks, automated factories, data centers enabling artificial intelligence",
+    "we deliver a range of connectivity solutions for the Internet of Things, smartphones, tablet computers, virtual reality, and artificial intelligence/machine learning applications"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Digital data networks Our organic net sales increased 72.6% in fiscal 2025 due primarily to growth in AI and cloud applications",
+    "Digital data networks Our organic net sales increased 10.2% in fiscal 2024 due to growth in AI applications, partially offset by reduced demand resulting from inventory corrections",
+    "Digital data networks net sales: $2,208M in fiscal 2025 vs $1,274M in fiscal 2024, representing 73.3% growth"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms and training methodologies may be flawed, and datasets may be overbroad, insufficient, or contain biased information. Moreover, the use of AI may give rise to risks related to harmful content, accuracy, bias, intellectual property infringement",
+    "risks associated with cybersecurity incidents and other disruptions to our information technology infrastructure, including as a result of AI",
+    "increasing use of AI may expose us to social and ethical issues, which may result in reputational harm and liability... new or enhanced governmental or regulatory scrutiny, litigation, or other legal liability"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific capex or infrastructure spend disclosed in excerpts; TEL is a components supplier to AI infrastructure customers, not a direct AI infrastructure investor — generic language used for its own AI investment posture.",
+  "ai_narrative_concreteness: Quantified revenue results tied to AI demand are present (72.6% organic growth in digital data networks attributed to AI/cloud), but these reflect customer-driven demand rather than TEL's own AI deployments; scored 4 as deployed business results with quantified outcomes are disclosed.",
+  "capex_mentions: No dollar amounts tied to AI/compute/data-center investment by TEL itself found in excerpts."
+ ],
+ "_meta": {
+  "accession": "0001104659-25-109150",
+  "filing_date": "2025-11-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/1385157/000110465925109150/tel-20250926x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T19:00:08.900864+00:00"
+ }
+}

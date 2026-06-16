@@ -1,0 +1,49 @@
+{
+ "ticker": "MCD",
+ "source_document_id": "0000063908-26-000035",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "the AI tools we are incorporating into certain aspects of our business may not generate the intended efficiencies",
+    "as we expand digital engagement, data collection and personalization through AI"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "the AI tools we are incorporating into certain aspects of our business may not generate the intended efficiencies",
+    "as we expand digital engagement, data collection and personalization through AI"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI tools we are incorporating...may increase our exposure to risks...potential operational disruptions, data integrity issues, and unintended consequences from algorithmic decision-making",
+    "emerging global and U.S. regulations governing AI use...may impose significant compliance obligations and increase reputational risk. Failure to comply...could result in regulatory penalties, litigation",
+    "cybersecurity threats continue to become more sophisticated, including AI-enabled attacks and deepfake technology"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No named AI systems, vendors, partners, dollar amounts, or quantified commitments disclosed in excerpts; only vague references to incorporating AI tools into unspecified business aspects.",
+  "ai_narrative_concreteness: No named initiatives, deployment status, or metrics provided; language is aspirational and risk-framed rather than descriptive of concrete deployments.",
+  "ai_risk_disclosure_depth: Excerpts are from risk-factor sections and contain company-specific risk scenarios with mechanisms (regulatory penalties, litigation, operational disruptions, brand harm) but no quantification or named governance bodies, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0000063908-26-000035",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:31:18.250110+00:00"
+ }
+}

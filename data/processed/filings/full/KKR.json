@@ -1,0 +1,49 @@
+{
+ "ticker": "KKR",
+ "source_document_id": "0001404912-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We use artificial intelligence and other quantitative analysis tools and models, developed by us and third-party service providers.",
+    "Some of our competitors may be more successful than us in the development and implementation of new technologies... including services and platforms based on artificial intelligence."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We use artificial intelligence and other quantitative analysis tools and models, developed by us and third-party service providers. Such technology, analysis and modeling are highly complex and subject to limitations and risks.",
+    "Any changes from the use of artificial intelligence could potentially disrupt... our business models, investment strategies, investment performance, operational processes."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If the data we, or third parties whose services we rely on, use in connection with the development or deployment of artificial intelligence is incomplete, inadequate or biased... the performance of our products, services, and businesses could suffer.",
+    "Our personnel or the personnel of our service providers could, without our knowledge, improperly utilize or misappropriate artificial intelligence and machine-learning technology... including relating to the entry of confidential information into a technology platform.",
+    "The European Union has adopted Regulation (EU) 2024/1689, which establishes a comprehensive, risk-based regulatory framework governing the development, marketing, deployment and use of artificial intelligence systems."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or named infrastructure/vendor partnerships disclosed in the excerpts; only generic references to use of AI tools and third-party service providers.",
+  "ai_narrative_concreteness: AI use is acknowledged (quantitative models, third-party tools) but no named initiatives, deployment details, or business outcomes are described; language is largely risk-oriented and aspirational.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains detailed AI risk discussion; scored 4 due to company-specific risk mechanisms (data bias impacting product performance, employee misuse, regulatory compliance costs, portfolio company disruption) though no quantified risk exposure or named governance body is disclosed."
+ ],
+ "_meta": {
+  "accession": "0001404912-26-000007",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:22:47.199055+00:00"
+ }
+}

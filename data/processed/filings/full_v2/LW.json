@@ -1,0 +1,49 @@
+{
+ "ticker": "LW",
+ "source_document_id": "0001679273-25-000049",
+ "source_type": "sec_filing",
+ "source_date": "2025-07-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "Excerpts contain no disclosure of AI-attributable investment, R&D spend, capex, or named AI programs; AI is mentioned only as a risk factor context"
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "new technology, such as artificial intelligence, that could result in greater operational efficiency may further expose our computer systems to the risk of cyberattacks",
+    "potential failures in the incorporation of artificial intelligence"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "potential failures in the incorporation of artificial intelligence... our information technology systems may be vulnerable to... damage, invasions, disruptions, or shutdowns",
+    "We anticipate that the risk of cybersecurity attacks will increase as artificial intelligence is increasingly used to identify vulnerabilities and conduct increasingly sophisticated attacks.",
+    "new technology, such as artificial intelligence, that could result in greater operational efficiency may further expose our computer systems to the risk of cyberattacks"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity is null: excerpts are limited to risk-factor sections with no disclosure of AI spending, R&D programs, or capital commitments attributable to AI",
+  "ai_narrative_concreteness scored 2: AI references are aspirational/risk-framed ('could result in greater operational efficiency') with no named AI initiatives or deployment details",
+  "ai_risk_disclosure_depth scored 3: named risk categories (cyberattack amplification via AI, operational failure from AI incorporation) are company-specific but no quantification or named governance body is disclosed"
+ ],
+ "_meta": {
+  "accession": "0001679273-25-000049",
+  "filing_date": "2025-07-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/1679273/000167927325000049/lw-20250525.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T21:04:43.616812+00:00"
+ }
+}

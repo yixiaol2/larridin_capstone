@@ -1,0 +1,51 @@
+{
+ "ticker": "VRSN",
+ "source_document_id": "0001014473-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "our use of AI technology, tools, and services could expose us to cybersecurity, operational, intellectual property and regulatory risks",
+    "our decision to adopt AI technologies in a low-risk manner could result in slower adoption of AI technology that could hinder or prevent us from realizing efficiencies",
+    "the Company s use of AI, including in the cybersecurity area, is managed pursuant to a corporate AI policy by a cross-functional AI Steering Committee"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we have established AI policies and procedures, our use of AI technology, if not effectively governed, could result in unintended consequences, including errors, biased, and otherwise unreliable outputs",
+    "the Company s use of AI...is managed pursuant to a corporate AI policy by a cross-functional AI Steering Committee comprised of senior Verisign technology, cybersecurity and legal resources",
+    "the Cybersecurity Committee conducts oversight on behalf of the Board of our use of AI and AI risks, including as it pertains to cybersecurity and data governance"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "recent advances in AI-based tools have made, and will continue to make, cyber-attacks more sophisticated, harder to defend, and easier and faster to launch. These tools allow for rapid exploitation of vulnerabilities",
+    "the rapid increase in demand for compute and network hardware...caused by new demand from AI companies, is increasing our costs for some of these goods and could increase our capital and operating costs",
+    "AI is subject to increasing regulatory scrutiny and evolving laws, rules and regulations, which may increase our compliance costs and affect our development, adoption, use, implementation and maintenance of AI technologies"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts disclosed; AI investment intensity scored 2 based on named governance structures and stated cautious adoption posture, but no named AI programs, products, or dollar commitments appear in the excerpts.",
+  "AI narrative concreteness scored 3 because named governance bodies and policies are described, but no deployed AI use cases with operational detail or metrics are disclosed.",
+  "AI risk disclosure scored 4 because multiple company-specific risk mechanisms are described (cybersecurity attack sophistication, cost inflation from AI hardware demand, IP risks, regulatory compliance costs), with named oversight bodies (Cybersecurity Committee, AI Steering Committee), but no quantified risk exposure or formal mitigation program metrics are provided."
+ ],
+ "_meta": {
+  "accession": "0001014473-26-000006",
+  "filing_date": "2026-02-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1014473/000101447326000006/vrsn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-15T21:43:36.784464+00:00"
+ }
+}

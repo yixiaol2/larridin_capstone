@@ -1,0 +1,51 @@
+{
+ "ticker": "MA",
+ "source_document_id": "0001141391-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We continually invest in data cleansing, structuring and modeling and robust governance to help make this data accurate and available for use in AI to be deployed at scale.",
+    "We utilize our data using traditional analytical methodologies and an ever-increasing range of AI, including machine learning, natural-language processing, neural networks and generative AI.",
+    "Further evolving our data infrastructure and utilizing AI to unlock incremental value and differentiated offerings"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We launched Mastercard Agent Pay, a new framework designed to enable secure, scalable and trusted payments in agentic commerce... enabled all U.S.-based Mastercard cardholders to participate in this program.",
+    "Personalization services, which leverage AI to help businesses provide personalized digital experiences... delivers product recommendations, offers and content to consumers across digital channels.",
+    "Advanced analytics and AI solutions consisting of proprietary and privacy-first data solutions, AI models and analytics software designed to power strategy optimization, business experimentation and transformation."
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may generate inaccurate, unintended, unfair, biased or discriminatory outcomes (which may not be easily detectable or explainable) and may inadvertently disclose confidential information and/or breach intellectual property, privacy or other rights.",
+    "The widespread use of AI, and its increasing capabilities, is enhancing the frequency and effectiveness of threat actors.",
+    "As a user and deployer of AI technology, we are also subject to increasing and evolving laws and regulations related to AI governance, including the EU AI Act... uncertainty remains as to how AI technology or its application (such as in agentic commerce) will continue to advance."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "Narrative concreteness scored 4 based on named deployed initiatives (Agent Pay, personalization platform) with operational detail, but no quantified business results (e.g., revenue uplift, fraud reduction %) were disclosed in these excerpts.",
+  "Risk disclosure scored 4 due to company-specific risk mechanisms described (bias/discrimination in AI outputs, AI-enhanced threat actors, regulatory exposure via EU AI Act and agentic commerce), with governance roles named (Chief Privacy and Data Responsibility Officer, Chief Data Officer) but no quantified risk exposure or formal risk-quantification methodology disclosed."
+ ],
+ "_meta": {
+  "accession": "0001141391-26-000013",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-15T21:09:13.761461+00:00"
+ }
+}

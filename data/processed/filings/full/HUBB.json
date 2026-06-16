@@ -1,0 +1,54 @@
+{
+ "ticker": "HUBB",
+ "source_document_id": "0001628280-26-007500",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we continuously evaluate and utilize technologies that are appropriate for our business",
+    "Hubbell is increasingly evaluating, developing, or utilizing artificial intelligence (AI), including machine learning, automation, and data driven analytics technologies"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Hubbell is increasingly evaluating, developing, or utilizing artificial intelligence (AI), including machine learning, automation, and data driven analytics technologies, whether internally, embedded in third party software products, or integrated into customer facing solutions",
+    "Advancements in, and increased adoption of, artificial intelligence (AI), machine learning, automation, and other advanced technologies may result in a long-term competitive disadvantage"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The use of AI technologies introduces additional risks related to system reliability, data integrity, transparency, governance, and security. AI enabled systems may also increase the Company s exposure to cybersecurity, data privacy, and intellectual property risks.",
+    "A failure of our technology to operate as designed or as a result of cyber threats could impact those operations, including by loss or destruction of data.",
+    "Failure to comply with such laws and regulations could result in the imposition of fines, penalties and other costs."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "$155.1 million in capital expenditures on automation, productivity initiatives and maintenance",
+   "context": "2025 capex; automation mentioned but not AI-specific"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: No AI-specific dollar amounts or dedicated AI budgets disclosed; $155.1M capex covers automation broadly, not AI specifically. Score reflects generic language without quantified AI commitment.",
+  "ai_narrative_concreteness: Named use-case categories (internal tools, embedded third-party software, customer-facing solutions) are identified but no deployment status, metrics, or specific product names are provided; score 3 reflects named but undeployed/unquantified initiatives.",
+  "ai_risk_disclosure_depth: Risk-section material is present and discusses AI risks with company-specific mechanisms (data loss, cyber exposure, regulatory fines, IP risk) but no quantification or named governance body specifically for AI risk (Audit Committee covers cybersecurity broadly); scored 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-007500",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/48898/000162828026007500/hubb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-11T18:15:46.394168+00:00"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "ticker": "EXE",
+ "source_document_id": "0000895126-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9,
+   "limitations": [
+    "No AI investment, R&D, or capex tied to AI appears in the excerpts; AI is mentioned only as an external threat vector"
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9,
+   "limitations": [
+    "No AI use cases, initiatives, or deployments by the company are described; AI appears only as an external cybersecurity risk factor"
+   ]
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Both the frequency and magnitude of cyberattacks is expected to increase as attackers are becoming more sophisticated and artificial intelligence proliferates.",
+    "we may be unable to anticipate, detect, prevent, investigate or contain future attacks... attackers are increasingly using techniques and tools designed to circumvent controls, to avoid detection and to remove or obfuscate forensic evidence."
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts are limited to a single cybersecurity passage; no AI investment or use-case material is present.",
+  "AI risk disclosure is scored from mdna section text, not a dedicated risk-factors section; a full risk-factors section may contain additional or different AI risk language.",
+  "The AI risk discussed is entirely external (attacker use of AI), not internal operational or regulatory AI risk — this constrains the score to 3 despite named mechanisms."
+ ],
+ "_meta": {
+  "accession": "0000895126-26-000011",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000011/exe-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:42:25.254884+00:00"
+ }
+}

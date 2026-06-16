@@ -1,0 +1,56 @@
+{
+ "ticker": "O",
+ "source_document_id": "0000726728-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "dedicated data science, machine learning engineering, and business analysis teams, enabling us to convert large volumes of data into actionable insights",
+    "our pro-rata share of the remaining estimated costs for this second phase of the development was $216.8 million as of December 31, 2025",
+    "Since 2019, we have meaningfully expanded our investment in people, systems, and automation to enhance our decision-making, efficiency, and risk management"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "predictive analytics platform uses machine learning models trained on proprietary financial and leasing data across more than 15,500 properties, combined with millions of external data points",
+    "This technology foundation has supported our evaluation of more than $50 billion in transaction volume to date",
+    "robotic process automation (RPA) initiatives that support scalability and operating leverage"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "use of emerging technologies, including artificial intelligence, entails risks including risks relating to the possibility of intellectual property infringement or misappropriation; data privacy; potential for inaccuracy; bias",
+    "new or enhanced governmental or regulatory scrutiny, requirements, litigation, or other liability; ethical concerns; negative perceptions as to automation and artificial intelligence; cybersecurity concerns",
+    "inability to adopt and deliver new technological capabilities and enhancements in line with strategic objectives, including artificial intelligence and machine learning, may put us at a competitive disadvantage"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "pro-rata share of the remaining estimated costs for this second phase of the development was $216.8 million as of December 31, 2025",
+   "context": "Data center joint venture with Digital Realty Trust, expanding capacity for existing client"
+  }
+ ],
+ "limitations": [
+  "The $216.8 million capex figure relates to the data center joint venture (with Digital Realty Trust) rather than direct AI infrastructure spend; scored intensity as 3 rather than 4 because the data center investment is not explicitly labeled as AI-driven capex and the $50 billion figure is transaction volume evaluated, not investment spend",
+  "The data center joint venture carrying amount and remaining costs are the closest quantified infrastructure figures but are not explicitly tied to AI workloads in the excerpts",
+  "Risk disclosure scored 3 (named risk categories) rather than 4 because mechanisms described are generic across AI risk types without company-specific revenue/operations impact scenarios"
+ ],
+ "_meta": {
+  "accession": "0000726728-26-000011",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/726728/000072672826000011/o-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T18:50:50.418872+00:00"
+ }
+}

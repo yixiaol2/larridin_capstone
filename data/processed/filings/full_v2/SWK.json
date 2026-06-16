@@ -1,0 +1,50 @@
+{
+ "ticker": "SWK",
+ "source_document_id": "0000093556-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Company s businesses increasingly leverage artificial intelligence solutions to optimize their operations, improve customer experiences, and enhance their products and services.",
+    "The Company's future growth rate depends upon its ability to identify and evolve with emerging technological trends including artificial intelligence machine learning and robotics."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "The Company s businesses increasingly leverage artificial intelligence solutions to optimize their operations, improve customer experiences, and enhance their products and services.",
+    "The use of artificial intelligence in the development of the Company's products and services could also impact its intellectual property protections."
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The Company s artificial intelligence efforts may subject it to heightened compliance and legal risks related to technology integration, accuracy, program bias, data sourcing, intellectual property infringement, data privacy, and cybersecurity.",
+    "New vulnerabilities may be introduced as cybersecurity threats continue to evolve and if the Company or its third-party vendors increase their use of generative artificial intelligence and machine learning.",
+    "The Company may experience brand or reputational harm if it fails to appropriately manage its use of artificial intelligence in compliance with applicable laws and regulations."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts, headcount, or program budgets disclosed in the excerpts; investment intensity scored 3 based on named but unquantified AI deployment.",
+  "AI narrative describes named use cases (operations optimization, customer experience, product development) but no deployment metrics or quantified outcomes are provided.",
+  "Risk disclosure is detailed and company-specific with named risk mechanisms (bias, IP infringement, regulatory compliance, cybersecurity, competitive disadvantage) but no quantification or named governance body, capping score at 4.",
+  "Excerpts are primarily from risk factors and item 8; no MD&A or capex discussion sections were included, limiting visibility into financial commitments."
+ ],
+ "_meta": {
+  "accession": "0000093556-26-000009",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/93556/000009355626000009/swk-20260103.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:33:36.688675+00:00"
+ }
+}

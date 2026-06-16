@@ -1,0 +1,61 @@
+{
+ "ticker": "PLD",
+ "source_document_id": "0001193125-26-051453",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "selectively expanding our development activities to include data centers in certain markets, by focusing on procuring power and securing build-to-suit lease transactions",
+    "development of data centers, including capital for the acquisition of land, site preparation, power procurement activities to secure long-term energy capacity and turnkey data center infrastructure",
+    "convert select logistics sites into energy-ready data center developments and capture meaningful value creation consistent with our broader redevelopment strategy"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "our ability to secure and grow access to power; our procurement capabilities that enable us to secure high-demand data center equipment",
+    "we generated net proceeds of $2.7 billion...including a data center",
+    "focusing on logistics facilities while also pursuing higher-and-better-use conversions, such as data centers"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "our systems are vulnerable to damages from...adverse impacts of AI...Any system failure or accident that causes interruptions in our operations could result in a material disruption to our business",
+    "the rise in use of AI tools may create disruption to our business, financial and reputational risk",
+    "Changes in global business operations, such as the increasing adoption of artificial intelligence ('AI'), despite human oversight, may also adversely impact our business, financial condition or results of operations"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "current investment of $3.0 billion and a TEI of $5.1 billion when completed and leased",
+   "context": "development portfolio including data centers, as of December 31, 2025"
+  },
+  {
+   "quote": "potential to support the development of $37.3 billion ($42.6 billion on an O M basis) of TEI of newly developed buildings",
+   "context": "consolidated land and other real estate investments including data center conversion potential"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity scored 3 rather than 4/5 because disclosed capex figures ($3.0B current investment, $5.1B TEI) are for the broader development portfolio including industrial properties, not exclusively AI/data center infrastructure; no dedicated AI-specific dollar amount is isolated",
+  "AI narrative concreteness: data center development is the primary AI-adjacent use case discussed; Prologis is a real estate company enabling AI infrastructure rather than deploying AI internally — the concreteness score reflects named initiatives without quantified AI-specific business results",
+  "AI risk disclosure includes named risk categories (system failures, AI-driven cyberattacks, business disruption) with some mechanism detail (how disruption hits operations/reputation), supporting score 4, though no quantified risk exposure or named governance body is disclosed",
+  "Excerpts do not contain evidence of Prologis deploying AI tools internally in operations; AI references are primarily about data center real estate development and AI as an external risk factor"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-051453",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526051453/pld-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T18:48:13.953055+00:00"
+ }
+}

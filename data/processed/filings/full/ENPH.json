@@ -1,0 +1,51 @@
+{
+ "ticker": "ENPH",
+ "source_document_id": "0001463101-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We invest in ongoing training for our customer service agents and in advanced artificial intelligence tools designed to improve system diagnostics, enhance the quality and consistency of customer responses",
+    "leveraging advanced artificial intelligence tools, lowered professional services by $3.2 million and other sales and marketing operating expenses by $3.0 million",
+    "deploy AI based solar production forecasting, consumption forecasting and an optimization engine to maximize self consumption"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI based solar production forecasting, consumption forecasting and an optimization engine to maximize self consumption",
+    "advanced artificial intelligence tools designed to improve system diagnostics, enhance the quality and consistency of customer responses, and reduce average wait times to under two minutes",
+    "Our Net Promoter Score improved to 78% in both 2025 and 2024, compared to 76% in 2023, reflecting the impact of these customer service initiatives"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Recent techniques include artificial intelligence (AI) tools and coordinated attacks, which increases the volume and sophistication of cybersecurity attacks",
+    "Our development and use of AI technology in our products and operations remains in the early phases... AI technologies are complex and rapidly evolving, and the technologies that we develop or use may ultimately be flawed",
+    "AI technology is subject to rapidly evolving domestic and international laws and regulations... Emerging regulations may also pertain to data privacy, data protection, and the ethical use of AI"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures found in excerpts; investment intensity scored 3 based on named initiatives and tools without dollar amounts tied specifically to AI.",
+  "NPS improvement (78%) is cited in context of broader customer service initiatives, not exclusively AI; used cautiously as partial quantified outcome for concreteness score.",
+  "Risk disclosure covers named categories and regulatory mechanisms but no quantified risk exposure or named governance body, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0001463101-26-000013",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1463101/000146310126000013/enph-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T17:54:59.024484+00:00"
+ }
+}

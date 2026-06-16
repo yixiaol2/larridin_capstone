@@ -1,0 +1,52 @@
+{
+ "ticker": "STX",
+ "source_document_id": "0001137789-25-000157",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-01",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Employing machine learning algorithms and AI [as part of manufacturing efficiency efforts]",
+    "Disk drive assembly and machine learning operations occur primarily at our facilities located in China and Thailand",
+    "Our R&D organization is focused on the development of storage solutions leveraging our areal density leadership in mass capacity hard disk drives"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Disk Drive Assembly... completed unit goes through extensive defect mapping and machine learning prior to packaging and shipment",
+    "Employing machine learning algorithms and AI [to improve manufacturing efficiency and reduce costs]",
+    "leading hyperscale data center companies are also implementing advanced AI technologies... increasing the storage capacity of both AI-specific and traditional cloud infrastructure"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "As AI capabilities improve... we may be subject to cyberattacks created and/or augmented with AI... creating more effective phishing emails or exploiting vulnerabilities... or could result from... malicious code from an AI-generated source code",
+    "variability in demand due to end market conditions, including fluctuations in adoption rates of emerging technologies such as artificial intelligence",
+    "We risk damage to our reputation if we fail to act responsibly in a number of areas, such as... the usage of AI"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No AI-attributable dollar amounts or quantified capex/R&D figures tied specifically to AI were disclosed in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "AI narrative concreteness is primarily on the enabler/infrastructure side (Seagate as storage supplier to AI workloads) rather than Seagate deploying AI in its own products at scale with quantified results; score reflects named deployed use cases with operating detail but no quantified business outcomes.",
+  "Product development spend ($724M for FY2025) is disclosed in MD&A but not attributed to AI specifically, so not included in capex_mentions.",
+  "Risk disclosure includes company-specific mechanisms (AI-augmented cyberattacks, demand variability from AI adoption rates, reputational risk from AI usage) but no quantification or named governance bodies, supporting score of 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0001137789-25-000157",
+  "filing_date": "2025-08-01",
+  "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778925000157/stx-20250627.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:31:07.898302+00:00"
+ }
+}

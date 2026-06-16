@@ -1,0 +1,47 @@
+{
+ "ticker": "NSC",
+ "source_document_id": "0001628280-26-006268",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-09",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "artificial intelligence and machine learning (both of which we use)"
+   ],
+   "confidence": 0.45
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "artificial intelligence and machine learning (both of which we use)",
+    "rapid evolution and increased adoption of emerging technologies, such as artificial intelligence and machine learning"
+   ],
+   "confidence": 0.5
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "rapid evolution and increased adoption of emerging technologies, such as artificial intelligence and machine learning...may make it more difficult to anticipate cybersecurity threats and implement adequate protective countermeasures"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Only a single risk-section excerpt was provided; no use-case detail, named AI programs, or quantified investment figures appear in the excerpts, limiting scoring confidence for investment intensity and narrative concreteness.",
+  "AI investment intensity scored 2 because the only evidence is a passing acknowledgment of AI/ML use with no named programs, amounts, or scale.",
+  "Narrative concreteness scored 2 because AI/ML use is acknowledged but no named initiatives, deployment status, or metrics are disclosed.",
+  "Promotional language absent; the AI mention is incidental to a cybersecurity risk discussion."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-006268",
+  "filing_date": "2026-02-09",
+  "url": "https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:17:20.255823+00:00"
+ }
+}

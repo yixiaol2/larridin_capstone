@@ -1,0 +1,47 @@
+{
+ "ticker": "PSX",
+ "source_document_id": "0001534701-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Our Energy Research Innovation organization works to develop new technologies and solutions focused on advancing our business units, including renewable fuels research.",
+    "the pace of changes in technology (including with respect to generative artificial intelligence), the successful development and deployment of existing or new technologies"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "the pace of changes in technology (including with respect to generative artificial intelligence), the successful development and deployment of existing or new technologies and business solutions on a commercial scale"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Generative artificial intelligence has also contributed to an increase in the prevalence of such attacks and threats, expanding potential exposure to disruptions.",
+    "the pace of changes in technology (including with respect to generative artificial intelligence)... may delay or increase the cost of our efforts, which could negatively impact our reputation, results of operations"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No named AI systems, vendors, partners, dollar amounts, or dedicated AI budgets disclosed in excerpts; AI referenced only in the context of technology change risk and research efforts.",
+  "ai_narrative_concreteness: AI mentioned only in aspirational/risk framing with no named initiatives, deployed use cases, or metrics; scored 2 rather than 1 because generative AI is explicitly named as a technology factor.",
+  "ai_risk_disclosure_depth: Risk-section content is present; two named risk categories identified (cybersecurity threat amplification via GenAI, and technology-pace risk to R&D projects), but no quantified risk exposure or named governance/oversight bodies disclosed in excerpts."
+ ],
+ "_meta": {
+  "accession": "0001534701-26-000006",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1534701/000153470126000006/psx-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T18:46:53.551042+00:00"
+ }
+}

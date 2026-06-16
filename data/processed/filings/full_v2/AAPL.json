@@ -1,0 +1,49 @@
+{
+ "ticker": "AAPL",
+ "source_document_id": "0000320193-25-000079",
+ "source_type": "sec_filing",
+ "source_date": "2025-10-31",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "Excerpts contain no AI-attributable investment, capex, R&D spend, or resource commitment disclosures; all AI references are in risk-factor or financial-obligation contexts unrelated to AI spend."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The introduction of new and complex technologies, such as artificial intelligence features, can increase these and other safety risks, including exposing users to harmful, inaccurate or other negative content",
+    "Risks and costs related to new and changing laws...increase as the Company expands the use of technologies, such as machine learning and artificial intelligence features"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "use of new and emerging technologies, including machine learning and artificial intelligence, which can involve...the acquisition and use of copyrighted materials for training as well as the potential reproduction of copyrighted materials in their outputs",
+    "The risks of inadvertent disclosure of personal data can increase with the introduction of new and complex technologies, such as artificial intelligence features, further exacerbating such risks",
+    "machine learning and artificial intelligence...must navigate new legal, regulatory and ethical considerations relating to such technologies"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity is null: no AI-attributable spend, capex, R&D, or resource commitment appears in the excerpts; financial figures cited (e.g., lease obligations, notes payable) have no stated AI link.",
+  "ai_narrative_concreteness scored 2: AI is referenced only in risk-factor boilerplate as a category of technology being deployed; no named AI initiatives, products, or deployment details appear in these excerpts.",
+  "Excerpts are heavily weighted toward risk_factors and financial notes (item_8); no MD&A, business description, or product discussion sections are present, which likely contain more concrete AI narrative and investment detail."
+ ],
+ "_meta": {
+  "accession": "0000320193-25-000079",
+  "filing_date": "2025-10-31",
+  "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-15T20:11:11.958687+00:00"
+ }
+}

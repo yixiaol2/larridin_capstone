@@ -1,0 +1,49 @@
+{
+ "ticker": "AFL",
+ "source_document_id": "0001628280-26-011402",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Company will continue to incur expenses related to, among other things, investments in digital capabilities and product innovation including the development and use of artificial intelligence (AI).",
+    "The Company is investing in technology and other capabilities to continuously enhance its customer experience, while also seeking to increase efficiencies."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The Company will continue to incur expenses related to...investments in digital capabilities and product innovation including the development and use of artificial intelligence (AI).",
+    "The Company s development of new technology, including the use of AI by the Company and third-party vendors, could lead to an increased risk of a business interruption."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The rapid evolution and increased adoption of artificial intelligence technologies may also heighten the Company's cybersecurity risks by making cyber-attacks more difficult to detect, contain, and mitigate.",
+    "due diligence of the Company's alliance partners, and rigorous contracting procedures (including financial, legal, IT security, AI and risk reviews), there can be no assurance that controls and procedures...will be effective.",
+    "certain states are adopting the NAIC Model Bulletin on the Use of Artificial Intelligence Systems by Insurers and, in limited cases, passing their own laws related to artificial intelligence."
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI spend, headcount, or capex figures appear in the excerpts; investment intensity scored 3 based on named initiatives without dollar amounts.",
+  "AI narrative is largely aspirational and risk-framed; no deployed use cases or production metrics disclosed in these excerpts.",
+  "Risk disclosure scored 4 based on named mechanisms (cybersecurity amplification, third-party vendor AI risk, regulatory exposure) but no quantified risk figures or named governance bodies beyond general contracting procedures are present."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-011402",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/4977/000162828026011402/afl-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T17:01:16.666639+00:00"
+ }
+}

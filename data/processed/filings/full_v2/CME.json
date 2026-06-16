@@ -1,0 +1,52 @@
+{
+ "ticker": "CME",
+ "source_document_id": "0001156375-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Google Cloud is developing a new private cloud region and a co-location facility in Aurora, Illinois... ultra-low-latency networking and high-performance computing.",
+    "clients will also be able to utilize Google's artificial intelligence and data capabilities to help develop, test and implement trading strategies",
+    "decrease in professional fees related to the Google Cloud transformation project, which began in late 2021, was the result of a shift... to a technology migration focus"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "clients will also be able to utilize Google's artificial intelligence and data capabilities to help develop, test and implement trading strategies to manage their risk more efficiently",
+    "Our artificial intelligence-related product initiatives and offerings, or use in our internal business operations, may give rise to risks related to accuracy, bias, discrimination...",
+    "higher volatility within the technology sector as a result of continued market speculation about artificial intelligence initiatives also contributed to higher Nasdaq-100 contract volume"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "attacks created through artificial intelligence... Our usage [of third-party systems] exposes us to risk",
+    "improper use of artificial intelligence or failure to provide effective oversight over artificial intelligence... generative artificial intelligence... may elevate our risk and susceptibility to fraudulent activities which could result in the wrongful transferring of funds",
+    "risks related to accuracy, bias, discrimination, intellectual property infringement... data privacy and cybersecurity... new or enhanced laws or regulations... compliance with which may be costly and burdensome or involve changes to our business practices"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts or headcount figures appear in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "AI use cases described are largely forward-looking or partnership-dependent (Google Cloud), with no deployed production metrics disclosed, limiting concreteness to score 3.",
+  "The Google Cloud transformation project costs are referenced directionally (decreasing consulting fees) but no absolute spend figures are provided.",
+  "Risk section material is present and AI risks are discussed with named mechanisms (fraud, IP, regulation, bias), supporting score 4, but no quantified risk figures or named governance bodies are cited."
+ ],
+ "_meta": {
+  "accession": "0001156375-26-000009",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1156375/000115637526000009/cme-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 15,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:21:16.954247+00:00"
+ }
+}

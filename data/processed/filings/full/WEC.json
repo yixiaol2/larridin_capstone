@@ -1,0 +1,56 @@
+{
+ "ticker": "WEC",
+ "source_document_id": "0000783325-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "WE has made and will continue to make significant infrastructure investments in new solar and battery projects, natural gas power plants, and other generation and distribution assets to power and serve these large-scale data centers",
+    "Microsoft has announced plans to invest over $20 billion in data centers in southern Wisconsin over the next several years, and we expect up to 2.6 GWs of load growth in the Milwaukee-to-Chicago corridor through 2030",
+    "evaluating the use of AI tools... We expect these efforts to continue to drive operational efficiency"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We are using AI primarily through services provided by our third party vendors. In addition, we are exploring the use of AI, including generative AI, and its ability to enhance the services we offer.",
+    "evaluating the use of AI tools... improvements to outage management, geographic information systems, and work and asset management systems",
+    "We are engaged in discussions with a small number of customers to provide power to large-scale data centers being constructed to support AI and other technology capabilities."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Adoption of AI technologies could adversely affect our business, reputation, or financial results... Our AI-related efforts may give rise to risks related to accuracy, bias, discrimination, intellectual property infringement or misappropriation, data privacy, and cybersecurity",
+    "We may not be able to recover our investments in AI technology through our regulatory proceedings.",
+    "Cybersecurity threats, including those leveraging AI, continue to increase, and the security measures and preventative actions we take... may be insufficient to safeguard against all security breaches"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Microsoft has announced plans to invest over $20 billion in data centers in southern Wisconsin over the next several years",
+   "context": "Customer-driven data center investment driving WEC load growth; not WEC's own capex"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: The $20 billion figure cited is Microsoft's announced investment, not WEC's own AI/infrastructure capex; WEC's own capital expenditure amounts for AI or data-center infrastructure build-out are not quantified in the excerpts, preventing a score of 4 or 5.",
+  "ai_narrative_concreteness: AI use cases are named (generative AI exploration, vendor-provided AI tools, operational efficiency) but described as exploratory or under evaluation rather than deployed in production with measurable results; score capped at 3.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains company-specific risk mechanisms (regulatory non-recovery of AI investment, cybersecurity via AI, data privacy, bias, regulatory scrutiny) with some operational impact pathways described, supporting score 4; no quantified risk exposure or named governance body found to support score 5."
+ ],
+ "_meta": {
+  "accession": "0000783325-26-000018",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/783325/000078332526000018/wec-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-11T19:10:34.967785+00:00"
+ }
+}

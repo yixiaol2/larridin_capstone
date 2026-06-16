@@ -1,0 +1,51 @@
+{
+ "ticker": "MCHP",
+ "source_document_id": "0000827054-26-000016",
+ "source_type": "sec_filing",
+ "source_date": "2026-05-21",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our strategic focus includes general purpose and specialized mixed-signal microcontrollers, microprocessors, analog, FPGA, data center, networking, and memory products... empowers disruptive growth trends, including AI/ML, data centers, edge computing and IoT",
+    "Microchip is an industry leader in product families including storage controllers, memory controllers and switches designed to address high-performance compute, storage, and connectivity requirements in AI data center and enterprise infrastructure.",
+    "Our PIC64 family consists of 64-bit RISC-V microprocessors... integrate networking, virtualization support, AI/ML acceleration, security and high-speed networking"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Our memory controller portfolio includes Compute Express Link (CXL) and PCIe memory expansion and management devices that support disaggregated and scalable memory architectures.",
+    "Our switch and retimer portfolio includes PCIe Gen 3, Gen 4, Gen 5, and Gen 6 solutions... provide high-speed [connectivity] for AI data center and enterprise infrastructure.",
+    "The portfolio is complemented by AI enabled integrated development tools, intellectual property (IP) cores, and system-level solutions... supporting Edge AI systems, industrial automation, automotive systems, defense and aerospace platforms"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "We face significant and evolving risks related to AI across our products, operations, cybersecurity, regulatory compliance, intellectual property, confidential information, privacy, workforce, customer transactions, and customer demand",
+    "EU AI Act's risk-based approach may impose additional compliance, transparency, conformity assessment, monitoring or usage restriction obligations on AI enabled products... failure or perceived failure to comply could result in fines, penalties, investigations",
+    "Board has delegated to its Audit Committee specific, first-line responsibility for overseeing major cybersecurity risk exposures... Expanding AI-driven defensive capabilities for the day-to-day threat detection and response automation."
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex, headcount, or budget figures appear in the excerpts; investment intensity scored 3 based on named product lines and infrastructure focus without dollar amounts.",
+  "Narrative concreteness scored 4 based on named deployed product families (PIC64, CXL controllers, PCIe switches) with operational detail, but no quantified business results (revenue, units, % improvement) were disclosed in the excerpts.",
+  "Risk disclosure depth scored 5 due to named risk categories with specific mechanisms (regulatory fines, IP exposure, cybersecurity amplification), named oversight body (Audit Committee), and named governance frameworks (EU AI Act, ISO 27001 ISMS); no explicit risk quantification in dollar terms was found."
+ ],
+ "_meta": {
+  "accession": "0000827054-26-000016",
+  "filing_date": "2026-05-21",
+  "url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000016/mchp-20260331.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 20,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-11T18:33:06.798458+00:00"
+ }
+}

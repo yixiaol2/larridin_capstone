@@ -1,0 +1,50 @@
+{
+ "ticker": "TJX",
+ "source_document_id": "0000109198-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-31",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "adopting new technologies (including artificial intelligence or other emerging technologies) appropriately and in a timely manner",
+    "We could be at a competitive disadvantage if...our competitors are more effective than we are in their use and integration of...artificial intelligence or other emerging technologies"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "adopting new technologies (including artificial intelligence or other emerging technologies) appropriately and in a timely manner",
+    "We could be at a competitive disadvantage if...our competitors are more effective than we are in their use and integration of...artificial intelligence"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "These attempts continue to increase in sophistication (including through the use of artificial intelligence), heightening the risk of compromise or disruption",
+    "artificial intelligence; internet regulations, including e-commerce, electronic communications and privacy",
+    "We could be at a competitive disadvantage if...our competitors are more effective than we are in their use and integration of...artificial intelligence"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, named AI programs, or AI-specific budget disclosures appear in the excerpts; investment intensity scored 2 based solely on generic aspirational language about adopting AI.",
+  "Narrative concreteness scored 2 because all AI references are aspirational or risk-framing; no named AI initiatives, deployments, or use cases are described.",
+  "Risk disclosure covers named categories (competitive disadvantage, cybersecurity threat amplification via AI, regulatory compliance for AI) but lacks quantified risk scenarios or named governance bodies, capping the score at 3.",
+  "Excerpts are pre-filtered; additional AI investment or use-case detail may exist elsewhere in the filing but is not visible here."
+ ],
+ "_meta": {
+  "accession": "0000109198-26-000008",
+  "filing_date": "2026-03-31",
+  "url": "https://www.sec.gov/Archives/edgar/data/109198/000010919826000008/tjx-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:36:34.372833+00:00"
+ }
+}

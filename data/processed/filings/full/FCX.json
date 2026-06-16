@@ -1,0 +1,49 @@
+{
+ "ticker": "FCX",
+ "source_document_id": "0000831259-26-000012",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we are pursuing opportunities to leverage new technologies and analytic tools in automation and operating practices with a goal of improving operating efficiencies and reducing costs",
+    "we may develop and apply AI in decision support systems, material characterization, equipment reliability enhancement, mineral extraction optimization and remote/autonomous operation"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we may develop and apply AI in decision support systems, material characterization, equipment reliability enhancement, mineral extraction optimization and remote/autonomous operation",
+    "we utilize AI and other new technologies in our software, applications and technology platforms to enhance our capabilities in producing copper, improve business processes"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The use of AI may increase our exposure to cybersecurity risks and additional risks relating to the protection of data, including increased exposure of confidential or otherwise protected information to unauthorized recipients, which could result in liability under or termination of our contracts",
+    "attacks have included and may include...those that are increasingly using AI and machine learning and quantum computing",
+    "Such advancements may not achieve their intended objectives and may not perform as contemplated"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount figures, or quantified AI-specific budgets disclosed in the excerpts; language is largely aspirational ('may develop', 'pursuing opportunities') with no named vendor/cloud/chip partnerships specific to AI investment.",
+  "ai_narrative_concreteness: Named use cases (decision support, material characterization, equipment reliability, leaching optimization) are described as potential/future ('may develop') rather than confirmed deployed; scored 3 rather than 4 due to absence of confirmed production deployment or operating metrics.",
+  "ai_risk_disclosure_depth: Risk-section material is present; AI risks are named and mechanisms described (data exposure leading to contract liability/termination, cybersecurity attack vectors using AI), supporting score 4; no quantified risk exposure or named governance body found in excerpts."
+ ],
+ "_meta": {
+  "accession": "0000831259-26-000012",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000012/fcx-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 4.1,
+  "extracted_at": "2026-06-11T18:07:47.543252+00:00"
+ }
+}

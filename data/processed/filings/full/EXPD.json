@@ -1,0 +1,52 @@
+{
+ "ticker": "EXPD",
+ "source_document_id": "0001193125-26-071569",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are investing in our technology strategy, which includes intentional and critical consideration of how best to implement a range of technology solutions, including artificial intelligence (AI).",
+    "We are dedicated to teaching our employees how to best utilize AI technologies, with groups creating their own agents and using tools in various areas of our business.",
+    "We devote significant resources towards the maintenance and enhancement of technology and digital solutions in order to meet these customer demands."
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We are in the early days in the deployment of AI and we continue to work to see where it can be applied most beneficially.",
+    "groups creating their own agents and using tools in various areas of our business to gain efficiency and improve effectiveness.",
+    "we do not anticipate altering customer-facing functions with AI solutions."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Expeditors relies heavily and must compete based upon the flexibility and sophistication of the technologies, including AI, utilized in performing our core businesses.",
+    "Development and maintenance of these systems must be accomplished in a cost-effective manner and support the use of secure protocols, including integration and availability of third-party technology.",
+    "A significant portion of Expeditors' revenues is derived from customers in retail and technology industries whose shipping patterns are tied closely to consumer demand, as well as the scaling of AI infrastructure."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific dollar amounts, headcount, or capex figures disclosed in the excerpts; investment intensity capped at 3.",
+  "AI use cases named (custom agents, internal tools, customs brokerage focus) but no deployment metrics or quantified outcomes disclosed; concreteness capped at 3.",
+  "Risk section references AI as a technology dependency and names vendor/third-party integration risk and competitive risk, but does not quantify risk exposure or cite named oversight bodies; depth capped at 3.",
+  "AI revenue benefit from technology-customer demand (AI infrastructure shipping) is described qualitatively but not broken out as a discrete dollar figure."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-071569",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526071569/expd-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-11T17:58:06.626075+00:00"
+ }
+}

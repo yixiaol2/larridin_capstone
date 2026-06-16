@@ -1,0 +1,52 @@
+{
+ "ticker": "HPE",
+ "source_document_id": "0001645590-25-000130",
+ "source_type": "sec_filing",
+ "source_date": "2025-12-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our R&D efforts in the realm of AI are particularly robust, with new server solutions designed for AI inference engines and integrated into HPE Private Cloud AI for inferencing, retrieval augmented generation, and model fine-tuning.",
+    "we have invested in building turn-key integrated systems co-engineered with Nvidia that integrate HPE AI hardware and software technologies with Nvidia technologies",
+    "We expect the integration of Juniper Networks will also bring expanded R&D scale and go-to-market reach, enabling faster innovation across networking, silicon, systems, and software."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "HPE Private Cloud AI for inferencing, retrieval augmented generation, and model fine-tuning. Large-scale model training and tuning, including natural language processing, large language models, and multi-modal training for models with trillions of parameters",
+    "Our platforms are purpose-built using AI to deliver secure and sustainable user experiences from the edge to the data center and cloud... AIOps platform, superior products, and differentiated AI-enabled support",
+    "AI systems demand in the midst of persisting data center space availability constraints continued to drive significant AI backlog."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Issues in the development and use of artificial intelligence may result in reputational harm, liability, or impact to our results of operations.",
+    "malicious actors potentially leveraging AI to develop malicious code or sophisticated phishing attempts... proliferation of generative AI models within the internal systems... may create new attack methods for threat actors.",
+    "promoting deployment of AI with safeguards, such as user training and ongoing checks and refinement to mitigate bias and improve accuracy... We have an executive level AI Ethics Responsibility Committee and an operational AI Ethics Working Group"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts for AI-specific R&D or capex were found in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "AI narrative concreteness scored 4 based on named deployed use cases with operational detail; no quantified business results (e.g., revenue, time saved) were disclosed in the excerpts to warrant a score of 5.",
+  "Risk disclosure depth scored 4 based on named company-specific risk scenarios with mechanisms (cybersecurity, reputational harm, bias) and named governance bodies (AI Ethics Responsibility Committee); no quantified risk figures found to warrant a score of 5.",
+  "Excerpts are pre-filtered; full filing may contain additional financial disclosures not captured here."
+ ],
+ "_meta": {
+  "accession": "0001645590-25-000130",
+  "filing_date": "2025-12-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:53:24.814741+00:00"
+ }
+}

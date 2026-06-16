@@ -1,0 +1,49 @@
+{
+ "ticker": "CMCSA",
+ "source_document_id": "0001628280-26-004994",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "our success is, to a large extent, dependent on our ability to acquire, develop, adopt and leverage new and existing technologies, such as AI",
+    "if we fail to employ technologies desired by consumers or that enhance our business operations, such as through the use of AI"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "our success is, to a large extent, dependent on our ability to acquire, develop, adopt and leverage new and existing technologies, such as AI",
+    "Applying existing laws in novel ways to new technologies, including streaming services and artificial intelligence (AI), may also affect our business"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "we expect threat actors will continue to gain sophistication by using tools and techniques, such as AI, that are specifically designed to circumvent security controls",
+    "The legal landscape for new technologies, including AI, remains uncertain, and legal developments could impact our ability to protect our intellectual property",
+    "unauthorized copying, distribution and piracy of programming and films over the internet...through AI and through other platforms interfere with the market for copyrighted works"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex, headcount, or budget figures appear in the excerpts; investment intensity scored 2 based on generic aspirational language only.",
+  "AI narrative is entirely aspirational and risk-framed; no named AI initiatives, products, or deployment details disclosed in these excerpts.",
+  "Risk disclosure names specific risk categories (IP/copyright, cybersecurity, regulatory) but does not quantify exposure or describe formal governance/oversight bodies for AI risk."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-004994",
+  "filing_date": "2026-02-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:42:53.410422+00:00"
+ }
+}

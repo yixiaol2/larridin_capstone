@@ -1,0 +1,50 @@
+{
+ "ticker": "EL",
+ "source_document_id": "0001001250-25-000099",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we continue to invest in new capabilities and the use of emerging technologies, including investments in AI, across various aspects of our business",
+    "leveraging artificial intelligence (AI) across the marketing value chain to enhance personalization at scale, increase speed to market and reduce costs"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "using AI to identify insights to inform consumer-centric campaigns, develop and test concepts, and produce creative content",
+    "using AI solutions, including machine learning and generative AI tools, to assist in the development of our products, engage with consumers, and in the use of internal tools",
+    "strategic utilization of data to provide better visibility into consumer trends, to increase responsiveness in our product development"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "risks related to harmful content, inaccuracies, hallucinations, bias or discrimination, and intellectual property infringement",
+    "use of AI may increase cybersecurity and data privacy risks, such as intended, unintended, or inadvertent access to, transmission, or leakage of proprietary or sensitive information",
+    "obligation to comply with the evolving regulatory landscape could entail significant costs, negatively affect our business, or limit our ability to incorporate certain AI capabilities"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied to AI investment were present in the excerpts; investment intensity capped at 3.",
+  "AI narrative describes named deployed use cases (marketing, product development, consumer engagement) but no quantified business results (e.g., % cost savings, revenue lift) were disclosed, capping concreteness at 4.",
+  "Risk disclosure describes specific risk mechanisms (hallucinations, data leakage, regulatory compliance costs) with operational detail but no quantified risk exposure or named governance/oversight bodies, capping risk depth at 4."
+ ],
+ "_meta": {
+  "accession": "0001001250-25-000099",
+  "filing_date": "2025-08-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125025000099/el-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T20:41:35.637197+00:00"
+ }
+}

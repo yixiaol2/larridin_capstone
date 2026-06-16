@@ -1,0 +1,51 @@
+{
+ "ticker": "IQV",
+ "source_document_id": "0001628280-26-008322",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are also investing significantly in our AI strategy by launching AI-enabled solutions across our business units, developing AI agents for internal use and external offerings, and developing relationships with key strategic partners across the health-tech sector.",
+    "We are building AI technologies into internal applications and solutions we use with others, including clients; we expect the use of AI to continue to grow.",
+    "IQVIA has a rich history of developing Healthcare-grade AI. We have steadily expanded our capabilities over the years in connection with machine learning, natural language processing and generative and agentic AI."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI can be used to generate new insights and recommendations, helping to increase clinical trials efficiency at all stages from trial design to data submission.",
+    "Our new Center for Defensible AI and our AI Governance Council support employee compliance with our guiding principles of Defensible AI, Trustworthy AI, and Responsible and Ethical AI.",
+    "We launched the AI and Data Analytics Skills training series in 2025, available to all employees... generative AI learning resources have received over 230,000 views."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The development, deployment, and commercialization of certain AI enabled offerings involve significant uncertainty, including risks that models may not perform as intended, may produce incomplete, misleading, or biased outputs, or may not be adopted by customers at the pace or scale we expect.",
+    "If our investments in AI enabled services and offerings do not keep pace with rapid innovation by competitors... certain of our existing services or platforms could become less competitive or economically viable.",
+    "Cyber threats are rapidly evolving and are becoming increasingly sophisticated, including through the use of AI-supported attacks."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific capex/R&D figures tied to AI investment were found in the excerpts, limiting ai_investment_intensity to score 3 despite clear named programs.",
+  "ai_narrative_concreteness scored 4 rather than 5 because no quantified business outcomes (%, $, time saved) from deployed AI use cases were present in the excerpts; the 230,000 views metric reflects training engagement, not business results.",
+  "Promotional and aspirational language is present throughout; evidence reflects claims made in the filing, not independently verified outcomes."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008322",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1478242/000162828026008322/iqv-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 4.3,
+  "extracted_at": "2026-06-15T20:56:23.808496+00:00"
+ }
+}

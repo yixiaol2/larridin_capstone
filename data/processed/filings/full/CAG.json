@@ -1,0 +1,49 @@
+{
+ "ticker": "CAG",
+ "source_document_id": "0001558370-25-009180",
+ "source_type": "sec_filing",
+ "source_date": "2025-07-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have committed to investing in automation, connected data, improved equipment, and artificial intelligence to upgrade our operations and increase productivity.",
+    "our initiatives to continue to modernize our operations, increase data digitalization and improve connectively of our production facilities"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We have committed to investing in automation, connected data, improved equipment, and artificial intelligence to upgrade our operations and increase productivity.",
+    "We could experience shortages of employees with specialized skills, such as skills in emerging technologies including artificial intelligence and data analytics"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "inaccurate information contained in shopping, health or product evaluation applications which may use outputs derived from artificial intelligence applications could seriously damage our brands and reputation",
+    "including their use of new artificial intelligence technologies, we may not be able to achieve the expected cost savings or we may have to incur additional costs to correct errors",
+    "rapid development and increased adoption of artificial intelligence technology may create the need for rapid modifications to our cybersecurity program and increase our cybersecurity risks"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI capex or budget figures appear in the excerpts; investment intensity scored 3 based on named commitment without dollar amounts or scale.",
+  "AI narrative excerpts are drawn entirely from risk-factor disclosures, not from business/strategy sections; no deployment status or use-case metrics are visible.",
+  "Risk score of 4 reflects multiple company-specific risk mechanisms (brand/reputation damage, vendor error costs, cybersecurity program modifications, talent shortages) but no quantified risk exposure or named governance body was found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001558370-25-009180",
+  "filing_date": "2025-07-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/23217/000155837025009180/tmb-20250525x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T17:43:03.855580+00:00"
+ }
+}

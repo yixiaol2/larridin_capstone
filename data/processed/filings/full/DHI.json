@@ -1,0 +1,49 @@
+{
+ "ticker": "DHI",
+ "source_document_id": "0000882184-25-000081",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We use information technology and other computer resources, including artificial intelligence, to carry out important operational and marketing activities and to maintain our business records.",
+    "We may also be required to incur significant costs to protect against damages caused by information technology failures, cybersecurity incidents, and the failure to satisfy privacy, data protection, and artificial intelligence laws and regulations in the future."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 1,
+   "evidence": [
+    "We use information technology and other computer resources, including artificial intelligence, to carry out important operational and marketing activities.",
+    "techniques used to obtain unauthorized access... increasingly leverage sophisticated technologies such as artificial intelligence"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "With the use of artificial intelligence, these phishing attacks may contain highly convincing language making them difficult to distinguish from legitimate messages.",
+    "The European Union and other international regulators, as well as state governments, have enacted or enhanced privacy, data protection, and artificial intelligence regulations.",
+    "techniques used to obtain unauthorized access... increasingly leverage sophisticated technologies such as artificial intelligence, they often are not recognized until launched against a target."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity: no named AI systems, vendors, partners, or quantified AI-specific spend disclosed in excerpts; AI references are generic operational and risk-context mentions only.",
+  "AI narrative concreteness: excerpts are drawn entirely from risk-factor sections; no use-case descriptions, deployment details, or business outcomes for AI are present.",
+  "AI risk disclosure depth: named risk categories are present (phishing/social engineering amplified by AI, regulatory compliance risk, evolving threat landscape) but no quantified risk scenarios or named governance/oversight bodies are disclosed in these excerpts."
+ ],
+ "_meta": {
+  "accession": "0000882184-25-000081",
+  "filing_date": "2025-11-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/882184/000088218425000081/dhi-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-11T17:46:06.234239+00:00"
+ }
+}

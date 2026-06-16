@@ -1,0 +1,50 @@
+{
+ "ticker": "KHC",
+ "source_document_id": "0001637459-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we launched KHAI, our first internal AI assistant at Kraft Heinz, to streamline everyday tasks, answer questions about employee programs, and support skill development",
+    "Nadia, an AI-powered leadership coach designed to support growth and development",
+    "strategic AI adoption"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we launched KHAI, our first internal AI assistant at Kraft Heinz, to streamline everyday tasks, answer questions about employee programs, and support skill development",
+    "Nadia, an AI-powered leadership coach designed to support growth and development"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "failure to respond successfully to technological advances by our competitors (including artificial intelligence, machine learning, and augmented reality) could compromise our competitive position",
+    "the rapid evolution and increased adoption of artificial intelligence technologies may further heighten the risk of cybersecurity attacks"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI spend, headcount, or budget figures appear in the excerpts; investment intensity scored 3 based on named deployed systems without financial scale.",
+  "Concreteness scored 4 based on named deployed tools (KHAI, Nadia) with operational detail, but no quantified business results (e.g., time saved, adoption rates) are disclosed.",
+  "Risk disclosure covers competitive and cybersecurity AI risks by name but does not quantify exposure or describe formal governance/oversight bodies; scored 3 accordingly.",
+  "Excerpts are pre-filtered; additional AI risk or capex disclosures may exist elsewhere in the filing but are not visible here."
+ ],
+ "_meta": {
+  "accession": "0001637459-26-000009",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/khc-20251227.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:24:56.599184+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "NFLX",
+ "source_document_id": "0001065280-26-000034",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "artificial intelligence (AI) mentioned among forward-looking topics including capital allocation strategies and future regulatory changes",
+    "competitors may 'devote more resources to product development, technology, infrastructure, content acquisitions and marketing' including generative AI use"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "new technological developments, including the development and use of generative AI, are rapidly evolving",
+    "multi-service discovery interfaces (including those powered by generative AI), our service may be adversely impacted",
+    "If our competitors gain an advantage by using such technologies more effectively to satisfy consumer demand"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the development and use of generative AI tools remain subject to uncertain legal frameworks, and the availability of copyright and other intellectual property protection for AI-generated material is uncertain",
+    "generative AI could intensify these cybersecurity risks",
+    "Rules governing new technological developments, including generative AI, are nascent and rapidly evolving such that the impact on areas related to our business remains uncertain"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific capex, headcount, or named infrastructure/vendor partnerships disclosed in these excerpts; AI is listed as a forward-looking topic but no investment commitment is described. Score of 2 reflects generic framing only.",
+  "ai_narrative_concreteness: AI references in excerpts are almost entirely framed around competitor risk and regulatory uncertainty rather than Netflix's own named initiatives or deployments; no internal use cases described.",
+  "ai_risk_disclosure_depth: Risk-section material is present and discusses AI risks with company-specific mechanisms (IP/copyright uncertainty, cybersecurity intensification, competitive disadvantage, regulatory compliance costs), warranting a score of 4; however, no quantified risk exposure or named governance/oversight bodies are disclosed, precluding a score of 5."
+ ],
+ "_meta": {
+  "accession": "0001065280-26-000034",
+  "filing_date": "2026-01-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T18:38:06.217412+00:00"
+ }
+}

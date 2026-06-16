@@ -1,0 +1,50 @@
+{
+ "ticker": "BXP",
+ "source_document_id": "0001037540-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We use artificial intelligence and machine learning technology (collectively, AI) capabilities with the goal of enhancing efficiencies in conducting our business.",
+    "Our deployment and application of AI remains ongoing."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We use artificial intelligence and machine learning technology (collectively, AI) capabilities with the goal of enhancing efficiencies in conducting our business.",
+    "We have implemented guidelines and policies specifically governing the use of AI tools in the workplace.",
+    "these AI tools hold promise in optimizing our work processes and driving efficiencies"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the release, leak or disclosure of proprietary, confidential, sensitive or otherwise valuable information as a result of or in connection with our use of AI tools",
+    "the production of incomplete, inaccurate or otherwise flawed outputs...reliance on such outputs which could result in adverse consequences...reputational and competitive harm, customer loss, legal liability",
+    "the evolving legal regulations relating to AI, which may require significant resources to modify and maintain business practices to comply with applicable law"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or named vendor/cloud/chip partnerships disclosed in the excerpts; only generic efficiency language and an acknowledgment that deployment is 'ongoing'.",
+  "ai_narrative_concreteness: No deployed use cases with operating metrics or quantified results are described; named initiative is limited to internal efficiency/work-process optimization without deployment detail.",
+  "capex_mentions: No dollar amounts or quantities tied to AI or compute investment appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001037540-26-000006",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000006/bxp-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T17:27:56.686013+00:00"
+ }
+}

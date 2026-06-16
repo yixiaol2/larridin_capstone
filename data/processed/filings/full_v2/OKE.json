@@ -1,0 +1,48 @@
+{
+ "ticker": "OKE",
+ "source_document_id": "0001039684-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.8,
+   "limitations": [
+    "No AI investment, capex, R&D spend, or resource commitment to AI mentioned in the excerpts; AI appears only in a governance/policy context"
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The use of emerging technologies, including the use of Cloud Services and Artificial Intelligence, is governed by our End-User Computing Policy"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The use of emerging technologies, including the use of Cloud Services and Artificial Intelligence, is governed by our End-User Computing Policy",
+    "The Security Advisory Team meets regularly to evaluate ongoing security threats and incidents, to define policy and to prioritize initiatives"
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts are limited to a single risk-factors passage focused on cybersecurity governance; no AI investment, product, or use-case detail is present.",
+  "AI narrative concreteness scored 2 because AI is referenced only as an emerging technology subject to policy governance, with no named initiatives or deployment details.",
+  "AI risk disclosure scored 3 because the risk-section material names AI as a specific technology category subject to governance oversight (End-User Computing Policy, Security Advisory Team), but no quantified risk scenarios or mitigation metrics are provided.",
+  "Promotional/aspirational language absent; disclosure is governance-procedural in nature."
+ ],
+ "_meta": {
+  "accession": "0001039684-26-000006",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/1039684/000103968426000006/oke-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-15T21:19:18.935440+00:00"
+ }
+}

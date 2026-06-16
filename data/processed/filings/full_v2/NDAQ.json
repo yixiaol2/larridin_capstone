@@ -1,0 +1,51 @@
+{
+ "ticker": "NDAQ",
+ "source_document_id": "0001628280-26-007703",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have made, and are continuing to make, significant investments in AI including generative AI and agentic AI, to develop new products or features for our existing products, including anti-financial crime, equity trading, investor relations, financial reporting, and investment analytics solutions",
+    "We continue to invest in AI to strengthen our AxiomSL and Calypso solutions... embedding advanced AI capabilities, from generative AI assistants to machine-learning analytics",
+    "incur additional costs in these areas in an effort to accelerate efficiencies through location strategy and enhanced AI capabilities"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Nasdaq Verafin has leveraged AI for more than 20 years... AI-based Targeted Typology Analytics solution examines behavioral, transactional, third-party, and consortium insights for more effective detection of crimes with fewer false positives",
+    "in our AxiomSL offering we are embedding advanced AI capabilities, from generative AI assistants to machine-learning analytics to enhance user productivity, predictive insights and agility when handling new regulations",
+    "New enhancements include generative AI tools that are designed to streamline alert triage and investigative workflows, supporting improved efficiency and reduced false positives as market and regulatory demands evolve"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "our AI-related product initiatives and offerings may give rise to risks related to harmful content, accuracy, bias, discrimination, autonomous decision-making or action, IP infringement, misappropriation or leakage of IP, defamation, data privacy, and cybersecurity",
+    "As we integrate third-party AI models into our product initiatives, we face risks in how such third-party AI models were developed and deployed, including situations in which the third-party may lack a proper license or consent for the training data",
+    "the use of AI by bad actors, including the use of such tools to engage in social engineering or similar activities... could damage our reputation and result in: a loss of customers; disrupted customer relationships; the loss of our IP or sensitive data"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No specific dollar amounts or quantified AI-attributable investment figures were disclosed in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "Narrative concreteness scored 4 rather than 5 because while multiple deployed use cases are described with operating detail (fewer false positives, streamlined workflows), no quantified business results (%, $, time saved) appear in the excerpts.",
+  "AI governance framework is described qualitatively (aligns with NIST AI RMF, company-wide policies, multi-disciplinary approach) but no named oversight body with quantified risk treatment is cited, capping risk disclosure at 4."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-007703",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:15:17.804868+00:00"
+ }
+}

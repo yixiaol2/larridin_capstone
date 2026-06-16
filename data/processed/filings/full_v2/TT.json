@@ -1,0 +1,61 @@
+{
+ "ticker": "TT",
+ "source_document_id": "0001628280-26-005731",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "On January 2, 2025, we completed the acquisition of BrainBox AI Inc., a building management platform for HVAC optimization, using advanced AI technologies.",
+    "The intangible assets associated with these acquisitions totaled $73.9 million and primarily relate to developed technology... combined total was $190.0 million.",
+    "Smart and AI-enabled services... Data center liquid cooling solutions... AI-enabled services listed among product/service portfolio offerings."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Completed acquisition of BrainBox AI Inc., a building management platform for HVAC optimization, using advanced AI technologies — reported within Americas segment from date of acquisition.",
+    "Smart and AI-enabled services... HVAC Performance-monitoring applications... Data center HVAC systems listed as deployed product/service categories.",
+    "implementing emerging technological changes such as integrated AI solutions in our products and services"
+   ],
+   "confidence": 0.68
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The rapid evolution and increased adoption of AI technologies may intensify our cybersecurity risks, including risks from malicious or misuse of AI to craft increasingly sophisticated cybersecurity attacks against us.",
+    "Hardware, software, AI technology, or applications we develop or obtain from third parties sometimes contain defects in design or deployment or other problems that could unexpectedly result in security breaches.",
+    "AI also presents emerging issues and the pace presents uncertainties, and we may experience competitive harm, harm to our reputation, or legal liability."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "intangible assets associated with these acquisitions totaled $73.9 million and primarily relate to developed technology",
+   "context": "BrainBox AI Inc. and European distributor acquisitions in fiscal year 2025; goodwill combined total $190.0 million"
+  },
+  {
+   "quote": "acquisition of BrainBox AI Inc., financed through cash on hand",
+   "context": "AI-focused HVAC optimization platform acquired January 2, 2025; no standalone purchase price disclosed in excerpts"
+  }
+ ],
+ "limitations": [
+  "No standalone purchase price for BrainBox AI acquisition is disclosed in the excerpts; the $73.9M intangible and $190.0M goodwill figures cover multiple acquisitions combined, limiting AI-attributable capex precision.",
+  "AI investment intensity scored 3 rather than 4 because the AI-attributable dollar amounts cannot be cleanly isolated from the combined acquisition figures.",
+  "Narrative concreteness scored 4 based on named deployed products and a completed acquisition, but no quantified business results (revenue, efficiency gains) are provided in the excerpts.",
+  "Risk disclosure excerpts appear within the business/risk_factors sections; AI risks are named with specific mechanisms (cybersecurity, competitive harm, legal liability) but no quantified risk exposure or named governance body is disclosed, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-005731",
+  "filing_date": "2026-02-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1466258/000162828026005731/tt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:39:23.827621+00:00"
+ }
+}

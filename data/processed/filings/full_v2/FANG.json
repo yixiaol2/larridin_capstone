@@ -1,0 +1,49 @@
+{
+ "ticker": "FANG",
+ "source_document_id": "0001539838-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "AI adoption may require significant investment, specialized talent and access to high quality data, and our competitors may adopt AI more effectively than we do.",
+    "development, deployment and use of artificial intelligence (AI) and machine learning in our operations and those of our service providers and partners"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "development, deployment and use of artificial intelligence (AI) and machine learning in our operations... could introduce new risks",
+    "AI adoption may require significant investment, specialized talent and access to high quality data"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "errors, bias or other unexpected outcomes in AI outputs used for operational decision making, and evolving and potentially divergent regulatory requirements that may restrict certain uses of AI",
+    "generative AI systems are increasingly used by malicious actors to create more sophisticated cyber-attacks... to circumvent controls, evade detection and even remove forensic evidence",
+    "Rapid growth in AI-related data centers... materially increasing regional electricity demand and straining grids... could disrupt our drilling, completion, and production activities"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts or named AI programs disclosed in the excerpts; investment intensity scored 2 based on generic acknowledgment of AI adoption requirements.",
+  "AI narrative concreteness is limited to risk-framing language; no named internal AI initiatives or deployment details appear in the excerpts.",
+  "Risk disclosure is detailed and company-specific (operational, cybersecurity, regulatory, grid/power mechanisms) but no quantified risk figures or named governance bodies appear, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0001539838-26-000010",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000010/fang-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T20:34:41.669505+00:00"
+ }
+}

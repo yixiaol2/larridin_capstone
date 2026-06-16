@@ -1,0 +1,51 @@
+{
+ "ticker": "FITB",
+ "source_document_id": "0000035527-26-000124",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Fifth Third invests in automation and emerging technologies such as AI, to prevent, detect and remedy any interruptions or failures",
+    "Fifth Third launched a comprehensive platform designed to deliver leadership development content and experiences... including generative Artificial Intelligence (AI) training",
+    "Fifth Third continues to invest in fraud prevention in the forms of people and systems designed to prevent, detect and mitigate"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Fifth Third launched a comprehensive platform... including generative Artificial Intelligence (AI) training, coaching skills for managers and targeted programs",
+    "Fifth Third may utilize new technology, such as AI, in connection with its business and operations. AI may be developed internally by Fifth Third, or may be provided by third- or fourth-party service providers",
+    "increased use of cloud-based technologies, as well as the use of emerging technologies such as generative models and artificial intelligence"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI models employed by Fifth Third or its service providers might be flawed due to improper design, implementation, or training or outputs based on data or algorithms that are incomplete, inadequate, misleading, biased",
+    "AI may introduce Fifth Third to novel or intensified legal, regulatory, ethical, operational, reputational or other risks... AI is under ongoing scrutiny by various governmental and regulatory bodies",
+    "The Operational Risk Committee is the key committee that oversees... the Technology and Information Security Governance Commit[tee]... with appropriate oversight and governance by the second line of defense"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases are named (fraud prevention, internal training, automation) but no deployment metrics or quantified business outcomes are disclosed; concreteness capped at 3.",
+  "Risk governance bodies are named (Operational Risk Committee, Technology and Information Security Governance Committee) but no quantified risk metrics or formal mitigation program details are provided, limiting risk depth score to 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0000035527-26-000124",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000124/fitb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:45:18.931033+00:00"
+ }
+}

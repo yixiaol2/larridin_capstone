@@ -1,0 +1,49 @@
+{
+ "ticker": "WRB",
+ "source_document_id": "0000011544-26-000005",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "As we make significant investments in AI and related technology and increasingly rely on the use of AI by third parties",
+    "Our increasing investment in and use of artificial intelligence technologies or their use by third-parties on which we rely"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Products or services offered that develop or employ artificial intelligence (AI) technologies, including generative AI and machine learning, offer potential benefits (e.g., efficiency)",
+    "our ability to implement appropriate governance controls to ensure the ongoing, safe deployment of AI systems"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "flaws in our models or training datasets resulting in biased, inaccurate or unanticipated outcomes; ethical considerations regarding the use and deployment of AI technologies; potential infringement of third-party intellectual property rights",
+    "our competitors may adopt AI technologies more effectively or efficiently than we do, which may adversely affect our market position and results of operations",
+    "could require us to make substantial expenditures or subject us to legal liability, heightened regulatory scrutiny and brand or reputational harm"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no quantified dollar amounts, headcount, or specific vendor/infrastructure partnerships disclosed in excerpts; 'significant investments' is qualitative only",
+  "ai_narrative_concreteness: no named internal AI initiatives or deployed use cases described; language is aspirational and risk-oriented rather than operational; efficiency benefit mentioned but not quantified or described as deployed",
+  "ai_risk_disclosure_depth: risk-section material is present and contains detailed AI risk discussion; scored 4 due to company-specific risk mechanisms (model flaws, competitive harm, regulatory scrutiny, reputational damage) but no quantification or named governance body specifically for AI risk beyond board-level cybersecurity oversight"
+ ],
+ "_meta": {
+  "accession": "0000011544-26-000005",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000005/wrb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T19:10:06.190725+00:00"
+ }
+}

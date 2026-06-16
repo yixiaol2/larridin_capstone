@@ -1,0 +1,51 @@
+{
+ "ticker": "FICO",
+ "source_document_id": "0000814547-25-000030",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-07",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We expanded our FICO Platform reach...with the launch of FICO Marketplace, enabling organizations to operationalize analytics, power customer connections, and make decisions at scale. Marketplace offers easy access to data, AI models, optimization tools",
+    "increase in infrastructure and facilities costs was primarily attributable to increased third-party data center hosting costs and third-party SaaS services costs",
+    "We announced newly granted patents around advancing responsible AI, machine learning, and applied intelligence technology"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "FICO Analytics Workbench is a predictive analytics tool that allows businesses to create and deploy explainable machine learning models for use in decisions that typically require strict governance and compliance",
+    "FICO Marketplace, enabling organizations to operationalize analytics, power customer connections, and make decisions at scale. Marketplace offers easy access to data, AI models, optimization tools, decision rulesets",
+    "FICO Analytic Services. We build custom analytics, decision models and related analytics, and perform machine learning projects for clients in multiple industries"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our use of AI in the development of our products and our incorporation of AI features into some of our products could introduce errors, defects, or delays impacting our ability to successfully develop new products",
+    "increased attention on and use of AI increases the risk of cyber-attacks and data breaches, which can occur more quickly and evolve more rapidly when AI is used. Further, use of AI by our employees...increases the risk that our intellectual property...will be unintentionally disclosed",
+    "The European Commission has finalized the EU AI Act, which establishes requirements for the provision and use of products that leverage AI systems, including in credit scoring...most of those provisions becoming effective in 2026"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts or headcount figures are explicitly tied to AI investment; R&D and infrastructure cost increases are disclosed in aggregate without AI-specific breakout, limiting score to 3",
+  "ai_narrative_concreteness: Named deployed products described with operational detail but no quantified business results (e.g., % improvement, volume handled) found in excerpts, capping score at 4",
+  "capex_mentions: No explicit AI-specific capex dollar figures disclosed in the excerpts; purchase obligations of ~$99M relate to data center hosting and services but are not labeled as AI-specific"
+ ],
+ "_meta": {
+  "accession": "0000814547-25-000030",
+  "filing_date": "2025-11-07",
+  "url": "https://www.sec.gov/Archives/edgar/data/814547/000081454725000030/fico-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 20,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-11T17:59:23.114408+00:00"
+ }
+}

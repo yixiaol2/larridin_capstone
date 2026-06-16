@@ -1,0 +1,51 @@
+{
+ "ticker": "KMX",
+ "source_document_id": "0001170010-26-000021",
+ "source_type": "sec_filing",
+ "source_date": "2026-04-15",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have made and may continue to make considerable investments in our omni-channel platform, as well as investments in initiatives designed to leverage evolving technologies, including AI.",
+    "Use technology to drive more differentiated experiences and efficiencies by using software, data and AI in practical ways that make it even easier for customers to buy and sell cars."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "A customer may interact online via our website and mobile app with Skye (our AI-powered virtual assistant) or with our customer experience consultants via phone, text messages or chat.",
+    "We use advanced data science, AI and machine learning capabilities to optimize our business and the customer experience.",
+    "We also leverage technology, including data automation, Skye and knowledge management systems, to help us improve efficiency in our Customer Experience Centers (CECs)."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Technology related to generative AI is advancing rapidly, and its future impact on the automotive ecosystem, including online shopping behavior, is unknown.",
+    "Our failure to realize the benefits associated with our omni-channel platform or initiatives designed to leverage evolving technologies, including AI, could have a material adverse effect on our business, sales and results of operations.",
+    "The rapid evolution and increased adoption of AI and other evolving technologies may increase our level of cybersecurity risk... could be enhanced or facilitated by AI."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-attributable investment figures appear in the excerpts; investment intensity scored 3 (named but unquantified).",
+  "AI narrative concreteness scored 4 based on named deployed use cases (Skye virtual assistant, AI/ML in operations) with operational detail, but no quantified business results (e.g., cost savings, volume handled) were disclosed in the excerpts.",
+  "The $200 million SG&A savings goal mentioned in MD&A is not explicitly attributed to AI, so it was not included in capex_mentions.",
+  "Risk disclosure scored 4 because multiple company-specific risk scenarios with mechanisms are described (brand/reputation harm from AI use, cybersecurity risk amplified by AI, failure to capture AI investment benefits impacting operations), though no quantification or named governance bodies appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001170010-26-000021",
+  "filing_date": "2026-04-15",
+  "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001026000021/kmx-20260228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:23:13.691398+00:00"
+ }
+}

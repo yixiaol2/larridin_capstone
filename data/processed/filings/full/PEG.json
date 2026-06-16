@@ -1,0 +1,50 @@
+{
+ "ticker": "PEG",
+ "source_document_id": "0001193125-26-077446",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Developing, testing, and deploying resource-intensive AI systems may require additional investment and increase our costs.",
+    "AI governance, including policies and a council, incorporating AI into our Nth Party Risk Assessment process, and implementing technical controls"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "AI, including Generative AI and Post-Quantum Cryptography, has the potential to change the way we operate by creating efficiencies and improving processes and customer experiences.",
+    "implementing technical controls that enable people to use AI to complete tasks more efficiently and our cyber team to better combat more sophisticated threats",
+    "exploring opportunities for the potential sale of power from our nuclear facilities pursuant to long-term agreements with large power users, such as data centers"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms that we or our Nth-party vendors use may be flawed or may be based on data sets that are biased or insufficient. These limitations or failures could result in reputational damage, unauthorized disclosure of data, and legal liabilities.",
+    "new types of cyberattacks...may be generated or enhanced through the use of Artificial Intelligence (AI) and/or cloud-based infrastructure. A successful cybersecurity attack may result in unauthorized use of our systems",
+    "inaccurate results generated as a result of our employees, contractors or vendors use of generative AI technologies could lead to operational interruptions or reputational harm"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or capex figures disclosed in the excerpts; governance council and policy references suggest nascent investment but no dollar amounts or program-level commitments are cited.",
+  "ai_narrative_concreteness: Named initiatives (AI governance council, Nth-party risk assessment integration, generative AI) are described but deployment status and quantified outcomes are absent; language remains largely aspirational.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains detailed AI risk scenarios with named mechanisms (vendor flaws, biased datasets, regulatory compliance costs, cyberattack enhancement); scored 4 rather than 5 as no quantification of risk exposure or formal named oversight body with quantified mitigation program is disclosed beyond the governance council reference."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-077446",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/788784/000119312526077446/peg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.1,
+  "extracted_at": "2026-06-11T18:48:40.986263+00:00"
+ }
+}

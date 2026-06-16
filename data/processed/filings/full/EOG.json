@@ -1,0 +1,43 @@
+{
+ "ticker": "EOG",
+ "source_document_id": "0000821189-26-000054",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "advancements in artificial intelligence (AI) may pose serious risks for many of the traditional tools used to identify individuals, including voice recognition, facial recognition or screening questions",
+    "generative AI systems may also be used by malicious actors to create more sophisticated cyber attacks (i.e., more realistic phishing or other attacks)",
+    "advancements in AI could also lead to an increase in the frequency of identity fraud or cyber attacks, which could cause us to incur increasing costs"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity not scorable: excerpts contain no discussion of AI capex, infrastructure, or investment commitments",
+  "ai_narrative_concreteness not scorable: excerpts contain no discussion of AI use cases, initiatives, or deployments by EOG — AI is referenced only as an external threat vector in risk factors",
+  "ai_risk_disclosure_depth scored 3: named risk categories are specific (identity fraud, phishing, voice/facial recognition spoofing, generative AI-enabled attacks) but mechanisms linking to revenue/operations impact are generic; no quantification or named governance body present in excerpts"
+ ],
+ "_meta": {
+  "accession": "0000821189-26-000054",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000054/eog-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T17:51:55.417656+00:00"
+ }
+}

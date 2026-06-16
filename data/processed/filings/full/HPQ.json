@@ -1,0 +1,60 @@
+{
+ "ticker": "HPQ",
+ "source_document_id": "0000047217-25-000071",
+ "source_type": "sec_filing",
+ "source_date": "2025-12-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have invested, and expect to continue to invest, significant resources to build and support our AI products.",
+    "Fiscal 2026 Plan intended to drive customer satisfaction, product innovation, and productivity through artificial intelligence adoption and enablement that HP expects will be implemented through fiscal 2028.",
+    "accelerating the delivery of AI throughout our product portfolio. We continue to invest in innovation in both the areas where we believe we can make a unique contribution and where strategic partnerships will leverage our cost structure"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "HP s new line of AI PCs and workstations built with the computing power to enable local AI processing for enhanced performance and features as well as intelligent print features",
+    "use of AI deep-learning to identify and remove malware threats",
+    "processors from Intel, and AMD, including integrated AI acceleration, as well as NVIDIA GPUs for advanced graphics and compute workloads"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may be flawed. Datasets may be insufficient or contain biased information. AI models deployed by us or our partners may lead to unexpected or unintended outcomes that could erode trust in our AI products",
+    "our actions to drive demand to AI products may result in cannibalization of demand for our traditional, non-AI products, which may result in lower net revenues and/or profit margins",
+    "Increased demand for particular components due to industry trends, including components required for the operation of AI, may lead to shortages, delays, and price increases"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "HP estimates that it will incur pre-tax charges of approximately $650 million relating to labor and non-labor actions",
+   "context": "Fiscal 2026 Plan restructuring charges through fiscal 2028, tied to AI adoption and enablement program"
+  },
+  {
+   "quote": "HP expects to incur approximately $400 million in labor costs related to workforce reductions",
+   "context": "Fiscal 2026 Plan labor cost component of AI-driven restructuring"
+  }
+ ],
+ "limitations": [
+  "No explicit AI-specific capex dollar amounts disclosed; the $650M/$400M figures relate to restructuring charges under the AI-driven Fiscal 2026 Plan, not direct AI infrastructure spend, so investment intensity scored 3 rather than 4.",
+  "AI narrative concreteness is supported by named product lines (AI PCs, deep-learning security) described as deployed, but no quantified business results (units sold, revenue lift, time saved) are present in the excerpts, capping score at 4.",
+  "Restructuring charges are not pure AI capex; capex_mentions reflect the closest available quantified figures tied to the AI program."
+ ],
+ "_meta": {
+  "accession": "0000047217-25-000071",
+  "filing_date": "2025-12-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721725000071/hpq-20251031.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:12:18.415191+00:00"
+ }
+}

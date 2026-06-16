@@ -1,0 +1,52 @@
+{
+ "ticker": "BRO",
+ "source_document_id": "0001193125-26-046984",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are using enterprise-managed AI tools to enhance productivity and operational efficiency, and we are actively exploring use-cases.",
+    "incorporating AI into certain product offerings is becoming more important in our operations",
+    "We use AI and robotic processing automation (RPA) in our business."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We are using enterprise-managed AI tools to enhance productivity and operational efficiency, and we are actively exploring use-cases.",
+    "We have internal policies and controls governing the development, procurement, deployment, and use of AI and RPA by our employees",
+    "incorporating AI into certain product offerings is becoming more important in our operations"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "generative AI tools, threat actors may have additional tools to automate breaches or persistent attacks, evade detection, or generate sophisticated phishing emails",
+    "AI and RPA heavily rely on the collection and analysis of extensive data sets...data sets within these models will contain inaccuracies and errors, and potential biases...negatively impacting the effectiveness of the technology or our services",
+    "emerging AI-enabled platforms may enable insurers or third parties to quote, market, or sell insurance products directly to customers, potentially bypassing traditional intermediaries and reducing demand for our services"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified spend, headcount, or budget figures for AI disclosed in the excerpts; named tools and initiatives present but unquantified, capping score at 3.",
+  "ai_narrative_concreteness: Use cases named (productivity, operational efficiency, product offerings) and described as deployed/in use, but no quantified business results disclosed; score capped at 3.",
+  "capex_mentions: No dollar amounts or capacity figures tied to AI/compute investment appear in the excerpts.",
+  "Excerpts are exclusively from risk_factors section; no business description or MD&A sections provided, which may contain additional deployment or investment detail."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-046984",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/79282/000119312526046984/bro-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-11T17:32:39.163226+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "SCHW",
+ "source_document_id": "0000316709-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Industry and competitive trends including artificial intelligence, digital assets, private company securities and other alternative investments",
+    "Schwab manages model risk, including use of artificial intelligence, through use of policies, standards, and controls"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Model uses at Schwab include...identifying and preventing fraud and other financial crimes, and providing guidance in the management of client portfolios",
+    "Prior to the use of any artificial intelligence, we employ procedures which require cross-functional review from applicable oversight functions"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Increasing sophistication in artificial intelligence...has resulted in increased risk of external fraud by enhanced or novel techniques, including those involving impersonation to gain access to client accounts",
+    "use of artificial intelligence technologies, of organized crime, activists, hackers and other external parties, including foreign state actors",
+    "Model risk is the potential for adverse consequences from decisions based on incorrect or misused model outputs...Schwab manages model risk, including use of artificial intelligence, through use of policies, standards, and controls"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-attributable spend, headcount, or named AI programs disclosed in the excerpts; AI references are risk/governance-oriented rather than investment-oriented. Score of 2 reflects generic acknowledgment of AI as a competitive trend without named programs or amounts.",
+  "ai_narrative_concreteness: Named use cases (fraud detection, portfolio guidance) are mentioned but no deployment metrics or quantified outcomes are provided; excerpts are primarily risk/governance disclosures rather than product/strategy sections.",
+  "ai_risk_disclosure_depth: Excerpts include mdna and item_8 sections with substantive risk discussion; AI risk mechanisms (fraud enablement via AI, model risk from AI misuse) are described with operational specificity, but no quantification of risk exposure or named oversight body beyond cross-functional review procedures."
+ ],
+ "_meta": {
+  "accession": "0000316709-26-000009",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:25:13.807521+00:00"
+ }
+}

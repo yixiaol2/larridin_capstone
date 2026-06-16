@@ -1,0 +1,50 @@
+{
+ "ticker": "ALB",
+ "source_document_id": "0000915913-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We currently use certain AI tools and are continually evaluating additional applications of AI technologies to enhance productivity and operational efficiency across our business.",
+    "Integration of AI technologies into our operations may introduce new risks, require significant additional investment",
+    "We have implemented a global AI policy to govern AI development, deployment, and monitoring"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We currently use certain AI tools and are continually evaluating additional applications of AI technologies to enhance productivity and operational efficiency across our business.",
+    "certain information technology systems we employ increasingly integrate AI, which has the potential to result in bias, miscalculations, data errors"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "global regulatory frameworks including U.S. federal and state initiatives, the European Union Artificial Intelligence Act...impose new obligations concerning transparency, data governance, safety testing, human oversight, and vendor management",
+    "potential model inaccuracy, governance and cybersecurity vulnerabilities, and challenges in monitoring and validating AI data outputs",
+    "Cybersecurity attacks, especially in light of the advancement and proliferation of artificial intelligence (AI) and machine learning technologies, may become more sophisticated over time"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts, headcount, or capex figures tied to AI investment are disclosed in the excerpts; named use of AI tools and a global AI policy are present but unquantified, capping score at 3.",
+  "ai_narrative_concreteness: AI use cases are named (productivity, operational efficiency, IT systems integration) but no deployment metrics or quantified outcomes are provided; language remains partially aspirational ('continually evaluating').",
+  "ai_risk_disclosure_depth: Risk-section and MD&A material both present; risks are company-specific with named mechanisms (regulatory compliance costs, model inaccuracy, cybersecurity, competitive disadvantage) but no quantification of risk exposure or formal named oversight body beyond the global AI policy and Board cybersecurity oversight reference."
+ ],
+ "_meta": {
+  "accession": "0000915913-26-000018",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000018/alb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-11T17:18:58.667527+00:00"
+ }
+}

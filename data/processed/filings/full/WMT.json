@@ -1,0 +1,60 @@
+{
+ "ticker": "WMT",
+ "source_document_id": "0000104169-26-000055",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "Supply chain, customer-facing initiatives, technology and other $16,468 [fiscal 2026] vs $14,603 [fiscal 2025]",
+    "Total Capital Expenditures $26,642 [fiscal 2026] vs $23,783 [fiscal 2025]",
+    "our strategy includes allocating the majority of our capital to higher-return areas focused on automation such as eCommerce, supply chain and store and club investments"
+   ],
+   "confidence": 0.62
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "AI-powered tools to support customer and member-facing experiences, associate productivity and operational efficiency across our ecosystem",
+    "company wide AI learning pathways and certifications designed to meet associates where they are",
+    "Daniel Danker Executive Vice President, AI Acceleration, Product and Design, effective August 2025"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "ineffective use or misuse of AI technologies, inaccurate, biased or otherwise flawed AI search and discovery results...could quickly erode trust and confidence in our business",
+    "Continued advancements and increased use of AI have intensified existing cybersecurity risks by enabling faster and more automated attack techniques, lowering the barrier to creating sophisticated threats",
+    "A growing patchwork of AI laws and targeted privacy and consumer protection statutes may also create varying obligations around notice, customer rights and appeals, data minimization"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Supply chain, customer-facing initiatives, technology and other $16,468 [FY2026], $14,603 [FY2025]",
+   "context": "Largest capex category including technology/automation; AI not separately broken out"
+  },
+  {
+   "quote": "Total Capital Expenditures $26,642 [FY2026], $23,783 [FY2025]",
+   "context": "Total company capex; AI/technology share not individually quantified"
+  }
+ ],
+ "limitations": [
+  "AI capex is not separately quantified; the $16.5B 'technology and other' line bundles supply chain, customer-facing initiatives, and technology together, so AI-specific spend cannot be isolated — score 4 reflects quantified total capex with technology as a named component but without AI-dedicated dollar figures, making a score of 5 unsupported",
+  "ai_narrative_concreteness capped at 3 because named initiatives (AI-powered search, AI Acceleration EVP role, AI learning pathways) lack disclosed deployment metrics or quantified business outcomes in the excerpts",
+  "Promotional/aspirational language is present alongside named initiatives; confidence in concreteness score is moderated accordingly"
+ ],
+ "_meta": {
+  "accession": "0000104169-26-000055",
+  "filing_date": "2026-03-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T19:11:06.094964+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "F",
+ "source_document_id": "0000037996-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.8,
+   "limitations": [
+    "Excerpts contain no disclosure of AI-attributable investment amounts, R&D programs, capex, or headcount. AI is mentioned only in regulatory/risk contexts."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "As we expand our business priorities to include autonomous vehicle technologies and broader mobility products and services, our financial exposure has increased.",
+    "The rapid evolution and increased adoption of artificial intelligence technologies may intensify these risks."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Shifting public policy regarding data privacy and the effects of artificial intelligence has caused and may in the future cause us to incur substantial costs to modify our operations or business practices.",
+    "The EU has established vehicle safety standards and regulations...especially in the areas of access to in-vehicle data, artificial intelligence, and autonomous vehicle technologies.",
+    "Ford and Ford Credit could be affected by the continued development of more stringent privacy, data use, data protection, data access, and artificial intelligence laws and regulations."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No AI-attributable investment figures, R&D spend, or capex disclosures appear in the excerpts; ai_investment_intensity scored null.",
+  "AI narrative is largely framed around regulatory risk and compliance costs rather than product deployment or business outcomes; concreteness score reflects aspirational/risk framing.",
+  "Risk disclosures name specific categories (AI regulation, data privacy, autonomous vehicle scrutiny, EU AI rules) but do not quantify financial exposure or describe formal AI governance bodies, capping depth at 3."
+ ],
+ "_meta": {
+  "accession": "0000037996-26-000015",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:46:26.211242+00:00"
+ }
+}

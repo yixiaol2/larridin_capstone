@@ -1,0 +1,51 @@
+{
+ "ticker": "EFX",
+ "source_document_id": "0000033185-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our cloud infrastructure also allows us to rapidly deploy and integrate artificial intelligence, machine learning and agentic based capabilities to improve our products and solutions, as well as internal processes.",
+    "We continuously invest in new technologies. As we implement new technology that includes artificial intelligence, we may introduce incremental risks in our environment.",
+    "Increased retention risk exists in certain key areas of our operations, such as data and analytics, artificial intelligence, IT and data security, which require specialized skills."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We use artificial intelligence and machine learning models in the development of some of our products and artificial intelligence systems to support the deployment of new applications and to improve the efficiency of our business operations.",
+    "Our cloud-native technology simplifies our customers access to our leading analytical and decisioning platforms, allowing us to accelerate the development of unique insights and the conversion of these insights into innovative new products.",
+    "enable the delivery of advanced artificial intelligence-based products and internal processes, all of which we expect will drive growth and have a positive effect on our business."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If the models are incorrectly designed, if the data we use to train them is incomplete, inadequate or biased in some way... the performance of our products and business, as well as our reputation, could suffer or we could incur liability.",
+    "Our use of artificial intelligence could lead to new or enhanced governmental or regulatory scrutiny, litigation or other legal liability, concerns about ethical use and privacy... our use of artificial intelligence in credit decisioning could lead to enhanced scrutiny.",
+    "artificial intelligence can automate and hyper-personalize existing attack vectors like phishing and deepfakes. We may be unable to anticipate these techniques, implement adequate preventative measures or remediate any intrusion on a timely or effective basis."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount figures, or capex figures appear in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "AI narrative describes named use cases (credit decisioning, model deployment, operational process improvement) but no quantified business results (%, $, time saved) are disclosed in the excerpts; concreteness capped at 3.",
+  "Risk disclosure is detailed and company-specific with named mechanisms (model bias, regulatory scrutiny on credit decisioning, AI-powered cyberattacks) but no quantified risk exposure or named AI governance oversight body is cited, capping depth at 4."
+ ],
+ "_meta": {
+  "accession": "0000033185-26-000010",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/33185/000003318526000010/efx-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 15,
+  "maturity_index": 4.7,
+  "extracted_at": "2026-06-15T20:40:37.120890+00:00"
+ }
+}

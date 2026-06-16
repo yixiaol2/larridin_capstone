@@ -1,0 +1,51 @@
+{
+ "ticker": "CNC",
+ "source_document_id": "0001071739-26-000049",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have utilized artificial intelligence (AI), Machine Learning (ML), and predictive modeling in ways that lower costs, advance access to value-based care and increase operational efficiencies",
+    "We have developed policies and a governance structure to review appropriate use and evaluate model output",
+    "our data science team collaborates closely in the development of the use of AI technology"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "expanded the use of advanced analytics and enhanced our real-time operational dashboards to strategically track numerous quality performance and benchmarks",
+    "enhanced data availability to improve our ability to identify and analyze member care gaps, enabling more informed decision-making and personalized interventions",
+    "we do not use AI to deny requests for prior authorization. Our clinicians are at the forefront of member-facing model development and evaluation"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "artificial intelligence and business processes supported by large language models...may not operate as expected or may give rise to risks related to accuracy, bias, discrimination, intellectual property infringement, cybersecurity and data privacy",
+    "Changes to laws and regulations regarding how we may use artificial intelligence could make it harder for us to conduct our business...require us to retrain our artificial intelligence; or prevent or limit our use",
+    "the rapid evolution and increased adoption of artificial intelligence technologies may intensify these risks by making such security breaches more difficult to detect, contain or mitigate"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific spend, headcount, or capex figures appear in the excerpts; investment intensity scored 3 based on named infrastructure and governance structures only.",
+  "Narrative concreteness scored 4 based on described deployed use cases (care gap analytics, operational dashboards, member interventions) with operating detail, but no quantified business results (e.g., cost savings %, Star rating improvements) were disclosed in the excerpts.",
+  "Risk disclosure scored 4 because multiple company-specific risk mechanisms are described (regulatory retrain requirements, bias/discrimination, cybersecurity amplification, revenue/operations impact), with some governance backing (Board Audit and Compliance Committee oversight named), but no quantified risk exposure or formal mitigation program metrics are present."
+ ],
+ "_meta": {
+  "accession": "0001071739-26-000049",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000049/cnc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T17:37:55.215653+00:00"
+ }
+}

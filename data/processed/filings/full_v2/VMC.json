@@ -1,0 +1,50 @@
+{
+ "ticker": "VMC",
+ "source_document_id": "0001628280-26-009546",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we have started to assess and use artificial intelligence (AI) technology to drive further business value",
+    "We leverage these systems and data to support the performance of our business processes... improve productivity and analytics capabilities"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "we have started to assess and use artificial intelligence (AI) technology to drive further business value",
+    "enhance accuracy and security, and to improve productivity and analytics capabilities, among other uses"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the rapid evolution and increased adoption of AI and machine learning technologies may intensify our cybersecurity risks",
+    "identify or resolve deficient, inaccurate or biased outputs from the use of AI... could damage our reputation, cause us to incur significant liability",
+    "failure to... comply with applicable laws, rules or regulations, could expose us... and have a material adverse effect on our business, financial condition and results of operations"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no quantified AI spend, headcount, or named programs disclosed; language is early-stage and aspirational",
+  "ai_narrative_concreteness: no named AI initiatives, deployment status, or metrics provided; only generic productivity/analytics framing",
+  "ai_risk_disclosure_depth: risk section material is present; mechanisms described (cybersecurity intensification, biased outputs, regulatory non-compliance leading to liability/reputational harm) but no quantification or named governance bodies, capping at 4",
+  "Only one excerpt section provided; broader filing context may contain additional AI disclosures not visible here"
+ ],
+ "_meta": {
+  "accession": "0001628280-26-009546",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1396009/000162828026009546/vmc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T21:45:13.437615+00:00"
+ }
+}

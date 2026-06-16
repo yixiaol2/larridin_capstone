@@ -1,0 +1,51 @@
+{
+ "ticker": "ODFL",
+ "source_document_id": "0001193125-26-067161",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We continually seek to upgrade and enhance our technological capabilities, including our use of cloud-based technology and artificial intelligence (AI).",
+    "We currently incorporate AI solutions into our business, and these applications may become more important over time.",
+    "The rapid evolution of AI...will require significant resources to develop, test, implement and maintain our AI solutions."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We currently incorporate AI solutions into our business, and these applications may become more important over time.",
+    "We employ vehicle safety systems, forward-facing cameras, on-board computer systems...freight handling systems and logistics technology to reduce costs and transit times.",
+    "AI and other emerging technologies have the potential to alter the delivery of services and business operations across our industry."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The rapid ongoing evolution and increased adoption of emerging technologies such as AI and machine learning may make it more difficult to...recognize, detect, and prevent the occurrence of any of these events.",
+    "If the content, analyses, or recommendations that AI applications assist in producing are or are alleged to be deficient, inaccurate or biased or to violate intellectual property rights...our financial condition, results of operations, liquidity and cash flows may be adversely affected.",
+    "AI also presents emerging ethical issues and if our use of AI becomes controversial, we may experience brand or reputational harm, competitive harm, or legal liability."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; investment intensity scored 3 based on named initiatives and vendor/technology references without dollar amounts.",
+  "AI use cases are named (logistics, freight handling, AI solutions) but no deployment metrics or quantified business results are disclosed; concreteness capped at 3.",
+  "Risk section material is present in excerpts (mdna section); risk scenarios include specific mechanisms (cyber disruption, IP violation, reputational harm, regulatory scrutiny) tied to AI adoption, supporting score 4, though no quantified risk figures or named governance bodies appear."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-067161",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/878927/000119312526067161/odfl-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:41:47.296936+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "WRB",
+ "source_document_id": "0000011544-26-000005",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "As we make significant investments in AI and related technology and increasingly rely on the use of AI by third parties, we may not achieve the expected operational and other benefits",
+    "Our increasing investment in and use of artificial intelligence technologies or their use by third-parties on which we rely could expose us to technological, security, legal, and other risks."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Products or services offered that develop or employ artificial intelligence (AI) technologies, including generative AI and machine learning, offer potential benefits (e.g., efficiency) but likewise may raise technological, security, legal and other risks",
+    "our competitors may adopt AI technologies more effectively or efficiently than we do, which may adversely affect our market position and results of operations"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "risks include the misuse of personal data or other sensitive information; flaws in our models or training datasets resulting in biased, inaccurate or unanticipated outcomes; ethical considerations; potential infringement of third-party intellectual property rights",
+    "our ability to implement appropriate governance controls to ensure the ongoing, safe deployment of AI systems",
+    "could negatively impact our reputation, financial condition and results of operations, the demand for our products and services, otherwise cause competitive harm, and/or draw adverse legal and regulatory scrutiny"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity: no dollar amounts, headcount figures, or quantified capex tied to AI are disclosed in the excerpts; 'significant investments' is qualitative only, limiting score to 3.",
+  "AI narrative concreteness: excerpts are dominated by regulatory and risk-factor language; no named AI initiatives, deployed use cases, or operational metrics are described — only aspirational efficiency benefits and risk framing.",
+  "AI risk disclosure depth: risk mechanisms are named and linked to specific operational/financial/reputational impacts (score 4), but no quantification of risk exposure or formally named AI governance oversight body is disclosed in these excerpts, preventing a score of 5."
+ ],
+ "_meta": {
+  "accession": "0000011544-26-000005",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000005/wrb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T21:45:24.893685+00:00"
+ }
+}

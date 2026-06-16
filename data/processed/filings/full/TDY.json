@@ -1,0 +1,50 @@
+{
+ "ticker": "TDY",
+ "source_document_id": "0001094285-26-000017",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Some of our product sales are tied to artificial intelligence (AI)-related capital expenditures and data center infrastructure.",
+    "We currently incorporate machine learning and AI capabilities into certain of our products and solutions and may seek to expand the use of AI in our offerings in the future."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We currently incorporate machine learning and AI capabilities into certain of our products and solutions and may seek to expand the use of AI in our offerings in the future.",
+    "leveraging AI capabilities to potentially improve internal functions and operations presents further risks and challenges.",
+    "Some of our product sales are tied to artificial intelligence (AI)-related capital expenditures and data center infrastructure."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms and training methodologies may be flawed. These deficiencies and other failures of AI systems could subject us to competitive harm, regulatory action, legal liability, and brand or reputational harm.",
+    "incorporating AI could give rise to litigation risk and risk of non-compliance and unknown cost of compliance, as AI is an emerging technology for which the legal and regulatory landscape is not fully developed",
+    "use of AI to support business operations carries inherent risks related to data privacy and security, such as intended, unintended, or inadvertent transmission of proprietary, sensitive or export-controlled information"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific capex, headcount, or named vendor/infrastructure partnerships disclosed in the excerpts; company references AI-related customer capex as a revenue driver but discloses no own AI investment amounts.",
+  "ai_narrative_concreteness: AI use cases are referenced generically ('certain of our products and solutions') without naming specific deployed products, metrics, or deployment status; score of 3 reflects named but undetailed initiatives.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains detailed AI risk scenarios with named mechanisms (regulatory, liability, competitive, data privacy, export-control); scored 4 as mechanisms are described but no quantification or named governance body specifically for AI risk (Audit Committee covers cybersecurity broadly, not AI specifically)."
+ ],
+ "_meta": {
+  "accession": "0001094285-26-000017",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1094285/000109428526000017/tdy-20251228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T19:01:32.048771+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "AME",
+ "source_document_id": "0001037868-26-000016",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "AMETEK has consistently added to its investment in research, development and engineering, and improved its new product development efforts with the adoption of Design for Six Sigma and Value Analysis/Value Engineering methodologies along with artificial intelligence tools.",
+    "Operational Excellence strategies include lean manufacturing, global sourcing, Design for Six Sigma, Value Engineering/Value Analysis, growth kaizens, digitalization and use of artificial intelligence technology."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "artificial intelligence tools... have improved the pace and quality of product innovation and resulted in the introduction of a steady stream of new products across all of AMETEK's businesses",
+    "Operational Excellence strategies include... digitalization and use of artificial intelligence technology. Each plays an important role in improving efficiency, enhancing the pace and quality of innovation."
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "misuse of artificial intelligence, human error or malfeasance... may damage, compromise, disrupt or shut down systems, products, data and services",
+    "the rapid evolution and adoption of artificial intelligence may increase our cybersecurity risks",
+    "no assurance that we will be able to make the technological advances necessary, including through the use of artificial intelligence, to maintain such competitive advantages"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts (dollar figures, headcount, or capex) appear in the excerpts; investment intensity scored 3 rather than 4+.",
+  "AI use cases are described at a general operational level (product innovation, efficiency) without deployment metrics or quantified outcomes; concreteness capped at 3.",
+  "Risk disclosures name specific AI risk categories (cybersecurity, misuse, competitive technology risk) but do not quantify exposure or cite named governance/oversight bodies, capping risk depth at 3.",
+  "Promotional/aspirational language present alongside named initiatives; confidence moderated accordingly."
+ ],
+ "_meta": {
+  "accession": "0001037868-26-000016",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000016/ame-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-15T20:09:36.824086+00:00"
+ }
+}

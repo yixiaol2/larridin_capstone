@@ -1,0 +1,51 @@
+{
+ "ticker": "VRSK",
+ "source_document_id": "0001437749-26-004452",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are modernizing and advancing the capabilities of our core solutions using cloud technology and advanced analytical methods including machine learning and artificial intelligence",
+    "we closed our Lehi, Utah Data Center, and in 2024, we closed our Somerset, New Jersey facility... migrate our applications to the public cloud",
+    "Many of our highly credentialed team hold advanced degrees and professional certifications specialising in data science and artificial intelligence"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "cloud-based and on-premise solutions include real-time video collaboration, remote measuring tools, generative AI-powered damage assessment, and image analytics fraud warnings",
+    "solutions that leverage AI and generative AI to automatically extract unstructured data from and summarize medical records for efficient review and analysis during claim processing",
+    "apply advanced analytics, automation, and machine learning to existing and emerging data sources... transform current workflows in life insurance underwriting, claim insights, policy administration"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI use by our customers or other third parties could result in the replacement of our existing products and/or solutions or the reduction of their relevance",
+    "Our own use of AI to enhance our products could lead to unanticipated consequences such as ethical, compliance, privacy-observing, bias-reducing, and/or intellectual property issues",
+    "Increasing use of AI, including but not limited to generative AI models and agentic AI processes, in our internal systems may create new attack methods for adversaries and raise ethical, technological, legal, regulatory, and other challenges"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; investment intensity scored 3 based on named infrastructure and team credentials without dollar amounts or multi-year commitments.",
+  "Narrative concreteness scored 4 (deployed use cases with operating detail) but no quantified business results (e.g., % efficiency gains, dollar savings) were disclosed in the excerpts, precluding a score of 5.",
+  "Risk disclosure scored 4 based on company-specific risk mechanisms (competitive displacement, IP ingestion, agentic AI attack vectors, compliance/bias issues) but no quantified risk exposure or named governance/oversight body was found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001437749-26-004452",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926004452/vrsk20251231_10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T19:08:19.082245+00:00"
+ }
+}

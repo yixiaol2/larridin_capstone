@@ -1,0 +1,51 @@
+{
+ "ticker": "DOW",
+ "source_document_id": "0001751788-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Investments in innovation for growth are focused on addressing market needs such as thermal management in high-performance computing and artificial intelligence applications",
+    "demand in consumer and electronics is expected to benefit from continued investments in artificial intelligence, data centers, and advanced devices",
+    "Industrial Solutions business further advanced applications in data center cooling with DOWFROST TM LC heat transfer fluid"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Industrial Solutions business further advanced applications in data center cooling with DOWFROST TM LC heat transfer fluid, which is specifically formulated for liquid-cooled, direct-to-chip applications",
+    "expanding utilization of AI in Company operations, including but not limited to its manufacturing process controls, supply chain optimization, and human resources analysis",
+    "heat transfer fluids for manufacturing, energy and data center cooling applications; solvents for electronics processing"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the expanding utilization of AI in Company operations, including but not limited to its manufacturing process controls, supply chain optimization...could result in an unplanned or unintended event that could be significant in scale",
+    "Company s use of AI software may create additional risks related to the unintentional disclosure of proprietary, confidential, personal or otherwise sensitive information",
+    "Board has delegated responsibility for oversight of the Company s cybersecurity and information security framework and risk management to the Audit Committee of the Board"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific capex figures tied to AI investment were found in the excerpts; investment intensity scored 3 based on named initiatives and partnerships without quantified scale.",
+  "AI narrative concreteness reflects named deployed use cases (data center cooling fluids, manufacturing process controls) with operational detail but no quantified business results (e.g., revenue, efficiency metrics), capping score at 4.",
+  "Risk disclosure includes named governance body (Audit Committee) and specific risk mechanisms (operational disruption, data disclosure, regulatory complexity), but no quantified risk exposure or formal mitigation program metrics were present in excerpts."
+ ],
+ "_meta": {
+  "accession": "0001751788-26-000018",
+  "filing_date": "2026-02-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/1751788/000175178826000018/dow-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:51:18.757664+00:00"
+ }
+}

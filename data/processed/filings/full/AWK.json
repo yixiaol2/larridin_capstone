@@ -1,0 +1,50 @@
+{
+ "ticker": "AWK",
+ "source_document_id": "0001410636-26-000034",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "significant investments in developing, deploying, integrating, enhancing and maintaining customer-facing technologies, applications to support field service and customer service operations",
+    "meter data management and analytics, and intelligent automation technologies"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "applications to support field service and customer service operations, water source monitoring technologies, meter data management and analytics, and intelligent automation technologies",
+    "these new technologies may be more costly or time-consuming than expected to design, develop, integrate and complete and may not ultimately deliver the expected or desired benefits"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Risk assessments are conducted quarterly and annually to evaluate the effectiveness of the Company s existing security controls",
+    "assuring the continuity of business processes that are dependent upon automation",
+    "vulnerability assessment program that is reviewed at least annually and more frequently, depending on changes to the risk environment"
+   ],
+   "confidence": 0.6
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI/automation capex figures appear in the excerpts; investment intensity scored 3 based on named initiatives without dollar amounts.",
+  "AI/automation references are partially embedded in broader technology and cybersecurity language; 'intelligent automation' is the closest explicit AI term.",
+  "Risk-section excerpts focus on cybersecurity/operational controls rather than AI-specific risks; score reflects named risk categories (automation continuity, data integrity) rather than AI-specific risk scenarios.",
+  "Promotional/aspirational language present in item_3 excerpt — no deployment outcomes or quantified results disclosed."
+ ],
+ "_meta": {
+  "accession": "0001410636-26-000034",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1410636/000141063626000034/awk-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 1.3,
+  "extracted_at": "2026-06-11T17:22:22.973579+00:00"
+ }
+}

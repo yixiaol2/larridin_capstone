@@ -1,0 +1,52 @@
+{
+ "ticker": "GDDY",
+ "source_document_id": "0001609711-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We intend to continue investing in our technology and data platforms to harness the power of AI to further enable our personalization efforts and make our products even more intuitive for our customers.",
+    "In 2025, we continued to harness the power of AI, with a focus on enabling agentic AI capabilities across Airo and our existing products. Our expanded AI solutions include conversational chat interfaces... Airo Plus Logo... Airo Plus Marketing... Airo Plus Site Optimizer.",
+    "We also use AI-enabled tools internally to support productivity and efficiency across certain functions and to facilitate experimentation, testing, and iteration in product development and operations."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "In 2025, substantially all of our employees used AI tools at least once a month, and over half of the code our teams are generating is written by our AI tools and solutions.",
+    "ANS is in production with registered agents operational since the end of 2025. Developers can register agents through GoDaddy's public API, and the public can confirm and verify agent registrations through our ANS Transparency Log.",
+    "Our expanded AI solutions include conversational chat interfaces that utilize natural language to help with website creation and customization; Airo Plus Logo... Airo Plus Marketing... Airo Plus Site Optimizer, an AI-driven tool to obtain website performance insights."
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Our use, development, adoption, deployment and maintenance of AI and other new and evolving technologies may present significant risks, which could result in increased costs, litigation, reputational harm and liability.",
+    "Evolving technologies, including AI-based technologies, and changes in customer behavior and practices with respect to the internet may impact the demand for and value of our products and services.",
+    "The E.U. has enacted the EU AI Act, which regulates the development, deployment and use of AI systems with broad extra-territorial effect... intellectual property ownership and license rights, including copyright, surrounding AI technologies have not been fully addressed."
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3 due to absence of quantification.",
+  "ai_narrative_concreteness scored 4 rather than 5 because the one quantified metric (>50% of code AI-generated; ~all employees use AI monthly) relates to internal productivity rather than quantified customer-facing business outcomes (revenue lift, time saved, volume handled).",
+  "ai_risk_disclosure_depth scored 3 because named risk categories (regulation, IP/copyright, litigation, reputational harm, vendor/technology dependence) are identified but mechanisms linking these risks to specific revenue or operational impacts are not elaborated in the excerpts.",
+  "No capex dollar figures tied to AI investment were found in the provided excerpts."
+ ],
+ "_meta": {
+  "accession": "0001609711-26-000010",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000010/gddy-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:50:56.232640+00:00"
+ }
+}

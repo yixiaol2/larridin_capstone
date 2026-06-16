@@ -1,0 +1,51 @@
+{
+ "ticker": "PANW",
+ "source_document_id": "0001327567-25-000027",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-29",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our research and development efforts are strategically centered on expanding our leadership within the enterprise security industry through AI-powered innovation.",
+    "Our investments in research and development, including investments in AI, may not result in design or performance improvements, marketable products, subscriptions, or features.",
+    "The rapid evolution of AI...requires us to invest significant resources to develop, test, and maintain AI in our products and services."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Cortex XSIAM automates data integration, analysis, and triage to respond to most alerts, enabling analysts to focus on only the incidents that require human intervention.",
+    "Prisma AIRS is a comprehensive AI security platform...providing AI model scanning, posture management, red teaming, run-time security, and AI agent security.",
+    "In fiscal 2025, we began to transform our hiring operations by strategically embedding AI across the talent acquisition lifecycle...AI-generated job descriptions, structured interview guides...intelligent interview scheduling."
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may have flaws, and datasets used to train models may be insufficient or contain biased information.",
+    "These efforts could subject us to regulatory risk, legal liability, including under legislation regulating AI in jurisdictions such as the E.U.",
+    "Developing, testing, and deploying AI systems may also increase the cost profile of our offerings due to the nature of the computing costs involved in such systems."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts, GPU/data-center scale, or headcount figures tied to AI investment appear in the excerpts; R&D spend totals are not quoted. Score 3 reflects named AI infrastructure and dedicated engineering teams but no quantified scale.",
+  "ai_narrative_concreteness: Several named products are described as deployed and in production (Cortex XSIAM, Prisma AIRS, SCM, AIOps) with operational detail, but no quantified business results (e.g., % improvement, dollar savings, volume handled) appear in the excerpts, capping the score at 4.",
+  "capex_mentions: No explicit dollar or quantity figures tied to AI/compute/data-center investment were found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001327567-25-000027",
+  "filing_date": "2025-08-29",
+  "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756725000027/panw-20250731.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T18:44:24.273665+00:00"
+ }
+}

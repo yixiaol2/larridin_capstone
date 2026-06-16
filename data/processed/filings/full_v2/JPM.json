@@ -1,0 +1,52 @@
+{
+ "ticker": "JPM",
+ "source_document_id": "0001628280-26-008131",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Firm offers voluntary training programs and educational resources to all employees covering a broad variety of topics such as leadership and management, artificial intelligence, data literacy and operational and professional skills.",
+    "The Firm uses models and other analytical and judgment-based estimations, including those based upon machine learning or artificial intelligence techniques, across various businesses and functions.",
+    "New technologies have required and could require JPMorganChase to increase expenditures to modify its products to attract and retain clients and customers or to match products and services offered by its competitors."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "The Firm uses models and other analytical and judgment-based estimations, including those based upon machine learning or artificial intelligence techniques, across various businesses and functions.",
+    "A dedicated independent function, Model Risk Governance and Review (MRGR), defines and governs the Firm s policies relating to the management of model risk and risks associated with certain analytical and judgment-based estimations.",
+    "The Firm continues to review and enhance its capabilities to address associated risks, such as those relating to the management of administrative access to systems."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI system failures, inappropriate use of AI systems, lack of transparency in AI systems, or inaccurate or biased output from AI systems resulting from rapid deployment, insufficient testing, erroneous data, ineffective model design or insufficient controls, which could disrupt operations.",
+    "Competitive disadvantage if competitors are able to deploy AI more quickly or effectively, potentially gaining advantages in cost efficiency, client and customer experience, or product innovation, which could result in a loss of market share.",
+    "Regulatory and compliance challenges arising from rapidly evolving applicable law, including differences, inconsistencies and conflicts in international standards, which could increase costs, lead to fines and sanctions, and restrict JPMorganChase s use of AI technologies."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 (named programs/use cases but no quantified scale).",
+  "AI narrative concreteness is limited by the excerpts: AI use in models and MRGR governance is named but no deployed use-case metrics or quantified business results are disclosed.",
+  "Promotional/aspirational language is largely absent; disclosures are regulatory and risk-oriented rather than forward-looking marketing claims.",
+  "Excerpts may not capture all AI investment or use-case detail present elsewhere in the full 10-K (e.g., MD&A technology investment sections)."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008131",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T21:00:28.884523+00:00"
+ }
+}

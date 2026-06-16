@@ -1,0 +1,49 @@
+{
+ "ticker": "A",
+ "source_document_id": "0001090872-25-000087",
+ "source_type": "sec_filing",
+ "source_date": "2025-12-22",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We are integrating artificial intelligence and machine learning technologies ('AI') into our business operations, products and services, while continuing to explore the opportunities that AI could bring to the company.",
+    "We may be unable to devote adequate financial resources to develop or acquire new AI technologies and systems in the future."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Advancements in our offering of software and service solutions will help our customers more efficiently operate a digitally connected smart lab that can derive value out of data analytics, artificial intelligence and robotics.",
+    "We are integrating artificial intelligence and machine learning technologies ('AI') into our business operations, products and services."
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI technologies may be developed using inaccurate, incomplete, flawed or biased algorithms, training methodologies or data, which could result in competitive harm, regulatory penalties, legal liability, or brand or reputational harm.",
+    "The input of confidential information or trade secrets into AI systems may result in the loss of intellectual property, proprietary rights, or attorney-client privilege.",
+    "AI is subject to a dynamic and rapidly evolving legal and regulatory environment, which, without appropriate review, governance and risk management, could expose the company to unforeseen legal or regulatory scrutiny and liabilities."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI capex, headcount, or budget figures appear in the excerpts; investment intensity scored 2 based on generic integration language without named systems, partners, or amounts.",
+  "AI narrative concreteness scored 3: 'smart lab' and integration references name a use-case direction but no deployment status or metrics are disclosed.",
+  "Risk disclosure scored 4 rather than 5: multiple company-specific risk mechanisms are described (IP loss, regulatory exposure, data leakage, biased outputs) with named pathways to harm, but no quantified risk figures or named governance/oversight bodies appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001090872-25-000087",
+  "filing_date": "2025-12-22",
+  "url": "https://www.sec.gov/Archives/edgar/data/1090872/000109087225000087/a-20251031.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T17:17:49.338058+00:00"
+ }
+}

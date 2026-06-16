@@ -1,0 +1,51 @@
+{
+ "ticker": "BAC",
+ "source_document_id": "0000070858-26-000157",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We use, and expect to increasingly use, emerging technologies, including AI, across our operations, including business processes, services and products",
+    "we continually update our policies, programs, processes and practices and take steps to leverage emerging technologies, such as automation, AI and robotics"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "To address AI-related risks, we have implemented internal processes and governance frameworks. These measures help with regulatory compliance and responsible use of AI across our operations.",
+    "Under our Enterprise Model Risk Policy, Model Risk Management is required to perform end-to-end model oversight, including independent validation before initial use",
+    "Expanded use of AI, including emerging third party AI services and autonomous AI agents, may result in increased data risk, unpredictable system interactions"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The interconnectedness and complexity of AI models may complicate oversight and compliance, and reliance on third party AI models further increases our risks due to limited visibility into their training data, methodologies and safeguards.",
+    "AI services used by our clients or third parties may interact with our systems or communicate directly with our employees, and may act without authorization, make execution errors, behave unpredictably or be misaligned with intended outcomes, which could result in additional operational, legal and regulatory risk",
+    "To address AI-related risks, we have implemented internal processes and governance frameworks. These measures help with regulatory compliance and responsible use of AI across our operations."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex, headcount, or budget figures appear in the excerpts; investment intensity scored 2 based on generic commitment language only.",
+  "AI narrative concreteness is limited: named governance frameworks and model risk oversight are described, but no specific deployed AI products/services with operating metrics are disclosed in these excerpts.",
+  "Risk disclosure reaches score 4 due to company-specific risk mechanisms (third-party model opacity, autonomous AI agents, unauthorized actions) and named governance bodies (Global Compliance, Operational Risk, Corporate Audit), but no quantified risk exposure or formal named AI oversight committee with charter details is present to justify score 5.",
+  "Excerpts are heavily weighted toward risk-factor and operational-risk sections; business/strategy sections describing AI use cases or investment plans may exist in the full filing but are not represented here."
+ ],
+ "_meta": {
+  "accession": "0000070858-26-000157",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T17:28:32.009432+00:00"
+ }
+}

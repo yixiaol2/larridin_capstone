@@ -1,0 +1,49 @@
+ticker,company_name,snapshot_date,ai_adoption_score,ai_fluency_score,ai_impact_score,ai_hiring_score,source_name,source_url,available_at
+AIVA,Aiva Systems Inc.,2025-03-31,4,4,3,4,synthetic_larridin_sample,synthetic://larridin/aiva/2025q1,2025-04-02
+AIVA,Aiva Systems Inc.,2025-06-30,4,4,4,4,synthetic_larridin_sample,synthetic://larridin/aiva/2025q2,2025-07-02
+AIVA,Aiva Systems Inc.,2025-09-30,5,4,4,5,synthetic_larridin_sample,synthetic://larridin/aiva/2025q3,2025-10-02
+AIVA,Aiva Systems Inc.,2025-12-31,5,5,5,5,synthetic_larridin_sample,synthetic://larridin/aiva/2025q4,2026-01-02
+BRIO,Brio Retail Group,2025-03-31,2,2,2,2,synthetic_larridin_sample,synthetic://larridin/brio/2025q1,2025-04-02
+BRIO,Brio Retail Group,2025-06-30,2,3,2,2,synthetic_larridin_sample,synthetic://larridin/brio/2025q2,2025-07-02
+BRIO,Brio Retail Group,2025-09-30,3,3,3,3,synthetic_larridin_sample,synthetic://larridin/brio/2025q3,2025-10-02
+BRIO,Brio Retail Group,2025-12-31,3,3,3,3,synthetic_larridin_sample,synthetic://larridin/brio/2025q4,2026-01-02
+CYGN,Cygnus Capital Corp.,2025-03-31,3,3,3,2,synthetic_larridin_sample,synthetic://larridin/cygn/2025q1,2025-04-02
+CYGN,Cygnus Capital Corp.,2025-06-30,3,4,3,3,synthetic_larridin_sample,synthetic://larridin/cygn/2025q2,2025-07-02
+CYGN,Cygnus Capital Corp.,2025-09-30,4,4,4,3,synthetic_larridin_sample,synthetic://larridin/cygn/2025q3,2025-10-02
+CYGN,Cygnus Capital Corp.,2025-12-31,4,4,4,4,synthetic_larridin_sample,synthetic://larridin/cygn/2025q4,2026-01-02
+DYNA,DynaHealth Labs,2025-03-31,3,3,4,3,synthetic_larridin_sample,synthetic://larridin/dyna/2025q1,2025-04-02
+DYNA,DynaHealth Labs,2025-06-30,4,3,4,3,synthetic_larridin_sample,synthetic://larridin/dyna/2025q2,2025-07-02
+DYNA,DynaHealth Labs,2025-09-30,4,4,4,4,synthetic_larridin_sample,synthetic://larridin/dyna/2025q3,2025-10-02
+DYNA,DynaHealth Labs,2025-12-31,5,4,5,4,synthetic_larridin_sample,synthetic://larridin/dyna/2025q4,2026-01-02
+ELIX,Elixia Foods Co.,2025-03-31,2,2,2,1,synthetic_larridin_sample,synthetic://larridin/elix/2025q1,2025-04-02
+ELIX,Elixia Foods Co.,2025-06-30,2,2,2,2,synthetic_larridin_sample,synthetic://larridin/elix/2025q2,2025-07-02
+ELIX,Elixia Foods Co.,2025-09-30,2,3,2,2,synthetic_larridin_sample,synthetic://larridin/elix/2025q3,2025-10-02
+ELIX,Elixia Foods Co.,2025-12-31,3,3,3,2,synthetic_larridin_sample,synthetic://larridin/elix/2025q4,2026-01-02
+FRAY,Frayline Industrial,2025-03-31,3,2,3,3,synthetic_larridin_sample,synthetic://larridin/fray/2025q1,2025-04-02
+FRAY,Frayline Industrial,2025-06-30,3,3,3,3,synthetic_larridin_sample,synthetic://larridin/fray/2025q2,2025-07-02
+FRAY,Frayline Industrial,2025-09-30,4,3,4,3,synthetic_larridin_sample,synthetic://larridin/fray/2025q3,2025-10-02
+FRAY,Frayline Industrial,2025-12-31,4,4,4,4,synthetic_larridin_sample,synthetic://larridin/fray/2025q4,2026-01-02
+GRIT,GritGrid Energy,2025-03-31,2,3,2,3,synthetic_larridin_sample,synthetic://larridin/grit/2025q1,2025-04-02
+GRIT,GritGrid Energy,2025-06-30,3,3,3,3,synthetic_larridin_sample,synthetic://larridin/grit/2025q2,2025-07-02
+GRIT,GritGrid Energy,2025-09-30,3,3,3,4,synthetic_larridin_sample,synthetic://larridin/grit/2025q3,2025-10-02
+GRIT,GritGrid Energy,2025-12-31,4,4,4,4,synthetic_larridin_sample,synthetic://larridin/grit/2025q4,2026-01-02
+HALO,HaloMedia Networks,2025-03-31,3,4,3,3,synthetic_larridin_sample,synthetic://larridin/halo/2025q1,2025-04-02
+HALO,HaloMedia Networks,2025-06-30,4,4,4,3,synthetic_larridin_sample,synthetic://larridin/halo/2025q2,2025-07-02
+HALO,HaloMedia Networks,2025-09-30,4,5,4,4,synthetic_larridin_sample,synthetic://larridin/halo/2025q3,2025-10-02
+HALO,HaloMedia Networks,2025-12-31,5,5,5,4,synthetic_larridin_sample,synthetic://larridin/halo/2025q4,2026-01-02
+IONX,Ionix Semiconductors,2025-03-31,4,4,4,4,synthetic_larridin_sample,synthetic://larridin/ionx/2025q1,2025-04-02
+IONX,Ionix Semiconductors,2025-06-30,4,5,4,4,synthetic_larridin_sample,synthetic://larridin/ionx/2025q2,2025-07-02
+IONX,Ionix Semiconductors,2025-09-30,5,5,5,4,synthetic_larridin_sample,synthetic://larridin/ionx/2025q3,2025-10-02
+IONX,Ionix Semiconductors,2025-12-31,5,5,5,5,synthetic_larridin_sample,synthetic://larridin/ionx/2025q4,2026-01-02
+JUNO,Juno Logistics,2025-03-31,2,2,2,2,synthetic_larridin_sample,synthetic://larridin/juno/2025q1,2025-04-02
+JUNO,Juno Logistics,2025-06-30,3,2,3,2,synthetic_larridin_sample,synthetic://larridin/juno/2025q2,2025-07-02
+JUNO,Juno Logistics,2025-09-30,3,3,3,3,synthetic_larridin_sample,synthetic://larridin/juno/2025q3,2025-10-02
+JUNO,Juno Logistics,2025-12-31,3,3,4,3,synthetic_larridin_sample,synthetic://larridin/juno/2025q4,2026-01-02
+KORA,Kora Bankshares,2025-03-31,2,3,2,2,synthetic_larridin_sample,synthetic://larridin/kora/2025q1,2025-04-02
+KORA,Kora Bankshares,2025-06-30,3,3,3,2,synthetic_larridin_sample,synthetic://larridin/kora/2025q2,2025-07-02
+KORA,Kora Bankshares,2025-09-30,3,4,3,3,synthetic_larridin_sample,synthetic://larridin/kora/2025q3,2025-10-02
+KORA,Kora Bankshares,2025-12-31,4,4,4,3,synthetic_larridin_sample,synthetic://larridin/kora/2025q4,2026-01-02
+LUMA,Luma Care Partners,2025-03-31,3,3,3,3,synthetic_larridin_sample,synthetic://larridin/luma/2025q1,2025-04-02
+LUMA,Luma Care Partners,2025-06-30,3,4,3,4,synthetic_larridin_sample,synthetic://larridin/luma/2025q2,2025-07-02
+LUMA,Luma Care Partners,2025-09-30,4,4,4,4,synthetic_larridin_sample,synthetic://larridin/luma/2025q3,2025-10-02
+LUMA,Luma Care Partners,2025-12-31,4,5,4,5,synthetic_larridin_sample,synthetic://larridin/luma/2025q4,2026-01-02

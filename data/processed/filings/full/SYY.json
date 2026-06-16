@@ -1,0 +1,49 @@
+{
+ "ticker": "SYY",
+ "source_document_id": "0000096021-25-000099",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-22",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have and are continuing to incorporate artificial intelligence, including machine learning, in certain of our operations, such as sales, support and supply chain operations",
+    "we have incorporated artificial intelligence and/or generative artificial intelligence to manage inventory, optimize warehouse logistics, route customer deliveries more efficiently"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we have incorporated artificial intelligence and/or generative artificial intelligence to manage inventory, optimize warehouse logistics, route customer deliveries more efficiently and enable more analytics for our sales consultants",
+    "We have and are continuing to incorporate artificial intelligence, including machine learning, in certain of our operations, such as sales, support and supply chain operations"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Flaws, breaches or malfunctions in these systems could lead to operational disruptions, data loss, or erroneous decision-making, impacting our operations, financial condition and reputation",
+    "deployment of artificial intelligence systems could expose us to increased cybersecurity threats, such as data breaches and unauthorized access leading to financial losses, legal liabilities, and reputational damage",
+    "The legal and regulatory landscape and industry standards surrounding artificial intelligence technologies is rapidly evolving and remains uncertain, and compliance may impose significant operational costs"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex, headcount, or budget figures appear in the excerpts; investment intensity scored 3 based on named use cases and ongoing deployment without dollar amounts.",
+  "Narrative concreteness scored 4 based on named deployed use cases with operational detail; no quantified business results (e.g., % efficiency gains, cost savings) are disclosed in the excerpts.",
+  "Risk disclosure scored 4 because company-specific risk mechanisms are described (operational disruption, financial losses, regulatory compliance costs) but no quantified risk exposure or named governance/oversight bodies are present."
+ ],
+ "_meta": {
+  "accession": "0000096021-25-000099",
+  "filing_date": "2025-08-22",
+  "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602125000099/syy-20250628.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T18:59:22.924266+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "AMGN",
+ "source_document_id": "0000318154-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Dr. David M. Reese... became the Company s inaugural Executive Vice President and Chief Technology Officer in 2023, responsible for accelerating the use of technology and artificial intelligence across the organization.",
+    "the Company established an AI Governance Council composed of cross-functional leadership that oversees the safe adoption of third-party AI services, including by establishing guardrails... and allocating resources to provide staff training",
+    "In 2025, we invested in general upskilling of our staff on skills for the future, including topics such as AI."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "applying artificial intelligence to our R&D activities, including applying such technologies to advance our human data efforts and our generative biology platform that seek to discover and design new drugs.",
+    "AI tools customized for our business and a variety of Amgen-built tools for use across applications",
+    "we rely on sophisticated information technology systems, including... artificial intelligence (AI)-enabled tools and systems... highly integrated into our business, including our R&D efforts, our clinical and commercial manufacturing processes"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "the Company established an AI Governance Council composed of cross-functional leadership... co-sponsored by our Chief Compliance Officer and Senior Vice President, Artificial Intelligence Data.",
+    "AI systems may produce inaccurate or flawed outputs due to flawed algorithms, or insufficient and/or erroneous training data... We may also become vulnerable to operational disruptions if the AI technologies we use experience downtimes or are compromised by cyberattacks.",
+    "the EU Artificial Intelligence (AI) Act... establishes a risk-based framework governing the development, deployment and use of AI systems... High-risk AI systems are subject to stringent requirements such as mandatory risk assessments, technical documentation, bias mitigation"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific dollar amounts, GPU counts, or capex figures appear in the excerpts; investment intensity scored 3 based on named infrastructure (dedicated CTO role, AI Governance Council, Amgen-built tools) without quantified scale.",
+  "Narrative concreteness scored 4 (named deployed use cases with operational detail) but no quantified business results (e.g., % improvement, cost savings) were disclosed in the excerpts, preventing a score of 5.",
+  "AI Governance Council and named oversight roles (Chief Compliance Officer, SVP Artificial Intelligence Data) plus specific regulatory compliance mechanisms (EU AI Act, NIS2) support a score of 5 for risk disclosure depth."
+ ],
+ "_meta": {
+  "accession": "0000318154-26-000010",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000010/amgn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:22:51.878044+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "BG",
+ "source_document_id": "0001628280-26-009842",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "rollout of an internal generative AI tool that does not share our data or train internal or external AI models",
+    "blocking external generative AI tools within our IT environment and the rollout of an internal generative AI tool"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we also implemented data security measures on the use of generative AI, including blocking external generative AI tools within our IT environment and the rollout of an internal generative AI tool",
+    "we have agreements with many of the third-party service providers regarding the restrictions and limitations on their use of our data in generative AI applications"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "cyberattacks utilizing emerging technologies, such as artificial intelligence and machine learning... frequency and severity of such attacks to increase",
+    "rapid development and increased adoption of AI technology, may further expose our computer systems to the risk of cyberattacks, and may create the need for rapid modifications to our cybersecurity program",
+    "non-compliance with such regulations, including as a result of adoption of emerging technologies, such as AI, could subject the Company to legal claims or proceedings, potential regulatory fines and penalties"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount, or quantified AI spend disclosed; only named internal tool deployment and vendor data-use restrictions are mentioned. Score reflects named initiative without quantified scale.",
+  "ai_narrative_concreteness: AI discussion is primarily framed within cybersecurity risk context rather than business use-case deployment; the internal generative AI tool is described as deployed but no operational metrics or business outcomes are provided.",
+  "ai_risk_disclosure_depth: Excerpts are from the MD&A section with risk-factor-style content; risk mechanisms are described (cyberattack exposure, regulatory non-compliance pathways) but no quantification or named governance bodies are disclosed, capping score at 4.",
+  "No capex or dollar figures tied to AI investment appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-009842",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1996862/000162828026009842/bg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-15T20:20:03.564968+00:00"
+ }
+}

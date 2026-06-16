@@ -1,0 +1,51 @@
+{
+ "ticker": "ADM",
+ "source_document_id": "0000007084-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "AI systems rely heavily on vast amounts of data, so they require significant investments in data infrastructure, high quality data inputs, skilled personnel, cybersecurity safeguards, and ongoing monitoring.",
+    "The complexity of AI systems demands continuous investment, which could strain resources and impact other areas of the business.",
+    "The Company continues to focus on leveraging digital technologies, including artificial intelligence (AI) and advanced analytics across its operations."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The Company continues to focus on leveraging digital technologies, including artificial intelligence (AI) and advanced analytics across its operations.",
+    "The Company's ability to realize the anticipated benefits of AI initiatives depends on a number of factors, many of which are outside of its control.",
+    "ADM may be adversely affected if it fails to keep pace with the adoption and effective use of AI technologies by its competitors."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI systems may fail to perform as expected under certain conditions or become vulnerable to adversarial attacks that manipulate the AI's output.",
+    "Compliance with these emerging and changing regulations may require ADM to incur substantial costs and make changes to its business practices and complex adjustments to its AI systems.",
+    "Legal challenges related to intellectual property, liability for AI-driven decisions, and potential misuse of AI present significant risks."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI capex or dollar amounts disclosed in the excerpts; investment intensity scored 3 based on named commitment language only.",
+  "AI narrative is aspirational with no named deployed use cases or quantified outcomes; excerpts appear to be primarily risk-factor and governance sections.",
+  "Risk disclosure excerpts are present and substantive; score reflects company-specific risk mechanisms (model manipulation, regulatory compliance costs, adversarial attacks, talent shortage) but no quantified risk exposure or named oversight body beyond the CIDO/CISO governance structure."
+ ],
+ "_meta": {
+  "accession": "0000007084-26-000011",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/7084/000000708426000011/adm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T17:25:12.124126+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "HWM",
+ "source_document_id": "0000004281-26-000012",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Howmet intends to continue to develop innovative new products and services, and implement advanced technologies, including through the use of AI",
+    "capital expenditures of $453 primarily related to Engine Products capacity expansion, various automation projects, and sustaining and return seeking capital projects"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "New technology that increases the automation of job postings enables us to more widely disseminate our job vacancies to various partners and job boards",
+    "Howmet intends to continue to develop innovative new products and services, and implement advanced technologies, including through the use of AI"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Unauthorized use or misuse of AI by the Company's employees, vendors or others may result in the disclosure of confidential Company or customer data, reputational harm, privacy law violations, cybersecurity risks, and legal liability",
+    "unauthorized use, misuse or increased use of AI may increase the risk of a loss of intellectual property, including, for instance, if an employee inputs confidential information, such as trade secrets, into AI or machine learning technologies",
+    "laws and regulations focused on the development, use and provision of certain new technologies, such as AI (including generative AI) technologies...may impose certain obligations on Howmet, may limit how we use these technologies"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity: capex figures ($453M in 2025, $321M in 2024) mention 'automation projects' but do not explicitly attribute any portion to AI; scored as generic AI investment statements only.",
+  "AI narrative concreteness: only one minor named use case (AI-assisted job posting automation) is described; no deployed AI initiatives with operating detail or metrics are disclosed.",
+  "Promotional/aspirational language dominates AI investment and narrative disclosures; confidence adjusted downward accordingly."
+ ],
+ "_meta": {
+  "accession": "0000004281-26-000012",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/4281/000000428126000012/hwm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 3.1,
+  "extracted_at": "2026-06-15T20:54:42.503205+00:00"
+ }
+}

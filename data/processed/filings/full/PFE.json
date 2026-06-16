@@ -1,0 +1,65 @@
+{
+ "ticker": "PFE",
+ "source_document_id": "0000078003-26-000026",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Scale AI across our business... expanding automation, data driven decision making, and enterprise AI solutions that strengthen productivity and accelerate innovation",
+    "additional productivity opportunities to further reduce costs primarily in SI&A, driven in large part by enhanced digital enablement, including automation and AI",
+    "scaling AI across R&D, manufacturing, commercial and patient engagement to improve productivity and accelerate innovation"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We have begun deploying AI in various parts of our internal and external operations, including in R&D, and continue to explore further use cases for AI",
+    "scaling AI across R&D, manufacturing, commercial and patient engagement to improve productivity and accelerate innovation",
+    "enhanced digital enablement, including automation and AI, and simplification of business processes"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI may be used by payors to limit access to care or to deny prior authorization requests, which could impact Pfizer's business results",
+    "reliance on a small number of AI models or service providers... flawed or inappropriate data practices by data scientists, engineers, and end-users could impair results",
+    "risks and challenges related to the use of software, systems and services that include AI-based functionality... cyber-attacks using adversarial AI techniques"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "costs associated with all the components of this program to total approximately $5.3 billion",
+   "context": "Multi-year cost realignment program including digital enablement and AI, through 2027; not purely AI capex"
+  },
+  {
+   "quote": "approximately $4.7 billion, representing primarily cash expenditures for severance, implementation, exit, and digital enablement costs",
+   "context": "Realigning Our Cost Base Program costs through 2027, includes digital enablement/AI component but not AI-exclusive"
+  },
+  {
+   "quote": "approximately $600 million, primarily representing cash expenditures for severance, digital enablement and implementation",
+   "context": "R&D productivity program through 2026, includes digital enablement/AI component but not AI-exclusive"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity scored 3 rather than 4/5: the dollar figures cited ($5.3B, $4.7B, $600M) are for broad cost-realignment/digital-enablement programs that include AI but are not AI-specific; no AI-only capex figure is disclosed.",
+  "Narrative concreteness scored 3: AI deployment in R&D, manufacturing, commercial, and patient engagement is named but no quantified business results or detailed operational metrics are provided.",
+  "The $5.3B and sub-program figures are restructuring/productivity program costs, not pure AI infrastructure capex; included in capex_mentions for completeness with context notes.",
+  "Some AI use-case language is aspirational ('explore further use cases'), which tempers concreteness confidence."
+ ],
+ "_meta": {
+  "accession": "0000078003-26-000026",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 14,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:46:30.690226+00:00"
+ }
+}

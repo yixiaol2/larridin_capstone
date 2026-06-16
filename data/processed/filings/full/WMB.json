@@ -1,0 +1,59 @@
+{
+ "ticker": "WMB",
+ "source_document_id": "0000107263-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "projects, located in Ohio and Utah, represent a combined 1.9 gigawatts of total capacity and are backed by up to 12.5 year, primarily fixed-price agreements",
+    "Commitments for construction and acquisition of property, plant, and equipment for Williams...are approximately $4.3 billion...A significant portion...relates to acquisition of long-lead time equipment for the data center power innovation projects"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Williams is investing in construction projects to support the power demands created by new data center and industrial development in power grid-constrained markets",
+    "Williams plans to place the projects into service during 2026 through 2028, assuming timely receipt of permits, and continues to pursue additional projects"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "accurately predicting future power needs of data centers due to rapidly changing technology and market dynamics, which could result in underutilized or stranded assets",
+    "risks that may be enhanced through the use of artificial intelligence, which could include threats to operational industrial control systems and safety systems that operate its pipelines",
+    "financing the capital investment needed to build and maintain the necessary infrastructure to support data center development; managing community opposition; managing the possible environmental impact"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "combined 1.9 gigawatts of total capacity...backed by up to 12.5 year, primarily fixed-price agreements",
+   "context": "Power innovation projects in Ohio and Utah serving data center customers"
+  },
+  {
+   "quote": "Commitments for construction and acquisition of property, plant, and equipment for Williams...are approximately $4.3 billion",
+   "context": "Total construction commitments at December 31, 2025; significant portion for data center power innovation projects"
+  }
+ ],
+ "limitations": [
+  "Williams is an energy infrastructure company investing in power generation for data centers — AI investment here is indirect (supplying power to AI/data center customers), not direct AI capex; scores reflect this indirect exposure",
+  "The $4.3 billion commitment figure covers all construction commitments, not exclusively data center/AI-related projects; exact AI-attributable share is not isolated",
+  "AI narrative concreteness is limited to infrastructure deployment for data center customers; no internal AI use cases or AI-driven operational tools are described in the excerpts",
+  "CIO background mentioning 'enterprise artificial intelligence initiatives' is biographical context, not a disclosed AI program"
+ ],
+ "_meta": {
+  "accession": "0000107263-26-000006",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/107263/000010726326000006/wmb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-11T19:13:27.591878+00:00"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "ticker": "SLB",
+ "source_document_id": "0001193125-26-021017",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "Digital revenue of $2.7 billion grew 9% year on year due to strong growth from both Digital Operations and Platforms Applications",
+    "Digital pretax operating margin of 28% expanded 291 bps year on year primarily driven by the higher revenue and efficiency gains",
+    "Data Center Solutions, which grew 121% year on year... expected to be a material contributor to SLB's portfolio in the future"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "underpinned by data platforms and agentic AI orchestration which not only allow customers to realize efficiency gains but also transforms industry workflows through AI",
+    "highlighted by strategic collaborations with cross-industry leaders, the launch of the Lumi data and AI platform, new Performance Live centers to enable remote operations, and the achievement of fully autonomous drilling operations",
+    "Many of these services use embedded AI to automate insights and differentiate our service delivery offering"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "emerging technologies, such as AI programs, are subject to the risk of cyberattacks",
+    "threat actors are becoming increasingly sophisticated in using techniques and tools (including AI) that circumvent controls, evade detection and even remove forensic evidence",
+    "Patent protection on some types of technology, such as software or machine learning processes, may not be available in certain countries in which we operate"
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Digital $2,660 ... Capital Investments $257",
+   "context": "2025 segment capital investments for Digital Division, in millions"
+  },
+  {
+   "quote": "Data Center Solutions revenue grew 121% year on year",
+   "context": "2025 revenue growth for AI-driven data center infrastructure business"
+  },
+  {
+   "quote": "all-stock transaction valued at $4.9 billion",
+   "context": "ChampionX acquisition including digital/AI capabilities, 2025"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity scored 4 rather than 5: while Digital revenue is quantified at $2.7B and Data Center Solutions grew 121%, no explicit multi-year AI-specific capex program or dedicated AI R&D budget is disclosed; capital investments for Digital segment ($257M) are stated but not broken out by AI vs. non-AI spend",
+  "Narrative concreteness scored 4 rather than 5: autonomous drilling and Lumi platform deployments are described as operational, but no quantified business outcomes (%, $, time saved) are provided for AI-specific use cases",
+  "Risk disclosure: excerpts labeled [item_8] and [risk_factors] contain risk-relevant material; AI risks are named (cybersecurity, IP/patent) but mechanisms linking AI risk to specific revenue/compliance impact are not detailed, limiting score to 3",
+  "Some promotional language present (e.g., 'uniquely positioned', 'differentiated') — treated as claims, not confirmed outcomes"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-021017",
+  "filing_date": "2026-01-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/87347/000119312526021017/slb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 14,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:30:52.135710+00:00"
+ }
+}

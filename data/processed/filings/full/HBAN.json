@@ -1,0 +1,50 @@
+{
+ "ticker": "HBAN",
+ "source_document_id": "0000049196-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We use AI in connection with our business and operations, including through the models we employ.",
+    "there can be no assurance that our use of AI will be successful in enhancing our business or operations, be successfully adopted and deployed by our colleague base"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We use AI in connection with our business and operations, including through the models we employ. AI is complex and rapidly evolving",
+    "there can be no assurance that our use of AI will be successful in enhancing our business or operations, be successfully adopted and deployed"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The models underlying AI may be incorrectly or inadequately designed or implemented and trained on...data or algorithms that are...incomplete, inadequate, misleading, biased, poor-quality or otherwise flawed",
+    "we could incur operational inefficiencies, competitive harm, legal and regulatory action, brand or reputational harm, or other adverse impacts on our business and financial results",
+    "we have an Operational Risk Committee...an Artificial Intelligence Risk Committee, and a Third Party Risk Management Committee...a Model Risk Oversight Committee"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, named vendor/cloud/chip partnerships, or dedicated AI budget disclosed in the excerpts; only generic operational use statements present.",
+  "ai_narrative_concreteness: No named AI initiatives, specific use cases, deployment status, or quantified results disclosed; language is aspirational and risk-oriented rather than descriptive of concrete programs.",
+  "capex_mentions: No dollar amounts or quantified AI/compute/data-center investment figures appear in any excerpt.",
+  "Excerpts are pre-filtered; additional AI use-case or investment detail may exist elsewhere in the full filing but is not visible here."
+ ],
+ "_meta": {
+  "accession": "0000049196-26-000015",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000015/hban-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-11T18:16:09.236011+00:00"
+ }
+}

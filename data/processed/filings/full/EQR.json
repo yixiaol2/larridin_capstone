@@ -1,0 +1,51 @@
+{
+ "ticker": "EQR",
+ "source_document_id": "0001193125-26-051433",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "piloting promising technologies and standardizing efficiency procedures across the portfolio",
+    "we will continue to consider the cost, capabilities and longevity of technology capital investments and their benefits",
+    "We have incorporated and may continue to incorporate the use of generative and/or agentic artificial intelligence ('AI') within our business"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "artificial intelligence responses to customer inquiries and enhanced service and maintenance management",
+    "self-guided tours, artificial intelligence responses to customer inquiries",
+    "We have incorporated and may continue to incorporate the use of generative and/or agentic artificial intelligence ('AI') within our business"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "rapid evolution and increased adoption of artificial intelligence technologies...may also heighten our cybersecurity risks by making cyber attacks more difficult to detect, contain and mitigate",
+    "Our approach to artificial intelligence may not be successful...Our competitors or other third parties may incorporate AI...more quickly or more successfully than we do",
+    "complex and rapidly evolving landscape around AI may expose us to claims, demands and proceedings by private parties and regulatory authorities and subject us to legal liability as well as reputational harm"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; investment intensity scored 3 based on named initiatives and vendor/technology partnerships without dollar amounts.",
+  "Narrative concreteness scored 4 based on named deployed use cases (AI customer inquiry responses, self-guided tours) with operational detail, but no quantified business results (e.g., % cost savings, volume handled) are disclosed.",
+  "Risk disclosure scored 4 due to named company-specific risk mechanisms (cybersecurity, competitive disadvantage, regulatory/legal liability, reputational harm from algorithmic bias), but no quantified risk exposure or named governance oversight body is present to warrant a score of 5."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-051433",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/906107/000119312526051433/eqr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T17:55:51.034673+00:00"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "ticker": "LDOS",
+ "source_document_id": "0001336920-26-000030",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We completed the acquisition of Kudu Dynamics for a final purchase consideration of $293 million... The Kudu Dynamics business provides artificial intelligence enabled cyber capabilities for defense, intelligence and homeland security customers.",
+    "continual improvements in the effectiveness and efficiency of our business processes driven by our enterprise transformation office leveraging artificial intelligence and automation",
+    "We expect that our incorporation of AI in our business will require additional resources, including the incurrence of additional costs, to develop and maintain our products and solutions"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We deliver trusted national security software leveraging artificial intelligence tools for defense, intelligence, and homeland security customers.",
+    "Multi-Domain Solutions We provide services by using artificial intelligence and machine learning to coordinate sea, ground, air and space rapidly and securely to provide warfighters the right information at the right time.",
+    "Kudu Dynamics business provides artificial intelligence enabled cyber capabilities for defense, intelligence and homeland security customers."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may be flawed, insufficient, of poor quality, rely upon incorrect or inaccurate data, reflect unwanted forms of bias... AI has been known to produce false or hallucinatory inferences or outputs.",
+    "use of any third-party AI-powered software... may lead to the inadvertent disclosure or incorporation of our confidential information into publicly available training sets, which may impact our ability to... maintain, protect and enforce our intellectual property.",
+    "AI regulation is rapidly evolving worldwide... several states, including Colorado and California, have passed or proposed laws... In Europe, the AI Act, which began phasing-in 2025, establishes a risk-based governance framework."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "acquisition of Kudu Dynamics for a final purchase consideration of $293 million, net of $29 million of cash acquired",
+   "context": "Acquisition of AI-enabled cyber capabilities company for defense/intelligence customers, fiscal 2025"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity scored 3 rather than 4: the $293M Kudu Dynamics acquisition is AI-attributable and quantified, but it is a one-time acquisition; no broader quantified AI R&D or capex program is disclosed in the excerpts. Score reflects named AI investment without evidence of sustained multi-year AI spend program.",
+  "No AI-specific dollar amounts for internal R&D or infrastructure build-out appear in the excerpts; the $2.4B Entrust acquisition is described as professional engineering/data analytics with no explicit AI attribution.",
+  "ai_narrative_concreteness capped at 4: named deployed use cases described with operational detail but no quantified business results (e.g., cost savings, throughput metrics) are provided in the excerpts.",
+  "Promotional language present in business section descriptions; deployment status of some AI use cases is asserted but not independently verified from the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001336920-26-000030",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000030/ldos-20260102.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 14,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:05:10.077379+00:00"
+ }
+}

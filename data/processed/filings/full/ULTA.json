@@ -1,0 +1,50 @@
+{
+ "ticker": "ULTA",
+ "source_document_id": "0001104659-26-035243",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "Excerpts contain only risk-factor and IP sections; no capex, budget, vendor partnerships, or infrastructure commitments related to AI are disclosed in the provided text."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "failure to adopt emerging technologies, including advances relating to AI and agentic commerce, in a timely manner could negatively affect our business",
+    "our digital innovations such as try-on applications and AI",
+    "if we are unable to match or surpass the advances in technologies and capabilities of our competitors for either external (guest)-facing or internal use cases"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "algorithms and models utilized in generative AI systems may have limitations, including biases, errors, or the inability to handle certain data types or scenarios",
+    "Uncertainty regarding the regulation of AI...may require significant resources to modify and maintain business practices to comply with U.S. and non-U.S. laws",
+    "if we, our associates, or third parties acting at our direction use them incorrectly, unethically, or illegally, it could have a negative impact on our business, reputation, and financial results"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity is null: no capex, spend amounts, named vendors, or infrastructure commitments appear in the provided excerpts; only risk-factor and IP sections were available.",
+  "ai_narrative_concreteness scored at 3: named use cases (try-on applications, agentic commerce, guest-facing vs. internal use cases) are referenced but no deployment status, production metrics, or quantified outcomes are disclosed; some language is aspirational/risk-framed rather than operational.",
+  "Promotional or forward-looking framing in risk disclosures may overstate concreteness of actual AI deployment."
+ ],
+ "_meta": {
+  "accession": "0001104659-26-035243",
+  "filing_date": "2026-03-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926035243/ulta-20260131x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T19:06:08.218516+00:00"
+ }
+}

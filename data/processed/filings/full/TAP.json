@@ -1,0 +1,49 @@
+{
+ "ticker": "TAP",
+ "source_document_id": "0000024545-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Molson Coors or its third-party vendors may adopt and integrate artificial intelligence tools into our systems for specific use cases, including leveraging artificial intelligence in our marketing efforts",
+    "we operate an Artificial Intelligence ('AI') governance program to ensure proper risk management and regulatory compliance where applicable with this expanding capability"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "leveraging artificial intelligence in our marketing efforts, after review by legal and information security and in alignment with internal oversight and policies and procedures",
+    "we operate an Artificial Intelligence ('AI') governance program to ensure proper risk management and regulatory compliance...managing ethical, legal, cyber, data privacy and other technology risks associated with the use of AI and Generative AI technologies"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The use of artificial intelligence, combined with an uncertain regulatory environment, may result in reputational harm, liability, or other adverse consequences to our brands, marketing and business operations",
+    "providers of these artificial intelligence tools may not meet existing or evolving regulatory or industry standards concerning privacy and data protection, which may result in a loss of intellectual property or confidential information",
+    "rapid evolution and increased adoption of artificial intelligence and machine learning technologies by third parties (including threat actors) may increase our cybersecurity risks"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 2 based on generic/conditional language about potential adoption.",
+  "AI use cases named (marketing, governance program) but described as potential or in-review rather than confirmed deployed; concreteness capped at 3.",
+  "Risk disclosure is company-specific (brand harm, IP loss, cybersecurity via AI-enabled threat actors, regulatory compliance costs) with named mechanisms, justifying score 4, but no quantified risk exposure or formal named oversight body beyond the AI governance program mention."
+ ],
+ "_meta": {
+  "accession": "0000024545-26-000006",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/24545/000002454526000006/tap-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-11T18:34:44.386067+00:00"
+ }
+}

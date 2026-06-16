@@ -1,0 +1,49 @@
+{
+ "ticker": "MGM",
+ "source_document_id": "0000789570-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have invested heavily in technology and in the development of algorithms that detect early signs among players that can indicate a risk for unsound gaming",
+    "we have launched a tool based on machine learning and algorithms that help in the creation of risk profiles for customers"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we have launched a tool based on machine learning and algorithms that help in the creation of risk profiles for customers who are at risk of developing a gaming problem",
+    "LeoSafePlay.com, is dedicated to promoting responsible gaming... algorithms that detect early signs among players that can indicate a risk for unsound gaming"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The rapid evolution and increased adoption of artificial intelligence technologies amplifies these concerns",
+    "our systems and data... have been subject to cybersecurity breaches of varying degrees of severity in the past and are expected to be subject to cybersecurity breaches in the future"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: 'invested heavily' is qualitative; no dollar amounts, headcount, or quantified scale disclosed in excerpts — scored 3 not 4",
+  "ai_narrative_concreteness: named deployed use case (LeoSafePlay ML risk profiling) described with operational detail but no quantified business results (e.g., % of at-risk players identified, volume handled); scored 4",
+  "ai_risk_disclosure_depth: risk-section material is present; AI risk is named (amplified cybersecurity threat from AI adoption) and linked to a specific mechanism (cybersecurity breaches), but no quantification or named governance/oversight body — scored 3",
+  "excerpts are limited to two risk-factor passages; no business/MD&A or capex sections visible, so broader AI investment or use-case disclosures may exist elsewhere in the filing"
+ ],
+ "_meta": {
+  "accession": "0000789570-26-000018",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/789570/000078957026000018/mgm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T18:28:35.740749+00:00"
+ }
+}

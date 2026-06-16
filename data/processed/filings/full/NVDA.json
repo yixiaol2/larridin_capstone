@@ -1,0 +1,60 @@
+{
+ "ticker": "NVDA",
+ "source_document_id": "0001045810-26-000021",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have invested over $76.7 billion in research and development since our inception, yielding inventions that are essential to modern computing.",
+    "More than half of our engineers work on software.",
+    "We entered into multi-year cloud service agreements to support our research and development activities."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 5,
+   "evidence": [
+    "NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list.",
+    "Blackwell Ultra platform...delivers a significant increase in token throughput and reduction in cost per token compared to the Hopper generation.",
+    "Rubin platform...delivering up to a 10x reduction in cost per token compared to Blackwell."
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Issues relating to the responsible use of our technologies, including AI, may result in reputational or financial harm and liability.",
+    "As of the end of fiscal year 2026, we were effectively foreclosed from competing in China's data center computing/compute market, and our effective foreclosure from the China market helped our competitors build larger developer and customer ecosystems.",
+    "The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers and partners is crucial, and any shortage...could impact our future revenue."
+   ],
+   "confidence": 0.83
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "invested over $76.7 billion in research and development since our inception",
+   "context": "Cumulative R&D spend since founding, not a single-year AI capex figure; includes all R&D, not AI-specific"
+  },
+  {
+   "quote": "multi-year cloud service agreements to support our research and development activities",
+   "context": "Multi-year cloud/compute commitments for R&D; no dollar amount disclosed in excerpts"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity scored 3 (not 4 or 5): the $76.7B figure is cumulative lifetime R&D across all activities, not a quantified AI-specific or forward capex commitment; no dollar amounts for AI infrastructure spend appear in the excerpts.",
+  "ai_narrative_concreteness: quantified claims (10x cost reduction, 78% TOP500 share, token throughput gains) are present but some are forward-looking product specs rather than independently verified deployed outcomes; confidence adjusted accordingly.",
+  "ai_risk_disclosure_depth: risk-section excerpts are present and contain named, company-specific risk mechanisms (China export controls, energy/data center availability, responsible AI liability) with revenue impact pathways described, supporting score 4; no quantified risk figures or named governance bodies found in excerpts to support score 5."
+ ],
+ "_meta": {
+  "accession": "0001045810-26-000021",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T18:40:54.868861+00:00"
+ }
+}

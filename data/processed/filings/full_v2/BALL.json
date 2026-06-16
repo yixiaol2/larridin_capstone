@@ -1,0 +1,49 @@
+{
+ "ticker": "BALL",
+ "source_document_id": "0001104659-26-017410",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Ball and Ayna.AI LLC (Ayna) executed a Unit Purchase Agreement to form a strategic partnership in which Ball owns a 49 percent interest.",
+    "Ball recorded an additional loss of $8 million related to the transaction in business consolidation and other activities"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Ball and Ayna.AI LLC (Ayna) executed a Unit Purchase Agreement to form a strategic partnership in which Ball owns a 49 percent interest.",
+    "identify potential and emerging security risks (including AI-driven phishing and supply chain attacks), and implement strategies to manage these risks"
+   ],
+   "confidence": 0.55
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "identify potential and emerging security risks (including AI-driven phishing and supply chain attacks), and implement strategies to manage these risks",
+    "We continually refine our approach to address evolving cybersecurity regulations, identify potential and emerging security risks"
+   ],
+   "confidence": 0.7
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "The Ayna.AI partnership is named but its strategic purpose and AI scope are not described in the excerpts; the $8 million loss figure relates to a transaction accounting entry, not a direct AI investment amount.",
+  "No quantified AI-attributable capex or R&D spend is disclosed in the excerpts.",
+  "AI narrative concreteness is limited: the Ayna.AI partnership lacks deployment detail or use-case description in the available excerpts.",
+  "Risk disclosure excerpts are from item_1b (cybersecurity section), not a dedicated risk-factor section; AI risk is mentioned specifically only in the context of cybersecurity threats."
+ ],
+ "_meta": {
+  "accession": "0001104659-26-017410",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/9389/000110465926017410/ball-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-15T20:15:23.894282+00:00"
+ }
+}

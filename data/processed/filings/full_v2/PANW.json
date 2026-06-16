@@ -1,0 +1,51 @@
+{
+ "ticker": "PANW",
+ "source_document_id": "0001327567-25-000027",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-29",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our research and development efforts are strategically centered on expanding our leadership within the enterprise security industry through AI-powered innovation.",
+    "Our engineering teams apply deep expertise in AI and machine learning across networking security, cloud security, endpoint security, and security operations.",
+    "in July 2025, we completed the acquisition of Protect AI, Inc...which we expect will enhance the capabilities of our AI security platform."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Cortex XSIAM automates data integration, analysis, and triage to respond to most alerts, enabling analysts to focus on only the incidents that require human intervention.",
+    "Prisma AIRS is a comprehensive AI security platform...providing AI model scanning, posture management, red teaming, run-time security, and AI agent security.",
+    "SCM leverages AI to simplify and strengthen network security by enabling customers to proactively pinpoint vulnerabilities, gain real-time remediation recommendations."
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may have flaws, and datasets used to train models may be insufficient or contain biased information.",
+    "These efforts could subject us to regulatory risk, legal liability, including under legislation regulating AI in jurisdictions such as the E.U.",
+    "The intellectual property ownership and license rights surrounding AI technologies...may result in exposure to claims by third parties of copyright infringement or other intellectual property misappropriation."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount figures, or quantified R&D/capex tied specifically to AI are disclosed in the excerpts; score capped at 3 despite named programs and an AI-focused acquisition.",
+  "ai_narrative_concreteness: Multiple named AI products described as deployed and in production with operational detail, but no quantified business results (e.g., % improvement, time saved, volume handled) appear in the excerpts; score capped at 4.",
+  "capex_mentions: No specific dollar figures for AI-attributable investment found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001327567-25-000027",
+  "filing_date": "2025-08-29",
+  "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756725000027/panw-20250731.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T21:21:17.595987+00:00"
+ }
+}

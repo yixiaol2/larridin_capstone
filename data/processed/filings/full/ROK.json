@@ -1,0 +1,56 @@
+{
+ "ticker": "ROK",
+ "source_document_id": "0001024478-25-000116",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 5,
+   "evidence": [
+    "We plan to invest over $2 billion over the next five years in manufacturing facilities, digital infrastructure, and talent to support market share growth, operational resilience, and margin expansion.",
+    "Our key priorities for inorganic investments include: industrial AI applications; market access in Europe and Asia; and product portfolio expansion."
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We strive to stay competitive by continuously advancing technologies, including through the adoption and integration of artificial intelligence (AI), for new hardware and software products, product enhancements, and complete solutions.",
+    "We see converging megatrends including digitization and AI, energy transition and sustainability, shifting demographics, and an increased need for resiliency.",
+    "Our key priorities for inorganic investments include: industrial AI applications; market access in Europe and Asia; and product portfolio expansion."
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "As we broaden the application of AI across product development, manufacturing, customer operations, and enterprise operations, we face evolving risks related to safety, data governance, regulatory compliance, intellectual property, and ethical use.",
+    "Integrating AI into our offerings and internal processes may lead to unintended consequences, including biased outputs, inaccurate decision-making, and increased vulnerability to adversarial attacks, that could significantly impact our business, reputation, and financial results.",
+    "As global standards and regulations relating to AI increase and change, it could result in additional costs, reputational harm, legal liability, and regulatory scrutiny related to our use of AI."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "invest over $2 billion over the next five years in manufacturing facilities, digital infrastructure, and talent",
+   "context": "Five-year investment plan disclosed in risk factors/MD&A; covers manufacturing, digital infrastructure, and talent — not exclusively AI, but digital infrastructure and AI applications are named priorities"
+  }
+ ],
+ "limitations": [
+  "The $2 billion multi-year commitment covers manufacturing facilities, digital infrastructure, and talent broadly — it is not exclusively AI capex, reducing confidence in the intensity score.",
+  "AI narrative concreteness is limited to named strategic priorities and integration intent; no deployed use cases with operating metrics or quantified results are described in the excerpts.",
+  "Risk section material is present (labeled [mdna] and [risk_factors]) and contains substantive AI risk discussion with company-specific mechanisms, supporting a score of 4; however, no quantified risk exposure or named governance body is disclosed, precluding a score of 5.",
+  "Promotional language ('world's largest company dedicated to industrial automation') is present but does not affect scoring of AI-specific dimensions."
+ ],
+ "_meta": {
+  "accession": "0001024478-25-000116",
+  "filing_date": "2025-11-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447825000116/rok-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 28,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:52:32.022391+00:00"
+ }
+}

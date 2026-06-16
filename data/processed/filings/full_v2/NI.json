@@ -1,0 +1,61 @@
+{
+ "ticker": "NI",
+ "source_document_id": "0001111711-26-000027",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "we expect to construct, through GenCo, 400 MW of new battery storage and a new power generation facility consisting of two 1,300 MW CCGTs, which are expected to reach commercial operation between 2028 and 2032",
+    "we expect to incur significant additional long-term debt and issue additional equity in NiSource...to support construction of the Contract Assets and any generation and transmission assets to support future data center contracts",
+    "the generating capacity of the Contract Assets, when fully delivered into service, is expected to be approximately equivalent to the generating capacity of all NIPSCO's existing generating assets"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Deployment or adoption of new or emerging business technologies, including artificial intelligence, Internet of Things (IoT) devices, and cloud-based platforms...heightens our exposure to risks outside of our control",
+    "a change in investor sentiment toward us or the utilities industry or the cloud-computing, artificial intelligence and data center industry generally could adversely affect our ability to raise the necessary capital",
+    "accurately predicting future power needs of data centers due to rapidly changing technology and market dynamics"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Deployment or adoption of new or emerging business technologies, including artificial intelligence...heightens our exposure to risks outside of our control and represents a large-scale opportunity for attacks on our information systems",
+    "a change in investor sentiment toward us or...the cloud-computing, artificial intelligence and data center industry generally could adversely affect our ability to raise the necessary capital",
+    "accurately predicting future power needs of data centers due to rapidly changing technology and market dynamics...managing the possible environmental impact of the potential increased power demand while remaining focused on our Net Zero Goal"
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "400 MW of new battery storage and a new power generation facility consisting of two 1,300 MW CCGTs, which are expected to reach commercial operation between 2028 and 2032",
+   "context": "Generation assets to be constructed by GenCo under the ADS Contract to serve data center customers"
+  },
+  {
+   "quote": "we expect to incur significant additional long-term debt and issue additional equity in NiSource...to support construction of the Contract Assets",
+   "context": "Financing plan for data center infrastructure build-out under ADS Contract and future data center contracts"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity score reflects infrastructure build-out to serve data center customers (including AI-driven demand); the filing does not separately quantify AI-attributable capex in dollar terms, only in capacity terms (MW), reducing confidence in the score.",
+  "AI narrative concreteness: NiSource is a utility, not an AI developer. AI is mentioned primarily as a driver of data center load growth and as a cybersecurity risk vector, not as a deployed internal capability. No named internal AI use cases or AI products are described; score reflects named data center/AI-demand initiatives without deployment metrics.",
+  "AI risk disclosure: risk-section excerpts are present and discuss AI explicitly in the context of cybersecurity exposure and data center demand uncertainty, with company-specific mechanisms described (revenue/financing impact, grid reliability, Net Zero Goal tension), but no quantified risk figures or named AI governance bodies are disclosed, capping the score at 4.",
+  "Dollar amounts for total AI/data-center capex are not explicitly stated in the excerpts; capacity figures (MW) are used as proxies."
+ ],
+ "_meta": {
+  "accession": "0001111711-26-000027",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/1111711/000111171126000027/nix-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-15T21:16:52.542337+00:00"
+ }
+}

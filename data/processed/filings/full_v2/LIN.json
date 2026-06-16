@@ -1,0 +1,48 @@
+{
+ "ticker": "LIN",
+ "source_document_id": "0001628280-26-011430",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "she served as Senior Vice President of Communications, AI, and Corporate Procurement beginning in 2024",
+    "Linde relies on information technology systems and networks, including systems that utilize advanced technologies for business and operational activities"
+   ],
+   "confidence": 0.45
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "she served as Senior Vice President of Communications, AI, and Corporate Procurement beginning in 2024",
+    "data protection including artificial intelligence"
+   ],
+   "confidence": 0.5
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Linde is subject to regulations in the following areas, among others: ... data protection including artificial intelligence",
+    "Changes in these or other regulatory areas may impact Linde's profitability and may give rise to new or increased compliance risks"
+   ],
+   "confidence": 0.65
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: Only indirect evidence of AI investment — a senior VP title referencing AI and generic advanced-technology language. No named AI programs, dollar amounts, or dedicated AI spend disclosed in excerpts.",
+  "ai_narrative_concreteness: No named AI initiatives, use cases, or deployment details found in excerpts; AI appears only in an executive title and a regulatory compliance list.",
+  "ai_risk_disclosure_depth: Risk-section material is present. AI is named specifically in the regulatory compliance risk category (data protection including AI), and a mechanism (compliance cost, sanctions) is implied, but the treatment is brief and not company-specific beyond regulatory exposure — scored 3 rather than 4 due to limited mechanistic detail."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-011430",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1707925/000162828026011430/lin-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:05:41.616307+00:00"
+ }
+}

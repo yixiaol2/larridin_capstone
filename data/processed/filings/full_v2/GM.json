@@ -1,0 +1,60 @@
+{
+ "ticker": "GM",
+ "source_document_id": "0001467858-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "Research and development expenses were $8.5 billion, $9.2 billion, and $9.9 billion in the years ended December 31, 2025, 2024, and 2023.",
+    "we expect that our AV and ADAS development activities will continue to require significant capital investments",
+    "attract and retain key software talent with expertise in AI and machine learning; access sufficient capital; access high-quality data to train the AI models deployed in our AV and ADAS technologies"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "The work spans advanced driver assistance and autonomy, connected vehicle platforms, and OnStar s evolution into an intelligent, always-on services layer, combining software, AI, and vehicle platforms",
+    "we wound down the Cruise robotaxi operations and combined the GM and Cruise ongoing personal autonomous technical efforts in our GMNA segment",
+    "future features and services based on AI, and other new businesses"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if we are unable to successfully integrate new technology, including AI, in a timely, cost-effective, compliant, and reasonable manner, or if the methods and processes we use to develop, deploy, or otherwise use such new technology are found to not be in compliance with rapidly evolving regulatory standards",
+    "cyberattacks and incidents to continue in varying degrees, including due to the rapid evolution and adoption of AI... Techniques used in cyberattacks... increasingly diverse and sophisticated, including as a result of emerging technologies, such as AI and machine learning",
+    "regulations, including with respect to the use of AI... the EU's Artificial Intelligence Act... failure to maintain compliant data practices could result in consumer complaints, private litigation, and regulatory inquiry resulting in civil or criminal penalties"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Research and development expenses were $8.5 billion, $9.2 billion, and $9.9 billion in the years ended December 31, 2025, 2024, and 2023",
+   "context": "Total R&D spend across three years; AI/AV/ADAS are named components but AI-attributable share is not separately quantified"
+  },
+  {
+   "quote": "our AV and ADAS development activities will continue to require significant capital investments",
+   "context": "Forward-looking statement on AV/ADAS capex needs following Cruise wind-down; no dollar amount specified"
+  }
+ ],
+ "limitations": [
+  "R&D figures ($8.5B–$9.9B) are total company R&D; AI-attributable share is not broken out, so ai_investment_intensity scored 4 rather than 5 — quantified spend exists but is not cleanly AI-attributable.",
+  "AI narrative concreteness is limited to named programs (OnStar, AV/ADAS, Cruise wind-down) with operational detail but no quantified business outcomes disclosed in these excerpts.",
+  "Risk section material is present and scored; risk disclosure references specific regulatory regimes (EU AI Act, CCPA) and specific threat mechanisms (cyberattack vectors, compliance penalties), supporting score of 4, but no quantified risk exposure or named internal governance body is cited, precluding score of 5."
+ ],
+ "_meta": {
+  "accession": "0001467858-26-000013",
+  "filing_date": "2026-01-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:49:57.760883+00:00"
+ }
+}

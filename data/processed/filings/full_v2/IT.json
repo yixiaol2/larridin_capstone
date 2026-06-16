@@ -1,0 +1,49 @@
+{
+ "ticker": "IT",
+ "source_document_id": "0000749251-26-000112",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "In August 2025, we launched AskGartner, our new AI-powered tool that gives clients an improved user experience by providing faster, more efficient access to our insights",
+    "Developing, testing, and deploying AI systems has required, and will continue to require, additional investment and increased costs, including costs related to developing talent to implement AI technologies."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "In August 2025, we launched AskGartner, our new AI-powered tool that gives clients an improved user experience by providing faster, more efficient access to our insights, to licensed users globally.",
+    "We use, and may expand our use of, machine learning and AI technologies in some of our products, services, and processes."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI technologies that we use may lead to unintended consequences and errors, including generating content that appears correct but is factually inaccurate, misleading or otherwise flawed, or that results in unintended biases",
+    "The EU Artificial Intelligence Act entered into force on August 1, 2024 and governs AI systems that impact individuals in the EU. Complying with the EU AI Act and similar emerging laws may impose significant costs",
+    "clients or others may load our proprietary information into large language models, which could reduce the value of our offerings... Cyber criminals use artificial intelligence tools to increase the effectiveness, speed and complexity of attacks"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied to AI investment were disclosed in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "AskGartner launch is described as deployed but no quantified business results (e.g., usage metrics, revenue impact) are provided, capping narrative concreteness at 4.",
+  "Risk disclosure is detailed and company-specific with named mechanisms (regulatory, reputational, IP, cybersecurity) but no quantified risk exposure or named governance/oversight body, capping risk depth at 4."
+ ],
+ "_meta": {
+  "accession": "0000749251-26-000112",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000112/it-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T20:48:46.310726+00:00"
+ }
+}

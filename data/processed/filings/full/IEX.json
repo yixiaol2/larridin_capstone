@@ -1,0 +1,50 @@
+{
+ "ticker": "IEX",
+ "source_document_id": "0000832101-26-000003",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We are in the initial stages of our phased approach in reviewing AI solutions and capabilities and incorporating AI into our business activities and product and service offerings.",
+    "the continued growth of artificial intelligence (AI) and any related changes to demand in AI-driven markets served by the Company s customers"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We are in the initial stages of our phased approach in reviewing AI solutions and capabilities and incorporating AI into our business activities and product and service offerings.",
+    "the increasing use and development of AI has increased demand for AI-related projects, including data center power solutions and semiconductor applications.",
+    "continued growth supported by robust demand across data center, semiconductor, space and defense, and food and beverage and pharmaceutical end markets"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may be flawed or may be based on datasets that are biased or insufficient. In addition, any disruption or failure in the AI functionality we have incorporated...could adversely impact our business or result in delays or errors",
+    "The legal and regulatory landscape surrounding AI technologies is rapidly evolving and uncertain, including in the areas of intellectual property, cybersecurity and privacy and data protection.",
+    "the rapid evolution and increased adoption of AI technologies may intensify our cybersecurity risks...may result in a material adverse effect on the Company and its financial condition or results of operations"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or investment amounts disclosed in the excerpts; investment intensity scored 2 based on generic, early-stage language with no named systems, vendors, or budget figures.",
+  "AI narrative is primarily framed around customer demand for AI-adjacent products (data center, semiconductor) rather than IDEX's own AI deployments; no deployed use cases with metrics disclosed.",
+  "Risk disclosure is company-specific and mechanism-level (score 4) but no quantified risk exposure or named governance/oversight bodies were found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000832101-26-000003",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000003/iex-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-11T18:16:51.215011+00:00"
+ }
+}

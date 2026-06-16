@@ -1,0 +1,49 @@
+{
+ "ticker": "ITW",
+ "source_document_id": "0000049826-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "No AI capex, budget, headcount, or infrastructure commitment disclosed in the excerpts; AI is mentioned only in risk and compliance contexts."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Difficulties or delays in... adoption of technological change, such as the use of artificial intelligence and machine learning, may reduce future revenues and adversely affect the Company's competitive position.",
+    "the use of artificial intelligence in our business and in our products and services"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The risk and severity of cybersecurity attacks could increase as artificial intelligence is used by threat actors to identify vulnerabilities and conduct increasingly sophisticated attacks.",
+    "The Company may incur fines or penalties... if its employees, agents or business partners violate... artificial intelligence... laws.",
+    "subject to complex U.S., foreign and other local laws and regulations... the use of artificial intelligence in our business and in our products and services"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity is null: excerpts contain no quantified or named AI investment, infrastructure, or budget disclosures.",
+  "ai_narrative_concreteness scored 2: AI is referenced aspirationally and in compliance/risk language only; no named AI initiatives, products, or deployment details are described.",
+  "ai_risk_disclosure_depth scored 3: risk-section excerpts name specific risk categories (cybersecurity amplification by AI threat actors, AI regulatory compliance) but do not quantify risk exposure or describe named oversight bodies or mitigation programs."
+ ],
+ "_meta": {
+  "accession": "0000049826-26-000008",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/49826/000004982626000008/itw-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 1.3,
+  "extracted_at": "2026-06-11T18:17:40.368019+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "DG",
+ "source_document_id": "0001104659-26-032325",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "risks associated with our continued integration of artificial intelligence and machine learning within our technology systems",
+    "Changes related to immigration, artificial intelligence, and workforce policies and practices, may also impact us."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "if our competitors or third parties incorporate artificial intelligence into their businesses more quickly or more successfully than us, it could impair our ability to compete effectively",
+    "continued integration of artificial intelligence and machine learning within our technology systems"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if the types of information that applications with embedded artificial intelligence assist in producing are or are alleged to be deficient, inaccurate, or biased, our business, financial condition, and results of operations may be adversely affected",
+    "Audit Committee discusses with management...most significant financial and other risk exposures, including...artificial intelligence...and the steps management has taken to monitor and control such exposures",
+    "an overview of various artificial intelligence considerations, including those related to risk management, governance and ethics, and workforce and culture"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, named vendor/cloud/chip partnerships, or dedicated AI budgets disclosed in the excerpts; investment intensity scored 2 based on generic integration references only.",
+  "AI narrative is largely framed through risk and competitive language rather than named initiatives or deployment details; no use-case specifics or metrics provided.",
+  "Risk disclosure scored 4 due to named company-specific risk mechanisms (inaccuracy/bias impacting financials) and named governance body (Audit Committee) with described oversight processes, but no quantified risk exposure or formal named mitigation program beyond committee oversight."
+ ],
+ "_meta": {
+  "accession": "0001104659-26-032325",
+  "filing_date": "2026-03-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/29534/000110465926032325/dg-20260130x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-11T17:49:50.708758+00:00"
+ }
+}

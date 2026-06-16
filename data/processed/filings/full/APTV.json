@@ -1,0 +1,57 @@
+{
+ "ticker": "APTV",
+ "source_document_id": "0001521332-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Commencing partnerships with leading technology companies to commercialize our intelligent edge portfolio, including ServiceNow, Capgemini, Robust.AI, Vecna Robotics, Nota AI, SiMa.ai, DEEPX and others",
+    "Aptiv previously made KRW-denominated investments in StradVision totaling approximately $40 million in the first half of 2025 and approximately $108 million in prior years",
+    "sensing and perception technologies enhanced through artificial intelligence and machine learning, as well as the underlying architecture technologies capable of supporting safety-critical applications"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Wind River is a global leader in delivering software for the intelligent edge for multiple industries, including automotive, by leveraging mixed-criticality software products and solutions enabling customers to develop in the cloud, deploy OTA",
+    "StradVision, a provider of deep learning-based camera perception software for automotive applications, to convert the Company s existing preferred shares in StradVision into common shares, resulting in a common equity interest of approximately 41%",
+    "Advanced Safety includes solutions that enable advanced safety features and vehicle automation, as well as radar, vision and other sensing technologies"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "some actors are using artificial intelligence technology to launch more automated, targeted and coordinated attacks which further heightens these risks",
+    "Evolving technology areas related to the trends of automation, electrification, and digitalization present numerous risks, including high development costs, uncertainty regarding the timing of customer and consumer adoption, increased competition from entrants outside our traditional industries",
+    "the high development cost of various technologies may result in a higher risk of exposure to the success of new or disruptive technologies different than those being developed by us or our partners"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "investments in StradVision totaling approximately $40 million in the first half of 2025 and approximately $108 million in prior years",
+   "context": "KRW-denominated equity investments in deep learning-based camera perception software company StradVision; resulted in ~41% common equity interest"
+  }
+ ],
+ "limitations": [
+  "No explicit AI-dedicated capex dollar amounts or multi-year AI budget commitments disclosed; StradVision investment ($40M + $108M) is the only quantified AI-adjacent spend but represents equity investment rather than infrastructure capex, limiting intensity score to 3",
+  "AI narrative concreteness is based on named deployed products and partnerships (Wind River, StradVision, ADAS) but no quantified business results (e.g., revenue contribution, efficiency metrics) are provided, capping score at 4",
+  "Risk disclosure references AI-enabled cyberattacks and technology adoption uncertainty as named company-specific risk categories, but no quantified risk exposure or formal AI governance body is described, capping score at 3",
+  "Excerpts do not include a dedicated AI risk-factor subsection; AI risk references appear embedded within broader technology and cybersecurity risk discussions"
+ ],
+ "_meta": {
+  "accession": "0001521332-26-000009",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1521332/000152133226000009/aptv-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:24:44.068011+00:00"
+ }
+}

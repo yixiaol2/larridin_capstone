@@ -1,0 +1,49 @@
+{
+ "ticker": "ABBV",
+ "source_document_id": "0001551152-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "AbbVie has invested significantly in equipping employees with foundational artificial intelligence (AI) skills, reflecting both the opportunities AI presents and its commitment to supporting employees as work evolves.",
+    "AbbVie utilizes AI and other emerging technologies in select applications to support its operations."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "AbbVie has invested significantly in equipping employees with foundational artificial intelligence (AI) skills",
+    "AbbVie utilizes AI and other emerging technologies in select applications to support its operations."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "a failure to adequately adopt emerging technologies such as artificial intelligence, could have a material adverse effect on AbbVie's business.",
+    "AI-generated analyses utilized by AbbVie could be deficient or exacerbate regulatory, cybersecurity or other significant risks.",
+    "competitors' advancements in AI may lead to more efficient operations"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount figures, or named vendor/infrastructure partnerships disclosed; 'invested significantly' is unquantified and primarily refers to employee training, not capital infrastructure.",
+  "ai_narrative_concreteness: Named use cases are not described beyond 'select applications'; no deployment metrics or operational detail provided; score of 3 reflects named initiative (employee AI skills program) and general operational use, but no production detail.",
+  "ai_risk_disclosure_depth: Risk-section material is present and names specific risk categories (model errors/deficiency, regulatory risk, cybersecurity, competitive disadvantage), but no quantification or named governance/oversight bodies are disclosed, capping score at 3."
+ ],
+ "_meta": {
+  "accession": "0001551152-26-000008",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T17:01:06.206686+00:00"
+ }
+}

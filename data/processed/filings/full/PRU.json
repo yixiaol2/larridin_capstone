@@ -1,0 +1,50 @@
+{
+ "ticker": "PRU",
+ "source_document_id": "0001137774-26-000048",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "AI technologies offer potential benefits in areas such as customer service personalization and process automation, and we expect to use AI to help deliver products and services and support critical functions.",
+    "our ability to continue to develop and efficiently deploy AI technologies depends on access to specific third-party equipment and other physical infrastructure, such as processing hardware and network capacity"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "AI technologies offer potential benefits in areas such as customer service personalization and process automation, and we expect to use AI to help deliver products and services and support critical functions.",
+    "The development and adoption of AI, including generative AI and agentic AI, and its use and anticipated use by us or by third parties on whom we rely"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Reputational Damage: Malicious actors could use AI to create deepfakes of the Company's executives or manipulate financial documents, leading to loss of customer trust and significant reputational damage.",
+    "Fraudulent Activity: AI could be used to create forged documents or impersonate individuals to commit financial fraud, leading to financial losses and regulatory scrutiny.",
+    "The risks identified above could be exacerbated by agentic AI, which, acting without supervision, could take actions harmful to the Company or our customers."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 2 based on aspirational/generic language only.",
+  "AI use cases named (customer service personalization, process automation) are described as anticipated/expected rather than deployed, limiting concreteness score to 2.",
+  "Risk disclosure is detailed and company-specific with named mechanisms (deepfakes, fraud, agentic AI harms), but no quantified risk figures or named governance oversight bodies are present in the excerpts, capping score at 4.",
+  "Excerpts are heavily weighted toward risk and regulatory sections; business/strategy sections describing actual AI deployments or investment budgets may exist in the full filing but are not present here."
+ ],
+ "_meta": {
+  "accession": "0001137774-26-000048",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000048/pru-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T18:48:26.974540+00:00"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "ticker": "DGX",
+ "source_document_id": "0001022079-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "In 2025, we announced a collaboration with Google to use Google Cloud's data analytics and generative AI to help us streamline our data management, improve data analytics, and personalize the experiences",
+    "In February 2025, we committed to a multi-year project ('Project Nova') to modernize our 'Order to Cash' business processes, which includes the related information technology infrastructure and underlying enabling technologies.",
+    "Using AI successfully will require significant resources, including having the technical expertise required to develop, test and maintain AI-based testing services and continually developing the appropriate governance and oversight"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "In 2025, we initiated or expanded our use of AI and automation in several areas, ranging from digital cytology, microbiology, parasitology and digital pathology.",
+    "Quest Lab Stewardship employs machine learning to help optimize medically-appropriate laboratory test utilization.",
+    "We also continue to broaden our use of AI in customer service to help our representatives access answers more quickly, improving their effectiveness and service quality."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI technology can create accuracy issues and other outcomes that could harm our customers and negatively impact our reputation and our business.",
+    "Many of the third-party service providers we rely on use AI for a variety of purposes, which increases the risk that our sensitive and proprietary data...could be inadvertently or maliciously exposed.",
+    "We anticipate that there will continue to be new regulatory requirements concerning the use of AI, which may aim to regulate, limit, or block the use of AI in our testing and other services"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No AI-attributable dollar amounts for capex or R&D were disclosed in the excerpts; investment intensity scored 3 (named programs/partnerships but no quantified AI-specific spend).",
+  "The Google Cloud collaboration and Project Nova are named but no contract values or AI-specific budget figures are provided.",
+  "Narrative concreteness is scored 4 (deployed use cases with operating detail) but no quantified business results (%, $, time saved) were found, preventing a score of 5.",
+  "Risk disclosure scored 4 based on named company-specific risk mechanisms; no quantified risk figures or named oversight body budget/metrics were provided to support a score of 5, though a formal AI governance oversight committee is mentioned."
+ ],
+ "_meta": {
+  "accession": "0001022079-26-000015",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1022079/000102207926000015/dgx-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 15,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-15T21:26:28.382127+00:00"
+ }
+}

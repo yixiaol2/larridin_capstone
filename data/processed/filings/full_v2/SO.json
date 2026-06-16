@@ -1,0 +1,55 @@
+{
+ "ticker": "SO",
+ "source_document_id": "0000092122-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The majority of this demand is driven by the power needs and projected power needs of data centers to serve an increasingly digital economy and to support artificial intelligence.",
+    "Extending service to these customers necessitates significant capital expenditures, which in turn requires sufficient access to sources of capital."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "The traditional electric operating companies are experiencing projected demand that significantly exceeds recent experience, creating the need for new power generating resources and transmission facilities.",
+    "The majority of this demand is driven by the power needs and projected power needs of data centers to serve an increasingly digital economy and to support artificial intelligence."
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Use of generative artificial intelligence has also increased the frequency, scale, and sophistication of cyber attacks and increased the capability of less sophisticated actors.",
+    "As generative artificial intelligence continues to evolve, new technologies and increased computing power could cause these trends to continue or exacerbate.",
+    "The increased concentration of business within a single industry based on emerging technologies, and uncertainties on the actual capacity required to satisfy the projected new demands of these new industries creates risks."
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Extending service to these customers necessitates significant capital expenditures",
+   "context": "Capital expenditures required to serve data center and AI-driven load growth; no dollar amount specified"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: Southern Company is a utility, not an AI builder; AI-attributable capex is framed as infrastructure to serve AI-driven customer demand (data centers), not direct AI R&D or AI product investment. No dollar amounts are disclosed in the excerpts, limiting score to 3.",
+  "ai_narrative_concreteness: AI is discussed primarily as a demand driver for the utility's grid/generation build-out rather than as a deployed internal use case; no quantified results or deployment metrics provided.",
+  "ai_risk_disclosure_depth: Risk-section and MD&A material is present; AI risks are named with specific mechanisms (cyber sophistication, load concentration, geopolitical escalation) but no quantification or named governance/oversight bodies are disclosed, capping score at 4.",
+  "Excerpts are limited; additional AI-related disclosures may exist elsewhere in the full filing."
+ ],
+ "_meta": {
+  "accession": "0000092122-26-000006",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000006/so-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:33:05.009453+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "CMCSA",
+ "source_document_id": "0001628280-26-004994",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Our success is, to a large extent, dependent on our ability to acquire, develop, adopt and leverage new and existing technologies, such as AI",
+    "if we fail to employ technologies desired by consumers or that enhance our business operations, such as through the use of AI... our businesses and results of operations could be adversely affected"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "our ability to acquire, develop, adopt and leverage new and existing technologies, such as AI",
+    "technologies such as AI that can rapidly produce large volumes of content",
+    "The legal landscape for new technologies, including AI, remains uncertain"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "we expect threat actors will continue to gain sophistication by using tools and techniques, such as AI, that are specifically designed to circumvent security controls",
+    "The legal landscape for new technologies, including AI, remains uncertain, and legal developments could impact our ability to protect our intellectual property against uses by unauthorized third parties, including generative AI developers",
+    "Applying existing laws in novel ways to new technologies, including streaming services and AI, may also affect our business"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts, headcount, or named AI programs disclosed in the excerpts; investment intensity scored 2 due to generic language only.",
+  "AI narrative is entirely aspirational or risk-framed; no named AI initiatives, products, or deployment status described — scored 2.",
+  "Risk disclosures reference specific mechanisms (IP misappropriation by generative AI developers, AI-enhanced cyber threats, regulatory uncertainty for AI) tied to Comcast's specific business lines, supporting a score of 4, though no quantification or named governance bodies appear in these excerpts.",
+  "Excerpts appear to be primarily from item_16 (risk factors / regulatory sections); no financial results or capex tables included, so capex_mentions is empty."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-004994",
+  "filing_date": "2026-02-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:29:21.414246+00:00"
+ }
+}

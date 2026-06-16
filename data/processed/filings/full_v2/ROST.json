@@ -1,0 +1,48 @@
+{
+ "ticker": "ROST",
+ "source_document_id": "0000745732-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-31",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Advancements in technology (including artificial intelligence or other emerging technologies) will present opportunities to inform merchandising, pricing, assortment, and other key business decisions"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Advancements in technology (including artificial intelligence or other emerging technologies) will present opportunities to inform merchandising, pricing, assortment, and other key business decisions; however, there are costs, risks and potential adverse consequences"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "if competitors successfully implement these capabilities more quickly or effectively than we do, our competitive position could be adversely affected",
+    "the advances in computer capabilities and artificial intelligence, and remote access increases these risks",
+    "costs, risks and potential adverse consequences from premature adoption or over-reliance on those emerging technologies"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, named AI programs, or headcount figures appear in the excerpts; investment intensity scored 2 based solely on aspirational/generic language.",
+  "AI narrative is entirely forward-looking and risk-framed with no named deployed initiatives or metrics; concreteness capped at 2.",
+  "Risk disclosure names specific risk categories (competitive displacement, cybersecurity amplification, premature adoption) but provides no quantified risk scenarios or named governance bodies, capping depth at 3.",
+  "Excerpts are limited to two risk-factor passages; no MD&A, business description, or capital allocation sections are present, so investment intensity and concreteness may be understated relative to the full filing."
+ ],
+ "_meta": {
+  "accession": "0000745732-26-000006",
+  "filing_date": "2026-03-31",
+  "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573226000006/rost-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-15T21:29:37.988977+00:00"
+ }
+}

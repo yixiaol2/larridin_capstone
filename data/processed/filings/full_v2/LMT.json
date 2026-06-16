@@ -1,0 +1,50 @@
+{
+ "ticker": "LMT",
+ "source_document_id": "0001628280-26-004195",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-29",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are harnessing leading-edge technologies like artificial intelligence and autonomy, open-architecture systems, and advanced networking to make defense forces more agile",
+    "we make investments in emerging technologies that we believe are needed to keep pace with rapid industry innovation and seek to collaborate with commercial entities"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "efforts to provide mission solutions that integrate capabilities and resources across all forces and domains, which we refer to as joint all domain operations, and to implement emerging digital and network technologies",
+    "Artificial intelligence technologies have rapidly developed and our business may be adversely affected if we cannot successfully integrate the technology into our internal business processes and product and service offerings"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Artificial intelligence technologies have rapidly developed and our business may be adversely affected if we cannot successfully integrate the technology into our internal business processes and product and service offerings in a timely, cost-effective, compliant and responsible manner",
+    "our performance is dependent upon us identifying, attracting, developing, motivating and retaining a highly skilled workforce... including... artificial intelligence, cybersecurity",
+    "the risk associated with the use of emerging technologies, such as artificial intelligence and quantum computing, for nefarious purposes"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount figures, or program-level budgets appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases are named at a high level (joint all-domain operations, internal business processes, product offerings) but no deployment status or metrics are disclosed; concreteness capped at 3.",
+  "Risk disclosures name specific risk categories (integration failure, talent competition, adversarial AI/cyber threats) but provide no quantified risk exposure, governance bodies, or formal mitigation programs; depth capped at 3.",
+  "Excerpts are pre-filtered; additional AI investment or risk detail may exist elsewhere in the full filing."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-004195",
+  "filing_date": "2026-01-29",
+  "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/lmt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-15T21:05:52.224038+00:00"
+ }
+}

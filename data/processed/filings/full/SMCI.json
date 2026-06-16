@@ -1,0 +1,64 @@
+{
+ "ticker": "SMCI",
+ "source_document_id": "0001375365-25-000027",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-28",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "strong demand and increased billings for GPU Super Racks of $5,804.0 million or 52% compared to prior year, including liquid-cooled and air-cooled servers... related to our H200, H100, and B200 systems",
+    "we have devoted, and will continue to devote, substantial resources to developing systems that support emerging and growing applications including AI",
+    "we plan to continue making significant investments to support our business growth and may require additional funds to address business challenges"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 5,
+   "evidence": [
+    "GPU Super Racks billings of $5,804.0 million or 52% compared to prior year... related to our H200, H100, and B200 systems, resulting in an increase of average selling price of 34%",
+    "We launched our Data Center Building Block Solutions (DCBBS), an integrated offering that simplifies the deployment of liquid-cooled AI factories",
+    "DLC-2 can lower electricity costs by up to 40% compared to air-cooled setups and reduce total cost of ownership (TCO) by up to 20%"
+   ],
+   "confidence": 0.88
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The AI industry involves significant risks and uncertainties... evolving regulatory constraints, industry standards and ethical and legal considerations",
+    "Our workforce may use AI tools on an unauthorized basis which poses additional risks relating to the protection of data, including the potential exposure of our proprietary confidential information",
+    "increasing focus on the risks and strategic importance of AI technologies has resulted in regulatory restrictions that target products... capable of enabling or facilitating AI... including but not limited to AI technologies and high-performance computing"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "GPU Super Racks of $5,804.0 million or 52% compared to prior year",
+   "context": "Fiscal year 2025 revenue from GPU Super Racks including H200, H100, B200 AI server systems"
+  },
+  {
+   "quote": "estimated over $292.0 million financial obligation we have to the supplier for the term of the lease for the data center space",
+   "context": "Long-term data center space lease obligation under Master Colocation Service Agreement entered June 2024"
+  },
+  {
+   "quote": "net sales $21,972,042",
+   "context": "Total net sales fiscal year 2025, majority driven by GPU server and AI rack-scale solutions"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity scored 4 rather than 5: the document discloses large quantified AI-related revenues and a named data center lease obligation but does not present a formal multi-year capex commitment or dedicated AI R&D budget figure; the $5.8B GPU Super Rack figure is revenue, not capex",
+  "Promotional language present throughout business section (e.g., 'first to market', 'leadership') — concreteness score anchored to quantified revenue and product metrics rather than claims",
+  "Risk section (item_9) is present and contains detailed AI-specific risk scenarios including workforce AI misuse, export controls on GPUs/LLMs, and regulatory constraints, supporting score of 4 with company-specific mechanisms described"
+ ],
+ "_meta": {
+  "accession": "0001375365-25-000027",
+  "filing_date": "2025-08-28",
+  "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536525000027/smci-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 24,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T18:58:39.404948+00:00"
+ }
+}

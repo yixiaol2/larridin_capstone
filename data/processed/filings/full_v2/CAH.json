@@ -1,0 +1,49 @@
+{
+ "ticker": "CAH",
+ "source_document_id": "0000721371-25-000079",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "initiatives related to artificial intelligence and machine learning, are not successfully or efficiently implemented or maintained",
+    "systems powered by or incorporating artificial intelligence and machine learning, our operations could be impacted"
+   ],
+   "confidence": 0.45
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "initiatives related to artificial intelligence and machine learning, are not successfully or efficiently implemented or maintained",
+    "systems powered by or incorporating artificial intelligence and machine learning, our operations could be impacted"
+   ],
+   "confidence": 0.5
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "AI-powered cyber-attacks such as deep fakes and force attacks continues to increase",
+    "initiatives related to artificial intelligence and machine learning, are not successfully or efficiently implemented or maintained, or if our relationship with critical third-party service providers deteriorates",
+    "If we fail to effectively implement and maintain data governance structures...including systems powered by or incorporating artificial intelligence and machine learning"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity scored conservatively at 3: excerpts reference AI/ML initiatives and systems but provide no named programs, dollar amounts, or quantified scale; score reflects named but unquantified AI activity inferred from risk disclosures rather than dedicated investment disclosures",
+  "ai_narrative_concreteness: all AI references appear in risk-factor boilerplate; no use-case descriptions, deployment status, or operational detail are present in the excerpts",
+  "excerpts are exclusively from risk_factors section; no business, MD&A, or strategy sections are present, limiting visibility into actual AI investment programs or deployed use cases"
+ ],
+ "_meta": {
+  "accession": "0000721371-25-000079",
+  "filing_date": "2025-08-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-15T20:23:22.499203+00:00"
+ }
+}

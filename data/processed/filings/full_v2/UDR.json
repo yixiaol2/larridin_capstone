@@ -1,0 +1,48 @@
+{
+ "ticker": "UDR",
+ "source_document_id": "0000074208-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "the failure of automation or technology to help grow net operating income",
+    "Our business continues and will continue to demand the use of sophisticated systems, software and technology, including artificial intelligence."
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Our business continues and will continue to demand the use of sophisticated systems, software and technology, including artificial intelligence. These systems...must be refined, updated and replaced on a regular basis."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "A Failure to Keep Pace with Developments in Technology Could Impair our Operations or Competitive Position.",
+    "If we are unable to do so on a timely basis or at a reasonable cost...our business could suffer.",
+    "we may not achieve the benefits that we anticipate from any new system, software or technology, and a failure to do so could result in higher than anticipated costs"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts contain no quantified AI investment amounts, named AI programs, or specific AI product/platform disclosures; investment intensity scored 2 based on generic forward-looking language only.",
+  "AI narrative concreteness is aspirational/forward-looking with no named deployed use cases or metrics; scored 2.",
+  "Risk disclosure names technology-failure and AI-pacing risk categories specific to the company's operations, but no quantified risk scenarios or named governance bodies are present in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000074208-26-000013",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/74208/000007420826000013/udr-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T21:41:06.842853+00:00"
+ }
+}

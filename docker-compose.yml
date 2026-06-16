@@ -1,0 +1,21 @@
+# ⚠️ Optional / unused in the current workflow. The project uses Supabase (shared DB)
+# plus local CSV/DuckDB for smoke tests, so this local Postgres is not required and is not
+# part of the active pipeline. It also auto-applies infra/db_schema.sql, which is a stale
+# reference schema (see the header in that file) — do not treat it as canonical. Premature
+# until we have real data; kept only as an optional local convenience.
+services:
+  postgres:
+    image: postgres:16
+    container_name: ai-impact-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ai_impact_research
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./infra/db_schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+
+volumes:
+  postgres_data:

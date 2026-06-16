@@ -1,0 +1,64 @@
+{
+ "ticker": "APH",
+ "source_document_id": "0001104659-26-013549",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "The elevated capital expenditures in 2025 were driven by investments, primarily in support of the robust growth in our IT datacom market.",
+    "We currently expect this elevated level of capital spending to continue into 2026 to support the continued growth we are experiencing related to AI applications in our IT datacom market.",
+    "significant investments the Company has made to support sales of its AI-related products"
+   ],
+   "confidence": 0.82
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Net sales to the IT datacom market increased approximately $4,593.7 ... in particular the continued acceleration in and strong demand for products used in next-generation AI-related applications",
+    "Sales into the IT datacom market represented approximately 36% of the Company's net sales in 2025, with sales into ... AI servers, cloud computing, storage systems, data centers",
+    "backlog of unfilled firm orders as of December 31, 2025 was approximately $8.9 billion ... increase ... primarily related to strong demand for the Company's products that support AI applications"
+   ],
+   "confidence": 0.85
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the rise of AI and machine learning has led to more sophisticated and deceptive attacks. Cybercriminals are increasingly using AI-generated videos, audio and text to deceive individuals and organizations.",
+    "some of our customers are making significant investments in AI ... The continued growth of this market will be dependent upon many factors, including ... changing technology priorities and changes in government regulations and policies related to AI.",
+    "Periodic downturns in any of our customers end markets can significantly reduce demand ... customers canceling, delaying, reducing or otherwise modifying their purchase commitments"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "elevated capital expenditures in 2025 were driven by investments, primarily in support of the robust growth in our IT datacom market",
+   "context": "2025 capex elevated due to AI/IT datacom demand; expected to continue into 2026"
+  },
+  {
+   "quote": "capital expenditures (net of disposals) of $657.6",
+   "context": "2024 capital expenditures figure cited in investing activities discussion"
+  },
+  {
+   "quote": "capital expenditures (net of disposals) of $368.8",
+   "context": "2023 capital expenditures figure cited in investing activities discussion"
+  }
+ ],
+ "limitations": [
+  "No explicit dollar figure for 2025 capex is provided in the excerpts; the $657.6M figure cited is for 2024. The 2025 capex amount is described qualitatively as 'elevated' but not quantified in the available excerpts, limiting precision on investment intensity score.",
+  "AI narrative concreteness is supported by revenue figures tied to AI-related product sales rather than deployed internal AI use cases; Amphenol is an AI enabler/supplier, so product sales metrics are the relevant deployment evidence.",
+  "Risk disclosure covers AI-related cybersecurity threats and AI demand-cycle risk but does not include quantified risk scenarios or named governance bodies in the excerpts; score reflects named risk categories without full mechanism detail."
+ ],
+ "_meta": {
+  "accession": "0001104659-26-013549",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/820313/000110465926013549/aph-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.1,
+  "extracted_at": "2026-06-15T20:10:08.252995+00:00"
+ }
+}

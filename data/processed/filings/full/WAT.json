@@ -1,0 +1,49 @@
+{
+ "ticker": "WAT",
+ "source_document_id": "0001193125-26-062604",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "the development of adequate AI technology will require significant investment",
+    "The Company continues to integrate artificial intelligence (AI), including generative AI, into its business operations and products and research further uses and opportunities for AI development"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "The Company continues to integrate artificial intelligence (AI), including generative AI, into its business operations and products and research further uses and opportunities for AI development",
+    "a failure to timely and effectively use AI and embed it into new product offerings and services that negatively impacts our competitiveness"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The premature use of inadequate AI or the use of deficient AI, including flawed or biased algorithms, could harm the Company s brand, reputation or competitive advantage or result in regulatory penalties or legal liability",
+    "The input of confidential information or trade secrets into AI systems may result in the loss of intellectual property, proprietary rights or attorney-client privilege",
+    "Failures in AI functionality could result in delays in new product offerings and services and have an adverse impact on other business activities"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts, headcount, or capex figures tied to AI investment are disclosed in the excerpts; score reflects named integration activity and acknowledgment of significant investment required, but no quantified commitment.",
+  "ai_narrative_concreteness: AI integration into business operations and products is named, but no specific deployed use cases with operating detail or metrics are described; excerpts are primarily risk-section material rather than business/MD&A narrative.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains detailed company-specific risk scenarios with mechanisms (IP loss, regulatory liability, product delays, competitive harm, cybersecurity via AI-enhanced attacks); scored 4 rather than 5 as no quantified risk figures or named governance/oversight bodies are disclosed."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-062604",
+  "filing_date": "2026-02-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000697/000119312526062604/d778470d10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T19:12:01.812662+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "D",
+ "source_document_id": "0001193125-26-063120",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "projects necessary to meet the projected demand growth driven by data centers and artificial intelligence, including to address the concentration of data centers primarily in Loudoun County, Virginia",
+    "Data centers have been a source of significant increase in demand which is expected to continue over the next decade",
+    "PJM has projected a 5.4% average peak annual load growth over the next ten years for the PJM DOM Zone"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Additional projects may be considered in the future, such as those necessary to meet the projected demand growth driven by data centers and artificial intelligence",
+    "Increased energy demand or significant accelerated growth in demand due to new data centers, expanded use of artificial intelligence... could require enhancements to the Companies infrastructure"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Emerging technologies, such as advanced forms of automation and artificial intelligence, which are subject to limited government oversight and regulations and evolve rapidly, may result in an increase in the frequency and sophistication of cyber attacks",
+    "Increased energy demand or significant accelerated growth in demand due to new data centers, expanded use of artificial intelligence... could require enhancements to the Companies infrastructure",
+    "concentration of data centers primarily in Loudoun County, Virginia represents a unique challenge and requires significant investments in electric transmission and generation facilities"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts or quantified AI-specific capex disclosed in excerpts; the 5.4% load growth figure is a PJM projection for the broader zone, not a Dominion AI-specific spend figure; score reflects named infrastructure commitment without quantified scale",
+  "ai_narrative_concreteness: AI is discussed only as an external demand driver (data center load growth), not as an internal capability or initiative Dominion is deploying; aspirational/forward-looking framing dominates",
+  "ai_risk_disclosure_depth: Risk-section material (mdna) is present; AI risks are named with specific mechanisms (cyber attack sophistication, grid reliability, franchise erosion from demand growth) tied to operational/financial impact, supporting score 4; no quantified risk treatment or named oversight body found in excerpts"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-063120",
+  "filing_date": "2026-02-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526063120/d-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-11T17:50:18.545569+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "SHW",
+ "source_document_id": "0000089800-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9,
+   "limitations": [
+    "Excerpts contain no disclosure of AI investment, R&D spend, capex, or AI-related programs; AI appears only as an external threat vector in risk sections."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9,
+   "limitations": [
+    "No AI use cases, initiatives, or deployments described in the excerpts; AI is referenced solely in the context of cybersecurity and IP risks, not as a business capability or product."
+   ]
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Cybersecurity incidents, threats and attacks are increasingly sophisticated, including due to advances in artificial intelligence (AI) capabilities, constantly evolving, and originate from many sources globally.",
+    "advances in AI technology and increasingly widespread use of generative AI tools may increase the risk of unauthorized access to intellectual property, may increase the risk that existing intellectual property law may not provide adequate protection.",
+    "cyber attacks (including AI-powered cyberattacks), security breaches, fraud (including through phishing or social engineering attempts), malware (including ransomware)"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity is null: no AI investment, capex, R&D, or resource commitment to AI disclosed in the excerpts.",
+  "ai_narrative_concreteness is null: no AI use cases, named initiatives, or deployment details present; AI discussed only as an external risk.",
+  "ai_risk_disclosure_depth scored 3: excerpts name specific risk categories (AI-powered cyberattacks, generative AI IP risks, social engineering) tied to the company's operations, but no quantified risk exposure, named oversight bodies, or formal mitigation programs are disclosed. Score does not reach 4 because mechanisms linking risk to specific revenue/operational impact are not elaborated beyond general adverse-effect language."
+ ],
+ "_meta": {
+  "accession": "0000089800-26-000008",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/89800/000008980026000008/shw-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-15T21:31:51.366156+00:00"
+ }
+}

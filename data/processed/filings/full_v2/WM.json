@@ -1,0 +1,51 @@
+{
+ "ticker": "WM",
+ "source_document_id": "0001104659-26-012049",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-09",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "the market for employees that serve on our digital team and support our investments in our technology-led automation and optimization strategy is highly competitive",
+    "We remain focused on our automation and optimization investments to enhance our operational efficiency and change the way we interact with our customers",
+    "investing in technology that will enhance our customers experience and provide operating efficiencies intended to reduce our cost to serve"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Technology Risk Oversight Committee chaired by our CISO... provides oversight and guidance to technology risks, including cybersecurity, and our policies and procedures related to our development, deployment and monitoring of artificial intelligence",
+    "Inability to adapt to and manage the benefits and risks of artificial intelligence could expose us to liability or put us at a disadvantage",
+    "Certain new technologies, such as the use of autonomous vehicles, remote-controlled equipment, virtual reality, automation and artificial intelligence, present new and significant cybersecurity safety risks"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Inability to adapt to and manage the benefits and risks of artificial intelligence could expose us to liability or put us at a disadvantage. Artificial intelligence technologies are subject to a variety of laws and compliance risk, including intellectual property, data protection and privacy",
+    "If we are not able to effectively govern the use and manage the risks of artificial intelligence, we may suffer harm to our results of operations and reputation",
+    "use and governance of artificial intelligence, including oversight of our artificial intelligence policies and procedures... Board exercises oversight"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts or quantified AI-specific investment figures are disclosed in the excerpts; automation investments are named but not separated from broader technology/capex spend, and AI specifically is not tied to a named dollar commitment — score reflects named but unquantified AI-adjacent investment",
+  "ai_narrative_concreteness: AI is discussed primarily in risk and governance contexts rather than as a deployed operational tool with measurable outcomes; automation use cases (recycling, residential collection) are more concrete but not explicitly labeled as AI-driven",
+  "capex_mentions: No AI-attributable dollar figures found in excerpts"
+ ],
+ "_meta": {
+  "accession": "0001104659-26-012049",
+  "filing_date": "2026-02-09",
+  "url": "https://www.sec.gov/Archives/edgar/data/823768/000110465926012049/wm-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:47:10.515900+00:00"
+ }
+}

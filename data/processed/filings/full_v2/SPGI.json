@@ -1,0 +1,52 @@
+{
+ "ticker": "SPGI",
+ "source_document_id": "0000064040-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "In order to remain competitive, we have made significant investments in various AI initiatives.",
+    "acquisition of ProntoNLP, a leading provider of generative artificial intelligence tooling... ProntoNLP s proprietary models and LLM-based signal tools will bolster S P Global s textual data analytics capabilities.",
+    "acquisition of TeraHelix... strengthens our customer-centric approach to data, technology, and AI by meaningfully enhancing the ability to link datasets across classes and platforms."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Amplify Enterprise Capabilities and AI... integrating and scaling new technology and AI into our products and our operations, and leveraging strategic collaborations and new potential commercial models.",
+    "AI-related issuance drove billed issuance increases in investment grade.",
+    "acquisition of ProntoNLP... allowing users to derive differentiated insights from unstructured and structured data... LLM-based signal tools will bolster S P Global s textual data analytics capabilities."
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our competitors are deploying AI in ways that could materially reduce demand for our products and services... by leveraging AI to build products and services that compete with our products and services.",
+    "our products and services with AI capabilities may contain errors or defects that lead to privacy concerns, accuracy issues, unintended biases or discriminatory outputs... may result in material brand or reputational harm, competitive harm, legal liability.",
+    "EU AI Act classifies AI systems by risk and imposes strict requirements on high-risk applications... may result in additional compliance obligations particularly as relates to our operations that leverage AI technologies."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-specific investment figures disclosed in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "AI narrative concreteness scored 4 based on named deployed use cases and acquisitions with operating detail, but no quantified business results (e.g., revenue uplift, efficiency metrics) were present to warrant a score of 5.",
+  "The single quantified AI reference ('AI-related issuance drove billed issuance increases in investment grade') describes market activity, not a company-specific outcome metric.",
+  "Risk disclosure scored 4 due to named company-specific risk scenarios with described mechanisms; no quantified risk figures or named governance oversight bodies were present to warrant a score of 5."
+ ],
+ "_meta": {
+  "accession": "0000064040-26-000013",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/64040/000006404026000013/spgi-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 15,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-15T21:30:04.204215+00:00"
+ }
+}

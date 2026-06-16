@@ -1,0 +1,50 @@
+{
+ "ticker": "UNH",
+ "source_document_id": "0000731766-26-000062",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-02",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our ability to protect and enhance existing systems and develop new systems to keep pace with changes in information processing technology (including AI)... will require our ongoing commitment of significant development and operational resources.",
+    "using our data, analytics and AI to provide clinicians with the information necessary to provide the best possible care in the most cost-efficient setting"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We anticipate that fast-evolving AI technologies, including generative AI, will play an increasingly important role in our information systems and customer-facing technology products.",
+    "using our data, analytics and AI to provide clinicians with the information necessary to provide the best possible care in the most cost-efficient setting",
+    "new tools and products that leverage AI to improve the customer experience"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "to the extent an AI system does not operate as intended or produces an inaccurate, incomplete or biased output, the system could impact operations, customer service or other functions and could have an adverse effect on our business",
+    "techniques used to obtain unauthorized access... are increasing in sophistication, in part due to use of evolving AI technologies (including generative AI)... we may be unable to anticipate these techniques",
+    "Emerging requirements may impose new compliance obligations, increase operating costs, or limit certain uses of AI"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; investment intensity scored 3 based on named initiatives and stated resource commitments without dollar amounts.",
+  "AI narrative concreteness is limited to named use-case categories (clinical decision support, customer experience, administrative processes) with no deployment metrics or quantified outcomes disclosed in these excerpts.",
+  "Risk disclosure scored 4 based on company-specific risk mechanisms (model error impacting operations, AI-enhanced cyber threats, regulatory compliance costs) but no quantified risk exposure or named governance body appears in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000731766-26-000062",
+  "filing_date": "2026-03-02",
+  "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T19:06:56.865343+00:00"
+ }
+}

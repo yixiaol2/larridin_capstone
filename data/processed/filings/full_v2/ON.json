@@ -1,0 +1,61 @@
+{
+ "ticker": "ON",
+ "source_document_id": "0001097864-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-09",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "On January 14, 2025, we completed the acquisition of the Silicon Carbide Junction Field-Effect Transistor ('SiC JFET') technology business from Qorvo US, Inc. for $118.8 million in cash... enables us to help address the need for high energy efficiency and power density in the AC-DC stage in power supply units for AI data centers.",
+    "On October 27, 2025, we completed the acquisition of rights to Vcore power technologies... The total purchase consideration is up to $144 million... contingent upon the achievement of certain revenue milestones through 2030.",
+    "our product development efforts are directed towards addressing the need for solutions to manage and optimize the growing power demands and distribution within AI data centers"
+   ],
+   "confidence": 0.82
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "PSG provides a broad portfolio of discrete, module, and integrated semiconductor devices designed to enable high efficiency and high power conversion across AI data centers, energy infrastructure, automotive and industrial.",
+    "AMG designs and develops... power management, sensor interface, connectivity, and standard products that serve automotive, industrial automation, AI data center, computing, and mobile end markets.",
+    "increased revenue of $15.1 million in other end-markets which include AI data centers"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our power technologies designed for AI use may not capture market share as expected... Our failure to commercialize new technologies that can power AI data centers in a timely manner or at all could result in a loss of market share, unanticipated costs and inventory obsolescence.",
+    "if AI-related technologies fail to achieve the effectiveness or adoption levels currently anticipated... demand for our AI-related products and solutions and returns on associated investments could be materially lower than we currently expect.",
+    "AI and quantum computing capabilities are increasingly being used to identify vulnerabilities and craft sophisticated cybersecurity attacks... Our use of AI tools could also result in the loss of confidential information or intellectual property."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "$118.8 million in cash for SiC JFET technology business from Qorvo US, Inc.",
+   "context": "January 2025 acquisition to address high energy efficiency and power density in AI data center power supply units"
+  },
+  {
+   "quote": "total purchase consideration is up to $144 million... $72 million is contingent upon the achievement of certain revenue milestones through 2030",
+   "context": "October 2025 acquisition of Vcore power technologies from Aura Semiconductor, enhancing power management portfolio for AI data centers"
+  }
+ ],
+ "limitations": [
+  "AI data center revenue is bundled within the 'Other' end-market category ($1,239.8M in 2025), preventing precise isolation of AI-attributable revenue.",
+  "AI investment intensity scored 4 rather than 5 because multi-year AI-specific R&D or capex programs are not explicitly quantified beyond the two named acquisitions; broader capex figures are not AI-attributed.",
+  "Narrative concreteness scored 4 because deployed products and revenue increments are cited, but no standalone quantified AI-specific business outcome metrics (e.g., market share %, margin contribution) are disclosed.",
+  "Risk disclosure scored 4 because multiple company-specific risk mechanisms are described with revenue/operational impact pathways, but no quantified risk exposure figures or named AI governance/oversight bodies are present."
+ ],
+ "_meta": {
+  "accession": "0001097864-26-000006",
+  "filing_date": "2026-02-09",
+  "url": "https://www.sec.gov/Archives/edgar/data/1097864/000109786426000006/on-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T21:18:25.995512+00:00"
+ }
+}

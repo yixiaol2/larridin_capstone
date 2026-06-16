@@ -1,0 +1,50 @@
+{
+ "ticker": "YUM",
+ "source_document_id": "0001041061-26-000084",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We continue to allocate significant resources to develop, accelerate and implement our digital, technology, and innovation capabilities, including various AI capabilities.",
+    "we introduced our Byte by Yum! platform, a comprehensive collection of proprietary software as a service and artificial intelligence (AI) driven products that enables easy operations for team members and improved experiences for customers"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Byte by Yum! platform includes online and mobile app ordering, point of sale, kitchen and delivery optimization, menu management, inventory and labor management and team member tools.",
+    "In 2025, our system restaurants generated digital sales approaching both $40 billion and 60% of overall system sales.",
+    "implementation of Byte by Yum! is also designed to enable a faster and more impactful adoption of AI by YUM and its brands"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "rapid evolution and increased adoption of artificial intelligence (AI) and other emerging technologies may heighten our cybersecurity risks by making cyber-attacks and social engineering more difficult to detect, contain and mitigate.",
+    "subject to increasing legal requirements with respect to the use of AI and machine learning applications and tools (including in relation to hiring and employment practices and in digitally marketing our Concepts)",
+    "if we do not successfully implement our AI initiatives, or if we encounter other failures in our AI systems or initiatives, this could result in legal and regulatory risk, brand or reputational harm, and other adverse impacts."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 rather than 4 due to absence of quantified AI-attributable spend.",
+  "Digital sales figure of ~$40 billion and ~60% of system sales reflects overall digital sales, not AI-specific outcomes, limiting concreteness score to 4 rather than 5.",
+  "Risk disclosure scored 4 based on named mechanisms (cybersecurity amplification, regulatory compliance, brand harm, competitive disadvantage) but no quantified risk exposure or named governance body was found in excerpts."
+ ],
+ "_meta": {
+  "accession": "0001041061-26-000084",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1041061/000104106126000084/yum-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:50:15.680640+00:00"
+ }
+}

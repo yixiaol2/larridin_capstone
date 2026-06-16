@@ -1,0 +1,52 @@
+{
+ "ticker": "HAS",
+ "source_document_id": "0000046080-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Rapid adoption of AI, including launching new enabled services and digital solutions to innovate, improve operational efficiency, and go to market digitally.",
+    "Through play fueled brand engagement and partner scaled co-investment, including video games, artificial intelligence enabled entertainment, and licensing, we plan to expand our consumer reach.",
+    "the simultaneous pursuit of multiple strategic initiatives, including digital gaming development, licensing expansion, AI adoption, systems modernization and cost-saving initiatives"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Rapid adoption of AI, including launching new enabled services and digital solutions to innovate, improve operational efficiency, and go to market digitally.",
+    "The pace of change in innovation and complexity of our product offerings is expected to continue to evolve as we adopt artificial intelligence in the development of new brands and products.",
+    "AI enabled entertainment, and licensing, we plan to expand our consumer reach as a games, IP, and toy company."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "As we incorporate AI tools into aspects of our business, including product and game development, we may face increased costs, operational complexity, IP and data governance challenges, and evolving regulatory requirements, any of which could adversely affect timelines, quality, or expected returns on investment.",
+    "The use of artificial intelligence in product and game development may also raise intellectual property, data sourcing, ethical or regulatory issues, and disputes or restrictions in these areas could increase costs, delay development or limit the use of certain technologies.",
+    "Cyber-attacks could include the deployment of harmful malware and key loggers, ransomware, a denial-of-service attack, a malicious website, artificial intelligence, the use of social engineering."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases are named (product development, digital entertainment, operational efficiency) but no deployment metrics or quantified outcomes are disclosed; concreteness capped at 3.",
+  "Risk disclosures identify specific mechanisms (IP challenges, regulatory costs, timeline impacts, competitive pressure from AI) but no quantification of risk exposure or named governance/oversight bodies are present, capping risk depth at 4.",
+  "Promotional/forward-looking language is prevalent throughout; confidence adjusted accordingly."
+ ],
+ "_meta": {
+  "accession": "0000046080-26-000011",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000011/has-20251228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 14,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T20:52:26.552409+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "LII",
+ "source_document_id": "0001069202-26-000028",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have begun to incorporate AI capabilities into our operations and the introduction of these technologies, particularly generative AI, into internal processes, customer engagements, and/or new and existing product offerings"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We have begun to incorporate AI capabilities into our operations...into internal processes, customer engagements, and/or new and existing product offerings",
+    "We face risk of competitive disadvantage if our competitors more effectively use AI to better serve customers, drive internal efficiencies, and/or create new or enhanced products"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "introduction of these technologies, particularly generative AI...may result in new or expanded risks and liabilities, including due to enhanced governmental or regulatory scrutiny, litigation, compliance issues, ethical concerns, confidentiality or security risks",
+    "use of AI in the development of our products and services could also cause loss of intellectual property, as well as subject us to risks related to intellectual property infringement or misappropriation, data privacy and cybersecurity",
+    "as AI technologies advance, new and increasingly sophisticated attack methods are emerging, including fraud involving impersonation technologies or other forms of generative AI that enhance the scale, frequency, and effectiveness of cyber threats"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or program budgets disclosed in the excerpts; investment intensity scored 3 based on named but unquantified deployment activity.",
+  "Narrative concreteness is limited to risk-factor framing; no operational or product-section excerpts with deployment metrics or outcomes were provided.",
+  "AI investment intensity score may understate actual commitment if business/strategy sections not included in excerpts contain further detail.",
+  "Risk disclosure scored 4 based on named company-specific risk mechanisms (IP loss, cybersecurity, regulatory compliance, generative AI impersonation threats) but no quantification or named governance bodies were present to warrant a score of 5."
+ ],
+ "_meta": {
+  "accession": "0001069202-26-000028",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1069202/000106920226000028/lii-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T21:05:31.820568+00:00"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "ticker": "RMD",
+ "source_document_id": "0000943819-25-000035",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-08",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We aim to continue differentiating our products by integrating artificial intelligence and machine learning, or AI and ML, algorithms to further enhance therapy performance and user experience.",
+    "Our leading Residential Care Software solutions are a key enabler of our Sleep and Breathing Health business... providing cohesion and interoperability for our AI-driven digital platform.",
+    "over 10 million patients registered to our myAir platform to enable personalized, efficient and data driven care... further build upon our data advantage."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "In April 2025, we made our home sleep apnea test, NightOwl, available across the U.S., providing a simplified, accurate, and efficient way to diagnose OSA.",
+    "Our Residential Care Software solutions support residential care providers serving more than 160 million individual patient accounts.",
+    "over 10 million patients registered to our myAir platform to enable personalized, efficient and data driven care."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may be flawed. Datasets may be insufficient or contain biased information. Ineffective AI development and deployment practices could subject us to competitive harm, regulatory action, increased cyber risks and legal liability.",
+    "Cyberattacks increasingly exploit AI and machine-learning techniques ranging from generative-AI phishing and deep-fake impersonations to automated vulnerability discovery, adaptive malware and large-scale credential-stuffing campaigns.",
+    "Failure to comply with the requirements of the EU AI Act... may result in fines of up to 35.0 million or up to 7% of the total worldwide annual turnover of the preceding financial year."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, R&D spend, or headcount figures appear in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "Narrative concreteness scored 4 based on named deployed platforms (NightOwl, myAir) with patient-count operating detail, but no quantified business outcome metrics (e.g., revenue lift, cost savings) were present to warrant a score of 5.",
+  "AI risk disclosure scored 4 due to named risk mechanisms (algorithmic bias, cyberattack vectors, regulatory fines with specific amounts); no named internal AI governance body or formal risk quantification program was cited to warrant a score of 5.",
+  "Capex mentions list is empty; no AI-attributable dollar investment figures were disclosed in the provided excerpts."
+ ],
+ "_meta": {
+  "accession": "0000943819-25-000035",
+  "filing_date": "2025-08-08",
+  "url": "https://www.sec.gov/Archives/edgar/data/943819/000094381925000035/rmd-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:28:25.117427+00:00"
+ }
+}

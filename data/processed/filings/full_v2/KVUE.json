@@ -1,0 +1,52 @@
+{
+ "ticker": "KVUE",
+ "source_document_id": "0001944048-26-000030",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Effective implementation of our digital strategy has required, and will require, significant investments in our digital platforms, including data science, data analytics, artificial intelligence, machine learning, natural language processing",
+    "We are piloting the use of systems and tools that incorporate artificial intelligence-based technologies, including generative artificial intelligence, in connection with supply chain and operations, content creation, as well as various Kenvuer productivity enhancement use cases.",
+    "Developing, testing, and deploying resource-intensive artificial intelligence systems may require additional investment and increase our costs."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We are piloting the use of systems and tools that incorporate artificial intelligence-based technologies, including generative artificial intelligence, in connection with supply chain and operations, content creation, as well as various Kenvuer productivity enhancement use cases.",
+    "Our pursuit of this strategy has led us to promote new services, including e-commerce, and introduce innovative new products and connected health offerings, including the Zyrtec AllergyCast app and the Neutrogena Skin360 app.",
+    "In 2025 we matured our cybersecurity risk governance through the addition of an artificial intelligence governance program to pay particular attention to the evolving risks associated with these emerging technologies."
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "While we continue to implement our artificial intelligence governance based on the National Institute of Standards and Technology Artificial Intelligence Risk Management Framework, the use of artificial intelligence tools may compromise our confidential or sensitive information.",
+    "Inadequate governance, testing, or quality assurance processes could result in flawed deployments, producing erroneous or harmful outputs, which could damage our reputation and lead to regulatory complications and legal liabilities.",
+    "In 2025 we matured our cybersecurity risk governance through the addition of an artificial intelligence governance program... oversight by our cybersecurity, privacy, legal, and data organizations to facilitate compliant and safe leverage of the competitive benefits of artificial intelligence."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "AI use cases (supply chain, content creation, productivity) are described as pilots without quantified business results; concreteness scored 4 rather than 5.",
+  "Promotional/aspirational language present alongside pilot disclosures; confidence in concreteness score modestly reduced.",
+  "Risk disclosure depth scored 5 based on named NIST AI RMF governance framework and named oversight bodies; no quantified risk exposure figures found, but governance program is explicitly named and described."
+ ],
+ "_meta": {
+  "accession": "0001944048-26-000030",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1944048/000194404826000030/kvue-20251228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T21:02:18.624157+00:00"
+ }
+}

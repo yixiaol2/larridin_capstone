@@ -1,0 +1,52 @@
+{
+ "ticker": "J",
+ "source_document_id": "0001628280-25-053316",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "ongoing investment in artificial intelligence (AI) and next-generation digital solutions, we empower our clients' decision-making across the entire asset lifecycle",
+    "In fiscal 2025, we launched Jacobs AI Assist, our proprietary AI tool that makes our authoritative knowledge more discoverable and usable for our employees",
+    "expanded learning opportunities, particularly in AI and digital skills, through the launch of Jacobs University our global learning and development hub"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We're building an AI blueprint for Hertfordshire County Council, one of England's largest councils",
+    "accelerating clinical trials with AI for a global life sciences consortium",
+    "In fiscal 2025, we launched Jacobs AI Assist, our proprietary AI tool that makes our authoritative knowledge more discoverable and usable for our employees in their daily work"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may be flawed or biased. Datasets used to train or develop AI systems may be insufficient, of inferior quality, or contain biased information... laws and regulations concerning the use of AI continue to evolve",
+    "adoption of AI also introduces new regulatory compliance and cybersecurity considerations, including increased exposure to data breaches, adversarial attacks on AI models, and vulnerabilities in third-party AI platforms",
+    "we have implemented robust cybersecurity controls, including threat detection, secure model development practices, and governance frameworks to responsibly and securely deploy AI technologies"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "Narrative concreteness scored 4 based on named deployed use cases with operational detail, but no quantified business results (e.g., % efficiency gains, cost savings) were disclosed in the excerpts.",
+  "Risk disclosure scored 4 due to named company-specific risk mechanisms and mention of governance frameworks, but no quantified risk exposure or named oversight body with formal charter was cited; governance mention is brief.",
+  "Capex mentions list is empty as no AI-attributable dollar figures appeared in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001628280-25-053316",
+  "filing_date": "2025-11-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/52988/000162828025053316/jec-20250926.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:01:09.909567+00:00"
+ }
+}

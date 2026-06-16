@@ -1,0 +1,49 @@
+{
+ "ticker": "EXC",
+ "source_document_id": "0001109357-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "Excerpts discuss AI only as an external demand driver and cybersecurity risk factor; no AI investment, R&D, or capex by Exelon itself is described."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Exelon has forecast substantial increases in load, driven largely by the increasing use of data processing facilities dedicated to cloud services, artificial intelligence technologies, and other applications.",
+    "the rapid evolution and increased adoption of artificial intelligence technologies may intensify the Registrants' cybersecurity risks."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the rapid evolution and increased adoption of artificial intelligence technologies may intensify the Registrants' cybersecurity risks.",
+    "Several U.S. government agencies have warned that the energy sector and its supply chains are subject to increasing risks of physical attacks, ransomware attacks and cybersecurity threats."
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity scored null: excerpts contain no evidence of Exelon committing resources to AI — AI appears only as an external demand driver and risk factor.",
+  "ai_narrative_concreteness scored 2: AI is referenced aspirationally as a load-growth driver and risk intensifier, but no named Exelon AI initiatives or deployments are described.",
+  "ai_risk_disclosure_depth scored 3: named risk categories (cybersecurity intensification, grid reliability under AI-driven load growth) are specific to the company's sector, but no quantified risk scenarios or governance mechanisms are disclosed in these excerpts.",
+  "Excerpts are limited to business and MD&A sections; full risk-factor section content may contain additional AI risk disclosure not visible here."
+ ],
+ "_meta": {
+  "accession": "0001109357-26-000018",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1109357/000110935726000018/exc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:42:16.045149+00:00"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "ticker": "AMZN",
+ "source_document_id": "0001018724-26-000004",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "We expect spending in technology and infrastructure will increase over time...including to support our artificial intelligence and machine learning initiatives",
+    "shortened useful lives of servers and networking equipment from six years to five years due to the increased pace of technology development, particularly in the area of artificial intelligence",
+    "effect of this change...was an increase in depreciation and amortization expense of $1.4 billion and a reduction in net income of $1.0 billion"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "AWS, which offers a broad set of on-demand technology services, including compute, storage, database, analytics, artificial intelligence and machine learning, and other services",
+    "We are also investing in initiatives to build and deploy innovative and efficient software and electronic devices as well as other initiatives including the development of a satellite network",
+    "We further expect to continue making additional investments in our artificial intelligence initiatives"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "we rely on a limited group of suppliers for semiconductor products, including products related to artificial intelligence infrastructure such as graphics processing units. Constraints on the availability...could adversely affect our ability to develop and operate artificial intelligence technologies",
+    "our and our customers development and use of artificial intelligence may result in increased claims of infringement or other claims, including those based on unauthorized use of third-party technology or content",
+    "security incidents...may fail to operate as intended or be circumvented, including by use of developing technologies such as artificial intelligence"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "increase in depreciation and amortization expense of $1.4 billion and a reduction in net income of $1.0 billion",
+   "context": "Effect of shortening useful lives of servers/networking equipment from 6 to 5 years due to AI-driven technology pace, primarily impacting AWS segment, FY2025"
+  },
+  {
+   "quote": "Depreciation and amortization expense on property and equipment was $30.2 billion, $32.1 billion, and $41.9 billion",
+   "context": "D&A on property and equipment for 2023, 2024, 2025 respectively; includes data center and server infrastructure supporting AWS and AI initiatives"
+  },
+  {
+   "quote": "Property and equipment acquired but not yet paid...were $16.8 billion and $27.0 billion as of December 31, 2024 and 2025",
+   "context": "Unpaid capex commitments year-end 2024 and 2025, covering data center and infrastructure build-out"
+  }
+ ],
+ "limitations": [
+  "No explicit multi-year AI-specific capex dollar commitment is disclosed in the excerpts; the $1.4B figure relates to an accounting estimate change (useful life), not a forward capex pledge, limiting intensity score to 4 rather than 5",
+  "AI narrative concreteness is limited by the excerpts: AWS AI/ML services are named but no specific deployed AI product metrics or quantified business outcomes appear in the provided text",
+  "Risk disclosure excerpts are present and substantive; score reflects company-specific risk mechanisms (GPU supply concentration, IP infringement from AI use, cybersecurity circumvention via AI) but no quantified risk exposure or named governance body is disclosed in these excerpts"
+ ],
+ "_meta": {
+  "accession": "0001018724-26-000004",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 27,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:20:42.529333+00:00"
+ }
+}

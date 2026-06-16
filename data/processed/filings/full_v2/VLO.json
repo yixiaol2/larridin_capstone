@@ -1,0 +1,48 @@
+{
+ "ticker": "VLO",
+ "source_document_id": "0001628280-26-011499",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "In 2024, we established a company-wide cross-functional team to assess the risks and opportunities from conventional and generative AI. We continued these assessments in 2025 and expect to continue these efforts going forward."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "we established a company-wide cross-functional team to assess the risks and opportunities from conventional and generative AI",
+    "Our vendors and suppliers are also increasingly using and offering platforms powered by AI."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "AI may also be leveraged by threat actors to enhance the volume and sophistication of their attacks.",
+    "The growing sophistication and implementation of advanced AI technologies also increases the risks we face related to data privacy and security.",
+    "Our vendors and suppliers are also increasingly using and offering platforms powered by AI... we have limited control over ensuring that third parties themselves are consistently enforcing strong controls."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount, or named AI programs disclosed; only a cross-functional assessment team is mentioned, indicating early-stage exploration rather than committed investment.",
+  "ai_narrative_concreteness: No deployed AI use cases or quantified outcomes described; language is aspirational and assessment-oriented.",
+  "ai_risk_disclosure_depth: Risk-section material is present and names specific AI risk categories (threat-actor exploitation, third-party vendor AI, data privacy), but no quantified risk scenarios or named governance bodies specific to AI risk are disclosed beyond the cross-functional assessment team mentioned in item_1b."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-011499",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026011499/vlo-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 1.7,
+  "extracted_at": "2026-06-15T21:43:01.227718+00:00"
+ }
+}

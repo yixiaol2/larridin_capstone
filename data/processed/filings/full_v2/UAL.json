@@ -1,0 +1,52 @@
+{
+ "ticker": "UAL",
+ "source_document_id": "0000100517-26-000023",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "making significant investments … in startups developing technologies in aerospace, next-generation air traffic control and aviation infrastructure, energy transition and AI-driven travel innovation",
+    "may require significant resources to develop, test and maintain our AI platform and services to help us implement AI in a compliant and ethical manner",
+    "implementing, integrating and modifying the automated systems and technologies … may require significant expenditures, human resources"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "The Company depends on technology and automated systems, including artificial intelligence ('AI'), to operate its business, including … demand prediction software, flight operations systems … commercial websites and applications",
+    "Our use of AI applications has resulted in certain immaterial cybersecurity incidents",
+    "Our competitors or other third parties may incorporate AI into their products more quickly or more successfully than us"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if AI is improperly utilized … content, analyses, or recommendations that AI applications assist in producing are … deficient, inaccurate, or biased, we would be exposed to new or expanded risks and liabilities",
+    "Our use of AI applications has resulted in certain immaterial cybersecurity incidents and may in the future result in additional cybersecurity incidents, including incidents that implicate the personal data of our customers",
+    "rapid evolution of AI, including current and proposed government regulation of AI, may require significant resources to develop, test and maintain our AI platform … in a compliant and ethical manner"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-specific investment figures appear in the excerpts; investment intensity scored 3 (named but unquantified).",
+  "AI use cases are named at a high level (demand prediction, flight operations, mobile app) but no deployment metrics or quantified business results are disclosed; concreteness capped at 3.",
+  "All excerpts are from risk_factors section; no business/MD&A sections provided, so positive deployment detail may exist elsewhere in the filing but is not scorable here.",
+  "Risk disclosure scored 4 based on named mechanisms (cybersecurity incidents, regulatory compliance costs, liability from biased outputs, reputational harm) but no quantified risk exposure or named governance body is cited."
+ ],
+ "_meta": {
+  "accession": "0000100517-26-000023",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:42:11.049099+00:00"
+ }
+}

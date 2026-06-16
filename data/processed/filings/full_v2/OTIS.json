@@ -1,0 +1,49 @@
+{
+ "ticker": "OTIS",
+ "source_document_id": "0001781335-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we invest substantial amounts in research and development efforts to pursue advancements in technologies, products and services",
+    "as we integrate emerging and rapidly evolving technologies, including AI, into our products and services"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "development and execution of advanced technologies, including artificial intelligence, for the benefit of our New Equipment or Service segment",
+    "as we integrate emerging and rapidly evolving technologies, including AI, into our products and services, we face evolving risks related to safety, data governance, regulatory compliance"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "we face evolving risks related to safety, data governance, regulatory compliance and intellectual property and may not be able to anticipate or identify vulnerabilities, design flaws or security threats",
+    "As global standards and regulations relating to AI increase and change, they could result in additional costs, regulatory scrutiny, legal liability and reputational harm",
+    "Members of our Board also received briefings on risks associated with AI, data protection... two members of our Audit Committee attended a continuing education class related to AI governance and strategy"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific investment amounts or headcount disclosed in the excerpts; investment intensity scored 3 based on named programs without dollar figures.",
+  "AI use cases for New Equipment and Service segments are named but no deployment status or operational metrics are provided; concreteness capped at 3.",
+  "Excerpts are pre-filtered and may not represent the full filing; additional AI investment or use-case detail may exist elsewhere in the document."
+ ],
+ "_meta": {
+  "accession": "0001781335-26-000011",
+  "filing_date": "2026-02-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1781335/000178133526000011/otis-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:19:27.636490+00:00"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "ticker": "BKNG",
+ "source_document_id": "0001075531-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "In 2025, we continued our investments in Gen AI to accelerate internal productivity and improve the consumer and partner experience.",
+    "Competition for well-qualified employees, especially software engineers, professionals supporting our Gen AI initiatives, and other technology professionals, is intense and costly.",
+    "partnering with leading Gen AI organizations; continued advancement towards our Connected Trip vision"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We offer consumer-facing Gen AI capabilities across our brands, including trip planners, AI assistants to answer consumer queries, and a price comparison tool.",
+    "Gen AI has also improved customer service resolution times and customer satisfaction.",
+    "We offer Gen AI powered tools like Smart Messenger and Auto-Reply to enable partners to engage with guests more efficiently."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our utilization of Gen AI may increase risks related to harmful content, inaccuracies, bias or discrimination, intellectual property infringement or misappropriation, data privacy, cybersecurity, or other issues.",
+    "Gen AI also lowers barriers to entry and enables competitors to potentially replicate or improve core functionality... AI agents may further evolve into full-service booking platforms, increasing competitive pressure and disintermediating OTCs.",
+    "If we enable or offer Gen AI solutions that do not comply with regulatory requirements... our reputation, competitive position, business, financial condition, and results of operations may be adversely affected."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 rather than 4 or 5.",
+  "AI narrative concreteness scored 4 based on named deployed use cases with some operating detail (customer service resolution times improved, Smart Messenger, trip planners); no hard quantified business results (e.g., % improvement figures) were present to justify a score of 5.",
+  "Capex mentions list is empty because no specific dollar amounts attributable to AI were disclosed in the excerpts.",
+  "The KAYAK goodwill impairment of $180 million is not AI-attributable capex; it reflects a valuation write-down partly linked to generative AI competitive risk."
+ ],
+ "_meta": {
+  "accession": "0001075531-26-000009",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 20,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:18:23.512483+00:00"
+ }
+}

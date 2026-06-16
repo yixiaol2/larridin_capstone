@@ -1,0 +1,47 @@
+{
+ "ticker": "F",
+ "source_document_id": "0000037996-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "As we expand our business priorities to include autonomous vehicle technologies and broader mobility products and services, our financial exposure has increased.",
+    "growing subscription rates with new customers... integrated software and digital services... increasingly digitally-connected products",
+    "Ford has responded to information requests from NHTSA... about our hands-free highway driving system, BlueCruise"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Shifting public policy regarding data privacy and the effects of artificial intelligence has caused and may in the future cause us to incur substantial costs to modify our operations or business practices",
+    "The rapid evolution and increased adoption of artificial intelligence technologies may intensify these risks.",
+    "regulatory actions seeking to impose significant financial penalties for noncompliance... could be brought against us in the event of... perceived or actual non-compliance with... artificial intelligence requirements"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity is null: no excerpts disclose AI-specific capex, named infrastructure investments, vendor/cloud partnerships, or dedicated AI budgets; absence from excerpts may not reflect absence from full filing.",
+  "ai_narrative_concreteness scored at 3: BlueCruise is a named deployed initiative but excerpts provide no deployment metrics or quantified outcomes; remaining AI references are regulatory/risk context rather than product deployment detail.",
+  "ai_risk_disclosure_depth scored at 4: excerpts describe specific mechanisms by which AI regulation could hit operations and costs (compliance cost, penalties, consumer disengagement), but no quantified risk exposure or named AI governance body is disclosed in these excerpts."
+ ],
+ "_meta": {
+  "accession": "0000037996-26-000015",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:06:35.451911+00:00"
+ }
+}

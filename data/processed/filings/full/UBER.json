@@ -1,0 +1,50 @@
+{
+ "ticker": "UBER",
+ "source_document_id": "0001543151-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "The rapid evolution of AI may require us to allocate additional resources to help implement AI ethically... and may also require us to make additional investments in the development of proprietary datasets, machine learning models or other systems",
+    "data center and networking expenses, mobile device and service costs"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "shifts in consumer behavior, including the use of new or emerging technologies, such as AI-enabled platforms and digital assistants, may disintermediate our relationship with consumers",
+    "Our growing use of AI (including machine learning) in our business and offerings presents additional risks",
+    "AI algorithms or automated decision-making or processing of data may be flawed and datasets may be insufficient or contain inaccurate or biased information"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms or automated decision-making or processing of data may be flawed and datasets may be insufficient or contain inaccurate or biased information, which can create inaccurate or discriminatory outcomes",
+    "Europe, the United States and other countries are enacting or may consider comprehensive legal compliance frameworks specifically for AI... the European Artificial Intelligence Act (AI Act), which came into effect in August 2024",
+    "AI use or management by us or others... have impaired and could impair the acceptance of AI solutions or subject us to lawsuits, regulatory investigations or other harm, such as negative impacts to the value of our intellectual property or our brand"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific capex, headcount, or named vendor/cloud partnerships disclosed in the excerpts; investment language is conditional and forward-looking ('may require'), not committed; data center expenses mentioned only generically in cost-of-revenue description.",
+  "ai_narrative_concreteness: Excerpts are dominated by risk-factor and regulatory language; no named deployed AI products or quantified business outcomes are described; score of 3 reflects named use-case categories (automated decision-making, matching algorithms, AI-enabled platforms) without deployment metrics.",
+  "ai_risk_disclosure_depth: Risk-section material is present and detailed; scored 4 because specific risk mechanisms are described (discriminatory outcomes, IP uncertainty, regulatory non-compliance impact, brand harm) with named regulatory frameworks (EU AI Act), but no quantified risk exposure or named internal AI governance/oversight body is disclosed."
+ ],
+ "_meta": {
+  "accession": "0001543151-26-000015",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T19:05:56.851010+00:00"
+ }
+}

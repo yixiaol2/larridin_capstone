@@ -1,0 +1,52 @@
+{
+ "ticker": "HON",
+ "source_document_id": "0000773840-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Industrial Automation deploys outcome-based solutions... combined with proprietary machine learning and artificial intelligence algorithms in products and projects which are digitally enabled through our industry leading industrial IoT platform, Honeywell Forge.",
+    "our ability to (i) identify and evolve with emerging technological and broader industry trends, including technologies such as artificial intelligence and machine learning in our target end markets",
+    "Emerging technology, such as generative and agentic artificial intelligence, is complex and rapidly evolving, and while we aim to develop and use artificial intelligence responsibly"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "proprietary machine learning and artificial intelligence algorithms in products and projects which are digitally enabled through our industry leading industrial Internet of Things (IoT) platform, Honeywell Forge",
+    "Our Honeywell Forge solutions enable our customers to digitally manage buildings, connecting data from different assets to enable smart maintenance, improve building performance",
+    "Emerging technology, such as generative and agentic artificial intelligence... we aim to develop and use artificial intelligence responsibly, we may ultimately be unsuccessful in identifying or resolving all problems"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "generative and agentic artificial intelligence... technologies that we develop or use may ultimately be flawed... expose us to risks related to potential infringement of others' intellectual property, biases, inaccuracies or errors in outputs",
+    "AI capabilities continue to improve... may be used to identify vulnerabilities and craft increasingly sophisticated cybersecurity attacks, including the use of generative artificial intelligence to conduct more sophisticated social engineering attacks",
+    "EU AI Act, the Colorado Artificial Intelligence Act, and the California AI Transparency Act are adopting rules that impose heightened transparency, risk management, monitoring, and human oversight obligations... Failure to comply could result in regulatory scrutiny, fines, or reputational harm"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No AI-attributable dollar amounts or quantified AI investment figures appear in the excerpts; the $10.0 billion deployed figure covers all capital expenditures, dividends, share repurchases, and M&A with no AI-specific attribution.",
+  "AI investment intensity scored 3 (named programs/platforms but no quantified AI-specific spend); promotional language around Honeywell Forge and AI algorithms is present but lacks deployment metrics or financial scale.",
+  "AI narrative concreteness scored 3; Honeywell Forge and ML/AI algorithms are named use cases but no quantified business results (%, $, time saved) are disclosed in the excerpts.",
+  "Risk disclosure is detailed and company-specific with named regulatory frameworks and attack vectors, supporting score 4; no quantified risk exposure or named internal AI governance body found in excerpts to support score 5."
+ ],
+ "_meta": {
+  "accession": "0000773840-26-000013",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000013/hon-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 26,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-15T20:54:08.898836+00:00"
+ }
+}

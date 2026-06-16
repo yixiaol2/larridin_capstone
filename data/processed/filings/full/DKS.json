@@ -1,0 +1,49 @@
+{
+ "ticker": "DKS",
+ "source_document_id": "0001089063-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "investments in our technology and other digital capabilities (such as AI and machine learning), our eCommerce and GameChanger platforms, DICK's Media Network",
+    "Developing, testing, and deploying resource-intensive AI and machine learning systems may require additional investment and increase our costs"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "investments in our technology and other digital capabilities (such as AI and machine learning), our eCommerce and GameChanger platforms, DICK's Media Network",
+    "responding to rapid developments in AI technologies"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI or machine learning algorithms that we use may be flawed or based on datasets that are biased, incomplete or insufficient",
+    "any latency, disruption, or failure in our AI or machine learning systems or infrastructure could result in operational delays or errors",
+    "cyber threats continue to evolve rapidly accelerated by emerging technologies such as advanced artificial intelligence and machine learning"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI capex or headcount figures appear in the excerpts; investment intensity scored 3 based on named initiatives without dollar amounts or scale metrics.",
+  "AI narrative concreteness is limited to named platforms and strategic intent; no deployment status, production metrics, or quantified outcomes are disclosed in the excerpts.",
+  "Risk disclosure excerpts are present and substantive; score 4 reflects named company-specific risk mechanisms (algorithmic bias, infrastructure failure, cybersecurity acceleration) but no quantified risk exposure or named governance body beyond general Audit Committee reference."
+ ],
+ "_meta": {
+  "accession": "0001089063-26-000007",
+  "filing_date": "2026-03-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1089063/000108906326000007/dks-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T17:49:09.892122+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "BEN",
+ "source_document_id": "0000038777-25-000238",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Artificial Intelligence (AI) is used in many areas of our business and we plan to further incorporate AI into additional areas.",
+    "developments in our use of process automation and artificial intelligence (AI) further heighten our dependency on technology"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "AI is used in many areas of our business and we plan to further incorporate AI into additional areas. The use of AI offers efficiencies",
+    "AI technologies, including generative AI, may create content that appears correct but is factually inaccurate or flawed"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Failure to successfully integrate AI technologies, respond to client or market demands, identify or address applicable legal or regulatory issues...could result in legal and regulatory liabilities and harm our reputation and growth.",
+    "use of AI offers efficiencies, but also introduces significant challenges related to data security, privacy, intellectual property, regulatory compliance, accuracy and bias concerns",
+    "Globally, courts and regulatory agencies are developing approaches to dealing with AI-related issues, which creates uncertainty around the use of the technology."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, named vendors, dedicated budgets, or infrastructure commitments disclosed in the excerpts; only generic statements about current and planned AI use.",
+  "ai_narrative_concreteness: Excerpts are drawn entirely from risk-factor sections; no operational or business-strategy sections were provided, so named deployments or metrics may exist elsewhere in the filing but are not visible here. Scored on available evidence only.",
+  "capex_mentions: No dollar amounts or quantified AI/compute investment figures appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000038777-25-000238",
+  "filing_date": "2025-11-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000238/ben-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T18:07:33.618308+00:00"
+ }
+}

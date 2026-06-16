@@ -1,0 +1,65 @@
+{
+ "ticker": "MSI",
+ "source_document_id": "0000068505-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "Blue Eye, a provider of AI-powered enterprise remote video monitoring ('RVM') services for $79 million",
+    "Theatro, a maker of AI and voice-powered communication and digital workflow software for frontline workers for $174 million",
+    "Silvus Technologies Holdings Inc. ... $4.4 billion and share-based compensation of $20 million August 6, 2025"
+   ],
+   "confidence": 0.82
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI-powered analytics can highlight a person at a facility out of hours (unusual activity), locate a missing child at a theme park (appearance search), automate video verification workflows for building access",
+    "Assist, our mission-critical AI, operationalizes intelligence across the command center... enables 911 transcription, live translation and narrative development to accelerate response and enhance reporting accuracy",
+    "SVX body-worn assistant exemplifies this strategy by converging secure voice, video and AI into a single device to offer a highly differentiated solution"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI Act places significant restrictions on the use of AI for real-time biometric identification by law enforcement, and implements significant compliance requirements on the development and use of AI",
+    "if we use AI that is based on data, algorithms, or other inputs that are flawed or insufficient... our business, financial condition, or results of operations may be adversely affected",
+    "we work to responsibly meet our customers needs... including through AI governance programs and internal technology oversight committees, we may still suffer reputational damage"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Blue Eye, a provider of AI-powered enterprise remote video monitoring ('RVM') services for $79 million",
+   "context": "Acquisition of AI-powered RVM provider, November 2025"
+  },
+  {
+   "quote": "Theatro, a maker of AI and voice-powered communication and digital workflow software for frontline workers for $174 million",
+   "context": "Acquisition of AI voice/workflow software company, March 2025"
+  },
+  {
+   "quote": "Silvus Technologies Holdings Inc. ... $4.4 billion and share-based compensation of $20 million",
+   "context": "Acquisition of MANET technology company (not purely AI-labeled but included in AI-adjacent MCN portfolio), August 2025"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: Disclosed spend is primarily via acquisitions of AI-capable companies rather than direct AI capex or infrastructure build-out; no dedicated AI R&D budget or GPU/data-center spend is quantified. Score reflects quantified AI-related acquisition spend as the closest proxy.",
+  "ai_narrative_concreteness: Multiple named use cases described as deployed with operational detail, but no quantified business results (e.g., % improvement, volume handled) are present in the excerpts; score capped at 4.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains detailed, company-specific AI risk scenarios (regulatory, model error, governance) with named mechanisms; governance programs (AI governance programs, internal technology oversight committees) are named but not quantified, limiting score to 4 rather than 5.",
+  "Silvus acquisition ($4.4B) is primarily a MANET/communications technology deal, not purely AI; included in capex_mentions for completeness given its inclusion in AI-powered MCN portfolio, but confidence in AI attribution is lower."
+ ],
+ "_meta": {
+  "accession": "0000068505-26-000010",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/68505/000006850526000010/msi-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 23,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:36:26.274572+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "ARE",
+ "source_document_id": "0001035443-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We have always strived to provide our tenants with state-of-the-art laboratory facilities incorporating cutting-edge infrastructure features to enable our tenants to perform at the highest levels.",
+    "Infrastructure upgrades may necessitate substantial capital expenditures and could potentially impact the environmental footprint of our building operations.",
+    "Proactive reduction in capital spending and funding needs"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Our employees and personnel use generative artificial intelligence (AI) and/or automated decision-making technologies to perform their work",
+    "The increase in demand for premium office space since 2024, primarily driven by the technology sector, particularly companies focused on AI, absorbed some of the market's supply",
+    "the adoption of AI by our tenants may lead to infrastructure requirements that our buildings currently do not accommodate, such as increased power needs due to high-performance computing"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Risks associated with generative artificial intelligence tools and large language models and the conclusions that these tools and models may draw about our business and prospects in connection with the dissemination of negative opinions",
+    "proprietary, confidential, and/or sensitive data of the Company or our tenants could be leaked, disclosed, or revealed as a result of or in connection with our employees', personnel's, or vendors' use of generative AI technologies",
+    "the adoption of AI by our tenants may lead to infrastructure requirements that our buildings currently do not accommodate, such as increased power needs due to high-performance computing. Infrastructure upgrades may necessitate substantial capital expenditures"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific capex or dedicated AI budget disclosed for ARE itself; the filing notes a 'proactive reduction in capital spending' and discusses potential future tenant-driven infrastructure upgrades but provides no dollar amounts or program-level commitments tied to AI.",
+  "ai_narrative_concreteness: AI use by employees is acknowledged but no deployment metrics or quantified outcomes are provided; named use cases are largely framed as tenant-side or market-level observations rather than ARE's own deployed initiatives.",
+  "ai_risk_disclosure_depth: Excerpts are labeled [mdna] rather than a dedicated risk-factor section, though the content is clearly risk-disclosing in nature; scored on observable specificity of risk mechanisms described."
+ ],
+ "_meta": {
+  "accession": "0001035443-26-000013",
+  "filing_date": "2026-01-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1035443/000103544326000013/are-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T17:19:25.494586+00:00"
+ }
+}

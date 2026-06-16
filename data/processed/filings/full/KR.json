@@ -1,0 +1,49 @@
+{
+ "ticker": "KR",
+ "source_document_id": "0001104659-26-037723",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-31",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we are utilizing AI and machine learning capabilities across our business",
+    "we may need to increase investments in new capabilities and processes incorporating AI"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "we are utilizing AI and machine learning capabilities across our business",
+    "To effectively compete, we may need to increase investments in new capabilities and processes incorporating AI"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The emergence of artificial intelligence-powered agentic shopping tools...could further disrupt traditional grocery retail...reduced visibility into customer behavior, increased margin pressure and a weakened ability to influence purchasing decisions",
+    "Rapidly evolving technological and regulatory developments related to AI...may increase competitive, legal, and security risks facing the Company",
+    "The rapid evolution and increased adoption of AI and related technologies may also intensify the risk that our technology systems are targeted"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or named vendor/infrastructure partnerships disclosed in excerpts; only generic statements about current use and potential future investment needs.",
+  "ai_narrative_concreteness: No named AI initiatives, deployment details, or quantified outcomes disclosed; language is largely aspirational or risk-framed rather than operational.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains company-specific AI risk scenarios with described mechanisms (disintermediation via agentic shopping, competitive disadvantage, cybersecurity intensification, regulatory compliance cost), justifying score 4; however, no quantified risk exposure or named governance body specifically for AI (cybersecurity governance is described but not AI-specific) prevents score 5."
+ ],
+ "_meta": {
+  "accession": "0001104659-26-037723",
+  "filing_date": "2026-03-31",
+  "url": "https://www.sec.gov/Archives/edgar/data/56873/000110465926037723/kr-20260131x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-11T18:25:09.706296+00:00"
+ }
+}

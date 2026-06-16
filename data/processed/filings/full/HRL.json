@@ -1,0 +1,53 @@
+{
+ "ticker": "HRL",
+ "source_document_id": "0000048465-25-000059",
+ "source_type": "sec_filing",
+ "source_date": "2025-12-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Capital expenditures in fiscal 2025 were $311 million, including investments in capacity expansions... data and technology, people and animal safety",
+    "The Company continues to prioritize investments in growth, innovation, cost savings, automation, and maintenance."
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 1,
+   "evidence": [
+    "AI mentioned only in risk context: 'artificial intelligence' by threat actors, and 'fictitious media content (such as content produced by artificial intelligence)'",
+    "No named AI initiatives, use cases, or deployment details appear in any excerpt."
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "cyberattacks have become more sophisticated and frequent, including through the use of enhanced technologies and capabilities (such as artificial intelligence) by threat actors",
+    "negative publicity... including as a result of fictitious media content (such as content produced by artificial intelligence or bad actors)"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Capital expenditures in fiscal 2025 were $311 million",
+   "context": "Includes data and technology investments; no AI-specific allocation disclosed"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: The $311M capex figure is not disaggregated by AI; 'data and technology' is one of several listed categories with no AI-specific dollar amount. Score reflects generic digital investment language only.",
+  "ai_narrative_concreteness: AI appears exclusively in risk-factor boilerplate as an external threat vector and reputational risk source, not as an internal initiative or capability. Score 1 reflects absence of any named internal AI use case.",
+  "ai_risk_disclosure_depth: Risk-section excerpts are present and name two specific AI-related risk categories (adversarial AI-enhanced cyberattacks; AI-generated disinformation harming brand reputation), qualifying as named company-relevant risk categories (score 3). No quantification or named governance body is disclosed in these excerpts."
+ ],
+ "_meta": {
+  "accession": "0000048465-25-000059",
+  "filing_date": "2025-12-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/48465/000004846525000059/hrl-20251026.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T18:15:03.705281+00:00"
+ }
+}

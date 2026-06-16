@@ -1,0 +1,53 @@
+{
+ "ticker": "PNC",
+ "source_document_id": "0000713676-26-000020",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we continue to invest in technology. We seek to automate functions previously performed manually, facilitate the ability of customers to engage in financial transactions and otherwise enhance the customer experience",
+    "we increasingly use models related to how we do business with customers and for internal process automation that leverage AI/machine learning algorithms",
+    "We use automation, machine learning, AI and robotic process automation tools to help reduce some risks of human error"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Examples of model use include determining the pricing of various products, identifying potentially fraudulent or suspicious transactions, marketing to potential customers, grading loans and extending credit, measuring interest rate and other market risks",
+    "we increasingly use models related to how we do business with customers and for internal process automation that leverage AI/machine learning algorithms",
+    "We depend significantly on models for credit loss accounting under CECL, capital stress testing and estimating the value of items in our financial statements"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "our use of AI/machine learning algorithms is subject to a variety of existing laws and regulations, including intellectual property, privacy...consumer protection and federal equal opportunity laws",
+    "the results of these models are often less interpretable than traditional statistical models...flaws in our models that negatively impact our customers...could negatively affect our reputation or result in fines and penalties",
+    "The effectiveness of these efforts may be enhanced using AI...techniques used in cyber attacks and breaches change rapidly and are increasingly sophisticated, including through the use of generative AI and deepfakes"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts or headcount figures appear in the excerpts, capping investment intensity at 3.",
+  "AI-related capex references in the macroeconomic outlook section refer to economy-wide AI capex as a growth driver, not PNC's own spend.",
+  "Narrative concreteness scored 4 (deployed use cases with operating detail) but no quantified business results (%, $, time saved) were found to justify a 5.",
+  "Risk disclosure scored 4 based on named company-specific risk mechanisms; no quantified risk exposure or named governance body for AI oversight was found to justify a 5.",
+  "Excerpts are pre-filtered; additional AI disclosures may exist elsewhere in the full filing."
+ ],
+ "_meta": {
+  "accession": "0000713676-26-000020",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/713676/000071367626000020/pnc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:19:55.236019+00:00"
+ }
+}

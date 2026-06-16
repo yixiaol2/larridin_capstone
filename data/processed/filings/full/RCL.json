@@ -1,0 +1,49 @@
+{
+ "ticker": "RCL",
+ "source_document_id": "0000884887-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "increased our focus in bringing data analytics and artificial intelligence into our processes to provide better insights for revenue management as well as in how to model our maintenance or operational actions",
+    "These technologies and systems require significant investment and must be refined, updated, upgraded and/or replaced with more advanced capabilities"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "bringing data analytics and artificial intelligence into our processes to provide better insights for revenue management as well as in how to model our maintenance or operational actions",
+    "enabled booking a cruise in our mobile applications, built a loyalty hub to provide easy to view status, benefits and ways to earn rewards"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our use of emerging technologies, including artificial intelligence, may present business, compliance and reputational risks",
+    "generative artificial intelligence impersonation, illegitimate requests for payment, theft of intellectual property, theft of confidential or non-public information, installation of malware",
+    "The Company depends on technology and automated systems, including emerging technologies, such as artificial intelligence (AI), to operate its business, including but not limited to, computerized reservation systems, ship operations and crew scheduling systems"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; investment intensity scored 3 based on named use cases and general investment language only.",
+  "Narrative concreteness scored 4 based on named deployed use cases (revenue management, maintenance modeling, mobile app booking) but no quantified business results (e.g., % revenue lift, cost savings) are disclosed in these excerpts.",
+  "Risk disclosure includes named risk categories and specific mechanisms (impersonation, malware, operational dependence) justifying score 4, but no quantified risk exposure or named governance/oversight bodies appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000884887-26-000007",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-11T18:53:23.503206+00:00"
+ }
+}

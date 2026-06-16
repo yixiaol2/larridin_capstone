@@ -1,0 +1,49 @@
+{
+ "ticker": "CCI",
+ "source_document_id": "0001051470-26-000016",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We continue to seek to drive organizational improvement through digital transformation initiatives and modernizing our legacy IT systems.",
+    "Our industry continues to experience increasing operational complexity and growing reliance on digital tools, automation, data analytics, and integrated systems, including the use of artificial intelligence."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We continue to seek to drive organizational improvement through digital transformation initiatives and modernizing our legacy IT systems.",
+    "the adoption of other bandwidth-intensive applications (such as cloud services, artificial intelligence and video communications)"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "integration and adoption of artificial intelligence and machine learning ('AI') into our business may pose new information security risks and challenges.",
+    "AI-enabled systems, as well as AI-driven techniques used by threat actors, may increase the sophistication, scale, frequency, and speed of cyberattacks targeting our information technology systems.",
+    "reliance on legacy or fragmented systems may affect data accuracy, system reliability, and management's ability to obtain timely and act"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/cloud/chip partnerships disclosed in the excerpts; AI is referenced only as a demand driver for tower tenants and a general digital transformation goal.",
+  "ai_narrative_concreteness: AI is mentioned primarily as an external demand driver for tower leasing and in generic digital transformation language; no named internal AI initiatives, deployment status, or metrics are disclosed in the excerpts.",
+  "ai_risk_disclosure_depth: Risk-section material is present and names specific AI risk categories (cybersecurity, AI-enabled threat actors, IT modernization failure), warranting a score of 3; however, no quantified risk scenarios or named governance/oversight bodies are disclosed, capping the score below 4."
+ ],
+ "_meta": {
+  "accession": "0001051470-26-000016",
+  "filing_date": "2026-02-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147026000016/cci-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T17:45:37.046996+00:00"
+ }
+}

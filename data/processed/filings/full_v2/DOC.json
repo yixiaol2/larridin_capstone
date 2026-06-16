@@ -1,0 +1,54 @@
+{
+ "ticker": "DOC",
+ "source_document_id": "0001628280-26-005044",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We use generative artificial intelligence and/or machine learning (collectively, AI) tools in our investment and capital allocation decisions and operations, including commercially available AI applications or AI features available through our existing software or technology platforms.",
+    "We utilize software and platforms designed to detect such cybersecurity threats, including AI-based tools"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We use generative artificial intelligence and/or machine learning tools in our investment and capital allocation decisions and operations, including commercially available AI applications or AI features available through our existing software or technology platforms.",
+    "While we have adopted a governance framework concerning use of AI tools and provide training to our employees to guard against the aforementioned risks"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If AI tools used by our peers to optimize decisions or operations are used more broadly or effectively than the AI tools we use, we may be competitively disadvantaged.",
+    "The adoption of AI tools by our tenants may lead to infrastructure requirements that our buildings currently do not accommodate, such as increased power needs for high-performance computing.",
+    "The adoption of AI tools by our tenants may also lead to a reconfiguration in space requirements by our tenants or decreased demand for space over time... material adverse effect on our business, results of operations, and financial condition."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Infrastructure upgrades may require significant capital expenditures and could potentially impact the environmental footprint of our building operations.",
+   "context": "Tenant AI adoption driving potential building infrastructure upgrades; no dollar amount specified"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts or headcount tied to AI investment disclosed; named use of commercially available AI tools and a governance framework are present but no proprietary AI build-out or quantified spend is described.",
+  "ai_narrative_concreteness: Named initiatives (investment/capital allocation decisions, cybersecurity detection) are described but no deployment metrics or quantified outcomes are provided; some language remains general.",
+  "Excerpts are predominantly from risk_factors and item_16 sections; no MD&A or business-section detail on AI strategy or financials was included, which may understate investment intensity and concreteness."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-005044",
+  "filing_date": "2026-02-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/765880/000162828026005044/peak-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-15T20:52:38.211790+00:00"
+ }
+}

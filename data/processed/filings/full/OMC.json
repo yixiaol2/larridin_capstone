@@ -1,0 +1,51 @@
+{
+ "ticker": "OMC",
+ "source_document_id": "0000029989-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "in 2023, we entered into strategic partnerships with leading AI technology companies, enabling enhanced product and service capabilities using AI",
+    "In January 2026, we unveiled our next generation of Omni, our proprietary marketing intelligence platform... integrates... cutting-edge AI into a single operating system",
+    "we continue to make investments in new technologies... committed to responsible AI practices"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Omni integrates our connected capabilities, high-quality and comprehensive identity and data infrastructure, and cutting-edge AI into a single operating system",
+    "integration of emerging AI-based tools, such as generative AI, into planning, creative advertising, media, and analytics workflows",
+    "generative AI and agentic AI have, and will continue to have, a significant impact on how we provide services to our clients and how we enhance the productivity of our people"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms and training methodologies that may be flawed, datasets or outputs that may be over-broad, insufficient or contain biased, misleading or inaccurate information, harmful content, or defamation",
+    "Evolving rules, regulations and industry standards governing AI may require us to spend significantly to modify, maintain, or align our business practices... may be inconsistent from region to region",
+    "we may be unable to hire or retain talent who are trained in artificial intelligence, machine learning and advanced algorithms, to keep up with the rapid and ongoing technological advancements"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts, GPU/data-center scale, or headcount figures tied to AI investment are disclosed in the excerpts; named partnerships and platform launches support a score of 3 but not 4 or 5.",
+  "ai_narrative_concreteness: Omni platform and workflow integrations are described as deployed/in production with operating detail, but no quantified business results (%, $, time saved) appear in the excerpts; score capped at 4.",
+  "capex_mentions: No dollar or quantity figures tied to AI/compute/data-center investment appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000029989-26-000006",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/29989/000002998926000006/omc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:42:00.710170+00:00"
+ }
+}

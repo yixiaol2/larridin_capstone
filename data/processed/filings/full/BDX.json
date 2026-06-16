@@ -1,0 +1,51 @@
+{
+ "ticker": "BDX",
+ "source_document_id": "0000010795-25-000099",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Accelerating innovation in smart devices, robotics, analytics, and artificial intelligence in order to enable new care settings, improve outcomes, streamline care workflows",
+    "We also expect to continue to develop future uses of AI and expand our existing AI capabilities to include agentic solutions, as well as pursue new AI technology partnerships with third parties.",
+    "Advanced Patient Monitoring is a global leader in advanced monitoring solutions...advanced AI-enabled clinical decision tools and robust innovation pipeline"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Advanced Patient Monitoring...advanced AI-enabled clinical decision tools and robust innovation pipeline that complement our existing technologies serving operating rooms and intensive care units.",
+    "We have integrated (and expect to continue to integrate) AI into our products and business operations generally.",
+    "we rely on...AI, tools and other hardware, software...to operate our business...we expect that the breadth and complexity of our IT systems and infrastructure will increase as we expand our product offerings to utilize cloud technologies and AI"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The development, deployment and use of AI (particularly generative AI) is in the early stages and presents various risks, including from confidentiality, privacy, data protection, cybersecurity and compliance perspectives, and raises intellectual property issues",
+    "AI is increasingly being used by malicious actors to create more targeted cyberattacks and spread misinformation...could result in our and our customers personal, confidential or proprietary information being accessed, destroyed, lost, stolen",
+    "if we do not effectively adopt and integrate AI into innovative, market-differentiated products in a timely manner, our competitive position could be adversely affected"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; the $3.914 billion acquisition of Advanced Patient Monitoring is a general acquisition cost, not an AI-specific capex line, though AI capabilities are cited as a rationale.",
+  "AI narrative concreteness is scored 4 based on deployed AI-enabled clinical decision tools in Advanced Patient Monitoring, but no quantified business results (e.g., outcomes metrics, cost savings) are disclosed in the excerpts.",
+  "Risk disclosure is company-specific and mechanism-level (cybersecurity, competitive position, regulatory, IP) but no quantified risk exposure or named governance body is disclosed, capping the score at 4."
+ ],
+ "_meta": {
+  "accession": "0000010795-25-000099",
+  "filing_date": "2025-11-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/10795/000001079525000099/bdx-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-11T17:29:02.757421+00:00"
+ }
+}

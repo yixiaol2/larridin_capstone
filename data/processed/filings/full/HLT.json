@@ -1,0 +1,49 @@
+{
+ "ticker": "HLT",
+ "source_document_id": "0001585689-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "The development and maintenance of these technologies has required and may further require significant investment by us.",
+    "We are incorporating artificial intelligence technologies into our processes."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We are incorporating artificial intelligence technologies into our processes. These technologies may present business, compliance and reputational risks.",
+    "If we fail to keep pace with rapidly evolving technological developments in AI, our competitive position and business results may suffer."
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "criminals increasingly leverage generative and agentic AI-based technologies and services. Breaches, thefts, losses or fraudulent uses of customer, employee or company data could cause consumers to lose confidence",
+    "introduction of AI technologies, particularly generative and agentic AI, into new or existing offerings may also result in new or expanded risks and liabilities, including due to enhanced governmental or regulatory scrutiny, litigation, copyright infringement",
+    "AI and machine learning-technology could, unbeknownst to us, be improperly utilized by employees while carrying out their responsibilities...generating content that appears correct but is factually inaccurate, misleading or otherwise flawed"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/infrastructure partnerships disclosed in excerpts; only generic references to 'significant investment' required.",
+  "ai_narrative_concreteness: Excerpts are predominantly risk-factor sections; no business-section detail on named AI initiatives, deployment status, or metrics was present beyond a single general statement about incorporating AI into processes.",
+  "ai_risk_disclosure_depth: Risk-factor sections are well-represented; scored 4 because multiple company-specific risk mechanisms are described (cyber via agentic AI, regulatory/litigation exposure, employee misuse, reputational harm from inaccurate AI outputs) with operational pathways, though no quantification or named governance body was disclosed."
+ ],
+ "_meta": {
+  "accession": "0001585689-26-000007",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/1585689/000158568926000007/hlt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.1,
+  "extracted_at": "2026-06-11T18:14:19.558753+00:00"
+ }
+}

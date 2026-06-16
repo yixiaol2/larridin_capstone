@@ -1,0 +1,43 @@
+{
+ "ticker": "AAPL",
+ "source_document_id": "0000320193-25-000079",
+ "source_type": "sec_filing",
+ "source_date": "2025-10-31",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "introduction of new and complex technologies, such as artificial intelligence features, can increase these and other safety risks, including exposing users to harmful, inaccurate or other negative content",
+    "use of new and emerging technologies, including machine learning and artificial intelligence, which can involve...the acquisition and use of copyrighted materials for training as well as the potential reproduction of copyrighted materials",
+    "Risks and costs related to new and changing laws...increase as the Company expands the use of technologies, such as machine learning and artificial intelligence features, and must navigate new legal, regulatory and ethical considerations"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no AI-specific capex, budget, headcount, or infrastructure commitment disclosed in the provided excerpts; financial data in item_8 relates to general debt, leases, and manufacturing obligations with no AI attribution",
+  "ai_narrative_concreteness: excerpts are drawn entirely from risk_factors and financial notes; no use-case descriptions, named AI initiatives, or deployment details appear in the provided text",
+  "ai_risk_disclosure_depth: risk-section material is present and does discuss AI risks; scored 3 because named risk categories are specific to the company (product safety/harmful content, IP/copyright infringement from training data, regulatory/legal compliance for AI features, privacy/data risks from AI) but no quantified risk scenarios or named governance/oversight bodies appear in the excerpts"
+ ],
+ "_meta": {
+  "accession": "0000320193-25-000079",
+  "filing_date": "2025-10-31",
+  "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-11T17:24:09.761662+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "TMO",
+ "source_document_id": "0000097745-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our growth strategy includes significant investment in and expenditures for product and service development... including the timely, responsible and effective adoption of emerging technologies (such as AI)",
+    "we are incorporating AI and machine learning technologies into our products, services and internal processes",
+    "maintaining an attractive workplace culture (including where there is high demand for new products, services, and technologies, such as related to AI)"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we are incorporating AI and machine learning technologies into our products, services and internal processes",
+    "The integration of AI, including generative AI, into our products, services or internal operations may expose us to increased risks of intellectual property infringement"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Improper or unauthorized use of AI by our employees or third parties could create additional risks, including exposure of confidential information, errors in output, or the generation of inaccurate, misleading or biased results",
+    "Failure to keep pace with rapid developments in AI technologies could adversely affect our competitive position and results of operations",
+    "misuse of AI and machine learning technologies... cyber-attacks become increasingly sophisticated and more difficult to predict and protect against, particularly with the advancement of AI"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3",
+  "AI use cases named (products, services, internal processes) but no deployment status metrics or quantified outcomes disclosed; concreteness capped at 3",
+  "Risk disclosures describe specific mechanisms (reputational harm, competitive disadvantage, IP infringement, cybersecurity amplification, compliance) but no quantified risk figures or named governance/oversight bodies are present in the excerpts",
+  "Excerpts appear to be from the business/risk-factor sections; no financial statements or MD&A capex detail visible"
+ ],
+ "_meta": {
+  "accession": "0000097745-26-000018",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000018/tmo-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-15T21:38:34.265114+00:00"
+ }
+}

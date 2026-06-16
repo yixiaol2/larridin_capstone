@@ -1,0 +1,49 @@
+{
+ "ticker": "JBHT",
+ "source_document_id": "0001437749-26-005294",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "if we do not timely identify, prioritize, develop, and successfully integrate new or enhanced technologies into our operations, our service quality, efficiency, and competitiveness could suffer",
+    "Implementing and maintaining AI capabilities can be complex and costly, anticipated benefits may not be realized"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "any efforts we may make to incorporate it into our business may amplify cyber, legal, and operational risks",
+    "The rapid evolution and adoption of artificial intelligence(AI) and any efforts we may make to incorporate it into our business"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI adoption may introduce or amplify risks, including inaccurate or biased outputs that are difficult to detect, governance and model-risk challenges, privacy and intellectual property concerns, and evolving legal disclosure obligations",
+    "AI can also increase cybersecurity exposure as threat actors leverage AI to enhance social-engineering and intrusion techniques",
+    "Categories (including but not limited to cybersecurity, data privacy, governance, application development, and AI) ... Likelihood and impact ... Mitigating controls and/or remediations ... Residual risk score"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, named vendors, or dedicated AI budget disclosed in excerpts; only generic language about investing in technology and the J.B. Hunt 360 platform (not explicitly AI-labeled).",
+  "ai_narrative_concreteness: Excerpts are predominantly risk-factor and cybersecurity sections; no operational or business-strategy sections describing named AI initiatives or deployment status were provided.",
+  "capex_mentions: No dollar amounts or quantified AI/compute investment figures appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001437749-26-005294",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/728535/000143774926005294/jbht20251231_10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T18:20:49.606911+00:00"
+ }
+}

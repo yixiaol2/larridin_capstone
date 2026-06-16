@@ -1,0 +1,49 @@
+{
+ "ticker": "IP",
+ "source_document_id": "0000051434-26-000055",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We may fail to identify, prioritize or implement digital and/or AI transformation initiatives across our operations, including areas such as product design, materials sourcing, manufacturing, logistics, and customer delivery.",
+    "Our failure to adopt or scale these capabilities in a timely manner could impair our ability to meet evolving customer expectations or may result in us falling behind our competitors."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We may fail to identify, prioritize or implement digital and/or AI transformation initiatives across our operations, including areas such as product design, materials sourcing, manufacturing, logistics, and customer delivery.",
+    "AI continues to evolve rapidly, and, as with many technological innovations, it presents risks and challenges that could affect its adoption and our business."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The EU AI Act, adopted in May 2024, entered its implementation phase in 2025 and imposes extensive transparency, risk management and data governance obligations for AI systems... with significant fines for noncompliance.",
+    "The rapid evolution and increased adoption of AI technologies may intensify cybersecurity risks by making cyber-attacks more difficult to detect, contain, and mitigate.",
+    "Changes in regulatory regimes, or the adoption of new or more restrictive requirements, could make it more difficult to use AI tools, require us to change our business practices, or limit AI usage which may lead to inefficiencies or competitive disadvantages."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or named AI programs disclosed in the excerpts; investment intensity scored 2 based on aspirational/risk-framing language only.",
+  "AI narrative concreteness is limited to risk-disclosure framing; no deployed use cases or production initiatives described in the excerpts.",
+  "Risk disclosure excerpts appear within the MD&A/risk-factors section and contain company-specific mechanisms (regulatory compliance costs, cybersecurity amplification, competitive disadvantage from non-adoption), supporting a score of 4, but no quantified risk exposure or named governance body is present to warrant a score of 5."
+ ],
+ "_meta": {
+  "accession": "0000051434-26-000055",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/51434/000005143426000055/ip-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 2.4,
+  "extracted_at": "2026-06-15T20:58:28.944495+00:00"
+ }
+}

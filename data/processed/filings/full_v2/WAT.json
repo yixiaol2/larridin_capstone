@@ -1,0 +1,51 @@
+{
+ "ticker": "WAT",
+ "source_document_id": "0001193125-26-062604",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Company continues to integrate artificial intelligence (AI), including generative AI, into its business operations and products and research further uses and opportunities for AI development.",
+    "the development of adequate AI technology will require significant investment.",
+    "a failure to timely and effectively use AI and embed it into new product offerings and services that negatively impacts our competitiveness"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The Company continues to integrate artificial intelligence (AI), including generative AI, into its business operations and products and research further uses and opportunities for AI development.",
+    "Delays or disruptions in successfully developing and implementing AI as part of the Company s business activities, products or services could have a negative impact on the Company s competitiveness"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The premature use of inadequate AI or the use of deficient AI, including flawed or biased algorithms, could harm the Company s brand, reputation or competitive advantage or result in regulatory penalties or legal liability.",
+    "The input of confidential information or trade secrets into AI systems may result in the loss of intellectual property, proprietary rights or attorney-client privilege.",
+    "Failures in AI functionality could result in delays in new product offerings and services and have an adverse impact on other business activities."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or program budgets appear in the excerpts; investment intensity scored 3 based on named integration activities and acknowledgment of significant investment required, without dollar figures.",
+  "AI narrative concreteness is low: excerpts describe integration in general terms with no named AI products, deployed features, or metrics — language is largely aspirational and risk-oriented.",
+  "Risk disclosure scored 4 (company-specific scenarios with mechanisms) rather than 5 because no quantified risk figures or named governance/oversight bodies appear in the excerpts.",
+  "Excerpts are pre-filtered; additional AI use-case or investment detail may exist elsewhere in the filing but is not visible here."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-062604",
+  "filing_date": "2026-02-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000697/000119312526062604/d778470d10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T21:47:22.965813+00:00"
+ }
+}

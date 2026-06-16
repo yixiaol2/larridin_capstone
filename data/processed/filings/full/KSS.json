@@ -1,0 +1,49 @@
+{
+ "ticker": "KSS",
+ "source_document_id": "0001193125-26-115982",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We continue to incorporate artificial intelligence, including generative AI and machine learning technology, into our business operations and customer experiences.",
+    "Implementing AI responsibly requires significant resources to minimize unintended harmful impacts"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We continue to incorporate artificial intelligence, including generative AI and machine learning technology, into our business operations and customer experiences.",
+    "there can be no assurance that AI initiatives will yield intended productivity gains or beneficial results"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the use of generative AI tools may compromise confidential or sensitive information, jeopardize our intellectual property, or subject us to claims of intellectual property infringement",
+    "Challenges with properly managing the use of AI and machine learning technology could result in reputational harm, competitive disadvantage, and legal liability",
+    "The legal, regulatory, and ethical landscape around the use of AI is rapidly evolving, and our ability to timely adopt and adapt to this emerging technology in an effective and ethical manner may impact our reputation and competitiveness"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or named vendor/infrastructure partnerships disclosed in excerpts; score reflects generic acknowledgment of ongoing incorporation and resource requirements only.",
+  "ai_narrative_concreteness: Excerpts are drawn entirely from risk-factor sections; no use-case detail, deployment status, or operational metrics are provided, limiting concreteness scoring to aspirational/generic level.",
+  "ai_risk_disclosure_depth: Risk mechanisms are named and company-specific (IP infringement, confidentiality compromise, regulatory non-compliance, reputational harm, competitive disadvantage) with causal pathways described, supporting score 4; however, no quantification of risk exposure or named governance/oversight bodies are present to reach score 5."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-115982",
+  "filing_date": "2026-03-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/885639/000119312526115982/kss-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T18:24:46.257979+00:00"
+ }
+}

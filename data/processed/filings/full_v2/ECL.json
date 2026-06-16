@@ -1,0 +1,51 @@
+{
+ "ticker": "ECL",
+ "source_document_id": "0001104659-26-018357",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have made significant investments in commercial digital product offerings, and our culture and expertise must continue to evolve to develop, support and profitably deploy commercial digital offerings",
+    "integrating science-based solutions, data-driven insights, AI-technology and world-class service",
+    "The development, testing, and deployment of AI systems are resource-intensive and may increase our operational costs"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We are increasingly incorporating AI capabilities into the development of technologies and our business operations, and into our products and services",
+    "Advanced digital sensing, monitoring and automation combine with innovative chemistries and detailed process knowledge to provide a broad range of customer solutions",
+    "integrating science-based solutions, data-driven insights, AI-technology and world-class service"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Flaws in AI algorithms, training methodologies, or datasets may lead to unintended consequences, such as operational disruptions, erroneous decision-making, or data loss",
+    "Compliance with evolving AI regulations may impose significant costs, limit our ability to incorporate AI capabilities, and expose us to legal liabilities",
+    "There is no assurance that our investments in AI will yield the anticipated benefits or that customers will adopt our AI-enhanced offerings, potentially impacting our financial results"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment found in excerpts; investment intensity scored 3 based on named programs and stated significance without quantification.",
+  "AI use cases are named at a high level (products, services, operations) but no deployment metrics or quantified outcomes are disclosed; concreteness capped at 3.",
+  "Risk section material is present and covers multiple named AI risk categories with described mechanisms (operational, legal, reputational, competitive, financial, cybersecurity), supporting score 4; no quantified risk figures or named governance bodies found to justify score 5."
+ ],
+ "_meta": {
+  "accession": "0001104659-26-018357",
+  "filing_date": "2026-02-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/31462/000110465926018357/ecl-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:38:32.256869+00:00"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "ticker": "CHWY",
+ "source_document_id": "0001766502-26-000034",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "our investments in automation and artificial intelligence (AI) technologies within our fulfillment centers drive efficiency across our distribution network",
+    "We expect to invest in technology, automation, and product innovation over time to continue scaling our platform, customer support, marketing efforts and supply chain",
+    "an infrastructure that enables the use of artificial intelligence and other system advancements that will create further efficiencies for our team members"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "our investments in automation and artificial intelligence (AI) technologies within our fulfillment centers drive efficiency across our distribution network",
+    "We commenced a project in Fiscal Year 2024 to modernize our finance information technology architecture... an infrastructure that enables the use of artificial intelligence",
+    "The project will not require meaningful capital investment... we expect that this project will go live towards the end of Fiscal Year 2026"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The integration of AI technologies into our operations could also increase cybersecurity and privacy risks and could lead to potential unauthorized access, misuse, acquisition, release, disclosure",
+    "as a result of the continued development of AI technologies, this could negatively impact our websites... our ability to acquire new customers and our financial condition would be materially and adversely affected",
+    "As our competitors develop and expand their strategic use of AI, our operations and profitability could be adversely impacted if we fail to utilize those technologies"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts tied specifically to AI investment were found in the excerpts; AI spend is bundled within broader technology/infrastructure references.",
+  "The finance IT modernization project is explicitly described as not requiring 'meaningful capital investment', limiting capex signal.",
+  "Narrative concreteness is limited to named initiatives without deployed metrics or quantified outcomes; score reflects named programs only.",
+  "Risk section material is present and AI risks are discussed with company-specific mechanisms (cybersecurity, competitive disadvantage, regulatory exposure), supporting a score of 4, but no quantified risk figures or named governance bodies were found to justify a score of 5."
+ ],
+ "_meta": {
+  "accession": "0001766502-26-000034",
+  "filing_date": "2026-03-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1766502/000176650226000034/chwy-20260201.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T20:25:38.081953+00:00"
+ }
+}

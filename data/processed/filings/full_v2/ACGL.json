@@ -1,0 +1,51 @@
+{
+ "ticker": "ACGL",
+ "source_document_id": "0000947484-26-000017",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We employ artificial intelligence (AI) technology and analytics to drive data-driven decisions, streamline processes or help serve our customers and partners.",
+    "We established the Artificial Intelligence Governance and Oversight Committee (AIGOC) to evaluate and approve new AI use cases and issue and oversee our Company's Artificial Intelligence Policy.",
+    "The AIGOC, which includes senior executives from IT, legal, compliance, risk and analytics, focuses on the governance of AI through the Company Artificial Intelligence Policy, annual training and vetting new AI technologies."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We employ AI technology and analytics to drive data-driven decisions, streamline processes or help serve our customers and partners. The use of AI technology is vetted through our AI governance framework.",
+    "New AI use cases presented to the AIGOC for approval include a review of cybersecurity controls, among other considerations such as regulatory and business factors.",
+    "We continuously evaluate the adequacy of our information technology systems in order to ensure that we are utilizing the most appropriate technologies and innovating or adopting new technologies to support our underwriting business."
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "It is possible that any AI we use does not perform as anticipated, suffers from hallucinations or that its outputs may not be as expected or may result in unlawful discrimination, which may put us at a competitive disadvantage, result in reputational damage and regulatory fines.",
+    "Failure to comply with the applicable AI-related regulations could result in fines, penalties, litigation, or restrictions on our business operations. These outcomes may have a materially adverse effect on our business or financial condition.",
+    "The sophistication of cybersecurity threats, AI-powered cyber attacks such as deep fakes and brute force attacks, continues to increase... we cannot offer complete assurances that significant data breaches on our systems and those of third parties we use will not occur."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "AI use cases are described at a high level (data-driven decisions, streamline processes, underwriting support) with no deployment metrics or quantified business outcomes, limiting concreteness to score 3.",
+  "Risk disclosure is detailed and company-specific with named mechanisms (hallucinations, discrimination, regulatory fines, AI-powered cyberattacks) and a named governance body (AIGOC), supporting score 4, but no quantified risk exposure or formal risk quantification methodology is disclosed, precluding score 5."
+ ],
+ "_meta": {
+  "accession": "0000947484-26-000017",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/947484/000094748426000017/acgl-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 2.9,
+  "extracted_at": "2026-06-15T20:12:01.529681+00:00"
+ }
+}

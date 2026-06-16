@@ -1,0 +1,49 @@
+{
+ "ticker": "DVN",
+ "source_document_id": "0001193125-26-056485",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we are expanding the use of and reliance on these systems and technologies, including through artificial intelligence, process automation and data analytics",
+    "We increasingly use artificial intelligence (AI) and other emerging technologies to improve our business processes, including through the integration of various AI tools"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "integration of various AI tools into certain of our information systems",
+    "we may not properly implement these technologies into our business, and there can be no assurance that we will realize the anticipated efficiency gains or other benefits"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the generation of and reliance upon inaccurate, misleading or otherwise flawed content in our business processes, (ii) the unauthorized use or disclosure of confidential or proprietary information and (iii) potential exposure to new or enhanced governmental or regulatory scrutiny",
+    "Failure to effectively integrate AI and other emerging technologies into our operations could put us at a competitive disadvantage to other oil and gas companies",
+    "cyberattacks...could be enhanced or facilitated by artificial intelligence"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no named vendors, partners, dollar amounts, or quantified AI-specific spend disclosed in excerpts; generic expansion language only",
+  "ai_narrative_concreteness: AI use cases referenced only at the level of 'business processes' and 'information systems' with no deployment metrics or quantified outcomes; named initiative detail is minimal",
+  "ai_risk_disclosure_depth: risk-section material is present and contains company-specific AI risk scenarios with named mechanisms (inaccuracy, data disclosure, regulatory scrutiny, competitive disadvantage, cyber facilitation), justifying score 4; no quantification or named governance body found in excerpts to reach score 5"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-056485",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1090012/000119312526056485/dvn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:48:31.536653+00:00"
+ }
+}

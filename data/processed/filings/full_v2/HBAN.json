@@ -1,0 +1,49 @@
+{
+ "ticker": "HBAN",
+ "source_document_id": "0000049196-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We use AI in connection with our business and operations, including through the models we employ.",
+    "there can be no assurance that our use of AI will be successful in enhancing our business or operations, be successfully adopted and deployed by our colleague base"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We use AI in connection with our business and operations, including through the models we employ. AI is complex and rapidly evolving, and the introduction of AI...into our business and operations may subject us to new or heightened...risks.",
+    "our competitors may incorporate AI into their businesses or operations more quickly or more successfully than us"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "we have an Operational Risk Committee...an Artificial Intelligence Risk Committee, and a Third Party Risk Management Committee...a Model Risk Oversight Committee that is responsible for policies and procedures describing how model risk is evaluated and managed",
+    "AI may be incorrectly or inadequately designed or implemented and trained on...data or algorithms that are...incomplete, inadequate, misleading, biased, poor-quality or otherwise flawed",
+    "AI and the use thereof is also subject to a variety of existing laws and regulations, including fair lending, consumer protection, intellectual property, cybersecurity, data privacy, and equal opportunity"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount figures, or named AI programs with quantified scale are disclosed in the excerpts; only generic statements about using AI in business and operations.",
+  "ai_narrative_concreteness: No specific named AI initiatives, deployed use cases, or quantified outcomes are described; language is aspirational and risk-oriented rather than operational.",
+  "ai_risk_disclosure_depth: Risk-section and business-section material is present; a named Artificial Intelligence Risk Committee and a Model Risk Oversight Committee are disclosed, along with specific risk mechanisms (fair lending, bias, regulatory, IP), supporting a score of 5 for governance-backed risk treatment."
+ ],
+ "_meta": {
+  "accession": "0000049196-26-000015",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000015/hban-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-15T20:55:23.411965+00:00"
+ }
+}

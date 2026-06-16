@@ -1,0 +1,52 @@
+{
+ "ticker": "DHR",
+ "source_document_id": "0000313616-26-000062",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are in the early stages of incorporating AI, including machine learning technologies, into our business activities and our product and service offerings.",
+    "the development and deployment of AI has required and will require additional investment that increases our costs.",
+    "rapid technological development (particularly with respect to computing, automation, AI, mobile connectivity and digitization) in most of the Company s served markets"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We are in the early stages of incorporating AI, including machine learning technologies, into our business activities and our product and service offerings.",
+    "Danaher s CIO... reports to Danaher s Chief Technology and Artificial Intelligence Officer.",
+    "data connectivity and automation, advanced process training, process development services and equipment services are designed to help customers develop more optimized, compliant processes"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may be flawed or may be based on datasets that are biased or insufficient or contain errors. In addition, any disruption or failure in the AI functionality we incorporate... could adversely impact our business.",
+    "Incorporating AI into our business operations presents new risks relating to intellectual property, disclosure of confidential data, data protection, data privacy and cybersecurity.",
+    "Compliance with new or changing laws, regulations or industry standards relating to AI may impose significant costs and may limit our ability to develop, deploy or use AI technologies."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases in products are named only at a high level (machine learning in business activities and product offerings) with no deployment status or metrics disclosed in these excerpts; concreteness capped at 3.",
+  "Risk disclosure is company-specific and mechanism-level (IP loss, regulatory penalties, competitive harm, cybersecurity) but no quantified risk figures or formal AI governance committee beyond the CISO/CIO structure are described, keeping score at 4 rather than 5.",
+  "Excerpts are pre-filtered; additional AI investment or use-case detail may exist elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0000313616-26-000062",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000062/dhr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-15T20:32:47.388437+00:00"
+ }
+}

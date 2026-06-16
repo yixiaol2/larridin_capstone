@@ -1,0 +1,52 @@
+{
+ "ticker": "MAR",
+ "source_document_id": "0001048286-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are incorporating AI and other emerging technologies into certain of our processes, offerings, and services, and these technologies may become increasingly important in our operations over time.",
+    "We are undertaking a multi-year transformation of our reservations, property management, and loyalty systems.",
+    "management-level governing bodies with respect to our information security, data privacy, and AI programs; oversee the implementation of our information security, data privacy, and AI risk management strategy"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We are incorporating AI and other emerging technologies into certain of our processes, offerings, and services, and these technologies may become increasingly important in our operations over time.",
+    "if we fail to keep pace with rapidly-evolving technological developments in AI and other emerging technologies, our competitive position and business may suffer.",
+    "The introduction of these technologies, particularly generative AI, into our processes, offerings, and services may also result in new or expanded risks and liabilities"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "introduction of AI capabilities by existing and emerging travel intermediaries may change the way guests plan, book, and pay for travel, which may disrupt how our products and services are marketed and distributed, potentially eroding brand loyalty, increasing distribution costs",
+    "AI could be improperly utilized by associates while carrying out their responsibilities or lead to unintended consequences, including generating content that is factually inaccurate, misleading or otherwise flawed, or biased",
+    "Our increased reliance on cloud-based services and on remote access to information systems and our use of AI and other emerging technologies increases the Company's exposure to potential cybersecurity incidents."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex, headcount, or budget figures appear in the excerpts; investment intensity scored 3 based on named programs and governance structures only.",
+  "AI use cases are described only in aspirational or risk-framing terms with no deployment status or metrics disclosed in these excerpts; narrative concreteness capped at 2.",
+  "The multi-year systems transformation mention may imply AI-related investment but is not explicitly quantified or attributed to AI spend.",
+  "Risk disclosure depth scored 4 based on named company-specific risk mechanisms (distribution disruption, associate misuse, cybersecurity exposure) but no quantification or formal risk-quantification program is disclosed in these excerpts."
+ ],
+ "_meta": {
+  "accession": "0001048286-26-000007",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/1048286/000104828626000007/mar-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:29:44.915615+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "TRV",
+ "source_document_id": "0000086312-26-000065",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "the Company has invested significant additional resources in many of its claims handling operations, including digital, analytics, artificial intelligence and automation capabilities",
+    "Artificial intelligence, in particular, may become more expensive in the future given the resources necessary to develop that technology",
+    "the Company s competitive advantages and innovation agenda, including executing on that agenda with respect to artificial intelligence"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "invested significant additional resources in many of its claims handling operations, including digital, analytics, artificial intelligence and automation capabilities",
+    "technology such as artificial intelligence and machine learning that collects and analyzes a wide variety of data points to help make underwriting or other decisions",
+    "our business processes become more digital and seek to incorporate artificial intelligence...particularly as our business processes become more digital"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "new technology, such as artificial intelligence, could create unforeseen exposures or coverage issues under the policies we write and aggravate claims fraud and cybercrime",
+    "impact of external data sources, artificial intelligence, algorithms and predictive models on protected classes of customers, and a number of states have begun rulemaking efforts",
+    "increased use of artificial intelligence by threat actors to perpetrate these attacks...the rapid evolution of artificial intelligence, and the preventative actions we take...may be insufficient"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts, GPU counts, or percentage-of-capex figures tied to AI investment appear in the excerpts; investment intensity scored 3 (named initiatives, no quantified scale).",
+  "AI use cases in claims, underwriting, and analytics are named but no deployment metrics or quantified business results are disclosed; narrative concreteness capped at 3.",
+  "Risk disclosure is company-specific and mechanism-level (regulatory, fraud, cyber, protected-class bias, IP) but no quantified risk figures or named governance bodies are cited in the excerpts, capping risk depth at 4."
+ ],
+ "_meta": {
+  "accession": "0000086312-26-000065",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 22,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-11T19:03:56.864156+00:00"
+ }
+}

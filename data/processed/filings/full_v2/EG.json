@@ -1,0 +1,48 @@
+{
+ "ticker": "EG",
+ "source_document_id": "0001095073-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "No AI investment, R&D, capex, or resource commitment to AI is discussed in the excerpts; AI appears only in risk-factor context"
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.8,
+   "limitations": [
+    "Excerpts contain no named AI initiatives, use cases, or deployment descriptions; AI is referenced only as an external risk factor"
+   ]
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "AI technologies are quickly evolving and being adopted, which may also increase or intensify potential cybersecurity risks.",
+    "Exposure to cybersecurity risk is increasing systematically due to greater digital dependence, emerging technologies such as AI and increased possible losses due to a catastrophic cybersecurity event.",
+    "Regulatory and legislative developments, as well as executive orders, related to cybersecurity, privacy, data protection and AI could have an adverse impact on our business."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts are exclusively from risk_factors section; no business description, MD&A, or investment-related sections are present, making ai_investment_intensity and ai_narrative_concreteness unscorable.",
+  "AI risk disclosure names specific risk categories (cybersecurity intensification, regulatory/compliance risk, talent acquisition) but provides no quantified risk scenarios or named governance bodies, capping the score at 3."
+ ],
+ "_meta": {
+  "accession": "0001095073-26-000006",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1095073/000109507326000006/eg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.3,
+  "extracted_at": "2026-06-15T20:41:44.805059+00:00"
+ }
+}

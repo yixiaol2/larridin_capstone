@@ -1,0 +1,51 @@
+{
+ "ticker": "EBAY",
+ "source_document_id": "0001065088-26-000027",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are devoting significant capital and management time and resources to using AI technologies to improve our products, services and controls, and to build and expand our capabilities.",
+    "We have devoted and plan to continue devoting substantial time, money and management resources to developing new technologies, products and services.",
+    "We continue to invest in AI-enhanced listing capabilities, advanced advertising solutions, global shipping improvements and flexible payment options."
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We continue to expand AI across the listing workflow, using Generative AI to prefill item details, generate optimized titles and descriptions and in some cases recognize product images.",
+    "Our AI-enhanced features and services power dynamic product recommendation feeds within our enhanced discovery platform, as well as our AI shopping agent pilot that delivers personalized search results.",
+    "AI-enhanced discovery tools and interactive live shopping experiences through eBay Live... one-click card grading and resale for trading cards through our partnership with PSA."
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "EU AI Act, which lays out the parameters for AI systems where non-compliance can result in fines up to 35 million euros or 7% of global turnover, came into force in August 2024.",
+    "AI enhanced products could produce inaccurate, misleading, biased or false outcomes (e.g., hallucinatory behavior currently seen with Gen AI models) or other unexpected results that could harm our reputation.",
+    "Hackers have unsuccessfully targeted us using an AI-generated voice impersonation of our CEO. We expect cyberattacks utilizing AI to continue and evolve."
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment language is qualitative ('significant capital', 'substantial time, money'), preventing a score of 4 or 5 for investment intensity.",
+  "AI narrative concreteness scored 4 based on named deployed features (Gen AI listing prefill, AI shopping agent pilot, recommendation feeds) with operational detail, but no quantified business results (e.g., % improvement, volume) were disclosed to justify a score of 5.",
+  "Risk disclosure scored 4 due to named company-specific risk mechanisms (regulatory fines with specific amounts, hallucination risk, AI-powered cyberattacks against eBay), but no formal quantified risk governance body or mitigation program was described to justify a score of 5."
+ ],
+ "_meta": {
+  "accession": "0001065088-26-000027",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 20,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:51:24.849969+00:00"
+ }
+}

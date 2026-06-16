@@ -1,0 +1,51 @@
+{
+ "ticker": "KEY",
+ "source_document_id": "0001628280-26-010546",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We use, and will increasingly use AI, including through third party vendors acting on our behalf and other counterparties, in connection with our business and operations.",
+    "in order to compete with other banks and financial institutions effectively, we must incorporate new and emerging AI technology into our business"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Some models we use employ methodologies based on artificial intelligence or machine learning... may involve some additional complexities, such as the need for large datasets for training, the potential for algorithmic bias.",
+    "Increased model and generative AI use could expose us to liability or adverse legal or regulatory consequences and harm our reputation.",
+    "our use of emerging technology-based products and services, including cloud computing and artificial intelligence may introduce new and evolving cybersecurity risks"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The models underlying AI... may be incorrectly or inadequately designed or implemented and trained on... data or algorithms that are incomplete, inadequate, misleading, biased, or otherwise flawed... and that ultimately produce outputs that are similarly flawed.",
+    "The limited transparency into the underlying complexity of AI and associated models... makes reproducing the connection between input and output, at times, difficult or impossible.",
+    "If the AI that we leverage is flawed... we may make inaccurate or ineffective decisions and otherwise incur operational inefficiencies, compliance issues, competitive and reputational harm, adverse legal and regulatory actions."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-attributable spend, headcount, or named AI programs disclosed in the excerpts; language is generic and forward-looking. Score reflects named intent without quantification.",
+  "ai_narrative_concreteness: Excerpts are predominantly risk-disclosure sections; no deployed use cases with operational detail or metrics are described. Named references to AI/ML models in risk management provide minimal concreteness.",
+  "capex_mentions: No dollar amounts or quantities tied to AI investment appear in the excerpts.",
+  "Excerpts are heavily weighted toward risk factors and cybersecurity sections; business/strategy sections describing AI initiatives in detail may exist in the full filing but are not present here."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-010546",
+  "filing_date": "2026-02-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/91576/000162828026010546/key-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T21:02:40.738658+00:00"
+ }
+}

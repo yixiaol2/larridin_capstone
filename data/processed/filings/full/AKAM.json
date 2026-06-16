@@ -1,0 +1,51 @@
+{
+ "ticker": "AKAM",
+ "source_document_id": "0001086222-26-000022",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are investing significant resources in our cloud computing solutions and platform, working on expanding capacity, adding additional sites and developing increased cloud computing features and functionality",
+    "we continued to expand Akamai's compute platform to include additional data centers... introduced new NVIDIA GPUs that are well-suited for... training and inference with neural networks",
+    "we recently launched AIC, a platform enabling AI inferencing at the edge of the internet, as a direct offering in the AI market"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "In 2025, Akamai launched Firewall for AI, a new solution designed to provide protection for AI applications against unauthorized queries, adversarial inputs and large-scale data-scraping attempts",
+    "Akamai launched Akamai Inference Cloud ('AIC'), a platform that expands AI inference from core data centers to the edge of the internet",
+    "AI network labeling examines how assets are behaving and suggests labels to help security teams apply appropriate controls, and generative AI allows security professionals to ask natural language questions of their network"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our AI focused initiatives, including AIC, may not be successful, and our competitors may incorporate AI into their products... which could impair our ability to compete effectively and adversely affect our financial results",
+    "AI systems and third-party AI services that we use may also introduce operational resilience and stability risks that could disrupt our services or customers' workloads",
+    "The AI Act... imposes significant obligations on providers and deployers of high-risk AI systems, and non-compliance can lead to substantial fines"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No explicit dollar amounts or quantified capex tied specifically to AI investment were found in the excerpts; investment intensity scored 3 based on named infrastructure, NVIDIA GPU procurement, and named AI platforms without quantified spend figures.",
+  "Narrative concreteness scored 4 based on named deployed products (AIC, Firewall for AI, Guardicore AI features) with operational detail but no quantified business results (e.g., revenue, time saved, volume handled) disclosed in these excerpts.",
+  "Operating lease and co-location cost figures appear in excerpts but are not explicitly attributed to AI workloads specifically, so not included as AI capex mentions."
+ ],
+ "_meta": {
+  "accession": "0001086222-26-000022",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1086222/000108622226000022/akam-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:18:45.665139+00:00"
+ }
+}

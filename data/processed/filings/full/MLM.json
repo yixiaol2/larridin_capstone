@@ -1,0 +1,46 @@
+{
+ "ticker": "MLM",
+ "source_document_id": "0001193125-26-059193",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Challenges in implementing new technologies or automation systems could lead to inefficiencies, cost overruns, or operational disruptions",
+    "Improper use or reliance on predictive analytics or AI-driven decision-making could result in flawed forecasting, compliance issues, or reputational damage"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "threat actors have become increasingly sophisticated and are reportedly using artificial intelligence to increase the virulence of attacks",
+    "Improper use or reliance on predictive analytics or AI-driven decision-making could result in flawed forecasting, compliance issues, or reputational damage",
+    "Challenges in implementing new technologies or automation systems could lead to inefficiencies, cost overruns, or operational disruptions"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity scored null: excerpts contain no disclosure of AI-specific capital expenditure, named AI infrastructure, vendors, or dedicated AI budgets.",
+  "ai_narrative_concreteness scored 2: AI references appear only in risk-factor and MD&A forward-looking cautionary language; no named AI initiatives, deployed use cases, or concrete programs are described. Aspirational/cautionary framing only.",
+  "Risk-section excerpts are present and do name AI-specific risk categories (AI-driven decision-making errors, AI-enhanced cyberattacks), supporting a score of 3, but no quantified risk treatment or named governance bodies are disclosed in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-059193",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/916076/000119312526059193/mlm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-11T18:30:14.863682+00:00"
+ }
+}

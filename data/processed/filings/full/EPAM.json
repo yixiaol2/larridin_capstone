@@ -1,0 +1,60 @@
+{
+ "ticker": "EPAM",
+ "source_document_id": "0001352010-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have made significant investments to build and support AI capabilities, products, and services to meet clients needs and remain competitive in our industry and expect to make additional investments in the future.",
+    "This acquisition expanded EPAM s AI-enabled business operations capabilities... total purchase price of $8.8 million including contingent consideration.",
+    "Through platforms like EPAM AI/RUN and initiatives like DIALX Lab, we integrate advanced AI technologies into tailored business strategies."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Through platforms like EPAM AI/RUN and initiatives like DIALX Lab, we integrate advanced AI technologies into tailored business strategies, driving significant industry impact.",
+    "Our sales and marketing efforts are increasingly AI-enabled, leveraging internal data platforms to create a comprehensive view of our clients which enables more personal and tailored conversations.",
+    "Our focus has sharpened on providing the foundational data engineering, decisioning and platform modernization services that are critical for large-scale AI-readiness and AI adoption."
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If comparable services can be performed less expensively using AI, clients may seek other service providers or expect price concessions to retain their business, which could adversely affect our financial results.",
+    "AI, large language model, and machine learning technologies enable clients and potential clients to develop, customize, and maintain software solutions internally and could reduce reliance on third-party service providers such as EPAM.",
+    "using AI to enhance, automate, and scale cyberattacks... These individual, group, and organized actors have a variety of methods at their disposal... exploiting remote working connectivity and security susceptibilities."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "total purchase price of $8.8 million including contingent consideration",
+   "context": "2025 acquisition to expand AI-enabled business operations capabilities"
+  },
+  {
+   "quote": "purchase price of $300.7 million",
+   "context": "First Derivative acquisition; goodwill attributed partly to AI-enabled capabilities in financial services vertical"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: No quantified dedicated AI capex or multi-year AI budget disclosed; the $8.8M acquisition and $300.7M First Derivative deal are M&A spend with AI as one rationale, not pure AI infrastructure capex. Score 3 reflects named platforms (AI/RUN, DIALX Lab) and stated significant investments without dollar amounts tied specifically to AI build-out.",
+  "ai_narrative_concreteness: Named platforms and use cases (AI/RUN, DIALX Lab, AI-enabled sales, data engineering for AI-readiness) are described as deployed/in-production but no quantified business results (%, $, time saved) are provided in the excerpts, capping score at 4.",
+  "ai_risk_disclosure_depth: Risk-factor sections are present and contain detailed, company-specific AI risk scenarios with mechanisms (demand displacement, pricing pressure, IP ownership uncertainty, AI-enhanced cyberattacks, workforce imbalance), justifying score 4; no quantified risk treatment or named governance body found in excerpts."
+ ],
+ "_meta": {
+  "accession": "0001352010-26-000015",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000015/epam-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 24,
+  "maturity_index": 4.6,
+  "extracted_at": "2026-06-11T17:52:17.434502+00:00"
+ }
+}

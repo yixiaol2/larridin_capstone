@@ -1,0 +1,39 @@
+{
+ "ticker": "STLD",
+ "source_document_id": "0001104659-26-021395",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_risk_disclosure_depth": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No AI investment, strategy, or risk content appears in the provided excerpts. The only AI-adjacent reference is 'data center developers' as a customer segment for steel fabrication, which reflects end-market demand rather than any AI investment or initiative by STLD itself.",
+  "No risk-section content appears in the excerpts, so ai_risk_disclosure_depth cannot be scored.",
+  "Excerpts are limited to item_8 and business segment results; AI-relevant sections may exist elsewhere in the filing but are not present here."
+ ],
+ "_meta": {
+  "accession": "0001104659-26-021395",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1022671/000110465926021395/stld-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T18:57:55.085693+00:00"
+ }
+}

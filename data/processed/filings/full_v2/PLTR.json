@@ -1,0 +1,51 @@
+{
+ "ticker": "PLTR",
+ "source_document_id": "0001321655-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we and our peers and competitors are investing more significantly in AI (including machine learning, large language, and other generative and agentic AI models, and software functionality to operationalize the foregoing)",
+    "We spend substantial amounts of time and money researching and developing new technologies and enhanced versions of existing features to meet our customers and potential customers rapidly evolving needs",
+    "In 2023, we began deploying our newest offering, AIP, which is designed for customers across the commercial and government sectors, enabling them to derive value from recent breakthroughs in AI"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AIP provides secure connectivity to third-party-provided LLMs, a development toolchain for building AI-powered agents and automations, an array of AI-enabled end user applications, a broad evaluations framework for governing AI workflows in production",
+    "in March 2024, we were selected by the U.S. Army to develop and deliver the Tactical Intelligence Targeting Access Node ground station system, the Army s first AI-defined vehicle",
+    "A European telecommunications company needed to process personal data for a customer support workflow...The client leveraged Palantir s minimization tool to obfuscate sensitive data in workflows"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms and models may be flawed. Datasets in AI training, development, or operations may be insufficient, of poor quality, reflect unwanted forms of bias, or raise other legal concerns such as concerns regarding copyright protections",
+    "AI, including our use of AI, may create additional cybersecurity risks...threat actors are increasingly using tools and techniques that circumvent controls, evade detection, and remove forensic evidence",
+    "Increased development and use of AI has also led to a strain on energy resources, which could lead to increased expenses or limited availability of resources needed for our business and operations"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount figures, or quantified R&D/capex tied specifically to AI are disclosed in the excerpts; investment language is qualitative only, capping score at 3.",
+  "ai_narrative_concreteness: Named use cases and deployed platforms described with operational detail, but no quantified business results (e.g., revenue attributable to AIP, efficiency metrics) appear in the excerpts, capping score at 4.",
+  "capex_mentions: No specific dollar figures for AI-attributable investment found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001321655-26-000011",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T21:21:01.540434+00:00"
+ }
+}

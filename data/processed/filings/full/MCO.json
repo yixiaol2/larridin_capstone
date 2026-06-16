@@ -1,0 +1,57 @@
+{
+ "ticker": "MCO",
+ "source_document_id": "0001628280-26-009136",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "New products, services, proprietary data and technology capabilities, including Gen AI and Agentic AI offerings, to help customers attain competitive advantage and improve internal productivity",
+    "purchase obligations totaled approximately $650 million...mainly include data center/cloud hosting fees and fees for information technology licensing and maintenance",
+    "We invest in AI powered technologies in order to provide our employees with a world-class experience accessing and managing their benefits"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "MA's curated data and analytics transform information into decision-grade intelligence and power its AI-enabled cloud-based workflow tools, helping customers start business relationships, monitor and manage risk",
+    "The integration of AI and agentic solutions across our platforms, grounded in and informed by our vast proprietary and curated data, enables our customers to increase their efficiency and productivity",
+    "timely and insightful AI-elevated research...we have enhanced our footprint in domestic markets by expanding in Latin American markets"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Large language models, agentic workflows and related AI-technologies licensed by or developed by the Company...may be incomplete or inadequate, our Gen AI or agentic AI products or platforms may result in adverse impacts to our business operations or reputation",
+    "The EU AI Act...could increase the Company's costs and expose it to the risk of penalties over time",
+    "Gen AI has contributed to an increase in the prevalence and sophistication of cyber threats, expanding the Company's exposure to potential breaches and systems disruptions"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "purchase obligations totaled approximately $650 million...mainly include data center/cloud hosting fees and fees for information technology licensing and maintenance",
+   "context": "Multi-year purchase obligations as of December 31, 2025; ~60% payable in next 12 months, ~40% over subsequent two years; not exclusively AI but includes cloud/data center"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: The $650M purchase obligation figure covers all data center/cloud/IT licensing and is not disaggregated for AI specifically; no dedicated AI capex dollar amount is disclosed, preventing a score of 4 or 5.",
+  "ai_narrative_concreteness: Named AI-enabled products (Decision Solutions, KYC workflows, agentic AI) are described as deployed and in production with operating detail, but no quantified business results (%, $, time saved) are provided, capping the score at 4 rather than 5.",
+  "ai_risk_disclosure_depth: Risk-section material is present and extensively discusses AI-specific risks (EU AI Act compliance costs/penalties, LLM/agentic AI product failures, Gen AI-enhanced cyber threats, reputational risk from Gen AI underperformance), with company-specific mechanisms described; however, no quantified risk exposure or named governance/oversight body is disclosed, preventing a score of 5.",
+  "Promotional and aspirational language ('era of exponential risk', 'decision-grade intelligence') is present throughout the business section; evidence of claims rather than confirmed outcomes."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-009136",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1059556/000162828026009136/mco-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 23,
+  "maturity_index": 4.6,
+  "extracted_at": "2026-06-11T18:35:48.214817+00:00"
+ }
+}

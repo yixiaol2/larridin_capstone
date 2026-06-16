@@ -1,0 +1,49 @@
+{
+ "ticker": "DPZ",
+ "source_document_id": "0001193125-26-062321",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We may incorporate traditional and generative AI solutions into our business, and these solutions may become important in our operations over time.",
+    "We may pursue certain of those technologies and consumer offerings if we believe they offer a sustainable customer proposition and can be successfully integrated into our business model."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We may incorporate traditional and generative AI solutions into our business, and these solutions may become important in our operations over time.",
+    "The use of these AI solutions may expose us to additional risks and expenses, including, for example, if we were to incorporate AI technologies which we become dependent on."
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The continued rise in AI technologies may intensify our cybersecurity risks.",
+    "The rapid evolution and continued increased adoption of AI technologies amplifies these concerns.",
+    "social media and the rise of artificial intelligence-generated content has dramatically increased the rate at which negative publicity...can be disseminated before there is any meaningful opportunity to respond."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "All excerpts are from risk_factors section only; no business, MD&A, or capex sections are present, so investment intensity cannot be scored above 2 — no named systems, vendors, dollar amounts, or dedicated AI budgets are disclosed.",
+  "AI narrative is entirely aspirational/conditional ('may incorporate', 'may become important'); no deployed use cases or quantified outcomes are described.",
+  "Risk disclosure names specific risk categories (cybersecurity amplification, reputational harm via AI-generated content, dependency risk, adoption timing risk) but provides no quantification or named governance/oversight bodies, capping score at 3."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-062321",
+  "filing_date": "2026-02-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/1286681/000119312526062321/dpz-20251228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:50:30.072870+00:00"
+ }
+}

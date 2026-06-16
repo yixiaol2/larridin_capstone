@@ -1,0 +1,50 @@
+{
+ "ticker": "CMS",
+ "source_document_id": "0000811156-26-000004",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "the ability to implement and integrate technology successfully, including artificial intelligence",
+    "Rapid expansion of data centers associated with increasing demand for cloud services, artificial intelligence, and other applications could lead to an unprecedented increase in demand for electric power"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "reached an agreement with a new data center expected to add more than 1 GW of incremental load growth in our service territory, supporting long-term sales growth",
+    "Rapid expansion of data centers associated with increasing demand for cloud services, artificial intelligence, and other applications could lead to an unprecedented increase in demand for electric power in MISO"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "changes associated with artificial intelligence technologies and related sectors, including the risk that a significant decline in investor confidence could lead to broader economic disruption, reductions in customer demand, tightening of capital markets, higher financing costs",
+    "even when data center customers enter into contracts to purchase utility service, there is a risk they may not fulfill their contractual or tariff obligations",
+    "Efforts to attract data center developers could be unsuccessful as other utilities and regions compete for these projects, which may limit future load growth"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: CMS Energy is a utility company; AI is discussed primarily as an external demand driver (data centers) and an integration challenge, not as a direct R&D or capital investment target. No AI-attributable dollar amounts or named AI investment programs are disclosed in the excerpts. Score reflects generic statements about integrating AI technology.",
+  "ai_narrative_concreteness: The 1 GW data center agreement is a concrete named initiative but is framed as a customer load event, not an AI deployment by CMS itself. AI use cases internal to CMS operations are not described beyond drone technology (not explicitly AI-labeled) and general integration language.",
+  "ai_risk_disclosure_depth: Risk-section and MD&A material is present. Risks are company-specific with named mechanisms (capital market tightening, demand shortfall, contract non-fulfillment) but no quantification or named governance/oversight bodies for AI risk specifically.",
+  "capex_mentions: No AI-attributable dollar amounts found in the excerpts; the $100M statewide aid and 1 GW data center references are not CMS capex figures tied to AI investment."
+ ],
+ "_meta": {
+  "accession": "0000811156-26-000004",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000004/cms-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-15T20:21:31.625317+00:00"
+ }
+}

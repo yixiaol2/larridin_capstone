@@ -1,0 +1,50 @@
+{
+ "ticker": "VTRS",
+ "source_document_id": "0001792044-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "ML and AI-based solutions, including generative AI, are increasingly being used in the pharmaceutical industry, including by us, and we expect to use other systems and tools that incorporate ML or AI-based technologies in the future.",
+    "Incorporating ML, AI and other emerging technologies into our products, services and operations may result in legal and regulatory risks"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "ML and AI-based solutions, including generative AI, are increasingly being used in the pharmaceutical industry, including by us, and we expect to use other systems and tools that incorporate ML or AI-based technologies in the future.",
+    "uncertainty around return on investment... algorithms may be flawed; data sets may be insufficient, of poor quality or contain biased information"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI tools lower the barrier to access and replication, increasing the likelihood of intellectual property leakage, copyright violations, and regulatory non-compliance.",
+    "ML or AI-based systems may be subject to novel cybersecurity risks, including attempts to manipulate model outputs, poison data, or extract sensitive information, which could compromise the confidentiality, integrity, or availability of our systems.",
+    "Requirements related to validation, documentation, explainability, data lineage, and change control may lengthen implementation timelines, increase costs, or trigger regulatory scrutiny, audit findings, or enforcement actions."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or named AI programs disclosed in the excerpts; investment intensity scored 2 based on generic adoption statements only.",
+  "AI narrative concreteness is limited to aspirational/risk-framing language with no named deployed use cases or metrics; scored 2.",
+  "Risk disclosure is detailed and company-specific with named mechanisms (hallucinations, data poisoning, IP leakage, regulatory validation requirements) but no quantified risk exposure or named governance body beyond a general board oversight reference, supporting score 4 rather than 5.",
+  "Excerpts are pre-filtered; additional AI investment or use-case detail may exist elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0001792044-26-000013",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1792044/000179204426000013/vtrs-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-15T21:44:22.535386+00:00"
+ }
+}

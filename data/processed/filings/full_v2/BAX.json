@@ -1,0 +1,49 @@
+{
+ "ticker": "BAX",
+ "source_document_id": "0001628280-26-007733",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "thoughtful exploration of artificial intelligence initiatives",
+    "We use both internally developed and third party-provided AI and machine learning (ML) technologies to support our functions and operations (including Generative AI tools) and anticipate integrating such technology in select products and services"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We use both internally developed and third party-provided AI and machine learning (ML) technologies to support our functions and operations (including Generative AI tools)",
+    "anticipate integrating such technology in select products and services in the future (consistent with our internal AI-related governance procedures and policies)"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "adversarial use of AI also poses unique challenges and may impact real-time detection capabilities and containment efforts",
+    "We may not be able to successfully develop, integrate or deploy AI technologies in our products and services, or we may face delays, increased costs or technical difficulties",
+    "failure to comply with applicable security, AI, and privacy laws, regulations and standards could lead to substantial and material regulatory fines and penalties, business disruption, reputational harm, financial loss"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 (named but unquantified).",
+  "AI use cases are named at a category level (internal operations, Generative AI tools, select products) but no deployment metrics or quantified outcomes are disclosed; concreteness capped at 3.",
+  "Risk disclosure is company-specific with named mechanisms (regulatory, cybersecurity, deployment delays, data protection) but no quantified risk exposure or formal named risk-oversight body beyond Board/Audit Committee oversight of AI; scored 4."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-007733",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/10456/000162828026007733/bax-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:15:52.508179+00:00"
+ }
+}

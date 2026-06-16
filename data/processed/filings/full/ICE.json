@@ -1,0 +1,52 @@
+{
+ "ticker": "ICE",
+ "source_document_id": "0001571949-26-000004",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We also expect to continue to invest in mortgage technology, including through artificial intelligence, to streamline and automate more workflows and build new capabilities.",
+    "We employ a significant number of employees in technology-related activities, including product management, system architecture, software development, artificial intelligence, data center engineering",
+    "continued strategic investments in our data center infrastructure"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Analyzer revenues...streamlining data collection and validation through our automated document recognition and data extraction capabilities. Analyzer revenues can be both recurring and transaction-based",
+    "ICE Mortgage Technology's Data Document Automation and Mortgage Analyzer solutions...offers customers greater efficiency by streamlining data collection and validation",
+    "We are leveraging artificial intelligence to further our efforts to enable automation for our customers by building tools that drive efficiency and deliver enhanced analytical insights."
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "artificial intelligence may allow for the commoditization of certain data pricing products...clients may use artificial intelligence to develop in-house pricing capabilities, which could reduce demand for our evaluated pricing services",
+    "Our artificial intelligence-related product initiatives...may give rise to risks related to accuracy, transparency, bias, discrimination, intellectual property infringement, misappropriation or leakage, defamation, data privacy and cybersecurity",
+    "cyberattacks have become more frequent and increasingly sophisticated as malicious actors seek to deploy artificial intelligence, quantum computing or other emerging technologies in their efforts"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or headcount figures found in excerpts; investment intensity scored 3 based on named initiatives and dedicated AI staffing without dollar amounts.",
+  "Narrative concreteness scored 4 based on named deployed products (Analyzer, DDA) with operating detail and revenue growth mentions, but no explicit quantified AI-attributable business results (e.g., % efficiency gain, cost savings) were disclosed.",
+  "Data center lease costs ($31M in 2025) are mentioned but not attributed specifically to AI workloads.",
+  "No AI-specific governance bodies or quantified risk treatments found; risk disclosure scored 4 for company-specific risk mechanisms rather than 5."
+ ],
+ "_meta": {
+  "accession": "0001571949-26-000004",
+  "filing_date": "2026-02-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1571949/000157194926000004/ice-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:18:56.657170+00:00"
+ }
+}

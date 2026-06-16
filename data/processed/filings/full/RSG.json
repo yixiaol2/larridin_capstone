@@ -1,0 +1,51 @@
+{
+ "ticker": "RSG",
+ "source_document_id": "0001060391-26-000094",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have made substantial investment in our e-commerce platform",
+    "AI and machine learning tools that we deploy or that are embedded in systems provided by third parties",
+    "costs associated with developing or investing in emerging technologies, particularly data-intensive and compute-intensive AI applications, could require substantial capital"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "AI and machine learning tools that we deploy or that are embedded in systems provided by third parties",
+    "Assessing and securing artificial intelligence (AI) enabled services and technologies",
+    "driver-supported automation, rear cameras, in-cab backup alarms and event recording systems, and we take a data-driven approach"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI models and tools can produce inaccurate, biased, or inconsistent outputs and may rely on third-party content or training data for which we do not have sufficient rights",
+    "costs associated with developing or investing in emerging technologies, particularly data-intensive and compute-intensive AI applications, could require substantial capital and adversely affect our results of operations",
+    "if a competitor obtains exclusive rights to an emerging technology that disrupts the current methods used in the environmental services industry"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no quantified dollar amounts or headcount figures tied specifically to AI investment disclosed in excerpts; 'substantial investment' language is qualitative only",
+  "ai_narrative_concreteness: AI use cases named (ML tools, AI-enabled services, fleet automation) but no deployment metrics or quantified outcomes provided; fleet automation described as ~79% residential route conversion but not explicitly linked to AI",
+  "ai_risk_disclosure_depth: risk scenarios include revenue/operations/compliance impact mechanisms and named risk categories, but no quantified risk figures or named governance oversight bodies specifically for AI beyond cybersecurity program references"
+ ],
+ "_meta": {
+  "accession": "0001060391-26-000094",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1060391/000106039126000094/rsg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T18:51:41.448346+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "ELV",
+ "source_document_id": "0001156039-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are making investments in certain AI tools and solutions to enhance our operations and positively impact the experience of our members, and we continue to explore further innovation using AI",
+    "development of new systems, including systems powered by or incorporating AI and machine learning (including generative AI), to keep pace with continuing changes in information processing technology",
+    "a focus on the responsible adoption and use of AI and other technologies... we invested a significant amount in human capital development"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "tools and products that leverage AI to improve the customer experience",
+    "we are making investments in certain AI tools and solutions to enhance our operations and positively impact the experience of our members",
+    "We have developed and implemented policies and procedures intended to promote and sustain responsible design, development and use of AI"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our AI-related efforts may give rise to risks related to accuracy, harmful bias, discrimination, intellectual property infringement, data privacy, and cybersecurity, among others",
+    "Any inadequacy in or failure to comply with our responsible use of AI policies and procedures or emerging laws, regulations and standards governing AI use could cause our technology not to operate as intended",
+    "our Responsible Artificial Intelligence (RAI) Program, led by our Chief Digital and Information Officer"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific capex figures tied to AI investment appear in the excerpts; investment intensity capped at 3 due to absence of quantified scale",
+  "AI use cases named (member experience, operations enhancement) but no deployment metrics or quantified outcomes disclosed; concreteness capped at 3",
+  "Risk disclosure includes named risk categories and some mechanism detail (how failures affect revenue/operations/compliance) and a named governance body (RAI Program), supporting score 4, but no quantified risk exposure or formal risk quantification program described"
+ ],
+ "_meta": {
+  "accession": "0001156039-26-000013",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000013/elv-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:39:13.357772+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "L",
+ "source_document_id": "0000060086-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "more insurers are utilizing or may begin utilizing big data analytics or artificial intelligence (AI) to make underwriting or other decisions that impact product design and pricing",
+    "When new technologies, such as AI, are incorporated into CNA s or its third-party service providers processes, they may introduce additional complexity"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "If such utilization by CNA s industry peers is more effective than how it uses its data and information, including through its own use of AI, CNA will be at a competitive disadvantage",
+    "the increasing use of AI, within CNA s systems and those of its vendors and third-party administrators to achieve operational efficiencies"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "generative AI systems may hallucinate producing inaccurate or misleading information, and model performance may degrade over time, leading to flawed recommendations",
+    "AI models may perpetuate or amplify biases present in underlying data, which could result in discriminatory or unfair outcomes in areas such as underwriting and claims",
+    "potential for employees or third-party service providers, through intentional or inadvertent actions, to enable AI models to be trained on CNA s data or its insureds data introduces risks of unauthorized use"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or dedicated AI budget disclosed in the excerpts; investment intensity scored 2 based on generic competitive framing only.",
+  "AI narrative concreteness is aspirational/risk-framed throughout; no named deployed AI initiatives or production metrics found in excerpts.",
+  "Risk disclosure depth is high and company-specific with named mechanisms (hallucination, bias, data privacy, fraud), but no quantified risk figures or named governance bodies appear in these excerpts, limiting score to 4 rather than 5.",
+  "Boardwalk Pipelines references to AI data centers as demand drivers are market-context observations, not investment commitments by Loews/Boardwalk itself."
+ ],
+ "_meta": {
+  "accession": "0000060086-26-000008",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/60086/000006008626000008/l-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 1.0,
+  "extracted_at": "2026-06-11T18:27:36.756276+00:00"
+ }
+}

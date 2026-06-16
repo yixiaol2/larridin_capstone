@@ -1,0 +1,49 @@
+{
+ "ticker": "TMO",
+ "source_document_id": "0000097745-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Our growth strategy includes significant investment in and expenditures for product and service development... timely, responsible and effective adoption of emerging technologies (such as AI)",
+    "we are incorporating AI and machine learning technologies into our products, services and internal processes"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we are incorporating AI and machine learning technologies into our products, services and internal processes",
+    "technical performance and advances in technology (including artificial intelligence) that result in new products and services"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Improper or unauthorized use of AI by our employees or third parties... could create additional risks, including exposure of confidential information, errors in output, or the generation of inaccurate, misleading or biased results",
+    "The integration of AI, including generative AI, into our products, services or internal operations may expose us to increased risks of intellectual property infringement or misappropriation",
+    "Failure to keep pace with rapid developments in AI technologies could adversely affect our competitive position and results of operations"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/cloud/chip partnerships disclosed in the excerpts; language is generic and aspirational regarding AI investment.",
+  "ai_narrative_concreteness: Named use cases (products, services, internal processes) are mentioned but no deployment status metrics or quantified results are provided; score reflects named initiatives without operational detail.",
+  "ai_risk_disclosure_depth: Risk-section material is present (business section contains risk factor language); multiple company-specific risk mechanisms are described (IP infringement, misuse by employees/third parties, competitive obsolescence, cybersecurity amplification by AI) with operational impact pathways, but no quantification or named governance/oversight bodies are disclosed."
+ ],
+ "_meta": {
+  "accession": "0000097745-26-000018",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000018/tmo-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T19:02:37.522608+00:00"
+ }
+}

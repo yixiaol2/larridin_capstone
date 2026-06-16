@@ -1,0 +1,49 @@
+{
+ "ticker": "AIG",
+ "source_document_id": "0000005272-26-000023",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We use artificial intelligence (AI) in our business, including applying generative AI to certain aspects of the underwriting and claims processes in certain lines of business",
+    "our ability to effectively implement technological advancements, including the use of artificial intelligence (AI), and respond to competitors' AI and other technology initiatives"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "applying generative AI to certain aspects of the underwriting and claims processes in certain lines of business",
+    "Technological advancements and innovation are occurring in distribution, underwriting, recordkeeping, advisory, marketing, claims and operations at a rapid pace"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "risks include the misuse...of personal data or other sensitive...information, flaws in our or third-party models or training datasets resulting in biased, inaccurate or unanticipated outcomes",
+    "We cannot predict what, if any, regulatory actions will be taken with regard to the use of AI in our business, but any limitations may have a material impact on our underwriting and claims processes",
+    "Cyber threats are constantly evolving...including the use of emerging technologies, such as advancing forms of artificial intelligence and quantum computing by nation state threat actors and criminal organizations"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI capex, headcount, or budget figures appear in the excerpts; investment intensity scored 2 based on named use cases without disclosed scale or spend.",
+  "AI narrative concreteness scored 3 because generative AI use in underwriting and claims is named but no deployment metrics or quantified outcomes are disclosed.",
+  "Risk disclosure is detailed and company-specific (model bias, regulatory impact on underwriting/claims, cybersecurity via AI-enabled threats) warranting score 4, but no quantified risk figures or named governance bodies appear, precluding score 5."
+ ],
+ "_meta": {
+  "accession": "0000005272-26-000023",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/5272/000000527226000023/aig-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:21:56.640084+00:00"
+ }
+}

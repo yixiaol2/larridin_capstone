@@ -1,0 +1,49 @@
+{
+ "ticker": "MOH",
+ "source_document_id": "0001179929-26-000005",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are making appreciable investments in deploying artificial intelligence (AI) tools to enhance effectiveness and create efficiency",
+    "We continue to invest in advanced technologies, including AI, to enhance operational efficiency, improve member experience, and support clinical functions"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "technologies are increasingly integrated into our information systems and digital platforms to automate administrative processes, streamline claims adjudication, and personalize member engagement",
+    "Our use of AI is governed by internal oversight mechanisms designed to ensure we have clear insight into AI usage throughout our business and to ensure responsible and ethical deployment"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our AI-related efforts may give rise to risks related to accuracy, bias, discrimination, intellectual property rights and infringement, data privacy, and cybersecurity, among others",
+    "California Privacy Protection Agency's new regulations under the CCPA regarding the use of automated decision-making went into effect on January 1, 2026",
+    "any integration of artificial intelligence in our or any service providers operations, products or services is expected to pose new or unknown cybersecurity risks and challenges"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no dollar amounts, headcount figures, or quantified AI-attributable spend disclosed in excerpts; 'appreciable investments' is qualitative only, capping score at 3",
+  "ai_narrative_concreteness: use cases named and described as deployed/in production (claims adjudication, member engagement, administrative automation) but no quantified business results (%, $, time saved) disclosed, capping score at 4",
+  "capex_mentions: no specific dollar figures tied to AI investment found in excerpts"
+ ],
+ "_meta": {
+  "accession": "0001179929-26-000005",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/1179929/000117992926000005/moh-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T21:12:42.113677+00:00"
+ }
+}

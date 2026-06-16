@@ -1,0 +1,51 @@
+{
+ "ticker": "HIG",
+ "source_document_id": "0000874766-26-000012",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Accelerating artificial intelligence enablement and responsibly leveraging data, analytics, and digital capabilities to deliver smarter, faster outcomes across the businesses",
+    "continuing to invest in its underwriting systems and capabilities...expanding its use of data analytics, artificial intelligence capabilities and third party data to make expert risk selection and pricing decisions",
+    "The Company seeks to drive greater efficiency, shorten the quoting process and improve the customer's experience through expanded use of digital and artificial intelligence capabilities"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Through its industry-leading ICON quoting tool, The Hartford quotes over 75% of new business policies from admitted markets without human intervention",
+    "Emerging artificial intelligence-enabled capabilities are raising customer and distributor expectations for speed and automation and may further reshape how small business customers shop for coverage",
+    "expanding its use of data analytics, artificial intelligence capabilities and third party data to make expert risk selection and pricing decisions"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Use of artificial intelligence by us or by such third parties could also result in inadvertent disclosure of our confidential information...could result in legal liability, regulatory action and reputational harm",
+    "The NAIC adopted a Model Bulletin on the Use of Artificial Intelligence Systems by Insurers. About 25 states have adopted some form of the Model Bulletin...any inquiries and/or limitations could have a material impact on our business",
+    "increased regulatory scrutiny of the use of emerging technologies related to artificial intelligence, including machine learning, predictive analytics...potential for unfair discrimination or unintended bias arising from such use"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied to AI investment were found in the excerpts; investment intensity scored 3 (named but unquantified).",
+  "AI narrative concreteness is supported by one operational metric (75% of policies quoted without human intervention via ICON tool) but lacks broader quantified business outcome data.",
+  "Risk disclosure scored 4 based on named mechanisms (regulatory, data privacy, competitive disadvantage) and governance body (Executive Artificial Intelligence Governance Council) but no quantified risk exposure or formal mitigation program metrics were disclosed in excerpts."
+ ],
+ "_meta": {
+  "accession": "0000874766-26-000012",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/874766/000087476626000012/hig-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T20:52:12.525752+00:00"
+ }
+}

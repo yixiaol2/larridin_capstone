@@ -1,0 +1,43 @@
+{
+ "ticker": "CAH",
+ "source_document_id": "0000721371-25-000079",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "systems powered by or incorporating artificial intelligence and machine learning, our operations could be impacted, and we may be at a competitive disadvantage",
+    "AI-powered cyber-attacks such as deep fakes and force attacks continues to increase",
+    "initiatives related to artificial intelligence and machine learning, are not successfully or efficiently implemented or maintained...we could experience negative impacts on our business, financial results"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity not scorable: excerpts contain only risk-factor sections with no disclosure of AI capex, budgets, named vendors, or infrastructure commitments",
+  "ai_narrative_concreteness not scorable: excerpts are exclusively from risk factors; no use-case, deployment, or initiative description is provided — only risk references to AI/ML",
+  "ai_risk_disclosure_depth scored 3: risk factors name specific risk categories (data integrity, AI-powered cyberattacks, ERP/AI implementation failure) tied to company operations, but no quantified risk scenarios or named governance bodies are disclosed in these excerpts"
+ ],
+ "_meta": {
+  "accession": "0000721371-25-000079",
+  "filing_date": "2025-08-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-11T17:36:35.447602+00:00"
+ }
+}

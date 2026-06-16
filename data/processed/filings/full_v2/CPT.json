@@ -1,0 +1,46 @@
+{
+ "ticker": "CPT",
+ "source_document_id": "0001628280-26-007697",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "As we have incorporated and may continue to incorporate the use of generative artificial intelligence and other advancing technologies"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "As we have incorporated and may continue to incorporate the use of generative artificial intelligence and other advancing technologies"
+   ],
+   "confidence": 0.5
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "any breach, interruption, or security failure of those technologies, or any non-compliance with applicable laws, could have a negative impact on our business operations, results of operations, financial condition, or reputation",
+    "Information security risks have escalated as a result of these emerging technologies and the heightened sophistication and activity levels of cyber-attack perpetrators"
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts are limited to a single risk-factor passage; no AI investment amounts, named programs, or deployment details are disclosed, making investment intensity and narrative concreteness scores tentative and likely understated relative to the full filing.",
+  "AI use is described in aspirational/conditional language ('may continue to incorporate'), limiting concreteness scoring.",
+  "Risk disclosure names categories (cybersecurity, regulatory non-compliance) specific to AI adoption but lacks quantification or named governance bodies, capping the risk score at 3."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-007697",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/906345/000162828026007697/cpt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:22:33.653557+00:00"
+ }
+}

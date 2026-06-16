@@ -1,0 +1,51 @@
+{
+ "ticker": "TYL",
+ "source_document_id": "0000860731-26-000016",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "increased investments in a number of new Tyler product development initiatives across our product suites including investments in artificial intelligence",
+    "we are prioritizing a measured approach based on known best practices, the investments required, the need for specialized skills and expertise",
+    "Research and development expense increased 73% in 2025 compared to the prior period, with the majority of the increase due the redeployment of resources to research and development"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "As we assess the challenges and opportunities of incorporating AI technologies into our products and services, we may fail to enhance our offerings in alignment with market demands",
+    "we are prioritizing a measured approach based on known best practices",
+    "actively monitor developments in AI regulation and ethical standards as we expect that future changes in the regulatory landscape may affect our product development timelines"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the evolving use of artificial intelligence increases the risk of cyberattacks and data breaches, which themselves can evolve more rapidly when artificial intelligence is used to facilitate the attack",
+    "Use of artificial intelligence by our team members, whether authorized or unauthorized, could increase the risk that our intellectual property and other proprietary information may be unintentionally disclosed",
+    "To the extent a third-party relies on artificial intelligence, improper processing of data by those service providers could harm our reputation, business and clients, or expose us to legal liability"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: R&D increase of 73% is disclosed but AI is only one of several named drivers; no AI-specific dollar amount or dedicated AI budget is isolated, preventing a score of 4 or 5.",
+  "ai_narrative_concreteness: No named AI product initiatives, deployed use cases, or quantified outcomes are described in the excerpts; language is predominantly aspirational and risk-oriented, warranting a score of 2.",
+  "capex_mentions: No dollar or quantity figures specifically tied to AI or compute infrastructure appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000860731-26-000016",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000016/tyl-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T19:04:49.618800+00:00"
+ }
+}

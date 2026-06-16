@@ -1,0 +1,50 @@
+{
+ "ticker": "CBOE",
+ "source_document_id": "0001628280-26-010013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We are currently utilizing certain technologies, such as artificial intelligence (AI) and the cloud, in limited capacities, including using AI to improve internal processes such as code development, documentation, and operational efficiency",
+    "we continue to explore the potential use of other new technologies, such as machine learning, blockchain, distributed ledger technology, tokenization, quantum computing"
+   ],
+   "confidence": 0.8
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "utilizing certain technologies, such as artificial intelligence (AI) and the cloud, in limited capacities, including using AI to improve internal processes such as code development, documentation, and operational efficiency",
+    "we continue to explore the potential use of other new technologies, such as machine learning...to potentially help drive new products, increase productivity, improve our self-regulatory oversight responsibilities"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "cyber threats and the techniques used in cyberattacks change, develop and evolve rapidly, including from emerging technologies, such as advanced forms of artificial intelligence (AI) and quantum computing",
+    "Our hybrid work environment, usage of mobile, AI and cloud-based technologies, and ongoing divestitures and wind downs may increase our risk for a cybersecurity incident",
+    "new or existing competitors may...develop and incorporate more quickly new technologies, such as AI, machine learning, blockchain, atomic settlement, distributed ledger technology, quantum computing"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 2 due to named but limited and exploratory AI use with no scale disclosed.",
+  "AI narrative concreteness scored 3 because use cases are named (code development, documentation, operational efficiency) but no deployment metrics or quantified outcomes are provided.",
+  "Risk disclosure covers named categories (cybersecurity, competitive risk from AI) but does not include quantified risk scenarios or named governance bodies, capping score at 3.",
+  "Technology support services cost increases mention cloud services but do not specifically attribute spend to AI, so no capex_mentions recorded."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-010013",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1374310/000162828026010013/cboe-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T20:23:58.071134+00:00"
+ }
+}

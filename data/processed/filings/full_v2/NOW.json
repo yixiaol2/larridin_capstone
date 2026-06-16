@@ -1,0 +1,52 @@
+{
+ "ticker": "NOW",
+ "source_document_id": "0001373715-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-29",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have made, and expect to continue to make, significant investments in research and development to expand our Platform capabilities... advance mobile, automation, AI and machine intelligence technologies.",
+    "We deploy our engineers to work directly with strategic customers through our Now Next AI program, where we co-build agentic AI solutions to solve their critical challenges.",
+    "With the emergence of artificial intelligence... they are prioritizing the digitalization and modernization of their workflows through AI-powered automation."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 5,
+   "evidence": [
+    "A global energy company implemented... ITOM, ITSM, and RM, along with Now Assist, to consolidate multiple employee portals into a single AI-powered portal serving over 50,000 employees in more than 10 languages. The solution saved the customer thousands of working hours.",
+    "Now Assist and AI agents for ITSM can help automate incident triage, generate summaries and provide intelligent resolution recommendations. These tools reduce routine work for IT staff.",
+    "Now Assist for Creator includes various natural language AI capabilities, including text-to-code, text-to-flow, text-to-service catalog and text-to-app."
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Incorporating AI technology into our offerings may result in operational, legal, regulatory, ethical and other challenges.",
+    "Governments have adopted, and likely will continue to adopt, laws and regulations affecting... the use of machine learning and AI, and data sovereignty or residency requirements.",
+    "A failure to innovate and adapt how we offer our products in response to rapidly evolving technological changes and in the midst of an intensely competitive market may harm our competitive position."
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts for AI-specific R&D or capex were found in the excerpts, limiting ai_investment_intensity to score 3 despite clear named programs and sustained commitment language.",
+  "The energy company customer example provides quantified outcomes ('thousands of working hours' saved, '50,000 employees') but is somewhat vague; scored 5 given it is a deployed use case with quantified results.",
+  "Risk disclosure excerpts are present but truncated; the full risk-factors section may contain more specific AI risk mechanisms or governance disclosures not visible in these excerpts, potentially warranting a score of 5.",
+  "Some AI narrative language is promotional ('our ambition to become the defining AI enterprise software company of the 21st century'); confidence adjusted accordingly."
+ ],
+ "_meta": {
+  "accession": "0001373715-26-000007",
+  "filing_date": "2026-01-29",
+  "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T21:31:40.357849+00:00"
+ }
+}

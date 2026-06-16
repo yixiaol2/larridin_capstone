@@ -1,0 +1,48 @@
+{
+ "ticker": "EQT",
+ "source_document_id": "0000033213-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "Excerpts mention data center development as a demand source but contain no AI-attributable investment, R&D, capex, or resource commitment by EQT itself. Data centers are referenced as customers, not as AI investments made by EQT."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "The only AI-adjacent reference is 'domestic data center development' listed as a demand source for natural gas. No AI use cases, initiatives, or deployments by EQT are described in the excerpts."
+   ]
+  },
+  "ai_risk_disclosure_depth": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.75,
+   "limitations": [
+    "The [mdna] excerpt contains strategic risk language but no AI-specific risk discussion. No risk-factor-section ([risk_factors]) content appears in the excerpts, so a score of 1 cannot be assigned per scope guard."
+   ]
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts contain no AI investment, AI use-case, or AI risk material attributable to EQT's own operations. 'Data center development' appears only as an external demand category for natural gas, not as an AI initiative by EQT.",
+  "No risk-factor section excerpts were provided; ai_risk_disclosure_depth cannot be scored.",
+  "All three dimensions scored null due to absence of relevant AI disclosure in the provided excerpts."
+ ],
+ "_meta": {
+  "accession": "0000033213-26-000018",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/33213/000003321326000018/eqt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-15T20:37:55.230774+00:00"
+ }
+}

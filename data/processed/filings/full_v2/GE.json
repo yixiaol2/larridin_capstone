@@ -1,0 +1,49 @@
+{
+ "ticker": "GE",
+ "source_document_id": "0000040545-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-29",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "our use of emerging and evolving technologies such as artificial intelligence and machine learning, which we expect to continue to increase over time",
+    "Artificial intelligence technologies are rapidly developing, and our business may be adversely affected if we cannot successfully integrate these technologies into our business processes and product and service offerings"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "our use of emerging and evolving technologies such as artificial intelligence and machine learning, which we expect to continue to increase over time, presents business, reputational and legal and compliance risks",
+    "our business may be adversely affected if we cannot successfully integrate these technologies into our business processes and product and service offerings in a timely, cost-effective, compliant and responsible manner"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "risks related to data sourcing, design flaws, integration issues, security threats, privacy protections and the ability to develop sufficient protection measures",
+    "threat actors increasingly use artificial intelligence and other techniques to circumvent security controls, evade detection and remove forensic evidence",
+    "U.S. and non-U.S. governments have focused and continue to focus on include cybersecurity, data privacy and sovereignty, artificial intelligence, anti-corruption, competition law"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, named AI programs, or dedicated AI headcount/budget figures appear in the excerpts; investment intensity scored 2 based on aspirational/forward-looking language only.",
+  "AI narrative is entirely risk-disclosure and aspirational in nature; no named AI initiatives, deployed use cases, or operational metrics are present in the excerpts.",
+  "Risk disclosure excerpts appear to be from risk-factor sections; named risk categories (data sourcing, design flaws, integration, security, regulatory) are company-relevant but no quantified risk scenarios or named governance bodies are disclosed in these excerpts."
+ ],
+ "_meta": {
+  "accession": "0000040545-26-000008",
+  "filing_date": "2026-01-29",
+  "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/ge-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:47:40.195848+00:00"
+ }
+}

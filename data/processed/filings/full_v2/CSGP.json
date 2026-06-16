@@ -1,0 +1,51 @@
+{
+ "ticker": "CSGP",
+ "source_document_id": "0001057352-26-000020",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We also continue to leverage AI by deeply integrating it into our products and internal processes. AI is driving research efficiencies, improving data quality and increasing the pace of product development.",
+    "We are in varying stages of development in relation to our products and internal business processes involving AI Technologies, and there can be no assurance that our investments in such technologies will achieve the expected benefits.",
+    "We plan to extend the revolutionary capability of Homes AI across the Company's portfolio of leading platforms, including Apartments.com, CoStar, LoopNet, Land.com and BizBuySell.com"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Powered by Homes AI, consumers can find their dream home by engaging in natural, real-time, two-way conversations - by voice or text - to search, refine, and explore homes in an interactive experience.",
+    "Homes AI draws from our unmatched depth of property data, Matterport 3D digital twin technology, images, proprietary school data, neighborhood insights, and market intelligence to deliver bespoke guidance.",
+    "Matterport's 3D digital twins allow users to capture and share spaces in immersive 3D and access AI powered property insights. These services are sold on a subscription basis."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "There is a risk that the generative AI Technologies...could produce inaccurate or misleading content or other discriminatory or unexpected results or behaviors, such as hallucinatory behavior that can generate irrelevant, nonsensical, or factually incorrect results.",
+    "The EU AI Act...established a comprehensive, risk-based governance framework for AI in the EU market...includes requirements around transparency, conformity assessments and monitoring, risk assessments, human oversight, security, accuracy...and fines for breach of up to 7% of worldwide annual turnover.",
+    "Our Board of Directors...has delegated to the Audit Committee oversight of cybersecurity and generative AI risks, controls, and procedures. Our CTO is also responsible for overseeing the material risks and strategic opportunities associated with AI."
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 rather than 4 or 5.",
+  "AI narrative concreteness scored 4 based on named deployed products (Homes AI, Matterport digital twins) with operational detail, but no quantified business results (e.g., revenue lift, time saved) were disclosed in the excerpts.",
+  "Risk disclosure depth scored 4 due to named company-specific risk scenarios with described mechanisms (hallucination risk, EU AI Act compliance with specific fine percentages, governance delegation to Audit Committee/CTO), but no formal quantification of risk exposure or named mitigation programs beyond governance structure."
+ ],
+ "_meta": {
+  "accession": "0001057352-26-000020",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1057352/000105735226000020/csgp-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 24,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:28:09.585475+00:00"
+ }
+}

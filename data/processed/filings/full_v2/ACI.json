@@ -1,0 +1,51 @@
+{
+ "ticker": "ACI",
+ "source_document_id": "0001646972-26-000032",
+ "source_type": "sec_filing",
+ "source_date": "2026-04-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Technology and AI are an important component of our transformation and long-term growth strategy... AI-driven capabilities are helping to modernize the way customers shop",
+    "As part of our investments in an AI-enabled supply chain, we have launched a proprietary forecasting capability we call Gateway to enhance replenishment performance",
+    "modernizing capabilities through technology and AI, and driving transformational productivity"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Our AI-enabled shopping assistant continues to evolve as customer adoption increases",
+    "we have launched a proprietary forecasting capability we call Gateway to enhance replenishment performance and improve efficiency across promotional center store SKUs",
+    "AI-driven capabilities are helping to modernize the way customers shop, delivering increased personalization intended to drive engagement, basket size and loyalty"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "We and our third parties may use artificial intelligence in our business, which could result in competitive and reputational harm, and legal liability, and adversely affect our results of operations",
+    "if the content, analyses, or recommendations that AI applications assist in producing are or are alleged to be deficient, inaccurate, biased, or infringe on existing intellectual property, our business... may be adversely affected",
+    "The emergence of artificial intelligence powered agentic shopping tools... could reduce our visibility into customer behavior, increase margin pressure, and limit our ability to influence purchasing decisions"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Capital expenditures excerpt is truncated mid-sentence; no dollar amount for AI-attributable capex is visible, preventing a score of 4 or 5 on investment intensity",
+  "AI investment intensity scored 3 because named AI programs exist (Gateway, AI shopping assistant) but no quantified spend or headcount is disclosed in the excerpts",
+  "AI risk disclosure scored 4 (company-specific scenarios with mechanisms) rather than 5 because no quantified risk figures or named governance oversight bodies are cited in the excerpts"
+ ],
+ "_meta": {
+  "accession": "0001646972-26-000032",
+  "filing_date": "2026-04-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:06:20.775122+00:00"
+ }
+}

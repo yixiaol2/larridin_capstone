@@ -1,0 +1,49 @@
+{
+ "ticker": "OXY",
+ "source_document_id": "0001628280-26-009059",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "the Company uses advanced technologies, including AI-based tools, to strengthen its defenses and support business operations",
+    "As competitors develop or adopt new technologies (including artificial intelligence), the Company may be placed at a disadvantage and may be required to invest significant resources"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "the Company uses advanced technologies, including AI-based tools, to strengthen its defenses and support business operations",
+    "such measures may not be successful in preventing or mitigating cyber threats"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "growing sophistication of artificial intelligence capabilities, which may improve or expand the existing capabilities of cyber threat actors",
+    "laws and regulations governing cybersecurity and data privacy...pose increasingly complex compliance challenges and potential costs",
+    "any failure to comply with these requirements...could result in significant regulatory penalties or other legal liabilities"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no named AI systems, vendors, partners, dollar amounts, or dedicated AI budgets disclosed in excerpts; only generic reference to 'AI-based tools'",
+  "ai_narrative_concreteness: AI use cases not named beyond defensive/cybersecurity context; no deployment metrics or operational detail provided",
+  "excerpts are limited to risk-factor and item_8 sections; broader business or MD&A sections discussing AI investment or use cases may exist in the full filing but are not visible here"
+ ],
+ "_meta": {
+  "accession": "0001628280-26-009059",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/797468/000162828026009059/oxy-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T18:41:35.109572+00:00"
+ }
+}

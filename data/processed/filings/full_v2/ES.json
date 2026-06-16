@@ -1,0 +1,50 @@
+{
+ "ticker": "ES",
+ "source_document_id": "0001628280-26-008461",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are also focused on making strategic AI investments currently in outage discovery, maintenance management and data analytics to better maintain our system and provide value to our customers.",
+    "We deploy AI tools and models in areas such as weather forecasting, grid planning, asset management, customer service and internal support functions."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We deploy AI tools and models in areas such as weather forecasting, grid planning, asset management, customer service and internal support functions.",
+    "strategic AI investments currently in outage discovery, maintenance management and data analytics to better maintain our system and provide value to our customers.",
+    "Established an Artificial Intelligence Executive Working Committee to ensure a Secure by Design approach to implementations of artificial intelligence."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "AI systems may produce inaccurate, biased or otherwise unreliable forecasts or recommendations due to flawed algorithms, limited training data or unforeseen conditions which could result in service disruptions, regulatory penalties and reputational harm.",
+    "This deployment is overseen by an internal governance and oversight committee, which has established policies and procedures and reviews and approves the use of AI throughout the organization.",
+    "Cyberattacks that seek to exploit potential vulnerabilities in the utility industry...are increasing in sophistication including artificial intelligence, magnitude and frequency."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-attributable spend found in excerpts; AI investment intensity scored 3 (named programs, no quantified scale).",
+  "AI narrative concreteness scored 4 due to named deployed use cases with operational detail, but no quantified business results (e.g., % improvement, cost savings) were disclosed in the excerpts.",
+  "Risk disclosure scored 5 based on named governance body (AI Executive Working Committee), specific risk mechanisms (service disruptions, regulatory penalties, litigation), and described mitigation controls including human oversight and governance framework."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008461",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/72741/000162828026008461/es-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:42:05.696320+00:00"
+ }
+}

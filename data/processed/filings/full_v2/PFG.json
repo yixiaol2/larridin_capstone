@@ -1,0 +1,50 @@
+{
+ "ticker": "PFG",
+ "source_document_id": "0001104659-26-017031",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "In 2025, we implemented enterprise-wide artificial intelligence and data literacy training.",
+    "Ongoing global developments in artificial intelligence (AI) regulations... will continue to increase and require attention and investments"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "rapidly evolving AI capabilities, may lead to significant changes in the marketing, distribution, underwriting and pricing of financial services products",
+    "In 2025, we implemented enterprise-wide artificial intelligence and data literacy training."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Ongoing global developments in artificial intelligence (AI) regulations, such as the EU AI Act, Colorado AI Act, and other AI-related legislation will continue to increase and require attention and investments",
+    "rapidly evolving AI capabilities, may lead to significant changes in the marketing, distribution, underwriting and pricing of financial services products",
+    "To the extent our competitors are more successful than us at adapting to technological changes and evolving customer preferences, our competitive position and profitab[ility]"
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 based on named programs (enterprise AI literacy training) without financial scale.",
+  "AI narrative is largely aspirational and risk-framed; no deployed AI use cases with operational detail or metrics are described in the excerpts.",
+  "Risk section excerpts reference named AI regulatory frameworks (EU AI Act, Colorado AI Act) and competitive/distribution risks, supporting a score of 3, but no quantified risk scenarios or named governance bodies are disclosed in the excerpts.",
+  "Excerpts are pre-filtered; additional AI investment or use-case detail may exist elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0001104659-26-017031",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1126328/000110465926017031/pfg-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:24:11.288352+00:00"
+ }
+}

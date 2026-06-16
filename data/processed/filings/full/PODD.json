@@ -1,0 +1,50 @@
+{
+ "ticker": "PODD",
+ "source_document_id": "0001145197-26-000028",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We develop, license from other developers, and deploy AI tools, including generative AI tools for use in our operations.",
+    "We anticipate being able to capitalize on opportunities using AI tools, including generative AI tools, to improve efficiencies and create more personalized experiences"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "AI systems are currently deployed in our business operations and any additional AI systems to the extent developed or deployed in our business operations or in our products",
+    "We develop, license from other developers, and deploy AI tools, including generative AI tools for use in our operations. Our teams collaborate on the development of responsible AI policies and practices",
+    "we anticipate being able to capitalize on opportunities using AI tools, including generative AI tools, to improve efficiencies and create more personalized experiences"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Risks include potential inappropriate disclosure of personal and confidential information, and potential use of inaccurate information contained in generative AI outputs.",
+    "governmental regulation and laws related to AI and other emerging technologies may increase the burden and cost of research and development or require increased transparency that makes it more difficult to protect our intellectual property.",
+    "we expect that the breadth and complexity of our IT systems and infrastructure will increase as we utilize cloud technologies and AI, which present inherent enterprise technology risks, including those related to privacy, data protection, and cybersecurity"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI spend, headcount, or capex figures appear in the excerpts; investment intensity scored 2 based on generic deployment statements without named vendors, amounts, or dedicated budgets.",
+  "AI use cases described (operations, generative AI tools, personalized experiences) are named but lack deployment metrics or quantified outcomes, capping concreteness at 3.",
+  "Risk disclosure includes company-specific mechanisms (IP protection burden, data disclosure, inaccurate AI outputs, cybersecurity) tied to operational and regulatory impact, supporting score 4; no quantified risk figures or named governance bodies found to support score 5."
+ ],
+ "_meta": {
+  "accession": "0001145197-26-000028",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000028/podd-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T18:18:19.280310+00:00"
+ }
+}

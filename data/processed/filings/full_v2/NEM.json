@@ -1,0 +1,51 @@
+{
+ "ticker": "NEM",
+ "source_document_id": "0001164727-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "In November 2025, we implemented an enterprise-wide Artificial Intelligence Standard that governs AI adoption and use, model lifecycle management, and associated cybersecurity and privacy controls.",
+    "AI is increasingly leveraged by Newmont for decision-making, mineral extraction optimization, and autonomous operations."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI is increasingly leveraged by Newmont for decision-making, mineral extraction optimization, and autonomous operations.",
+    "new technology that could result in greater operational efficiency such as our use of AI, fleet electrification, and autonomous vehicles",
+    "In November 2025, we implemented an enterprise-wide Artificial Intelligence Standard that governs AI adoption and use, model lifecycle management"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI presents unique vulnerabilities, including algorithmic biases that could lead to inaccurate decisions; data integrity risks, such as manipulation or corruption of datasets used to train AI systems; unauthorized access or exploitation of AI-powered systems",
+    "The sophistication of cybersecurity threats, including through the use of AI, continues to increase, and the controls and preventative actions we take...may become insufficient.",
+    "In November 2025, we implemented an enterprise-wide Artificial Intelligence Standard that governs AI adoption and use, model lifecycle management, and associated cybersecurity and privacy controls."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases (mineral extraction optimization, autonomous operations) are named and described as in use but no quantified business results (%, $, time saved) are disclosed, limiting concreteness to 4.",
+  "Risk governance is evidenced by a named enterprise AI Standard and specific risk mechanisms, but no quantified risk exposure or named board oversight body is quoted, limiting risk depth to 4.",
+  "Excerpts are pre-filtered; additional financial or operational AI detail may exist elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0001164727-26-000010",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1164727/000116472726000010/nem-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 2.9,
+  "extracted_at": "2026-06-15T21:16:02.124382+00:00"
+ }
+}

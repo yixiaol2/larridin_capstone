@@ -1,0 +1,60 @@
+{
+ "ticker": "NXPI",
+ "source_document_id": "0001413447-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "NXP closed the previously announced acquisition of 100% of Kinara, Inc. for $284 million in cash ($283 million net of cash acquired). Kinara is an industry leader in high performance, energy-efficient and programmable discrete neural processing units (NPUs).",
+    "we invest in research and development to extend or create leading market positions, with an emphasis on fast growing sizable market segments... to support the successful deployment of AI at the Edge.",
+    "IPCEI ME/CT program seek to innovate in core technologies... This includes 5nm, advanced driving assistance in automotive, 6G... as well as AI, RISC-V and post-quantum cryptography."
+   ],
+   "confidence": 0.85
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Kinara brings high-performance, energy-efficient Discrete Neural Processing Units (NPUs), optimized specifically for generative artificial intelligence (AI) and large language models, to the NXP portfolio.",
+    "Our i.MX 9 series of application processors integrates hardware neural processing units across the entire series for acceleration of machine learning applications at the edge.",
+    "The MCX series also integrates our machine learning neural processing unit for machine learning applications."
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "risks may include (i) adverse impacts from deficient, inaccurate, or biased AI recommendations, (ii) AI technologies the company develops and adopts may not meet market requirements... (iii) use of AI applications could increase the risk of cybersecurity incidents... (iv) uncertainty in the legal and regulatory landscape for AI",
+    "the intellectual property ownership and license rights, including copyrights and patents, surrounding AI technologies... have not been fully addressed by U.S. or foreign courts, laws or regulations, and the use of AI in the development of our products... could result in our loss of, or failure to obtain, intellectual property rights",
+    "as AI continues to evolve, cyber attackers could also use AI to develop malicious code and increasingly sophisticated phishing attempts."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "acquisition of 100% of Kinara, Inc. for $284 million in cash ($283 million net of cash acquired)",
+   "context": "October 2025 acquisition of AI NPU company Kinara to expand AI-powered edge systems portfolio"
+  },
+  {
+   "quote": "Identified intangible assets 254 Goodwill 83 Net assets acquired 284",
+   "context": "Purchase price allocation for Kinara acquisition, majority allocated to AI-related intangible assets"
+  }
+ ],
+ "limitations": [
+  "No multi-year quantified AI R&D budget disclosed; investment intensity score based primarily on the Kinara acquisition amount and named R&D programs rather than total AI capex/R&D figures.",
+  "Narrative concreteness scored 4 rather than 5 due to absence of quantified business results (revenue, units, efficiency metrics) from deployed AI products.",
+  "Risk disclosure is company-specific with named mechanisms but no quantified risk exposure or named governance oversight body, limiting score to 4."
+ ],
+ "_meta": {
+  "accession": "0001413447-26-000008",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000008/nxpi-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 14,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:14:59.300773+00:00"
+ }
+}

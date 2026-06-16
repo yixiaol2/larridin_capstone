@@ -1,0 +1,52 @@
+{
+ "ticker": "CDW",
+ "source_document_id": "0001402057-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we also plan to further invest resources to embed AI capabilities throughout our operations and enterprise to drive scale and efficiency",
+    "AI proficiency and training resources, and coworker access to over 20,000 on-demand educational modules",
+    "the responsible development and deployment of AI requires ongoing investment in research, development and governance"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We enable our customers with AI solutions that empower their end users and drive efficiency in business-critical functions",
+    "Leveraging expertise in cloud-native deployment, DevOps, AI, and automation, we help customers improve business outcomes through scalable and secure technology implementations",
+    "We are increasingly utilizing AI in our business, including interactions with our coworkers, customers, and vendor partners and in the hardware, software, and services we offer"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the development, adoption, and use of AI by us or our vendor partners could result in unintended consequences, including exposing us to additional risks related to cybersecurity, privacy, and data security",
+    "malicious actors could use AI to enhance the sophistication and coordination of their attacks, which could pose significant challenges to our security defenses",
+    "increased use of AI by the Company, third-party outsource partners, or our vendor partners could lead to more frequent intellectual property claims against us"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts, GPU counts, or headcount figures tied to AI investment are disclosed in the excerpts; commitment language is directional only, capping score at 3.",
+  "ai_narrative_concreteness: Named use cases (Digital Experience, Digital Velocity, security integration) are described as deployed/in-production with operating detail, but no quantified business results (%, $, time saved) appear in the excerpts, capping score at 4.",
+  "capex_mentions: No specific dollar or capacity figures for AI/compute investment found in the excerpts.",
+  "Risk-factor sections are present and contain substantive AI risk discussion, enabling scoring of ai_risk_disclosure_depth."
+ ],
+ "_meta": {
+  "accession": "0001402057-26-000011",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000011/cdw-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:34:11.469912+00:00"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "ticker": "CPRT",
+ "source_document_id": "0001628280-25-042946",
+ "source_type": "sec_filing",
+ "source_date": "2025-09-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Co.ai, a proprietary suite of total loss determination and valuation tools that leverage machine learning and computer vision",
+    "IntelliSeller, an automated tool leveraging our vast and detailed vehicle and sales data... Using machine learning, IntelliSeller optimizes the utilization of our vehicle and sales data",
+    "We continue to evaluate emerging technologies like artificial intelligence, machine learning, and generative artificial intelligence for incorporation into our business"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Co.ai... leverage machine learning and computer vision to assist sellers in the vehicle claims evaluation process by providing online salvage value estimates",
+    "IntelliSeller optimizes the utilization of our vehicle and sales data to determine when to establish minimum bid values and suggest when to re-auction a unit",
+    "Total Loss Express 360 and Co.ai tools; title procurement and loan payoff services offered through Title Express"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "if new industry standards and practices emerge such as the increased use of artificial intelligence, machine learning and generative artificial intelligence, our existing websites and proprietary technology... may become obsolete",
+    "Such technologies present unique business opportunities along with ever-changing legal and regulatory risks. Both state and federal regulations relating to these emerging technologies are quickly and constantly evolving",
+    "Our failure to accurately identify and address our responsibilities and liabilities in this new environment could negatively affect any solutions we"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex, headcount, or budget figures appear in the excerpts; investment intensity scored 3 based on named proprietary AI systems without disclosed spend.",
+  "ai_narrative_concreteness scored 4 for named deployed tools with operational detail, but no quantified business results (e.g., % accuracy, time saved, volume processed) are present in the excerpts.",
+  "Risk disclosure includes named risk categories (regulatory/legal, obsolescence, vendor/technology adoption) but lacks quantified risk scenarios or named governance bodies, capping score at 3.",
+  "Excerpts are pre-filtered; additional capex or risk disclosures may exist elsewhere in the full filing."
+ ],
+ "_meta": {
+  "accession": "0001628280-25-042946",
+  "filing_date": "2025-09-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/900075/000162828025042946/cprt-20250731.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T17:44:00.346108+00:00"
+ }
+}

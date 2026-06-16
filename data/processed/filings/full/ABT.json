@@ -1,0 +1,48 @@
+{
+ "ticker": "ABT",
+ "source_document_id": "0001628280-26-010185",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "informatics and automation solutions for use in various care settings, including laboratory automation systems such as the GLP systems Track, AlinIQ, a suite of informatics tools and professional services",
+    "informatics solutions to help optimize diagnostic laboratory performance and automation solutions to increase efficiency in laboratories"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "informatics solutions to help optimize diagnostic laboratory performance and automation solutions to increase efficiency in laboratories",
+    "AlinIQ, a suite of informatics tools and professional services, the Indexor system for pre-analytics sample traceability, and the RALS point-of-care solution"
+   ],
+   "confidence": 0.55
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the development of new technologies, including disruptive technologies such as artificial intelligence, healthcare products and medicines...could significantly change the competitive landscape of the healthcare industry and negatively impact the demand for certain Abbott products"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No named AI-specific systems, vendors, dollar amounts, or dedicated AI budgets disclosed in excerpts; informatics/automation references are generic and not explicitly labeled as AI-driven.",
+  "ai_narrative_concreteness: Named informatics products (AlinIQ, RALS, Indexor) are described but not explicitly linked to AI/ML; no deployment metrics or quantified outcomes provided.",
+  "ai_risk_disclosure_depth: Risk-section material is present and references AI as a competitive/disruptive technology risk, but the mechanism is described at a category level (competitive landscape impact) without company-specific quantification or named governance/mitigation programs.",
+  "Excerpts are limited and may not capture the full scope of AI disclosures in the complete filing."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-010185",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1800/000162828026010185/abt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T17:17:14.116593+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "MET",
+ "source_document_id": "0001099219-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Larger companies also tend to have the capacity to invest in AI, analytics, distribution, and information technology to drive growth and efficiency",
+    "Our digitally enabled MyLearning platform offers personalized recommendations with AI-driven focus skills helping employees target their development needs"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Our digitally enabled MyLearning platform offers personalized recommendations with AI-driven focus skills helping employees target their development needs",
+    "the growth and availability of AI technologies, including generative AI, presents significant opportunities but also complex challenges"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "balancing and mitigating potential risks of harm posed by the development or deployment of AI technologies, as well as implementing and maintaining controls reasonably designed to ensure compliance with an increasingly complex AI regulatory landscape",
+    "the EU AI Act prohibits certain unacceptable AI practices while seeking to boost innovation and ensure fundamental rights are not infringed by the technology",
+    "Governments may change regulation of financial services, insurance... cybersecurity, AI, privacy and data protection... Any of these changes may ha[rm us]"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or program budgets appear in the excerpts; investment intensity scored 2 based on generic competitive framing only.",
+  "AI use cases are limited to one named internal tool (MyLearning); no deployed customer-facing AI use cases with metrics are described, capping concreteness at 3.",
+  "Risk disclosure references specific mechanisms (regulatory compliance costs, competitive harm, stranded assets, EU AI Act) and mitigation framing, supporting score 4, but no named oversight body or quantified risk exposure is cited in these excerpts.",
+  "Promotional language present in talent/learning section; treated as a claim, not a confirmed outcome."
+ ],
+ "_meta": {
+  "accession": "0001099219-26-000013",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1099219/000109921926000013/met-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-15T21:10:39.048574+00:00"
+ }
+}

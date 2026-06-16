@@ -1,0 +1,49 @@
+{
+ "ticker": "CLX",
+ "source_document_id": "0000021076-25-000039",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-08",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "the Company s success may increasingly become dependent on its ability to adopt and effectively leverage this emerging technology, it may not be able to do so in an effective manner",
+    "competitors may be able to... adopt new technology, such as artificial intelligence and machine learning, more quickly and successfully"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "the legal, regulatory and ethical landscape around the use of artificial intelligence and machine learning is rapidly evolving",
+    "the use of generative artificial intelligence tools may compromise confidential or sensitive information, put the Company s intellectual property at risk"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "use of generative artificial intelligence tools may compromise confidential or sensitive information, put the Company s intellectual property at risk, or subject the Company to claims of intellectual property infringement",
+    "rapid evolution and increased adoption of emerging technologies, such as artificial intelligence, may also increase the frequency and magnitude of cyberattacks on the Company and amplify its cybersecurity risks",
+    "technology could also prove to be... false, biased, or inconsistent with the Company s values and strategies, which could lead to operational disruptions, flawed decision-making, increased costs, or reputational harm"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No named AI systems, vendors, partners, dedicated budgets, or quantified spend disclosed; language is entirely aspirational/competitive-framing with no evidence of active investment programs.",
+  "ai_narrative_concreteness: No named AI initiatives or deployed use cases described; all AI references are risk-oriented or competitive-context framing rather than operational deployment detail.",
+  "ai_risk_disclosure_depth: Excerpts are from the [business] section which contains risk-factor-style language; specific mechanisms disclosed (IP infringement, cybersecurity amplification, operational disruptions, flawed decision-making) justify score 4, though no quantification or named governance bodies are present."
+ ],
+ "_meta": {
+  "accession": "0000021076-25-000039",
+  "filing_date": "2025-08-08",
+  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107625000039/clx-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T17:41:38.966454+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "REGN",
+ "source_document_id": "0000872589-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-04",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are increasingly utilizing artificial intelligence ('AI')-based solutions in various facets of our operations and continue to explore further use cases for AI.",
+    "RGC utilizes laboratory automation and innovative approaches to cloud computing to achieve high-quality throughput, attaining over 3 million samples sequenced to date."
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We are increasingly utilizing artificial intelligence ('AI')-based solutions in various facets of our operations and continue to explore further use cases for AI.",
+    "RGC entered into an agreement with Truveta Inc. pursuant to which RGC will sequence exomes and conduct genotyping and imputation of up to ten million de-identified consented volunteers."
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The misuse of AI solutions in contravention of our internal policies, data protection laws, other applicable laws, or contractual requirements may give rise to liability, lead to the loss of trade secrets or other intellectual property.",
+    "The misuse of AI solutions could also result in unauthorized access and use of personal data of our employees, clinical trial participants, collaborators, or other third parties.",
+    "New regulations have recently passed or have been proposed to ensure the ethical use, privacy, and security of AI solutions and the data processed thereby."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 based on named programs and partnerships without financial scale.",
+  "AI use cases are named (drug discovery, genomics, operations) but deployment status and quantified outcomes are absent from the excerpts; concreteness capped at 3.",
+  "Risk disclosure describes specific mechanisms (data breach, regulatory liability, IP loss, bias) tied to AI misuse, warranting score 4, but no quantified risk exposure or named governance body is present to reach score 5.",
+  "Excerpts are pre-filtered; additional AI investment or use-case detail may exist elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0000872589-26-000008",
+  "filing_date": "2026-02-04",
+  "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000008/regn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:27:39.203936+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "HWM",
+ "source_document_id": "0000004281-26-000012",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "capital expenditures of $453 primarily related to Engine Products capacity expansion, various automation projects, and sustaining and return seeking capital projects across all segments",
+    "Howmet intends to continue to develop innovative new products and services, and implement advanced technologies, including through the use of AI"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "New technology that increases the automation of job postings enables us to more widely disseminate our job vacancies to various partners and job boards",
+    "Howmet s competitive position and future performance depend, in part, on the Company s ability to...deploy technology initiatives, and implement advanced manufacturing technologies, including through the use of new and evolving technologies, including AI"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Unauthorized use or misuse of AI by the Company's employees, vendors or others may result in the disclosure of confidential Company or customer data, reputational harm, privacy law violations, cybersecurity risks, and legal liability",
+    "unauthorized use, misuse or increased use of AI may increase the risk of a loss of intellectual property, including, for instance, if an employee inputs confidential information, such as trade secrets, into AI or machine learning technologies",
+    "laws and regulations focused on the development, use and provision of certain new technologies, such as AI (including generative AI) technologies...may impose certain obligations on Howmet, may limit how we use these technologies and could result in reputational damage, monetary penalties"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: capex figures ($453M in 2025, $321M in 2024) are attributed to automation projects and capacity expansion broadly, but no portion is explicitly quantified as AI-specific spend; automation is not equated to AI in the text",
+  "ai_narrative_concreteness: AI use cases are described only aspirationally or in risk context; no named AI initiatives are described as deployed in production with operating detail",
+  "ai_risk_disclosure_depth: risk-section material is present and discusses AI risks with company-specific mechanisms (IP loss, employee misuse, regulatory compliance, competitive disadvantage), warranting score 4; no quantified risk exposure or named governance body is disclosed, precluding score 5"
+ ],
+ "_meta": {
+  "accession": "0000004281-26-000012",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/4281/000000428126000012/hwm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 3.1,
+  "extracted_at": "2026-06-11T18:15:28.575788+00:00"
+ }
+}

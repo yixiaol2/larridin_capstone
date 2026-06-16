@@ -1,0 +1,51 @@
+{
+ "ticker": "MKTX",
+ "source_document_id": "0001193125-26-067009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are making investments in expanding AI capabilities in our products and tools",
+    "We have prioritized the use of this data to power our AI-driven trading solutions and analytical products",
+    "We plan to continue to focus on technology infrastructure and automation initiatives to support more efficient trade execution"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "in 2025, we continued our roll-out of Targeted RFQ, which highlights our AI-driven dealer selection tool, a machine learning model that predicts which counterparties are most likely to provide competitive pricing",
+    "in 2024, we also introduced an AI-driven trading protocol designed to make it easier for our clients to execute block trades",
+    "in 2025, there were 261 client firms using our automated and algorithmic trading solutions, up 6.5% from 2024"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The introduction of AI technologies, including generative and agentic AI, into new or existing products or our internal business processes may result in new or enhanced governmental or regulatory scrutiny, additional compliance costs, confidentiality or security risks",
+    "We also rely on third-party AI suppliers for certain tools and services, which may introduce risks related to transparency, supply chain security or our ability to monitor and control external AI models",
+    "as AI technologies, including generative and agentic AI models develop rapidly, bad actors may use these technologies to create new sophisticated attack methods that are increasingly automated, targeted and coordinated"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific budget figures for AI investment were disclosed in the excerpts; investment intensity scored 3 based on named systems and dedicated initiatives without quantified scale",
+  "ai_narrative_concreteness scored 4 based on deployed named use cases with some operational metrics (261 client firms, 6.5% growth) but no direct revenue or cost-savings figures attributable to AI specifically",
+  "capex_mentions is empty as no specific dollar or capacity figures tied to AI/compute investment appear in the excerpts"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-067009",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/1278021/000119312526067009/mktx-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T18:29:30.544893+00:00"
+ }
+}

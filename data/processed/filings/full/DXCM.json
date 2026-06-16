@@ -1,0 +1,51 @@
+{
+ "ticker": "DXCM",
+ "source_document_id": "0001093557-26-000027",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "AI regulation is continually evolving at the federal, state and international level and will continue to require financial and resource investment by us to ensure that AI tools are safe and effective",
+    "we have incorporated and will continue to explore and implement AI-enabled functions into our products and services",
+    "Our CIO brings 30 years of diverse strategic and operational experience in IT management, data engineering, AI, digital, ecommerce, infrastructure modernization"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "apply predictive modeling and machine learning to generate interactive CGM insights that can inform patient behavior",
+    "we have incorporated and will continue to explore and implement AI-enabled functions into our products and services",
+    "In our deployment of AI, we strive to continually assess its performance and continue to make improvements"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "inaccurate or unpredictable outputs, such as errors or hallucinations, that may impair decision making, disrupt operations, or expose sensitive information",
+    "Integrating AI into our systems may also expand our cybersecurity attack surface, increasing exposure to data breaches, loss of intellectual property, or inadvertent disclosure of confidential data",
+    "competitor use of AI may accelerate innovation cycles and intensify competitive pressures... could have a material adverse effect on our business, financial condition and results of operations"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or capex figures disclosed in the excerpts; named AI team leadership and regulatory compliance cost references support a score of 3 but not higher.",
+  "ai_narrative_concreteness: Named use cases (predictive modeling, ML for CGM insights, AI-enabled product functions) are described but deployment status and quantified outcomes are absent; language mixes aspirational ('exploring') with deployment claims ('incorporated'), limiting confidence.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains company-specific AI risk mechanisms (hallucinations impairing decisions, expanded cybersecurity attack surface, competitive acceleration), justifying score 4; no quantified risk figures or named formal AI governance body found in excerpts."
+ ],
+ "_meta": {
+  "accession": "0001093557-26-000027",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1093557/000109355726000027/dxcm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T17:48:46.419918+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "WOOF",
+ "source_document_id": "0001193125-26-106114",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are implementing the use of AI solutions, including machine learning and generative AI tools (both internal and external) that collect, aggregate, transcribe, and analyze data",
+    "Implementing the use of AI successfully, ethically and as intended will require significant resources."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "implementing the use of AI solutions, including machine learning and generative AI tools (both internal and external) that collect, aggregate, transcribe, and analyze data to assist in the development of our services and products",
+    "use of AI tools for content and image generation in marketing or other business activities"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms are based on machine learning and predictive analytics, which can create accuracy issues, unintended biases, and discriminatory outcomes that could harm our brand, reputation, business, or customers",
+    "use of AI may increase regulatory, cybersecurity, intellectual property, consumer protection, discrimination, and data privacy risks, such as intended, unintended, or inadvertent transmission of proprietary or sensitive information",
+    "Advances in computer capabilities, including as a result of artificial intelligence, supercomputing...may result in the breach or compromise of the technology used or maintained by us to protect transactions or other sensitive data"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI spend, headcount, or budget figures appear in the excerpts; investment intensity scored 3 based on named initiatives and vendor-type references only.",
+  "AI narrative is described in implementation/deployment terms but no production metrics or quantified outcomes are disclosed; score capped at 3.",
+  "Risk disclosure is detailed and company-specific with named mechanisms (brand harm, cybersecurity breach, IP infringement, regulatory compliance costs) but no quantified risk exposure or named governance/oversight body, capping score at 4.",
+  "Excerpts appear to be from the business/risk-factor sections of the 10-K; no separate labeled risk-factor section header confirmed, but content is clearly risk-disclosing in nature."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-106114",
+  "filing_date": "2026-03-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/1826470/000119312526106114/woof-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T18:46:13.327687+00:00"
+ }
+}

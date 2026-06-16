@@ -1,0 +1,49 @@
+{
+ "ticker": "ALB",
+ "source_document_id": "0000915913-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We currently use certain AI tools and are continually evaluating additional applications of AI technologies to enhance productivity and operational efficiency across our business.",
+    "Integration of AI technologies into our operations may introduce new risks, require significant additional investment, and materially impact our competitive position if unsuccessful."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We currently use certain AI tools and are continually evaluating additional applications of AI technologies to enhance productivity and operational efficiency across our business.",
+    "We have implemented a global AI policy to govern AI development, deployment, and monitoring, which is aligned with both NIST AI risk management and applicable legal standards."
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI-driven tools may not perform as expected, require greater resources than anticipated, or may not be adopted by users as quickly as expected.",
+    "global regulatory frameworks including U.S. federal and state initiatives, the European Union Artificial Intelligence Act, and other international laws continue to evolve and impose new obligations concerning transparency, data governance, safety testing, human oversight, and vendor management.",
+    "certain information technology systems we employ increasingly integrate AI, which has the potential to result in bias, miscalculations, data errors, intellectual property infringement and other unintended consequences."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases are named at a general level (productivity, operational efficiency) but no specific deployed applications or quantified outcomes are disclosed; concreteness capped at 3.",
+  "Risk disclosure describes specific risk categories and regulatory mechanisms (EU AI Act, NIST framework, governance policy) with some operational consequence detail, supporting score 4, but no quantified risk exposure or formal board-level AI risk committee is named beyond general Board cybersecurity oversight."
+ ],
+ "_meta": {
+  "accession": "0000915913-26-000018",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000018/alb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-15T20:06:07.650882+00:00"
+ }
+}

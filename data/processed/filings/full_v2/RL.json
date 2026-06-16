@@ -1,0 +1,51 @@
+{
+ "ticker": "RL",
+ "source_document_id": "0001628280-26-037074",
+ "source_type": "sec_filing",
+ "source_date": "2026-05-21",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we continue to enhance our solutions for advanced analytics, furthering our use of AI, both predictive and generative, and machine learning for areas such as planning, marketing, and personalization",
+    "Next Generation Transformation project...entails upgrading and enhancing our technology infrastructure, including AI and machine learning capabilities, to better enable us to implement process changes",
+    "effectively leverage AI, the efforts of which typically require significant capital investments"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Ask Ralph, a conversational artificial intelligence ('AI') shopping experience that invites consumers to engage with, and be inspired by, Ralph Lauren's unique and iconic take on style",
+    "we continue to enhance our solutions for advanced analytics, furthering our use of AI, both predictive and generative, and machine learning for areas such as planning, marketing, and personalization",
+    "AI augmented security monitoring, endpoint protection, and identity and access management"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI tools and systems may be unavailable, fail to perform as intended, or produce inaccurate or misleading outputs...could result in errors, inefficiencies, operational disruptions, or diminished customer experiences",
+    "emerging AI technologies may further facilitate the unauthorized replication, imitation, and distribution of products, branding, logos, marketing materials",
+    "The legal and regulatory environment governing AI is rapidly evolving. Emerging laws...may impose new obligations, limit the use of AI, or require changes to our products, processes, or controls"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 rather than 4 or 5 due to absence of quantification",
+  "Narrative concreteness scored 4 based on named deployed features (Ask Ralph, AI-augmented security monitoring) with operational detail, but no quantified business results (e.g., conversion lift, cost savings) were disclosed to warrant a score of 5",
+  "Promotional language present in descriptions of Ask Ralph and digital ecosystem; confidence adjusted accordingly"
+ ],
+ "_meta": {
+  "accession": "0001628280-26-037074",
+  "filing_date": "2026-05-21",
+  "url": "https://www.sec.gov/Archives/edgar/data/1037038/000162828026037074/rl-20260328.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:26:51.793529+00:00"
+ }
+}

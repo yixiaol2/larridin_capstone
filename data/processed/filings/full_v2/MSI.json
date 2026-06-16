@@ -1,0 +1,65 @@
+{
+ "ticker": "MSI",
+ "source_document_id": "0000068505-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "acquired Blue Eye, a provider of AI-powered enterprise remote video monitoring ('RVM') services for $79 million",
+    "acquired Theatro, a maker of AI and voice-powered communication and digital workflow software for frontline workers for $174 million",
+    "acquired Silvus Technologies Holdings Inc. ... $4.4 billion and share-based compensation of $20 million August 6, 2025"
+   ],
+   "confidence": 0.82
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI-powered analytics can highlight a person at a facility out of hours (unusual activity), locate a missing child at a theme park (appearance search), automate video verification workflows for building access",
+    "Assist, our mission-critical AI, operationalizes intelligence across the command center... enables 911 transcription, live translation and narrative development to accelerate response and enhance reporting accuracy",
+    "SVX body-worn assistant exemplifies this strategy by converging secure voice, video and AI into a single device to offer a highly differentiated solution"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI Act places significant restrictions on the use of AI for real-time biometric identification by law enforcement, and implements significant compliance requirements on the development and use of AI for biometric identification",
+    "if we use AI that is based on data, algorithms, or other inputs that are flawed or insufficient... our business, financial condition, or results of operations may be adversely affected",
+    "we work to responsibly meet our customers needs... including through AI governance programs and internal technology oversight committees"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "acquired Blue Eye, a provider of AI-powered enterprise remote video monitoring ('RVM') services for $79 million",
+   "context": "November 2025 acquisition of AI-powered RVM provider"
+  },
+  {
+   "quote": "acquired Theatro, a maker of AI and voice-powered communication and digital workflow software for frontline workers for $174 million",
+   "context": "March 2025 acquisition of AI voice/workflow software company"
+  },
+  {
+   "quote": "Silvus Technologies Holdings Inc. ... $4.4 billion and share-based compensation of $20 million",
+   "context": "August 2025 acquisition; includes MANET technology with AI-powered capabilities across MCN segment"
+  }
+ ],
+ "limitations": [
+  "Silvus acquisition ($4.4B) is primarily a MANET/communications technology deal; AI attribution is partial as AI is one component of the broader MCN portfolio, not the sole stated rationale.",
+  "No quantified AI R&D spend or dedicated AI capex line items disclosed; investment intensity scored on acquisition prices for AI-named targets.",
+  "Narrative concreteness scored 4 (not 5) because no quantified business outcomes (%, $, time saved) are provided for deployed AI use cases — descriptions are operational but not metric-backed.",
+  "Risk disclosure includes named governance mechanisms (AI governance programs, internal technology oversight committees) but no quantified risk exposure or formal named oversight body with charter details, limiting score to 4."
+ ],
+ "_meta": {
+  "accession": "0000068505-26-000010",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/68505/000006850526000010/msi-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 23,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:14:16.238457+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "KIM",
+ "source_document_id": "0001193125-26-060760",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have adopted generative artificial intelligence tools into our systems for specific use cases, subject to the artificial intelligence use policies that have been established by our legal and information security teams",
+    "we are continuing to evaluate additional uses for generative artificial intelligence"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We have adopted generative artificial intelligence tools into our systems for specific use cases, subject to the artificial intelligence use policies that have been established by our legal and information security teams",
+    "we are continuing to evaluate additional uses for generative artificial intelligence"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "artificial intelligence presents risks and challenges that can impact our business, including by posing security risks to our confidential information, proprietary information, and personal data",
+    "artificial intelligence or machine learning models may create incomplete, inaccurate, or otherwise flawed outputs... could lead us to make flawed decisions that could result in adverse consequences",
+    "uncertainty in the legal regulatory regime relating to artificial intelligence may require significant resources to modify and maintain business practices to comply with applicable law"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no dollar amounts, headcount, or quantified resource commitments tied to AI disclosed in excerpts; named adoption of generative AI tools warrants a score of 3 but not higher",
+  "ai_narrative_concreteness: use cases described as adopted but no deployment metrics, operational detail, or quantified outcomes provided; 'specific use cases' is named but not elaborated",
+  "ai_risk_disclosure_depth: risk mechanisms are described with specificity (reputational harm, legal liability, competitive disadvantage, regulatory compliance costs) but no quantification or named governance/oversight body is disclosed, capping at 4"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-060760",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/879101/000119312526060760/kim-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-15T21:03:17.601180+00:00"
+ }
+}

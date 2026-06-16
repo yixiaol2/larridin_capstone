@@ -1,0 +1,50 @@
+{
+ "ticker": "HII",
+ "source_document_id": "0001501585-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have implemented an AI Governance and Enablement Program to oversee the use of AI in our business.",
+    "application of artificial intelligence and machine learning to battlefield decisions... develop, test, and integrate leading-edge AI and machine learning algorithms to optimize and accelerate the nation's mission-critical systems"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "application of artificial intelligence and machine learning to battlefield decisions",
+    "develop, test, and integrate leading-edge AI and machine learning algorithms to optimize and accelerate the nation's mission-critical systems and platforms",
+    "utilize artificial intelligence, including generative artificial intelligence, machine learning... to enhance productivity and operational efficiency and optimize processes"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If the AI tools that we use are deficient, incomplete, inaccurate, biased... we could incur operational inefficiencies, competitive harm, legal liability, brand or reputational harm",
+    "degraded or flawed performance of the AI tools... may result from adversarial attacks that include data poisoning, malware risks, and evasion techniques",
+    "AI regulation is rapidly evolving worldwide... We may not be able to anticipate how to respond to these rapidly evolving frameworks"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts, headcount, or capex figures tied to AI investment are disclosed in the excerpts; named program (AI Governance and Enablement Program) and named use cases justify score 3 but not higher.",
+  "ai_narrative_concreteness: Use cases are named and described as deployed/operational (battlefield decisions, mission-critical systems, productivity enhancement), but no quantified business results are provided in the excerpts.",
+  "capex_mentions: No dollar or quantity figures tied to AI/compute investment appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001501585-26-000006",
+  "filing_date": "2026-02-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000006/hii-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T18:16:20.599892+00:00"
+ }
+}

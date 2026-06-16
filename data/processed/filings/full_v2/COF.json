@@ -1,0 +1,51 @@
+{
+ "ticker": "COF",
+ "source_document_id": "0000927628-26-000024",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We continue to invest in building new capabilities that use new AI technologies, such as generative AI, and we expect our use of these technologies to increase over time.",
+    "A key part of our strategic focus is the development and use of efficient, flexible computer and operational systems, such as cloud or artificial intelligence (AI) technologies.",
+    "advances in technology, such as automation and AI, may lead to workforce evolution. This could require us to invest in additional employee training"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we use models and AI in certain processes... determining the pricing of products, identifying potentially fraudulent transactions, grading loans, extending credit, measuring market and interest rate risks, predicting deposit levels or loan losses",
+    "personalizing customer experiences and other operational functions... we continue to invest in building new capabilities that use new AI technologies, such as generative AI",
+    "the growth of agentic commerce, in which autonomous AI agents initiate and execute transactions on behalf of users, may increase fraud losses"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "generative AI has been known to produce false or hallucinatory inferences or output... models and AI that are based on historical data sets might not be accurate predictors of future outcomes",
+    "AI may subject us to new or heightened legal, regulatory, ethical or other challenges... Several U.S. states and foreign jurisdictions are applying their platform moderation, privacy, data protection, and data security laws and regulations to AI",
+    "inadvertent disclosure of confidential information or personal data in connection with the utilization of AI technologies may result in stronger regulatory scrutiny, leading to legal and regulatory investigations"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "Narrative concreteness scored 4 rather than 5 because no quantified business results (%, $, time saved) from deployed AI use cases appear in the excerpts.",
+  "Risk disclosure is extensive and company-specific with named mechanisms (hallucination, model degradation, regulatory exposure, agentic commerce liability), supporting score 4; no quantified risk figures or named governance bodies found to support score 5."
+ ],
+ "_meta": {
+  "accession": "0000927628-26-000024",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.6,
+  "extracted_at": "2026-06-15T20:23:00.482820+00:00"
+ }
+}

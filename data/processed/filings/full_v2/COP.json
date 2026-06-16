@@ -1,0 +1,48 @@
+{
+ "ticker": "COP",
+ "source_document_id": "0001163165-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "Excerpts contain no discussion of AI investment, R&D, capex, or AI-related spending by ConocoPhillips"
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "Excerpts contain no named AI initiatives, use cases, or deployment descriptions; AI is mentioned only in a cybersecurity risk context"
+   ]
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "increased sophistication of generative artificial intelligence capabilities, which may improve or expand the existing capabilities of cybercriminals described above in a manner we cannot predict at this time",
+    "We face risks associated with new and ever-increasing phishing techniques, hidden malware, as well as risks associated with electronic data proliferation and technology digitization"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Only a single risk-factors excerpt was provided; no investment, operations, or business-description sections are present, so ai_investment_intensity and ai_narrative_concreteness cannot be scored.",
+  "AI risk disclosure is limited to generative AI as a cybersecurity threat vector; no broader AI governance, quantification, or named oversight bodies are mentioned in the excerpts.",
+  "Score of 3 reflects a named, company-specific risk category (AI-enhanced cybercrime against OT/SCADA/IT systems) but no quantified impact or formal mitigation program disclosed in these excerpts."
+ ],
+ "_meta": {
+  "accession": "0001163165-26-000009",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000009/cop-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:29:40.565051+00:00"
+ }
+}

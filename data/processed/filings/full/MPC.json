@@ -1,0 +1,46 @@
+{
+ "ticker": "MPC",
+ "source_document_id": "0001510295-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "As we integrate artificial intelligence technologies into our processes, these technologies may present business, compliance and reputational risks.",
+    "Our integration of these technologies, whether developed internally or procured through our third-party service providers, into our processes may result in new or expanded risks."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "advanced artificial intelligence attacks, which can compromise our ability to operate, and the confidentiality, availability, and integrity of data in our systems",
+    "Such risks and liabilities include enhanced governmental or regulatory scrutiny, litigation, compliance issues, ethical concerns, confidentiality or security risks",
+    "The use of AI can lead to unintended consequences, including generating content that is inaccurate, misleading or otherwise flawed, or that results in unintended biases and discriminatory outcomes"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity not scorable: excerpts contain no disclosure of AI-specific capex, named infrastructure, vendors, or budget amounts; only risk-factor language referencing AI integration is present.",
+  "ai_narrative_concreteness scored conservatively at 3: the excerpts reference AI integration into processes but provide no deployment status, named initiatives, or quantified outcomes; language is risk-disclosure framing rather than operational detail.",
+  "ai_risk_disclosure_depth scored 4: risk-factor section is present and describes company-specific mechanisms (regulatory scrutiny, IP infringement, inaccurate outputs harming reputation/financials, cybersecurity attack vectors) but no quantification or named governance/oversight bodies are disclosed in these excerpts."
+ ],
+ "_meta": {
+  "accession": "0001510295-26-000009",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.1,
+  "extracted_at": "2026-06-11T18:29:16.085441+00:00"
+ }
+}

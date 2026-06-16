@@ -1,0 +1,49 @@
+{
+ "ticker": "SBUX",
+ "source_document_id": "0000829224-25-000114",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-14",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "if we do not continuously strengthen our capabilities in marketing, data analytics (including artificial intelligence and machine learning) and innovation to understand and maintain or grow consumer interest",
+    "These state laws require ongoing investment in compliance infrastructure... The increasing adoption of artificial intelligence technologies has led data protection authorities around the world to consider and adopt new and evolving interpretations"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "if we do not continuously strengthen our capabilities in marketing, data analytics (including artificial intelligence and machine learning) and innovation",
+    "Emerging technologies, including artificial intelligence and machine learning, may not deliver expected efficiencies"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Emerging technologies, including artificial intelligence and machine learning, may not deliver expected efficiencies and could introduce new risks, such as those related to cybersecurity, data privacy, inaccuracies, hallucinations, bias or discrimination and intellectual property infringement",
+    "Due to evolving technologies, such as artificial intelligence technologies, the legal and regulatory landscape is uncertain and evolving, and may impose compliance obligations that could increase our costs or limit how we may use these technologies",
+    "The increasing adoption of artificial intelligence technologies has led data protection authorities around the world to consider and adopt new and evolving interpretations of privacy and data protection laws, with specific obligations regarding processing of personal data"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, named vendor/cloud partnerships, or dedicated AI budgets disclosed in the excerpts; only generic references to strengthening data analytics capabilities and compliance investment.",
+  "ai_narrative_concreteness: Excerpts are predominantly risk-factor and cybersecurity disclosures; no named AI initiatives, deployment status, or use-case detail is present. One reference to 'Starbucks Digital Solutions' is mentioned in a privacy compliance context only, not as a named AI initiative.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains company-specific AI risk mechanisms (hallucinations, bias, IP infringement, regulatory compliance costs, cybersecurity evolution), qualifying for score 4; however, no quantified risk exposure or named governance/oversight bodies are disclosed, precluding score 5."
+ ],
+ "_meta": {
+  "accession": "0000829224-25-000114",
+  "filing_date": "2025-11-14",
+  "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/sbux-20250928.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:57:34.075371+00:00"
+ }
+}

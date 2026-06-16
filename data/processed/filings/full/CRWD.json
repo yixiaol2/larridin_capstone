@@ -1,0 +1,49 @@
+{
+ "ticker": "CRWD",
+ "source_document_id": "0001535527-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we intend to continue to make significant investments to increase capacity and to develop and implement new technologies, including those involving AI, in our service and cloud infrastructure operations",
+    "Unifying data from our modules and customers into a single cloud infrastructure gives us significant advantages in developing and delivering innovative AI capabilities"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Charlotte AI transforms hours of routine investigation into minutes, addressing critical skills gaps and enhancing operational efficiency",
+    "AI Detection and Response (AIDR) provides visibility and governance into how employees use AI and how AI agents operate by mapping relationships between users, prompts, models, agents, and MCP servers",
+    "innovations like Charlotte AI represent a significant advancement in agentic AI delivering autonomous security decisions within customer-defined guardrails to triage detections, reduce noise, and accelerate response"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Our competitors may more successfully incorporate AI into their products, gain or leverage superior access to certain AI technologies, and achieve higher market acceptance of their AI solutions",
+    "we intend to continue to make significant investments...to develop and implement new technologies, including those involving AI...These technologies...are often advanced, complex, new and untested. We may not be successful"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts, GPU counts, or percentage-of-capex figures tied to AI investment appear in the excerpts; investment intensity scored 3 (named infrastructure and AI-native architecture described, but no quantified scale disclosed).",
+  "ai_narrative_concreteness scored 4: Charlotte AI and AIDR are described as deployed with operating detail (hours-to-minutes claim for investigations), but no hard quantified business results (e.g., specific % time saved, customer counts, revenue attribution) are provided in the excerpts.",
+  "Risk disclosure excerpts include risk-factor-section material; named risk categories (competitive AI disadvantage, technology implementation failure) are company-specific but mechanisms are described at a general level without quantification or named governance bodies, supporting score 3."
+ ],
+ "_meta": {
+  "accession": "0001535527-26-000010",
+  "filing_date": "2026-03-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T17:45:25.714328+00:00"
+ }
+}

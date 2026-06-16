@@ -1,0 +1,52 @@
+{
+ "ticker": "SOLV",
+ "source_document_id": "0001964738-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Solventum intends to devote significant resources to develop and deploy cloud, edge and software solutions in its healthcare solutions.",
+    "The deployment of AI, machine learning or other emerging technologies into Solventum's products and services will require additional investment and increase its costs.",
+    "Solventum has incorporated AI into certain products in the Health Information Systems business segment and certain of its digital offerings"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Health Information Systems provides healthcare systems with software solutions including computer-assisted physician documentation, direct-to-bill and coding automation, classification methodologies, speech recognition, and data visualization platforms",
+    "Solventum has incorporated AI into certain products in the Health Information Systems business segment and certain of its digital offerings",
+    "Our solutions integrate digital processes, AI-enabled capabilities and data in multiple ways and across different parts of the healthcare industry"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Any disruption or failure in the AI...could adversely impact Solventum's business, including as a result of flawed AI algorithms, insufficient or biased datasets, malfunctions or manipulations, unintentional release of confidential information",
+    "the emergence of new AI-enabled competitors and business model disruption, particularly for our HIS business",
+    "AI is increasing in use among such third parties and threat actors which may lead to more sophisticated and targeted phishing attempts, cyberattacks...or otherwise enhance the social engineering capabilities"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; 'significant resources' language is qualitative only, capping investment intensity at 3.",
+  "The $500 million restructuring program cost mention relates to the 'Transform for the Future' program broadly (automation, workforce, supply chain) and is not attributed specifically to AI investment.",
+  "Narrative concreteness scored 4 based on named deployed use cases (HIS, speech recognition, coding automation) with operational detail, but no quantified business results (e.g., % efficiency gains, revenue impact) were found to justify a score of 5.",
+  "Risk disclosure scored 4 based on company-specific risk mechanisms (competitor disruption to HIS, algorithmic failure modes, cybersecurity threat actor enhancement), but no quantified risk exposure or named governance/oversight body was found to justify a score of 5."
+ ],
+ "_meta": {
+  "accession": "0001964738-26-000007",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000007/solv-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:56:33.351148+00:00"
+ }
+}

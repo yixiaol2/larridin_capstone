@@ -1,0 +1,49 @@
+{
+ "ticker": "KSS",
+ "source_document_id": "0001193125-26-115982",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We continue to incorporate artificial intelligence, including generative AI and machine learning technology, into our business operations and customer experiences.",
+    "Implementing AI responsibly requires significant resources to minimize unintended harmful impacts"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We continue to incorporate artificial intelligence, including generative AI and machine learning technology, into our business operations and customer experiences.",
+    "AI initiatives will yield intended productivity gains or beneficial results"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The use of AI could produce results that are false, biased, or inconsistent with our values and strategies.",
+    "use of generative AI tools may compromise confidential or sensitive information, jeopardize our intellectual property, or subject us to claims of intellectual property infringement",
+    "rise of generative artificial intelligence and deepfake technologies, which can be used to create fictitious media content, spread misinformation, or impersonate company leadership"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no quantified dollar amounts, headcount, or named AI programs disclosed in excerpts; scored 3 based on named incorporation of AI into operations and acknowledgment of significant resources required, but scale is unquantified.",
+  "ai_narrative_concreteness: AI use cases named only at a high level (business operations, customer experiences, productivity gains); no deployment status details or metrics provided; excerpts are predominantly risk-section disclosures rather than operational or MD&A sections.",
+  "capex_mentions: no AI-attributable dollar figures appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-115982",
+  "filing_date": "2026-03-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/885639/000119312526115982/kss-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T21:03:35.726357+00:00"
+ }
+}

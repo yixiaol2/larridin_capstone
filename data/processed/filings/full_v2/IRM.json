@@ -1,0 +1,51 @@
+{
+ "ticker": "IRM",
+ "source_document_id": "0001020569-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we continue to make investments in initiatives focused on the further development and deployment of these technologies",
+    "we launched version 2.0 of DXP, which offers enhanced content management and smart document processing... workflow tools and AI agents",
+    "utilizing data analytics and machine learning to provide effective customer acquisition and a convenient and seamless consumer storage experience"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "In October 2025, we launched version 2.0 of DXP, which offers enhanced content management and smart document processing, an easy-to-use secure platform with workflow tools and AI agents",
+    "Some of our products, services and processes leverage AI, including both machine learning and generative AI, and we continue to make investments in initiatives focused on the further development and deployment",
+    "emerging AI technology, such as AI and generative AI systems, have become subject to regulation under new laws... as we integrate AI into our services"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The use of AI in our product initiatives... may give rise to risks related to accuracy, bias, discrimination, intellectual property infringement, misappropriation or leakage of proprietary, confidential and personal information, defamation, data privacy, and cybersecurity",
+    "Any error, defect, or vulnerability in our AI-powered products or business processes could undermine the quality of our products and services, adversely impact our clients businesses, subject us or our clients to regulatory scrutiny, fines or litigation",
+    "Recent developments in the cybersecurity threat landscape include the use of AI and machine learning, as well as an increased number of cyber extortion and ransomware attacks"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 rather than 4 or 5 due to absence of quantified AI-attributable spend.",
+  "Narrative concreteness scored 4 based on named deployed product (DXP 2.0 with AI agents launched October 2025) and described production use cases, but no quantified business results (e.g., revenue, efficiency metrics) were disclosed to support a score of 5.",
+  "capex_mentions list is empty because no dollar or capacity figures were explicitly tied to AI investment in the excerpts; data center capex figures mentioned are not AI-attributable per the anti-inflation rule."
+ ],
+ "_meta": {
+  "accession": "0001020569-26-000013",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1020569/000102056926000013/irm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:59:41.845577+00:00"
+ }
+}

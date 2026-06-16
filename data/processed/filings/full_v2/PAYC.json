@@ -1,0 +1,51 @@
+{
+ "ticker": "PAYC",
+ "source_document_id": "0001193125-26-059372",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have made significant investments in developing, testing, deploying and supporting AI-powered tools in our solution. Continuing to develop, test, deploy and support resource-intensive AI-powered tools will require additional investment.",
+    "We have invested, and intend to continue to invest, significant time and resources in our automation initiatives.",
+    "system development and programming costs (including those related our full solution automation and AI initiatives) and general and administrative expenses, which have increased and will continue to increase"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Our industry-first AI engine, IWant, provides instant and accurate access to employee data without requiring the user to navigate or learn our software.",
+    "Ask Here also includes an AI-powered search engine that can instantly answer frequent workplace questions by searching company resource documents and saved HR responses.",
+    "We have licensed and deployed a third-party large language model (LLM) on our own internal network and AI-powered tools. This LLM processes a large amount of employee and customer data."
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Unauthorized access to or a breach of this LLM software could lead to significant legal and financial repercussions for us. Also, failure to comply with continually evolving privacy, cybersecurity, and AI regulations during our use of this LLM could lead to substantial fines.",
+    "The third-party LLM we license was trained on large datasets that may contain biases, and these biases can be reflected in the output of our LLM, leading to potential harm to our employees and/or customers.",
+    "As technology continues to evolve, more tasks historically performed by people have been and may continue to be replaced by automation, robotics, AI...which may reduce our clients need for existing or future employees who are or would be potential users of our solution."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific budget figures for AI investment are disclosed in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "AI narrative concreteness scored 4 (deployed use cases with operational detail) but no quantified business results (e.g., % efficiency gains, cost savings) are provided to support a score of 5.",
+  "Risk disclosure is detailed and company-specific with named mechanisms (LLM bias, hallucinations, regulatory fines, client headcount reduction) but no quantified risk exposure or named governance oversight body, limiting score to 4."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-059372",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526059372/payc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:22:26.212856+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "HLT",
+ "source_document_id": "0001585689-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The development and maintenance of these technologies has required and may further require significant investment by us.",
+    "We are incorporating artificial intelligence technologies into our processes."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We are incorporating artificial intelligence technologies into our processes. These technologies may present business, compliance and reputational risks.",
+    "If we fail to keep pace with rapidly evolving technological developments in AI, our competitive position and business results may suffer."
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "criminals increasingly leverage generative and agentic AI-based technologies and services... Breaches, thefts, losses or fraudulent uses of customer, employee or company data could cause consumers to lose confidence",
+    "introduction of AI technologies, particularly generative and agentic AI, into new or existing offerings may also result in new or expanded risks... copyright infringement, compliance issues, ethical concerns, security risks",
+    "AI and machine learning-technology could, unbeknownst to us, be improperly utilized by employees... generating content that appears correct but is factually inaccurate, misleading or otherwise flawed"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts or specific AI program names disclosed in excerpts; investment language is forward-looking and conditional, limiting score to 3.",
+  "ai_narrative_concreteness: Excerpts are predominantly risk-factor disclosures; no named deployed AI use cases or operational metrics are described, only general incorporation statements.",
+  "capex_mentions: No AI-attributable dollar figures or quantified spend found in the provided excerpts."
+ ],
+ "_meta": {
+  "accession": "0001585689-26-000007",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/1585689/000158568926000007/hlt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.1,
+  "extracted_at": "2026-06-15T20:53:34.677009+00:00"
+ }
+}

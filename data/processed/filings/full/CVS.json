@@ -1,0 +1,50 @@
+{
+ "ticker": "CVS",
+ "source_document_id": "0000064803-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Company is making concerted investments in emerging technology capabilities such as artificial intelligence (AI) to further automate, augment and improve its operational capabilities",
+    "There is continued focus and investment in enterprise data platforms, cloud capabilities, digital products to offer innovative solutions"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "The technology leverages assisted artificial intelligence to deliver insights to the business and bring automation to otherwise manual tasks",
+    "enable advanced consumer self-service through AI-assistants while enhancing human touch when desired, offer simplified health and care navigation, expand access, streamline and optimize internal operations",
+    "Health Engagement Engine technology and proprietary clinical algorithms...transforms pharmacy data into actionable interventions at key points of care, including in retail, mail and specialty pharmacies"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "heightened exposure to cybersecurity incidents or the misuse of data during the integration of AI models and large data sets; increased potential liability and costs associated with complying with rapidly emerging regulatory frameworks",
+    "costs and competitive disadvantages associated with the failure to properly integrate AI into existing operations; and reputational harm caused by actual or perceived failures in the performance of AI",
+    "states also are starting to issue regulations and proposed regulations specifically related to...artificial intelligence technologies. Complying with conflicting cybersecurity regulations...requires significant resources"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts, GPU counts, or quantified AI-specific capex figures appear in the excerpts; investment intensity scored 3 (named initiatives, no quantified scale).",
+  "Narrative concreteness scored 4 based on named deployed use cases with operational detail, but no quantified business results (e.g., cost savings, volume handled) are disclosed in the excerpts.",
+  "AI risk disclosure is company-specific with named mechanisms (cybersecurity exposure, regulatory compliance costs, integration failure, reputational harm), supporting score 4; no quantified risk figures or named governance bodies appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000064803-26-000010",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/64803/000006480326000010/cvs-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:35:04.574281+00:00"
+ }
+}

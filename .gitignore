@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# Secrets — NEVER commit
+.env
+.env.*
+!.env.example
+
+# Local tool config (points at Larridin's Supabase project)
+.mcp.json
+
+# Personal / presentation files — excluded from handoff
+CLAUDE.md
+scripts/build_deck.py
+scripts/make_deck_charts.py
+reports/AI_Signals_Progress.pptx
+reports/AI_Signals_Progress.pdf
+reports/deck_speaker_script.md
+reports/deck_assets/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# NOTE: data/ is intentionally NOT ignored — collected data is pushed for handoff.

@@ -1,0 +1,49 @@
+{
+ "ticker": "GPC",
+ "source_document_id": "0000040987-26-000003",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Advanced automation and motion control solutions through Motion AI",
+    "We also continue to make investments in technology to enhance our supply chain and digital capabilities as we improve the customer experience, increase automation in distribution centers"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Advanced automation and motion control solutions through Motion AI",
+    "Integrated e-business capabilities through MiSupplierConnect, our advanced platform that seamlessly connects our IT systems with those of our suppliers"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "deployment of evolving artificial intelligence tools and machine learning tools used to identify vulnerabilities and create more effective phishing attempts",
+    "Changes in automotive technology (including the adoption of electric vehicles or the use of artificial intelligence and machine learning)... could require additional compliance costs",
+    "subject to an increasing number of laws... relating to... machine learning, artificial intelligence, data privacy... If we fail to comply... may be subject to governmental or judicial fines or sanctions"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; investment intensity scored 3 based on named initiatives only.",
+  "Motion AI is named but deployment scale, outcomes, or metrics are not disclosed in the excerpts, limiting concreteness to score 3.",
+  "AI risk disclosure covers multiple named risk mechanisms (cybersecurity, regulatory compliance, competitive disadvantage, technology change) with described impact pathways, supporting score 4, but no quantification or named governance body is present to reach score 5."
+ ],
+ "_meta": {
+  "accession": "0000040987-26-000003",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000003/gpc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-11T18:10:32.729286+00:00"
+ }
+}

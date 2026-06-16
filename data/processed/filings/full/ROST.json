@@ -1,0 +1,49 @@
+{
+ "ticker": "ROST",
+ "source_document_id": "0000745732-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-31",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Advancements in technology (including artificial intelligence or other emerging technologies) will present opportunities to inform merchandising, pricing, assortment, and other key business decisions",
+    "if competitors successfully implement these capabilities more quickly or effectively than we do, our competitive position could be adversely affected"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Advancements in technology (including artificial intelligence or other emerging technologies) will present opportunities to inform merchandising, pricing, assortment, and other key business decisions; however, there are costs, risks and potential adverse consequences"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "there are costs, risks and potential adverse consequences from premature adoption or over-reliance on those emerging technologies",
+    "the advances in computer capabilities and artificial intelligence, and remote access increases these risks",
+    "if competitors successfully implement these capabilities more quickly or effectively than we do, our competitive position could be adversely affected"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment, named AI systems, vendors, or budget figures appear in the excerpts; investment intensity scored 2 based solely on generic aspirational language.",
+  "Narrative concreteness scored 2 as AI use cases (merchandising, pricing, assortment) are named only as future opportunities, not deployed initiatives.",
+  "Risk disclosure covers named categories (competitive displacement, cybersecurity amplification, over-reliance) but lacks quantified scenarios or named governance bodies, capping score at 3.",
+  "Excerpts are limited to risk-factor sections; no MD&A, business description, or capex disclosures are present, so investment intensity and concreteness may be understated relative to the full filing."
+ ],
+ "_meta": {
+  "accession": "0000745732-26-000006",
+  "filing_date": "2026-03-31",
+  "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573226000006/rost-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T18:53:13.125686+00:00"
+ }
+}

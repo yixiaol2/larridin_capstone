@@ -1,0 +1,49 @@
+{
+ "ticker": "PM",
+ "source_document_id": "0001628280-26-005939",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We and our business partners are increasingly incorporating artificial intelligence ('AI')-based solutions in our ways of working and operations",
+    "We increasingly use artificial intelligence-based solutions in our business"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We and our business partners are increasingly incorporating artificial intelligence ('AI')-based solutions in our ways of working and operations, but this process involves uncertainty and risks, which may or may not yield corresponding benefits."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Flaws, biases, data sourcing issues, limitations, errors, misconfiguration, or malfunctions in these systems could result in operational disruptions, including data loss and corruption.",
+    "AI presents a new attack surface that cybercriminals will attempt to exploit as well as providing means to scale and automate targeted attacks.",
+    "comply with artificial intelligence regulations... could have a material adverse effect on us, subject us to substantial fines and/or legal challenges"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or named AI programs disclosed in the excerpts; investment intensity scored 2 based on generic adoption language only.",
+  "AI narrative concreteness scored 2 because no named AI initiatives, specific use cases, or deployment details are provided — only general references to 'ways of working and operations'.",
+  "Risk disclosure is detailed and company-specific (regulatory, cybersecurity, operational failure, IP) but no quantified risk exposure or named governance/oversight body is cited, capping score at 4.",
+  "Excerpts are predominantly risk-section and MDNA material; no financial statements or capex tables were included, so no AI-attributable spend figures are available."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-005939",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026005939/pm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 2.9,
+  "extracted_at": "2026-06-15T21:23:27.049006+00:00"
+ }
+}

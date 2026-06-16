@@ -1,0 +1,50 @@
+{
+ "ticker": "DOC",
+ "source_document_id": "0001628280-26-005044",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We use generative artificial intelligence and/or machine learning (collectively, AI) tools in our investment and capital allocation decisions and operations, including commercially available AI applications or AI features available through our existing software or technology platforms.",
+    "Infrastructure upgrades may require significant capital expenditures and could potentially impact the environmental footprint of our building operations."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We use generative artificial intelligence and/or machine learning (collectively, AI) tools in our investment and capital allocation decisions and operations, including commercially available AI applications or AI features available through our existing software or technology platforms.",
+    "We utilize software and platforms designed to detect such cybersecurity threats, including AI-based tools.",
+    "While we have adopted a governance framework concerning use of AI tools and provide training to our employees to guard against the aforementioned risks..."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The adoption of AI tools by our tenants may lead to a reconfiguration in space requirements by our tenants or decreased demand for space over time... could have a material adverse effect on our business, results of operations, and financial condition.",
+    "New laws and regulations governing AI use are being adopted, and existing laws and regulations may be interpreted in ways that would affect our business operations and the way in which we use AI.",
+    "Cybersecurity threat actors may utilize AI tools to automate and enhance cybersecurity attacks against us... could lead to data breaches, loss of confidential or sensitive information, and financial or reputational harm."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount figures, or quantified AI-specific spend disclosed in the excerpts; use of AI described only in qualitative terms referencing commercially available tools.",
+  "ai_narrative_concreteness: Named use cases (investment/capital allocation decisions, cybersecurity detection) are described but no deployment metrics or quantified outcomes are provided; governance framework mentioned but not detailed.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains detailed AI risk discussion; scored 4 because company-specific risk mechanisms are described (tenant space demand reduction, regulatory exposure, cybersecurity attack vectors, investor misinterpretation of financials), though no quantification of risk magnitude is provided."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-005044",
+  "filing_date": "2026-02-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/765880/000162828026005044/peak-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-11T18:13:15.660623+00:00"
+ }
+}

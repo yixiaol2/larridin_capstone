@@ -1,0 +1,51 @@
+{
+ "ticker": "DXCM",
+ "source_document_id": "0001093557-26-000027",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We intend to expand our efforts to accumulate CGM patient data and metrics and apply predictive modeling and machine learning to generate interactive CGM insights",
+    "AI regulation is continually evolving...and will continue to require financial and resource investment by us to ensure that AI tools are safe and effective",
+    "we have incorporated and will continue to explore and implement AI-enabled functions into our products and services"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "apply predictive modeling and machine learning to generate interactive CGM insights that can inform patient behavior",
+    "With the introduction of Stelo, we are also pursuing and supporting development partnerships with consumer technology product companies that seek to provide metabolic health insights",
+    "we have incorporated and will continue to explore and implement AI-enabled functions into our products and services. We continue to explore how best to leverage and harness the efficiency and innovation of AI-enabled...technology"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "we are subject to various operational, compliance, and reputational risks associated with our adoption and utilization of AI technologies, including inaccurate or unpredictable outputs, such as errors or hallucinations, that may impair decision making",
+    "Integrating AI into our systems may also expand our cybersecurity attack surface, increasing exposure to data breaches, loss of intellectual property, or inadvertent disclosure of confidential data",
+    "competitor use of AI may accelerate innovation cycles and intensify competitive pressures...could have a material adverse effect on our business, financial condition and results of operations"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases (predictive modeling, ML for CGM insights, Stelo partnerships) are named but no deployment metrics or quantified outcomes are disclosed; concreteness capped at 3.",
+  "Risk disclosure describes specific mechanisms (hallucinations impairing decisions, expanded attack surface, competitive pressure) but no quantification of risk exposure or named formal AI governance body beyond CIO/CTO committee membership; scored 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0001093557-26-000027",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1093557/000109355726000027/dxcm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-15T20:34:32.474604+00:00"
+ }
+}

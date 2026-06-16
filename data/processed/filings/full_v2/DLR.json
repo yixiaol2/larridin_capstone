@@ -1,0 +1,64 @@
+{
+ "ticker": "DLR",
+ "source_document_id": "0001104659-26-015365",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "cloud and hybrid cloud solutions and artificial intelligence technologies, along with other digital transformation initiatives, will remain significant drivers of demand for data center infrastructure",
+    "we estimate that our land and other space held for, or actively under, construction could accommodate over 3,500 megawatts of additional data center capacity",
+    "we had 769 megawatts of projects underway across multiple metropolitan areas around the world, and 64% of this data center activity was pre-leased"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "The Internet of Things, 5G, autonomous vehicles and artificial intelligence, among other technological advancements, are driving this digital transformation",
+    "PlatformDIGITAL brings together users, networks, clouds, controls and systems to the data, removing barriers, creating centers of data exchange to accommodate distributed workflows",
+    "ServiceFabric offers virtual network orchestration to 305+ cloud on-ramps and 700 data centers globally to enable quick, secure, and reliable private connections"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "As artificial intelligence becomes more prevalent in the workplace, it may present new considerations that could affect our business and operating results",
+    "threat actors are increasingly sophisticated and using tools such as AI that circumvent controls and evade detection, making detection, mitigation and recovery challenging and uncertain",
+    "We may not be able to adapt to changing technologies and customer requirements, and our data center infrastructure may become obsolete"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "769 megawatts of projects underway across multiple metropolitan areas around the world",
+   "context": "Active data center development pipeline as of December 31, 2025, 64% pre-leased"
+  },
+  {
+   "quote": "over 3,500 megawatts of additional data center capacity, including more than 1,000 additional megawatts developable in Northern Virginia",
+   "context": "Estimated future development capacity from land and space held for construction"
+  },
+  {
+   "quote": "raised over $3 billion of equity commitments that can support approximately $10 billion of total data center investment",
+   "context": "Digital DC Partners NA Fund capital raise for data center investment"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity scored 3 rather than 4-5: capex figures cited are for general data center development, not explicitly AI-attributable; AI is named as a demand driver but no dollar amount is directly tied to AI-specific build-out or R&D",
+  "AI narrative concreteness scored 3: PlatformDIGITAL and ServiceFabric are named platforms but described in terms of connectivity/colocation capabilities rather than AI-specific deployed use cases with metrics; AI is primarily framed as a customer demand driver, not a DLR-operated AI product",
+  "AI risk disclosure scored 3: risk factors name AI-specific categories (AI-enabled threat actors, AI workplace impact) but do not provide quantified risk scenarios or named governance/oversight bodies for AI risk; mechanisms are described at a general level"
+ ],
+ "_meta": {
+  "accession": "0001104659-26-015365",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/1297996/000110465926015365/dlr-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 15,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:35:11.712472+00:00"
+ }
+}

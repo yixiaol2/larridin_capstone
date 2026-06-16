@@ -1,0 +1,52 @@
+{
+ "ticker": "PSA",
+ "source_document_id": "0001628280-26-007696",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have begun to utilize artificial intelligence technologies in various aspects of our business",
+    "we have adopted policies with respect to these risks, including related to the development, deployment and monitoring of artificial intelligence tools",
+    "visibility on large language model platforms... live Internet chat augmented with ChatBot/Virtual Agent capabilities"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "visibility on large language model platforms, and to maximize users likelihood of reserving space on our website",
+    "live Internet chat augmented with ChatBot/Virtual Agent capabilities as another channel for our customers to engage our agents, cost effectively improving customer responsiveness",
+    "we have begun to utilize artificial intelligence technologies in various aspects of our business"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "use of or failure to adopt advancements in information technology, such as artificial intelligence, may hinder or prevent us from achieving strategic objectives or otherwise harm our business",
+    "risks including risks relating to the possibility of intellectual property infringement or misappropriation; data privacy; quality control related to artificial intelligence outputs; new or enhanced governmental or regulatory scrutiny",
+    "new technologies such as artificial intelligence may be more capable at evading these safeguard measures... our information technology and infrastructure could be vulnerable"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts, headcount figures, or quantified AI investment disclosed in the excerpts; investment intensity capped at 3.",
+  "AI use cases described as deployed (chatbot, LLM platform visibility) but no quantified business results provided, limiting concreteness to 4.",
+  "Risk section material is present and discusses AI risks with named mechanisms (regulatory, IP, data privacy, cybersecurity), but no quantification or named governance body is cited, limiting risk depth to 4.",
+  "Excerpts are pre-filtered; additional AI disclosures may exist elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-007696",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1393311/000162828026007696/psa-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:25:28.988362+00:00"
+ }
+}

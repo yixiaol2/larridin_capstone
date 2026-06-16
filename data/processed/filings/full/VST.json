@@ -1,0 +1,49 @@
+{
+ "ticker": "VST",
+ "source_document_id": "0001692819-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Multiple demand drivers such as emergence of large load data centers, including in response to transformations in technologies like artificial intelligence (AI)... have accelerated, and are expected to continue to accelerate, load growth",
+    "To grow and remain competitive, we will need to adapt to changes in available technology like generative AI, continually invest in our assets, increase generation capacity"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "As we adopt new technologies, like AI, there is a risk that the content, analyses, recommendations, or judgments that AI applications assist in producing are alleged to be deficient, inaccurate, biased",
+    "Competitors may also incorporate emerging technology like generative AI into their businesses, services, and products more quickly or more successfully than we do"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "generative AI becomes more widely used by threat actors and we may not be able to prevent or mitigate any such impacts in the future",
+    "if demand does not continue to increase... due to various factors, such as changes in technology, more energy efficient AI solutions or slow adoption of AI products and services",
+    "As we adopt new technologies, like AI, there is a risk that the content, analyses, recommendations, or judgments that AI applications assist in producing are alleged to be deficient, inaccurate, biased"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific capex or infrastructure spend disclosed in excerpts; Vistra is positioned as a power supplier to AI data centers rather than an AI investor itself — generic investment language only.",
+  "ai_narrative_concreteness: AI discussed primarily in risk and competitive context; no named internal AI initiatives or deployed use cases with operating detail found in excerpts.",
+  "ai_risk_disclosure_depth: Excerpts appear to be from the MD&A/risk section; three named risk categories identified (cybersecurity/threat actors, demand-growth risk from AI efficiency, AI output liability), but no quantification or named governance bodies disclosed."
+ ],
+ "_meta": {
+  "accession": "0001692819-26-000006",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000006/vistra-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T19:09:42.331736+00:00"
+ }
+}

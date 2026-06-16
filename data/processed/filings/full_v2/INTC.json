@@ -1,0 +1,69 @@
+{
+ "ticker": "INTC",
+ "source_document_id": "0000050863-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 5,
+   "evidence": [
+    "R&D expenses were $13.8 billion in 2025... In 2025, our R&D investments focused on AI integration, heterogeneous computing architectures and next-generation process technologies",
+    "capital investments classified as construction in progress totaled $34.5 billion ($50.4 billion as of December 28, 2024)",
+    "NVIDIA to issue and sell to NVIDIA 215 million shares... aggregate cash purchase price of $5.0 billion... to support our strategic investments in advanced manufacturing, AI infrastructure and long-term growth initiatives"
+   ],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we announced our development of Crescent Island, our first GPU to be built on the advanced Xe3P architecture... engineered specifically for data center environments... for AI inference workloads",
+    "We released our initial Intel Core Ultra Series 3 processors, the first products to be manufactured using our new Intel 18A process technology, in late 2025",
+    "we introduced an open software platform, Open Edge, designed to make it easier for businesses to run AI and other applications at the edge"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the evolving market for products with AI capabilities... competitive environment has intensified in recent years... as a result of the proliferation of AI and high demand for AI-related products",
+    "Our competitors include companies offering... accelerator products such as GPUs... NVIDIA, whose GPU systems have experienced the highest demand in the market as AI workloads have become the dominant source of compute demand",
+    "technology trends and developments, including with respect to AI... many risks and uncertainties that could cause our actual results to differ materially"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "R&D expenses were $13.8 billion in 2025... focused on AI integration, heterogeneous computing architectures",
+   "context": "2025 annual R&D spend with explicit AI focus"
+  },
+  {
+   "quote": "capital investments classified as construction in progress totaled $34.5 billion",
+   "context": "Construction-in-progress capex as of Dec 27, 2025, supporting AI infrastructure and manufacturing strategy"
+  },
+  {
+   "quote": "aggregate cash purchase price of $5.0 billion... to support our strategic investments in advanced manufacturing, AI infrastructure",
+   "context": "Private placement to NVIDIA, proceeds earmarked for AI infrastructure"
+  },
+  {
+   "quote": "aggregate cash purchase price of $2.0 billion... SoftBank Group... to support our strategic investments in advanced manufacturing, AI infrastructure",
+   "context": "Private placement to SoftBank, proceeds earmarked for AI infrastructure"
+  }
+ ],
+ "limitations": [
+  "R&D and capex figures are not fully disaggregated by AI vs. non-AI spend; AI attribution is stated directionally but not precisely quantified as a separate line item.",
+  "Construction-in-progress capex of $34.5B covers all manufacturing nodes, not exclusively AI-related; AI attribution is inferred from strategic context.",
+  "Risk disclosure excerpts appear in forward-looking/risk-factor adjacent sections but the full dedicated risk-factor section is not fully represented; score reflects named competitive and market risks tied to AI but no quantified risk scenarios or named governance bodies were visible in the excerpts.",
+  "Narrative concreteness scored 4 rather than 5 because no quantified business results (revenue, units, efficiency metrics) from deployed AI products were present in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000050863-26-000011",
+  "filing_date": "2026-01-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-15T20:57:49.940295+00:00"
+ }
+}

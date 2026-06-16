@@ -1,0 +1,49 @@
+{
+ "ticker": "LNT",
+ "source_document_id": "0000352541-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Alliant Energy, IPL and WPL currently plan to make investments in technology to enhance productivity and efficiency through automation and customer self-service.",
+    "implementation of automation solutions to strengthen detection and response capabilities"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Emerging artificial intelligence technologies may be used to develop new hacking tools, exploit vulnerabilities, obscure malicious activities, and increase the difficulty detecting threats.",
+    "investments in technology to enhance productivity and efficiency through automation and customer self-service"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Emerging artificial intelligence technologies may be used to develop new hacking tools, exploit vulnerabilities, obscure malicious activities, and increase the difficulty detecting threats.",
+    "Incidents of ransomware attacks have been increasing in frequency and magnitude... nation-state actors (such as VOLT TYPHOON and SALT TYPHOON), which have demonstrated an increased focus on targeting critical industries"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity: Alliant Energy's AI-attributable spend is not quantified or named as a distinct program; the technology capex table is referenced but dollar amounts for AI/automation are not broken out in the excerpts. Score reflects generic automation language only.",
+  "AI narrative concreteness: AI is mentioned primarily in the context of cybersecurity threat vectors (adversarial AI use), not as a deployed internal capability. No named AI initiatives or deployment metrics are present.",
+  "AI risk disclosure: Risk-section content is present and discusses AI as a cybersecurity threat vector with named threat actors and attack types, qualifying as named/company-specific risk categories, but no quantification or formal governance body for AI risk is disclosed.",
+  "The bulk of the filing's AI-relevant content relates to data center load growth as a customer demand driver, not Alliant Energy's own AI adoption or investment."
+ ],
+ "_meta": {
+  "accession": "0000352541-26-000007",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000007/lnt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-15T20:07:16.572479+00:00"
+ }
+}

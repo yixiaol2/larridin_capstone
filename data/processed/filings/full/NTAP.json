@@ -1,0 +1,51 @@
+{
+ "ticker": "NTAP",
+ "source_document_id": "0001193125-26-259683",
+ "source_type": "sec_filing",
+ "source_date": "2026-06-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Total research and development expenses were $991 million in fiscal 2026... Our R&D priorities are defined by how we can help organizations realize operational simplicity, cyber resilience and security, AI innovation, and infrastructure savings",
+    "partnerships with AI vendors are critical for our continued innovation... validated reference architectures and partnerships with leaders like NVIDIA and Microsoft, we accelerate AI pipeline development",
+    "We are increasingly building and/or deploying AI technology in certain products, services, and business operations, and our research and development in this area is ongoing"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "NetApp AI Data Engine software simplifies and secures the entire AI data pipeline with integrated data discovery, curation, policy-driven guardrails, and real-time vectorization for GenAI, Retrieval-Augmented Generation (RAG), agentic AI, and AI factories",
+    "NetApp AFX integrates with the NetApp AI Data Engine to accelerate AI pipelines by consolidating fragmented tools into a unified, ONTAP-integrated solution with real-time metadata, inline vectorization, and semantic search",
+    "The built-in, AI-powered Autonomous Ransomware Protection operates natively in the storage layer, combating evolving threats with real-time detection for rapid response and recovery"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Non-compliance with these emerging regulations, even if inadvertent or without our knowledge, could result in legal and financial penalties, reputational damage, and operational disruptions",
+    "AI algorithms and training methodologies may be flawed, biased, or produce inaccurate outputs... AI technologies are complex and rapidly evolving and could expose us to an increased risk of cybersecurity threats",
+    "The EU AI Act imposes enhanced requirements on certain high-risk AI systems, including obligations relating to risk management, data governance, documentation, human oversight and conformity assessments"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or dedicated AI budget figures appear in the excerpts; total R&D of $991M is disclosed but not disaggregated by AI vs. other initiatives, preventing a score of 4 or 5 for investment intensity",
+  "AI narrative concreteness scored 4 (deployed with operating detail) rather than 5 because no quantified business results (%, $, time saved, volume) are provided for the named AI products",
+  "Risk disclosure scored 4 because specific mechanisms (regulatory penalties, revenue impact, compliance cost) are described, but no quantified risk exposure or named governance oversight body is disclosed"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-259683",
+  "filing_date": "2026-06-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1002047/000119312526259683/ntap-20260424.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:37:52.402841+00:00"
+ }
+}

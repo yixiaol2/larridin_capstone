@@ -1,0 +1,64 @@
+{
+ "ticker": "MU",
+ "source_document_id": "0000723125-25-000028",
+ "source_type": "sec_filing",
+ "source_date": "2025-10-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "In June 2025, in connection with certain amendments to our CHIPS Act agreements, we announced plans for a second leading-edge memory manufacturing fab in Idaho to serve growing market demand fueled by AI.",
+    "Research and development [expense] $3,798 [million in 2025], $3,430 [million in 2024], $3,114 [million in 2023]",
+    "We have invested and expect to continue to invest in new semiconductor product and system-level solution development... Recent technologies, such as generative AI models have emerged, and while they have driven increased demand for HBM and other advanced products"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 5,
+   "evidence": [
+    "CMBU revenue increased 257% primarily due to increases in DRAM bit shipments and average selling prices driven by accelerating AI demand in cloud server markets for HBM, high-capacity DIMMs, and low-power server DRAM.",
+    "In 2025, we delivered samples of HBM4 36GB 12-high to multiple key customers to power next-generation AI platforms.",
+    "In 2025, we began shipping qualification samples of our first LPDDR5X memory built on the 1 node, engineered to accelerate AI applications on flagship smartphones."
+   ],
+   "confidence": 0.88
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Although AI is a relatively new demand driver for our products, it is evolving rapidly, and the expected timing and amount of investments related to AI can change significantly... we may incur costs in anticipation of demand that ultimately does not materialize.",
+    "AI algorithms or training methodologies may be flawed, and datasets may contain irrelevant, insufficient or biased information... The use of AI in the development of our products could also cause loss of intellectual property, as well as subject us to risks related to intellectual property infringement.",
+    "New and evolving laws and regulations relating to cybersecurity, data privacy, digital products, and AI impose requirements... we could experience a reduction of production or sales of our products; remediation costs; increased compliance costs; regulatory penalties."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "plans for a second leading-edge memory manufacturing fab in Idaho to serve growing market demand fueled by AI",
+   "context": "June 2025 CHIPS Act amendment announcement; fab build-out tied explicitly to AI demand"
+  },
+  {
+   "quote": "capital spending in 2026",
+   "context": "Forward-looking statement referencing future capex; no dollar amount disclosed in excerpts"
+  },
+  {
+   "quote": "Research and development $3,798 [million in 2025]",
+   "context": "Total R&D spend FY2025; not exclusively AI-attributable but heavily tied to HBM and AI-driven product development per surrounding context"
+  }
+ ],
+ "limitations": [
+  "No explicit dollar figure for AI-attributable capex is stated in the excerpts; the second Idaho fab is described qualitatively as AI-demand-driven but no construction cost is disclosed, limiting investment intensity score to 4 rather than 5.",
+  "R&D figures ($3.8B) are total company R&D, not disaggregated by AI vs. non-AI programs; used as supporting context only.",
+  "Risk section material is present and scored; AI risks are named and mechanisms described (demand forecasting errors, IP loss, regulatory compliance costs, cybersecurity sophistication) but no quantified risk exposure or named governance body is disclosed, capping depth at 4."
+ ],
+ "_meta": {
+  "accession": "0000723125-25-000028",
+  "filing_date": "2025-10-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:11:53.799689+00:00"
+ }
+}

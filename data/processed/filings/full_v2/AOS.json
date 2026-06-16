@@ -1,0 +1,49 @@
+{
+ "ticker": "AOS",
+ "source_document_id": "0000091142-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Chief Digital Information Officer... Chief Executive Officer Rise and Shift (consulting firm focused on cloud transformation, digital product development, and AI/ML solutions)",
+    "increasing use of data analytics, machine learning, and artificial intelligence software, which our competitors may be able to use more effectively or implement more successfully than we are able to do"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "increasing use of data analytics, machine learning, and artificial intelligence software, which our competitors may be able to use more effectively or implement more successfully than we are able to do",
+    "Use of artificial intelligence software may also create risks from unintentional disclosure of proprietary, confidential, personal or otherwise sensitive information"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Use of artificial intelligence software may also create risks from unintentional disclosure of proprietary, confidential, personal or otherwise sensitive information",
+    "Failure to adapt to the evolving competitive environment could materially and adversely affect our financial condition, results of operations and cash flows",
+    "we have an active program to maintain and improve data security and address these risks... implementing and improving internal controls, security technologies, insurance programs"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-attributable spend disclosed; score of 3 inferred from hiring of a Chief Digital Information Officer with AI/ML background as a named AI-related initiative, but no dollar amounts or program scale provided.",
+  "ai_narrative_concreteness: AI references are largely competitive-risk framing and cybersecurity risk language; no named internal AI initiatives or deployment details disclosed in these excerpts.",
+  "ai_risk_disclosure_depth: Risk-section material is present and names AI-specific risk categories (competitive disadvantage, data disclosure via AI tools), but mechanisms are described at a general level without quantification or named governance bodies dedicated to AI risk."
+ ],
+ "_meta": {
+  "accession": "0000091142-26-000008",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/91142/000009114226000008/aos-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T20:03:26.984498+00:00"
+ }
+}

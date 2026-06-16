@@ -1,0 +1,52 @@
+{
+ "ticker": "BMY",
+ "source_document_id": "0000014272-26-000004",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are investing in upskilling our workforce to build confidence in the proper use and innovative application of these next-generation tools",
+    "we are infusing artificial intelligence throughout our R&D process",
+    "Together with our digital capabilities, including the deployment of artificial intelligence, we are enhancing commercial productivity"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we are infusing artificial intelligence throughout our R&D process... enable us to prioritize programs more deliberately and effectively",
+    "deployment of artificial intelligence, we are enhancing commercial productivity through more effective clinician engagement and targeted patient outreach",
+    "we are investing in upskilling our workforce to build confidence in the proper use and innovative application of these next-generation tools"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "flawed algorithms and/or biased, incomplete or inaccurate data used in AI programs may result in deficient AI-generated content",
+    "malfunctions or outages of these systems, certain of which are managed, hosted or provided by third parties, may result in operational disruptions, data loss, or inaccurate content",
+    "Our competitors may also develop or adopt more effective AI technologies, resulting in more efficient operations and putting us at a competitive disadvantage"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases described as deployed (R&D infusion, commercial productivity) but no quantified business results (%, $, time saved) are provided, limiting narrative concreteness to 4.",
+  "The $2.0 billion cost savings figure is tied to a broad productivity initiative, not AI-attributable specifically, so excluded from capex_mentions.",
+  "Risk disclosure excerpts appear in [business] and [risk_factors] sections; AI risks are named and mechanisms described (competitive disadvantage, regulatory uncertainty, third-party dependency, data/algorithm flaws) but no quantification or named governance body is disclosed, limiting risk score to 4."
+ ],
+ "_meta": {
+  "accession": "0000014272-26-000004",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/14272/000001427226000004/bmy-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:18:43.654317+00:00"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "ticker": "DVA",
+ "source_document_id": "0000927066-26-000012",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have made and expect to continue to invest significant resources in the implementation of these new artificial intelligence technologies",
+    "leveraging artificial intelligence to increase access to personalized development for our teammates",
+    "healthcare companies are increasingly incorporating into information technology capabilities machine learning or automation for real-time prevention utilizing artificial intelligence"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "leveraging artificial intelligence to increase access to personalized development for our teammates, ensuring they have resources to support their career objectives",
+    "changes resulting from the use of artificial intelligence to support clinical practices",
+    "machine learning or automation for real-time prevention utilizing artificial intelligence for anomaly-based detection, among other uses"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "implementation and adoption risks include potential design defects, defects in the development of algorithms, biased data/discrimination, potential security breaches or unauthorized access to or use of PHI, failure to comply with certain state requirements",
+    "if these technologies or applications fail to operate as anticipated...we may be...unable to effic[iently operate]",
+    "The reliability and performance of these new capabilities remain unknown...it is possible they may not perform as desired, by being either too restrictive...or not restrictive enough"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI capex dollar amounts or headcount figures appear in the excerpts; investment intensity scored 3 based on named initiatives and stated commitment without quantification.",
+  "AI narrative concreteness scored 3 because named use cases (clinical support, teammate development, cybersecurity anomaly detection) are described but no deployment status metrics or quantified outcomes are provided.",
+  "Risk disclosure scored 4 because company-specific risk mechanisms are described (PHI breach, algorithm defects, bias, regulatory non-compliance) with operational impact pathways, though no quantified risk figures or named formal oversight body beyond CISO/CPO roles are present in excerpts.",
+  "Excerpts are pre-filtered; full filing may contain additional capex or deployment detail not visible here."
+ ],
+ "_meta": {
+  "accession": "0000927066-26-000012",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000012/dva-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:46:30.016191+00:00"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "ticker": "GRMN",
+ "source_document_id": "0001193125-26-056028",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.8
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Garmin is a tier-one supplier of domain controllers... controlling various systems including infotainment, instrumentation, key advanced driver-assistance systems (ADAS) functionality",
+    "Garmin s automation and advanced production processes provide in-service robustness and consistent reliability standards"
+   ],
+   "confidence": 0.45
+  },
+  "ai_risk_disclosure_depth": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no AI-specific capex, budget, headcount, or infrastructure investment disclosed in the provided excerpts; null is appropriate rather than a low score",
+  "ai_narrative_concreteness: excerpts reference ADAS and automation in passing but contain no explicit AI/ML terminology, no named AI initiatives, and no deployment metrics; ADAS mention is borderline and scored conservatively at 2 (aspirational/generic); confidence is low due to ambiguity",
+  "ai_risk_disclosure_depth: no risk-factor section content appears in the provided excerpts; absence from excerpts does not imply absence from the full filing; scored null per scope guard",
+  "Excerpts are heavily product-description focused (marine, auto OEM, manufacturing); AI-specific content is minimal or absent in what was provided"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-056028",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1121788/000119312526056028/grmn-20251227.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T18:09:00.764285+00:00"
+ }
+}

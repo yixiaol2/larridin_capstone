@@ -1,0 +1,52 @@
+{
+ "ticker": "ANET",
+ "source_document_id": "0001596532-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our research and development strategy focuses on... (1) adapting EOS for new and existing silicon architectures, especially to support the unique requirements of AI workloads",
+    "Arista has made AI skills development an enterprise-wide priority... In 2025, employees participated in many general and department-specific live, webinar, and self-paced training to improve their overall and job-specific AI skills",
+    "The Arista Etherlink portfolio comprises a family of over twenty products designed to support the diverse range of AI Scale Out and Scale Across use cases today and Scale Up in the future."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Arista AVA (autonomous virtual assist) is an agentic AI-enabled decision-support system that provides unprecedented visibility... proactively identify issues such as unusual connectivity jitter, failing optics, a lack of disk space, or network security threats",
+    "The Arista 7800R AI Spine, 7060 AI Leaf, and the 7700R4 Distributed Etherlink Switch are designed to address the demanding scale and performance requirements of AI Scale Out, Scale Up and Scale Across networking.",
+    "CloudVision is Arista's modern, multi-domain AI Ops and management platform that leverages cloud networking principles to deliver a simplified end-to-end network operations experience for our Enterprise market."
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "An increased focus on the deployment of AI-enabled solutions by these customers has accelerated the need for advanced technology offerings... prioritization of AI related infrastructure investment has at times come in conjunction with... various cost reduction measures... which could negatively impact our revenue.",
+    "Customers may overestimate demand for their AI build outs and cancel, delay, reduce or otherwise modify their purchase commitments with little or no notice to us.",
+    "We have not established broad market awareness or acceptance of our AI Ethernet products that will compete against more established InfiniBand products or against the AI Ethernet products of other competitors."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts for AI-specific R&D or capex were found in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "AI narrative concreteness scored 4 (deployed products with operating detail) but no quantified business results (e.g., % efficiency gains, revenue from AI products) were present to justify a score of 5.",
+  "Risk disclosure scored 4 based on company-specific risk mechanisms (revenue impact, customer cancellation, competitive displacement by InfiniBand); no quantified risk figures or named governance/oversight bodies were found to justify a score of 5.",
+  "Capex mentions list is empty as no specific dollar amounts tied to AI investment were disclosed in the provided excerpts."
+ ],
+ "_meta": {
+  "accession": "0001596532-26-000013",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 4.3,
+  "extracted_at": "2026-06-15T20:12:31.123999+00:00"
+ }
+}

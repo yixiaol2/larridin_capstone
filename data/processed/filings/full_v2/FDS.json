@@ -1,0 +1,52 @@
+{
+ "ticker": "FDS",
+ "source_document_id": "0001628280-25-045769",
+ "source_type": "sec_filing",
+ "source_date": "2025-10-22",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Strategic Hiring: Recruitment in critical roles, including data solutions, AI, machine learning, product management, and client-facing positions.",
+    "A major focus in fiscal 2025 was enhancing our AI capabilities... Employees advanced skills in prompt engineering, coding, vector databases, and data querying.",
+    "We continue to invest in AI solutions that adapt as our clients workflows evolve, helping professionals leverage automation, generative intelligence, and dynamic analytics."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "FactSet's AI solutions are generating usage, demand and commercial transactions... delivering AI embedded workflow solutions for research analysts, bankers, portfolio managers, wealth advisors.",
+    "AI-powered prospecting, monitoring and proposal generation tools that enable financial advisors to grow and enhance existing client relationships.",
+    "curated datasets and turnkey APIs to enable technologists and developers to power new AI-based workflows with programmatic access to FactSet's high-quality, connected content."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI technologies can lead to unintended consequences and errors, including generating content that appears correct but is factually inaccurate, misleading or otherwise flawed, or that results in unintended biases.",
+    "Use of AI technologies may also increase risks related to cyberattacks or other security incidents or result in a failure to protect confidential information.",
+    "Despite our investments in, and commitment of resources to, the development of AI products and technologies, we may not be successful in generating revenues from these efforts."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts for AI-specific investment, R&D, or capex were found in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "ai_narrative_concreteness scored 4 (deployed use cases with operating detail) but no quantified business results (%, $, time saved) were disclosed, preventing a score of 5.",
+  "Promotional language present throughout business description sections; concreteness score reflects described deployment status, not independently verified outcomes.",
+  "capex_mentions list is empty as no dollar or quantity figures tied to AI investment appeared in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001628280-25-045769",
+  "filing_date": "2025-10-22",
+  "url": "https://www.sec.gov/Archives/edgar/data/1013237/000162828025045769/fds-20250831.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:43:55.982459+00:00"
+ }
+}

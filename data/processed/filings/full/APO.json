@@ -1,0 +1,51 @@
+{
+ "ticker": "APO",
+ "source_document_id": "0001858681-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "our employees can utilize internal generative AI-powered applications to help summarize, search or translate documents or gather information on a wide variety of topics",
+    "we expect, from time to time, to adopt and adjust usage policies and procedures governing the use of AI Technologies by our personnel"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "our employees can utilize internal generative AI-powered applications to help summarize, search or translate documents or gather information on a wide variety of topics",
+    "We also face competitive risks if we fail to adopt AI Technologies in a timely fashion",
+    "We may also communicate externally regarding AI Technology-related initiatives, including our development and use of AI Technologies"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI Technologies could significantly disrupt the business models, investment strategies, operational processes, and markets in which we operate and subject us to increased competition, legal and regulatory risks and compliance costs",
+    "Advancements in computing and AI Technologies, including efficiency improvements, without related increases in the adoption and development of such technologies, could also negatively impact demand for, and the valuation of, digital infrastructure assets",
+    "If the data we, our affiliates or third parties whose services we rely on, use in connection with the possible development or deployment of AI Technologies...is incomplete, incorrect, inadequate or biased...it may result in flawed algorithms...and could subject us to legal and regulatory investigations"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI capex, headcount, or budget figures appear in the excerpts; investment intensity scored 2 based on generic internal tool deployment with no named vendors, dollar amounts, or dedicated AI budget disclosed.",
+  "Narrative concreteness is limited to one named internal use case (generative AI document summarization/search); no deployment metrics or quantified outcomes disclosed — scored 3.",
+  "Excerpts are predominantly from risk_factors and business sections; no MD&A or capital allocation sections present, so capex_mentions list is empty.",
+  "AI risk disclosure is extensive and company-specific (competitive disruption to digital infrastructure valuations, data bias/flawed algorithms, cybersecurity via AI, regulatory compliance costs, MNPI misuse) with named mechanisms — scored 4; no quantified risk figures or named governance bodies found to warrant a 5."
+ ],
+ "_meta": {
+  "accession": "0001858681-26-000013",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000013/apo-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:23:57.779140+00:00"
+ }
+}

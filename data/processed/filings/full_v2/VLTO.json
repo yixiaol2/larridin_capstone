@@ -1,0 +1,49 @@
+{
+ "ticker": "VLTO",
+ "source_document_id": "0001967680-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We are in the early stages of incorporating artificial intelligence (AI) into our business activities and our product and service offerings.",
+    "the development and deployment of AI will require additional investment and increase our costs"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We are in the early stages of incorporating artificial intelligence (AI) into our business activities and our product and service offerings.",
+    "any failure to successfully develop and deploy AI in our business activities, products and services could adversely affect our competitiveness"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may be flawed or may be based on datasets that are biased or insufficient.",
+    "any disruption or failure in the AI functionality we incorporate into our business activities, products or services could adversely impact our business or result in delays or errors",
+    "Compliance with new or changing laws, regulations or industry standards relating to AI may impose significant costs and may limit our ability to develop, deploy or use AI technologies."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no quantified AI spend, headcount, or named programs disclosed; only early-stage acknowledgment and forward-looking cost references.",
+  "ai_narrative_concreteness: no named AI initiatives, use cases, or deployment status described; language is entirely aspirational and risk-framing.",
+  "ai_risk_disclosure_depth: risk section present and contains company-specific AI risk mechanisms (algorithmic bias, product failure, regulatory compliance costs, competitive disadvantage), justifying score 4; no quantification or named governance bodies found to reach score 5."
+ ],
+ "_meta": {
+  "accession": "0001967680-26-000011",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000011/vlto-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-15T21:43:22.214484+00:00"
+ }
+}

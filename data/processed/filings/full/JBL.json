@@ -1,0 +1,52 @@
+{
+ "ticker": "JBL",
+ "source_document_id": "0001628280-25-045293",
+ "source_type": "sec_filing",
+ "source_date": "2025-10-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our Intelligent Infrastructure segment is focused on the modern digital ecosystem including artificial intelligence (AI) infrastructure and includes revenues from customers primarily in the capital equipment, cloud and data center infrastructure",
+    "AI-driven orchestration systems that deliver real-time data insights to support cost management, inventory optimization, and risk mitigation across global supply networks",
+    "Artificial intelligence and machine learning — listed among R&D technology activities spanning markets served"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "procurement intelligence platforms and AI-driven orchestration systems that deliver real-time data insights to support cost management, inventory optimization, and risk mitigation",
+    "Intelligent Infrastructure segment net revenue increased 34% primarily due to a 30% increase in revenues from existing customers within our cloud and data center infrastructure business",
+    "deployment of AI within the Company — referenced as a governed activity under cybersecurity policies"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The increased use of artificial intelligence (AI) technologies in our services and operations may exacerbate these risks... inadvertent disclosure of our confidential information through its incorporation into publicly available training sets",
+    "If we are unable to offer technologically advanced... manufacturing services... (including utilization of machine learning and artificial intelligence)... demand for our services will decline",
+    "subject to extensive government regulation... relating to... machine learning, and artificial intelligence... Failure or noncompliance could have an adverse effect on our reputation, customer relationships, profitability"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or dollar amounts disclosed in the excerpts; investment intensity scored 3 based on named infrastructure segment and named AI systems without financial scale",
+  "Narrative concreteness scored 4 based on deployed AI systems described with operational detail; no quantified business results (e.g., % cost savings) found in excerpts to warrant score 5",
+  "The 34% Intelligent Infrastructure revenue growth is attributed to cloud/data center customers, not directly to Jabil's own AI investment spend",
+  "Risk disclosure scored 4 for company-specific mechanisms (data leakage via AI training sets, regulatory noncompliance, competitive decline) but no quantified risk exposure or named oversight body beyond cybersecurity policy references"
+ ],
+ "_meta": {
+  "accession": "0001628280-25-045293",
+  "filing_date": "2025-10-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/898293/000162828025045293/jbl-20250831.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T18:21:33.742742+00:00"
+ }
+}

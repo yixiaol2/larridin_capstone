@@ -1,0 +1,51 @@
+{
+ "ticker": "LOW",
+ "source_document_id": "0000060667-26-000029",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are making investments to expand our AI capabilities in our business, including ongoing deployment and improvement of existing machine learning and AI technologies, as well as developing new features using AI technologies",
+    "We anticipate increased investments in the future to improve our use of AI",
+    "We continue to develop and implement productivity tools, including freight flow optimization and advanced AI customer service tools"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We have developed an AI framework designed to enhance the customer experience and unlock productivity across three pillars how we sell, how we shop, and how we work",
+    "We use AI-powered solutions designed to enable quick and personalized customer interactions, design assistance platforms, and tools for better forecasting, sourcing, inventory planning, and faster fulfillment",
+    "we currently leverage internally developed and third-party developed AI, including both predictive and generative AI-powered solutions, to facilitate a more efficient operation"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "The Company also established an AI Governance Committee, which is composed of leaders across a variety of business, technology, and support functions, to oversee and approve ongoing enhancements to our AI governance framework",
+    "we developed an AI cybersecurity strategy designed to enable the building of secure and reliable AI systems while also managing ethical, legal, cyber, data privacy, and other technology risks",
+    "Flaws, breaches, or malfunctions in these systems could lead to operational disruptions, data loss, erroneous decision-making, regulatory scrutiny, reputational harm, or legal liability"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures are tied specifically to AI investment in the excerpts; the $400 million figure cited relates to energy efficiency/HVAC/LED projects, not AI, so it was excluded from capex_mentions and did not elevate ai_investment_intensity to 4.",
+  "ai_narrative_concreteness scored 4 rather than 5 because no quantified business results (%, $, time saved, volume) are provided for the named AI use cases — language is operational but not metric-backed.",
+  "Promotional/aspirational language is present alongside concrete named initiatives; confidence is moderated accordingly."
+ ],
+ "_meta": {
+  "accession": "0000060667-26-000029",
+  "filing_date": "2026-03-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/60667/000006066726000029/low-20260130.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:06:21.323074+00:00"
+ }
+}

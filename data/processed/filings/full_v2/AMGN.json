@@ -1,0 +1,51 @@
+{
+ "ticker": "AMGN",
+ "source_document_id": "0000318154-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are applying artificial intelligence to our R&D activities, including applying such technologies to advance our human data efforts and our generative biology platform that seek to discover and design new drugs",
+    "In 2025, we invested in general upskilling of our staff on skills for the future, including topics such as AI",
+    "the Company established an AI Governance Council composed of cross-functional leadership that oversees the safe adoption of third-party AI services, including by establishing guardrails... and allocating resources to provide staff training"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we are applying artificial intelligence to our R&D activities, including applying such technologies to advance our human data efforts and our generative biology platform that seek to discover and design new drugs",
+    "AI Governance Council composed of cross-functional leadership that oversees the safe adoption of third-party AI services, including by establishing guardrails to reduce risks",
+    "Dr. Reese... became the Company's inaugural Executive Vice President and Chief Technology Officer in 2023, responsible for accelerating the use of technology and artificial intelligence across the organization"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "AI Governance Council co-sponsored by our Chief Compliance Officer and Senior Vice President, Artificial Intelligence Data... oversees the safe adoption of third-party AI services, including by establishing guardrails to reduce risks",
+    "AI systems may produce inaccurate or flawed outputs due to flawed algorithms, or insufficient and/or erroneous training data. Reliance on flawed outputs could prevent us from effectively utilizing AI",
+    "the EU Artificial Intelligence Act... establishes a risk-based framework governing the development, deployment and use of AI systems... High-risk AI systems are subject to stringent requirements such as mandatory risk assessments, technical documentation, bias mitigation"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts or quantified AI-specific spend disclosed in the excerpts; named programs and dedicated leadership exist but scale is unquantified, capping score at 3",
+  "ai_narrative_concreteness: Generative biology platform and R&D AI use cases are named and described as in deployment/use, but no quantified business results (%, $, time saved) are provided in the excerpts",
+  "capex_mentions: No AI-attributable dollar figures found in the excerpts"
+ ],
+ "_meta": {
+  "accession": "0000318154-26-000010",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000010/amgn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:09:51.811125+00:00"
+ }
+}

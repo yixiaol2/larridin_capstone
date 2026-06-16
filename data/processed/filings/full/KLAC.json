@@ -1,0 +1,52 @@
+{
+ "ticker": "KLAC",
+ "source_document_id": "0000319201-25-000024",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-08",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are increasingly incorporating AI capabilities into the development of technologies and our business operations, and into our products and services.",
+    "increased investments by leading edge foundries driven by the AI infrastructure buildout, strong customer adoption of our advanced packaging portfolio",
+    "Demand for advanced semiconductor technologies...continues to drive investments in AI. Increasing complexity and value of semiconductor packages, particularly for AI and HPC applications"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Increasing complexity and value of semiconductor packages, particularly for AI and HPC applications, is also driving significant growth in the advanced packaging business.",
+    "increased revenue from packaging products related to AI",
+    "increased investments in process control to meet leading edge demand driven by innovation and growth of new technologies like AI, with that region recording 27%...of total revenues"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms or training methodologies may be flawed, and datasets may contain irrelevant, insufficient or biased information, which can cause errors in outputs. This may give rise to legal liability, damage our reputation",
+    "The use of AI in the development of our products...could also cause loss of IP, as well as subject us to risks, including third-party claims, related to IP infringement or misappropriation, data privacy and cybersecurity.",
+    "AI may be used to generate cyberattacks...attacks crafted with AI tools could directly attack our IT Systems...with greater speed and/or efficiency than a human threat actor or create more effective phishing emails."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or investment dollar amounts appear in the excerpts; investment intensity scored 3 based on named initiatives and partnerships implied by product lines rather than disclosed spend figures.",
+  "AI narrative concreteness is driven primarily by revenue attribution to AI-related demand (advanced packaging, Taiwan customer investments) rather than KLA's own deployed AI tools with quantified internal results; score reflects deployed product use cases with operating detail.",
+  "Promotional/aspirational language present alongside risk disclosures; confidence in concreteness score modestly reduced.",
+  "No quantified risk metrics or named governance/oversight bodies for AI risk found in excerpts; risk disclosure scored 4 for company-specific mechanisms but not 5."
+ ],
+ "_meta": {
+  "accession": "0000319201-25-000024",
+  "filing_date": "2025-08-08",
+  "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920125000024/klac-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-11T18:23:02.319217+00:00"
+ }
+}

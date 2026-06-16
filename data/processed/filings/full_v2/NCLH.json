@@ -1,0 +1,49 @@
+{
+ "ticker": "NCLH",
+ "source_document_id": "0001104659-26-022067",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-02",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We use AI technologies in some of our business processes, including some consumer-facing features.",
+    "Developing our own AI technologies requires resources to develop, test, and maintain such technologies, which could be costly."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We use AI technologies in some of our business processes, including some consumer-facing features.",
+    "Adding AI technologies, especially generative AI, in both new and existing business processes may introduce additional risks."
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Threat actors are increasingly leveraging AI to enhance the sophistication, speed, and effectiveness of cyberattacks... our security measures may not keep pace with these evolving capabilities.",
+    "Using AI technologies may lead to accuracy issues, security vulnerabilities, or biases... adversely impact our reputation, business, financial condition and results of operations.",
+    "We may also fail to adopt AI technologies at an appropriate pace, which could put us at a competitive disadvantage."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount, or quantified resource commitments tied to AI are disclosed; named use of AI in business processes and own development mentioned but unquantified, limiting score to 3.",
+  "ai_narrative_concreteness: AI use cases described only at a high level ('some business processes', 'consumer-facing features') with no deployment metrics or operational detail; generative AI mentioned aspirationally in risk context.",
+  "ai_risk_disclosure_depth: Risk-section material is present and discusses AI risks with named mechanisms (accuracy issues, security vulnerabilities, regulatory scrutiny, competitive disadvantage, cyberattack enablement), supporting score 4; no quantified risk exposure or named governance/oversight bodies found in excerpts, which would be required for score 5."
+ ],
+ "_meta": {
+  "accession": "0001104659-26-022067",
+  "filing_date": "2026-03-02",
+  "url": "https://www.sec.gov/Archives/edgar/data/1513761/000110465926022067/nclh-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:17:54.396494+00:00"
+ }
+}

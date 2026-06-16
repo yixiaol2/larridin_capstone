@@ -1,0 +1,51 @@
+{
+ "ticker": "HSIC",
+ "source_document_id": "0001000228-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have increased and expect to continue to increase our use of AI technologies in various contexts to improve customer and patient experiences and drive efficiencies in certain areas of our business",
+    "making AI features available within our practice management systems, which, among other things, helps dentists and clinical staff detect caries",
+    "We sell practice management, business analytics, revenue cycle management, clinical workflow, artificial intelligence, patient engagement and patient demand creation software solutions to our dental customers"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "making AI features available within our practice management systems, which, among other things, helps dentists and clinical staff detect caries",
+    "using AI applications to generate patient data (including, without limitation, using AI to capture and summarize patient interactions, and voice-activated perio charting)",
+    "We sell practice management, business analytics, revenue cycle management, clinical workflow, artificial intelligence...software solutions to our dental customers"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The use of AI in healthcare offerings poses certain clinical risks resulting from potential misdiagnosis or misinformation provided from AI applications, diminishing critical judgment, or loss of interpersonal care from clinicians",
+    "cyberattacks have become more difficult to detect...They increasingly exploit AI and machine learning techniques, such as generative AI-phishing, deepfake impersonations, automated vulnerability discovery, adaptive malware",
+    "widely accessible generative AI that rapidly surpasses our organizational ability to understand associated risks...could endanger our intellectual property, lead to misuse or loss of data and cause reputational harm and other fines, penalties or losses"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied to AI investment were found in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "Narrative concreteness scored 4 based on named deployed use cases (caries detection, perio charting, patient interaction summarization) with operational detail but no quantified business results (e.g., accuracy rates, revenue contribution).",
+  "Risk disclosure scored 4 due to company-specific risk mechanisms described (clinical misdiagnosis, IP endangerment, regulatory penalties, cybersecurity exploitation), but no quantified risk exposure or named governance oversight body was found to justify a score of 5."
+ ],
+ "_meta": {
+  "accession": "0001000228-26-000013",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/000100022826000013/hsic-20251227.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:52:54.031907+00:00"
+ }
+}

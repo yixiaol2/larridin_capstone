@@ -1,0 +1,49 @@
+{
+ "ticker": "EL",
+ "source_document_id": "0001001250-25-000099",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we continue to invest in new capabilities and the use of emerging technologies, including investments in AI, across various aspects of our business",
+    "strategic utilization of data to provide better visibility into consumer trends, to increase responsiveness in our product development"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we are using AI to identify insights to inform consumer-centric campaigns, develop and test concepts, and produce creative content",
+    "We are using AI solutions, including machine learning and generative AI tools, to assist in the development of our products, engage with consumers, and in the use of internal tools"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "risks related to harmful content, inaccuracies, hallucinations, bias or discrimination, and intellectual property infringement",
+    "the use of AI may increase cybersecurity and data privacy risks, such as intended, unintended, or inadvertent access to, transmission, or leakage of proprietary or sensitive information",
+    "our obligation to comply with the evolving regulatory landscape could entail significant costs, negatively affect our business, or limit our ability to incorporate certain AI capabilities"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no quantified dollar amounts, headcount, or capex figures tied to AI investment disclosed in the excerpts; named initiatives present but unquantified, capping score at 3",
+  "ai_narrative_concreteness: use cases named and described as in deployment (production creative content, consumer engagement, internal tools), but no quantified business results (%, $, time saved) disclosed; score capped at 4",
+  "capex_mentions: no dollar or quantity figures for AI/compute investment found in the excerpts"
+ ],
+ "_meta": {
+  "accession": "0001001250-25-000099",
+  "filing_date": "2025-08-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125025000099/el-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T17:56:31.798428+00:00"
+ }
+}

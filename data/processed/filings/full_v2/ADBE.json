@@ -1,0 +1,52 @@
+{
+ "ticker": "ADBE",
+ "source_document_id": "0000796343-26-000003",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-15",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are harnessing the power of AI across our solutions by bringing together our commercially safe first-party and leading partner AI models best suited for the job; deploying conversational and agentic capabilities",
+    "make, significant investments in research and development to advance the value and impact of our solutions, and to continue integrating generative and agentic technologies across our tools",
+    "Adobe Research team of scientists, engineers, artists and designers are inventing the future of creativity, productivity and customer experiences... advances the state of the art across 12 research areas spanning AI and machine learning"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Acrobat AI Assistant, our generative AI-powered conversational engine, gives users the power to work more productively with their PDFs by summarizing and answering questions about documents",
+    "Firefly Custom Models enable quick content creation that is on-brand or in an artist's own aesthetic style through Firefly generative AI image models trained with an enterprise's brand content",
+    "Adobe GenStudio for Performance Marketing, a generative AI-first solution that enables marketing teams to use generative AI to quickly create, deliver and optimize on-brand digital experiences"
+   ],
+   "confidence": 0.85
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "there can be no assurance that our new or enhanced solutions and AI innovations will be successful, adopted or monetizable or that we will innovate effectively to keep pace with the rapid evolution of AI",
+    "If we do not successfully innovate, adapt to rapid technological or industry changes and meet customer needs, our business and our financial results may be materially harmed",
+    "We operate globally and are subject to a wide range of laws and regulations... covering a wide variety of subject matters, including... AI"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts for AI-specific R&D or capex were found in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "ai_narrative_concreteness scored 4 (deployed use cases with operating detail) but no quantified business results (e.g., % productivity gains, revenue from AI features) were present in the excerpts to justify a score of 5.",
+  "Risk disclosure excerpts are present in [risk_factors] sections; risks named are category-level (innovation failure, competition, regulation) but lack quantified scenarios or named governance bodies, supporting score of 3 rather than 4 or 5.",
+  "Excerpts are pre-filtered; full risk-factor section may contain more specific AI risk disclosures not captured here."
+ ],
+ "_meta": {
+  "accession": "0000796343-26-000003",
+  "filing_date": "2026-01-15",
+  "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T20:04:44.465874+00:00"
+ }
+}

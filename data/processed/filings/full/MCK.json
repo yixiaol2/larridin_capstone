@@ -1,0 +1,50 @@
+{
+ "ticker": "MCK",
+ "source_document_id": "0000927653-26-000069",
+ "source_type": "sec_filing",
+ "source_date": "2026-05-08",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We invest in data and analytics to support our growth priorities, including artificial intelligence (AI).",
+    "We are in the early stages of exploring potential AI capabilities and related data and analytics across our enterprise to improve productivity and efficiency."
+   ],
+   "confidence": 0.8
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We are in the early stages of exploring potential AI capabilities and related data and analytics across our enterprise to improve productivity and efficiency, as well as enhance our products and services.",
+    "We increasingly rely on technologies powered by or incorporating AI in our internal operations and business processes.",
+    "We have increased, and expect to continue to increase, our use of AI technology."
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI can generate outputs that are false, misleading, incomplete, biased, or inconsistent. AI performance may degrade over time...due to changes in inputs, data drift, updates by vendors, adversarial manipulations.",
+    "Reliance on third-party AI tools and solutions may expose us to risks that are outside of our control, including compliance gaps. Our AI policies and safeguards may not be sufficient.",
+    "If we or our third-party providers are restricted from using AI as a result of any laws...it could impact our operations and competitiveness, increase our compliance expense and burden...and cause us to modify our use."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; investment intensity scored 2 reflecting generic aspirational language with no named systems, vendors, or dollar amounts.",
+  "AI narrative is largely aspirational and early-stage; no named deployed use cases or quantified outcomes disclosed in these excerpts.",
+  "Risk disclosure is company-specific and mechanism-level (score 4) but no quantified risk figures or named governance oversight bodies for AI specifically are present, preventing a score of 5."
+ ],
+ "_meta": {
+  "accession": "0000927653-26-000069",
+  "filing_date": "2026-05-08",
+  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000069/mck-20260331.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 15,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T18:31:31.976173+00:00"
+ }
+}

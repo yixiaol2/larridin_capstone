@@ -1,0 +1,51 @@
+{
+ "ticker": "PNW",
+ "source_document_id": "0000764622-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "APS has developed an AI strategy to responsibly utilize AI to advance our business strategy, enhance customer and employee experiences, and optimize operational reliability",
+    "In 2024, APS began installing a system of artificial intelligence-based fire sensing cameras with the ability to detect and alert on fire ignitions",
+    "implementing automation technologies to enhance efficiencies and increase data-oriented decision making"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "APS began installing a system of artificial intelligence-based fire sensing cameras with the ability to detect and alert on fire ignitions. These alerts are sent both to APS and fire response dispatch centers",
+    "APS has developed an AI strategy...At the core of our AI strategy is a robust governance model that develops guidance, policies, and relevant sub-strategies for the execution of AI projects",
+    "if APS fails to strategically implement artificial intelligence, it could miss the opportunity for cost savings, face increasing costs on legacy systems, insufficiently integrate internal and external data sets"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "APS has developed an AI strategy to responsibly utilize AI...governance and oversight are provided by leadership and experts from our information technology, cybersecurity, human resources, ethics, supply chain, legal, and nuclear generation teams",
+    "APS s strategy...in adopting new technologies, such as artificial intelligence, could also adversely impact APS s business...risk misusing artificial intelligence, impact employee satisfaction",
+    "significant uncertainties exist regarding the future energy demand associated with data centers and AI...could lead to stranded costs and other effects that could have material adverse impacts on APS s financial condition"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; score of 3 reflects named initiatives and governance structures without quantified scale",
+  "The AI governance body is named and described in detail (supporting score 5 on risk depth), but no formal quantified risk metrics or dollar-denominated risk exposures are disclosed — score reflects named oversight bodies and named risk mechanisms rather than quantification",
+  "Capex table referenced in Item 7 (Liquidity and Capital Resources) was not included in the pre-filtered excerpts; AI-specific capex figures may exist elsewhere in the filing"
+ ],
+ "_meta": {
+  "accession": "0000764622-26-000011",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/764622/000076462226000011/pnw-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 2.4,
+  "extracted_at": "2026-06-11T18:47:07.437444+00:00"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "ticker": "LYB",
+ "source_document_id": "0001489393-26-000012",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "The Company's generative artificial intelligence strategy is to Generate Responsibly, actively providing education and awareness, encouraging the safe exploration of generative AI tools and resources"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "encouraging the safe exploration of generative AI tools and resources, consistent with Company data protection policies and standards",
+    "we face potential missed innovation opportunities and competitive disadvantages"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "data privacy and security vulnerabilities, intellectual property patent, copyright, and misappropriation claims, unauthorized third-party usage of data associated with training models",
+    "AI may be leveraged by threat actors to enhance the volume and sophistication of their attacks, potentially resulting in a cybersecurity event affecting us or our suppliers",
+    "The evolving nature of AI regulations, such as the European Union Artificial Intelligence Act...may require significant adjustments to our AI strategies and operations, potentially leading to increased costs and operational disruptions"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or named vendor/infrastructure partnerships disclosed in the excerpts; strategy described only in qualitative/aspirational terms.",
+  "ai_narrative_concreteness: No named deployed use cases or production metrics found; language is exploratory and policy-oriented rather than operational.",
+  "item_8 excerpt contains a reference to 'AI International Chemicals S.R.L.' which is a shareholder entity name, not an AI technology reference — excluded from scoring."
+ ],
+ "_meta": {
+  "accession": "0001489393-26-000012",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1489393/000148939326000012/lyb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-11T18:28:12.163219+00:00"
+ }
+}

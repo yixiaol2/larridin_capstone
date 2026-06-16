@@ -1,0 +1,51 @@
+{
+ "ticker": "MSFT",
+ "source_document_id": "0000950170-25-100235",
+ "source_type": "sec_filing",
+ "source_date": "2025-07-30",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We make significant investments in research and development for new and existing products, services, and technologies, including tools and platforms spanning digital work and life experiences, cloud computing, AI",
+    "We are incurring significant costs to build and maintain infrastructure to support cloud-based and AI services, reducing operating margins.",
+    "We continue to align our datacenter locations and server capacity to meet the evolving needs of our customers, particularly given the growing demand for AI services."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Azure AI Foundry is a unified platform for developers to design, customize, and manage AI applications and agents.",
+    "Applying AI and ambient intelligence to drive insights, revolutionize many types of work and business processes, and provide substantive productivity gains using Microsoft 365 Copilot and agents.",
+    "Nuance Healthcare provides AI solutions to the healthcare industry. GitHub provides a collaboration platform for developers to manage code and incorporate AI and agent-based tools across the software development lifecycle."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Issues in the development, deployment, and use of AI may result in reputational or competitive harm or liability. AI algorithms or training methodologies may be flawed. Datasets may be overbroad, insufficient, or contain biased or inaccurate information.",
+    "Our implementation of AI systems could result in legal liability, regulatory action, brand, reputational, or competitive harm... risks may stem from issues related to intellectual property, data privacy, and other claims associated with AI training and outputs.",
+    "Increasing use of generative AI models in our internal systems may create new attack surfaces or methods for adversaries."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, GPU counts, or quantified capex figures for AI/datacenter investment appear in the excerpts; named infrastructure (Azure, datacenters, GPUs) and explicit cost acknowledgments support a score of 3 but not 4 or 5.",
+  "ai_narrative_concreteness: Multiple named deployed products (Copilot, Azure AI Foundry, Nuance, GitHub Copilot) described with operational detail, but no quantified business results (revenue contribution, user counts, productivity metrics) appear in these excerpts, capping score at 4.",
+  "capex_mentions: No specific dollar or capacity figures tied to AI/compute investment were found in the provided excerpts."
+ ],
+ "_meta": {
+  "accession": "0000950170-25-100235",
+  "filing_date": "2025-07-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T18:33:40.924179+00:00"
+ }
+}

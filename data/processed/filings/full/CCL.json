@@ -1,0 +1,49 @@
+{
+ "ticker": "CCL",
+ "source_document_id": "0000815097-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "leveraging AI to improve marketing effectiveness, deliver personalized experiences and drive efficiency gains across all our cruise lines",
+    "A failure to adopt the appropriate technology, including AI, or a failure, disruption or obsolescence in the technology that we do adopt, could have adverse effects"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "enhancing our commercial strategies by leveraging AI to improve marketing effectiveness, deliver personalized experiences and drive efficiency gains across all our cruise lines",
+    "world-class cruise lines are refining their focus on target markets, sharpening marketing messages and reaching target consumers more efficiently"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "rapid evolution and growing adoption of AI technologies by various threat actors may enhance their ability to conduct attacks which are more difficult to prevent, detect or remediate",
+    "integrating AI into our operations may increase our cybersecurity and data privacy risks",
+    "with the increased use of artificial intelligence (AI) and social media, adverse publicity, even if unfounded, has been and can continue to be disseminated quickly and broadly"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific spend, headcount, or capex figures appear in the excerpts; investment intensity scored 2 based on named use cases without budget or vendor detail.",
+  "AI narrative concreteness scored 3 as use cases are named (marketing effectiveness, personalization, efficiency) but no deployment metrics or quantified outcomes are disclosed.",
+  "Risk disclosure scored 4 because specific mechanisms are described (AI-enhanced cyberattacks harder to detect/remediate, AI integration increasing cybersecurity/data privacy risk, AI-accelerated adverse publicity) but no quantified risk exposure or named governance body appears in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000815097-26-000007",
+  "filing_date": "2026-01-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T17:36:46.877108+00:00"
+ }
+}

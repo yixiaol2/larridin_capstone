@@ -1,0 +1,50 @@
+{
+ "ticker": "DECK",
+ "source_document_id": "0001628280-26-037664",
+ "source_type": "sec_filing",
+ "source_date": "2026-05-22",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We and our third-party service providers are increasingly using AI, data analytics, and machine learning technologies across our business, including operational and IT systems, digital platforms, and certain business processes.",
+    "Our CDDO has served in his role since September 2024. He has over 15 years of experience in digital transformations, enterprise technology, artificial intelligence, and data management."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We and our third-party service providers are increasingly using AI, data analytics, and machine learning technologies across our business, including operational and IT systems, digital platforms, and certain business processes.",
+    "use of data analytics and AI... leverage advanced data analytics or AI, adapt to technological changes",
+    "our operations also depend on the continued performance of internal information systems and third-party technology providers, including systems utilizing data analytics and AI"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our use of AI...may introduce additional risks related to the integrity, security, and governance of data...including the potential for unauthorized use, processing, or exposure of sensitive information",
+    "use of AI technologies in the creation or development of content, designs, or other intellectual property may present uncertainty regarding ownership, copyright-ability, or potential infringement",
+    "The legal and regulatory landscape governing AI is rapidly evolving, and compliance with new or changing requirements may require additional resources or operational changes."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex, headcount, or budget figures appear in the excerpts; investment intensity scored 3 based on named use areas and a dedicated CDDO role with AI expertise but no dollar amounts.",
+  "AI use cases are named (operational/IT systems, digital platforms, business processes, content/design) but no deployment metrics or quantified outcomes are disclosed; concreteness capped at 3.",
+  "Risk disclosure is company-specific with named mechanisms (data integrity, IP ownership, regulatory compliance, operational disruption) but no quantified risk exposure or named governance body beyond general CDDO/CISO oversight; scored 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-037664",
+  "filing_date": "2026-05-22",
+  "url": "https://www.sec.gov/Archives/edgar/data/910521/000162828026037664/deck-20260331.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-11T17:47:29.340095+00:00"
+ }
+}

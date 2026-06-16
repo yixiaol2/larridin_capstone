@@ -1,0 +1,50 @@
+{
+ "ticker": "SBUX",
+ "source_document_id": "0000829224-25-000114",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-14",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "if we do not continuously strengthen our capabilities in marketing, data analytics (including artificial intelligence and machine learning) and innovation to understand and maintain or grow consumer interest",
+    "Emerging technologies, including artificial intelligence and machine learning, may not deliver expected efficiencies"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "if we do not continuously strengthen our capabilities in marketing, data analytics (including artificial intelligence and machine learning) and innovation",
+    "The increasing adoption of artificial intelligence technologies has led data protection authorities around the world to consider and adopt new and evolving interpretations"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Emerging technologies, including artificial intelligence and machine learning, may not deliver expected efficiencies and could introduce new risks, such as those related to cybersecurity, data privacy, inaccuracies, hallucinations, bias or discrimination and intellectual property infringement",
+    "Due to evolving technologies, such as artificial intelligence technologies, the legal and regulatory landscape is uncertain and evolving, and may impose compliance obligations that could increase our costs",
+    "The increasing adoption of artificial intelligence technologies has led data protection authorities around the world to consider and adopt new and evolving interpretations of privacy and data protection laws, with specific obligations regarding processing of personal data"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or named AI programs disclosed in the excerpts; investment intensity scored low accordingly.",
+  "AI narrative is almost entirely risk-framed or aspirational; no named deployed AI use cases or production deployments appear in the excerpts.",
+  "Risk disclosure is company-specific in naming risk categories (hallucinations, bias, IP infringement, privacy compliance, cybersecurity) and describes mechanisms (cost increases, regulatory enforcement, litigation), but no quantified risk exposure or named governance bodies appear, capping score at 4.",
+  "Excerpts are pre-filtered and may not represent the full filing; additional AI investment or use-case detail may exist elsewhere in the document."
+ ],
+ "_meta": {
+  "accession": "0000829224-25-000114",
+  "filing_date": "2025-11-14",
+  "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/sbux-20250928.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:33:48.267351+00:00"
+ }
+}

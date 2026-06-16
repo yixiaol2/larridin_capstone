@@ -1,0 +1,49 @@
+{
+ "ticker": "IP",
+ "source_document_id": "0000051434-26-000055",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We may fail to identify, prioritize or implement digital and/or AI transformation initiatives across our operations, including areas such as product design, materials sourcing, manufacturing, logistics, and customer delivery.",
+    "introduction of new products, technologies and equipment, including the use of artificial intelligence ('AI') and machine learning solutions"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We may fail to identify, prioritize or implement digital and/or AI transformation initiatives... Our failure to adopt or scale these capabilities in a timely manner could impair our ability to meet evolving customer expectations.",
+    "AI continues to evolve rapidly, and, as with many technological innovations, it presents risks and challenges that could affect its adoption and our business."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Uncertainty in the global and legal regulatory regime relating to AI may require significant resources to modify and maintain business practices to comply with international laws.",
+    "the rapid evolution and increased adoption of AI technologies may intensify cybersecurity risks by making cyber-attacks more difficult to detect, contain, and mitigate.",
+    "EU AI Act, adopted in May 2024, entered its implementation phase in 2025 and imposes extensive transparency, risk management and data governance obligations... with significant fines for noncompliance."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 2 based on generic aspirational language only.",
+  "No deployed AI use cases or production systems described; narrative concreteness limited to risk-framing and aspirational language.",
+  "Risk disclosure excerpts are drawn from the MD&A/risk-factor section and include company-specific mechanisms (regulatory compliance costs, cybersecurity amplification, competitive disadvantage) but no quantified risk exposure or named governance bodies, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0000051434-26-000055",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/51434/000005143426000055/ip-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 2.4,
+  "extracted_at": "2026-06-11T18:19:20.003002+00:00"
+ }
+}

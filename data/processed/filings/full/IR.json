@@ -1,0 +1,50 @@
+{
+ "ticker": "IR",
+ "source_document_id": "0001628280-26-008617",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "the development and deployment of AI will require additional investment and increase our costs",
+    "Our ability to develop new products based on technological innovation, including those that incorporate AI or drive sustainability... can affect our competitive position and often requires the investment of significant resources"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We have begun incorporating AI into our business activities and our product and service offerings",
+    "AI presents risks and challenges... ineffective or inadequate AI development, deployment or governance practices could result in unintended consequences"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may be flawed or may be based on biased or insufficient datasets, and any disruption or failure in the AI functionality... could adversely impact our business or result in delays or errors",
+    "Competition for AI native talent is intense, and if we are unable to develop or recruit the necessary capabilities, we may be unable to fully realize potential efficiency gains",
+    "Compliance with new or changing laws, regulations or industry standards relating to AI... may impose significant costs and may limit our ability to develop, deploy or use AI technologies"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or named vendor/infrastructure partnerships disclosed in the excerpts; only qualitative references to investment requirements.",
+  "ai_narrative_concreteness: AI incorporation into business and products is named but no deployment status, specific use cases, or metrics are provided; language is largely early-stage and risk-oriented.",
+  "ai_risk_disclosure_depth: Risk-section material is present and discusses AI risks with company-specific mechanisms (talent competition, algorithmic flaws, regulatory compliance costs, reputational harm), warranting score 4; no quantified risk exposure or named governance body found to reach score 5.",
+  "Excerpts are limited to risk_factors sections; no MD&A, business description, or capex tables were provided, which may understate investment intensity and narrative concreteness."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008617",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1699150/000162828026008617/iri-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T18:18:03.203873+00:00"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "ticker": "PCG",
+ "source_document_id": "0001004980-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Utility has identified opportunities for investment in the coming years...including investments in transmission for data centers and system investments...information technology, and automation.",
+    "The Utility expects customer electric load to increase in coming years primarily as a result of data center usage, electric vehicle adoption, and building electrification."
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The Utility has identified opportunities for investment in the coming years...investments in transmission for data centers...information technology, and automation.",
+    "The Utility expects customer electric load to increase in coming years primarily as a result of data center usage"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "artificial intelligence, including generative artificial intelligence, may be used to facilitate or perpetrate these cybersecurity threats.",
+    "personal information...could nonetheless become compromised or improperly disclosed, including through the use of generative artificial intelligence or as a result of a cyber incident"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Total capital expenditures recorded in 2025 were $13.4 billion",
+   "context": "2025 actual capex, not AI-specific"
+  },
+  {
+   "quote": "forecasted to be $12.4 billion for 2026, $13.4 billion for 2027, $15.4 billion for 2028, $16.3 billion for 2029, and $16.0 billion for 2030",
+   "context": "Multi-year capex forecast including data center transmission and automation, not AI-specific"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity: capex figures are total utility capex, not disaggregated for AI or data center infrastructure specifically; data center transmission investment is mentioned qualitatively but not quantified separately, limiting score to 3.",
+  "AI narrative concreteness: PG&E's AI references are primarily as a demand driver (data centers) and a risk vector, not as an internal operational AI initiative; no named AI programs or deployment details disclosed.",
+  "AI risk disclosure: risk-section material is present and names AI/generative AI as a cybersecurity threat vector with some mechanism detail (facilitating cyberattacks, data compromise), but no quantification or named governance body, capping at 3."
+ ],
+ "_meta": {
+  "accession": "0001004980-26-000009",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000009/pcg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:42:34.297947+00:00"
+ }
+}

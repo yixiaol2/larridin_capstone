@@ -1,0 +1,50 @@
+{
+ "ticker": "COIN",
+ "source_document_id": "0001679788-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We currently leverage internally developed and third-party developed AI into certain aspects of our business and we anticipate that AI will become increasingly important to our operations in the future.",
+    "developing and incorporating new products and services into our business may require substantial expenditures, take considerable time, and ultimately may not be successful"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We currently leverage internally developed and third-party developed AI into certain aspects of our business",
+    "decentralized networks and other disruptive technologies such as generative AI may fundamentally alter the use of our products or services in unpredictable ways",
+    "Our competitors and other third parties may incorporate AI into their businesses or offerings more quickly or more successfully than us"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The increasing sophistication of AI poses a greater risk of identity fraud, as malicious actors may exploit various AI technologies to create increasingly convincing false identities, transaction records, or attempt to manipulate our verification processes.",
+    "Evolving legal frameworks and guidance, such as the E.U. AI Act, other international regimes, and emerging developments with respect to U.S. federal and state regulations...may require us...to incur significant costs",
+    "AI machine learning systems are complex and may be flawed, insufficient, reflect unwanted forms of bias, or contain errors...including with respect to financial data, do not comply with our policies or those of our regulators"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI capex, headcount, or budget figures appear in the excerpts; investment intensity scored 2 based on generic acknowledgment of internal and third-party AI use without named systems, partners, or amounts.",
+  "Narrative concreteness scored 2 because no named AI initiatives or deployment details are disclosed — only general statements about current leverage and future importance.",
+  "Risk disclosure scored 4 rather than 5 because risks are described with company-specific mechanisms (identity fraud, regulatory compliance costs, model bias affecting financial data) but no quantification or named governance/oversight bodies are present in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001679788-26-000015",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T17:42:41.428930+00:00"
+ }
+}

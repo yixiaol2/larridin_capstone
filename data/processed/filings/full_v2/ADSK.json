@@ -1,0 +1,65 @@
+{
+ "ticker": "ADSK",
+ "source_document_id": "0000769397-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "Autodesk AI, reflecting nearly a decade of investment in artificial intelligence technologies used to augment, automate, and analyze customer workflows",
+    "restructuring plan...to reallocate resources to Autodesk s strategic priorities such as investments in cloud, platform, and artificial intelligence",
+    "acquired 100% of Aether Media, Inc., a provider of a cloud-based artificial intelligence pipeline...for total consideration of $131 million in cash"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "integrating Model Context Protocol (MCP) servers to provide a standardized foundation to support AI-enabled integrations and workflow automation for developers and partners",
+    "Autodesk AI, reflecting nearly a decade of investment in artificial intelligence technologies used to augment, automate, and analyze customer workflows",
+    "We devote significant resources to the development of new technologies, including AI features"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if the content, analyses, or recommendations that AI applications assist in producing are or are alleged to be deficient, inaccurate, or biased, our business, financial condition, and results of operations may be adversely affected",
+    "AI Act...imposes obligations on providers and users of AI technologies. Some U.S. states have proposed, and in certain cases enacted, laws addressing aspects of the development and use of AI",
+    "cybersecurity incidents related to our use of AI applications could adversely affect our reputation and results of operations"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "acquired 100% of Aether Media, Inc....for total consideration of $131 million in cash",
+   "context": "Fiscal 2025 acquisition of AI pipeline company for 3D character generation"
+  },
+  {
+   "quote": "restructuring charges are estimated to be approximately $135 million to $160 million",
+   "context": "January 2026 Plan restructuring to reallocate resources to cloud, platform, and AI strategic priorities"
+  },
+  {
+   "quote": "research and development expenses to increase as we continue our investments in cloud, platform, and artificial intelligence",
+   "context": "Forward-looking fiscal 2027 R&D expense guidance"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity scored 4 rather than 5: R&D spend increase is directional/qualitative only; no specific annual AI R&D dollar amount disclosed in excerpts",
+  "Narrative concreteness scored 4: MCP integration and Autodesk AI platform described as deployed/in-production but no quantified business results (%, $, time saved) found in excerpts",
+  "Aether acquisition ($131M) is the only hard dollar figure directly tied to AI; restructuring charges are partially AI-attributable but not exclusively so",
+  "Risk disclosure depth scored 4: multiple company-specific risk mechanisms described with regulatory specificity (EU AI Act, state laws, cybersecurity, bias liability) but no quantified risk exposure or named AI governance oversight body found in excerpts"
+ ],
+ "_meta": {
+  "accession": "0000769397-26-000015",
+  "filing_date": "2026-03-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000015/adsk-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 22,
+  "maturity_index": 4.3,
+  "extracted_at": "2026-06-15T20:13:22.837127+00:00"
+ }
+}

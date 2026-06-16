@@ -1,0 +1,50 @@
+{
+ "ticker": "CHTR",
+ "source_document_id": "0001091667-26-000017",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-30",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We currently incorporate AI technology in certain parts of our business operations. Our research and development of such technology remains ongoing.",
+    "A failure to effectively anticipate or adapt to new technologies (including those that use artificial intelligence (AI)) ... could significantly adversely affect our competitive position"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We currently incorporate AI technology in certain parts of our business operations. Our research and development of such technology remains ongoing.",
+    "While we aim to develop and use AI responsibly and attempt to identify and mitigate ethical and legal issues presented by its use"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms and training methodologies may be flawed... AI-related issues, deficiencies or failures could give rise to legal or regulatory action, including with respect to proposed legislation regulating AI or as a result of new applications of existing data protection, privacy, intellectual property and other laws",
+    "the increasing use of AI may intensify these cybersecurity risks",
+    "Colorado passed the Colorado Artificial Intelligence Act (CAIA) which will take effect on June 30, 2026. The CAIA governs the use of certain Artificial Intelligence systems."
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount, or quantified AI-attributable spend disclosed in the excerpts; named R&D activity is acknowledged but unquantified, capping score at 3.",
+  "ai_narrative_concreteness: AI use cases are referenced only generically ('certain parts of our business operations') with no named deployments, metrics, or operational detail; score reflects named but unspecified initiatives.",
+  "ai_risk_disclosure_depth: Risk-section and business-section material both present; risks are company-specific (legal/regulatory action, cybersecurity intensification, reputational harm) with named mechanisms, but no quantification or named governance bodies disclosed, capping score at 4.",
+  "Excerpts are pre-filtered; additional AI investment or use-case detail may exist elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0001091667-26-000017",
+  "filing_date": "2026-01-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000017/chtr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T20:25:24.868617+00:00"
+ }
+}

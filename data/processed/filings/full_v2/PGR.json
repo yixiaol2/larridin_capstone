@@ -1,0 +1,50 @@
+{
+ "ticker": "PGR",
+ "source_document_id": "0000080661-26-000086",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-02",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have developed, and used for many years, new technologies, including machine learning and other forms of artificial intelligence (AI), predictive models, algorithms and automated processes",
+    "our development and use of generative and agentic artificial intelligence, may present additional risks, may not be successful"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We have developed, and used for many years, new technologies, including machine learning and other forms of artificial intelligence (AI), predictive models, algorithms and automated processes",
+    "Advanced AI might produce or reveal datasets that are flawed or insufficient or contain biased information, which could result in unintentionally and unfairly discriminatory outcomes in our business processes"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Advanced AI might produce or reveal datasets that are flawed or insufficient or contain biased information, which could result in unintentionally and unfairly discriminatory outcomes in our business processes",
+    "our competitors or other third parties may be able to replace legacy systems, incorporate Advanced AI into their products and operations, or optimize or redesign their processes more quickly, or more successfully, than us",
+    "we are subject to new AI-focused regulations and regulatory expectations that could impose varied compliance and reporting requirements and challenges that could impact our operations or ability to write business profitably"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-attributable spend, headcount, or capex figures appear in the excerpts; named programs are referenced but without scale, capping score at 3.",
+  "ai_narrative_concreteness: AI use cases (ML models, predictive algorithms, generative/agentic AI) are named and described as in use, but no deployment metrics, production volumes, or quantified business results are disclosed in these excerpts.",
+  "capex_mentions: No dollar amounts tied to AI investment appear in the provided excerpts.",
+  "Excerpts are pre-filtered; additional AI investment or use-case detail may exist elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0000080661-26-000086",
+  "filing_date": "2026-03-02",
+  "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000086/pgr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:24:32.997047+00:00"
+ }
+}

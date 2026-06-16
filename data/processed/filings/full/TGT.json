@@ -1,0 +1,51 @@
+{
+ "ticker": "TGT",
+ "source_document_id": "0000027419-26-000016",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Enhanced artificial intelligence capabilities across merchandising, planning, inventory management, and personalization, and expanded the use of AI-powered tools to simplify work for store and headquarters teams",
+    "leverage technology (including artificial intelligence) and data to enhance decision-making, and reduce costs",
+    "Launched Precision Plus by Roundel, a retail media capability that improves advertising outcomes by leveraging data and AI-learning"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Enhanced artificial intelligence capabilities across merchandising, planning, inventory management, and personalization, and expanded the use of AI-powered tools to simplify work for store and headquarters teams",
+    "Launched Precision Plus by Roundel, a retail media capability that improves advertising outcomes by leveraging data and AI-learning",
+    "portions of our technology infrastructure (including certain generative artificial intelligence services)"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if the outputs generated are inaccurate or controversial, our reputation and competitive position could be adversely affected",
+    "cyberattacks become more sophisticated and frequent, including through the introduction of viruses and malware...and the use of enhanced and rapidly advancing technologies (including artificial intelligence) by threat actors",
+    "continuous advancements in automation and artificial intelligence capabilities will continue to impact the skills required in our workforce, and our recruiting and training needs must evolve"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied to AI investment appear in the excerpts; investment intensity scored 3 rather than 4/5 due to absence of quantification.",
+  "Narrative concreteness scored 4 based on named deployed use cases (merchandising, planning, inventory, personalization, Precision Plus) but no quantified business results (e.g., % improvement, $ impact) were present in the excerpts.",
+  "Risk disclosure scored 4 because multiple company-specific risk mechanisms are described (reputational harm from inaccurate GenAI outputs, AI-enhanced cyberattacks, workforce skills disruption, third-party GenAI service dependency) with operational impact pathways, but no quantified risk treatment or named governance body was found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000027419-26-000016",
+  "filing_date": "2026-03-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T19:01:18.323461+00:00"
+ }
+}

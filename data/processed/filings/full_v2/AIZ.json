@@ -1,0 +1,52 @@
+{
+ "ticker": "AIZ",
+ "source_document_id": "0001267238-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We continue to invest in technology, including AI, to transform our operations, support our clients and improve the customer experience.",
+    "We are investing in technology and digital capabilities, including AI and our Innovation and Device Care Center, and in our home warranty business.",
+    "accelerating adoption of digital and AI-enabled technologies and processes as we expand the use of AI as an enabler to enhance employee and customer experiences"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "These services support both our insurance and non-insurance customers and are powered by our AI-driven dynamic fulfillment platform.",
+    "our device care centers, including our Nashville Innovation and Device Care Center, which leverages automation, robotics and AI.",
+    "Assurant has an AI-enabled HR virtual assistant to provide easy access to answers to routine questions employees raise with the goal of improving their experience as an employee."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI technologies may fail, underperform expectations or disrupt business operations, and there can be no assurance that our use of AI will enhance our products or services.",
+    "our ability to continue to develop, use and efficiently deploy AI technologies depends on access to specific third-party equipment and services.",
+    "The Information Technology Committee also reviews and assesses the impact of AI on operations, risk management and control processes."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount figures, or quantified AI-attributable spend disclosed in the excerpts; investment language is named but unquantified, capping score at 3.",
+  "capex_mentions: No specific dollar or quantity figures tied to AI investment appear in the excerpts.",
+  "ai_narrative_concreteness: Named deployed use cases (AI fulfillment platform, device care center, HR virtual assistant, AI coach) described with operational detail but no quantified business results (e.g., cost savings, volume handled), limiting score to 4.",
+  "ai_risk_disclosure_depth: Risk-section material is present and discusses AI risks with company-specific mechanisms (vendor dependency for AI deployment, regulatory compliance costs, competitive disruption, AI failure risk) and governance (IT Committee oversight), but no quantified risk exposure; scored 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0001267238-26-000010",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000010/aiz-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:13:05.557144+00:00"
+ }
+}

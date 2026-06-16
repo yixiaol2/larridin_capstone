@@ -1,0 +1,49 @@
+{
+ "ticker": "DVN",
+ "source_document_id": "0001193125-26-056485",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are expanding the use of and reliance on these systems and technologies, including through artificial intelligence, process automation and data analytics",
+    "We increasingly use artificial intelligence (AI) and other emerging technologies to improve our business processes, including through the integration of various AI tools into certain of our information systems"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "integration of various AI tools into certain of our information systems",
+    "there can be no assurance that we will realize the anticipated efficiency gains or other benefits from their adoption"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the generation of and reliance upon inaccurate, misleading or otherwise flawed content in our business processes, (ii) the unauthorized use or disclosure of confidential or proprietary information and (iii) potential exposure to new or enhanced governmental or regulatory scrutiny",
+    "cyberattacks... could be enhanced or facilitated by artificial intelligence",
+    "Failure to effectively integrate AI and other emerging technologies into our operations could put us at a competitive disadvantage to other oil and gas companies"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or program budgets disclosed in the excerpts; investment intensity scored 3 based on named but unquantified initiatives.",
+  "AI use cases are named (business process improvement, information systems integration) but no deployment metrics or quantified outcomes are provided; concreteness capped at 3.",
+  "Risk disclosure includes named, company-specific risk mechanisms (inaccurate outputs, data disclosure, regulatory scrutiny, competitive disadvantage) justifying score 4, but no quantification of risk exposure or named governance/oversight bodies found in excerpts."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-056485",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1090012/000119312526056485/dvn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:34:20.936998+00:00"
+ }
+}

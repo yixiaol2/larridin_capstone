@@ -1,0 +1,50 @@
+{
+ "ticker": "REG",
+ "source_document_id": "0001193125-26-051668",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The costs of implementing new technologies, including AI-driven property management tools, smart building systems, and data analytics platforms, may be substantial.",
+    "The effectiveness of these tools are being evaluated in an ongoing manner."
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "AI is increasingly being adopted for personalized marketing, inventory management, customer service, pricing optimization, and supply chain management.",
+    "AI-driven property management tools, smart building systems, and data analytics platforms... The effectiveness of these tools are being evaluated in an ongoing manner."
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "'deep fakes' generated through the use of AI tools... threat actors are becoming increasingly sophisticated in using techniques and tools including AI that trick humans into taking unwarranted actions, circumvent security controls.",
+    "Sensitive, proprietary, or confidential information could be leaked... if information is used to train the third party's AI or machine learning models.",
+    "AI or machine learning models may create incomplete, inaccurate, or otherwise flawed outputs... could lead us to make flawed decisions... exposure to reputational and competitive harm, customer loss, and legal liability."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts or quantified AI spend disclosed; named tools are described as under evaluation, not yet deployed at scale. Score reflects named programs without quantified commitment.",
+  "ai_narrative_concreteness: AI use cases are named but framed as industry trends and tools under evaluation rather than confirmed deployed initiatives with operating detail or metrics.",
+  "capex_mentions: No specific dollar figures tied to AI investment appear in the excerpts.",
+  "Excerpts are exclusively from the risk_factors section; no MD&A, business description, or financial statement sections are present, which may limit visibility into actual AI deployment or investment levels."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-051668",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/910606/000119312526051668/reg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 2.4,
+  "extracted_at": "2026-06-15T21:27:26.844700+00:00"
+ }
+}

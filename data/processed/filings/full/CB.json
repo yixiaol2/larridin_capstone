@@ -1,0 +1,49 @@
+{
+ "ticker": "CB",
+ "source_document_id": "0000896159-26-000005",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "leveraging our global data and artificial Intelligence assets to capitalize on digital partnership capabilities and our unique positioning as the leading composite insurer in Asia",
+    "Chubb management continues to prioritize investments in cybersecurity to protect the confidentiality, integrity, and availability of our data"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "leveraging our global data and artificial Intelligence assets to capitalize on digital partnership capabilities",
+    "companies increase use of data analytics, AI and other technology as part of their business strategy"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Regulatory standards relating to the use of artificial intelligence (AI) are evolving...may increase risks associated with bias, unfair discrimination, transparency, and information security",
+    "The rapid evolution and increased adoption of artificial intelligence technologies may intensify our cybersecurity risks, which include the deployment of artificial intelligence by bad actors...use of 'deep fakes,' and long-term persistent attacks",
+    "We will be at a competitive disadvantage if our competitors are more effective than us in their utilization of technology and evolving data analytics"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/infrastructure partnerships disclosed in excerpts; language is generic and aspirational.",
+  "ai_narrative_concreteness: No named AI initiatives, deployment status, or quantified outcomes found in excerpts; references to AI use are high-level and promotional.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains multiple named AI risk categories with mechanisms (regulatory compliance costs, cybersecurity exploitation, competitive disadvantage), supporting score 4; no quantification or named governance bodies for AI risk specifically, though a Cyber Advisory Board is mentioned in a cybersecurity context."
+ ],
+ "_meta": {
+  "accession": "0000896159-26-000005",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/896159/000089615926000005/cb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:39:31.268539+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "TRGP",
+ "source_document_id": "0001193125-26-059296",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "No AI investment, R&D, capex, or resource commitment to AI discussed in excerpts; AI appears only in cybersecurity risk context"
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "the use of artificial intelligence, mobile devices, cloud computing, open source software, social media and the increased reliance on devices connected to the internet",
+    "As the breadth and complexity of the technologies we use continue to grow, including as a result of the use of artificial intelligence"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Advances in computer capabilities, rapid changes and innovation in the field of artificial intelligence, cryptography...may result in a compromise or breach of the technology we use to safeguard confidential, personal, or otherwise protected information.",
+    "As the breadth and complexity of the technologies we use continue to grow, including as a result of the use of artificial intelligence...the potential risk of security breaches and cybersecurity attacks also increases."
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity not scorable: excerpts contain no discussion of AI investment, spending, or resource commitment; AI is referenced only as a cybersecurity threat vector.",
+  "ai_narrative_concreteness scored 2: AI is mentioned as a technology in use but only in passing within a risk/cybersecurity context; no named AI initiatives or use cases are described.",
+  "ai_risk_disclosure_depth scored 3: named risk categories (cybersecurity breach, data compromise) are tied specifically to AI adoption, but no quantified risk scenarios or governance bodies are described.",
+  "Only one excerpt section (mdna) provided; risk-factor section content may contain additional AI risk disclosure not visible here."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-059296",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1389170/000119312526059296/trgp-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-15T21:37:15.927324+00:00"
+ }
+}

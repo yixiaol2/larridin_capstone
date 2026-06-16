@@ -1,0 +1,50 @@
+{
+ "ticker": "GEV",
+ "source_document_id": "0001996810-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-29",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "electrify industries including data centers playing a key role in the development of artificial intelligence (AI), and to modernize existing grid infrastructure",
+    "integration of AI; the availability of raw materials and components; our supply chain; the economics for customers to deploy"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we manufacture and sell products used in AI infrastructure, our performance and the market price of our common stock are frequently linked to AI investment trends",
+    "electrify industries including data centers playing a key role in the development of artificial intelligence (AI)",
+    "novel issues arising from new technologies such as generative AI"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "As AI is an emerging area, we expect to see increased legislation, such as the EU Artificial Intelligence Act, and additional regulatory obligations across the jurisdictions in which we operate.",
+    "novel issues arising from new technologies such as generative AI... Violations can lead to substantial fines, regulatory investigations, orders to cease processing or change data uses",
+    "our performance and the market price of our common stock are frequently linked to AI investment trends and sector sentiment, which has resulted in...significant volatility"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-attributable investment amounts, headcount, or named AI R&D programs disclosed in excerpts; GEV's AI exposure is primarily as a supplier to AI infrastructure customers (data centers), not as a direct AI investor; scored 2 reflecting generic statements without named programs or amounts.",
+  "ai_narrative_concreteness: AI use cases are named (grid electrification for data centers, AI integration in production) but no deployment metrics or quantified results are provided; promotional framing noted.",
+  "ai_risk_disclosure_depth: Risk-section material is present; named risk categories include AI regulation (EU AI Act), data privacy/generative AI compliance, and stock price volatility linked to AI sentiment, but no quantified risk exposure or named governance bodies are disclosed."
+ ],
+ "_meta": {
+  "accession": "0001996810-26-000015",
+  "filing_date": "2026-01-29",
+  "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/gev-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:48:11.478717+00:00"
+ }
+}

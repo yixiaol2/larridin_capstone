@@ -1,0 +1,46 @@
+{
+ "ticker": "PSKY",
+ "source_document_id": "0002041610-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "faster or more effective deployment of evolving technologies by our competitors, including generative artificial intelligence and other machine learning tools (AI Technologies), could put us at a competitive disadvantage",
+    "Evolving technologies, including AI Technologies, and distribution models...affect demand for our content; how our content is generated, distributed and consumed"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the rapid global advancement of AI Technologies may also heighten our risks by making cyberattacks more difficult to detect, contain, and mitigate",
+    "we face uncertainty with respect to our ability to protect our intellectual property and brands from unauthorized use, misappropriation, and infringement utilizing such technologies",
+    "Laws and regulations governing new technologies, including AI Technologies, remain unsettled and are an area of increasing regulatory focus"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no AI capex, infrastructure spend, vendor partnerships, or dedicated AI budget disclosed in any excerpt; null is appropriate",
+  "ai_narrative_concreteness: AI references are entirely framed around competitive and regulatory risk to the company, not internal initiatives or deployments; scored 2 for aspirational/threat framing without named internal programs",
+  "ai_risk_disclosure_depth: risk-section material is present and discusses AI across multiple named risk categories (competitive disadvantage, cybersecurity, IP/copyright, regulatory); scored 3 as risks are named and company-specific but mechanisms are described qualitatively without quantification or named governance bodies"
+ ],
+ "_meta": {
+  "accession": "0002041610-26-000011",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000011/psky-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T18:44:36.103981+00:00"
+ }
+}

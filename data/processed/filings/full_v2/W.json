@@ -1,0 +1,51 @@
+{
+ "ticker": "W",
+ "source_document_id": "0001616707-26-000027",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "invest in technology, including AI, to further improve our customer and supplier experiences",
+    "in 2025, we invested in the development and launch of Muse, an AI-powered tool, to inspire and personalize the home shopping experience",
+    "We increasingly rely on AI and machine learning technologies to support elements of our platform, including customer-facing features and internal business operations"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "in February 2025, we introduced Muse, an artificial intelligence-powered tool, to inspire and personalize the home shopping experience by providing customers inspiration and ideas",
+    "We increasingly rely on AI and machine learning technologies to support elements of our platform, including search, recommendations, customer support, personalization tools, content generation, merchandising, analytics",
+    "global customer service locations are staffed with over 2,000 full-time highly-trained sales and service employees, supplemented by artificial intelligence (AI) enabled tools to support the efficient resolution of common customer inquiries"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if the data used to train or operate them is inaccurate, incomplete or becomes unavailable, or if we are unable to adapt to rapid changes in AI tools or regulatory requirements, customer engagement, conversion and repeat purchasing may decline",
+    "use of AI results in, or is alleged to have resulted in, the infringement of the intellectual property of third parties...we may be subject to legal claims or liability",
+    "rapid evolution of AI, including the ongoing development of government regulation of AI and automated decision-making technology...may require us to expend significant resources to develop, test, and maintain our platform"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 rather than 4 or 5.",
+  "Muse launch is described as deployed but no quantified business results (e.g., conversion lift, revenue impact) are disclosed, capping narrative concreteness at 4.",
+  "Risk disclosure is detailed and company-specific with named mechanisms but no quantified risk exposure or named governance/oversight body, capping risk depth at 4."
+ ],
+ "_meta": {
+  "accession": "0001616707-26-000027",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1616707/000161670726000027/w-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 14,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:47:35.945452+00:00"
+ }
+}

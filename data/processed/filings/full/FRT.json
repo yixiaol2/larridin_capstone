@@ -1,0 +1,49 @@
+{
+ "ticker": "FRT",
+ "source_document_id": "0000034903-26-000017",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "No AI capex, infrastructure spend, vendor partnerships, or dedicated AI budget mentioned in excerpts"
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "we have adopted a policy on use of artificial intelligence",
+    "our use of artificial intelligence... we have developed and enforce company-wide policies related to password encryption... and we have adopted a policy on use of artificial intelligence"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The assessment and management of our cybersecurity risks covers all of our internal systems, the systems of third parties who maintain our data, and our use of artificial intelligence.",
+    "As part of our processes to manage risks from cybersecurity threats and our use of artificial intelligence, we have developed and enforce company-wide policies"
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity not scorable: excerpts contain no quantified or named AI infrastructure investment, only governance/policy references",
+  "ai_narrative_concreteness scored low: AI is referenced only in the context of cybersecurity risk management policy; no named AI use cases or initiatives disclosed",
+  "ai_risk_disclosure_depth: section label is item_1b (cybersecurity), not a traditional risk-factor section; AI risk is named as a category within cybersecurity governance but no specific AI risk mechanisms or quantification are provided",
+  "Excerpts are limited to a single cybersecurity governance passage; broader AI strategy or risk-factor sections may exist elsewhere in the filing but are not visible here"
+ ],
+ "_meta": {
+  "accession": "0000034903-26-000017",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/34903/000003490326000017/frt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T18:00:05.406612+00:00"
+ }
+}

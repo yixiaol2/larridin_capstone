@@ -1,0 +1,50 @@
+{
+ "ticker": "VTRS",
+ "source_document_id": "0001792044-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "ML and AI-based solutions, including generative AI, are increasingly being used in the pharmaceutical industry, including by us, and we expect to use other systems and tools that incorporate ML or AI-based technologies in the future.",
+    "uncertainty around return on investment"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "ML and AI-based solutions, including generative AI, are increasingly being used in the pharmaceutical industry, including by us",
+    "we expect to use other systems and tools that incorporate ML or AI-based technologies in the future"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI tools lower the barrier to access and replication, increasing the likelihood of intellectual property leakage, copyright violations, and regulatory non-compliance.",
+    "ML or AI-based systems may be subject to novel cybersecurity risks, including attempts to manipulate model outputs, poison data, or extract sensitive information",
+    "The deployment of AI in regulated environments presents additional complexity. Requirements related to validation, documentation, explainability, data lineage, and change control may lengthen implementation timelines, increase costs, or trigger regulatory scrutiny"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 2 based on generic acknowledgment of current and planned AI use without named systems, vendors, or budgets.",
+  "AI narrative concreteness scored 2 because no named initiatives, specific use cases, or deployment details are disclosed — only general industry-level and forward-looking statements.",
+  "Risk disclosure is detailed and company-specific (IP leakage, hallucinations, regulated-environment validation, data poisoning) with mechanism-level descriptions, supporting score 4; no quantified risk figures or named governance bodies with specific mandates were found to justify score 5.",
+  "Cybersecurity section (item_8/item_1C) references AI risk oversight by the Board and enterprise risk assessment process, but no named AI oversight committee or quantified risk treatment is disclosed."
+ ],
+ "_meta": {
+  "accession": "0001792044-26-000013",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1792044/000179204426000013/vtrs-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T19:08:59.734016+00:00"
+ }
+}

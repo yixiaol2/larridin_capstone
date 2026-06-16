@@ -1,0 +1,52 @@
+{
+ "ticker": "AMAT",
+ "source_document_id": "0001628280-25-056742",
+ "source_type": "sec_filing",
+ "source_date": "2025-12-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are increasingly incorporating AI capabilities into the development of technologies, our business operations and our products and services.",
+    "we offer state-of-the-art training modalities, such as AI-based simulations and Augmented and Virtual Reality learning capabilities, to further the development of our new products",
+    "the importance of advanced packaging to AI computing... accurately forecast and allocate appropriate resources and investment towards addressing key technology changes"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "AI-based simulations and Augmented and Virtual Reality learning capabilities, to further the development of our new products, train our manufacturing and field support employees",
+    "growth in the adoption of high-bandwidth memory and other forms of advanced packaging, continued demand for AI and data center computing",
+    "secular drivers such as data center AI, edge AI and the internet of things, robotics and electric and autonomous vehicles will continue to create the next wave of growth"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms or training methodologies may be flawed, and datasets may contain irrelevant, insufficient or biased information, which can cause errors in outputs. This may give rise to legal liability, damage our reputation",
+    "use of AI in the development of our products and services could also cause loss of intellectual property, as well as subject us to risks related to intellectual property infringement or misappropriation, data privacy and cybersecurity",
+    "AI and deepfake technologies could be used to attack information systems by creating more effective phishing emails or social engineering and by exploiting vulnerabilities in electronic security programs"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 (named but unquantified).",
+  "AMAT is a semiconductor equipment supplier — AI is primarily a demand driver for its customers rather than a direct internal AI build-out; excerpts reflect this indirect exposure.",
+  "Concreteness scored 3 because AI use cases (advanced packaging, training simulations) are named but no deployment metrics or quantified business results are disclosed.",
+  "Risk section material is present in excerpts; risk score reflects company-specific mechanisms (IP loss, regulatory compliance, cybersecurity vectors) with some operational detail but no quantification or named governance bodies."
+ ],
+ "_meta": {
+  "accession": "0001628280-25-056742",
+  "filing_date": "2025-12-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 4.3,
+  "extracted_at": "2026-06-15T20:11:27.137548+00:00"
+ }
+}

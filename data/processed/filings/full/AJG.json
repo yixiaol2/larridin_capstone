@@ -1,0 +1,49 @@
+{
+ "ticker": "AJG",
+ "source_document_id": "0001628280-26-008662",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Failure to apply technology, data analytics and artificial intelligence (which we refer to as AI) effectively in driving value for our clients through technology-based solutions",
+    "Competition for talent is intense in many areas of our business, particularly in our claims management business, IT and in rapidly developing fields such as AI and data engineering."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We use AI in our business, including with respect to services provided to our clients. We have internal policies and controls governing development, procurement, deployment and the use of AI by our employees",
+    "new applications or insurance-related services based on AI (e.g., generative AI, machine learning), robotics, blockchain, or new approaches to data mining that impact the nature of how we generate revenue"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "our employees could violate these policies and they or external threat actors could circumvent our controls and expose us to such risks... cybersecurity threats, breaches of data privacy and intellectual property, E O liability and regulatory enforcement risk",
+    "We also expect to be subject to a variety of laws and regulations governing AI, such as the E.U. AI Act which was enacted in 2024... the Colorado AI Act, and the California AI Transparency Act",
+    "The increasing adoption of AI technologies by cyber threat actors presents a significant and evolving risk... advanced phishing schemes, malware, and data exfiltration techniques, which could compromise our controls and systems, client data"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI capex, budget, or headcount figures appear in the excerpts; investment intensity scored 2 based on generic strategic language only.",
+  "AI use cases are named at a category level (generative AI, machine learning, claims management) but no deployment status, production metrics, or quantified business results are disclosed; concreteness capped at 3.",
+  "Excerpts are heavily weighted toward risk-factor sections; operational/MD&A detail on AI initiatives is limited, so concreteness score may understate actual deployment if discussed elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008662",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/354190/000162828026008662/ajg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T17:25:49.192064+00:00"
+ }
+}

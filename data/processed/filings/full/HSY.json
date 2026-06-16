@@ -1,0 +1,57 @@
+{
+ "ticker": "NSY",
+ "source_document_id": "0001628280-26-008586",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Advancing Agility Automation Initiative…to leverage new technology and business models to further simplify and automate processes, and generate long-term savings",
+    "The Company estimates that the AAA Initiative will result in total pre-tax costs of $200,000 to $250,000 from inception through 2026",
+    "compliance with new and evolving laws, regulations or industry standards relating to AI may require significant investment and resources"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "our business may be adversely affected if we cannot successfully integrate AI into our business in a timely, cost-effective, and compliant manner",
+    "The Company s CTO has over twenty years of experience, including deep expertise in…artificial intelligence, and predictive analytics",
+    "leverage new technology and business models to further simplify and automate processes"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "AI technologies may amplify certain existing technology-related risks such as cybersecurity threats, data privacy concerns, and intellectual property challenges",
+    "Our competitors may incorporate AI into their business more successfully than us, which could have an adverse effect on our competitive position, reputation and operations",
+    "compliance with new and evolving laws, regulations or industry standards relating to AI may require significant investment and resources, and may limit our ability to use AI"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "total pre-tax costs of $200,000 to $250,000 from inception through 2026",
+   "context": "AAA Initiative estimated total costs including program office, third-party, and implementation costs; automation/technology focus but not exclusively AI"
+  }
+ ],
+ "limitations": [
+  "The AAA Initiative cost figures ($200M-$250M) cover a broad productivity program including supply chain and SG&A optimization, not exclusively AI investment; score 3 reflects named initiative without AI-specific quantification.",
+  "AI narrative is largely aspirational and risk-framed; no named AI systems, vendors, or deployed use cases are described, limiting concreteness score.",
+  "Risk section is present and does name AI-specific risk categories (competitive disadvantage, regulatory compliance, cybersecurity amplification), supporting score 3, but stops short of quantified risk scenarios or named governance bodies.",
+  "The ticker echoed in the source is NSY per the input; the company is The Hershey Company (HSY) — pipeline should verify ticker field."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008586",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/hsy-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:13:46.176248+00:00"
+ }
+}

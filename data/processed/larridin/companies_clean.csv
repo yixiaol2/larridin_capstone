@@ -1,0 +1,543 @@
+company_id,name,slug,sector,website,created_at,n_pages
+2c7142c3-375f-4a8a-b0a6-3052ddc0366b,3M,3m,industrials,https://www.3m.com,2026-01-19T03:56:50.78582+00:00,1
+ee03d7bf-0eba-4792-9926-f05b8b4b3dd6,A. O. Smith,a-o-smith,industrials,https://www.aosmith.com,2026-01-19T03:56:51.098381+00:00,1
+89d3e9cf-d173-4568-9022-d97729b680e5,AES Corporation,aes,utilities,https://www.aes.com,2026-01-19T03:57:25.284103+00:00,1
+1fcfcb0e-18f9-4acf-8441-e1e1a4d835f1,AMD,amd,technology,https://www.amd.com,2026-01-18T16:06:13.467445+00:00,4
+7dc4ae61-bcb5-4577-8aa6-d5fc23785ea9,APA Corporation,apa,energy,https://www.apacorp.com,2026-01-19T03:57:19.091253+00:00,1
+5cd0cbf6-07a8-41dd-af82-969f35b203ea,AT&T,at-t,communication-services,https://www.att.com,2026-01-19T03:57:13.567168+00:00,1
+76a5b37c-4924-4d0c-9f29-0ca1f10f0d69,AbbVie,abbvie,healthcare,https://www.abbvie.com,2026-01-18T16:18:06.581281+00:00,3
+6abebb2d-a379-4252-bd7e-73d0fc962296,Abbott Laboratories,abbott-laboratories,healthcare,https://www.abbott.com,2026-01-19T03:55:46.71034+00:00,1
+a3964bb1-67c7-4c4d-a888-24f3955c92c8,Accenture,accenture,technology,https://www.accenture.com,2026-01-19T03:55:26.694543+00:00,1
+e0ef13e3-5f2e-48d4-8ea2-c1d083bfceac,Adobe Inc.,adobe,technology,https://www.adobe.com,2026-01-18T16:05:54.312577+00:00,3
+dfa11c00-b625-4b80-b59a-8690ff1dcb5c,Advanced Micro Devices,advanced-micro-devices,technology,https://www.amd.com,2026-01-19T03:55:27.547044+00:00,1
+f1908110-b3c4-431f-a194-9944740bf969,Aflac,aflac,financials,https://www.aflac.com,2026-01-19T03:56:03.601878+00:00,1
+74ca5ddf-399d-4873-8498-20440850e4bd,Agilent Technologies,agilent-technologies,healthcare,https://www.agilent.com,2026-01-19T03:55:47.343103+00:00,1
+957a4292-8d06-4e0e-b541-4645a721e84f,Air Products,air-products,materials,https://www.airproducts.com,2026-01-19T03:57:42.366479+00:00,1
+c57227ed-f32b-4374-859f-a9e1fbd68edf,Airbnb,airbnb,consumer-discretionary,https://www.airbnb.com,2026-01-19T03:56:25.104069+00:00,1
+b4980b30-962a-462f-9628-633a8947d848,Akamai Technologies,akamai-technologies,technology,https://www.akamai.com,2026-01-19T03:55:27.857062+00:00,1
+03f2417d-afc9-4485-8a00-1b68e84b0aa5,Albemarle Corporation,albemarle,materials,https://www.albemarle.com,2026-01-19T03:57:42.64378+00:00,1
+a1dce802-0793-4955-bc62-b47bebca49d0,Albertsons,albertsons,retail,https://www.albertsonscompanies.com,2026-01-17T19:07:40.445893+00:00,6
+62f629ea-96e3-47f2-8317-d0aa3ac8b1fa,Aldi,aldi,retail,https://www.aldi.us,2026-01-17T19:16:41.521226+00:00,6
+7b23242f-32b7-4ccc-a27d-310f3b3bf73b,Alexandria Real Estate Equities,alexandria-real-estate-equities,real-estate,https://www.are.com,2026-01-19T03:57:33.756552+00:00,1
+7d00744e-17ea-4230-9efb-ee3788e6f5f6,Align Technology,align-technology,healthcare,https://www.aligntech.com,2026-01-19T03:55:47.61779+00:00,1
+2b44d2d3-9234-4d49-a0d4-2fba0b04c66d,Allegion,allegion,industrials,https://www.allegion.com,2026-01-19T03:56:51.423234+00:00,1
+1acb3776-fc78-42f4-bfbd-1cac576ec51c,Alliant Energy,alliant-energy,utilities,https://www.alliantenergy.com,2026-01-19T03:57:25.533422+00:00,1
+2beaded4-afef-497b-a989-49eb9016565d,Allstate,allstate,financials,https://www.allstate.com,2026-01-19T03:56:03.867324+00:00,1
+a0d22e79-9c19-4b1a-9d38-43bb71eaa91e,Alphabet Inc.,alphabet,communication-services,https://www.alphabet.com,2026-01-18T16:04:12.259413+00:00,3
+a6b62a63-149e-4dc1-ab76-2ebbc1146bf2,Altria,altria,consumer-staples,https://www.altria.com,2026-01-18T16:27:14.131355+00:00,2
+3e84b14c-2bfa-48fd-8add-02a215dcc1fc,Amazon,amazon,consumer-discretionary,https://www.amazon.com,2026-01-17T19:01:49.934856+00:00,7
+6c1ae23c-e971-4ef0-a48a-4069e7d49c04,Amcor,amcor,materials,https://www.amcor.com,2026-01-19T03:57:42.918202+00:00,1
+044ee7f9-4e83-4240-8e09-c8ef7479fe41,Ameren,ameren,utilities,https://www.ameren.com,2026-01-19T03:57:25.813157+00:00,1
+92466450-6c46-41e2-906c-1200e449e185,American Electric Power,american-electric-power,utilities,https://www.aep.com,2026-01-19T03:57:26.061892+00:00,1
+408be03e-e0ad-49e4-916b-0e87b6b7b90b,American Express,american-express,financials,https://www.americanexpress.com,2026-01-18T16:14:23.26828+00:00,2
+e667ea94-2e50-4b98-bc7a-9104ff825d9d,American International Group,american-international-group,financials,https://www.american-international-group.com,2026-01-19T03:56:04.483229+00:00,1
+64b3f688-a6c7-4825-a1a5-c620349bbf47,American Tower,american-tower,real-estate,https://www.americantower.com,2026-01-18T16:36:01.985418+00:00,2
+c20a306e-7c72-463b-9c06-815c7914b473,American Water Works,american-water-works,utilities,https://www.amwater.com,2026-01-19T03:57:26.325238+00:00,1
+3411f7df-f4fb-4861-b1e4-d6e43267f49a,Ameriprise Financial,ameriprise-financial,financials,https://www.ameriprise.com,2026-01-19T03:56:04.748958+00:00,1
+c381fa3f-bbb3-4def-9265-a67f0c1a062c,Ametek,ametek,industrials,https://www.ametek.com,2026-01-19T03:56:51.706515+00:00,1
+8461dffc-6e85-4dfa-8d67-7f9aac429c25,Amgen,amgen,healthcare,https://www.amgen.com,2026-01-18T16:20:00.296434+00:00,2
+8b2f6a13-d683-471d-8f4f-34f7963c7f88,Amphenol,amphenol,technology,https://www.amphenol.com,2026-01-19T03:55:28.147131+00:00,1
+359ae77d-340c-426b-abed-a0223088f4fe,Analog Devices,analog-devices,technology,https://www.analog.com,2026-01-19T03:55:28.409408+00:00,1
+460b4672-c68c-46b5-a24c-a597eb22a68c,Aon plc,aon,financials,https://www.aon.com,2026-01-19T03:56:05.004837+00:00,1
+14483033-bcbf-4fc5-9ba8-93b9a6716fd8,Apollo Global Management,apollo-global-management,financials,https://www.apollo.com,2026-01-19T03:56:05.262472+00:00,1
+8054c775-079c-47a4-82a5-0e5fdea9eeaa,Apple Inc.,apple,technology,https://www.apple.com,2026-01-18T08:44:25.26026+00:00,5
+3c82a1e6-501c-43ab-98ba-3b02ec32f984,Applied Materials,applied-materials,technology,https://www.appliedmaterials.com,2026-01-18T16:08:02.459255+00:00,2
+904e7a71-f1d4-4a30-acef-3cf59ec4e2a4,Aptiv,aptiv,consumer-discretionary,https://www.aptiv.com,2026-01-19T03:56:25.731178+00:00,1
+b7c1b63d-5f7d-414d-a9e8-5e12d1d498e8,Arch Capital Group,arch-capital-group,financials,https://www.archgroup.com,2026-01-19T03:56:05.536587+00:00,1
+218eaa42-34f0-423e-ac08-af040bf2d055,Archer Daniels Midland,archer-daniels-midland,consumer-staples,https://www.adm.com,2026-01-19T03:56:40.291126+00:00,1
+a44cbd3b-c19f-41c5-8dac-3d2e9163705a,Arista Networks,arista-networks,technology,https://www.arista.com,2026-01-19T03:55:29.409817+00:00,1
+4ad574fd-e64c-4cca-958e-d644a97137a4,Arthur J. Gallagher & Co.,arthur-j-gallagher,financials,https://www.ajg.com,2026-01-19T03:56:05.80048+00:00,1
+82e77763-7484-480b-a429-dd1a267e1a9c,Assurant,assurant,financials,https://www.assurant.com,2026-01-19T03:56:06.080031+00:00,1
+5ae5e220-7d6c-4df2-a10d-6b89bb627959,Atmos Energy,atmos-energy,utilities,https://www.atmosenergy.com,2026-01-19T03:57:26.583336+00:00,1
+6a61538b-10ac-4773-9617-8da8edd66451,AutoZone,autozone,consumer-discretionary,https://www.autozone.com,2026-01-19T03:56:25.994277+00:00,1
+eae44fce-dd0f-4fc7-a2b7-f1fb50c66e1e,Autodesk,autodesk,technology,https://www.autodesk.com,2026-01-19T03:55:29.726988+00:00,1
+eaafdecc-32b3-4d8c-ba24-60bed7504b65,Automatic Data Processing,automatic-data-processing,industrials,https://www.adp.com,2026-01-19T03:56:52.024774+00:00,1
+9269d80c-6178-4ab6-8b61-7c789fc12dfc,AvalonBay Communities,avalonbay-communities,real-estate,https://www.avalonbay-communities.com,2026-01-19T03:57:34.351002+00:00,1
+e8bed135-3252-401b-93f9-c8675138ee6d,Avery Dennison,avery-dennison,materials,https://www.averydennison.com,2026-01-19T03:57:43.205952+00:00,1
+e7f6d7a9-70cc-4694-b52e-a64327dbe3b2,Axon Enterprise,axon-enterprise,industrials,https://www.axon.com,2026-01-19T03:56:52.285138+00:00,1
+cded1d0b-6901-4d05-8313-42d50facd432,BJ's Wholesale,bjs,retail,https://www.bjs.com,2026-01-18T00:10:22.347308+00:00,2
+7b82245e-0661-4c82-9003-c0145f08e51b,BNY Mellon,bny-mellon,financials,https://www.bnymellon.com,2026-01-19T03:56:08.000507+00:00,1
+dc63128d-ba0d-46f4-8677-a855ee70d0ee,BXP Inc.,bxp,real-estate,https://www.bxp.com,2026-01-19T03:57:34.62164+00:00,1
+b70cd6ec-8e44-49ac-b321-fffc99e3a5c0,Baker Hughes,baker-hughes,energy,https://www.bakerhughes.com,2026-01-19T03:57:19.343384+00:00,1
+fc0e5d5b-c919-4116-97d1-d74d6a57e130,Ball Corporation,ball,materials,https://www.ball.com,2026-01-19T03:57:43.466441+00:00,1
+76caad14-1701-482e-94fa-0a7cffc6f22b,Bank of America,bank-of-america,financials,https://www.bankofamerica.com,2026-01-18T16:12:14.511326+00:00,2
+39e62058-12a7-458d-aafe-68e4d9a20924,Baxter International,baxter-international,healthcare,https://www.baxter.com,2026-01-19T03:55:48.225332+00:00,1
+bdf65219-0eb0-4329-a55c-0eda0f1f85d7,Becton Dickinson,becton-dickinson,healthcare,https://www.bd.com,2026-01-19T03:55:48.486857+00:00,1
+46806049-2f60-480c-a186-810f62d22160,Bed Bath & Beyond,bedbath,retail,https://www.bedbathandbeyond.com,2026-01-18T00:21:36.107518+00:00,3
+b93b8f2c-2887-4aba-978c-5bb571531f35,Berkshire Hathaway,berkshire-hathaway,financials,https://www.berkshirehathaway.com,2026-01-18T16:10:07.378409+00:00,2
+8b2323f9-a64b-41a7-9836-5cda92226956,Best Buy,best-buy,consumer-discretionary,https://www.bestbuy.com,2026-01-19T03:56:26.263055+00:00,1
+68671d8f-cf54-43e7-b8a5-cb1c70cdc891,Big Lots,biglots,retail,https://www.biglots.com,2026-01-18T00:09:15.672406+00:00,3
+9da44ee0-84a4-4893-9b64-b9cc5a643646,Bio-Techne,bio-techne,healthcare,https://www.bio-techne.com,2026-01-19T03:55:48.744581+00:00,1
+1d5a65eb-6d0b-4732-9757-834286fa1333,Biogen,biogen,healthcare,https://www.biogen.com,2026-01-19T03:55:49.001981+00:00,1
+7b91b0fa-4813-4b47-99d1-299569105349,BlackRock,blackrock,financials,https://www.blackrock.com,2026-01-18T16:14:02.213308+00:00,1
+f845a8a4-9558-4c82-9300-b6042fab0ea9,Blackstone Inc.,blackstone,financials,https://www.blackstone.com,2026-01-19T03:56:07.438367+00:00,1
+4a11c8e2-5913-48dd-b8ee-101194d358ef,Block Inc.,block,financials,https://www.block.xyz,2026-01-19T03:56:07.736809+00:00,1
+e556e134-919e-480f-af5a-8807177aca06,Boeing,boeing,industrials,https://www.boeing.com,2026-01-18T16:31:20.788414+00:00,1
+ff1cb2cf-0a52-4f91-af77-aa9b52b20ba5,Booking Holdings,booking-holdings,consumer-discretionary,https://www.bookingholdings.com,2026-01-19T03:56:26.529346+00:00,1
+82b1ca59-21a4-402a-9db0-154aad2ad650,Boston Scientific,boston-scientific,healthcare,https://www.bostonscientific.com,2026-01-19T03:55:49.261427+00:00,1
+9d55b8e7-a298-41c2-a322-1cee65da2f0d,Bristol Myers Squibb,bristol-myers-squibb,healthcare,https://www.bms.com,2026-01-18T16:20:19.053871+00:00,1
+7a31cebf-e921-4be6-b6c5-6900c2581407,Broadcom,broadcom,technology,https://www.broadcom.com,2026-01-18T16:04:48.065489+00:00,1
+21bdad04-5676-4a4c-b429-13eafac909fa,Broadridge Financial Solutions,broadridge-financial-solutions,industrials,https://www.broadridge.com,2026-01-19T03:56:52.925693+00:00,1
+def58c30-10e0-455b-9541-ec7614c49fb2,Brown & Brown,brown-brown,financials,https://www.bbinsurance.com,2026-01-19T03:56:08.276852+00:00,1
+acc09adf-9792-469d-b579-18199c49fa14,Brown-Forman,brown-forman,consumer-staples,https://www.brown-forman.com,2026-01-19T03:56:40.570987+00:00,1
+44481cf3-8b2c-44be-9a00-9923029c35bc,Builders FirstSource,builders-firstsource,industrials,https://www.bldr.com,2026-01-19T03:56:53.212733+00:00,1
+93806bbd-ae31-4631-be8e-8db1c7f79941,Bunge Global,bunge-global,consumer-staples,https://www.bunge.com,2026-01-19T03:56:40.840723+00:00,1
+c2889e5b-0b5e-45be-b9f0-02ff67ffd95d,Burlington,burlington,retail,https://www.burlington.com,2026-01-17T23:59:42.488101+00:00,2
+73d28cb1-de5e-4332-9261-c78fa00c3ef4,C.H. Robinson,c-h-robinson,industrials,https://www.chrobinson.com,2026-01-19T03:56:53.491259+00:00,1
+52131b92-921c-4b80-8eb5-886a7a42695d,CBRE Group,cbre-group,real-estate,https://www.cbre-group.com,2026-01-19T03:57:35.14338+00:00,1
+650da6d4-bf69-47d9-a01a-c03e61230560,CDW Corporation,cdw,technology,https://www.cdw.com,2026-01-19T03:55:30.687029+00:00,1
+7946b858-c722-42db-8d20-d118848d70ce,CF Industries,cf-industries,materials,https://www.cfindustries.com,2026-01-19T03:57:43.742487+00:00,1
+e83de074-d1de-4ddc-bf8c-cc285f789962,CME Group,cme-group,financials,https://www.cme-group.com,2026-01-18T16:15:46.702289+00:00,1
+3c801c7d-0ff8-4f70-b094-112a050ed7a3,CMS Energy,cms-energy,utilities,https://www.cmsenergy.com,2026-01-19T03:57:27.175581+00:00,1
+8f7503dd-8459-4fce-910d-c367e9d709d7,CSX Corporation,csx,industrials,https://www.csx.com,2026-01-19T03:56:54.961733+00:00,1
+ff61aec6-9743-4a3a-934e-83b27819971c,CVS Health,cvs-health,healthcare,https://www.cvshealth.com,2026-01-19T03:55:51.573484+00:00,1
+64fdcbfc-a2bf-48fe-a3fc-9146ec0b2dd5,Cadence Design Systems,cadence-design-systems,technology,https://www.cadence.com,2026-01-19T03:55:30.409594+00:00,1
+60bc305b-eeec-48fb-bfe9-941873a85e81,Caesars Entertainment,caesars-entertainment,consumer-discretionary,https://www.caesars.com,2026-01-19T03:56:26.83011+00:00,1
+65d17f48-1822-45fb-8b8b-91d4975db5ca,Camden Property Trust,camden-property-trust,real-estate,https://www.camdenliving.com,2026-01-19T03:57:34.890733+00:00,1
+9bbed7b1-377e-4659-a89b-19fadca9894f,Campbell Company,campbell,consumer-staples,https://www.campbellsoupcompany.com,2026-01-19T03:56:41.119563+00:00,1
+2209fbff-af05-455d-adba-1ea32b639740,Capital One,capital-one,financials,https://www.capitalone.com,2026-01-19T03:56:08.538474+00:00,1
+468b816d-e1bb-42ab-b29f-d6ff454d9083,CarMax,carmax,consumer-discretionary,https://www.carmax.com,2026-01-19T03:56:27.125743+00:00,1
+8569d52b-bc36-42e8-b5ae-29e7f769fb4d,Cardinal Health,cardinal-health,healthcare,https://www.cardinalhealth.com,2026-01-19T03:55:49.874312+00:00,1
+a0495dd5-e4c6-48b1-9487-ff8ba766b44c,Carnival,carnival,consumer-discretionary,https://www.carnival.com,2026-01-19T03:56:27.394977+00:00,1
+822af058-0e33-42bc-8acd-d885e02f3c79,Carrier Global,carrier-global,industrials,https://www.carrier.com,2026-01-19T03:56:53.781529+00:00,1
+ad01bde1-aade-4d8a-9952-e1d4b2e24e05,Caterpillar Inc.,caterpillar,industrials,https://www.caterpillar.com,2026-01-18T16:29:46.832597+00:00,1
+3e8c8ad0-fb30-4846-b8c3-8ebd8c755dcb,Cboe Global Markets,cboe-global-markets,financials,https://www.cboe.com,2026-01-19T03:56:08.813486+00:00,1
+16638aeb-24fc-44e2-88ed-48dbfd8c8b25,Cencora,cencora,healthcare,https://www.cencora.com,2026-01-19T03:55:50.156226+00:00,1
+cd2e212d-68c9-40b1-a07d-8e1b71ba0c98,Centene Corporation,centene,healthcare,https://www.centene.com,2026-01-19T03:55:50.416996+00:00,1
+81bae1bc-d5f8-438b-bc2e-4ac72d36cd9d,CenterPoint Energy,centerpoint-energy,utilities,https://www.centerpointenergy.com,2026-01-19T03:57:26.873854+00:00,1
+bceb66df-603f-4e47-bbab-03dc9d04a15a,Charles River Laboratories,charles-river-laboratories,healthcare,https://www.criver.com,2026-01-19T03:55:50.670631+00:00,1
+42ef2378-d553-4682-8601-a8f40729cc7c,Charles Schwab Corporation,charles-schwab,financials,https://www.schwab.com,2026-01-18T16:13:38.438736+00:00,1
+2d318a38-7324-40a2-96ce-8d5fa2300b17,Charter Communications,charter-communications,communication-services,https://www.charter.com,2026-01-19T03:57:13.832594+00:00,1
+1e39a5ab-3f2b-491f-896d-988fcd6c0b21,Chevron Corporation,chevron,energy,https://www.chevron.com,2026-01-18T16:28:12.744951+00:00,0
+36cd3d2f-5388-4db9-87c4-988fd8e2ab4a,Chewy,chewy,retail,https://www.chewy.com,2026-01-18T00:18:50.318886+00:00,2
+3e4a0776-55d1-4119-8ccf-933edfec9c8c,Chipotle Mexican Grill,chipotle-mexican-grill,consumer-discretionary,https://www.chipotle.com,2026-01-19T03:56:27.657105+00:00,1
+e4f447b7-ab6e-4b4f-abf9-86800bc2ac2f,Chubb Limited,chubb-limited,financials,https://www.chubb.com,2026-01-19T03:56:09.428178+00:00,1
+69424cc4-d099-4510-91e2-ad6d2874f598,Church & Dwight,church-dwight,consumer-staples,https://www.churchdwight.com,2026-01-19T03:56:41.387253+00:00,1
+91a19ef7-a319-47fc-8871-0101ac00cb8a,Cigna,cigna,healthcare,https://www.cigna.com,2026-01-18T16:21:32.792008+00:00,1
+776096f6-552d-4b90-957a-3d061cbe9488,Cincinnati Financial,cincinnati-financial,financials,https://www.cinfin.com,2026-01-19T03:56:09.706615+00:00,1
+9fd56796-e5ae-416f-8e06-c905fca2181d,Cintas,cintas,industrials,https://www.cintas.com,2026-01-19T03:56:54.425722+00:00,1
+fe1f4528-d9b5-4118-98ab-0f108626d0df,Cisco,cis,technology,https://www.cis.com,2026-01-19T03:55:30.947502+00:00,1
+042b4b9e-e517-4ff5-91a5-a707d73f2a8d,Cisco Systems,cisco,technology,https://www.cisco.com,2026-01-18T16:06:31.559837+00:00,1
+fbf4017a-3be4-45ec-936a-59fcee23c2b0,Citigroup,citigroup,financials,https://www.citigroup.com,2026-01-18T16:15:07.808666+00:00,1
+23e81563-8a89-464a-b9e6-47d28acb2de1,Citizens Financial Group,citizens-financial-group,financials,https://www.citizensbank.com,2026-01-19T03:56:10.363424+00:00,1
+76062444-8bf5-4d2b-b6b3-9d967de24582,Clorox,clorox,consumer-staples,https://www.clorox.com,2026-01-19T03:56:41.681181+00:00,1
+066d7aff-21fc-4c30-987c-c319877bd819,CoStar Group,costar-group,real-estate,https://www.costargroup.com,2026-01-19T03:57:35.410866+00:00,1
+8bc081d7-8d9a-4973-a172-cdc10b9c0a60,Coca-Cola Company,coca-cola,consumer-staples,https://www.coca-cola.com,2026-01-18T16:25:57.619502+00:00,1
+5b669081-291a-48c0-b98f-2320d8fcb148,Cognizant,cognizant,technology,https://www.cognizant.com,2026-01-19T03:55:31.206191+00:00,1
+46701d1b-be03-411c-b5ce-bbc7dcf8e03b,Coinbase,coinbase,financials,https://www.coinbase.com,2026-01-19T03:56:10.985205+00:00,1
+e062a84e-aee3-47db-a0ab-7a0447bf3e2a,Colgate-Palmolive,colgate-palmolive,consumer-staples,https://www.colgate-palmolive.com,2026-01-18T16:27:30.986879+00:00,1
+442640af-47de-4a08-817f-8f7bd9985ecf,Comcast,comcast,communication-services,https://www.comcast.com,2026-01-18T16:33:18.217817+00:00,1
+c1ba27cb-adf5-4b72-9474-335a5fa9f311,Conagra Brands,conagra-brands,consumer-staples,https://www.conagrabrands.com,2026-01-19T03:56:42.661715+00:00,1
+337070b8-70bf-4b29-9988-3b35af0a744e,ConocoPhillips,conocophillips,energy,https://www.conocophillips.com,2026-01-18T16:28:32.630388+00:00,1
+c9b69fc5-f677-4aef-aba7-38b4aedfab84,Consolidated Edison,consolidated-edison,utilities,https://www.coned.com,2026-01-19T03:57:27.440887+00:00,1
+719cd16d-7ac9-4f52-9849-f818f324a0ff,Constellation Brands,constellation-brands,consumer-staples,https://www.cbrands.com,2026-01-19T03:56:42.960494+00:00,1
+28c589e0-0053-47f0-8408-eba6a603303c,Constellation Energy,constellation-energy,utilities,https://www.constellationenergy.com,2026-01-19T03:57:27.717016+00:00,1
+f78bfd12-afe9-4d16-a971-7b915644ee37,Cooper Companies,cooper-companies,healthcare,https://www.coopercos.com,2026-01-19T03:55:51.279433+00:00,1
+347f8ef4-c169-4c0c-8f35-3bfe039e19e2,Copart,copart,industrials,https://www.copart.com,2026-01-19T03:56:54.692423+00:00,1
+2772e569-90bb-4b9c-96e1-09d40e52f905,Corning Inc.,corning,technology,https://www.corning.com,2026-01-19T03:55:31.465668+00:00,1
+93e294fb-d0f5-4657-aa78-34a979e4b36e,Corpay,corpay,financials,https://www.corpay.com,2026-01-19T03:56:11.260283+00:00,1
+e3629294-cde3-428a-b331-6faa5092fb81,Corteva,corteva,materials,https://www.corteva.com,2026-01-19T03:57:44.032366+00:00,1
+50ecfce2-57bf-4444-b842-5fff07aa8ac3,Costco,cost,consumer-staples,https://www.cost.com,2026-01-19T03:56:43.233358+00:00,1
+14ce9510-4521-4ed7-bcfa-7d39ddfad1ce,Coterra,coterra,energy,https://www.coterra.com,2026-01-19T03:57:20.290693+00:00,1
+74d4b8bc-5f43-4131-9e7e-f935fc5b1e15,CrowdStrike,crowdstrike,technology,https://www.crowdstrike.com,2026-01-19T03:55:31.730184+00:00,1
+30fd644d-4d70-4168-b676-6b6d14380f76,Crown Castle,crown-castle,real-estate,https://www.crowncastle.com,2026-01-19T03:57:35.675563+00:00,1
+b7e9e244-fe7e-41e7-8410-4314286fc82f,Cummins,cummins,industrials,https://www.cummins.com,2026-01-19T03:56:55.257142+00:00,1
+cd8096f3-ca6c-46b4-8882-5c4989ada80c,D.R. Horton,d-r-horton,consumer-discretionary,https://www.drhorton.com,2026-01-19T03:56:27.938317+00:00,1
+0d3a87b4-2637-470b-a9b9-495021a71c7a,DTE Energy,dte-energy,utilities,https://www.dteenergy.com,2026-01-19T03:57:28.276758+00:00,1
+959cc476-558d-4742-829a-09a3db30e107,DaVita,davita,healthcare,https://www.davita.com,2026-01-19T03:55:52.178504+00:00,1
+ce848609-53ca-4c66-9775-4aab5396aa63,Danaher Corporation,danaher,healthcare,https://www.danaher.com,2026-01-18T16:19:24.653414+00:00,1
+7305d7f9-26f1-4fa8-ac00-702072e045cd,Darden Restaurants,darden-restaurants,consumer-discretionary,https://www.darden.com,2026-01-19T03:56:28.21438+00:00,1
+99c36ef0-e057-4928-928d-bbb32ac406d7,Datadog,datadog,technology,https://www.datadog.com,2026-01-19T03:55:31.987165+00:00,1
+12cd625c-6b93-4153-b6b7-8e7c18c3250d,Dayforce,dayforce,industrials,https://www.dayforce.com,2026-01-19T03:56:55.523217+00:00,1
+9240b7c3-78ed-403d-b2d4-8e3b01a3bb57,Deckers Brands,deckers-brands,consumer-discretionary,https://www.deckers.com,2026-01-19T03:56:28.518221+00:00,1
+4d3f9246-2df6-477d-b0ae-2172375e8dac,Deere & Company,deere,industrials,https://www.deere.com,2026-01-18T16:31:43.79993+00:00,1
+cbb7a628-cf65-447e-b2f9-e4a34495a29b,Dell Technologies,dell-technologies,technology,https://www.dell.com,2026-01-19T03:55:32.267049+00:00,1
+eeaa1a2b-e897-402d-a1d6-e5c93ae32c02,Delta Air Lines,delta-air-lines,industrials,https://www.delta.com,2026-01-19T03:56:56.180063+00:00,1
+cdeb0766-2adb-433d-bc08-abde9360bb73,Devon Energy,devon-energy,energy,https://www.devonenergy.com,2026-01-19T03:57:20.544735+00:00,1
+0f758038-4e9c-41fd-8b53-aab7de983d20,Dexcom,dexcom,healthcare,https://www.dexcom.com,2026-01-19T03:55:52.440266+00:00,1
+d2680923-0b26-4919-9b60-58f71e1be882,Diamondback Energy,diamondback-energy,energy,https://www.diamondbackenergy.com,2026-01-19T03:57:20.807124+00:00,1
+8a1228eb-ac66-4d2a-bbf5-b8d08fc670d3,Dick's Sporting Goods,dicks,retail,https://www.dickssportinggoods.com,2026-01-18T00:04:36.646143+00:00,2
+216e50a4-5dae-48ea-9050-c6fc3886e87c,Digital Realty,digital-realty,real-estate,https://www.digitalrealty.com,2026-01-19T03:57:35.935832+00:00,1
+734140f0-466f-4f02-b32e-62bf4fbb520f,Dillard's,dillards,retail,https://www.dillards.com,2026-01-17T23:55:09.287011+00:00,3
+dfe74aca-9829-4860-b52c-ddcf9abd46b6,Dollar General,dollar-general,consumer-staples,https://www.dollargeneral.com,2026-01-19T03:56:43.502661+00:00,1
+0adb0389-15ac-4d96-9900-37b4709f0c9e,Dollar Tree,dollar-tree,consumer-staples,https://www.dollartree.com,2026-01-19T03:56:43.779434+00:00,1
+0487c8ce-9ba8-4239-b992-b053ec5d4376,Dominion Energy,dominion-energy,utilities,https://www.dominionenergy.com,2026-01-19T03:57:27.992161+00:00,1
+a8431ca4-b4dc-4f42-ab08-f1fb4abf69d0,Dominos,dominos,consumer-discretionary,https://www.dominos.com,2026-01-19T03:56:28.790261+00:00,1
+2b86318d-70b4-410d-9ca4-c65c5cff7c3d,DoorDash,doordash,consumer-discretionary,https://www.doordash.com,2026-01-19T03:56:29.088266+00:00,1
+5a17a59a-b21f-43da-94d1-e98230d441c2,Dover Corporation,dover,industrials,https://www.dover.com,2026-01-19T03:56:56.461425+00:00,1
+a01baebe-c849-499d-80b1-0f51322db77a,Dow Inc.,dow,materials,https://www.dow.com,2026-01-19T03:57:44.289806+00:00,1
+59abeb43-034a-490d-bdc9-35fa3343085c,DuPont,dupont,materials,https://www.dupont.com,2026-01-19T03:57:44.563962+00:00,1
+3ffc2e3e-9c63-4333-9ed2-c7fec41aa12c,Duke Energy,duke-energy,utilities,https://www.duke-energy.com,2026-01-19T03:57:28.550264+00:00,1
+74343756-e2e4-4b60-a284-616d8dfcee7d,EOG Resources,eog-resources,energy,https://www.eogresources.com,2026-01-18T16:29:10.695689+00:00,1
+23c70cb2-b453-4469-9994-72394413d1dd,EPAM Systems,epam-systems,technology,https://www.epam.com,2026-01-19T03:55:32.83342+00:00,1
+5ce6ed24-a4c9-45d7-8512-cc7b93ec2265,EQT Corporation,eqt,energy,https://www.eqt.com,2026-01-19T03:57:21.472266+00:00,1
+ede5905d-ad94-462b-a264-d5e2e123e6a8,Eastman Chemical Company,eastman-chemical,materials,https://www.eastman-chemical.com,2026-01-19T03:57:44.842697+00:00,1
+4536c060-b35e-4bb1-afde-d44921feb6e4,Eaton Corporation,eaton,industrials,https://www.eaton.com,2026-01-19T03:56:56.734233+00:00,1
+96b40f81-036c-46ce-9277-ccf079913af7,Ecolab,ecolab,materials,https://www.ecolab.com,2026-01-19T03:57:45.112971+00:00,1
+f66c8c87-26f2-4fb2-baac-eb399138fde1,Edison International,edison-international,utilities,https://www.edison.com,2026-01-19T03:57:28.816969+00:00,1
+d290daed-7aaf-4e20-8222-14698f4bdad7,Edwards Lifesciences,edwards-lifesciences,healthcare,https://www.edwards.com,2026-01-19T03:55:52.715776+00:00,1
+e6842fa5-568f-4f4a-8936-56de0a983c00,Electronic Arts,electronic-arts,communication-services,https://www.ea.com,2026-01-19T03:57:14.43968+00:00,1
+1c4fab1a-18bd-4eaa-baf3-646b0f22a2e5,Elevance Health,elevance-health,healthcare,https://www.elevancehealth.com,2026-01-18T16:20:37.021902+00:00,1
+c20d2fc8-8365-44c8-8b8c-16dde3cf1b7e,Eli Lilly,eli-lilly,healthcare,https://www.lilly.com,2026-01-18T16:17:10.093811+00:00,1
+19bb4428-8545-43aa-959d-d4955f714939,Emerson Electric,emerson-electric,industrials,https://www.emerson.com,2026-01-19T03:56:57.013103+00:00,1
+a125d74e-26b2-4c96-889b-54a2bc2fc40a,Enphase Energy,enphase-energy,technology,https://www.enphase-energy.com,2026-01-19T03:55:32.533951+00:00,1
+6301ea73-fe29-4bb5-89e3-2efcd7b2772a,Entergy,entergy,utilities,https://www.entergy.com,2026-01-19T03:57:29.11362+00:00,1
+8f73ac0d-5fb4-4c46-917b-1f1752e41ef8,Equifax,equifax,industrials,https://www.equifax.com,2026-01-19T03:56:57.285655+00:00,1
+bc7323dd-2b42-46f9-be31-44c56b0dffec,Equinix,equinix,real-estate,https://www.equinix.com,2026-01-19T03:57:36.194736+00:00,1
+7e6f0cbd-09ba-4dac-8cd1-8f1b58058ed1,Equity Residential,equity-residential,real-estate,https://www.equity-residential.com,2026-01-19T03:57:36.464878+00:00,1
+68cf014e-8957-46c4-b286-0ac66910de7a,Erie Indemnity,erie-indemnity,financials,https://www.erieinsurance.com,2026-01-19T03:56:11.532559+00:00,1
+e8c7b052-ba27-46dc-8190-0d95ec39baba,Essex Property Trust,essex-property-trust,real-estate,https://www.essexapartmenthomes.com,2026-01-19T03:57:36.716446+00:00,1
+88e2d33d-3257-4b12-8f50-4705cf293e18,Estee Lauder Companies,estee-lauder-companies,consumer-staples,https://www.elcompanies.com,2026-01-19T03:56:44.059982+00:00,1
+19c52535-144b-4c0c-82c7-2b117733f195,Everest Group,everest-group,financials,https://www.everestglobal.com,2026-01-19T03:56:11.797171+00:00,1
+cdbdbeb8-55cc-4f7f-b0e0-27ae178fb026,Evergy,evergy,utilities,https://www.evergy.com,2026-01-19T03:57:29.370727+00:00,1
+c5180f09-cbad-4bde-84ad-b0ec609bfb7d,Eversource Energy,eversource-energy,utilities,https://www.eversource.com,2026-01-19T03:57:29.632416+00:00,1
+2eac8f6a-48df-4754-908e-129b2e727441,Exelon,exelon,utilities,https://www.exeloncorp.com,2026-01-19T03:57:29.903492+00:00,1
+b22a5bbe-a022-484c-ba8f-afefb54c597e,Expand Energy,expand-energy,energy,https://www.expandenergy.com,2026-01-19T03:57:21.731883+00:00,1
+8e1fbc87-9fa2-4102-98af-c96a5892abf3,Expedia Group,expedia-group,consumer-discretionary,https://www.expediagroup.com,2026-01-19T03:56:29.641131+00:00,1
+15e7d9a5-24a2-4d18-9022-9221f449d595,Expeditors International,expeditors-international,industrials,https://www.expeditors.com,2026-01-19T03:56:57.55047+00:00,1
+4e33d5a8-f77b-4dc6-aba4-ea4d804c5c7e,Extra Space Storage,extra-space-storage,real-estate,https://www.extraspace.com,2026-01-19T03:57:36.982934+00:00,1
+696009e5-9d01-4d99-a3cf-63c2a09bf6e3,Exxon Mobil,exxon-mobil,energy,https://corporate.exxonmobil.com,2026-01-18T16:27:50.96367+00:00,1
+cd394ad1-63a3-4d0f-ba7b-210dcbc7de09,ExxonMobil,exxonmobil,energy,https://www.exxonmobil.com,2026-01-19T03:57:22.034554+00:00,1
+a0c8b57e-7aab-48cd-9e68-1cc83e5f9cbb,F5 Inc.,f5,technology,https://www.f5.com,2026-01-19T03:55:33.109743+00:00,1
+f575bbb0-7eba-4bf5-87a9-c9d1b0d7eca9,FactSet,factset,financials,https://www.factset.com,2026-01-19T03:56:12.062625+00:00,1
+bc09abe4-272b-432f-af20-825ed935073e,Fair Isaac,fair-isaac,technology,https://www.fico.com,2026-01-19T03:55:33.370908+00:00,1
+f5b515ae-579c-4325-80c9-20ce5ea3a20b,Fastenal,fastenal,industrials,https://www.fastenal.com,2026-01-19T03:56:57.825444+00:00,1
+99a36d9a-c5d7-4b56-8ff6-0faaf60be04b,FedEx,fedex,industrials,https://www.fedex.com,2026-01-19T03:56:58.120122+00:00,1
+4dcd6214-c290-4c78-a253-1e05977e02bb,Federal Realty Investment Trust,federal-realty-investment-trust,real-estate,https://www.federalrealty.com,2026-01-19T03:57:37.258367+00:00,1
+bac8ec07-272b-43d6-8168-631d4d7d18c8,Fidelity National Information Services,fidelity-national-information-services,financials,https://www.fisglobal.com,2026-01-19T03:56:12.335655+00:00,1
+eae86b51-78f0-4980-9059-b823f9411a0c,Fifth Third Bancorp,fifth-third-ban,financials,https://www.53.com,2026-01-19T03:56:12.601869+00:00,1
+d91eec1f-a474-4f3c-83e3-564452c8b33d,First Solar,first-solar,technology,https://www.firstsolar.com,2026-01-19T03:55:33.626891+00:00,1
+9945baf0-eb37-4aa8-a6fb-34287e5b0fc7,FirstEnergy,firstenergy,utilities,https://www.firstenergycorp.com,2026-01-19T03:57:30.169575+00:00,1
+8d7ca0da-c7c5-4965-80d8-00302f9c077d,Fiserv,fiserv,financials,https://www.fiserv.com,2026-01-19T03:56:12.874688+00:00,1
+99973ecc-c1af-4645-b5ce-78b52da46016,Five Below,fivebelow,retail,https://www.fivebelow.com,2026-01-18T00:08:02.403505+00:00,2
+b685bbc3-fb20-4c87-8ae4-e0a1a88203f4,Foot Locker,footlocker,retail,https://www.footlocker-inc.com,2026-01-18T00:03:20.336936+00:00,2
+641d0c07-7c36-4bc9-aa25-2d4da4284d02,Ford Motor Company,ford-motor,consumer-discretionary,https://www.ford.com,2026-01-19T03:56:29.911945+00:00,1
+eae37a19-5d0c-426e-ad5b-bd9a652cd806,Fortinet,fortinet,technology,https://www.fortinet.com,2026-01-19T03:55:33.894397+00:00,1
+8b55da8f-09a4-4dc1-8d0e-58c3753c0db2,Fortive,fortive,industrials,https://www.fortive.com,2026-01-19T03:56:58.39964+00:00,1
+26dadce1-c622-43b3-a072-12f683cc6d83,Fox Corporation,fox,communication-services,https://www.fox.com,2026-01-19T03:57:14.702768+00:00,1
+666ec57e-725f-4cac-83ef-a15359d2cb3e,Franklin Resources,franklin-resources,financials,https://www.franklintempleton.com,2026-01-19T03:56:13.132941+00:00,1
+106c548c-3829-4d4e-ae21-57cf9241a614,Freeport-McMoRan,freeport-mcmoran,materials,https://www.freeport-mcmoran.com,2026-01-19T03:57:45.378375+00:00,1
+3a5df6ce-8dc8-4f88-a3c8-a9c56c55a6ca,GE Aerospace,ge-aerospace,industrials,https://www.ge-aerospace.com,2026-01-19T03:56:58.664762+00:00,1
+6d9aa73c-2fb1-4ead-b100-4be57fcfc467,GE HealthCare,ge-healthcare,healthcare,https://www.gehealthcare.com,2026-01-19T03:55:53.678417+00:00,1
+cb70950e-5eba-4cb3-8e34-ba672825ec8e,GE Vernova,ge-vernova,industrials,https://www.ge-vernova.com,2026-01-19T03:56:58.934973+00:00,1
+a4d9bb90-3b42-405d-a5ab-c0d667430f81,Gap Inc,gap,retail,https://www.gapinc.com,2026-01-17T19:12:10.583815+00:00,3
+db324129-e989-4952-870a-525a250be240,Garmin,garmin,consumer-discretionary,https://www.garmin.com,2026-01-19T03:56:30.193467+00:00,1
+3a242e02-f687-40d5-9ca2-7c221488a819,Gartner,gartner,technology,https://www.gartner.com,2026-01-19T03:55:34.166875+00:00,1
+997437dd-9997-4e07-a2a3-c7f8cf760e05,Gen Digital,gen-digital,technology,https://www.gendigital.com,2026-01-19T03:55:34.439076+00:00,1
+4ca76473-d2fa-479e-9e61-15724c279467,Generac,generac,industrials,https://www.generac.com,2026-01-19T03:56:59.208577+00:00,1
+b5293d8b-24f5-4ad4-be5f-892ca80096fd,General Dynamics,general-dynamics,industrials,https://www.gd.com,2026-01-19T03:56:59.505095+00:00,1
+4a584d07-f710-45f1-8b4c-c6ca89b013ad,General Electric,general-electric,industrials,https://www.ge.com,2026-01-18T16:29:28.892113+00:00,1
+90ed7be9-1046-4195-a4f2-110575b77084,General Mills,general-mills,consumer-staples,https://www.generalmills.com,2026-01-19T03:56:44.337384+00:00,1
+c48b8a42-450b-4485-b6ea-c927ebe7a1f4,General Motors,general-motors,consumer-discretionary,https://www.general-motors.com,2026-01-19T03:56:30.487592+00:00,1
+16be768b-f702-4cfe-bd76-3b9cd6a72eca,Genuine Parts Company,genuine-parts,consumer-discretionary,https://www.genuine-parts.com,2026-01-19T03:56:30.766358+00:00,1
+e1a18ac6-392a-490b-a62b-63d94f105eec,Gilead Sciences,gilead-sciences,healthcare,https://www.gilead.com,2026-01-19T03:55:53.936861+00:00,1
+df056824-7f49-4364-bee0-041b35a8492e,Global Payments,global-payments,financials,https://www.global-payments.com,2026-01-19T03:56:13.403331+00:00,1
+a9ce0679-0580-4ba2-96c7-cf1cafc3f05c,Globe Life,globe-life,financials,https://www.globe-life.com,2026-01-19T03:56:13.666917+00:00,1
+3aa999a1-f345-4a9f-ba59-537542d5760d,GoDaddy,godaddy,technology,https://www.godaddy.com,2026-01-19T03:55:34.727135+00:00,1
+57f3a7b0-eba2-4cad-8f66-c7b5a376c62f,Goldman Sachs,goldman-sachs,financials,https://www.goldmansachs.com,2026-01-18T16:12:57.820814+00:00,1
+f8b49e66-bd81-49e2-bbe6-ef9d4662d475,H-E-B,heb,retail,https://www.heb.com,2026-01-17T23:47:16.146125+00:00,3
+040cd8f5-0de6-4b83-a006-617ff7416052,HCA Healthcare,hca-healthcare,healthcare,https://www.hca-healthcare.com,2026-01-19T03:55:54.212443+00:00,1
+0ce212b6-4909-420b-9b80-f3327d0ae1aa,HP Inc.,hp,technology,https://www.hp.com,2026-01-19T03:55:35.263993+00:00,1
+6240a8a0-463e-4f2a-8255-3ae98a7a560f,Halliburton,halliburton,energy,https://www.halliburton.com,2026-01-19T03:57:22.31013+00:00,1
+b8309e1b-2d86-4246-937a-55932e2152f7,Hartford,hartford,financials,https://www.hartford.com,2026-01-19T03:56:14.322718+00:00,1
+c89f321f-edfc-4d7c-bd85-23183c7bdbb0,Hasbro,hasbro,consumer-discretionary,https://www.hasbro.com,2026-01-19T03:56:31.03571+00:00,1
+9200cd8a-e54d-4e07-90cf-bb4733949c11,Healthpeak Properties,healthpeak-properties,real-estate,https://www.healthpeak.com,2026-01-19T03:57:37.523104+00:00,1
+72ab6e16-5e87-4da6-80be-8fdbab85d6fb,Henry Schein,henry-schein,healthcare,https://www.henry-schein.com,2026-01-19T03:55:54.51844+00:00,1
+0c05548e-4f99-4362-b682-70a29bec1aad,Hershey Company,hershey,consumer-staples,https://www.hershey.com,2026-01-19T03:56:44.601719+00:00,1
+f5a89658-cbae-42b9-88a0-d22e9e76e9c9,Hewlett Packard Enterprise,hewlett-packard-enterprise,technology,https://www.hpe.com,2026-01-19T03:55:35.000549+00:00,1
+3e15b5e3-6c09-4501-93b4-5cd373a7b449,Hilton Worldwide,hilton-worldwide,consumer-discretionary,https://www.hilton.com,2026-01-19T03:56:31.300711+00:00,1
+1d846937-dc91-427a-adc3-16d66035a2b5,Hologic,hologic,healthcare,https://www.hologic.com,2026-01-19T03:55:54.778672+00:00,1
+71f7ddcf-c521-464f-899a-640a40152f05,Home Depot,home-depot,consumer-discretionary,https://www.homedepot.com,2026-01-18T16:23:02.51619+00:00,1
+13a8049a-0e34-476f-917f-97aeb4f2b559,Honeywell,honeywell,industrials,https://www.honeywell.com,2026-01-18T16:30:46.002356+00:00,1
+4bb1c5f2-cc38-4dee-8dfc-754bfa2fc854,Hormel Foods,hormel-foods,consumer-staples,https://www.hormelfoods.com,2026-01-19T03:56:44.873428+00:00,1
+96545a63-6f06-4a52-851b-5ae479324d0a,Host Hotels & Resorts,host-hotels-resorts,real-estate,https://www.hosthotels.com,2026-01-19T03:57:37.778722+00:00,1
+30b4cfa3-8a44-4d96-a19c-4b7493f5e9a8,Howmet Aerospace,howmet-aerospace,industrials,https://www.howmet.com,2026-01-19T03:57:00.107972+00:00,1
+eca1eac5-3161-4a75-a3d2-b8600380eb9f,Hubbell Incorporated,hubbell,industrials,https://www.hubbell.com,2026-01-19T03:57:00.38175+00:00,1
+de5f937f-761f-4ed3-9e98-636ebe4e8844,Humana,humana,healthcare,https://www.humana.com,2026-01-19T03:55:55.029085+00:00,1
+d1a02fd9-3987-4d43-934e-616ab3effa8b,Huntington Bancshares,huntington-bancshares,financials,https://www.huntington.com,2026-01-19T03:56:14.577228+00:00,1
+da997fad-321c-451c-8fe5-78b4b3e8a2ed,Huntington Ingalls Industries,huntington-ingalls-industries,industrials,https://www.huntingtoningalls.com,2026-01-19T03:57:00.677105+00:00,1
+b8e99e5c-187b-475a-9dbb-96291c02caf2,IBM,ibm,technology,https://www.ibm.com,2026-01-18T16:07:06.237291+00:00,1
+8dee60a9-6f7f-4856-b6b4-a815a5662d65,IDEX Corporation,idex,industrials,https://www.idex.com,2026-01-19T03:57:00.948958+00:00,1
+c2335df1-71e4-4352-9aca-5a78ed0462b8,IKEA,ikea,retail,https://www.ikea.com,2026-01-18T00:24:20.019778+00:00,3
+7f20fc38-03af-4fe1-8f66-f75b961e9e0c,IQVIA,iqvia,healthcare,https://www.iqvia.com,2026-01-19T03:55:56.414616+00:00,1
+ae76f502-54cf-42c1-89b8-e05816f7ddbf,Idexx Laboratories,idexx-laboratories,healthcare,https://www.idexx.com,2026-01-19T03:55:55.295242+00:00,1
+76628f12-7f62-46a9-9b9e-9cb2b6cba013,Illinois Tool Works,illinois-tool-works,industrials,https://www.itw.com,2026-01-19T03:57:01.21182+00:00,1
+03a7656e-a92f-4798-8f08-7cf4b2ca6313,Incyte,incyte,healthcare,https://www.incyte.com,2026-01-19T03:55:55.552177+00:00,1
+912be1c5-b8a8-4b92-8582-b52e7289c6cf,Ingersoll Rand,ingersoll-rand,industrials,https://www.irco.com,2026-01-19T03:57:01.502311+00:00,1
+7b0f9cbd-89b0-4efc-9bea-779a26f0c5bd,Insulet Corporation,insulet,healthcare,https://www.insulet.com,2026-01-19T03:55:55.80707+00:00,1
+5818e1fd-5d7e-43b2-b2c3-e42b8ab3ab01,Intel,intel,technology,https://www.intel.com,2026-01-18T16:06:49.245727+00:00,1
+31cba691-07cb-461a-9630-47daf2ad85b4,Intercontinental Exchange,intercontinental-exchange,financials,https://www.ice.com,2026-01-18T16:16:04.693066+00:00,1
+e09f20cc-c340-4923-97e5-7415828b04cd,International Flavors & Fragrances,international-flavors-fragrances,materials,https://www.iff.com,2026-01-19T03:57:45.656432+00:00,1
+a1887c60-1f25-41c2-8f80-331998d7f6f3,International Paper,international-paper,materials,https://www.internationalpaper.com,2026-01-19T03:57:45.956177+00:00,1
+f273b04e-f93b-4cbc-884b-95074a6f8b2d,Interpublic Group of Companies,interpublic-group-of-companies,communication-services,https://www.interpublic.com,2026-01-19T03:57:14.958598+00:00,1
+96106fe6-940e-487b-8444-cd32b259cc4e,Intuit,intuit,technology,https://www.intuit.com,2026-01-18T16:08:20.490092+00:00,1
+c7123429-778b-440d-bf32-eeafe9a57235,Intuitive Surgical,intuitive-surgical,healthcare,https://www.intuitive.com,2026-01-18T16:21:14.394508+00:00,1
+8084082a-12fd-4a23-9574-6c591647f6fb,Invesco,inves,financials,https://www.invesco.com,2026-01-19T03:56:15.192195+00:00,1
+58440970-7c5f-414f-b855-ad1c36d60d9f,Invitation Homes,invitation-homes,real-estate,https://www.invitation-homes.com,2026-01-19T03:57:38.044747+00:00,1
+2e7cb10d-3d39-40e1-97ad-09e669d52a31,Iron Mountain,iron-mountain,real-estate,https://www.iron-mountain.com,2026-01-19T03:57:38.320512+00:00,1
+578764a6-f1b0-414a-86d9-9f52c095462c,J.B. Hunt,j-b-hunt,industrials,https://www.jbhunt.com,2026-01-19T03:57:01.787129+00:00,1
+a36b6544-9fc7-427f-ad67-2676a9694b42,J.M. Smucker Company,j-m-smucker,consumer-staples,https://www.jmsmucker.com,2026-01-19T03:56:45.148769+00:00,1
+2a3cf9ec-7aba-4d49-8d41-4e3332945834,JCPenney,jcpenney,retail,https://www.jcpenney.com,2026-01-17T23:54:11.465449+00:00,3
+75f3f245-dcd8-4693-b123-c460b36feeb6,JPMorgan Chase,jpmorgan-chase,financials,https://www.jpmorganchase.com,2026-01-19T03:56:15.697574+00:00,1
+0144c289-c1cf-4b52-a7dd-3c21d8bece58,Jabil,jabil,technology,https://www.jabil.com,2026-01-19T03:55:36.592573+00:00,1
+5b72b35e-d1ed-4449-a214-58fb1e8cb4ab,Jack Henry & Associates,jack-henry-associates,financials,https://www.jackhenry.com,2026-01-19T03:56:15.444989+00:00,1
+54c8eb76-5864-4a5f-abe8-4f228e6eb0a4,Jacobs Solutions,jacobs-solutions,industrials,https://www.jacobs.com,2026-01-19T03:57:02.074838+00:00,1
+0e754ede-e6ed-443d-a32a-220aa23f6d54,Johnson & Johnson,johnson-johnson,healthcare,https://www.jnj.com,2026-01-18T16:17:46.761424+00:00,1
+6e6948d1-82e0-4e02-94f6-09fa10aff838,Johnson Controls,johnson-controls,industrials,https://www.johnsoncontrols.com,2026-01-19T03:57:02.342196+00:00,1
+1c6a8e93-69b4-4d1e-aeca-959d5fe4bbb8,KKR & Co.,kkr,financials,https://www.kkr.com,2026-01-19T03:56:16.257508+00:00,1
+f33b9e1a-c8f3-4497-a147-2aa95039ad4a,KLA Corporation,kla,technology,https://www.kla.com,2026-01-19T03:55:37.138674+00:00,1
+25d00a2d-34ec-4d03-bddd-9180a6905417,Kellanova,kellanova,consumer-staples,https://www.kellanova.com,2026-01-19T03:56:45.436771+00:00,1
+0ed89020-254a-4787-8ec1-3a0a7cea5943,Kenvue,kenvue,consumer-staples,https://www.kenvue.com,2026-01-19T03:56:45.712171+00:00,1
+17f89c79-7330-4040-ad00-14fa8664f6c2,Keurig Dr Pepper,keurig-dr-pepper,consumer-staples,https://www.keurigdrpepper.com,2026-01-19T03:56:45.984929+00:00,1
+b709d671-6eef-4b21-8148-570f771ab786,KeyCorp,key,financials,https://www.key.com,2026-01-19T03:56:15.979065+00:00,1
+2965ae19-2c21-46fa-b446-ba47ad0ecb3e,Keysight Technologies,keysight-technologies,technology,https://www.keysight.com,2026-01-19T03:55:36.856046+00:00,1
+901bb27e-7651-41b4-80ae-e8c2802bd8a8,Kimberly-Clark,kimberly-clark,consumer-staples,https://www.kimberly-clark.com,2026-01-19T03:56:46.260715+00:00,1
+28cb5ed1-7b31-4ce3-b1ed-a4957bfa33da,Kimco Realty,kimco-realty,real-estate,https://www.kimcorealty.com,2026-01-19T03:57:38.571992+00:00,1
+981ecd4d-9c07-454a-8683-40672af692b9,Kinder Morgan,kinder-morgan,energy,https://www.kindermorgan.com,2026-01-19T03:57:22.599022+00:00,1
+4e19545b-4e16-44cf-912a-15fd50bb859a,Kohl's,kohls,retail,https://corporate.kohls.com,2026-01-17T23:53:02.91779+00:00,3
+fa9313de-7328-4ff6-89b1-a531bbbaa4dd,Kraft Heinz,kraft-heinz,consumer-staples,https://www.kraftheinzcompany.com,2026-01-19T03:56:46.540076+00:00,1
+0ddf2b0b-572f-4194-80e9-a8fd2b31accf,Kroger,kroger,consumer-staples,https://www.kroger.com,2026-01-17T18:30:11.513265+00:00,6
+cd02fd69-f2f9-45ea-a16e-ae35080d1b5c,L3Harris,l3harris,industrials,https://www.l3harris.com,2026-01-19T03:57:02.611382+00:00,1
+a79a7f50-5c88-4eab-b349-c70cd40ecc1d,LKQ Corporation,lkq,consumer-discretionary,https://www.lkqcorp.com,2026-01-19T03:56:32.57085+00:00,1
+2df33038-3b56-4188-bb76-acf37df175b2,Labcorp,lab,healthcare,https://www.lab.com,2026-01-19T03:55:57.018816+00:00,1
+5781ec9b-71c3-4fb0-84f1-ba6cb1111a96,Lam Research,lam-research,technology,https://www.lamresearch.com,2026-01-18T16:08:56.282913+00:00,1
+f0667fba-20d5-4305-8525-f4f4d1efdd9f,Lamb Weston,lamb-weston,consumer-staples,https://www.lamb-weston.com,2026-01-19T03:56:47.074328+00:00,1
+fb1e05ce-d54e-4eb8-b3d9-baa2de1f4630,Las Vegas Sands,las-vegas-sands,consumer-discretionary,https://www.sands.com,2026-01-19T03:56:31.956739+00:00,1
+84bbd72c-8265-4424-9a4d-5ae376701bd0,Leidos,leidos,industrials,https://www.leidos.com,2026-01-19T03:57:02.884445+00:00,1
+ba2ea97c-4111-43e6-8ed9-4ca815439e25,Lennar,lennar,consumer-discretionary,https://www.lennar.com,2026-01-19T03:56:32.236699+00:00,1
+d602ed07-1dc9-43f5-9f6e-1c51a11ddcbb,Lennox International,lennox-international,industrials,https://www.lennoxinternational.com,2026-01-19T03:57:03.150006+00:00,1
+0fad53b3-c93f-4b58-be7a-10518ea43edf,Linde plc,linde,materials,https://www.linde.com,2026-01-18T16:35:24.075285+00:00,1
+8c64b3a0-f87f-425b-8e76-0029b033fcfa,Live Nation Entertainment,live-nation-entertainment,communication-services,https://www.livenationentertainment.com,2026-01-19T03:57:15.211023+00:00,1
+0ce4f7c9-32ff-47d6-bcd3-337de598e836,Lockheed Martin,lockheed-martin,industrials,https://www.lockheed-martin.com,2026-01-18T16:31:02.275592+00:00,4
+f921797a-085a-4628-95af-57780a182bed,Loews Corporation,loews,financials,https://www.loews.com,2026-01-19T03:56:16.524204+00:00,1
+e4813128-8352-487f-94af-65ab3ba3a0ed,Lowes,lowes,consumer-discretionary,https://www.lowes.com,2026-01-17T19:03:14.032684+00:00,5
+9cf2a587-cd91-4d2e-92c5-71e5f15bbe37,Lululemon,lululemon,retail,https://corporate.lululemon.com,2026-01-18T00:02:18.11295+00:00,2
+a7de8516-50d8-49d6-a8eb-3411d16b3716,Lululemon Athletica,lululemon-athletica,consumer-discretionary,https://www.lululemon.com,2026-01-19T03:56:33.228375+00:00,1
+cc0a712f-e1ba-4b4d-af32-10020fbef5d9,LyondellBasell,lyondellbasell,materials,https://www.lyondellbasell.com,2026-01-19T03:57:46.576655+00:00,1
+7d3e97e8-7ad1-4bc9-bc4c-87c02184271d,M&T Bank,m-t-bank,financials,https://www.mtb.com,2026-01-19T03:56:16.792535+00:00,1
+f1fe2bff-5327-48d3-963e-1f572b48d853,MGM Resorts,mgm-resorts,consumer-discretionary,https://www.mgmresorts.com,2026-01-19T03:56:34.125554+00:00,1
+1656dc78-8560-470e-88ef-429ffecb80d4,MSCI Inc.,msci,financials,https://www.msci.com,2026-01-19T03:56:18.986806+00:00,1
+0cc36674-15e8-4729-bc2e-998ad805c278,Macy's,macys,retail,https://www.macysinc.com,2026-01-17T19:09:52.209279+00:00,5
+7bb9ae46-8436-437f-9e68-e5402f03d44f,Marathon Petroleum,marathon-petroleum,energy,https://www.marathonpetroleum.com,2026-01-19T03:57:22.870331+00:00,1
+7afc8ac3-5afc-491d-9844-a230df152f48,MarketAxess,marketaxess,financials,https://www.marketaxess.com,2026-01-19T03:56:17.06006+00:00,1
+ff3ab27b-769d-4958-bbb8-e97c99e1ddfe,Marriott International,marriott-international,consumer-discretionary,https://www.marriott.com,2026-01-19T03:56:33.49384+00:00,1
+05d399d1-a2d5-49e5-8829-04a47e955b20,Marsh McLennan,marsh-mclennan,financials,https://www.marshmclennan.com,2026-01-18T16:16:51.255109+00:00,1
+7ca714d8-49f7-40b9-b3e2-3cf38e771372,Martin Marietta Materials,martin-marietta-materials,materials,https://www.martinmarietta.com,2026-01-19T03:57:46.858149+00:00,1
+9cd9fea9-5073-4328-abed-0461a46bfd67,Masco,mas,industrials,https://www.mas.com,2026-01-19T03:57:03.872845+00:00,1
+361d0837-cd27-4ba1-b39c-1995f14b49ca,Mastercard,mastercard,financials,https://www.mastercard.com,2026-01-18T16:11:49.928814+00:00,1
+361aee96-892b-4b04-8e92-55038a29478c,Match Group,match-group,communication-services,https://www.match.com,2026-01-19T03:57:15.467397+00:00,1
+866d00a2-8175-4303-bdef-553e631247f5,McCormick & Company,mccormick,consumer-staples,https://www.mccormick.com,2026-01-19T03:56:47.35634+00:00,1
+f8854553-8c22-43c4-8b3c-23e9a21a34f8,McDonalds,mcdonalds,consumer-discretionary,https://www.mcdonalds.com,2026-01-18T16:23:19.953576+00:00,1
+c5590e1c-9d22-4b61-b0c8-2e0a7fb4f263,McKesson Corporation,mckesson,healthcare,https://www.mckesson.com,2026-01-19T03:55:57.282976+00:00,1
+51fc2e27-75fb-4a83-bdc3-1f923705fc8d,Medtronic,medtronic,healthcare,https://www.medtronic.com,2026-01-19T03:55:57.552872+00:00,1
+549c197b-36fb-4e04-becd-09323c646eb9,Merck & Co.,merck,healthcare,https://www.merck.com,2026-01-18T16:18:28.474615+00:00,1
+72aef4a1-95f9-40f3-9608-9e1fe1be853e,MetLife,metlife,financials,https://www.metlife.com,2026-01-19T03:56:18.069179+00:00,1
+1772f5cc-9b4d-49ff-a320-65ab8a68d8b4,Meta Platforms,meta-platforms,communication-services,https://www.meta.com,2026-01-19T03:57:15.72885+00:00,1
+3d4d96b3-6638-4ea8-bf71-c7a7574c2e87,Mettler Toledo,mettler-toledo,healthcare,https://www.mt.com,2026-01-19T03:55:58.171919+00:00,1
+15194262-32a7-42c4-a536-c2de8c613f17,Michaels,michaels,retail,https://www.michaels.com,2026-01-18T00:15:03.065216+00:00,2
+dedd02d1-4d31-403c-a7af-570b7bcf0214,Microchip Technology,microchip-technology,technology,https://www.microchip.com,2026-01-19T03:55:37.753887+00:00,1
+bbdfda16-0d5d-4fd5-acbf-31abf115756b,Micron Technology,micron-technology,technology,https://www.micron-technology.com,2026-01-19T03:55:38.023619+00:00,1
+f15999e9-5ff4-4c80-b639-5b36479af72e,Microsoft,microsoft,technology,https://www.microsoft.com,2026-01-18T08:44:54.816997+00:00,1
+dbb5baa2-aa72-47be-b8d7-afeeaa6c49ff,Mid-America Apartment Communities,mid-america-apartment-communities,real-estate,https://www.maac.com,2026-01-19T03:57:38.830843+00:00,1
+ffbd8988-c3ce-4721-9aee-9c12a35f5fa8,Moderna,moderna,healthcare,https://www.modernatx.com,2026-01-19T03:55:58.434982+00:00,1
+f7eee46d-63d8-4e8c-8b3f-91c208083a1b,Mohawk Industries,mohawk-industries,consumer-discretionary,https://www.mohawkind.com,2026-01-19T03:56:34.401894+00:00,1
+c67fd17c-e009-4560-ba03-ba609fc1e55b,Molina Healthcare,molina-healthcare,healthcare,https://www.molinahealthcare.com,2026-01-19T03:55:58.683957+00:00,1
+f790b68a-ff4e-40a4-b266-9efdce0eb53b,Molson Coors Beverage Company,molson-coors-beverage,consumer-staples,https://www.molsoncoors.com,2026-01-19T03:56:47.621349+00:00,1
+11a0c7bf-a0bf-4cbb-a3f8-05b67ec8853f,Mondelez International,mondelez-international,consumer-staples,https://www.mondelezinternational.com,2026-01-19T03:56:47.895829+00:00,1
+e892b8d1-ed02-4c19-8643-5aaf9ed893de,Monolithic Power Systems,monolithic-power-systems,technology,https://www.monolithicpower.com,2026-01-19T03:55:38.618719+00:00,1
+fa9090e5-cc15-47fa-85d1-ccda70ab50b1,Monster Beverage,monster-beverage,consumer-staples,https://www.monsterbevcorp.com,2026-01-19T03:56:48.181414+00:00,1
+83c6519a-1ab9-4093-a407-42f63eab50b9,Moodys Corporation,moodys,financials,https://www.moodys.com,2026-01-19T03:56:18.355251+00:00,1
+93214609-bfab-4e37-a26c-61d88306a655,Morgan Stanley,morgan-stanley,financials,https://www.morganstanley.com,2026-01-18T16:13:17.26759+00:00,1
+3564e535-f0e5-4e8d-ad77-e54e5b76f972,Mosaic Company,mosaic,materials,https://www.mosaic.com,2026-01-19T03:57:47.134273+00:00,1
+ffdbc4d3-18aa-4387-b1a4-96fc5f133d52,Motorola Solutions,motorola-solutions,technology,https://www.motorolasolutions.com,2026-01-19T03:55:38.890883+00:00,1
+b747aa82-d551-445c-93ab-1943edd56174,NRG Energy,nrg-energy,utilities,https://www.nrg.com,2026-01-19T03:57:31.040202+00:00,1
+08f5db64-628c-4c89-898a-9254d41047ec,NVR Inc.,nvr,consumer-discretionary,https://www.nvrinc.com,2026-01-19T03:56:35.30879+00:00,1
+fce427bc-ff14-4c38-8a6b-61a8be00fbbf,NXP Semiconductors,nxp-semiconductors,technology,https://www.nxp.com,2026-01-19T03:55:39.795726+00:00,1
+4851fe91-ba87-4070-be7d-1f82b52b17e4,Nasdaq Inc.,nasdaq,financials,https://www.nasdaq.com,2026-01-19T03:56:19.260338+00:00,1
+7ae30792-a030-4406-b15a-0ff29dc8537c,NetApp,netapp,technology,https://www.netapp.com,2026-01-19T03:55:39.157722+00:00,1
+b4a62250-f343-4ae2-8a16-4d612474ec95,Netflix,netflix,communication-services,https://www.netflix.com,2026-01-18T16:32:41.803172+00:00,1
+d36cc704-c416-4be8-b7b1-97340a0dd925,Newmont,newmont,materials,https://www.newmont.com,2026-01-19T03:57:47.406001+00:00,1
+4a9a94eb-66db-4a2a-a8ac-adda13f7a52b,News Corp,news,communication-services,https://www.news.com,2026-01-19T03:57:16.369483+00:00,1
+9e589c45-e0a9-46bd-b55a-e85276cbb0a3,NextEra Energy,nextera-energy,utilities,https://www.nexteraenergy.com,2026-01-18T16:34:35.982132+00:00,1
+09faa4a6-aa9e-4c4e-824e-a43bc4acd881,NiSource,nisource,utilities,https://www.nisource.com,2026-01-19T03:57:30.784773+00:00,1
+f4472eff-e6b5-4996-acf0-1f70208c2a08,Nike Inc.,nike,consumer-discretionary,https://www.nike.com,2026-01-18T00:01:04.118003+00:00,3
+1eccdf9d-afd4-4f63-a392-3e37b9de6564,Nordson Corporation,nordson,industrials,https://www.nordson.com,2026-01-19T03:57:04.157896+00:00,1
+a1ddd15a-bd86-470a-b16e-82ef3871a0f4,Nordstrom,nordstrom,retail,https://press.nordstrom.com,2026-01-17T19:11:05.971633+00:00,4
+5da38e79-aee0-4061-a67a-1ec6c6472b37,Norfolk Southern,norfolk-southern,industrials,https://www.norfolksouthern.com,2026-01-19T03:57:04.435731+00:00,1
+ccf3a8c1-3014-4f5a-8c60-666abd15a246,Northern Trust,northern-trust,financials,https://www.northerntrust.com,2026-01-19T03:56:19.529999+00:00,1
+f51c0d24-705d-401d-8242-69a16b454ec5,Northrop Grumman,northrop-grumman,industrials,https://www.northropgrumman.com,2026-01-18T16:32:22.705247+00:00,1
+5bd4cda1-39a9-4ab3-b763-3a0c490a8739,Norwegian Cruise Line Holdings,norwegian-cruise-line-holdings,consumer-discretionary,https://www.nclhltd.com,2026-01-19T03:56:35.044146+00:00,1
+9a7e44f7-c521-4822-8956-dfdfb4b14ed7,Nucor,nucor,materials,https://www.nucor.com,2026-01-19T03:57:47.681665+00:00,1
+173635d5-1433-4ebc-8f68-f39fe88f89a1,Nvidia,nvidia,technology,https://www.nvidia.com,2026-01-18T16:03:53.785843+00:00,1
+1650ac62-d8dd-442a-bf34-f1150ecb2e2c,ON Semiconductor,on-semiconductor,technology,https://www.onsemi.com,2026-01-19T03:55:40.060777+00:00,1
+334298b4-5f86-4f5c-9dbd-c02ace9c0c8d,OReilly Automotive,oreilly-automotive,consumer-discretionary,https://www.oreillyauto.com,2026-01-19T03:56:35.578319+00:00,1
+2372c872-d718-43ff-8529-bdd55c5d7396,Occidental Petroleum,occidental-petroleum,energy,https://www.oxy.com,2026-01-19T03:57:23.11222+00:00,1
+ff569b41-cc6d-4092-b98e-47fe0c4a9566,Office Depot,officedepot,retail,https://www.officedepot.com,2026-01-18T00:14:02.50235+00:00,2
+f82057a7-e91c-4118-87a9-7dc4a2275e54,Old Dominion,old-dominion,industrials,https://www.odfl.com,2026-01-19T03:57:05.051729+00:00,1
+1ccb859c-83e4-49d1-8f0d-28672ab267e6,Omnicom Group,omnicom-group,communication-services,https://www.omnicomgroup.com,2026-01-19T03:57:16.634629+00:00,1
+e81cc57a-d29d-4cc1-be3e-be5e41e198e0,Oneok,oneok,energy,https://www.oneok.com,2026-01-19T03:57:23.37373+00:00,1
+70412951-f104-47f3-8971-b084a59f95a0,Oracle Corporation,oracle,technology,https://www.oracle.com,2026-01-18T16:05:20.175889+00:00,0
+f0836ff3-fdfc-4c7a-8203-9e1a6484b3c0,Otis Worldwide,otis-worldwide,industrials,https://www.otis.com,2026-01-19T03:57:05.312621+00:00,1
+b51a45d0-c2a2-42db-b343-3bdee72a4757,PG&E Corporation,pg-e,utilities,https://www.pge.com,2026-01-19T03:57:31.334933+00:00,1
+5246a86e-ec14-4ca4-bbbe-1feb7d6d34c0,PNC Financial,pnc,financials,https://www.pnc.com,2026-01-18T16:16:25.049159+00:00,1
+50e77857-1371-49fd-a251-53540b7dbe59,PNC Financial Services,pnc-financial-services,financials,https://www.pnc.com,2026-01-19T03:56:20.098594+00:00,1
+c56802cf-569e-4b1f-ad71-4dfdbb24b7c9,PPG Industries,ppg-industries,materials,https://www.ppg.com,2026-01-19T03:57:48.228177+00:00,1
+37fbb3f6-1f88-4e0e-b793-08d3b86383a2,PPL Corporation,ppl,utilities,https://www.pplweb.com,2026-01-19T03:57:31.86866+00:00,1
+3fc12093-7f20-4ff8-94d6-8396cc54da56,PTC Inc.,ptc,technology,https://www.ptc.com,2026-01-19T03:55:41.334629+00:00,1
+50610d48-9af9-43a1-a44c-fe1c514523c7,Paccar,paccar,industrials,https://www.paccar.com,2026-01-19T03:57:05.598736+00:00,1
+c86809e0-21a8-49c5-bc28-bafb608e704c,Packaging Corporation of America,packaging-corporation-of-america,materials,https://www.packagingcorp.com,2026-01-19T03:57:47.967772+00:00,1
+101ef996-320c-42f1-a344-ac1887ccb6d5,Palantir Technologies,palantir-technologies,technology,https://www.palantir.com,2026-01-19T03:55:40.716659+00:00,1
+4f5171e6-5282-4bc7-b32a-0b6337c46f65,Palo Alto Networks,palo-alto-networks,technology,https://www.paloaltonetworks.com,2026-01-18T16:09:50.938763+00:00,1
+96c2b61b-14dc-414b-aec5-c1fa32516875,Paramount Skydance Corporation,paramount-skydance,communication-services,https://www.paramount.com,2026-01-19T03:57:16.889185+00:00,1
+1c912109-58c3-4c03-a604-29e0427e7c5e,Parker Hannifin,parker-hannifin,industrials,https://www.parker.com,2026-01-19T03:57:05.879139+00:00,1
+76e3e985-716f-4de3-b308-43a806dd19e9,PayPal,paypal,financials,https://www.paypal.com,2026-01-19T03:56:19.811583+00:00,1
+676229d2-41f4-46bc-8716-ef36ad40763d,Paychex,paychex,industrials,https://www.paychex.com,2026-01-19T03:57:06.151688+00:00,1
+3aaad55a-e12c-4085-b0ff-d09fa5d7ed4b,Paycom,paycom,industrials,https://www.paycom.com,2026-01-19T03:57:06.431146+00:00,1
+b1f8218d-905e-46d7-bcbf-6d52b31554d4,Pentair,pentair,industrials,https://www.pentair.com,2026-01-19T03:57:06.710476+00:00,1
+27822f9d-f334-4cb9-b76c-3e17f486efe1,PepsiCo,pepsi,consumer-staples,https://www.pepsi.com,2026-01-19T03:56:48.456829+00:00,1
+c3e90f67-1a88-463c-bc71-968787e933dc,PetSmart,petsmart,retail,https://www.petsmart.com,2026-01-18T00:16:13.963722+00:00,2
+3293c6c0-2eae-4898-850c-e4d3c60418bd,Petco,petco,retail,https://www.petco.com,2026-01-18T00:17:26.266335+00:00,2
+7b62a980-c7f8-4643-9e52-7e7f3ea200bb,Pfizer,pfizer,healthcare,https://www.pfizer.com,2026-01-18T16:18:49.261182+00:00,1
+a507cdf5-bdcc-417a-9553-d9f9ca7ad2e7,Philip Morris International,philip-morris-international,consumer-staples,https://www.pmi.com,2026-01-19T03:56:48.734974+00:00,1
+e9780ccc-49d2-4624-8bac-973981ff8989,Phillips 66,phillips-66,energy,https://www.phillips66.com,2026-01-19T03:57:23.627423+00:00,1
+8676f206-3958-47a0-826d-af73126b7139,Pinnacle West Capital,pinnacle-west-capital,utilities,https://www.pinnaclewest.com,2026-01-19T03:57:31.6083+00:00,1
+f14fd58b-f38b-4337-a211-92802931f6db,Pool Corporation,pool,consumer-discretionary,https://www.pool.com,2026-01-19T03:56:35.857161+00:00,1
+682b8c35-1d17-4765-b1a4-5457ce0b9022,Principal Financial Group,principal-financial-group,financials,https://www.principal.com,2026-01-19T03:56:20.416252+00:00,1
+e759c0c1-704e-40d6-a0b4-8fe53d7193b3,Procter & Gamble,procter-gamble,consumer-staples,https://www.pg.com,2026-01-18T16:25:39.400787+00:00,1
+01ad3bf8-e644-4502-bda1-8cc8664ed68e,Progressive Corporation,progressive,financials,https://www.progressive.com,2026-01-18T16:15:25.444433+00:00,1
+64da0a19-356a-4635-9e3c-75767f5be7ec,Prologis,prologis,real-estate,https://www.prologis.com,2026-01-18T16:36:20.731531+00:00,1
+25fe5086-5fa0-49db-98f4-093d17cc247a,Prudential Financial,prudential-financial,financials,https://www.prudential.com,2026-01-19T03:56:21.039255+00:00,1
+a3a4a142-4d2c-40a3-9892-7774ef32991e,Public Service Enterprise Group,public-service-enterprise-group,utilities,https://www.pseg.com,2026-01-19T03:57:32.177371+00:00,1
+f6564571-d51f-48f1-bf7d-e313c4c879d4,Public Storage,public-storage,real-estate,https://www.publicstorage.com,2026-01-19T03:57:39.500435+00:00,1
+113f4467-f884-4b94-8776-781fb93a3241,Publix,publix,retail,https://corporate.publix.com,2026-01-17T19:08:43.816484+00:00,4
+1816baa8-ff68-445a-a443-cf951476659c,PulteGroup,pultegroup,consumer-discretionary,https://www.pultegroup.com,2026-01-19T03:56:36.131411+00:00,1
+26e3550a-7eb4-4627-bddb-2745cca2ad51,Qualcomm,qualcomm,technology,https://www.qualcomm.com,2026-01-18T16:07:25.000873+00:00,1
+a8f7f50d-4978-4046-9c0c-69efae2d23ed,Quanta Services,quanta-services,industrials,https://www.quantaservices.com,2026-01-19T03:57:06.985006+00:00,1
+193af8e5-5cac-43f5-8721-6080fe73fb46,Quest Diagnostics,quest-diagnostics,healthcare,https://www.questdiagnostics.com,2026-01-19T03:55:59.361237+00:00,1
+6f3129d8-e818-4bdd-94c3-d473836aebb2,RTX Corporation,rtx,industrials,https://www.rtx.com,2026-01-18T16:30:05.784066+00:00,1
+6a6f246f-d942-4bcb-b6df-458e59b99d84,Ralph Lauren Corporation,ralph-lauren,consumer-discretionary,https://www.ralphlauren.com,2026-01-19T03:56:36.398823+00:00,1
+762c22af-0a93-4a7a-b96e-b8a20ae9c799,Raymond James Financial,raymond-james-financial,financials,https://www.raymondjames.com,2026-01-19T03:56:21.316432+00:00,1
+2b85f0ef-3fff-4725-afb5-1ca2c72c97d4,Realty Income,realty-income,real-estate,https://www.realtyincome.com,2026-01-19T03:57:39.786379+00:00,1
+54cfcd1a-fd4f-4978-920d-50980877a936,Regency Centers,regency-centers,real-estate,https://www.regencycenters.com,2026-01-19T03:57:40.061041+00:00,1
+b39a54b6-07a6-4377-ab0d-12e67ee928e4,Regeneron Pharmaceuticals,regeneron-pharmaceuticals,healthcare,https://www.regeneron.com,2026-01-19T03:55:59.639562+00:00,1
+dc4e54da-e020-4da5-a22e-2a6813af2ccd,Regions Financial Corporation,regions-financial,financials,https://www.regions.com,2026-01-19T03:56:21.583915+00:00,1
+a1c5218f-a766-403e-b99d-d3637d032a1c,Republic Services,republic-services,industrials,https://www.republic-services.com,2026-01-19T03:57:07.360815+00:00,1
+a1ea1f27-619f-45c1-b6d3-999e7bc9c9de,ResMed,resmed,healthcare,https://www.resmed.com,2026-01-19T03:55:59.894867+00:00,1
+1ff3792b-f7f4-4560-95fe-0a1977078eb0,Revvity,revvity,healthcare,https://www.revvity.com,2026-01-19T03:56:00.163606+00:00,1
+cb067398-3d28-4d07-b03d-4e9c1b4f40d5,Rite Aid,riteaid,retail,https://www.riteaid.com,2026-01-17T23:38:33.098894+00:00,3
+2a75b284-56e4-4a86-9bed-4a25d301a201,Rockwell Automation,rockwell-automation,industrials,https://www.rockwellautomation.com,2026-01-19T03:57:07.635524+00:00,1
+b235b79d-0a58-456d-a3a3-778cd403c0b1,Rollins Inc.,rollins,industrials,https://www.rollins.com,2026-01-19T03:57:07.900799+00:00,1
+e37d2501-c346-44de-97ca-ce2701f25e7d,Roper Technologies,roper-technologies,technology,https://www.ropertech.com,2026-01-19T03:55:41.959837+00:00,1
+3955b6f3-f28d-42d8-8dbe-615d4a80d5f4,Ross Stores,ross-stores,consumer-discretionary,https://www.rossstores.com,2026-01-19T03:56:36.660193+00:00,1
+ec0c2d51-0b0c-45ce-8727-ad530d64a160,Royal Caribbean Group,royal-caribbean-group,consumer-discretionary,https://www.royalcaribbean.com,2026-01-19T03:56:36.949039+00:00,1
+c81c8634-0205-4edc-aa9a-29e87d20c091,S&P Global,s-p-global,financials,https://www.spglobal.com,2026-01-19T03:56:21.869341+00:00,1
+b4a04904-a564-43ea-94db-a1478ce92863,SBA Communications,sba-communications,real-estate,https://www.sbasite.com,2026-01-19T03:57:40.362364+00:00,1
+60a36018-74b6-484b-bc2f-7c356a116950,Safeway,safeway,retail,https://www.safeway.com,2026-01-17T23:49:27.738694+00:00,3
+6079feba-2c4e-4171-9574-60f34e49e6d0,Salesforce,salesforce,technology,https://www.salesforce.com,2026-01-18T16:05:37.847366+00:00,1
+0daecaa6-021e-47e9-b23a-308119ca6c9b,Sam's Club,samsclub,retail,https://www.samsclub.com,2026-01-18T00:11:45.676879+00:00,2
+97cd9912-da20-4fd2-85a8-aa03153eb742,Schlumberger,schlumberger,energy,https://www.schlumberger.com,2026-01-18T16:28:53.340423+00:00,1
+e25b0c50-a9c6-46a5-b805-300d649c593c,Seagate Technology,seagate-technology,technology,https://www.seagate.com,2026-01-19T03:55:42.566965+00:00,1
+76a0407f-e9d3-4625-a3c5-c950492157d1,Sempra,sempra,utilities,https://www.sempra.com,2026-01-19T03:57:32.459941+00:00,1
+4ba61f1f-e4af-4227-80ec-848cd05b03b2,ServiceNow,servicenow,technology,https://www.servicenow.com,2026-01-18T16:08:37.706649+00:00,1
+a86b2c16-9bd4-4acd-9482-5028f2b842c2,Sherwin-Williams,sherwin-williams,materials,https://www.sherwin-williams.com,2026-01-18T16:35:42.65819+00:00,1
+37c28e7f-bffb-44b1-96a0-71760d3446ad,Simon Property Group,simon-property-group,real-estate,https://www.simon.com,2026-01-19T03:57:40.652316+00:00,1
+14e34c2f-93a9-445b-aa4d-1e544908ae59,Skyworks Solutions,skyworks-solutions,technology,https://www.skyworksinc.com,2026-01-19T03:55:43.174711+00:00,1
+d991c9f0-07ee-4d1c-9415-9f604a4e03df,Smurfit Westrock,smurfit-westrock,materials,https://www.smurfitwestrock.com,2026-01-19T03:57:48.853755+00:00,1
+68854b66-932e-4a85-a019-4e0f74473da7,Snap-on,snap-on,industrials,https://www.snapon.com,2026-01-19T03:57:08.540264+00:00,1
+35e5cdcf-973b-48f4-8923-dc2536a26188,Solventum,solventum,healthcare,https://www.solventum.com,2026-01-19T03:56:00.415629+00:00,1
+8ac6f54e-4204-44ce-946c-96e8425fb9ff,Southern Company,southern,utilities,https://www.southerncompany.com,2026-01-19T03:57:32.716335+00:00,1
+269a750b-bb80-44e7-bf69-84be042db217,Southwest Airlines,southwest-airlines,industrials,https://www.southwest-airlines.com,2026-01-19T03:57:08.836469+00:00,1
+fed6b714-a534-42ee-b55a-2b906cafc7b1,Sprouts Farmers Market,sprouts,retail,https://www.sprouts.com,2026-01-17T23:45:51.774284+00:00,3
+d3236e06-5ac2-4ccb-a610-fcfeeab70b3b,Stanley Black & Decker,stanley-black-decker,industrials,https://www.stanleyblackanddecker.com,2026-01-19T03:57:09.217934+00:00,1
+f57d75c6-01bb-48b2-83ed-e3736491de1b,Staples,staples,retail,https://www.staples.com,2026-01-18T00:12:57.932531+00:00,2
+e382c60e-4436-4844-9fce-8101e12efa95,Starbucks,starbucks,consumer-discretionary,https://www.starbucks.com,2026-01-18T16:24:15.057973+00:00,1
+47bdd4d4-ab33-4f24-b29b-32edba200939,State Street Corporation,state-street,financials,https://www.state-street.com,2026-01-19T03:56:22.151934+00:00,1
+3ca1768e-9ed3-4cfc-879e-ba0fa027f516,Steel Dynamics,steel-dynamics,materials,https://www.steeldynamics.com,2026-01-19T03:57:49.128005+00:00,1
+82432573-2c71-42cd-8778-a97eccab9917,Steris,steris,healthcare,https://www.steris.com,2026-01-19T03:56:00.678879+00:00,1
+4d94c708-936e-462c-a10c-b3367267bff4,Stryker Corporation,stryker,healthcare,https://www.stryker.com,2026-01-19T03:56:00.926729+00:00,1
+ff466ecd-828b-4f3e-84fb-2e6dc5383f98,Supermicro,supermicro,technology,https://www.supermicro.com,2026-01-19T03:55:43.451764+00:00,1
+dd12df80-fcd9-48d5-882c-ef345d255edf,Synchrony Financial,synchrony-financial,financials,https://www.synchrony.com,2026-01-19T03:56:22.459223+00:00,1
+720da3da-8458-40cd-85ca-273ccf5f9447,Synopsys,synopsys,technology,https://www.synopsys.com,2026-01-19T03:55:43.715543+00:00,1
+e04c65cb-95a9-425a-b391-d6ed9952ff20,Sysco,sys,consumer-staples,https://www.sysco.com,2026-01-19T03:56:49.353708+00:00,1
+2ab2ac93-06f4-47e5-8ac4-401267ad44f1,T-Mobile US,t-mobile-us,communication-services,https://www.t-mobile.com,2026-01-19T03:57:17.147367+00:00,1
+83cfd929-abf2-44bc-a31b-afa3a6a55563,T. Rowe Price,t-rowe-price,financials,https://www.troweprice.com,2026-01-19T03:56:22.729815+00:00,1
+e0067f95-0163-4de8-9f12-0288014811cd,TE Connectivity,te-connectivity,technology,https://www.te.com,2026-01-19T03:55:43.978356+00:00,1
+e3824a85-39a4-4c86-ad1c-15bb13c334b7,TJX Companies,tjx-companies,consumer-discretionary,https://www.tjx.com,2026-01-19T03:56:38.240218+00:00,1
+1d50edb6-30b8-4219-b8b5-dd3d757a3356,TKO Group Holdings,tko-group-holdings,communication-services,https://www.tkogrp.com,2026-01-19T03:57:17.680355+00:00,1
+4201c945-ad1e-49f0-916e-f0200f73db9a,Take-Two Interactive,take-two-interactive,communication-services,https://www.take2games.com,2026-01-19T03:57:17.411919+00:00,1
+6719faee-c217-4d53-b8d7-ce835d1fc183,Tapestry Inc.,tapestry,consumer-discretionary,https://www.tapestry.com,2026-01-19T03:56:37.609339+00:00,1
+7afa3ca2-511b-4dba-bce7-e75f2299c8ae,Targa Resources,targa-resources,energy,https://www.targaresources.com,2026-01-19T03:57:24.252025+00:00,1
+a85d3395-6bab-442a-8168-582ee2391e43,Target Corporation,target,consumer-staples,https://www.target.com,2026-01-17T18:59:53.818405+00:00,7
+73c80c1d-a8ae-4e69-969f-2954070824aa,Teledyne Technologies,teledyne-technologies,technology,https://www.teledyne.com,2026-01-19T03:55:44.224424+00:00,1
+bd16ebcc-f22a-426b-baad-91467d4f0971,Teradyne,teradyne,technology,https://www.teradyne.com,2026-01-19T03:55:44.496017+00:00,1
+781152cd-cf87-419b-9fa8-b5ec42813059,Tesla Inc.,tesla,consumer-discretionary,https://www.tesla.com,2026-01-18T16:22:44.366186+00:00,0
+82b0bc26-a6a5-4ed1-a3e0-3925ee54ece2,Texas Instruments,texas-instruments,technology,https://www.ti.com,2026-01-18T16:07:43.628678+00:00,1
+fa2bfcde-a160-49de-abde-5553006d9390,Texas Pacific Land Corporation,texas-pacific-land,energy,https://www.texaspacific.com,2026-01-19T03:57:24.497334+00:00,1
+922642d8-49ac-48c8-bf51-d564b590b642,Textron,textron,industrials,https://www.textron.com,2026-01-19T03:57:09.470997+00:00,0
+5797e1ef-bd8f-4afb-872f-25c2ba5ef499,Thermo Fisher Scientific,thermo-fisher-scientific,healthcare,https://www.thermofisher.com,2026-01-19T03:56:01.206314+00:00,1
+7532f224-82a1-42cb-85b8-174b7c27c0e9,Tractor Supply,tractor-supply,consumer-discretionary,https://www.tractorsupply.com,2026-01-19T03:56:38.53042+00:00,1
+24df631c-bd7b-4505-900f-db1d9a86c7ed,Trade Desk,trade-desk,communication-services,https://www.thetradedesk.com,2026-01-19T03:57:17.935608+00:00,1
+d5a7f9c2-f43a-4cc2-a909-5c930fcc79a2,Trader Joe's,traderjoes,retail,https://www.traderjoes.com,2026-01-17T19:17:36.892526+00:00,4
+6843afdf-f296-416f-a273-87c2a5234440,Trane Technologies,trane-technologies,industrials,https://www.tranetechnologies.com,2026-01-19T03:57:09.739502+00:00,1
+7fe61b90-d3d1-4d6e-88f3-fd45ddff7ed2,TransDigm Group,transdigm-group,industrials,https://www.transdigm.com,2026-01-19T03:57:10.003289+00:00,1
+a7a89aaf-06b0-4790-b9c4-57aba08ee52e,Travelers Companies,travelers-companies,financials,https://www.travelers.com,2026-01-19T03:56:23.015532+00:00,1
+3d7628b5-5ffa-4c80-a339-963fe5197680,Trimble Inc.,trimble,technology,https://www.trimble.com,2026-01-19T03:55:45.114498+00:00,1
+e9869a1e-3c19-4bc5-bf4f-5594d1bf5be8,Truist Financial,truist-financial,financials,https://www.truist.com,2026-01-19T03:56:23.282535+00:00,1
+8de4eb84-3628-4908-bb41-3f3ac5494879,Tyler Technologies,tyler-technologies,technology,https://www.tylertech.com,2026-01-19T03:55:45.392221+00:00,1
+61712fc9-e1c1-4078-b10d-8425bf4d5282,Tyson Foods,tyson-foods,consumer-staples,https://www.tysonfoods.com,2026-01-19T03:56:49.890594+00:00,1
+3691406b-4015-47ca-9423-d1378188ef77,U.S. Bancorp,u-s-ban,financials,https://www.usbank.com,2026-01-19T03:56:23.555566+00:00,1
+e65d17a7-466b-4b73-a7e3-e974b559bef9,UDR Inc.,udr,real-estate,https://www.udr.com,2026-01-19T03:57:40.929703+00:00,1
+64a61aff-90df-4393-b673-2aa0142a45c6,UPS,ups,industrials,https://www.ups.com,2026-01-18T16:32:03.749597+00:00,1
+43f04f02-59bf-4f18-bd1d-0227a779d69b,Uber,uber,industrials,https://www.uber.com,2026-01-19T03:57:10.258578+00:00,1
+91bfb7f7-c2e8-4647-beff-379b846d9902,Ulta Beauty,ulta-beauty,consumer-discretionary,https://www.ulta.com,2026-01-19T03:56:38.821879+00:00,1
+db4b4720-0d32-4a5d-8c30-b57f06a1cdc2,Union Pacific Corporation,union-pacific,industrials,https://www.up.com,2026-01-18T16:30:25.296745+00:00,1
+9dce1828-1d0c-4fc7-90b0-d228526169ed,United Airlines Holdings,united-airlines-holdings,industrials,https://www.united.com,2026-01-19T03:57:10.865402+00:00,1
+2dfc9ded-d859-4acf-bd30-a6706f1aa970,United Parcel Service,united-parcel-service,industrials,https://www.ups.com,2026-01-19T03:57:11.127322+00:00,1
+bfa2ee68-d333-4860-b0df-2a721aaa22ba,United Rentals,united-rentals,industrials,https://www.united-rentals.com,2026-01-19T03:57:11.397099+00:00,1
+f5a1ed9f-4e8e-405a-a677-6beb35b1a13f,UnitedHealth Group,unitedhealth-group,healthcare,https://www.unitedhealthgroup.com,2026-01-19T03:56:01.465039+00:00,1
+23925715-4c43-4502-b792-bf4eec3b4bac,Universal Health Services,universal-health-services,healthcare,https://www.uhs.com,2026-01-19T03:56:01.72191+00:00,1
+7655bc02-f983-400e-aa88-5caec3846900,Valero Energy,valero-energy,energy,https://www.valero.com,2026-01-19T03:57:24.769329+00:00,1
+18b4682d-aa80-484d-8dc1-37c0102cf1cf,Ventas,ventas,real-estate,https://www.ventasreit.com,2026-01-19T03:57:41.195687+00:00,1
+a5899303-f853-41ba-b5b3-705f685e0d6a,Veralto,veralto,industrials,https://www.veralto.com,2026-01-19T03:57:11.650174+00:00,1
+315e6add-d839-45d7-bf6b-01a2c1f2cebc,Verisign,verisign,technology,https://www.verisign.com,2026-01-19T03:55:45.647249+00:00,1
+a4085778-4a28-4657-a448-bd4aa7737e8e,Verisk Analytics,verisk-analytics,industrials,https://www.verisk.com,2026-01-19T03:57:11.912283+00:00,1
+79f07b4b-751b-4763-aa31-23ac9950fe9c,Verizon,verizon,communication-services,https://www.verizon.com,2026-01-18T16:34:16.873993+00:00,1
+65b3050c-a3cd-41e7-8b2a-43726b1a8918,Vertex Pharmaceuticals,vertex-pharmaceuticals,healthcare,https://www.vrtx.com,2026-01-19T03:56:01.994173+00:00,1
+5808e392-455e-4438-becd-88256631769a,Viatris,viatris,healthcare,https://www.viatris.com,2026-01-19T03:56:02.266434+00:00,1
+f72fe973-8df1-427c-ae26-b8228e14a735,Vici Properties,vici-properties,real-estate,https://www.vfreit.com,2026-01-19T03:57:41.4801+00:00,1
+f46ed11a-1fe4-40d8-9a4f-795a4177b665,Visa Inc.,visa,financials,https://www.visa.com,2026-01-18T16:11:33.961071+00:00,1
+0fbc91de-8984-433f-87b9-64de67e7b771,Vistra Corp.,vistra,utilities,https://www.vistra.com,2026-01-19T03:57:32.979345+00:00,1
+0f9a2d01-e79d-43b2-8c29-9db8ff79c005,Vulcan Materials Company,vulcan-materials,materials,https://www.vulcanmaterials.com,2026-01-19T03:57:49.405936+00:00,1
+cec8f004-e06e-4c4b-9ea4-e440a2a3e2ce,W. R. Berkley Corporation,w-r-berkley,financials,https://www.wrberkley.com,2026-01-19T03:56:24.187666+00:00,1
+d7a58808-928a-47e7-ba27-6ce2d0798040,W. W. Grainger,w-w-grainger,industrials,https://www.grainger.com,2026-01-19T03:57:12.167319+00:00,1
+ae1643aa-f50e-4a94-a492-2034368fce3f,WEC Energy Group,wec-energy-group,utilities,https://www.wecenergygroup.com,2026-01-19T03:57:33.238509+00:00,1
+2072080b-d60f-488b-bd2a-4604c7d671ed,Wabtec,wabtec,industrials,https://www.wabtec.com,2026-01-19T03:57:12.42741+00:00,1
+8e83e98f-0937-4976-ab3c-91b1747c97b6,Walgreens,walgreens,retail,https://www.walgreensbootsalliance.com,2026-01-17T19:06:39.94042+00:00,4
+1cd8d157-2b70-4e7b-bc85-71c04f3d9ee3,Walgreens Boots Alliance,walgreens-boots-alliance,consumer-staples,https://www.walgreensbootsalliance.com,2026-01-19T03:56:50.167335+00:00,1
+15761d64-5528-4a22-a270-fa1810a5a3cb,Walmart,walmart,consumer-staples,https://www.walmart.com,2026-01-17T16:56:28.155856+00:00,21
+05c07f77-6f3c-49ad-88fa-e7bf040d8a03,Walt Disney,disney,communication-services,https://thewaltdisneycompany.com,2026-01-18T16:33:36.899012+00:00,1
+1def4fae-c775-4908-adc1-9d9ee595e2e9,Walt Disney Company,walt-disney,communication-services,https://www.thewaltdisneycompany.com,2026-01-19T03:57:18.545797+00:00,1
+8b6904ab-7a8d-4efc-bd2d-0688216e6999,Warner Bros. Discovery,warner-bros-discovery,communication-services,https://www.wbd.com,2026-01-19T03:57:18.833185+00:00,1
+6886ae1b-7c26-4e8f-b2dd-2531f002a0c7,Waste Management,waste-management,industrials,https://www.wm.com,2026-01-19T03:57:12.704788+00:00,1
+d2311b53-4585-4bd3-9550-aa2d2a993c44,Waters Corporation,waters,healthcare,https://www.waters.com,2026-01-19T03:56:02.527797+00:00,1
+52d8d6ab-69dc-4ee0-b0fc-4b475f052e8a,Wayfair,wayfair,retail,https://www.wayfair.com,2026-01-18T00:22:58.04732+00:00,2
+708f7cfd-4b2a-494c-a6b6-f2d8d1bd8fc2,Wegmans,wegmans,retail,https://www.wegmans.com,2026-01-17T23:48:14.99593+00:00,3
+0d735f82-31e7-4025-a57a-812bdee549fb,Wells Fargo,wells-fargo,financials,https://www.wellsfargo.com,2026-01-18T16:12:32.562512+00:00,1
+1cc411c3-a8a1-4f68-ac06-6ac4baafc4a6,Welltower,welltower,real-estate,https://www.welltower.com,2026-01-19T03:57:41.777394+00:00,1
+2a435f48-a8f6-40a8-9765-926d77184a43,West Pharmaceutical Services,west-pharmaceutical-services,healthcare,https://www.westpharma.com,2026-01-19T03:56:02.780554+00:00,1
+9a7552e0-c5b0-4d07-ace5-eca399812d87,Western Digital,western-digital,technology,https://www.westerndigital.com,2026-01-19T03:55:45.909676+00:00,1
+3dbe08e7-9415-436d-81c6-fcaa97d6a1c9,Weyerhaeuser,weyerhaeuser,real-estate,https://www.weyerhaeuser.com,2026-01-19T03:57:42.073821+00:00,1
+54d4bc20-dd8c-4dcb-bada-7dd67928c688,Whole Foods,wholefoods,retail,https://www.wholefoodsmarket.com,2026-01-17T23:44:35.738503+00:00,3
+ccfa8d25-8c88-4731-8a23-e376e7c49eec,Williams Companies,williams-companies,energy,https://www.williams.com,2026-01-19T03:57:25.025156+00:00,1
+33966959-b2d3-48fe-b6b0-b3a7e080fe2a,Williams-Sonoma,williamssonoma,retail,https://www.williams-sonomainc.com,2026-01-18T00:20:11.218651+00:00,2
+46f9319d-bd6e-462d-bead-16311c8054f9,Williams-Sonoma Inc.,williams-sonoma,consumer-discretionary,https://www.williams-sonoma.com,2026-01-19T03:56:39.09357+00:00,1
+49f98fc5-a873-4b63-8b43-1e8f3a641c3f,Willis Towers Watson,willis-towers-watson,financials,https://www.wtwco.com,2026-01-19T03:56:24.822501+00:00,1
+a9f22d75-8c66-46e4-ad9c-7ffbc2e9ada9,Workday Inc.,workday,technology,https://www.workday.com,2026-01-19T03:55:46.186163+00:00,1
+cdb87aa4-ee1a-466a-838b-1d6ca0134ae1,Wynn Resorts,wynn-resorts,consumer-discretionary,https://www.wynnresorts.com,2026-01-19T03:56:39.37065+00:00,1
+7205b693-cc84-41e2-9ab4-bcff9b9074a8,Xcel Energy,xcel-energy,utilities,https://www.xcelenergy.com,2026-01-19T03:57:33.489774+00:00,1
+e1488661-0e52-4a17-84f5-53109128e5c5,Xylem Inc.,xylem,industrials,https://www.xylem.com,2026-01-19T03:57:12.96091+00:00,1
+8945ba5b-a88c-40bc-a5d8-6730ee71bc18,Yum! Brands,yum-brands,consumer-discretionary,https://www.yum.com,2026-01-19T03:56:39.659366+00:00,1
+09925322-179b-430d-ba7e-4313e35c7e20,Zebra Technologies,zebra-technologies,technology,https://www.zebra.com,2026-01-19T03:55:46.462283+00:00,1
+124a14b2-0f6c-49e5-b5a3-9c65dbb16e9b,Zimmer Biomet,zimmer-biomet,healthcare,https://www.zimmerbiomet.com,2026-01-19T03:56:03.052547+00:00,1
+b03fee46-127c-4851-878c-6e99cd2f6dda,Zoetis,zoetis,healthcare,https://www.zoetis.com,2026-01-19T03:56:03.32883+00:00,1
+bb6667f9-4449-45d9-90b1-f6f3db275dfc,eBay Inc.,ebay,consumer-discretionary,https://www.ebay.com,2026-01-19T03:56:29.357936+00:00,1

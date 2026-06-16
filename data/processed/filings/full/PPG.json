@@ -1,0 +1,49 @@
+{
+ "ticker": "PPG",
+ "source_document_id": "0000079879-26-000046",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We are incorporating artificial intelligence technologies into our research, products, services and processes.",
+    "If we cannot incorporate these rapidly advancing technologies as quickly or effectively as other companies, our competitive position and business results may suffer."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We are incorporating artificial intelligence technologies into our research, products, services and processes.",
+    "The use of AI in the development of our products and services could increase the risk of loss or theft of our intellectual property."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The use of AI can lead to unintended consequences, including generating content that appears correct but is factually inaccurate, misleading or otherwise flawed, or that results in unintended biases.",
+    "Incorporation of these new technologies into our processes may result in new or expanded risks, including risks related to regulatory compliance, litigation, ethical concerns, confidentiality or cybersecurity.",
+    "We face risks of competitive disadvantage if our competitors are able to more effectively use AI to create products or services at a lower cost or higher quality."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, named vendors, or dedicated AI budgets disclosed in the excerpts; investment intensity scored 2 based on generic incorporation language only.",
+  "AI use cases mentioned (research, products, services, processes) are not described with deployment status or metrics; narrative concreteness capped at 2.",
+  "Risk section material is present; score reflects company-specific risk mechanisms (IP theft, regulatory compliance, competitive disadvantage, bias/accuracy failures) but no quantified risk treatment or named governance bodies were found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000079879-26-000046",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/79879/000007987926000046/ppg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.1,
+  "extracted_at": "2026-06-11T18:43:04.317048+00:00"
+ }
+}

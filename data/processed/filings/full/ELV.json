@@ -1,0 +1,51 @@
+{
+ "ticker": "ELV",
+ "source_document_id": "0001156039-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are making investments in certain AI tools and solutions to enhance our operations and positively impact the experience of our members",
+    "we continue to explore further innovation using AI",
+    "development of new systems, including systems powered by or incorporating AI and machine learning (including generative AI)"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "making investments in certain AI tools and solutions to enhance our operations and positively impact the experience of our members",
+    "tools and products that leverage AI to improve the customer experience",
+    "a focus on the responsible adoption and use of AI and other technologies"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI-related efforts may give rise to risks related to accuracy, harmful bias, discrimination, intellectual property infringement, data privacy, and cybersecurity",
+    "Any inadequacy in or failure to comply with our responsible use of AI policies and procedures or emerging laws, regulations and standards governing AI use could cause our technology not to operate as intended",
+    "our Responsible Artificial Intelligence (RAI) Program, led by our Chief Digital and Information Officer"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no dollar amounts, GPU counts, or quantified capex tied to AI disclosed in the excerpts; named initiatives present but unquantified, capping score at 3",
+  "ai_narrative_concreteness: use cases named (member experience, operations enhancement) but no deployment metrics or quantified outcomes disclosed; aspirational language also present alongside named initiatives",
+  "capex_mentions: no specific dollar or quantity figures for AI/compute investment found in the excerpts"
+ ],
+ "_meta": {
+  "accession": "0001156039-26-000013",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000013/elv-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:54:09.724118+00:00"
+ }
+}

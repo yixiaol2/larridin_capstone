@@ -1,0 +1,49 @@
+{
+ "ticker": "MTB",
+ "source_document_id": "0000036270-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "The Company or its third-party vendors, clients or counterparties may develop or incorporate AI technology in certain business processes, services or products.",
+    "advances in robotic process automation and AI, could significantly affect the competition for financial services"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "the Company frequently attempts to introduce new technology-driven products and services that are aimed at allowing the Company to better serve customers and to reduce costs",
+    "The Company or its third-party vendors, clients or counterparties may develop or incorporate AI technology in certain business processes, services or products."
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The legal and regulatory environment relating to AI is uncertain and rapidly evolving...could require changes in the Company s or third parties implementation of AI technology and increase the Company s compliance costs and risk of non-compliance.",
+    "AI models, including generative AI models may produce output...that reflect biases included in the data on which they are trained, that infringe on the intellectual property rights of others",
+    "Use of AI technologies by bad actors can contribute to the evolution of new and more effective techniques, which can hinder the Company s efforts to prevent, detect and remediate such harmful activities."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, named vendor/cloud partnerships, or dedicated AI budget disclosed in the excerpts; only generic references to potential AI incorporation.",
+  "ai_narrative_concreteness: No named AI initiatives, deployed use cases, or metrics found in the excerpts; language is aspirational and risk-oriented rather than operational.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains detailed AI risk discussion; scored 4 because multiple company-specific risk mechanisms are described (regulatory compliance costs, model bias, third-party dependency, bad-actor exploitation), though no quantification or named governance body is disclosed in these excerpts."
+ ],
+ "_meta": {
+  "accession": "0000036270-26-000010",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000010/mtb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T18:28:24.270020+00:00"
+ }
+}

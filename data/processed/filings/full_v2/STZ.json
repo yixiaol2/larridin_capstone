@@ -1,0 +1,49 @@
+{
+ "ticker": "STZ",
+ "source_document_id": "0000016918-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-04-22",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "our continued success will depend, in part, on our and our third-party service providers ability to continue to effectively leverage existing and emerging technologies, such as AI and data analytics",
+    "our inability to adopt or effectively deploy existing, new, and/or emerging technologies, including AI"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "deliver optimized marketing in an evolving and dynamic media landscape, including through existing and emerging digital technologies, such as AI and data analytics",
+    "our continued success will depend, in part, on our ability to continue to effectively leverage existing and emerging technologies, such as AI and data analytics, to gain relevant insights"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the use of AI technologies without adequate safeguards could produce flawed or inaccurate recommendations, suggestions, or outcomes or other unintended results or potential vulnerabilities or expose us to liability",
+    "Our employees and third-party service providers may not follow the governance framework addressing the use of AI technologies we implemented, including if such providers incorporate AI technologies into their products",
+    "the recent proliferation and rapid evolution of AI technologies, including generative AI, machine learning, and agentic AI, has resulted in new challenges, including business, legal and regulatory, and ethical considerations"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or named AI programs found in excerpts; investment intensity scored 2 based on aspirational/generic language only.",
+  "AI narrative is entirely aspirational and risk-framed; no named deployed AI initiatives or measured outcomes disclosed in excerpts.",
+  "Risk disclosure scores 4 due to named mechanisms (governance framework non-compliance, vendor opacity, regulatory exposure, flawed outputs) but no quantification of risk exposure or named oversight body beyond a referenced governance framework."
+ ],
+ "_meta": {
+  "accession": "0000016918-26-000011",
+  "filing_date": "2026-04-22",
+  "url": "https://www.sec.gov/Archives/edgar/data/16918/000001691826000011/stz-20260228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-15T20:30:00.634471+00:00"
+ }
+}

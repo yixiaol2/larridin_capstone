@@ -1,0 +1,51 @@
+{
+ "ticker": "AMT",
+ "source_document_id": "0001053507-26-000035",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we utilize AI technologies that rely on access to and use of significant amounts of data, which in some cases include sensitive information",
+    "Our Board is responsible for the oversight of our AI strategy and the Audit Committee has oversight over AI-related risk exposure and receives regular AI updates from management",
+    "Our Board, Audit Committee and management have overseen the development and launch of our AI governance program"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "employees completed over 16,000 training classes related to cybersecurity and responsible AI use",
+    "our approach to responsible use of artificial intelligence",
+    "the development and launch of our AI governance program"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI systems may be used by threat actors to exploit vulnerabilities more efficiently or to facilitate increasingly sophisticated cyberattacks, any of which could result in data breaches, operational disruptions or liability",
+    "Inadequate safeguards over AI training data and model inputs or outputs could result in misuse of such data, algorithmic bias or violations of applicable privacy and data protection requirements",
+    "evolving technologies, such as AI, increase power requirements... Power constraints, delays, unfavorable contractual terms and increased costs from utility providers could limit our ability to identify suitable sites and expand"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or R&D spend found in excerpts; investment intensity scored 3 (named but unquantified).",
+  "AI narrative concreteness is limited to governance/training program disclosures and risk framing; no deployed AI use cases with operational metrics described in excerpts.",
+  "Capex mentions list is empty: data center capex is discussed generically but not attributed specifically to AI investment in any quoted dollar figure."
+ ],
+ "_meta": {
+  "accession": "0001053507-26-000035",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000035/amt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 24,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:09:01.191442+00:00"
+ }
+}

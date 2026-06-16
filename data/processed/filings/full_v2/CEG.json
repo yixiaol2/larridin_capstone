@@ -1,0 +1,50 @@
+{
+ "ticker": "CEG",
+ "source_document_id": "0001868275-26-000032",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our implementation of generative AI to improve business and operational performance has led to the introduction of enhanced technologies",
+    "Continued implementation of advanced digital technologies, including generative AI and machine learning, increases the potentially unfavorable impacts"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we have benefited from increased demand for our generation as a result of the developing data economy, including demand driven by data centers and AI and other high-performance computing applications",
+    "evidenced by the execution of long-term contracts with technology companies as well as increased interest in prospective contracts from our customers",
+    "rapid expansion of data centers continues to accelerate, driven by widespread adoption of AI technologies and large-scale infrastructure investments by major hyperscalers such as Microsoft, Google, Meta, and Amazon"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI systems...may produce inaccurate, biased or misleading outputs or experience errors, security vulnerabilities or other failures, which could result in operational disruptions, flawed decision making, data loss, cybersecurity incidents or reputational harm",
+    "legal and regulatory landscape governing AI technologies is rapidly evolving and uncertain, and compliance with new or changing requirements may impose significant costs or limit our ability to develop, deploy or use AI",
+    "Demand associated with data centers and AI applications may be subject to technological change, shifts in customer behavior, regulatory developments, or changes in capital investment cycles"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount, or quantified AI-specific spend disclosed in excerpts; CEG's primary AI investment story is as an electricity supplier to AI-driven data centers rather than a direct AI builder or buyer of AI infrastructure — scored 3 for named internal generative AI deployment programs without quantified scale",
+  "ai_narrative_concreteness: Long-term contracts with tech companies mentioned as evidence of AI-driven demand but no contract values or volumes disclosed; scored 4 for deployed commercial arrangements with operating detail but lacking quantified results",
+  "capex_mentions: No AI-attributable dollar figures found in the provided excerpts"
+ ],
+ "_meta": {
+  "accession": "0001868275-26-000032",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000032/ceg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:30:14.342456+00:00"
+ }
+}

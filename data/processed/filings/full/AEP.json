@@ -1,0 +1,69 @@
+{
+ "ticker": "AEP",
+ "source_document_id": "0000004904-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "AEP invested $100 million for a 10% ownership interest in the common stock and received a warrant for the option to acquire an additional 5% of GWAI s common stock for $50 million.",
+    "Contingent upon GWAI s achievement of defined performance-based milestones, AEP will invest up to an additional $100 million for up to an additional 10% of GWAI s common stock.",
+    "In January 2026, AEP made an additional $25 million investment for an incremental 2.5% interest in GWAI s common stock"
+   ],
+   "confidence": 0.82
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "GWAI is focused on developing AI-centric operating systems and applications that optimize utility operations and infrastructure.",
+    "In the fourth quarter of 2025...evaluation of AEP s strategy and expectations for ongoing advancements in available technologies, including the expanded use of, and potential capabilities for, AI-centric software and other agile software functionality",
+    "Gigawatt AI Inc., an equity interest joint venture formed to build the AI-centric operating system for utilities."
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Information technology failure, including failure of AI technology, that impairs AEP s information technology infrastructure or disrupts normal business operations.",
+    "The rapid evolution and increased adoption of AI technologies may intensify AEP s cybersecurity risks.",
+    "Advancements in artificial intelligence and other emerging technologies may require significant changes to the size, skills, and composition of AEP s workforce...adversely affect AEP s operations and financial performance."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "AEP invested $100 million for a 10% ownership interest in the common stock",
+   "context": "August 2025 investment in Gigawatt AI Inc. for AI-centric utility operating systems"
+  },
+  {
+   "quote": "warrant for the option to acquire an additional 5% of GWAI s common stock for $50 million",
+   "context": "Warrant tied to Gigawatt AI investment, August 2025"
+  },
+  {
+   "quote": "AEP will invest up to an additional $100 million for up to an additional 10% of GWAI s common stock",
+   "context": "Contingent milestone-based additional investment in Gigawatt AI"
+  },
+  {
+   "quote": "AEP made an additional $25 million investment for an incremental 2.5% interest in GWAI s common stock",
+   "context": "January 2026 follow-on investment in Gigawatt AI upon milestone achievement"
+  }
+ ],
+ "limitations": [
+  "ai_narrative_concreteness scored 4 rather than 5: named deployed use cases described (AI-centric OS for utility operations, internal software strategy pivot) but no quantified business results such as cost savings, efficiency percentages, or volume metrics are disclosed in the excerpts.",
+  "The $66 million internal-use software impairment charge relates to an abandoned legacy system replacement partly driven by AI strategy shift, but is not a direct AI capex commitment and was excluded from capex_mentions.",
+  "Excerpts do not include the full risk factors section; however, multiple [risk_factors]-labeled excerpts are present and were scored accordingly.",
+  "Multi-year commitment to Gigawatt AI is partially contingent on performance milestones, introducing uncertainty about whether total disclosed amounts will be deployed; scored 4 rather than 5 as the full program commitment is conditional rather than firm."
+ ],
+ "_meta": {
+  "accession": "0000004904-26-000013",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/4904/000000490426000013/aep-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 3.1,
+  "extracted_at": "2026-06-11T17:21:25.816127+00:00"
+ }
+}

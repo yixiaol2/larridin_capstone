@@ -1,0 +1,51 @@
+{
+ "ticker": "ISRG",
+ "source_document_id": "0001035267-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Intuitive acquired a company that develops integrated robotics and artificial intelligence solutions to improve the accuracy, efficiency, and accessibility of tissue assessment during biopsy procedures",
+    "our development of machine learning-enabled medical devices (MLMDs)... Future innovations in our products and services will likely continue to incorporate AI",
+    "the Company s Head of Digital and AI Strategy adopted a Rule 10b5-1 trading plan"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "using algorithms to process video and machine data to identify surgical activities and surgical indicators to support learning, teaching, and practice management",
+    "In October 2025, we obtained FDA clearance for software advancements for the Ion endoluminal system... introduces artificial intelligence across Ion s entire navigational workflow",
+    "using algorithms to support surgical planning and navigation"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "potential for errors or inaccuracies in the algorithms or models used by the MLMDs, the potential for bias or inaccuracies in the data used to train the MLMDs, the potential for improper processing of personal information",
+    "EU AI Act... fines for breach of up to 7% of worldwide annual turnover... revised EU Product Liability Directive... extends the EU s existing strict product liability regime to AI technologies",
+    "employees... may input inappropriate or confidential information into an AI system... thereby compromising our business operations"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific dollar amounts, R&D spend, or capex figures disclosed in the excerpts; acquisition of AI robotics company described as 'not material' with no dollar figure provided, limiting investment intensity score to 3.",
+  "AI narrative concreteness is strong for named deployed use cases (Ion AI navigational workflow, surgical activity algorithms) but no quantified business results (e.g., accuracy rates, time saved) appear in the excerpts, capping score at 4.",
+  "Risk disclosure is detailed and company-specific with named mechanisms, but no formal quantified risk metrics or named internal AI governance/oversight body is cited in the excerpts, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0001035267-26-000010",
+  "filing_date": "2026-02-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:59:00.792064+00:00"
+ }
+}

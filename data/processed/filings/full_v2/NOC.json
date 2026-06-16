@@ -1,0 +1,50 @@
+{
+ "ticker": "NOC",
+ "source_document_id": "0001133421-26-000003",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "it is increasingly necessary to differentiate our offerings and to achieve efficiencies in our operations through digital based solutions, including artificial intelligence",
+    "Our business may be adversely affected if we cannot continue to successfully integrate artificial intelligence into our business processes, products and services in a cost-effective, efficient, compliant and responsible manner"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Leveraging artificial intelligence in our business processes and operations can enhance our performance and enable our workforce to meet the needs of the customer",
+    "identify, adopt and integrate new digital technologies, including artificial intelligence, into our manufacturing, operations, business processes, products and services"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "artificial intelligence techniques to automate and enhance cyber attacks pose an evolving and increased level of risk to our information systems",
+    "improper use of, or failure to adequately integrate, artificial intelligence could increase costs and lead to data breaches, reputational risks",
+    "emerging and potential regulations governing the use of artificial intelligence could impose additional requirements that may increase our costs or adversely impact our speed of delivery"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts, headcount, or program budgets disclosed in the excerpts; investment intensity scored 3 based on named programs and strategic intent only.",
+  "AI narrative excerpts describe named integration initiatives (manufacturing, operations, business processes) but provide no deployment status metrics or quantified outcomes; concreteness capped at 3.",
+  "Risk disclosure includes named categories (cybersecurity, regulatory, workforce displacement, data breaches) with mechanisms described, supporting score 4; no quantified risk exposure or named oversight body found in excerpts.",
+  "Excerpts are pre-filtered and may not represent the full filing; additional AI investment detail or risk governance disclosures may exist elsewhere in the document."
+ ],
+ "_meta": {
+  "accession": "0001133421-26-000003",
+  "filing_date": "2026-01-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:17:44.425991+00:00"
+ }
+}

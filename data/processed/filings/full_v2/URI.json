@@ -1,0 +1,52 @@
+{
+ "ticker": "URI",
+ "source_document_id": "0001067701-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-28",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "allow for the incorporation of AI solutions into our products, services and features, as well as the leveraging of AI in our product development and our operations",
+    "using AI for automated threat detection and response, as well as engaging experts",
+    "We incorporate AI solutions into our products, services and features, and we leverage AI in our product development and our operations"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "allow for the incorporation of AI solutions into our products, services and features, as well as the leveraging of AI in our product development and our operations",
+    "using AI for automated threat detection and response",
+    "If we are unable to effectively integrate AI into our business processes or keep pace with rapidly evolving AI technological developments, we may face a competitive disadvantage"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "use or offering of AI technologies may result in new or expanded risks and liabilities, including enhanced government or regulatory scrutiny, litigation, privacy and compliance issues, ethical concerns, confidentiality, reputational harm",
+    "Changes in laws, rules, directives, and regulations governing the use of AI may adversely affect our ability to develop and use AI or subject us to legal liability",
+    "cost of complying with laws and regulations governing AI could be significant and would increase our operating expenses, which could adversely affect our business, financial condition, results of operations"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases named (product integration, automated threat detection) but no deployment metrics or quantified outcomes disclosed; concreteness capped at 3.",
+  "Risk disclosure includes company-specific mechanisms (regulatory, legal liability, competitive, financial impact on operating expenses) but no quantified risk figures or named governance oversight bodies for AI specifically, capping depth at 4.",
+  "Excerpts are pre-filtered; additional AI investment or risk detail may exist elsewhere in the full filing."
+ ],
+ "_meta": {
+  "accession": "0001067701-26-000007",
+  "filing_date": "2026-01-28",
+  "url": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000007/uri-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-15T21:42:22.107333+00:00"
+ }
+}

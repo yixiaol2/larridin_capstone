@@ -1,0 +1,47 @@
+{
+ "ticker": "CPT",
+ "source_document_id": "0001628280-26-007697",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we have incorporated and may continue to incorporate the use of generative artificial intelligence and other advancing technologies"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "incorporated and may continue to incorporate the use of generative artificial intelligence and other advancing technologies"
+   ],
+   "confidence": 0.55
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "any breach, interruption, or security failure of those technologies, or any non-compliance with applicable laws, could have a negative impact on our business operations, results of operations, financial condition, or reputation",
+    "Information security risks have escalated as a result of these emerging technologies and the heightened sophistication and activity levels of cyber-attack perpetrators"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts are limited to a single risk-factor passage; no capex, budget, or named AI initiative details are present, so investment intensity and narrative concreteness scores reflect only the minimal disclosure visible here.",
+  "ai_investment_intensity scored 2 (generic) because no named systems, vendors, amounts, or dedicated budgets are disclosed — only a general statement of current/potential use.",
+  "ai_narrative_concreteness scored 2 because the language is aspirational/vague ('may continue to incorporate') with no named initiative or deployment detail.",
+  "ai_risk_disclosure_depth scored 3 because the risk section names specific risk categories (cybersecurity breach, regulatory non-compliance, AI-specific escalation) tied to generative AI adoption, but no quantified risk scenarios or named governance bodies are present."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-007697",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/906345/000162828026007697/cpt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T17:35:44.364622+00:00"
+ }
+}

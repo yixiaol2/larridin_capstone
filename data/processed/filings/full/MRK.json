@@ -1,0 +1,49 @@
+{
+ "ticker": "MRK",
+ "source_document_id": "0000310158-26-000063",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "The Company is increasing its use of artificial intelligence (AI) systems to automate processes, analyze data, and support decision-making",
+    "The Company also faces competitive risks if it fails to adopt AI or other machine learning technologies in a timely fashion."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The Company is increasing its use of artificial intelligence (AI) systems to automate processes, analyze data, and support decision-making, which poses inherent risks.",
+    "Unauthorized use of open-source AI tools or generative AI platforms by employees or third parties could result in inadvertent disclosure of confidential information"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Flaws, biases, or malfunctions in these systems could lead to operational disruptions, data loss, or erroneous decision-making, impacting the Company s business operations, financial condition, and reputation.",
+    "Ethical and legal challenges may arise, including biases or discrimination in AI outcomes, non-compliance with data protection regulations and emerging laws specifically governing AI systems...such as the European Union AI Act and NIS2 Directive.",
+    "deployment of AI systems could expose the Company to increased cybersecurity threats, such as data breaches and unauthorized access leading to financial losses, legal liabilities, and reputational damage."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or named vendor/infrastructure partnerships disclosed in the excerpts; score reflects generic increasing-use language only.",
+  "ai_narrative_concreteness: Excerpts are dominated by risk-factor language; no named deployed use cases or production metrics are described. Score reflects aspirational/general framing.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains detailed AI risk discussion. Score of 4 reflects named company-specific risk mechanisms (operational, legal, cybersecurity, regulatory) with causal pathways to financial/reputational harm, but no quantification or named governance/oversight bodies found in these excerpts."
+ ],
+ "_meta": {
+  "accession": "0000310158-26-000063",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000063/mrk-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:31:57.163634+00:00"
+ }
+}

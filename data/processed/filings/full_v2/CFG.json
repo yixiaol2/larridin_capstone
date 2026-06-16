@@ -1,0 +1,50 @@
+{
+ "ticker": "CFG",
+ "source_document_id": "0000759944-26-000028",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "By leveraging artificial intelligence and advanced learning platforms we are accelerating personalized learning and building capacity for skill development.",
+    "explore ways that technology and automation can further improve candidate experience"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "By leveraging artificial intelligence and advanced learning platforms we are accelerating personalized learning and building capacity for skill development.",
+    "With the launch of Talent Matters in 2024, colleagues now have access to a talent marketplace that creates personalized experiences to support skill-building and career advancement."
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Evolving technologies, including the introduction of Generative Artificial Intelligence and Large Language Models, and the increased sophistication and activities of organized crime... present a significant information security risk to large financial institutions such as us.",
+    "advances in automation, artificial intelligence, and robotics, could significantly affect the competition for financial services... could result in the loss of fee income, as well as the loss of customer deposits",
+    "new, unexpected technological changes, including those related to artificial intelligence, could have a transformative effect on the way banks offer products and services"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 based on named but unquantified AI programs.",
+  "AI narrative is limited to internal HR/learning use cases; no customer-facing deployed AI use cases with metrics are described, capping concreteness at 3.",
+  "Data center loan balance ($736M) reflects CRE lending exposure, not CFG's own AI capex, and was excluded from capex_mentions.",
+  "Risk disclosure scores 4 based on named mechanisms (cybersecurity via GenAI/LLMs, disintermediation via AI competition, revenue/deposit loss scenarios) but no quantified risk figures or named governance bodies appear in excerpts."
+ ],
+ "_meta": {
+  "accession": "0000759944-26-000028",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000028/cfg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:27:39.115275+00:00"
+ }
+}

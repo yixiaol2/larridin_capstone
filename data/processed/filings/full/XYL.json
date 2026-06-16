@@ -1,0 +1,51 @@
+{
+ "ticker": "XYL",
+ "source_document_id": "0001524472-26-000012",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "invest in manufacturing, research and development, engineering, sales, marketing, systems modernization, AI, and digitization of customer solution and support tools",
+    "we are continuing to implement AI",
+    "strong focus on developing skills for strategically important capabilities, such as product management, artificial intelligence and leadership competence"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We provide certain digitally enabled or internet-connected products, which may include the use of AI, such as pumps, controllers, meters, intelligent solutions, remote monitoring and condition assessment capabilities",
+    "connected products and services and digital technologies and solutions have increased our exposure to intellectual property litigation and to evolving AI, data privacy and cybersecurity laws",
+    "enhance and differentiate our offerings...through efficiency, security, and the addition of innovative features or technologies, such as AI, that address emerging regulations and trends"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "As technology, including generative AI models, continue to evolve, such incidents may occur more frequently...with threat actors leveraging these technologies to develop new attack methods that are increasingly automated, targeted, coordinated and difficult to defend against",
+    "Defects or quality issues in the manufacture, design, software, AI capabilities, security or service of our products...could result in product safety, product security, regulatory or environmental risks, personal injury, death",
+    "subject to data privacy and cybersecurity laws, including...the EU's AI Act and GDPR...Compliance costs associated with these legal and operational requirements are significant and are likely to increase over time"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex, headcount, or budget figures appear in the excerpts; investment intensity scored 3 based on named initiatives and vendor/product references only.",
+  "AI use cases are named (connected products, remote monitoring, meters) but no deployment metrics or quantified business results are disclosed; concreteness capped at 3.",
+  "Board member noted as 'Head of Artificial Intelligence Strategy' at NEA, but no internal AI governance body or quantified risk treatment disclosed, limiting risk depth score to 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0001524472-26-000012",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1524472/000152447226000012/xyl-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T19:14:47.945220+00:00"
+ }
+}

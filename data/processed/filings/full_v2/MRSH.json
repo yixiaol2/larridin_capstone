@@ -1,0 +1,60 @@
+{
+ "ticker": "MRSH",
+ "source_document_id": "0000062709-26-000022",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-09",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we created a new unit, Business Client Services ('BCS') to accelerate innovation and centralize investments in operational excellence, data, AI and other analytics",
+    "We are actively investing in generative AI tools. While our internal generative AI tool, LenAI, was designed to meet our standards for data security",
+    "Marsh Management Consulting acquired Veritas Total Solutions, a Texas-based commodity trading advisory firm with expertise in risk, systems, analytics and artificial intelligence"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Since the launch of our AI Academy in August 2024, more than 46,000 colleagues have received their AI Academy credentials",
+    "our internal generative AI tool, LenAI, was designed to meet our standards for data security and to address and mitigate the risks associated with this new technology",
+    "Oliver Wyman includes the following specializations: Actuarial, AI Transformation, Climate and Sustainability, Customer Innovation and Growth"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "emerging AI-related laws such as the EU's AI Act, the AI Transparency Act of California and the AI Act of Colorado, which impose complex new obligations on developers and providers of AI systems",
+    "The models underlying AI tools may be incorrectly or inadequately designed or implemented and trained on, or otherwise use, data or algorithms that are biased, unethical, discriminatory, incomplete, inaccurate",
+    "the advance of AI and large language models has given rise to additional vulnerabilities and potential entry points for cyber threats... Attackers may develop AI agents to fully automate the attack cycle"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "the Company expects to incur approximately $500 million of cost over the three years",
+   "context": "Thrive program costs including technology, severance, and outside services; BCS centralizes investments in data, AI and analytics"
+  },
+  {
+   "quote": "investments in technology, including generative AI, and infrastructure to support our own systems. These investments may be costly and require significant capital expenditures",
+   "context": "general disclosure of AI/technology investment risk and cost"
+  }
+ ],
+ "limitations": [
+  "The $500M Thrive program cost is not AI-attributable alone — it covers severance, technology broadly, and outside services; no AI-specific dollar amount is broken out, limiting investment intensity to score 3",
+  "LenAI deployment is described with operational detail but no quantified business results (e.g., productivity gains, cost savings), capping narrative concreteness at 4",
+  "Risk disclosure is detailed and company-specific with named mechanisms but lacks quantified risk exposure or named governance oversight bodies, capping at 4"
+ ],
+ "_meta": {
+  "accession": "0000062709-26-000022",
+  "filing_date": "2026-02-09",
+  "url": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000022/mrsh-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 15,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-15T21:08:35.450170+00:00"
+ }
+}

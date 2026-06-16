@@ -1,0 +1,51 @@
+{
+ "ticker": "PTC",
+ "source_document_id": "0001193125-25-291326",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-21",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are increasingly incorporating AI capabilities into many of our products to enable our customers to become more agile and productive.",
+    "We also use AI tools internally to make certain business processes more efficient.",
+    "statements about our anticipated financial results... our artificial intelligence initiatives... are forward-looking statements."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "This includes the growing emphasis on AI-driven transformation across our customers teams, operations, and processes. A product data foundation is the backbone of AI-driven transformation.",
+    "We are increasingly incorporating AI capabilities into many of our products to enable our customers to become more agile and productive.",
+    "we implement measures to address the accuracy and appropriate use of AI tools, including internal AI policies and training"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "our AI-based solutions could produce inaccurate results or have other unintended consequences, or... may expose us to lawsuits, regulatory investigations, or other proceedings, and subject us to legal liability as well as brand and reputational harm",
+    "Inadvertent selection of AI tools that introduce bias, errors, or hallucinations... could result in violations of confidentiality obligations, laws, or regulations, jeopardize our intellectual property rights",
+    "competitors may incorporate AI into their products more quickly or effectively... customers do not appreciate or realize the anticipated benefits of such technologies"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or R&D spend figures appear in the excerpts; investment intensity scored 3 based on named initiatives without dollar figures.",
+  "AI narrative describes named use cases (PLM product integration, internal tooling) but no deployment metrics or quantified outcomes are present in the excerpts.",
+  "Excerpts do not include a dedicated capex or R&D spend section; capex_mentions list is empty."
+ ],
+ "_meta": {
+  "accession": "0001193125-25-291326",
+  "filing_date": "2025-11-21",
+  "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312525291326/ptc-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:20:32.385203+00:00"
+ }
+}

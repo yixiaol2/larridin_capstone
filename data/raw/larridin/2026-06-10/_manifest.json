@@ -1,0 +1,90 @@
+{
+  "supabase_url": "https://mbyyempsotonpklaoxzw.supabase.co",
+  "fetched_at": "2026-06-10T18:41:04.726894+00:00",
+  "tables": {
+    "agent_completion": {
+      "rows": 0,
+      "file": "agent_completion.json"
+    },
+    "ai_tool_agent_completions": {
+      "rows": 0,
+      "file": "ai_tool_agent_completions.json"
+    },
+    "ai_tool_company": {
+      "rows": 0,
+      "file": "ai_tool_company.json"
+    },
+    "ai_tool_customers": {
+      "rows": 0,
+      "file": "ai_tool_customers.json"
+    },
+    "ai_tool_raw_sources": {
+      "rows": 0,
+      "file": "ai_tool_raw_sources.json"
+    },
+    "ai_tool_security": {
+      "rows": 0,
+      "file": "ai_tool_security.json"
+    },
+    "ai_tool_tag_assignments": {
+      "rows": 0,
+      "file": "ai_tool_tag_assignments.json"
+    },
+    "ai_tool_tags": {
+      "rows": 0,
+      "file": "ai_tool_tags.json"
+    },
+    "ai_tool_traction": {
+      "rows": 85,
+      "file": "ai_tool_traction.json"
+    },
+    "ai_tools": {
+      "rows": 1000,
+      "file": "ai_tools.json"
+    },
+    "changelogs": {
+      "rows": 0,
+      "file": "changelogs.json"
+    },
+    "companies": {
+      "rows": 567,
+      "file": "companies.json"
+    },
+    "company_pages": {
+      "rows": 726,
+      "file": "company_pages.json"
+    },
+    "job_posting_extractions": {
+      "rows": 657,
+      "file": "job_posting_extractions.json"
+    },
+    "job_postings_raw": {
+      "rows": 657,
+      "file": "job_postings_raw.json"
+    },
+    "pipeline_state": {
+      "rows": 12,
+      "file": "pipeline_state.json"
+    },
+    "research_snapshots": {
+      "rows": 0,
+      "file": "research_snapshots.json"
+    },
+    "research_sources": {
+      "rows": 0,
+      "file": "research_sources.json"
+    },
+    "synthesis_runs": {
+      "rows": 0,
+      "file": "synthesis_runs.json"
+    },
+    "synthesis_sources": {
+      "rows": 0,
+      "file": "synthesis_sources.json"
+    },
+    "workforce_snapshots": {
+      "rows": 1,
+      "file": "workforce_snapshots.json"
+    }
+  }
+}

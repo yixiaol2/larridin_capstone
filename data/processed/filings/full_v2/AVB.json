@@ -1,0 +1,49 @@
+{
+ "ticker": "AVB",
+ "source_document_id": "0000915912-26-000004",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "employing an innovative and continually evolving operating model that combines effective onsite associates with the capabilities of our centralized shared services center, technology platform and digital offerings and various automation technologies, including the use of AI",
+    "We have developed and may continue to develop initiatives...including 'smart home' and building automation technologies; use of AI in correspondence with prospective, current and prior residents; automation of internal business processes"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "use of AI in correspondence with prospective, current and prior residents; automation of internal business processes and other applications; and self-service options that are accessible to residents through smart devices",
+    "flexible technology platform that incorporates automation and artificial intelligence ('AI')...resident-focused on-site associates that are supported by our centralized shared services operating organization"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Certain AI or machine learning tools...may generate outputs that are incomplete, inaccurate, misleading or otherwise flawed...could result in operational inefficiencies, errors in communications, adverse impacts on resident experience, reputational harm, loss of customers, or legal or regulatory exposure",
+    "vendors may incorporate AI tools into their products or services without disclosing such use to us...may increase the risk that such information is disclosed, misused or otherwise compromised, including through unintended outputs or model behavior",
+    "future regulatory developments, including data privacy laws, AI governance requirements, cybersecurity standards, or consumer protection protocols could impose restrictions on the use of these technologies or require us to implement costly compliance measures"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases described as deployed (AI in resident correspondence, automation of internal processes) but no quantified business results (%, $, time saved) are disclosed, capping narrative concreteness at 4.",
+  "Risk disclosure is company-specific with named mechanisms (operational errors, vendor opacity, regulatory compliance costs, data compromise) but no quantified risk exposure or named governance oversight body, capping risk depth at 4."
+ ],
+ "_meta": {
+  "accession": "0000915912-26-000004",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/915912/000091591226000004/avb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:13:55.051638+00:00"
+ }
+}

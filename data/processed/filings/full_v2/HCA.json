@@ -1,0 +1,51 @@
+{
+ "ticker": "HCA",
+ "source_document_id": "0001193125-26-044769",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are investing in digital, data, and artificial intelligence capabilities to improve clinical quality, enhance the experience of our patients and colleagues, and drive operational efficiency at scale.",
+    "Our strategy also emphasizes investments that seek to advance our clinical systems and digital capabilities, transform care models with innovative care solutions.",
+    "Rapid changes in technology driven by AI may require us to expend significant resources to acquire, develop, implement and maintain that technology."
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "our physicians are adopting the use of generative AI to assist with the taking of patient medical notes, among other tasks.",
+    "We may also use AI in health care-related administrative tasks, including in the collection of patient accounts receivable.",
+    "We are focused on developing and deploying secure, enterprise-grade digital and AI-enabled solutions that support clinical decision-making, streamline workflows, reduce administrative burden."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Increasing use of AI technologies in our internal systems may create new attack surfaces or methods for threat actors, and threat actors may use AI technologies to make cyberattacks more difficult to detect.",
+    "AI models used by us or third-party vendors may be based on biased, inaccurate or deficient datasets, which could result in inaccurate or misleading outputs... patient care may be affected, legal claims may be asserted.",
+    "Colorado CAIA will impose significant disclosure, documentation, and risk management requirements on developers of and companies that deploy high-risk AI systems, including systems used to recommend certain health care decisions."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 rather than 4 or 5.",
+  "AI narrative describes named use cases in production (generative AI for medical notes, AR collection, clinical decision support) but no quantified business results (%, $, time saved) were disclosed in the excerpts, capping concreteness at 4.",
+  "Risk disclosure is company-specific with named mechanisms (cybersecurity attack surfaces, model bias, state regulatory penalties) but no quantified risk exposure or named oversight body beyond the Audit and Compliance Committee's periodic reviews, capping depth at 4."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-044769",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/860730/000119312526044769/hca-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:51:27.677442+00:00"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "ticker": "NTAP",
+ "source_document_id": "0001193125-26-259683",
+ "source_type": "sec_filing",
+ "source_date": "2026-06-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "Total research and development expenses were $991 million in fiscal 2026, $1,012 million in fiscal 2025 and $1,029 million in fiscal 2024... Our R&D priorities are defined by how we can help organizations realize operational simplicity, cyber resilience and security, AI innovation, and infrastructure savings.",
+    "NetApp AFX is disaggregated scale-out storage built for the AI-powered enterprise... AFX integrates with the NetApp AI Data Engine to accelerate AI pipelines by consolidating fragmented tools into a unified, ONTAP-integrated solution.",
+    "partnerships with AI vendors are critical for our continued innovation... validated reference architectures and partnerships with leaders like NVIDIA and Microsoft, we accelerate AI pipeline development"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "NetApp AI Data Engine software simplifies and secures the entire AI data pipeline with integrated data discovery, curation, policy-driven guardrails, and real-time vectorization for GenAI, Retrieval-Augmented Generation (RAG), agentic AI, and AI factories.",
+    "The built-in, AI-powered Autonomous Ransomware Protection operates natively in the storage layer, combating evolving threats with real-time detection for rapid response and recovery.",
+    "NetApp AFX combines extreme performance and scale with the reliability of enterprise-proven NetApp ONTAP software... integrates with the NetApp AI Data Engine... with real-time metadata, inline vectorization, and semantic search."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Non-compliance with these emerging regulations, even if inadvertent, could result in legal and financial penalties, reputational damage, and operational disruptions... complexity and novelty of these laws may require investments in compliance infrastructure.",
+    "AI algorithms and training methodologies may be flawed, biased, or produce inaccurate outputs... AI-related issues could result in legal or regulatory action... damage to our reputation... inability to protect our intellectual property.",
+    "The EU AI Act imposes enhanced requirements on certain high-risk AI systems, including obligations relating to risk management, data governance, documentation, human oversight and conformity assessments."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Total research and development expenses were $991 million in fiscal 2026, $1,012 million in fiscal 2025 and $1,029 million in fiscal 2024",
+   "context": "Annual R&D spend with AI innovation explicitly named as a priority area alongside cyber resilience, operational simplicity, and infrastructure savings"
+  }
+ ],
+ "limitations": [
+  "R&D figures ($991M) are total company R&D; no AI-specific dollar breakdown is disclosed, so AI-attributable share is estimated — investment intensity score reflects named AI programs and products rather than a clean AI-only dollar figure.",
+  "Narrative concreteness scored 4 rather than 5 because no quantified business outcomes (%, $, time saved) are provided for deployed AI use cases; descriptions are operational but not metric-backed.",
+  "Risk disclosure scored 4 because specific regulatory mechanisms (EU AI Act, GDPR, DORA) and operational impact pathways are named, but no quantified risk exposure or formal named AI governance body is disclosed in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-259683",
+  "filing_date": "2026-06-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1002047/000119312526259683/ntap-20260424.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:15:39.090996+00:00"
+ }
+}

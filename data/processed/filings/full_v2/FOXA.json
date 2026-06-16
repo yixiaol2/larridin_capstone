@@ -1,0 +1,49 @@
+{
+ "ticker": "FOXA",
+ "source_document_id": "0001628280-25-038077",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "our ability to compete could be negatively affected if our efforts to enhance the value of our offerings with these technologies are not successful",
+    "the Company s use or adoption of such new technologies may also increase the Company s exposure to intellectual property claims"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "the development and use of generative AI, including large language model applications, and the advantages and risks associated with its use are largely uncertain",
+    "our efforts to enhance the value of our offerings with these technologies are not successful"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Generative AI may enable new competitors to rapidly produce large volumes of content and replicate or imitate our proprietary content without authorization, attribution or compensation. This could dilute the value of our content",
+    "AI tools misattribute incorrect information to the Company or if the Company s use of AI in its own products and services produces content...alleged to be deficient, inaccurate, biased, harmful, discriminatory, an intellectual property infringement",
+    "the increasing use of AI may intensify cybersecurity risks...the Audit Committee...overseeing the Company s policies and practices with respect to risk assessment and risk management, including with respect to cybersecurity and the use of AI"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No named AI programs, dollar amounts, or dedicated AI investment described; AI is discussed primarily as a regulatory/competitive/risk topic rather than an investment focus. Score 2 reflects generic aspirational framing only.",
+  "ai_narrative_concreteness: No named AI initiatives or deployed use cases described in excerpts; AI references are largely framed around uncertainty, risk, and competitive threat rather than concrete internal programs.",
+  "capex_mentions: No AI-attributable dollar amounts or quantified investment figures appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001628280-25-038077",
+  "filing_date": "2025-08-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828025038077/fox-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-15T20:47:08.680742+00:00"
+ }
+}

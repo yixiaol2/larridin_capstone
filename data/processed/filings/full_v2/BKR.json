@@ -1,0 +1,65 @@
+{
+ "ticker": "BKR",
+ "source_document_id": "0001701605-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "For the year ended December 31, 2025, we invested $600 million of R&D expense... investing in strategic themes... including themes such as digital, automation, electrification, chemistry and materials",
+    "In 2025, we booked $1 billion of orders tied to data center applications. We now expect to book approximately $3 billion of data center-related orders between 2025 and 2027",
+    "digital technologies such as advanced sensing diagnostics, data sciences, and AI... investing in advanced digital solutions designed to improve the efficiency, reliability, and safety"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Cordant TM , a modular AI-enabled enterprise solution... designed to optimize assets, processes and energy use at scale",
+    "In 2025, we booked $1 billion of orders tied to data center applications... approximately $3 billion of data center-related orders between 2025 and 2027",
+    "growing demand for more intelligent operations and the adoption of AI-based solutions as part of our customers' digital transformations"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may be flawed or biased. Datasets used to train or develop AI systems may be insufficient... utilization of AI may increase our risk and liability exposure relating to confidentiality, intellectual property infringement",
+    "Our AI governance review process and safeguards may not be adequate to protect against these risks... laws and regulations concerning the use of AI continue to evolve",
+    "Board's Audit Committee provides oversight over our risk assessment and risk management policies and processes, including data privacy, AI, and compliance reporting"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "we invested $600 million of R&D expense",
+   "context": "2025 total R&D spend across OFSE and IET segments, includes digital/AI themes but not exclusively AI-attributable"
+  },
+  {
+   "quote": "booked $1 billion of orders tied to data center applications",
+   "context": "2025 orders linked to data center/AI power demand, IET segment"
+  },
+  {
+   "quote": "approximately $3 billion of data center-related orders between 2025 and 2027",
+   "context": "Multi-year forward order expectation for data center/AI-driven power solutions"
+  }
+ ],
+ "limitations": [
+  "The $600M R&D figure is company-wide and not exclusively AI-attributable; AI/digital is one of several named investment themes, reducing precision of AI_investment_intensity scoring.",
+  "Data center order figures represent revenue bookings (demand-side), not direct AI capex or R&D spend by Baker Hughes itself; investment intensity score reflects this indirect signal.",
+  "Narrative concreteness is partially promotional — Cordant deployment detail is present but quantified business results (e.g., efficiency gains, customer outcomes) are not disclosed in these excerpts, capping score at 4.",
+  "Risk disclosure includes named governance bodies (Audit Committee, Governance Committee) and specific risk mechanisms, but no quantified risk exposure or formal named AI risk program, keeping score at 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0001701605-26-000007",
+  "filing_date": "2026-02-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1701605/000170160526000007/bkr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:15:14.590076+00:00"
+ }
+}

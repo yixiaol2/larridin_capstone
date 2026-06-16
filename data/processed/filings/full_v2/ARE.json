@@ -1,0 +1,50 @@
+{
+ "ticker": "ARE",
+ "source_document_id": "0001035443-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We have always strived to provide our tenants with state-of-the-art laboratory facilities incorporating cutting-edge infrastructure features to enable our tenants to perform at the highest levels.",
+    "Infrastructure upgrades may necessitate substantial capital expenditures... such as increased power needs due to high-performance computing."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Our employees and personnel use generative artificial intelligence (AI) and/or automated decision-making technologies to perform their work.",
+    "The adoption of AI by our tenants may lead to infrastructure requirements that our buildings currently do not accommodate, such as increased power needs due to high-performance computing.",
+    "The increase in demand for premium office space since 2024, primarily driven by the technology sector, particularly companies focused on AI, absorbed some of the market's supply."
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Governments have passed and are likely to pass additional laws and regulations regulating AI... Our use of this technology could result in additional compliance costs, regulatory investigations and actions, and lawsuits.",
+    "Proprietary, confidential, and/or sensitive data of the Company or our tenants could be leaked, disclosed, or revealed as a result of or in connection with our employees', personnel's, or vendors' use of generative AI technologies.",
+    "The increased use of AI and automation in life science R&D activities may change the uses, space configurations, and tenant requirements for our laboratory properties in currently unforeseen ways."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-attributable spend disclosed; ARE is a REIT deploying AI internally and monitoring tenant AI adoption impacts, not building or buying AI at scale. Generic references to potential capital expenditures for infrastructure upgrades are conditional and unquantified.",
+  "ai_narrative_concreteness: AI use cases named (employee use of generative AI, tenant AI adoption, market demand from AI companies) but no deployment metrics or quantified outcomes provided.",
+  "capex_mentions: No dollar amounts tied specifically to AI investment found in excerpts; references to capital expenditures are conditional and not AI-attributed with figures."
+ ],
+ "_meta": {
+  "accession": "0001035443-26-000013",
+  "filing_date": "2026-01-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1035443/000103544326000013/are-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T20:06:32.797869+00:00"
+ }
+}

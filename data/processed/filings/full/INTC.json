@@ -1,0 +1,69 @@
+{
+ "ticker": "INTC",
+ "source_document_id": "0000050863-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "R D expenses were $13.8 billion in 2025, $16.5 billion in 2024 and $16.0 billion in 2023. In 2025, our R D investments focused on AI integration, heterogeneous computing architectures and next-generation process technologies",
+    "capital investments classified as construction in progress totaled $34.5 billion ($50.4 billion as of December 28, 2024)",
+    "we entered into an agreement with NVIDIA to issue and sell to NVIDIA 215 million shares...for an aggregate cash purchase price of $5.0 billion...to support our strategic investments in advanced manufacturing, AI infrastructure and long-term growth initiatives"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we announced our development of Crescent Island, our first GPU to be built on the advanced Xe3P architecture...engineered specifically for data center environments...for AI inference workloads",
+    "we introduced an open software platform, Open Edge, designed to make it easier for businesses to run AI and other applications at the edge",
+    "We released our initial Intel Core Ultra Series 3 processors, the first products to be manufactured using our new Intel 18A process technology...offer further improved CPU, AI and graphics performance"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the evolving market for products with AI capabilities",
+    "our competitive environment has intensified in recent years...including as a result of the proliferation of AI and high demand for AI-related products and services",
+    "competitors include...accelerator products such as GPUs, including th[ose from NVIDIA]...many of our competitors have substantially greater financial resources than us"
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "R D expenses were $13.8 billion in 2025",
+   "context": "Annual R&D spend in 2025, focused on AI integration and next-generation process technologies"
+  },
+  {
+   "quote": "capital investments classified as construction in progress totaled $34.5 billion",
+   "context": "As of December 27, 2025; manufacturing/foundry capital investments including AI-related infrastructure"
+  },
+  {
+   "quote": "aggregate cash purchase price of $5.0 billion",
+   "context": "NVIDIA private placement share purchase to support advanced manufacturing and AI infrastructure"
+  },
+  {
+   "quote": "aggregate cash purchase price of $2.0 billion",
+   "context": "SoftBank Group private placement share purchase to support strategic investments in advanced manufacturing and AI infrastructure"
+  }
+ ],
+ "limitations": [
+  "R&D figures are total company R&D, not AI-specific; no explicit AI-only capex dollar amount is broken out, reducing precision on investment intensity score",
+  "Construction-in-progress figure covers all manufacturing nodes, not exclusively AI-related; multi-year AI-specific capex plan not explicitly quantified, limiting score to 4 rather than 5",
+  "Risk section excerpts appear partial/truncated; risk disclosure score based on available risk-adjacent language in business description sections rather than a complete risk factors section, which may understate actual disclosure depth",
+  "Several AI product descriptions (Crescent Island, Jaguar Shores) are forward-looking announcements rather than confirmed deployed production systems, which tempers concreteness confidence"
+ ],
+ "_meta": {
+  "accession": "0000050863-26-000011",
+  "filing_date": "2026-01-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T18:18:39.785737+00:00"
+ }
+}

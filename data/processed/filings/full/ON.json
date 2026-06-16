@@ -1,0 +1,59 @@
+{
+ "ticker": "ON",
+ "source_document_id": "0001097864-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-09",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "On January 14, 2025, we completed the acquisition of the Silicon Carbide Junction Field-Effect Transistor ('SiC JFET') technology business from Qorvo US, Inc...for $118.8 million in cash",
+    "On October 27, 2025, we completed the acquisition of rights to Vcore power technologies...The total purchase consideration is up to $144 million"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "our intelligent power technologies enable energy efficiency in a market in which energy needs are growing at an exponential rate, and AI data center operators are focused on reducing energy consumption",
+    "PSG provides a broad portfolio of discrete, module, and integrated semiconductor devices designed to enable high efficiency and high power conversion across AI data centers",
+    "increased revenue of $15.1 million in other end-markets which include AI data centers"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our power technologies designed for AI use may not capture market share as expected...Our failure to commercialize new technologies that can power AI data centers in a timely manner...could result in a loss of market share, unanticipated costs and inventory obsolescence",
+    "our association with AI infrastructure could expose us to reputational harm, stakeholder criticism or increased regulatory scrutiny, even if we do not control the design or use of AI systems",
+    "Our use of AI tools could also result in the loss of confidential information or intellectual property...subject us to risks related to intellectual property infringement or misappropriation, data privacy, cybersecurity"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "acquisition of the SiC JFET technology business from Qorvo US, Inc...for $118.8 million in cash",
+   "context": "January 2025 acquisition to address power supply units for AI data centers"
+  },
+  {
+   "quote": "acquisition of rights to Vcore power technologies...total purchase consideration is up to $144 million",
+   "context": "October 2025 acquisition enhancing power management portfolio relevant to AI data centers; $72M contingent on revenue milestones through 2030"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: The $118.8M and $144M figures are M&A/acquisition spend, not traditional capex or dedicated AI infrastructure build-out; no separate R&D or capex budget specifically for AI is quantified, so score reflects disclosed acquisition amounts as the closest proxy",
+  "ai_narrative_concreteness: AI data center revenue contribution is partially quantified ($15.1M incremental PSG revenue) but AI data center is bundled in 'Other' segment ($1.24B total); no standalone AI data center revenue line or product-level metrics disclosed; score reflects deployed products with some operating detail but limited precision",
+  "ai_risk_disclosure_depth: Risk section material is present and covers multiple named, company-specific risk mechanisms (market share loss, reputational harm, regulatory scrutiny, IP/data risks); stops short of quantified risk exposure or named governance/oversight bodies, hence scored 4 not 5"
+ ],
+ "_meta": {
+  "accession": "0001097864-26-000006",
+  "filing_date": "2026-02-09",
+  "url": "https://www.sec.gov/Archives/edgar/data/1097864/000109786426000006/on-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T18:41:16.371456+00:00"
+ }
+}

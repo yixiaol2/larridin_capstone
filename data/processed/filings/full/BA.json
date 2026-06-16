@@ -1,0 +1,43 @@
+{
+ "ticker": "BA",
+ "source_document_id": "0001628280-26-004357",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-30",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the techniques used in cyberattacks evolve rapidly, including from emerging technologies, such as advanced forms of automation and artificial intelligence",
+    "As cyber threats increase in volume and sophistication, the risk to the security of these systems and networks...continues to evolve, requiring constant vigilance and concerted, company-wide risk management efforts"
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no AI capex, infrastructure, or investment disclosures appear in the provided excerpts",
+  "ai_narrative_concreteness: no AI use cases, initiatives, or deployment details appear in the provided excerpts; AI is mentioned only in the context of cyber threat vectors",
+  "ai_risk_disclosure_depth: AI is named specifically as an emerging technology enabling more sophisticated cyberattacks (a company-relevant named risk category), but the excerpts contain no quantification, governance body, or mitigation program detail; scored 3 rather than 4 because no mechanism linking AI-enabled attacks to specific revenue/operations/compliance impact is described",
+  "Excerpts are limited to a single risk-factor passage; broader AI risk or investment disclosures elsewhere in the filing are not visible"
+ ],
+ "_meta": {
+  "accession": "0001628280-26-004357",
+  "filing_date": "2026-01-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:31:02.541688+00:00"
+ }
+}

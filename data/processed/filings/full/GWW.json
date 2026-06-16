@@ -1,0 +1,51 @@
+{
+ "ticker": "GWW",
+ "source_document_id": "0000277135-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Grainger has invested, and expects to continue to invest, significant resources to build and support its AI products.",
+    "Grainger has also increased, and expects to continue to increase, its investments in developing, managing and implementing AI, such as large language model technologies.",
+    "Developing, upgrading, managing or implementing new technologies, including AI...may require significant investment of resources by Grainger"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Grainger is working to incorporate AI capabilities into its digital platforms, as well as across Grainger in its own internal operations",
+    "practical applications of artificial intelligence (AI) and other similar strategies",
+    "investments in developing, managing and implementing technology information systems, software development, machine learning and other capabilities to provide simplified customer interactions"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may be flawed. Datasets may be insufficient or contain biased information. AI models deployed by Grainger or its partners may lead to unexpected or unintended outcomes that could erode trust",
+    "subject Grainger to competitive harm, regulatory action, legal liability, including under new and proposed legislation regulating AI in jurisdictions such as the U.S. and European Union",
+    "use of artificial intelligence to enhance social engineering and other techniques...Threat actors may attempt to access the information stored in Grainger's information systems"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts, GPU counts, or percentage-of-capex figures tied to AI investment appear in the excerpts; intensity scored 3 rather than 4 or 5.",
+  "AI use cases are named (digital platforms, internal operations, LLM technologies) but no deployment status metrics or quantified business results are disclosed; concreteness capped at 3.",
+  "Risk disclosure is company-specific with named mechanisms (model errors, regulatory liability, reputational harm, cybersecurity via AI-enhanced attacks) but no quantified risk exposure or named governance/oversight body, capping depth at 4."
+ ],
+ "_meta": {
+  "accession": "0000277135-26-000011",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/277135/000027713526000011/gww-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T19:10:18.722532+00:00"
+ }
+}

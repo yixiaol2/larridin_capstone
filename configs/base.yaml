@@ -1,0 +1,33 @@
+project:
+  name: ai-impact-research
+  default_universe: sample
+  timezone: UTC
+
+paths:
+  samples_dir: data/samples
+  processed_dir: data/processed
+  reports_dir: reports
+
+analysis:
+  score_columns:
+    - ai_adoption_score
+    - ai_fluency_score
+    - ai_impact_score
+    - ai_hiring_score
+  outcome_columns:
+    - fwd_return_1q
+    - fwd_return_2q
+    - revenue_growth
+    - operating_margin_delta
+    - revenue_per_employee_growth
+  default_signal: ai_adoption_score
+  default_return_column: fwd_return_1q
+
+llm:
+  default_score_scale_min: 1
+  default_score_scale_max: 5
+  require_evidence: true
+  max_quote_words: 35
+
+logging:
+  level: INFO

@@ -1,0 +1,51 @@
+{
+ "ticker": "WSM",
+ "source_document_id": "0000719955-26-000059",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "expanded use of artificial intelligence (AI) and advanced analytics, which we expect to improve inventory visibility, in stock levels and service times while driving efficiencies across our supply chain",
+    "expect continued AI enabled efficiencies across engineering, customer care and creative functions to drive earnings",
+    "developing new innovative shopping experiences, like mobile applications, augmented reality and AI capabilities... effectively leveraging AI and machine learning to enhance the customer experience"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "increasing adoption of AI-enabled shopping solutions, including personalized recommendations, chatbots and agentic checkout",
+    "leverage the information we have on our customers... personalize the experience they have with us, including through the use of AI-enabled solutions",
+    "our use of new and evolving AI solutions, including solutions that drive web traffic and personalize search results, may alter the effectiveness of our advertising efforts"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "our initiatives, including any initiatives involving AI, may not prove to be successful, may increase our costs, may produce unintended or biased outcomes or may not succeed in driving sales",
+    "Advances in generative AI technology may reduce barriers to competition... Generative AI may also enable the infringement of our intellectual property rights to proliferate, which may materially increase our legal costs",
+    "the recent surge of AI technology, including generative AI used to deploy more sophisticated attacks, creates an additional level of security, privacy and legal risk"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-attributable investment figures appear in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "AI narrative describes deployed use cases (personalization, chatbots, agentic checkout, supply chain analytics) with operational detail but no quantified business results (e.g., % improvement, $ saved), capping concreteness at 4.",
+  "Risk disclosure includes company-specific mechanisms (IP infringement costs, biased outcomes, cybersecurity escalation, regulatory compliance costs) but no quantified risk exposure or named governance/oversight bodies, capping at 4."
+ ],
+ "_meta": {
+  "accession": "0000719955-26-000059",
+  "filing_date": "2026-03-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/719955/000071995526000059/wsm-20260201.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:48:53.484436+00:00"
+ }
+}

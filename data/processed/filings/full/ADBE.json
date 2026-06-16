@@ -1,0 +1,52 @@
+{
+ "ticker": "ADBE",
+ "source_document_id": "0000796343-26-000003",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-15",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are harnessing the power of AI across our solutions by bringing together our commercially safe first-party and leading partner AI models best suited for the job",
+    "make significant investments in research and development to advance the value and impact of our solutions, and to continue integrating generative and agentic technologies",
+    "Adobe Research team of scientists, engineers, artists and designers are inventing the future of creativity, productivity and customer experiences... spanning AI and machine learning"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Acrobat AI Assistant, our generative AI-powered conversational engine, gives users the power to work more productively with their PDFs by summarizing and answering questions about documents",
+    "Firefly Custom Models enable quick content creation that is on-brand or in an artist's own aesthetic style through Firefly generative AI image models trained with an enterprise's brand content",
+    "Adobe Experience Platform Agent Orchestrator is the technology underpinning Adobe's agentic framework, powering the ability to understand context, retrieve precise information, plan multi-step actions"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "artificial intelligence (AI), including generative and agentic, enables users of all skill levels to create... there can be no assurance that our new or enhanced solutions and AI innovations will be successful, adopted or monetizable",
+    "If we do not successfully innovate, adapt to rapid technological or industry changes and meet customer needs, our business and our financial results may be materially harmed",
+    "We participate in rapidly evolving and intensely competitive markets... competitors include... new entrants, and AI or cloud-native companies"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex, headcount, or dollar amounts disclosed in the excerpts; investment intensity scored 3 (named infrastructure and teams, no quantified scale).",
+  "ai_narrative_concreteness scored 4 (deployed named use cases with operating detail) but no quantified business results (e.g., % productivity gains, revenue from AI features) appear in the excerpts to justify a score of 5.",
+  "ai_risk_disclosure_depth scored 3 (named risk categories: innovation failure, competitive displacement, monetization uncertainty) but no quantified risk scenarios or named governance/oversight bodies appear in the excerpts; full risk-factor section may contain additional detail not captured here.",
+  "Excerpts are pre-filtered; complete capex disclosures or MD&A quantitative AI spend figures may exist elsewhere in the filing but are not visible here."
+ ],
+ "_meta": {
+  "accession": "0000796343-26-000003",
+  "filing_date": "2026-01-15",
+  "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T17:17:32.343273+00:00"
+ }
+}

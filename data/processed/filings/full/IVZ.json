@@ -1,0 +1,49 @@
+{
+ "ticker": "IVZ",
+ "source_document_id": "0000914208-26-000079",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Harness innovation including AI to utilize next generation technology across all aspects of the business.",
+    "We or our third-party vendors, clients or counterparties have developed and may continue to develop or incorporate AI technology in certain business processes, services or products."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Harness innovation including AI to utilize next generation technology across all aspects of the business.",
+    "AI tools, whether embedded in third party systems or in tools that we develop, that are used to support regulated activities such as investment decision making and client reporting"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The legal and regulatory environment relating to AI is rapidly evolving...includes regulation targeted specifically at AI technology, including the EU AI Act...Global divergence in AI regulations...could create conflicting requirements across jurisdictions, increase compliance costs",
+    "AI models, particularly generative AI models, may produce output...that result in the release of personal, confidential or proprietary information, that reflect biases...that infringe on the intellectual property rights of others",
+    "AI tools...used to support regulated activities such as investment decision making and client reporting present unique risks, including errors in algorithms or assumptions, data quality issues, and potential bias, that could adversely affect investment performance"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or budget figures appear in the excerpts; investment intensity scored 2 based on generic strategic language only.",
+  "AI use cases are referenced (investment decision making, client reporting) but no deployment status, metrics, or named initiatives are disclosed; narrative concreteness capped at 2.",
+  "Risk disclosure is detailed and company-specific with named mechanisms (regulatory, model error, bias, cyberattack via generative AI), justifying score 4, but no quantified risk figures or named governance oversight bodies are present to reach score 5."
+ ],
+ "_meta": {
+  "accession": "0000914208-26-000079",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000079/ivz-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T18:20:07.826548+00:00"
+ }
+}

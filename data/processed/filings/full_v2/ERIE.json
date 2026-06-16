@@ -1,0 +1,49 @@
+{
+ "ticker": "ERIE",
+ "source_document_id": "0001628280-26-010666",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our technological developments are focused on simplifying and improving the employee, agent, and customer experiences, increasing efficiencies, redesigning products, and addressing other potentially disruptive changes in the insurance industry, including the use of artificial intelligence.",
+    "talented employees with specialized skills in actuarial, finance, human resources, law, risk management and information technology, including artificial intelligence and data analytics, are also essential to support and grow our core functions."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Our technological developments are focused on simplifying and improving the employee, agent, and customer experiences, increasing efficiencies, redesigning products, and addressing other potentially disruptive changes in the insurance industry, including the use of artificial intelligence.",
+    "Innovations, including the use of artificial intelligence and machine learning to support underwriting or other decisions, by competitors or other market participants may increase the level of competition."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the use of artificial intelligence may increase our exposure to cyber threats.",
+    "new and evolving regulations regarding cybersecurity, artificial intelligence and ESG matters...Failure to effectively address current and future ESG regulatory developments...may expose our business to litigation, fines, penalties, and damage to our reputation.",
+    "Innovations, including the use of artificial intelligence and machine learning to support underwriting or other decisions, by competitors...If the Exchange fails to respond to those innovations on a timely basis, its competitive position and results may be materially adversely affected."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or program budgets disclosed in the excerpts; investment intensity scored on named but unquantified initiatives only.",
+  "AI narrative is largely framed in risk-factor context referencing competitors' use of AI and internal technology development aspirations; no deployed use cases or production metrics described.",
+  "Excerpts are exclusively from the risk_factors section; no business description, MD&A, or operational sections were available to assess concrete AI deployments or financial commitments."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-010666",
+  "filing_date": "2026-02-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/922621/000162828026010666/erie-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:41:14.369326+00:00"
+ }
+}

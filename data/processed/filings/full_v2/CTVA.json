@@ -1,0 +1,50 @@
+{
+ "ticker": "CTVA",
+ "source_document_id": "0001755672-26-000004",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Speed in discovering, developing, protecting and responding to new technologies, including artificial intelligence and new technology-based distribution channels that accelerate Corteva's product development timelines",
+    "many of Corteva's competitors are also making considerable investments in similar new biotechnology products, improved germplasm products, biological and chemical products"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "artificial intelligence and new technology-based distribution channels that accelerate Corteva's product development timelines and could facilitate its ability to engage with customers and end users",
+    "Speed in discovering, developing, protecting and responding to new technologies, including artificial intelligence"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "As these threats continue to evolve, particularly around cybersecurity and artificial intelligence, Corteva may be required to expend significant resources to enhance its control environment, processes, practices",
+    "Speed in discovering, developing, protecting and responding to new technologies, including artificial intelligence... Commercial success frequently depends on being the first company to the market",
+    "unauthorized parties gaining access to certain confidential business information... threats continue to evolve, particularly around cybersecurity and artificial intelligence"
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts are limited to risk-factor sections only; no business, MD&A, or financial sections are present, so AI investment intensity and narrative concreteness cannot be fully assessed.",
+  "AI investment intensity scored 2 because references to AI investment are generic and aspirational — no named programs, dollar amounts, or dedicated AI initiatives are disclosed in these excerpts.",
+  "AI narrative concreteness scored 2 because AI is mentioned only in aspirational/competitive framing with no named initiatives, deployment status, or metrics.",
+  "Promotional/aspirational language noted: 'could facilitate,' 'could accelerate' — these are claims about potential, not disclosed outcomes."
+ ],
+ "_meta": {
+  "accession": "0001755672-26-000004",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1755672/000175567226000004/ctva-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T20:31:03.507896+00:00"
+ }
+}

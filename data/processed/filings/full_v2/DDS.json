@@ -1,0 +1,50 @@
+{
+ "ticker": "DDS",
+ "source_document_id": "0000028917-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "to keep pace with changing technology (including artificial intelligence), we must continuously provide for the design and implementation of new information technology systems",
+    "inability to effectively utilize advancements in technology, including artificial intelligence"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "to keep pace with changing technology (including artificial intelligence), we must continuously provide for the design and implementation of new information technology systems and enhancements of our existing systems",
+    "inability to effectively utilize advancements in technology, including artificial intelligence"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "to keep pace with changing technology (including artificial intelligence), we must continuously provide for the design and implementation of new information technology systems",
+    "inability to effectively utilize advancements in technology, including artificial intelligence",
+    "Such difficulties could lead to significant expenses or to losses due to disruption in our business"
+   ],
+   "confidence": 0.7
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI is mentioned only in passing within risk and forward-looking language; no named AI programs, products, or quantified investments are disclosed.",
+  "Narrative concreteness is low: AI references are aspirational/risk-framing only, with no named initiatives or deployment details.",
+  "Risk disclosure names AI as a technology risk category (failure to utilize, keeping pace) with a mechanism (expenses, business disruption), but no quantification or governance body is described.",
+  "Excerpts are limited; broader filing sections (e.g., MD&A, business description) may contain additional AI detail not captured here."
+ ],
+ "_meta": {
+  "accession": "0000028917-26-000006",
+  "filing_date": "2026-03-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000006/dds-20260131x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-15T20:35:20.463936+00:00"
+ }
+}

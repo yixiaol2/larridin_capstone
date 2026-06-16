@@ -1,0 +1,47 @@
+{
+ "ticker": "DD",
+ "source_document_id": "0001666700-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "leveraging technology, as well as artificial intelligence and machine learning (AI) and consolidation of manufacturing facilities, transitions to cost-competitive regions and product line rationalizations"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "leveraging technology, as well as artificial intelligence and machine learning (AI)... to maintain a streamlined operating model and drive sustainable improvements"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "failure to successfully optimize the Company s facilities footprint, the failure to take advantage of the Company s global supply chain, the failure to identify and eliminate duplicative programs",
+    "profitability and margin growth will depend in part on the Company s ability to maintain a streamlined operating model... leveraging technology, as well as artificial intelligence and machine learning"
+   ],
+   "confidence": 0.65
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI spend, headcount, or named AI systems/vendors disclosed in the excerpts; investment intensity scored 2 due to generic language only.",
+  "AI narrative is aspirational/operational-efficiency framing with no named initiatives, deployed use cases, or metrics.",
+  "Risk disclosure names AI as a dependency for cost/margin improvement and implicitly flags failure risk, but does not quantify risk exposure or name governance bodies; scored 3 for company-specific risk category (operational improvement dependency on AI) rather than generic boilerplate.",
+  "Excerpts are limited to two risk-factor passages; broader filing context (MD&A, business description) not available, which may understate investment intensity or concreteness."
+ ],
+ "_meta": {
+  "accession": "0001666700-26-000013",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:51:29.508148+00:00"
+ }
+}

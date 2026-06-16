@@ -1,0 +1,56 @@
+{
+ "ticker": "GEN",
+ "source_document_id": "0000849399-26-000017",
+ "source_type": "sec_filing",
+ "source_date": "2026-05-21",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have incurred, and will continue to incur, significant research and development expenses, including investments in AI, to drive organic growth and reduce reliance on third-party technologies.",
+    "We are investing in a unified data and AI platform that gives consumers structured, secure access to their most important information... connecting our brands, products, and third-party partners into a single intelligent ecosystem.",
+    "Board of Directors approved a restructuring plan as part of our ongoing internal transformation efforts, including increased adoption of artificial intelligence technologies... approximately $50 million in connection with the plan."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Norton Scam Protection and Scam Protection Pro utilize Norton Genie AI engine to analyze the meaning of words, not just links, helping to stop hidden scam patterns.",
+    "Through our AI Foundry, we build advanced AI models to improve our user s experiences, by providing recommendations, insights, and personalized messaging tailored to their customer journey.",
+    "We are building the trust layer for consumer AI: an AI-native browser, agentic protection integrated into our core memberships including an agentic VPN, and an agentic skill scanner."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If AI-enabled features in our products produce incorrect, incomplete or biased outputs, we could face claims of misrepresentation, negligence, product liability or other legal theories, as well as customer dissatisfaction, reputational harm.",
+    "Deployment of agentic AI with access to our systems, data, and third-party tools creates an expanded surface for cyberattacks, as threat actors may exploit inadequate controls to manipulate agents into executing unauthorized actions.",
+    "We may face allegations of misrepresentations or AI washing if our disclosures about our AI capabilities or our AI-related governance are deemed to be exaggerated or misleading, which could result in enforcement actions, litigation or reputational harm."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "approximately $50 million in connection with the plan, consisting of employee severance and termination benefits, facilities consolidation, contract termination and other restructuring costs",
+   "context": "Fiscal 2027 restructuring program tied to increased adoption of AI technologies, approved May 2026"
+  }
+ ],
+ "limitations": [
+  "The $50 million restructuring figure is partially AI-attributable but also includes non-AI costs (severance, facilities consolidation); no standalone AI R&D or capex dollar figure is disclosed, limiting investment intensity to score 3 rather than 4.",
+  "AI narrative concreteness scored 4 based on named deployed products (Norton Genie AI, AI Foundry, agentic VPN) with operational detail, but no quantified business results (e.g., scams blocked, revenue uplift) were found in the excerpts to justify score 5.",
+  "Risk disclosure is extensive and company-specific with named mechanisms (agentic AI attack surface, AI washing liability, IP misappropriation), but no quantified risk exposure or named formal AI governance body was identified, limiting score to 4."
+ ],
+ "_meta": {
+  "accession": "0000849399-26-000017",
+  "filing_date": "2026-05-21",
+  "url": "https://www.sec.gov/Archives/edgar/data/849399/000084939926000017/gen-20260403.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:49:06.869402+00:00"
+ }
+}

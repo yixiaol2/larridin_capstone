@@ -1,0 +1,49 @@
+{
+ "ticker": "SPG",
+ "source_document_id": "0001104659-26-019419",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We have adopted certain generative AI tools into our systems for specific use cases reviewed by legal and information security.",
+    "many of our competitors, retailers and consumers are increasingly using AI in their decision-making processes"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We have adopted certain generative AI tools into our systems for specific use cases reviewed by legal and information security.",
+    "our vendors may incorporate generative AI tools into their services and deliverables without disclosing this use to us"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "generative AI or machine learning models may create incomplete, inaccurate, or otherwise flawed outputs... could lead us to make flawed decisions... exposure to reputational and competitive harm, customer loss, and legal liability",
+    "bad actors around the world use increasingly sophisticated methods, including the use of AI, to engage in illegal activities involving the theft and misuse of personal information",
+    "uncertainty in the legal regulatory regime relating to AI... may require significant resources to modify and maintain business practices to comply with applicable law"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or named vendor/cloud partnerships disclosed in excerpts; adoption described only in general terms ('certain generative AI tools for specific use cases').",
+  "ai_narrative_concreteness: Use cases are named as adopted but no deployment metrics, operating detail, or quantified results are provided; excerpts are primarily from the risk-factors section.",
+  "Excerpts are limited to the risk_factors section; no business description, MD&A, or capex discussion sections are present, so investment intensity may be underscored relative to the full filing."
+ ],
+ "_meta": {
+  "accession": "0001104659-26-019419",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926019419/spg-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-11T18:55:39.095213+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "COR",
+ "source_document_id": "0001140859-25-000131",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are seeking to use AI to improve our business operations, financial position, and results of operations",
+    "We continue to make substantial investments in our data centers, third-party cloud-based environments and services, distribution centers and information systems",
+    "We will continue to invest in advanced information systems and automated warehouse technology"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Our businesses rely on sophisticated information systems and AI to obtain, rapidly process, analyze, and manage data to facilitate the purchase and distribution of thousands of inventory items",
+    "we are seeking to use AI to improve our business operations, financial position, and results of operations",
+    "While we have an AI policy in place, the complicated and changing nature of AI technology and related laws and regulations increase our compliance costs"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "as AI continues to evolve, cyber attackers could also use AI to develop malicious code and sophisticated phishing attempts, and our use of AI could increase cybersecurity and data protection risks",
+    "Our use of AI, or the use of AI by our service providers or third-party business partners, could also result in the misappropriation of, unauthorized access to, or disclosure of such information",
+    "the EU's Artificial Intelligence Act imposes requirements on AI system providers...Non-compliance may be subject to fines. U.S. federal, state, and local laws...applicable to AI...continue to increase"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific AI budget figures disclosed in the excerpts; investment intensity scored 3 based on named initiatives and infrastructure references without quantified scale.",
+  "AI use cases are named at a high level (data processing, distribution management, business operations) but no deployment metrics or quantified outcomes are provided; concreteness capped at 3.",
+  "Capex mentions list is empty as no specific dollar or quantity figures tied to AI/compute investment appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001140859-25-000131",
+  "filing_date": "2025-11-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1140859/000114085925000131/cor-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T17:37:38.423884+00:00"
+ }
+}

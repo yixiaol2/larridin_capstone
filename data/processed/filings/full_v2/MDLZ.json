@@ -1,0 +1,49 @@
+{
+ "ticker": "MDLZ",
+ "source_document_id": "0001628280-26-005345",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-04",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We could also fail to attract and develop personnel with key emerging capabilities... including skills in the areas of advanced technology, artificial intelligence, machine learning, digital commerce, data analytics",
+    "reaching consumers in efficient and effective ways leveraging data and analytics (including artificial intelligence and machine learning)"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "technological advancements (including advancements such as artificial intelligence, machine learning and augmented reality) which are increasingly important for understanding evolving consumer preferences",
+    "the increasing role of digital tools (including artificial intelligence and machine learning) and commerce for consumers"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the rapid evolution and increased adoption of artificial intelligence may intensify our cybersecurity risks and create new vectors of exposure",
+    "the use of artificial intelligence and machine learning in our operations may elevate the risk of third-party infringement claims, especially those related to our alleged unauthorized use of third-party tools",
+    "as the legal and regulatory environment for artificial intelligence and other emerging technologies continues to evolve, our compliance obligations may significantly increase our costs or limit the extent to which we are able to use these technologies"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-attributable spend, headcount, or named AI programs disclosed in excerpts; references to AI are aspirational or risk-framed rather than investment-commitment framed.",
+  "ai_narrative_concreteness: All AI references are aspirational or risk-oriented; no named deployed AI initiatives or quantified outcomes appear in the excerpts.",
+  "ai_risk_disclosure_depth: Risk-section material is present (mdna section contains risk factor language); multiple named, company-specific risk mechanisms are described (cybersecurity vectors, IP infringement, regulatory compliance costs), justifying score 4, though no quantification or named governance bodies are disclosed."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-005345",
+  "filing_date": "2026-02-04",
+  "url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/mdlz-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:13:04.251438+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "EMN",
+ "source_document_id": "0000915389-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Eastman has been increasingly using artificial intelligence ('AI') tools and more traditional data science practices in its operations, research and development, and other areas to improve efficiency and effectiveness.",
+    "Eastman continues to identify and pursue growth opportunities through both organic and inorganic initiatives"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Eastman has implemented a risk-based governance approach led by a cross-functional Responsible AI Council that oversees AI use cases, sets standards, and coordinates with existing risk and compliance functions.",
+    "AI use cases, models, and third-party tools are subject to review, vendor due diligence, and contractual safeguards.",
+    "increasingly using AI tools and more traditional data science practices in its operations, research and development, and other areas to improve efficiency and effectiveness"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "use of AI by Eastman, its employees, or any of its third-party partners may result in unauthorized disclosure of data, which can result in...reputational harm, loss of confidence...penalties, litigation costs, or legal liability.",
+    "Analyses, results, or business processes relying on AI may also be deficient, inaccurate, or biased, and the Company may fail to identify in a timely fashion, or at all, if or to the extent that is the case.",
+    "The Company is subject to risks associated with the potential use of artificial intelligence in the Company's own operations and by third-party partners"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI spend, headcount, or capex figures appear in the excerpts; investment intensity scored 2 based on generic operational language only.",
+  "No deployed use cases with quantified business results disclosed; concreteness capped at 3 due to named governance structures but absence of production metrics.",
+  "Risk disclosure scored 4 based on named risk mechanisms (data disclosure, bias, third-party exposure) with operational/legal consequence pathways described, but no quantified risk figures or named oversight body metrics beyond the Responsible AI Council reference in the non-risk section."
+ ],
+ "_meta": {
+  "accession": "0000915389-26-000013",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/915389/000091538926000013/emn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T17:52:42.213772+00:00"
+ }
+}

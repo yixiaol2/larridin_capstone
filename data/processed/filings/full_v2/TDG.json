@@ -1,0 +1,48 @@
+{
+ "ticker": "TDG",
+ "source_document_id": "0001260221-25-000081",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "capital expenditures incurred from year-to-year are primarily for projects... such as automation projects",
+    "The rapid evolution and increased adoption of artificial intelligence (AI) technologies may intensify these risks"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The rapid evolution and increased adoption of artificial intelligence (AI) technologies may intensify these risks",
+    "threat actors increasingly use AI and other techniques to circumvent security controls, evade detection and remove forensic evidence"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "threat actors increasingly use AI and other techniques to circumvent security controls, evade detection and remove forensic evidence",
+    "The rapid evolution and increased adoption of artificial intelligence (AI) technologies may intensify these risks. Any failure to comply could result in significant penalties, fines, legal challenges and reputational harm"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity: no AI-attributable dollar amounts or named AI programs disclosed; automation capex mention is not explicitly linked to AI",
+  "AI narrative concreteness: AI is referenced only in risk/compliance context, not as a named internal initiative or deployed use case",
+  "AI risk disclosure depth: risk-section excerpts present; AI risks named (regulatory/privacy intensification, threat-actor use of AI) but mechanisms are generic rather than company-specific operational scenarios"
+ ],
+ "_meta": {
+  "accession": "0001260221-25-000081",
+  "filing_date": "2025-11-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1260221/000126022125000081/tdg-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 1.0,
+  "extracted_at": "2026-06-15T21:39:38.676500+00:00"
+ }
+}

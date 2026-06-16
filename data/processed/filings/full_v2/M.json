@@ -1,0 +1,51 @@
+{
+ "ticker": "M",
+ "source_document_id": "0001628280-26-021721",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are making, and expect to continue to make, substantial investments in our information technology systems, infrastructure and personnel... including the adoption of generative and agentic artificial intelligence ('AI') in certain processes",
+    "We opened our new state-of-the-art fulfillment and store replenishment center, China Grove, which incorporates automation, robotics and artificial intelligence into our delivery ecosystem.",
+    "We are applying artificial intelligence to how customers discover, shop and engage with our brands through intelligent shopping assistance, agentic commerce and hyper-personalized experience."
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI tools assist us in areas such as customer service, supply chain, personalization, coding, human resources queries, security, marketing and advertising.",
+    "We are also experimenting with AI in merchandising, planning and marketing to optimize inventory and demand decisions, among other uses.",
+    "We opened our new state-of-the-art fulfillment and store replenishment center, China Grove, which incorporates automation, robotics and artificial intelligence into our delivery ecosystem."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Even with careful governance, use of AI can produce incorrect output, release private or confidential personal or business information used to train models, create algorithmic bias and unintentional discrimination, or generate output that violates intellectual property rights.",
+    "The autonomous nature of agentic AI may present challenges in aligning with current AI governance, including testing protocols, and increase risk that agents may learn to circumvent guardrails.",
+    "We also face uncertainty regarding evolving federal or state regulation of AI. These risks could have adverse business, legal or regulatory impact or harm our reputation."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-attributable spend disclosed in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "Narrative concreteness scored 4 based on named deployed use cases with operational detail; no quantified business results (e.g., % cost savings, volume) found in excerpts to justify score 5.",
+  "Risk disclosure includes named company-specific risk mechanisms (agentic AI guardrail circumvention, algorithmic bias, regulatory uncertainty) and mentions of governance measures (mandatory compliance training, internal review guidelines, monitoring), supporting score 4; no quantified risk exposure or named oversight body with formal charter found to justify score 5."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-021721",
+  "filing_date": "2026-03-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/794367/000162828026021721/m-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-15T21:07:35.909339+00:00"
+ }
+}

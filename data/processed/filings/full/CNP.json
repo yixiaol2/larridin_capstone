@@ -1,0 +1,51 @@
+{
+ "ticker": "CNP",
+ "source_document_id": "0001130310-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "a significant portion of the planned investments in our 10-year capital plan is intended to support such expected growth... from the expansion of data centers (associated with, among other things, increasing demand for AI)",
+    "Developing, testing and deploying resource-intensive AI systems may also require additional investment and increase costs.",
+    "We are using and exploring the further use of AI, including generative AI, and its ability to enhance the services we offer"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We are using and exploring the further use of AI, including generative AI, and its ability to enhance the services we offer to the communities we serve.",
+    "advances in AI and our success in timely adopting, developing and deploying AI",
+    "We may not be successful in our adoption, development and deployment of AI, which could adversely affect our business, reputation or financial results."
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "ineffective or inadequate development or deployment of AI practices by us or supply chain stakeholders could result in unintended consequences. We contract with supply chain stakeholders that use AI in products and services they provide, and we may not have full control or visibility",
+    "AI-related efforts may give rise to risks related to harmful content, accuracy, bias, discrimination, intellectual property infringement or misappropriation, defamation, data privacy, and cybersecurity",
+    "Our Audit Committee...oversees the Board's responsibilities relating to CenterPoint Energy's cybersecurity, data privacy and AI programs, including cybersecurity and AI risk management"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific AI capex figures appear in the excerpts; the 10-year capital plan is referenced in connection with data center/AI demand growth but no AI-specific dollar commitment is disclosed.",
+  "AI use cases are described only in exploratory/aspirational terms ('using and exploring'); no deployed production systems or quantified outcomes are mentioned, limiting concreteness score to 2.",
+  "Risk disclosure scores 4 due to named company-specific risk mechanisms (supply chain AI dependence, regulatory scrutiny, cost recovery risk) and named governance body (Audit Committee oversight of AI programs), but no quantified risk exposure is provided, precluding a score of 5."
+ ],
+ "_meta": {
+  "accession": "0001130310-26-000008",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1130310/000113031026000008/cnp-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T17:38:12.321092+00:00"
+ }
+}

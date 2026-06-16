@@ -1,0 +1,51 @@
+{
+ "ticker": "AMT",
+ "source_document_id": "0001053507-26-000035",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we may be required to commit significant operational and financial resources to data center developments, generally 12 to 18 months before securing customer contracts",
+    "evolving technologies, such as AI, increase power requirements. Our ability to scale remains dependent on reliable energy access",
+    "we utilize AI technologies that rely on access to and use of significant amounts of data"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Our Board, Audit Committee and management have overseen the development and launch of our AI governance program",
+    "employees completed over 16,000 training classes related to cybersecurity and responsible AI use",
+    "we utilize AI technologies that rely on access to and use of significant amounts of data, which in some cases include sensitive information"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI systems may be used by threat actors to exploit vulnerabilities more efficiently or to facilitate increasingly sophisticated cyberattacks, any of which could result in data breaches, operational disruptions or liability",
+    "Inadequate safeguards over AI training data and model inputs or outputs could result in misuse of such data, algorithmic bias or violations of applicable privacy and data protection requirements",
+    "new technology, such as AI, which is potentially more power-intensive, that requires levels of power and cooling density that our facilities may not be designed to provide"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, GPU counts, or quantified AI-specific capex disclosed in the excerpts; data center capex is discussed qualitatively but not broken out for AI specifically. Score 3 reflects named infrastructure (data centers, AI governance program) without quantified AI spend.",
+  "ai_narrative_concreteness: AI use cases are named (governance program, responsible AI training, AI technologies for data processing) but no deployment metrics or quantified business outcomes are disclosed; score 3 reflects named initiatives without production-level detail.",
+  "capex_mentions: No specific dollar or quantity figures tied to AI/compute investment appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001053507-26-000035",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000035/amt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 24,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T17:22:11.998630+00:00"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "ticker": "KDP",
+ "source_document_id": "0001418135-26-000016",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We invest in new and emerging technologies, including the use of automation, connected data, robotics, and artificial intelligence throughout our operations, including in our manufacturing and distribution facilities and our sales organization."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "use of automation, connected data, robotics, and artificial intelligence throughout our operations, including in our manufacturing and distribution facilities and our sales organization"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If the cost of our investments is higher than anticipated... we may be delayed in realizing the intended benefits or our costs and f[inancial performance may be adversely affected]",
+    "invest in new and emerging technologies, including... artificial intelligence... If investments and upgrades are not sufficient to meet our near-term future business needs"
+   ],
+   "confidence": 0.7
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-attributable spend disclosed in the excerpts; investment intensity capped at 3.",
+  "AI use cases named (manufacturing, distribution, sales) but no deployment status or metrics provided; concreteness capped at 3.",
+  "Risk section present but excerpt is truncated; full risk mechanism text may be cut off, slightly reducing confidence in risk score.",
+  "Only one excerpt provided; broader filing context not available."
+ ],
+ "_meta": {
+  "accession": "0001418135-26-000016",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/1418135/000141813526000016/kdp-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T21:02:26.424044+00:00"
+ }
+}

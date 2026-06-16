@@ -1,0 +1,49 @@
+{
+ "ticker": "BURL",
+ "source_document_id": "0001193125-26-116001",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "No AI investment, spending, or resource commitment disclosed in the excerpts; AI is mentioned only in competitive and risk contexts."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "competitors... use technology more effectively than we do, including the use of artificial intelligence (AI) or other emerging technologies",
+    "the rapid evolution and increased adoption of artificial intelligence, machine learning, Software as a Service (SaaS), and cloud technologies may intensify our cybersecurity risks"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Hardware, software or applications (including AI capabilities) we develop or obtain from third parties may contain defects... that could unexpectedly compromise information security.",
+    "threat actors use AI to enhance attacks that are harder to detect and defend against",
+    "competitors... use technology more effectively than we do, including the use of artificial intelligence (AI) or other emerging technologies"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity is null: excerpts contain no disclosure of AI-attributable spending, R&D programs, or resource commitments by Burlington itself.",
+  "ai_narrative_concreteness scored 2: AI references are aspirational/risk-framing only — no named Burlington AI initiatives or use cases disclosed.",
+  "Excerpts are limited to risk_factors sections; no business, MD&A, or strategy sections present, which may contain additional AI context not visible here."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-116001",
+  "filing_date": "2026-03-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1579298/000119312526116001/burl-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:20:12.784368+00:00"
+ }
+}

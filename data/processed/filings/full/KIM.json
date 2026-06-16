@@ -1,0 +1,49 @@
+{
+ "ticker": "KIM",
+ "source_document_id": "0001193125-26-060760",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We have adopted generative artificial intelligence tools into our systems for specific use cases, subject to the artificial intelligence use policies that have been established by our legal and information security teams",
+    "we are continuing to evaluate additional uses for generative artificial intelligence"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We have adopted generative artificial intelligence tools into our systems for specific use cases, subject to the artificial intelligence use policies that have been established by our legal and information security teams",
+    "we are continuing to evaluate additional uses for generative artificial intelligence"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "artificial intelligence presents risks and challenges that can impact our business, including by posing security risks to our confidential information, proprietary information, and personal data",
+    "artificial intelligence or machine learning models may create incomplete, inaccurate, or otherwise flawed outputs...could lead us to make flawed decisions...exposure to reputational and competitive harm, customer loss, and legal liability",
+    "uncertainty in the legal regulatory regime relating to artificial intelligence may require significant resources to modify and maintain business practices to comply with applicable law"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, named vendors, quantified headcount, or capex figures tied to AI are disclosed; only generic adoption language with named use-case category (generative AI tools) but no scale or budget detail.",
+  "ai_narrative_concreteness: Use cases are named only at the category level ('specific use cases') with no deployment metrics, operational detail, or quantified outcomes; scored 3 rather than 4 due to absence of production detail.",
+  "capex_mentions: No AI-related dollar or quantity figures appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-060760",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/879101/000119312526060760/kim-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T18:24:25.109511+00:00"
+ }
+}

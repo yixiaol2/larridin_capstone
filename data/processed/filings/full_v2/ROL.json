@@ -1,0 +1,50 @@
+{
+ "ticker": "ROL",
+ "source_document_id": "0000084839-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are increasingly incorporating AI capabilities into the development of technologies and our business operations, our services, and other operational and administrative processes.",
+    "our increasing reliance on AI technologies in services and operations as well as the related risks that could materially adversely affect our business"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We are increasingly incorporating AI capabilities into the development of technologies and our business operations, our services, and other operational and administrative processes. While we believe these technologies enhance efficiency and service quality...",
+    "new information systems and technology will lead to new or improving business capabilities and streamline business processes, financial reporting, and acquisition integration"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI technology is complex and rapidly evolving, and may subject us to significant competitive, legal, regulatory, operational and other risks.",
+    "vulnerabilities through the use of evolving tools such as AI... Activities by bad actors... AI, cloud applications, changes in multi-jurisdictional regulations... may result in a compromise or breach of our systems.",
+    "our policies and procedures that are designed to identify, assess, and manage material risks arising from cybersecurity incidents and AI technologies"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 based on named but unquantified AI incorporation.",
+  "AI use cases are named at a high level (operations, services, business processes) but no deployment metrics or quantified outcomes are disclosed; concreteness capped at 3.",
+  "Risk disclosure references named risk categories (regulatory, operational, cybersecurity, competitive) and mentions policies/procedures for AI risk management, but no quantification of risk exposure or named governance bodies are detailed in these excerpts.",
+  "Excerpts are pre-filtered; additional AI investment or use-case detail may exist elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0000084839-26-000008",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/84839/000008483926000008/rol-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-15T21:29:09.215731+00:00"
+ }
+}

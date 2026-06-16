@@ -1,0 +1,49 @@
+{
+ "ticker": "SWK",
+ "source_document_id": "0000093556-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "The Company s businesses increasingly leverage artificial intelligence solutions to optimize their operations, improve customer experiences, and enhance their products and services.",
+    "Management continues to invest in these core franchises to drive growth and returns. Priorities include product innovation, brand and commercial activation, and continued transformation of operations"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The Company s businesses increasingly leverage artificial intelligence solutions to optimize their operations, improve customer experiences, and enhance their products and services.",
+    "While the Company believes the use of artificial intelligence can offer significant benefits and opportunities, it also introduces a range of risks and challenges"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The Company s artificial intelligence efforts may subject it to heightened compliance and legal as well as other risks related to technology integration, accuracy, program bias, data sourcing, intellectual property infringement or misappropriation, data privacy, and cybersecurity",
+    "The use of artificial intelligence in the development of the Company's products and services could also impact its intellectual property protections.",
+    "New vulnerabilities may be introduced as cybersecurity threats continue to evolve and if the Company or its third-party vendors increase their use of, or reliance on, emerging technologies, such as generative artificial intelligence and machine learning."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific spend, headcount, or infrastructure commitments found in excerpts; investment intensity scored 2 based on generic language only.",
+  "AI narrative is largely aspirational and risk-framed; no named deployed initiatives or production use cases with operating detail appear in the excerpts.",
+  "Risk disclosure is company-specific with named risk mechanisms (bias, IP, data privacy, cybersecurity, regulatory compliance, competitive displacement) justifying score 4, but no quantified risk exposure or named governance body was found to support score 5."
+ ],
+ "_meta": {
+  "accession": "0000093556-26-000009",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/93556/000009355626000009/swk-20260103.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:57:20.718570+00:00"
+ }
+}

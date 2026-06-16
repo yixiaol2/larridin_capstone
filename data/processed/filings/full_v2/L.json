@@ -1,0 +1,51 @@
+{
+ "ticker": "L",
+ "source_document_id": "0000060086-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "more insurers are utilizing or may begin utilizing big data analytics or artificial intelligence (AI) to make underwriting or other decisions that impact product design and pricing... including through its own use of AI",
+    "the increasing use of AI, within CNA's systems and those of its vendors and third-party administrators to achieve operational efficiencies"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "generative AI systems may hallucinate producing inaccurate or misleading information, and model performance may degrade over time, leading to flawed recommendations",
+    "AI models may perpetuate or amplify biases present in underlying data, which could result in discriminatory or unfair outcomes in areas such as underwriting and claims",
+    "CNA's own use of AI... in underwriting or other decisions that impact product design and pricing"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "generative AI systems may hallucinate producing inaccurate or misleading information... AI models may perpetuate or amplify biases... which could result in discriminatory or unfair outcomes in areas such as underwriting and claims",
+    "potential for employees or third-party service providers... to enable AI models to be trained on CNA's data or its insureds data introduces risks of unauthorized use or disclosure of sensitive information",
+    "rules and regulations are being introduced, or are being considered, in the areas of AI, information security and climate change, which may also affect CNA's business"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or named AI programs disclosed in the excerpts; investment intensity scored 2 based on generic references to CNA's own AI use without named programs or dollar figures.",
+  "AI narrative concreteness scored 3: named use cases (underwriting, claims, fraud detection) and specific risk mechanisms described, but no deployment status confirmation or quantified business results provided.",
+  "AI risk disclosure is detailed and company-specific (underwriting bias, hallucination, data privacy, regulatory) with named mechanisms of harm, supporting score 4; no quantified risk exposure or named governance body found to justify score 5.",
+  "Boardwalk Pipelines references to AI data centers as demand drivers are customer-side market observations, not Loews/Boardwalk AI investment disclosures."
+ ],
+ "_meta": {
+  "accession": "0000060086-26-000008",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/60086/000006008626000008/l-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 1.0,
+  "extracted_at": "2026-06-15T21:06:08.607683+00:00"
+ }
+}

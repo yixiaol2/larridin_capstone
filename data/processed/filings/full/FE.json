@@ -1,0 +1,50 @@
+{
+ "ticker": "FE",
+ "source_document_id": "0001031296-26-000046",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "deploying advanced technology, including but not limited to artificial intelligence, and exploring other additional, sustainable opportunities, such as reducing contractor spend",
+    "projects to support increased data center load",
+    "FERC's evolving policies with respect to...the interconnection of AI data centers and transmission network upgrades supporting such large loads"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "deploying advanced technology, including but not limited to artificial intelligence, and exploring other additional, sustainable opportunities",
+    "FERC...is also considering whether to develop regulations intended to speed interconnection of AI data centers and hybrid data center/electric generation facilities"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Cybersecurity threats, including those that exploit advances in technologies such as artificial intelligence, continue to grow in frequency and sophistication",
+    "Emerging artificial intelligence technologies may be used to develop new hacking tools, obscure malicious activities, exploit vulnerabilities, and increase the difficulty of detecting threats",
+    "address the security impact and requirements of new technologies such as artificial intelligence and quantum computing"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend or dedicated AI budget disclosed; AI mentioned only as one element of broader cost-reduction and technology deployment strategy. Data center load growth is discussed as a demand driver for transmission investment, not as FirstEnergy's own AI capex.",
+  "ai_narrative_concreteness: AI use cases are described only aspirationally (cost savings, technology deployment) with no named initiatives, deployment status, or metrics. References to AI data centers relate to external customers/regulatory context, not FirstEnergy's own AI programs.",
+  "capex_mentions: The Energize365 five-year capital plan (~25% higher than prior plan) is mentioned but not explicitly tied to AI investment by FirstEnergy itself; it relates to grid reliability and data center load support for customers."
+ ],
+ "_meta": {
+  "accession": "0001031296-26-000046",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1031296/000103129626000046/fe-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T18:05:55.635758+00:00"
+ }
+}

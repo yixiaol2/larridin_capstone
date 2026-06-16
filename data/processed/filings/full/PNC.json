@@ -1,0 +1,49 @@
+{
+ "ticker": "PNC",
+ "source_document_id": "0000713676-26-000020",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we continue to invest in technology. We seek to automate functions previously performed manually, facilitate the ability of customers to engage in financial transactions",
+    "We use automation, machine learning, AI and robotic process automation tools to help reduce some risks of human error."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we increasingly use models related to how we do business with customers and for internal process automation that leverage AI/machine learning algorithms",
+    "Examples of model use include determining the pricing of various products, identifying potentially fraudulent or suspicious transactions, marketing to potential customers, grading loans and extending credit"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the complex way in which the many variables in AI/machine learning models interact, the results of these models are often less interpretable than traditional statistical models",
+    "our use of AI/machine learning algorithms is subject to a variety of existing laws and regulations, including intellectual property, privacy...consumer protection and federal equal opportunity laws",
+    "flaws in our models that negatively impact our customers or our ability to comply with applicable laws and regulations could negatively affect our reputation or result in fines and penalties"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/cloud partnerships disclosed in the excerpts; references to technology investment are generic.",
+  "ai_narrative_concreteness: Named use cases (fraud detection, credit grading, pricing, marketing) are described but no deployment metrics or quantified outcomes are provided; promotional/risk-disclosure framing rather than operational results.",
+  "ai_risk_disclosure_depth: Risk-section material is present (mdna and business sections); risks are company-specific with described mechanisms (model opacity, regulatory exposure, reputational/financial penalties), but no quantification of risk exposure or named governance body specifically for AI risk oversight beyond general CISO reference."
+ ],
+ "_meta": {
+  "accession": "0000713676-26-000020",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/713676/000071367626000020/pnc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:42:54.981523+00:00"
+ }
+}

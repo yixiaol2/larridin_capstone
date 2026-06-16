@@ -1,0 +1,43 @@
+{
+ "ticker": "EG",
+ "source_document_id": "0001095073-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "AI technologies are quickly evolving and being adopted, which may also increase or intensify potential cybersecurity risks.",
+    "Regulatory and legislative developments, as well as executive orders, related to cybersecurity, privacy, data protection and AI could have an adverse impact on our business.",
+    "In 2024, European Union lawmakers also signed the Artificial Intelligence Act, which regulates certain use of AI within the European Union."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: excerpts contain only risk-factor sections; no AI capex, infrastructure, or investment disclosures are present.",
+  "ai_narrative_concreteness: excerpts contain only risk-factor sections; no AI use cases, initiatives, or deployment details are described.",
+  "ai_risk_disclosure_depth: scored 3 — named risk categories specific to the company's context (cybersecurity intensification from AI, workforce/talent challenges from AI skill demands, regulatory compliance risk from EU AI Act and state-level rules) are present, but no quantified risk scenarios or named governance/oversight bodies are disclosed."
+ ],
+ "_meta": {
+  "accession": "0001095073-26-000006",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1095073/000109507326000006/eg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.3,
+  "extracted_at": "2026-06-11T17:56:43.368769+00:00"
+ }
+}

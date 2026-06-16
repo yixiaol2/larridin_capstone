@@ -1,0 +1,46 @@
+{
+ "ticker": "PG",
+ "source_document_id": "0000080424-25-000076",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-04",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "failure to continually innovate… including the timely, responsible and effective adoption of emerging technologies such as artificial intelligence, could compromise our competitive position",
+    "Periodically, we and/or our suppliers also upgrade IT/OT systems or adopt new technologies, including those enabled by machine learning or artificial intelligence."
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "misuse or malicious use of artificial intelligence… we may suffer interruptions in our ability to manage operations and be exposed to reputational, competitive, operational, financial and business harm as well as litigation and regulatory action",
+    "If such a new system or technology does not function properly, provides flawed or inaccurate outputs or exposes us to increased cybersecurity incidents… could affect our ability to order materials, make and ship orders and process payments",
+    "subject to a wide variety of laws, regulations… including those laws and regulations involving… artificial intelligence… across the countries in which we do business"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: excerpts contain no disclosure of AI-specific capital expenditures, named infrastructure investments, vendor/cloud partnerships, or dedicated AI budgets; null is appropriate.",
+  "ai_narrative_concreteness: AI is referenced only in risk-factor and forward-looking-statement boilerplate; no named AI initiatives, products, or deployment details are disclosed in these excerpts. Score of 2 reflects aspirational/cautionary framing without named programs.",
+  "ai_risk_disclosure_depth: risk-section material is present and discusses AI risks with company-specific operational mechanisms (supply chain disruption, flawed outputs affecting order/payment processing, regulatory exposure across jurisdictions), supporting score 4; however, no quantified risk figures or named governance/oversight bodies appear in these excerpts, precluding score 5."
+ ],
+ "_meta": {
+  "accession": "0000080424-25-000076",
+  "filing_date": "2025-08-04",
+  "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000076/pg-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T18:47:42.210283+00:00"
+ }
+}

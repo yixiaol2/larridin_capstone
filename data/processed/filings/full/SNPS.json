@@ -1,0 +1,51 @@
+{
+ "ticker": "SNPS",
+ "source_document_id": "0000883241-25-000028",
+ "source_type": "sec_filing",
+ "source_date": "2025-12-22",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Synopsys.ai offers industry leading AI-driven workflow optimization and data analytics solutions along with Synopsys.ai Copilot generative AI assistive and creatives capabilities",
+    "implementation of a new AI-powered performance management platform",
+    "we are in the process of reallocating resources in our IP business to certain higher growth opportunities"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "DSO.ai Design Space Optimization for best quality of results and productivity with scaling of exploration design workflows",
+    "Verdi, our next generation platform that provides AI-based SoC debug solution with an integrated development environment and advanced verification management capabilities",
+    "Silicon.da Silicon data analytics for root-cause analysis and part-level traceability of failures to improve key production and silicon operational metrics"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If we fail to develop and timely offer products with AI features, if such products fail to meet our customers demands...we may experience brand or reputational harm and lose our competitive position",
+    "The technologies underlying AI and its uses are expected to be subject to new laws and regulations...including in the areas of intellectual property, privacy, data protection and cybersecurity",
+    "techniques used to obtain unauthorized access...change frequently, increasingly leverage technologies such as AI, and generally are not recognized until launched against a target"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; investment intensity scored 3 based on named AI infrastructure and product suite without dollar amounts or headcount figures.",
+  "ai_narrative_concreteness scored 4 (deployed with operating detail) based on named, production-described tools; no quantified business results (e.g., % productivity gains) were present in the excerpts to warrant a score of 5.",
+  "capex_mentions list is empty as no dollar or quantity figures tied to AI/compute investment appear in the provided excerpts."
+ ],
+ "_meta": {
+  "accession": "0000883241-25-000028",
+  "filing_date": "2025-12-22",
+  "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324125000028/snps-20251031.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 28,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-11T18:59:12.274744+00:00"
+ }
+}

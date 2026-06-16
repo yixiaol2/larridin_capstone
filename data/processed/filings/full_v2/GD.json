@@ -1,0 +1,47 @@
+{
+ "ticker": "GD",
+ "source_document_id": "0000040533-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-30",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "GDIT s expansive portfolio includes cloud services, cybersecurity, network modernization, artificial intelligence/machine learning (AI/ML), application development, high-performance computing, and 5G and advanced communications.",
+    "Several significant contract awards in the Technologies segment leverage the Digital Accelerator portfolio of solutions in cyber, AI, cloud services and digital modernization.",
+    "GDIT operates a national network of technology innovation labs that enable rapid development, testing and fielding of advanced technologies"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We are utilizing AI/ML technologies to improve decision making, transition CENTCOM to a new cloud environment, and enhance the efficiency and effectiveness of its networks.",
+    "GDIT is leveraging its AI/ML capabilities to analyze trends and patterns to determine potential anomalies in the data and detect fraud, waste and abuse.",
+    "HIGLAS system processes approximately 4.5 million Medicare transactions daily and over $1.7 trillion in annual payments"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts or quantified AI-specific spend disclosed in the excerpts; named programs and labs exist but scale is unquantified, capping score at 3.",
+  "ai_risk_disclosure_depth: No risk-section ([risk_factors]) content appears in the provided excerpts; null is appropriate — absence from excerpts is not absence from the filing.",
+  "ai_narrative_concreteness: The HIGLAS transaction volume figure ($1.7 trillion, 4.5 million transactions) is a customer system metric, not a quantified AI outcome; AI use cases are described as deployed with operational detail but without AI-specific performance metrics, supporting score 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0000040533-26-000006",
+  "filing_date": "2026-01-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/40533/000004053326000006/gd-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:49:36.668533+00:00"
+ }
+}

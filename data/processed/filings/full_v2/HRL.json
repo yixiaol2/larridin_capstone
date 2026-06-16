@@ -1,0 +1,52 @@
+{
+ "ticker": "HRL",
+ "source_document_id": "0000048465-25-000059",
+ "source_type": "sec_filing",
+ "source_date": "2025-12-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Capital expenditures in fiscal 2025 were $311 million, including investments in capacity expansions... data and technology, people and animal safety",
+    "The Company continues to prioritize investments in growth, innovation, cost savings, automation, and maintenance."
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 1,
+   "evidence": [
+    "AI mentioned only in context of threat actors using 'enhanced technologies and capabilities (such as artificial intelligence)' and fictitious media content produced by AI — no AI use cases named."
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "cyberattacks have become more sophisticated and frequent, including through the use of enhanced technologies and capabilities (such as artificial intelligence) by threat actors",
+    "fictitious media content (such as content produced by artificial intelligence or bad actors)... could quickly erode trust and confidence and result in... consumer boycotts, litigation"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Capital expenditures in fiscal 2025 were $311 million",
+   "context": "Includes data and technology investments; no AI-specific attribution stated"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: The $311M capex figure is not AI-attributable; 'data and technology' and 'automation' are mentioned but not linked to AI specifically. Score reflects generic AI investment language only.",
+  "ai_narrative_concreteness: AI appears only as an external threat vector (cyberattacks, fake content), not as a company-deployed technology. Score 1 reflects boilerplate/buzzword-level mention with no named AI initiative.",
+  "ai_risk_disclosure_depth: Risk-section content is present. AI is named in two specific risk categories (cybersecurity threat amplification and brand/reputation harm from AI-generated content), qualifying as named company-relevant risk categories rather than pure boilerplate."
+ ],
+ "_meta": {
+  "accession": "0000048465-25-000059",
+  "filing_date": "2025-12-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/48465/000004846525000059/hrl-20251026.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:54:21.240754+00:00"
+ }
+}

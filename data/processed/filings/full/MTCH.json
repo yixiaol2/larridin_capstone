@@ -1,0 +1,51 @@
+{
+ "ticker": "MTCH",
+ "source_document_id": "0000891103-26-000025",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are working to further integrate AI technologies into our services through a variety of features to improve user relevance and matching",
+    "In 2026, we plan to focus recruiting on critical technical functions...while continuing to hire specialized talent to support our innovation and AI initiatives",
+    "Significant resources are required to develop, test, and maintain these technologies"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we have announced the launch of several AI-powered features or experiences, such as enhanced recommendation systems, a new interactive matching feature on Tinder, and personalized prompts for first messages on Hinge",
+    "Hinge has Video and Voice Prompts, and Voice Notes, in addition to AI-enabled features, which allow users to better showcase who they are",
+    "Azar leverages AI capabilities to drive user growth and monetization globally"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Challenges with properly managing the use of AI could result in reputational harm, competitive harm, and legal liability",
+    "AI algorithms and training methodologies may be flawed, and datasets may be overbroad, insufficient, contain inaccurate or biased information, or infringe third-party rights",
+    "As AI adoption increases, we are also seeing many existing service providers incorporate AI into their existing services...which may not have adequate AI governance processes or controls"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific budget figures tied to AI investment were found in the excerpts; investment intensity scored 3 based on named initiatives and dedicated hiring plans without quantified scale.",
+  "Narrative concreteness scored 4 based on named deployed features; no quantified business results (e.g., match rates, revenue lift) were disclosed in the excerpts to support a score of 5.",
+  "Risk disclosure scored 4 based on company-specific risk mechanisms described in detail; no quantified risk exposure or named formal AI governance oversight body was identified to support a score of 5."
+ ],
+ "_meta": {
+  "accession": "0000891103-26-000025",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/891103/000089110326000025/mtch-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T18:30:55.926068+00:00"
+ }
+}

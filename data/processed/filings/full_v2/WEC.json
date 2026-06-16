@@ -1,0 +1,66 @@
+{
+ "ticker": "WEC",
+ "source_document_id": "0000783325-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We continue to focus on integrating the resources of all our businesses and improving our business processes to find the best and most efficient processes possible, including evaluating the use of AI tools.",
+    "We are using AI primarily through services provided by our third party vendors. In addition, we are exploring the use of AI, including generative AI, and its ability to enhance the services we offer.",
+    "WE has made and will continue to make significant infrastructure investments in new solar and battery projects, natural gas power plants, and other generation and distribution assets to power and serve these large-scale data centers."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We are using AI primarily through services provided by our third party vendors. In addition, we are exploring the use of AI, including generative AI, and its ability to enhance the services we offer.",
+    "We continue to focus on integrating the resources of all our businesses...including evaluating the use of AI tools.",
+    "Cybersecurity threats, including those leveraging AI, continue to increase, and the security measures and preventative actions we take to reduce the risk of cybersecurity incidents."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Risks involved in developing and implementing AI, including data privacy concerns or other legal liability, new or enhanced governmental or regulatory scrutiny or regulations governing the use of AI.",
+    "Our AI-related efforts may give rise to risks related to accuracy, bias, discrimination, intellectual property infringement or misappropriation, data privacy, and cybersecurity, among others.",
+    "We may not be able to recover our investments in AI technology through our regulatory proceedings. Similarly, as AI continues to evolve, we may not be able to adopt and implement AI as quickly as our customers or communities desire."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Microsoft has announced plans to invest over $20 billion in data centers in southern Wisconsin over the next several years",
+   "context": "Customer-driven demand growth; WEC building infrastructure to serve AI data centers"
+  },
+  {
+   "quote": "we expect up to 2.6 GWs of load growth in the Milwaukee-to-Chicago corridor through 2030",
+   "context": "Capacity demand from AI/data center customers driving WEC infrastructure investment"
+  },
+  {
+   "quote": "Vantage Data Centers plans to develop a large data center campus in Port Washington that is forecasted to add 1.3 GWs of demand through 2030",
+   "context": "Additional AI/data center customer driving WEC infrastructure investment"
+  }
+ ],
+ "limitations": [
+  "WEC is a utility company; its primary AI-related investment is in infrastructure to serve AI data center customers, not in AI R&D or AI products itself — the capex figures cited are customer announcements, not WEC's own AI-attributable spend.",
+  "WEC's own AI adoption is described as exploratory (third-party vendor services, evaluating AI tools) with no quantified internal AI spend disclosed in these excerpts.",
+  "ai_investment_intensity scored 3 rather than 4 because no dollar amounts are disclosed for WEC's own AI-attributable investment; the large capex figures relate to utility infrastructure for data center customers, which is AI-adjacent but not directly AI-attributable R&D or AI system spend.",
+  "ai_narrative_concreteness scored 3 because named initiatives exist (generative AI exploration, AI tools evaluation, cybersecurity AI) but no deployment metrics or quantified outcomes are provided.",
+  "Promotional language is present regarding data center growth potential; treated as claims, not confirmed outcomes."
+ ],
+ "_meta": {
+  "accession": "0000783325-26-000018",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/783325/000078332526000018/wec-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-15T21:45:55.822824+00:00"
+ }
+}

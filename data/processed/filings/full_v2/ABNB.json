@@ -1,0 +1,51 @@
+{
+ "ticker": "ABNB",
+ "source_document_id": "0001559720-26-000004",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The rapid evolution of AI and ML Technologies will continue to require the application of significant resources to adopt, develop, test, integrate, and maintain AI and ML Technologies included in our offerings",
+    "In 2025, we launched a redesigned app experience featuring unified search and booking for all offerings, AI-powered personalization, and integrated social features",
+    "During 2025, we expanded the use of AI-powered customer service and support features to help more quickly and effectively resolve issues for both hosts and guests."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI capabilities now assist in risk assessment and rapid fraud and scam detection, supplementing our existing review, watchlist, and background check procedures.",
+    "It incorporates expanded AI and machine learning capabilities, which are integral to key areas, from fraud detection, to personalized listing matching and enabling customized and real-time community support.",
+    "In 2025, we launched a redesigned app experience featuring unified search and booking for all offerings, AI-powered personalization, and integrated social features."
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI and ML Technologies may be incorrectly designed or implemented; may be trained or reliant on incomplete, inadequate, inaccurate, biased, or otherwise poor quality data... and/or may be adversely impacted by unforeseen defects, technical challenges, cybersecurity threats, third-party litigation, regulatory action",
+    "The EU Artificial Intelligence Act entered into force in August 2024... actual or perceived contraventions could expose us to material penalties, significant legal liability, and may materially adversely affect our business",
+    "We face competition from other companies in our industry with respect to the development and deployment of AI and ML Technologies... inability to develop, offer or deploy new AI and ML Technologies as effectively... could have a materially adverse impact on our operating results"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "Narrative concreteness scored 4 based on named deployed use cases with operational detail; no quantified business results (e.g., % improvement, cost savings) were disclosed to warrant a score of 5.",
+  "Risk disclosure scored 4 based on company-specific risk scenarios with described mechanisms; no quantified risk figures or named formal AI governance/oversight bodies were identified to warrant a score of 5."
+ ],
+ "_meta": {
+  "accession": "0001559720-26-000004",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-15T20:05:32.866650+00:00"
+ }
+}

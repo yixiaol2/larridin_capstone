@@ -1,0 +1,51 @@
+{
+ "ticker": "MDT",
+ "source_document_id": "0001613103-25-000091",
+ "source_type": "sec_filing",
+ "source_date": "2025-06-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "our information technology systems require an ongoing commitment of significant resources to maintain, protect, and enhance existing systems and develop new systems",
+    "we must continue to create, invest in or acquire advanced technology, incorporate this technology into our proprietary products",
+    "Compliance with developing regulations may require significant expenditures or may limit our ability to effectively use these technologies"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AccuRhythm AI algorithms to reduce clinic workload and data burden",
+    "Touch Surgery Enterprise, an AI-powered surgical video management solution for the operating room",
+    "UNiD adaptive spine intelligence AI-driven technology for surgical planning and personalized spinal implants"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "These systems are susceptible to flaws, biases, malfunctions or manipulations, which may disrupt our operations, result in erroneous decision-making, elevate our cyber risk profile, or expose us to penalties from non-compliance with emerging regulations",
+    "There can be no assurance that the application of AI in our products and operations will be successful, or that we will not experience data security and privacy incidents",
+    "the EU AI Act, which may impact our business"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts, GPU/data-center scale, or dedicated AI budget disclosed in the excerpts; named AI systems and infrastructure are present but no spend figures are provided.",
+  "ai_narrative_concreteness: Several named AI products described as deployed/in production with operational detail, but no quantified business results (%, $, time saved) are present in the excerpts, capping score at 4.",
+  "ai_risk_disclosure_depth: Risk-section material is present; risks are company-specific with named mechanisms (erroneous decision-making, cyber risk elevation, regulatory penalties, data privacy incidents), but no quantification or named governance/oversight bodies are disclosed, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0001613103-25-000091",
+  "filing_date": "2025-06-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1613103/000161310325000091/mdt-20250425.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T18:31:45.179511+00:00"
+ }
+}

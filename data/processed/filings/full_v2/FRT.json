@@ -1,0 +1,50 @@
+{
+ "ticker": "FRT",
+ "source_document_id": "0000034903-26-000017",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we have adopted a policy on use of artificial intelligence",
+    "our use of artificial intelligence... we have developed and enforce company-wide policies related to password encryption... and we have adopted a policy on use of artificial intelligence"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "As part of our processes to manage risks from cybersecurity threats and our use of artificial intelligence, we have developed and enforce company-wide policies",
+    "we have adopted a policy on use of artificial intelligence"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The assessment and management of our cybersecurity risks covers all of our internal systems, the systems of third parties who maintain our data, and our use of artificial intelligence.",
+    "we have adopted a policy on use of artificial intelligence",
+    "we rely on our management team's experience in risk management, in consultation with our third party advisor, to appropriately address cybersecurity threats"
+   ],
+   "confidence": 0.7
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity: no named AI programs, products, dollar amounts, or headcount disclosed; only a governance policy on AI use is mentioned — scored 2 for generic statement with no named programs or quantified spend.",
+  "AI narrative concreteness: AI is referenced only in the context of cybersecurity risk management and a policy adoption; no specific AI use cases, deployments, or business applications are described.",
+  "AI risk disclosure depth: the excerpt appears to be from an item_1b (cybersecurity) section rather than a dedicated risk-factor section; AI risk is named as a category within cybersecurity governance but no quantified or mechanism-level AI-specific risk scenarios are described.",
+  "Excerpts are limited to a single cybersecurity governance passage; broader AI strategy, investment, or risk disclosures elsewhere in the filing are not visible."
+ ],
+ "_meta": {
+  "accession": "0000034903-26-000017",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/34903/000003490326000017/frt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-15T20:44:49.844859+00:00"
+ }
+}

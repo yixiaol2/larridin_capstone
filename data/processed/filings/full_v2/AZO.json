@@ -1,0 +1,48 @@
+{
+ "ticker": "AZO",
+ "source_document_id": "0001104659-25-102611",
+ "source_type": "sec_filing",
+ "source_date": "2025-10-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "designing or cost-effectively acquiring and implementing new systems with new functionality, including artificial intelligence",
+    "our information technology systems, infrastructure and personnel require ongoing substantial investments, such as replacing existing systems... making changes to existing systems, including the migration of applications to the cloud"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "more successful utilization of data analytics, artificial intelligence and other new and emerging technologies",
+    "designing or cost-effectively acquiring and implementing new systems with new functionality, including artificial intelligence"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the methods used to obtain unauthorized access are constantly evolving... including through the use of evolving artificial intelligence tools to identify and exploit vulnerabilities",
+    "our competitors may have... more successful utilization of data analytics, artificial intelligence and other new and emerging technologies"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts disclosed in excerpts; investment intensity scored 3 based on named but unquantified AI system initiatives.",
+  "AI narrative is largely aspirational or risk-framed; no named AI initiatives described as deployed or in production.",
+  "Risk section excerpts present but AI risk discussion is limited to competitive disadvantage and cybersecurity threat vectors; no quantified risk treatment or named governance bodies disclosed."
+ ],
+ "_meta": {
+  "accession": "0001104659-25-102611",
+  "filing_date": "2025-10-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/866787/000110465925102611/azo-20250830x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-15T18:27:27.747706+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "CINF",
+ "source_document_id": "0000020286-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "ongoing development and implementation of underwriting and pricing models and methods, including usage-based insurance methods, automation, artificial intelligence, or technology projects and enhancements expected to increase our efficiency, pricing accuracy, underwriting profit",
+    "increased regulatory scrutiny of the use of machine learning and AI, and it is likely that we will be subject to new regulations"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Limitations on our ability to use various types of artificial intelligence (AI) in the development of pricing precision could adversely affect underwriting results.",
+    "ongoing development and implementation of underwriting and pricing models and methods, including usage-based insurance methods, automation, artificial intelligence, or technology projects",
+    "when work with a vendor is evaluated, we consider, among other items, the availability of system and organization control reports, the use of artificial intelligence"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Limitations on our ability to use various types of artificial intelligence (AI) in the development of pricing precision could adversely affect underwriting results.",
+    "increased regulatory scrutiny of the use of machine learning and AI, and it is likely that we will be subject to new regulations that could materially adversely affect our operations or ability to write business profitably",
+    "Intense competition, and the impact of innovation, emerging technologies, artificial intelligence and changing customer preferences on the insurance industry...could harm our ability to maintain or increase our business volumes and profitability"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or dedicated AI budget disclosed in the excerpts; investment intensity scored 2 based on generic aspirational language about AI in underwriting/pricing with named use cases but no dollar figures or vendor commitments.",
+  "AI narrative concreteness scored 3: named use cases (pricing precision, underwriting models, vendor evaluation) are identified but no deployment status metrics or quantified outcomes are provided.",
+  "Risk disclosure scored 4: multiple company-specific risk mechanisms are described (regulatory restrictions on AI use affecting pricing, competitive harm, operational disruption) with clear linkage to revenue/operations impact, though no quantified risk figures or named governance bodies are present in the excerpts.",
+  "Equity markets commentary referencing 'growth driven by AI' is a macro observation, not a company-level AI investment signal."
+ ],
+ "_meta": {
+  "accession": "0000020286-26-000008",
+  "filing_date": "2026-02-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/20286/000002028626000008/cinf-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T17:40:21.446487+00:00"
+ }
+}

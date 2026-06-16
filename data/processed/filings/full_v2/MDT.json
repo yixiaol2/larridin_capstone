@@ -1,0 +1,51 @@
+{
+ "ticker": "MDT",
+ "source_document_id": "0001613103-25-000091",
+ "source_type": "sec_filing",
+ "source_date": "2025-06-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "data science, machine learning and AI are all impacting our products and operations and the competitive landscape in which we operate",
+    "UNiD adaptive spine intelligence AI-driven technology for surgical planning and personalized spinal implants",
+    "Touch Surgery Enterprise, an AI-powered surgical video management solution for the operating room"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AccuRhythm AI algorithms to reduce clinic workload and data burden",
+    "Touch Surgery Enterprise, an AI-powered surgical video management solution for the operating room",
+    "UNiD Adaptive Spine Intelligence AI-driven technology for surgical planning and personalized spinal implants"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI systems are susceptible to flaws, biases, malfunctions or manipulations, which may disrupt our operations, result in erroneous decision-making, elevate our cyber risk profile, or expose us to penalties",
+    "Compliance with developing regulations may require significant expenditures or may limit our ability to effectively use these technologies",
+    "There can be no assurance that the application of AI in our products and operations will be successful, or that we will not experience data security and privacy incidents"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3",
+  "AI narrative concreteness reflects named deployed products with operational detail but no quantified business results (e.g., % workload reduction, volume handled)",
+  "Risk disclosure describes specific mechanisms (erroneous decision-making, cyber risk, regulatory penalties) but no quantification or named governance body beyond reference to an 'AI Compass' document on the website"
+ ],
+ "_meta": {
+  "accession": "0001613103-25-000091",
+  "filing_date": "2025-06-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1613103/000161310325000091/mdt-20250425.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:10:16.032301+00:00"
+ }
+}

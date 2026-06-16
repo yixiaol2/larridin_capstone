@@ -1,0 +1,43 @@
+{
+ "ticker": "WYNN",
+ "source_document_id": "0001174922-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-02",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The rapid evolution of artificial intelligence has increased the complexity and frequency of such attempts.",
+    "we face cybersecurity risks including cyber and physical security breaches, system failure, phishing attacks, computer viruses, worms, ransomware, malicious software programs"
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no AI capex, infrastructure, or investment disclosures present in excerpts.",
+  "ai_narrative_concreteness: no AI use cases, initiatives, or deployment details present in excerpts.",
+  "ai_risk_disclosure_depth: only one risk-section excerpt provided; AI is named specifically as a threat amplifier for cybersecurity risks (named category), but no company-specific mechanisms linking AI risk to revenue/operations/compliance impact are described, capping score at 3.",
+  "Excerpts are limited to a single cybersecurity-focused passage; broader filing content not visible."
+ ],
+ "_meta": {
+  "accession": "0001174922-26-000013",
+  "filing_date": "2026-03-02",
+  "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000013/wynn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T19:14:19.878890+00:00"
+ }
+}

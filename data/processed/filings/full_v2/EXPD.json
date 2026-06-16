@@ -1,0 +1,52 @@
+{
+ "ticker": "EXPD",
+ "source_document_id": "0001193125-26-071569",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are investing in our technology strategy, which includes intentional and critical consideration of how best to implement a range of technology solutions, including artificial intelligence (AI).",
+    "We are dedicated to teaching our employees how to best utilize AI technologies, with groups creating their own agents and using tools in various areas of our business.",
+    "We are in the early days in the deployment of AI and we continue to work to see where it can be applied most beneficially."
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Due to the significant complexity and activities required to accommodate our customs brokerage and compliance needs, we have chosen to focus on these areas.",
+    "Groups creating their own agents and using tools in various areas of our business to gain efficiency and improve effectiveness.",
+    "We do not anticipate altering customer-facing functions with AI solutions."
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Expeditors relies heavily and must compete based upon the flexibility and sophistication of the technologies, including AI, utilized in performing our core businesses.",
+    "Development and maintenance of these systems must be accomplished in a cost-effective manner and support the use of secure protocols, including integration and availability of third-party technology.",
+    "Future results depend on our success in developing competitive and reliable systems to address the needs of our customers and suppliers."
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases are named (customs brokerage focus, employee agents) but no deployment metrics or quantified outcomes are disclosed; concreteness capped at 3.",
+  "Risk disclosure names AI-specific dependency and competitive risk categories but does not quantify financial exposure or cite named governance/oversight bodies; depth capped at 3.",
+  "Promotional/aspirational language ('tremendous potential', 'early days') noted; confidence modestly reduced for investment intensity and concreteness dimensions."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-071569",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526071569/expd-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-15T20:42:59.127585+00:00"
+ }
+}

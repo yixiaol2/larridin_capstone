@@ -1,0 +1,49 @@
+{
+ "ticker": "WY",
+ "source_document_id": "0001193125-26-051422",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "leverages remote sensing, satellite imagery, machine learning and other advanced data analytics, and continues to drive significant improvements in our ability to identify strategic growth opportunities",
+    "We have recently begun using third-party developed AI tools for internal purposes, such as data and inventory management and sales and logistics optimization."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AVO 2.0 leverages remote sensing, satellite imagery, machine learning and other advanced data analytics... to identify strategic growth opportunities and manage every acre in our portfolio",
+    "recently begun using third-party developed AI tools for internal purposes, such as data and inventory management and sales and logistics optimization"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The increased prevalence and sophistication of AI tools, such as AI-enabled malware, could increase the risks of cyber-attacks to our systems and to those of our third-party service providers.",
+    "AI systems are complex and may not always operate as intended, and could produce inaccurate, incomplete or biased outputs, and ineffective or inadequate AI deployment practices could result in unintended consequences.",
+    "our competitors or other third parties may adopt AI capabilities more quickly or more effectively than we do, which could adversely affect our ability to compete and affect our business, financial condition and results of operations."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI narrative describes named deployed use cases (AVO 2.0, inventory/logistics tools) but no quantified business results (%, $, time saved) are disclosed, capping concreteness at 4.",
+  "Risk section (item_16) contains company-specific AI risk scenarios with described mechanisms (competitive disadvantage, regulatory cost, cyber exposure, operational disruption) but no quantification or named governance bodies, capping risk depth at 4."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-051422",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/106535/000119312526051422/wy-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T21:48:24.713138+00:00"
+ }
+}

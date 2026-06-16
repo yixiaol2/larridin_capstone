@@ -1,0 +1,52 @@
+{
+ "ticker": "PYPL",
+ "source_document_id": "0001633917-26-000024",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We use AI and machine learning technologies in various aspects of our business, including fraud prevention, risk management, product optimization and customer service.",
+    "Developing and incorporating new technologies into new and existing products and services may require significant investment, take considerable time, and may not ultimately be successful.",
+    "expanding and launching capabilities that allow consumers to shop in and pay wherever they want to make a purchase online, in-person and through artificial intelligence (AI) agents"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We use AI and machine learning technologies in various aspects of our business, including fraud prevention, risk management, product optimization and customer service.",
+    "expanding and launching capabilities that allow consumers to shop in and pay wherever they want to make a purchase online, in-person and through artificial intelligence (AI) agents",
+    "development, adoption, and use of generative AI technologies and autonomous AI agents, will continue to emerge and may be superior to, or render obsolete, the technologies we currently use"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms that we use may be flawed or may be based on datasets that are biased or insufficient. In addition, any latency, disruption, or failure in our AI systems or infrastructure could result in delays or errors.",
+    "Compliance with existing and emerging AI regulations may require operational changes, increased costs, or limit the use of AI in our business. Evolving interpretations or enforcement of these regulations could also affect our ability to deploy certain AI-driven features.",
+    "artificial intelligence (AI)-enabled threats, cyberextortion, distributed denial-of-service attacks, ransomware, spear phishing and social engineering schemes...are becoming increasingly sophisticated and complex"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific investment amounts (dollar figures, headcount, or capex) are disclosed in the excerpts; investment intensity scored 3 based on named programs only.",
+  "Narrative concreteness scored 4 based on named deployed use cases (fraud prevention, risk management, customer service, agentic commerce) but no quantified business results are present in the excerpts.",
+  "Excerpts are predominantly from risk_factors and item_9a sections; no MD&A or business strategy sections with financial detail on AI spend were included, which may understate investment intensity.",
+  "Purchase obligation table includes cloud computing commitments but these are not explicitly attributed to AI workloads, so not included in capex_mentions."
+ ],
+ "_meta": {
+  "accession": "0001633917-26-000024",
+  "filing_date": "2026-02-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-15T21:21:53.250327+00:00"
+ }
+}

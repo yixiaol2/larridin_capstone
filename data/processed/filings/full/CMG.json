@@ -1,0 +1,50 @@
+{
+ "ticker": "CMG",
+ "source_document_id": "0001058090-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-04",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Modernize our business model with industry-leading technology, including leveraging AI and relaunching our Rewards Program, to elevate the experience for our guests and teams",
+    "We continue to invest in and utilize emerging technologies...including artificial intelligence and machine learning"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Modernize our business model with industry-leading technology, including leveraging AI...to elevate the experience for our guests and teams",
+    "We continue to invest in and utilize emerging technologies that have potential to make business tasks easier, more efficient and less labor intensive, including artificial intelligence"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "These new technologies may not deliver the expected efficiencies and could expose us to new risks, including risks related to cybersecurity, data privacy, inaccuracies, hallucinations, bias or discrimination and claims of intellectual property infringement",
+    "We expect that the rapid evolution and increased adoption of artificial intelligence have heightened and will continue to heighten those risks",
+    "privacy and data security (including regulations governing the protection of personal information...biometrics, surveillance, artificial intelligence, health-related information)"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts, headcount, or specific vendor/chip partnerships disclosed for AI investment; named as a strategic pillar but without financial scale.",
+  "ai_narrative_concreteness: AI described aspirationally as part of business modernization strategy; no named deployed AI systems, production use cases, or quantified outcomes found in excerpts.",
+  "capex_mentions: No dollar figures tied to AI or compute infrastructure appear in the excerpts; investment in Vebu (restaurant automation) is noted ($5.6M purchases in 2025) but not framed as AI capex.",
+  "Excerpts are pre-filtered; additional AI use-case or investment detail may exist elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0001058090-26-000009",
+  "filing_date": "2026-02-04",
+  "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:39:17.660709+00:00"
+ }
+}

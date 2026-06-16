@@ -1,0 +1,51 @@
+{
+ "ticker": "NWSA",
+ "source_document_id": "0001564708-25-000419",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Company is also developing additional products and services that incorporate AI solutions to enhance insights and value for consumers and customers",
+    "The Company has incurred, and expects to continue to incur, significant costs in connection with these efforts, including costs relating to...technologies",
+    "equity securities are primarily comprised of...RipJar Ltd., an artificial intelligence-focused data analytics company"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "IntegrityCheck, a generative AI-enabled automated report",
+    "Factiva offers...sophisticated tools and generative AI solutions, helps professionals find, monitor, interpret and share essential information",
+    "licensing its content for distribution on third-party platforms...and for use by generative artificial intelligence (AI) platforms"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Generative AI-powered chatbots, search overviews and other tools...have, and may continue to, reduce traffic to, and subscriber demand for, the Company s digital products and services and harm existing and potential revenue streams",
+    "If the Company s use of AI in its products and services produces content...alleged to be deficient, inaccurate, biased, harmful...it may negatively impact its brands and reputation",
+    "The use of AI tools may also impact the Company s relationship with employees and/or result in labor disputes if the tools are viewed as displacing workers"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures disclosed in the excerpts; investment intensity scored 3 based on named initiatives and vendor/partnership references without dollar amounts.",
+  "AI narrative concreteness scored 4 based on named deployed products (IntegrityCheck, Factiva generative AI solutions) with operational detail but no quantified business results (e.g., revenue, users, efficiency metrics) provided.",
+  "Risk disclosure is detailed and company-specific with named mechanisms (traffic reduction, brand damage, labor disputes, IP/copyright exposure) but lacks quantification or named governance bodies, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0001564708-25-000419",
+  "filing_date": "2025-08-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:38:36.016141+00:00"
+ }
+}

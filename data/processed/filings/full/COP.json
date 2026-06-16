@@ -1,0 +1,41 @@
+{
+ "ticker": "COP",
+ "source_document_id": "0001163165-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "increased sophistication of generative artificial intelligence capabilities, which may improve or expand the existing capabilities of cybercriminals described above in a manner we cannot predict at this time"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no AI investment, capex, or infrastructure commitment discussed in the provided excerpts",
+  "ai_narrative_concreteness: no AI use cases, initiatives, or deployment details discussed in the provided excerpts; AI appears only in a risk context",
+  "ai_risk_disclosure_depth: risk-section content is present; AI is named as a specific threat vector (generative AI enhancing cybercriminal capabilities), qualifying as a named company-relevant risk category, but no quantification or governance mechanism is described — scored 3"
+ ],
+ "_meta": {
+  "accession": "0001163165-26-000009",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000009/cop-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:43:13.276304+00:00"
+ }
+}

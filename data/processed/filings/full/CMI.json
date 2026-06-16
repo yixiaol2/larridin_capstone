@@ -1,0 +1,50 @@
+{
+ "ticker": "CMI",
+ "source_document_id": "0000026172-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We are incorporating AI solutions into our business, products, services and features, and we are leveraging AI, including generative AI, machine learning and similar tools and technologies, in our product development, operations and software programming.",
+    "The rapid evolution of AI...will require significant resources to develop, test and maintain our platforms, offerings, services and features"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we are leveraging AI, including generative AI, machine learning and similar tools and technologies, in our product development, operations and software programming",
+    "our personnel could, unbeknownst to us, improperly utilize AI and machine learning-technology while carrying out their responsibilities"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The use of AI in the development of our products and services could cause loss or theft of intellectual property, as well as subject us to risks related to intellectual property infringement or misappropriation, data privacy and cybersecurity.",
+    "If the AI tools that we use are deficient, inaccurate or controversial, we could incur operational inefficiencies, competitive harm, legal liability, brand or reputational harm",
+    "If we do not have sufficient rights to use the data or other material or content on which the AI tools we use rely, we also may incur liability through the violation of applicable laws and regulations"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or investment amounts disclosed in the excerpts; investment intensity scored 2 based on generic statements without named systems, partners, or dollar amounts.",
+  "AI use cases named (product development, operations, software programming) but no deployment status metrics or quantified outcomes disclosed, limiting concreteness to score 3.",
+  "Data center demand growth discussed extensively in financial results but framed as a product market (power generation customers), not as Cummins' own AI infrastructure investment.",
+  "Risk disclosure is company-specific with named mechanisms (IP loss, regulatory liability, cybersecurity, discriminatory outputs) but no quantified risk exposure or named governance/oversight bodies, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0000026172-26-000009",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/26172/000002617226000009/cmi-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:45:54.250861+00:00"
+ }
+}

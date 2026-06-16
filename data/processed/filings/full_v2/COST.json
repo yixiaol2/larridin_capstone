@@ -1,0 +1,48 @@
+{
+ "ticker": "COST",
+ "source_document_id": "0000909832-25-000101",
+ "source_type": "sec_filing",
+ "source_date": "2025-10-08",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Some competitors have greater financial resources and technology capabilities, including the faster adoption of artificial intelligence... than we do."
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Our inability to respond effectively to competitive pressures, changes in the retail markets or customer expectations could result in lost market share",
+    "Some competitors have greater financial resources and technology capabilities, including the faster adoption of artificial intelligence... than we do."
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "evolving rules concerning artificial intelligence, and other privacy and cybersecurity laws and restrictions on use of member information that may also impair our ability to utilize data",
+    "Some competitors have greater financial resources and technology capabilities, including the faster adoption of artificial intelligence... than we do."
+   ],
+   "confidence": 0.7
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts contain only risk-factor and competitive-landscape language; no named AI programs, products, or investment amounts are disclosed, making investment intensity difficult to score above 2.",
+  "AI narrative concreteness is limited to aspirational/competitive framing with no named Costco AI initiatives or deployment details.",
+  "Risk disclosure references AI regulation and competitive AI adoption as named risk categories but provides no quantified scenarios or governance mechanisms.",
+  "Promotional language is absent; the AI references are framed as risks/competitive gaps rather than company achievements."
+ ],
+ "_meta": {
+  "accession": "0000909832-25-000101",
+  "filing_date": "2025-10-08",
+  "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:31:11.916864+00:00"
+ }
+}

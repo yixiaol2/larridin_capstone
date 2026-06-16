@@ -1,0 +1,52 @@
+{
+ "ticker": "CVS",
+ "source_document_id": "0000064803-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Company is making concerted investments in emerging technology capabilities such as artificial intelligence (AI) to further automate, augment and improve its operational capabilities",
+    "The technology leverages assisted artificial intelligence to deliver insights to the business and bring automation to otherwise manual tasks",
+    "Our business success and operating results depend in part on effective information technology systems and on continuing to develop and implement improvements in technology, including technology related to artificial intelligence"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "The Company uses AI as an augmentative technology to minimize provider/payer friction, enable advanced consumer self-service through AI-assistants while enhancing human touch when desired",
+    "Health Engagement Engine technology and proprietary clinical algorithms...leverages assisted artificial intelligence to deliver insights to the business and bring automation to otherwise manual tasks",
+    "The Health Services segment's custom-built proprietary Canopy technology is a key driver of the su[ccessful delivery]"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "heightened exposure to cybersecurity incidents or the misuse of data during the integration of AI models and large data sets; increased potential liability and costs associated with complying with rapidly emerging regulatory frameworks",
+    "costs and competitive disadvantages associated with the failure to properly integrate AI into existing operations; and reputational harm caused by actual or perceived failures in the performance of AI",
+    "states also are starting to issue regulations and proposed regulations specifically related to cybersecurity...as well as regulating use of artificial intelligence technologies. Complying with conflicting...regulations...requires significant resources"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity capped at 3 due to absence of quantified scale.",
+  "Concreteness scored 4 based on named deployed use cases (AI-assistants, Health Engagement Engine, Canopy) with operational detail, but no quantified business results (e.g., cost savings, volume metrics) were disclosed in the excerpts.",
+  "Promotional language present in the 'Use of AI' section (item_8); claims of deployment treated as evidence of named initiatives, not confirmed outcomes.",
+  "capex_mentions is empty as no AI-attributable dollar or capacity figures appeared in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000064803-26-000010",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/64803/000006480326000010/cvs-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:21:55.969848+00:00"
+ }
+}

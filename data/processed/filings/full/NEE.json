@@ -1,0 +1,49 @@
+{
+ "ticker": "NEE",
+ "source_document_id": "0000753308-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "deploying advanced technologies such as artificial intelligence and proprietary tools, focused on improving processes, lowering costs and driving growth",
+    "NEER's strategy focuses on providing cost-effective differentiated solutions to its customers… through the use of advanced technologies, such as artificial intelligence and proprietary tools"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "NEE and FPL use AI technologies in various aspects of their operations, including… financial analysis, strategic planning, field work intelligence, work scheduling, grid optimization, energy forecasting, customer service and operations management",
+    "FPL seeks to maintain low rates… including the implementation of ideas generated from cost savings initiatives and the use of advanced technologies such as artificial intelligence"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI tools may malfunction, produce inaccurate or biased outputs, or behave unpredictably, and introduce NEE and FPL to additional cybersecurity threats and data privacy risks",
+    "as NEE and FPL rely on third-party vendors for certain AI tools… NEE and FPL could experience… disruptions in vendor relationships, performance issues, cybersecurity threats or disputes over intellectual property rights",
+    "the regulatory environment governing AI is also evolving, and future legislation or agency rulemaking may impose new compliance obligations or restrict certain AI applications, increasing costs to comply"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no quantified AI-specific spend, headcount, or capex figures appear in the excerpts; named use of AI and proprietary tools is confirmed but scale is undisclosed, capping score at 3",
+  "ai_narrative_concreteness: use cases are named and described as in-use/deployed (production detail present) but no quantified business results (%, $, time saved) are provided, capping score at 4",
+  "capex_mentions: no dollar or quantity figures tied to AI/compute investment found in the excerpts"
+ ],
+ "_meta": {
+  "accession": "0000753308-26-000015",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/753308/000075330826000015/nee-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:38:48.097167+00:00"
+ }
+}

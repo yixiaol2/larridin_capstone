@@ -1,0 +1,43 @@
+{
+ "ticker": "BURL",
+ "source_document_id": "0001193125-26-116001",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "competitors may use technology more effectively than we do, including the use of artificial intelligence (AI) or other emerging technologies",
+    "Hardware, software or applications (including AI capabilities) we develop or obtain from third parties may contain defects... that could unexpectedly compromise information security",
+    "the rapid evolution and increased adoption of artificial intelligence, machine learning... may intensify our cybersecurity risks, especially as threat actors use AI to enhance attacks"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no AI capex, infrastructure, or investment disclosures appear in the excerpts; excerpts are limited to risk-factor sections only",
+  "ai_narrative_concreteness: no AI use-case initiatives, deployments, or aspirational AI programs described by Burlington itself; AI references are confined to competitor behavior and risk language",
+  "ai_risk_disclosure_depth: risk-section content is present; named risk categories include vendor/third-party AI defects, cybersecurity threat-actor use of AI, and competitive displacement — scored 3; no quantified risk scenarios or named governance bodies appear in these excerpts"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-116001",
+  "filing_date": "2026-03-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1579298/000119312526116001/burl-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:33:22.420885+00:00"
+ }
+}

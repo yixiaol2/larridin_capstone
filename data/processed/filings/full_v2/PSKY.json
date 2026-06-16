@@ -1,0 +1,50 @@
+{
+ "ticker": "PSKY",
+ "source_document_id": "0002041610-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "No AI investment, R&D spend, capex, or resource commitment to AI is disclosed in the excerpts; AI is discussed only as an external competitive and risk factor."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "faster or more effective deployment of evolving technologies by our competitors, including generative artificial intelligence and other machine learning tools (AI Technologies), could put us at a competitive disadvantage",
+    "Evolving technologies, including AI Technologies, and distribution models... affect demand for our content; how our content is generated, distributed and consumed"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the rapid global advancement of AI Technologies may also heighten our risks by making cyberattacks more difficult to detect, contain, and mitigate",
+    "we face uncertainty with respect to our ability to protect our intellectual property and brands from unauthorized use, misappropriation, and infringement utilizing such technologies",
+    "Laws and regulations governing new technologies, including AI Technologies, remain unsettled and are an area of increasing regulatory focus, and legal and regulatory developments in this area could also impact our business"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity is null: excerpts contain no disclosure of AI-attributable spending, R&D programs, infrastructure investment, or headcount; AI appears only as an external threat.",
+  "ai_narrative_concreteness scored 2: all AI language is aspirational/risk-framing about competitors and evolving technologies; no named internal AI initiatives or deployment status disclosed.",
+  "ai_risk_disclosure_depth scored 3: named risk categories (cybersecurity amplification, IP/copyright infringement, regulatory uncertainty) are company-specific but no quantified risk scenarios or named governance/oversight bodies are disclosed.",
+  "The 'other' section excerpt references LiveVideo.AI Corp. litigation but this is a counterparty name, not a company AI initiative, and was excluded from scoring."
+ ],
+ "_meta": {
+  "accession": "0002041610-26-000011",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000011/psky-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T21:21:29.231645+00:00"
+ }
+}

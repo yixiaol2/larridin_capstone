@@ -1,0 +1,64 @@
+{
+ "ticker": "GOOGL",
+ "source_document_id": "0001652044-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 5,
+   "evidence": [
+    "we have invested more than $200 billion in research and development in the last five years in support of these efforts",
+    "building AI-optimized infrastructure, including our custom TPUs, and integrating AI capabilities into new and existing products and services",
+    "To meet the compute capacity demands of AI training and inference...we are entering into significant leasing arrangements with third party operators"
+   ],
+   "confidence": 0.88
+  },
+  "ai_narrative_concreteness": {
+   "score": 5,
+   "evidence": [
+    "Today, all 15 of our half-billion-user products including seven with two billion users use our Gemini models",
+    "AI Overviews makes it easier to ask Google anything...AI Mode allows users to ask more nuanced questions...using Gemini's advanced reasoning, thinking, and multimodal capabilities",
+    "Waymo is now providing fully autonomous, paid ride-hailing services to customers in multiple cities"
+   ],
+   "confidence": 0.85
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "our implementation of AI systems could subject us to competitive harm, regulatory action, legal liability...and brand or reputational harm",
+    "The development and implementation of AI technologies may further increase our exposure to or exacerbate the risks of cyber attacks...particularly where such technologies are exploited by third parties",
+    "AI's energy and water demands have made efforts to reduce our emissions more complex...energy supply is constrained globally due to the significant increase in demand for...AI compute"
+   ],
+   "confidence": 0.87
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "invested more than $200 billion in research and development in the last five years",
+   "context": "Alphabet total R&D over five years supporting AI and other products; not purely AI-attributable but AI is a stated primary focus"
+  },
+  {
+   "quote": "entering into significant leasing arrangements with third party operators",
+   "context": "AI training and inference compute capacity demands driving large-scale infrastructure leasing"
+  },
+  {
+   "quote": "industry supply capacity for AI accelerators, including GPUs as well as our custom-built TPUs, is highly competitive and rapidly evolving",
+   "context": "AI accelerator procurement described as a significant and contested cost item"
+  }
+ ],
+ "limitations": [
+  "The $200B R&D figure covers all R&D over five years, not exclusively AI-attributable spend; no single-year AI-specific dollar figure is disclosed in the excerpts, slightly limiting capex precision.",
+  "ai_narrative_concreteness scored 5 based on deployment evidence (Gemini in 15 products, Waymo paid rides) but quantified business-outcome metrics (revenue lift, cost savings %) are not present in excerpts; score reflects strong deployment evidence with partial quantification.",
+  "ai_risk_disclosure_depth scored 4 (company-specific risk scenarios with mechanisms) rather than 5 because no named AI risk oversight body, formal quantification of AI risk exposure, or structured mitigation program is disclosed in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001652044-26-000018",
+  "filing_date": "2026-02-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T18:26:55.072398+00:00"
+ }
+}

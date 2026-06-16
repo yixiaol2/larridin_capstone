@@ -1,0 +1,50 @@
+{
+ "ticker": "CBRE",
+ "source_document_id": "0001138118-26-000005",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we make significant investments in new systems and tools to achieve competitive advantages and efficiencies, including the adoption and integration of artificial intelligence (AI) and machine learning technologies",
+    "Implementation of such investments in information technology, including generative and agentic AI tools, could be complicated, heavily dependent on the quality, accuracy and relevance of data inputs"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "leveraging such AI capabilities for our internal functions and operations may present new risks, costs and challenges",
+    "Implementation of such investments in information technology, including generative and agentic AI tools, could be complicated",
+    "The development, adoption and use of AI technologies is still in the early stages and involves significant uncertainties"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "use of AI may give rise to risks related to harmful content, accuracy, bias, intellectual property infringement or misappropriation, defamation, data privacy, cybersecurity and health and safety",
+    "The rapid evolution and increased adoption of AI technologies may intensify these security risks...including fraud that relies upon deep fake impersonation technology or other forms of generative automation",
+    "Several jurisdictions...considering or have proposed or enacted legislation and policies regulating AI...such as the European Union's AI Act. These new regulations may diverge from one another"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific spend or headcount disclosed in the excerpts; the $2.7 billion capital deployment figure in the business section is attributed to an acquisition (Pearce) with no AI linkage, so it is excluded from capex_mentions.",
+  "AI use cases are named at a category level (internal functions, generative and agentic tools) but no deployment status or production metrics are provided, capping narrative concreteness at 3.",
+  "Risk disclosure is company-specific and mechanism-level (how risks hit operations/compliance/reputation) but lacks quantification or named governance bodies, capping at 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0001138118-26-000005",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1138118/000113811826000005/cbre-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:33:54.062763+00:00"
+ }
+}

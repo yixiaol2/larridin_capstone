@@ -1,0 +1,60 @@
+{
+ "ticker": "FTNT",
+ "source_document_id": "0001262039-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have made, and expect to continue to make investments to integrate AI and ML technology into our solutions, as evidenced by our acquisition of Lacework.",
+    "we acquired Lacework Inc. for $152.3 million in cash... with a goal of offering its Cloud-Native Application Protection Platform... forming a comprehensive, AI-driven cloud security platform",
+    "As of December 31, 2025, we held 1,064 U.S. patents and a total of 1,405 global patents, including 321 AI-related patents."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "FortiAI-Assist uses generative and agentic AI to support NOC and SOC teams in monitoring, analysis and response activities across enterprise environments.",
+    "FortiGuard Labs monitors the worldwide attack surface and employs AI to mine that data for new threats... using millions of global network sensors.",
+    "FortiAI-Protect utilizes AI/ML to address AI-driven threats and zero-day attacks, and support governance over GenAI applications; FortiAI-SecureAI focuses on protecting AI infrastructure, including LLMs and APIs."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI technologies, including generative AI, may create content that appears correct but is factually inaccurate (hallucinations)... if our customers use this flawed content to their detriment... we may be exposed to brand or reputational harm, competitive harm, or legal liability.",
+    "Vulnerabilities within our AI systems or solutions may be identified by competitors, researchers, or malicious actors before we detect or remediate them, which could result in security incidents, reputational damage, or loss of customer confidence.",
+    "rapid global build-out of AI infrastructure, there is currently a global shortage of memory chips... we are currently experiencing constraints on the availability of memory chips... delays in production and delivery of our products and increased costs."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "We estimate 2026 capital expenditures to be between approximately $350 million and $450 million.",
+   "context": "2026 capex guidance including data center, PoP, office and warehouse capacity expansion to support growth and new services"
+  },
+  {
+   "quote": "we acquired Lacework Inc. for $152.3 million in cash",
+   "context": "Acquisition of AI-driven cloud security company Lacework, August 2024"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity scored 3 rather than 4: the $152.3M Lacework acquisition is the only quantified AI-attributable spend; the 2026 capex range ($350M-$450M) is not explicitly attributed to AI — it covers data centers, PoPs, offices and warehouses broadly, so AI-attributable share is indeterminate.",
+  "Narrative concreteness scored 4: multiple named AI products described as deployed/in production with operational detail, but no quantified business results (e.g., % threat detection improvement, volume handled) were found in the excerpts to justify a score of 5.",
+  "Some AI product descriptions use promotional language ('streamlines operations', 'stay ahead of threats') without supporting metrics; confidence adjusted accordingly."
+ ],
+ "_meta": {
+  "accession": "0001262039-26-000007",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000007/ftnt-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:46:46.136682+00:00"
+ }
+}

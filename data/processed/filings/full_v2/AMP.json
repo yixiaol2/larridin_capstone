@@ -1,0 +1,49 @@
+{
+ "ticker": "AMP",
+ "source_document_id": "0000820027-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "AI, including Generative AI, presents many benefits in terms of operating efficiency, but also certain risks that we need to seek to mitigate through our strategic and risk management policies",
+    "new and existing competitors may be better able to address trends... resulting from new technologies, including Generative AI and blockchain"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "AI, including Generative AI, presents many benefits in terms of operating efficiency, but also certain risks that we need to seek to mitigate through our strategic and risk management policies",
+    "We and our vendors, along with developers of AI solutions, rely on third party and commercial AI technologies"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "reliance on information that may be inaccurate or unfairly discriminatory results... Failure to adequately mitigate such risks at the design or development stage could lead to problems when AI technologies are deployed",
+    "A growing patchwork of state AI laws with differing definitions, obligations and compliance expectations may require adjustments to our processes, documentation and oversight",
+    "the use of AI makes these attempts look more legitimate and is leveraged to improve their effectiveness... could have a material adverse impact on our business, reputation, financial condition or results of operations"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or named AI programs disclosed in the excerpts; investment intensity scored 2 based on generic aspirational language only.",
+  "AI narrative is largely risk- and compliance-framed with no named deployed use cases or operational metrics; concreteness capped at 2.",
+  "Risk disclosure is company-specific and mechanism-linked (regulatory patchwork, cybersecurity amplification, model inaccuracy) warranting score 4, but no quantified risk figures or named governance bodies beyond board-level review mentioned."
+ ],
+ "_meta": {
+  "accession": "0000820027-26-000011",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/820027/000082002726000011/amp-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T20:09:22.692896+00:00"
+ }
+}

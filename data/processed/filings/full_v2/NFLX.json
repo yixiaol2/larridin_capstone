@@ -1,0 +1,49 @@
+{
+ "ticker": "NFLX",
+ "source_document_id": "0001065280-26-000034",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "artificial intelligence (AI) listed among forward-looking topics in item_16, alongside content and marketing investments",
+    "competitors may 'devote more resources to product development, technology, infrastructure' and use generative AI more effectively"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "generative AI tools remain subject to uncertain legal frameworks — framed as a risk, not a named internal initiative",
+    "multi-service discovery interfaces 'including those powered by generative AI' cited as a competitive threat, not a Netflix deployment"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "generative AI could intensify cybersecurity risks — specific mechanism: directed attacks, data loss, service disruption",
+    "development and use of generative AI tools subject to uncertain legal frameworks; copyright protection for AI-generated material is uncertain",
+    "if competitors use generative AI more effectively to satisfy consumer demand, Netflix's results of operations could be adversely impacted"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment (dollar amounts, headcount, or named programs) appears in the excerpts; investment intensity scored 2 based solely on generic forward-looking topic listing and competitive framing.",
+  "No named internal AI initiatives or deployed use cases described in the excerpts; concreteness scored 2 as AI is discussed only in competitive/risk context.",
+  "Excerpts are pre-filtered and may omit business/strategy sections where Netflix's own AI product investments could be described; investment intensity and concreteness scores may understate actual disclosure."
+ ],
+ "_meta": {
+  "accession": "0001065280-26-000034",
+  "filing_date": "2026-01-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T21:15:51.774363+00:00"
+ }
+}

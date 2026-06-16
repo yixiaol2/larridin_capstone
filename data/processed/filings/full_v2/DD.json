@@ -1,0 +1,47 @@
+{
+ "ticker": "DD",
+ "source_document_id": "0001666700-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "leveraging technology, as well as artificial intelligence and machine learning (AI) and consolidation of manufacturing facilities, transitions to cost-competitive regions and product line rationalizations"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "leveraging technology, as well as artificial intelligence and machine learning (AI)... to maintain a streamlined operating model and drive sustainable improvements"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "failure to successfully optimize the Company s facilities footprint, the failure to take advantage of the Company s global supply chain, the failure to identify and eliminate duplicative programs",
+    "The Company s profitability and margin growth will depend in part on the Company s ability to maintain a streamlined operating model... leveraging technology, as well as artificial intelligence and machine learning"
+   ],
+   "confidence": 0.65
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity: no named AI programs, dollar amounts, or quantified commitments disclosed in excerpts; only generic reference to AI/ML as a cost-improvement lever.",
+  "AI narrative concreteness: AI mentioned only in the context of operational efficiency aspirations with no named initiatives, deployment status, or metrics.",
+  "AI risk disclosure depth: risk-section material is present and references AI/ML, but the risk mechanism is tied to general operational improvement failure rather than AI-specific failure modes (e.g., model errors, data governance, regulatory); scored 3 for company-specific operational context linking AI to profitability.",
+  "Excerpts are limited to two risk-factor passages; no business description, MD&A, or other sections with potentially richer AI detail were provided."
+ ],
+ "_meta": {
+  "accession": "0001666700-26-000013",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:36:59.464924+00:00"
+ }
+}

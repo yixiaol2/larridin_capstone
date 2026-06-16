@@ -1,0 +1,49 @@
+{
+ "ticker": "DASH",
+ "source_document_id": "0001792789-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The procurement of third-party AI tools and the development of our own have required and are expected to continue requiring significant investment",
+    "we announced a multi-year initiative to develop a new global technology platform... enhance developer productivity through AI-native tooling"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We incorporate artificial intelligence (AI) solutions into our platform, offerings, services, and features, and in support of internal business operations",
+    "enhance developer productivity through AI-native tooling, and improve operational consistency globally"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if the content, analyses, or recommendations that AI applications assist in producing are or are alleged to be deficient, inaccurate, inappropriate, or biased... we may be subject to legal claims or liability",
+    "The use of AI applications may result in data leakage or unauthorized exposure of data, including confidential business information, the personal data of end users",
+    "The rapid evolution of AI, including the development of government regulation of AI... may require significant resources to continually develop, test, and maintain our platform"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-attributable spend disclosed in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "AI use cases are named at a high level (platform features, internal operations, developer tooling) but no deployment metrics or quantified outcomes are provided; concreteness capped at 3.",
+  "Risk disclosure excerpts are from risk_factors section and describe specific mechanisms (legal liability, data leakage, regulatory compliance costs, competitive harm) but no quantification or named governance bodies are present, capping depth at 4."
+ ],
+ "_meta": {
+  "accession": "0001792789-26-000013",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1792789/000179278926000013/dash-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T20:36:15.832153+00:00"
+ }
+}

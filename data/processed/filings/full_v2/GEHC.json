@@ -1,0 +1,60 @@
+{
+ "ticker": "GEHC",
+ "source_document_id": "0001932393-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-04",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "Our business strategy includes substantial investment in R&D, with a focus on AI, cloud, edge computing, and software offerings.",
+    "icometrix acquired for approximately $98 million of upfront payment...icometrix is focused on providing AI-powered brain imaging analysis for neurological disorders.",
+    "we are devoting significant resources to developing and deploying such strategies [cloud, edge computing, AI, and software solutions]"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI-guided ultrasound offer healthcare providers real-time guidance and step-by-step instructions to help clinicians conduct scans for cardiac assessments",
+    "icometrix is focused on providing AI-powered brain imaging analysis for neurological disorders such as Alzheimer's disease...integrate the icometrix platform with our MRI systems",
+    "MIM Software is a global provider of medical imaging analysis and AI solutions for radiation oncology, molecular radiotherapy, diagnostic imaging, and urology"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "flawed AI algorithms; insufficient, overly-broad, or biased datasets; unauthorized use or access to personal data...difficulties in obtaining or maintaining the necessary regulatory approvals or clearances",
+    "use of AI in healthcare offerings also poses clinical risks resulting from potential misdiagnosis or misinformation...subjecting us to competitive harm; legal liability...regulatory actions; and reputational harm",
+    "leveraging AI capabilities to potentially improve internal functions and operations presents further risks...possibility of creating new attack methods for adversaries"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "icometrix acquired for approximately $98 million of upfront payment, net of cash acquired and potential earn-out payments up to $35 million",
+   "context": "Acquisition of AI-powered brain imaging analysis company icometrix, November 2025"
+  },
+  {
+   "quote": "goodwill of $189 million, customer-related intangible assets of $52 million, developed technology intangible assets of $48 million",
+   "context": "Purchase price allocation for MIM Software acquisition, AI medical imaging analysis solutions"
+  }
+ ],
+ "limitations": [
+  "No aggregate R&D dollar amounts or total AI-specific capex figures disclosed in the excerpts; investment intensity scored 4 rather than 5 due to absence of multi-year quantified AI spend program.",
+  "Narrative concreteness scored 4 (not 5) because no quantified business results (%, $, time saved) from deployed AI use cases appear in the excerpts.",
+  "AI risk disclosure is extensive and company-specific with named mechanisms, but no quantified risk exposure or named governance oversight body found in excerpts, limiting score to 4."
+ ],
+ "_meta": {
+  "accession": "0001932393-26-000007",
+  "filing_date": "2026-02-04",
+  "url": "https://www.sec.gov/Archives/edgar/data/1932393/000193239326000007/gehc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 20,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T20:47:57.544134+00:00"
+ }
+}

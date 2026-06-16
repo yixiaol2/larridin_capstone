@@ -1,0 +1,51 @@
+{
+ "ticker": "DOV",
+ "source_document_id": "0000029905-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Dover Digital Labs consists of a team of software developers, AI engineers and scientists, automation engineers, product security engineers, and product managers who provide digital capabilities",
+    "India Innovation Center has a team of approximately 750 engineers and IT professionals that our businesses rely on to leverage for product engineering, digital solutions development",
+    "identifying and addressing scale opportunities to deploy artificial intelligence to drive productivity across our business processes"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "artAI is a cloud-based, AI-powered authentication tool that detects counterfeiting and supply-chain diversion. Using machine vision and machine learning, artAI creates a digital blueprint of packaging artwork",
+    "Dover Food Retail introduced a cloud-based software to digitize the full life cycle of CO2 refrigeration solutions from deployment to diagnostics, warranty management and maintenance",
+    "developing and improving acquired and organically built connected and SaaS products that combine sensors, software, machine learning and artificial intelligence"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "misuse or malicious use of artificial intelligence, including by criminals, nation states or insiders, our business may be adversely impacted",
+    "Emerging and evolving technologies such as artificial intelligence...our businesses may be adversely affected if we cannot successfully integrate these technologies into our business processes",
+    "misuse of artificial intelligence and machine learning technologies...could interrupt product supply and...have a material adverse impact on our business operations"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific budget figures tied to AI investment were found in the excerpts; investment intensity scored 3 based on named teams and initiatives without quantified scale.",
+  "ai_narrative_concreteness scored 4 (deployed use cases with operating detail) but no quantified business results (%, $, time saved) were disclosed for AI-specific initiatives; score reflects deployment description without metrics.",
+  "capex_mentions is empty because no specific dollar or quantity figures for AI/compute/data-center capital expenditure appeared in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000029905-26-000009",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/29905/000002990526000009/dov-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 15,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-11T17:51:02.988850+00:00"
+ }
+}

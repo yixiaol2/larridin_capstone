@@ -1,0 +1,51 @@
+{
+ "ticker": "TSCO",
+ "source_document_id": "0000916365-26-000014",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are investing, and expect to continue to invest, in expanding our artificial intelligence capabilities and to consider the adoption of other emerging technologies.",
+    "We also invest in information technology and implement and assess capabilities such as computer vision, automation, advanced analytics, and the responsible use of artificial intelligence.",
+    "We continue to invest in technologies that enhance both customer and team member experiences, including data analytics, automation, and the responsible use of artificial intelligence."
+   ],
+   "confidence": 0.8
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Our integrated use of these technology systems is intended to support more personalized customer experiences and improve forecasting, sourcing, inventory planning, labor planning, and fulfillment for seasonal and weather-sensitive demand.",
+    "We use internally developed and third-party artificial intelligence and machine learning technology systems to operate our retail business more efficiently and to enhance the experiences of our customers and team members.",
+    "We also invest in information technology and implement and assess capabilities such as computer vision, automation, advanced analytics, and the responsible use of artificial intelligence."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Flaws, breaches, or malfunctions in these systems could lead to operational disruptions, data loss, erroneous decision-making, regulatory scrutiny, reputational harm, or legal liability.",
+    "The rapidly evolving legal and regulatory environment relating to artificial intelligence and privacy could impact our implementation of these and other emerging technologies and increase compliance costs and the risk of non-compliance.",
+    "We face risk of competitive disadvantage if our competitors more effectively use emerging technologies to better serve customers, drive internal efficiencies, and create new [capabilities]."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts, GPU counts, or percentage-of-capex figures tied to AI investment were found in the excerpts; investment intensity scored 3 rather than 4 or 5.",
+  "AI narrative concreteness scored 4 based on named deployed use cases (forecasting, inventory planning, labor planning, computer vision) with operational detail, but no quantified business results (e.g., % improvement, $ saved) were disclosed in the excerpts.",
+  "Risk disclosure scored 4 based on named company-specific risk mechanisms (operational disruption, regulatory non-compliance, competitive disadvantage), but no quantified risk exposure or named governance/oversight body was found to justify a score of 5."
+ ],
+ "_meta": {
+  "accession": "0000916365-26-000014",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/916365/000091636526000014/tsco-20251227.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T19:02:50.068244+00:00"
+ }
+}

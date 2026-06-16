@@ -1,0 +1,51 @@
+{
+ "ticker": "LUV",
+ "source_document_id": "0000092380-26-000004",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Company continues to invest in technology to support artificial intelligence ('AI')-based marketing efforts.",
+    "modernization of the Company's data and processing AI capabilities",
+    "The Company continues to invest significantly in technology resources including... further scaling 24-hour operations... flight schedule management"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Generative AI copy testing has been introduced to refine marketing messages and optimize conversion rates, contributing to increased sales per marketing effort.",
+    "enhanced and modernized chat functions and AI-based support for service replies",
+    "broad search engine and generative AI engine optimization efforts across its mobile app, landing pages, and destination, origination, and market specific pages"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "The Company has established an internal AI governance team, and the Company's Board of Directors oversees AI risks through its Audit Committee and at the full Board level.",
+    "the Company could face numerous AI-related challenges, such as cybersecurity vulnerabilities, algorithmic biases or errors, evolving regulatory requirements across jurisdictions",
+    "emerging regulations, state laws... may require companies that develop or deploy AI systems to establish formal governance structures and internal controls, including designated oversight personnel"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, GPU counts, or quantified AI-specific budget figures appear in the excerpts; score reflects named initiatives and stated commitment without quantification.",
+  "ai_narrative_concreteness: 'contributing to increased sales per marketing effort' is directional but not quantified (no % or $ figure disclosed); score of 4 reflects deployed use cases with operating detail but stops short of 5.",
+  "capex_mentions: No specific dollar or quantity figures tied to AI/compute investment were found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000092380-26-000004",
+  "filing_date": "2026-02-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T18:56:59.156666+00:00"
+ }
+}

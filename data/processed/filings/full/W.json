@@ -1,0 +1,51 @@
+{
+ "ticker": "W",
+ "source_document_id": "0001616707-26-000027",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "invest in technology, including AI, to further improve our customer and supplier experiences",
+    "in 2025, we invested in the development and launch of Muse, an AI-powered tool, to inspire and personalize the home shopping experience",
+    "The rapid evolution of AI...may require us to expend significant resources to develop, test, and maintain our platform"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "in February 2025, we introduced Muse, an artificial intelligence-powered tool, to inspire and personalize the home shopping experience",
+    "We increasingly rely on AI and machine learning technologies...including search, recommendations, customer support and other personalization tools",
+    "global customer service locations are staffed with over 2,000 full-time highly-trained sales and service employees, supplemented by artificial intelligence (AI) enabled tools"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if the data used to train or operate them is inaccurate, incomplete or becomes unavailable...customer engagement, conversion and repeat purchasing may decline",
+    "use of AI results in...infringement of the intellectual property of third parties...we may be subject to legal claims or liability",
+    "generative AI could intensify these cybersecurity risks...cyber-attackers could also use AI to develop malicious code and sophisticated phishing attempts"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 (named initiatives, no quantified scale).",
+  "Narrative concreteness scored 4 based on named deployed tools (Muse, search, recommendations, customer support AI) with operational detail, but no quantified business results (e.g., % improvement, revenue lift) were disclosed in the excerpts.",
+  "Capex mentions list is empty as no specific dollar or capacity figures for AI/compute investment appeared in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001616707-26-000027",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1616707/000161670726000027/w-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 14,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T19:12:15.948001+00:00"
+ }
+}

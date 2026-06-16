@@ -1,0 +1,72 @@
+{
+ "ticker": "BR",
+ "source_document_id": "0001628280-25-037656",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we continue to make investments in initiatives focused on the further development and deployment of these technologies",
+    "We have integrated AI capabilities into several of our solutions and provide our associates with access to internal AI tools",
+    "We leverage AI to unlock new commercial opportunities and enhance overall productivity"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we have introduced a number of AI-driven solutions such as BondGPT and OpsGPT with agentic capabilities while continuing to develop new AI applications",
+    "We offer an integrated, modern open-architecture wealth management platform through which we provide enhanced data-centric capabilities, integrating the use of AI, to improve the overall client experience",
+    "Our AI Academy offers voluntary learning paths and courses for our associates to establish a robust foundation in AI"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "use of AI in our product initiatives and offerings or services...may give rise to risks related to accuracy, bias, discrimination, intellectual property infringement, misappropriation or leakage of proprietary, confidential and personal information",
+    "Any error, defect, or vulnerability in our AI-powered products or business processes could undermine the quality of our products and services, adversely impact our clients businesses, subject us or our clients to regulatory scrutiny, fines or litigation",
+    "The absence of a unified regulatory framework, and the risk of divergent or conflicting regulations across jurisdictions...could increase the complexity and costs of compliance for us and our clients"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Fixed minimum commitments remaining under the Private Cloud Agreement at June 30, 2025 are $85.7 million through March 31, 2030",
+   "context": "Kyndryl private cloud services agreement commitment"
+  },
+  {
+   "quote": "Fixed minimum commitments remaining under the Amended and Restated IT Services Agreement at June 30, 2025 are $75.0 million through June 30, 2027",
+   "context": "Kyndryl IT infrastructure services agreement commitment"
+  },
+  {
+   "quote": "Data center expenses $254.8 [million]",
+   "context": "FY2025 data center expenses under IT services and cloud agreements"
+  },
+  {
+   "quote": "Total expenses $429.0 [million]",
+   "context": "FY2025 total data center, software license, and maintenance expenses"
+  },
+  {
+   "quote": "future minimum commitments...Total $579.2 [million]",
+   "context": "Total future minimum commitments for IT services, cloud, and software agreements through 2030+"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity scored 3 (not 4) because no dollar amounts are explicitly ring-fenced as AI-specific capex; data center and cloud spend figures are for broader IT infrastructure, not AI-dedicated spend",
+  "Narrative concreteness scored 4 because BondGPT and OpsGPT are named deployed products with operational detail, but no quantified business results (e.g., revenue, time saved, volume) are disclosed in the excerpts",
+  "Risk disclosure scored 4 because specific risk mechanisms (bias, IP infringement, regulatory fragmentation, client harm) are named with operational impact pathways, but no quantified risk exposure or named governance/oversight body is disclosed"
+ ],
+ "_meta": {
+  "accession": "0001628280-25-037656",
+  "filing_date": "2025-08-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1383312/000162828025037656/br-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:32:26.919948+00:00"
+ }
+}

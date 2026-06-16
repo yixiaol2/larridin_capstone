@@ -1,0 +1,50 @@
+{
+ "ticker": "WTW",
+ "source_document_id": "0001193125-26-069307",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we may invest in and develop technologies such as AI, digital platforms, data analytics, robotics and blockchain",
+    "incorporating artificial intelligence (AI) into certain product offerings is becoming more important in our operations"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "incorporating artificial intelligence (AI) into certain product offerings is becoming more important in our operations, particularly as our competitors...seek to simplify and improve the client experience",
+    "we may invest in and develop technologies such as AI, digital platforms, data analytics, robotics and blockchain"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "rapid advances in generative and agentic AI may enable certain clients to perform internally, automate, or obtain through low-cost digital tools analytical...work that they have historically relied on us to provide",
+    "use of third-party generative AI tools by our employees...presents a risk that confidential, personal or proprietary information could be inadvertently disclosed through prompts or uploads",
+    "The Risk Committee assists the board...in its oversight...including without limitation: cybersecurity, technology, information security, privacy, and artificial intelligence risk"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific investment amounts or headcount figures appear in the excerpts; investment intensity scored 3 based on named initiatives without dollar figures.",
+  "AI narrative concreteness is limited to named use-case categories (product offerings, analytics) with no deployment status or metrics disclosed in these excerpts; scored 3.",
+  "Excerpts are heavily weighted toward risk factors and governance sections; operational or business-segment sections describing deployed AI products may exist in the full filing but are not present here.",
+  "Some AI language in risk factors is promotional/aspirational in framing competitive threats rather than describing WTW's own deployed capabilities."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-069307",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1140536/000119312526069307/wtw-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:49:06.703772+00:00"
+ }
+}

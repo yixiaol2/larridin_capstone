@@ -1,0 +1,50 @@
+{
+ "ticker": "ROL",
+ "source_document_id": "0000084839-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We are increasingly incorporating AI capabilities into the development of technologies and our business operations, our services, and other operational and administrative processes.",
+    "our increasing reliance on AI technologies in services and operations as well as the related risks that could materially adversely affect our business"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We are increasingly incorporating AI capabilities into the development of technologies and our business operations, our services, and other operational and administrative processes.",
+    "While we believe these technologies enhance efficiency and service quality, their use presents risks that could adversely affect our business"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "AI technology is complex and rapidly evolving, and may subject us to significant competitive, legal, regulatory, operational and other risks.",
+    "vulnerabilities through the use of evolving tools such as AI",
+    "our policies and procedures that are designed to identify, assess, and manage material risks arising from cybersecurity incidents and AI technologies"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No named AI systems, vendors, partners, dollar amounts, or quantified commitments disclosed in excerpts; language is generic reliance/incorporation framing.",
+  "ai_narrative_concreteness: Named operational areas (services, business operations, administrative processes) mentioned but no specific deployed use cases, metrics, or deployment status provided; scored 3 for named initiative areas without deployment detail.",
+  "ai_risk_disclosure_depth: Risk-section material is present (business section contains risk language); named risk categories include regulatory, competitive, legal, operational, and cybersecurity/AI vulnerability risks, but no quantified risk scenarios or named governance bodies are disclosed, capping score at 3.",
+  "Excerpts are predominantly risk-disclosure oriented; limited visibility into AI investment or deployment specifics."
+ ],
+ "_meta": {
+  "accession": "0000084839-26-000008",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/84839/000008483926000008/rol-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-11T18:52:43.466676+00:00"
+ }
+}

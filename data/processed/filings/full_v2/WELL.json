@@ -1,0 +1,51 @@
+{
+ "ticker": "WELL",
+ "source_document_id": "0000766704-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our data science team, led by doctorate-level statisticians and mathematicians is focused on building and refining proprietary statistical models and algorithms to project financial performance, predict lease-up and occupancy trends",
+    "We are integrating AI into our data science platform to assist in analyzing and extracting more insights from our internal documents.",
+    "we have created internal generative AI chatbots, using our proprietary information to interact with and answer queries by our employees"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We are integrating AI into our data science platform to assist in analyzing and extracting more insights from our internal documents.",
+    "we have created internal generative AI chatbots, using our proprietary information to interact with and answer queries by our employees about our human resources and other relevant policies",
+    "predictive tools inform the platform's supply/demand analysis, location analytics, comparative and predictive modeling, investment and capital expenditure analytics and revenue and asset management capabilities"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our approach to AI presents risks and challenges that can adversely impact our business — AI presents risks and challenges that could impact our business, including perceived breaches or privacy or security incidents related to the use of AI.",
+    "Uncertainty around the safety and security of new and emerging AI applications may require additional investment in the development of proprietary datasets, machine learning models and systems to test for security, accuracy, bias and other variables, which are often complex, may be costly and could impact our profit margin.",
+    "the use of AI by us or our business partners may create new cybersecurity vulnerabilities...and malicious actors may employ AI to aid in launching more sophisticated and effective cybersecurity incidents"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "AI narrative concreteness scored 4 based on named deployed use cases (generative AI chatbots, data science platform integration) with operational detail, but no quantified business results (e.g., % improvement, cost savings) were disclosed.",
+  "Risk disclosure is detailed and company-specific with named mechanisms (cybersecurity vulnerabilities, regulatory compliance costs, reputational harm, profit margin impact), but no formal quantification or named governance body was cited, limiting score to 4."
+ ],
+ "_meta": {
+  "accession": "0000766704-26-000010",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000010/well-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-15T21:47:58.926574+00:00"
+ }
+}

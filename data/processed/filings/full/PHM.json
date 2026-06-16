@@ -1,0 +1,49 @@
+{
+ "ticker": "PHM",
+ "source_document_id": "0000822416-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-04",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Our development, integration, and use of artificial intelligence (AI) technology in our operations remains in the early phases. We have started to assess the use of AI technology to drive productivity and analyze data.",
+    "rapidly changing technological developments including, but not limited to, the use of artificial intelligence in the homebuilding industry"
+   ],
+   "confidence": 0.8
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We have started to assess the use of AI technology to drive productivity and analyze data.",
+    "We aim to develop, integrate, and use AI responsibly"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI is a new and emerging technology...presents a number of risks inherent in its use, including...ethical considerations, public perception, intellectual property protection, regulatory compliance, privacy concerns, and data security",
+    "if our competitors are able to develop or leverage AI technologies more effectively...our competitive position could be adversely affected",
+    "malicious uses of AI such as deepfakes, to launch attacks that are increasingly difficult to detect and defend against"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 2 based on early-phase assessment language only.",
+  "AI narrative is entirely aspirational/early-stage with no named deployed initiatives or quantified outcomes; score reflects disclosed status, not promotional claims.",
+  "Risk disclosure scores 4 because multiple company-specific risk mechanisms are described (competitive displacement, cybersecurity/deepfakes, regulatory compliance, reputational harm from biased outputs), though no quantified risk treatment or named governance body is disclosed."
+ ],
+ "_meta": {
+  "accession": "0000822416-26-000007",
+  "filing_date": "2026-02-04",
+  "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000007/phm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-11T18:49:02.490615+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "TMUS",
+ "source_document_id": "0001283699-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "transforming into an AI-enabled, data-informed, digital-first organization to continue delivering differentiated experiences to our customers",
+    "investing in strategic collaborations with third parties, such as AI-RAN partnerships, to develop technologies that are intended to advance our network capabilities",
+    "increasingly dependent on being able to hire and retain technically skilled employees, including those with expertise in AI and machine learning"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Leveraging the latest AI technology and digital capabilities, we are pioneering new approaches to serving customers with a platform to better anticipate and proactively solve their issues, offering personalized self-service options",
+    "Our comprehensive T-Life app is radically simplifying customer experiences with upgrades, add-a-line, and switching transactions all available at customers fingertips",
+    "integrating emerging and rapidly evolving technologies, reconfiguring internal processes, and implementing advanced data analytics and AI-driven tools, including those developed through our partnerships with several third-party providers"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "threat actors will continue to gain sophistication including in the use of tools and techniques (such as AI) that are specifically designed to circumvent security controls, evade detection, and obfuscate forensic evidence",
+    "we must maintain rigorous data security and privacy safeguards, ensure our AI-driven solutions comply with evolving regulatory standards, and mitigate potential issues such as algorithmic bias or unintended operational disruptions",
+    "AI-related laws and regulations continue to remain uncertain and may vary from jurisdiction to jurisdiction... may require us to incur significant additional costs or limit our ability to incorporate certain AI capabilities"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific capex figures tied to AI investment appear in the excerpts; investment intensity capped at 3 due to absence of quantified scale",
+  "AI narrative concreteness reflects named deployed initiatives (T-Life app, customer experience platform) with operational detail but no quantified business results (e.g., cost savings, volume metrics) in the excerpts",
+  "Capex mentions list is empty as no AI-attributable dollar figures were disclosed in the provided excerpts"
+ ],
+ "_meta": {
+  "accession": "0001283699-26-000010",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369926000010/tmus-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:35:52.061354+00:00"
+ }
+}

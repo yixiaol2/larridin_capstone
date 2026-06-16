@@ -1,0 +1,49 @@
+{
+ "ticker": "VST",
+ "source_document_id": "0001692819-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "To grow and remain competitive, we will need to adapt to changes in available technology like generative AI, continually invest in our assets, increase generation capacity, increase our use of low-carbon technologies",
+    "Multiple demand drivers such as emergence of large load data centers, including in response to transformations in technologies like artificial intelligence (AI)... have accelerated, and are expected to continue to accelerate, load growth"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We continue to pursue and execute on additional opportunities for the prospective sale of power from our generation fleet facilities pursuant to long-term agreements to supply large load facilities.",
+    "As we adopt new technologies, like AI, there is a risk that the content, analyses, recommendations, or judgments that AI applications assist in producing are alleged to be deficient, inaccurate, biased"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if demand does not continue to increase... due to various factors, such as changes in technology, more energy efficient AI solutions or slow adoption of AI products and services... our opportunities for growth and stock price may be adversely impacted",
+    "generative AI becomes more widely used by threat actors and we may not be able to prevent or mitigate any such impacts in the future",
+    "Competitors may also incorporate emerging technology like generative AI into their businesses, services, and products more quickly or more successfully than we do"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-attributable spend disclosed in excerpts; Vistra's AI exposure is primarily as a power supplier to AI data centers, not as an AI builder or direct AI capex deployer — named programs exist but no dollar amounts cited.",
+  "ai_narrative_concreteness: AI use cases described at a named/initiative level (internal AI adoption, large-load data center offtake agreements) but no deployment metrics or quantified outcomes provided.",
+  "capex_mentions: Nuclear uprate capital expenditures are referenced but not explicitly tied to AI investment; excluded per anti-inflation rule."
+ ],
+ "_meta": {
+  "accession": "0001692819-26-000006",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000006/vistra-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:45:01.446284+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "DVA",
+ "source_document_id": "0000927066-26-000012",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have made and expect to continue to invest significant resources in the implementation of these new artificial intelligence technologies",
+    "leveraging artificial intelligence to increase access to personalized development for our teammates, ensuring they have resources to support their career objectives"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "leveraging artificial intelligence to increase access to personalized development for our teammates",
+    "incorporating into information technology capabilities machine learning or automation for real-time prevention utilizing artificial intelligence for anomaly-based detection",
+    "changes resulting from the use of artificial intelligence to support clinical practices"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "implementation and adoption risks include potential design defects, defects in the development of algorithms, biased data/discrimination, potential security breaches or unauthorized access to PHI, failure to comply with certain state requirements",
+    "The reliability and performance of these new capabilities remain unknown... it is possible they may not perform as desired, by being either too restrictive and inhibiting operation or not restrictive enough",
+    "failure to incorporate legal requirements related to the use (or misuse) of technology, including artificial intelligence, into our internal standards could subject us to risk of regulatory actions, private party litigation"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: 'significant resources' language is qualitative only; no dollar amounts, headcount figures, or quantified AI-specific spend disclosed in excerpts — capped at 3",
+  "ai_narrative_concreteness: use cases named (talent development, cybersecurity anomaly detection, clinical practice support) but no deployment status confirmation or quantified outcomes provided",
+  "ai_risk_disclosure_depth: risk scenarios are company-specific with named mechanisms (PHI breach, algorithm defects, regulatory non-compliance, clinical operations failure), justifying score 4; no quantified risk exposure or named formal AI governance body found in excerpts to reach score 5",
+  "capex_mentions: no AI-attributable dollar or capacity figures appear in the excerpts"
+ ],
+ "_meta": {
+  "accession": "0000927066-26-000012",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000012/dva-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:32:31.369247+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "JBHT",
+ "source_document_id": "0001437749-26-005294",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have also invested significantly in the development of our Marketplace for J.B. Hunt 360 online freight matching platform.",
+    "An inability to develop, adopt, and integrate new or enhanced technologies, including rapidly evolving artificial intelligence, could have a material adverse effect on our business.",
+    "Implementing and maintaining AI capabilities can be complex and costly, anticipated benefits may not be realized"
+   ],
+   "confidence": 0.5
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "any efforts we may make to incorporate it into our business may amplify cyber, legal, and operational risks.",
+    "The rapid evolution and adoption of artificial intelligence(AI) and any efforts we may make to incorporate it into our business"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI adoption may introduce or amplify risks, including inaccurate or biased outputs that are difficult to detect, governance and model-risk challenges, privacy and intellectual property concerns, and evolving legal disclosure obligations.",
+    "AI can also increase cybersecurity exposure as threat actors leverage AI to enhance social-engineering and intrusion techniques.",
+    "Categories (including but not limited to cybersecurity, data privacy, governance, application development, and AI) ... Likelihood and impact ... Mitigating controls and/or remediations ... Residual risk score"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts or quantified AI-specific spend disclosed in excerpts; J.B. Hunt 360 investment is mentioned but not explicitly linked to AI; score reflects named but unquantified AI-adjacent investment.",
+  "ai_narrative_concreteness: Excerpts are dominated by risk-factor language; no operational or business-section content describing deployed AI use cases or named AI initiatives was present, limiting concreteness scoring.",
+  "capex_mentions: No AI-attributable dollar figures or quantified resource commitments found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001437749-26-005294",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/728535/000143774926005294/jbht20251231_10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:59:52.204372+00:00"
+ }
+}

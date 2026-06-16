@@ -1,0 +1,13 @@
+job_posting_id,company_id,ticker,title,department,location,description,posting_date,collected_at,source_url,source_name,is_active
+job_001,C001,AIVA,Senior ML Engineer,Engineering,Remote,Build machine learning services for customer support automation pilots.,2025-04-15,2025-05-01T12:00:00Z,https://synthetic.example/jobs/job_001,synthetic_job_postings,true
+job_002,C001,aiva,Senior ML Engineer,Engineering,Remote,Build machine learning services for customer support automation pilots.,2025-04-16,2025-05-02T12:00:00Z,https://synthetic.example/jobs/job_001,synthetic_job_postings,true
+job_003,C001,AIVA,Backend Software Engineer,Engineering,Pittsburgh PA,Build backend APIs for billing and workflow systems.,2025-04-18,2025-05-01T12:00:00Z,https://synthetic.example/jobs/job_003,synthetic_job_postings,true
+job_004,C002,BRIO,Store Associate,Operations,Chicago IL,Help customers and maintain store displays.,,2025-05-01T12:00:00Z,https://synthetic.example/jobs/job_004,synthetic_job_postings,true
+job_005,C002,BRIO,Director of Digital Strategy,Strategy,New York NY,Lead technology strategy and transformation planning for retail operations.,2025-04-22,2025-05-01T12:00:00Z,https://synthetic.example/jobs/job_005,synthetic_job_postings,true
+job_006,C003,CYGN,Prompt Engineer,Product,Remote,Design prompts and evaluate LLM features for document review products.,2025-04-23,2025-05-01T12:00:00Z,https://synthetic.example/jobs/job_006,synthetic_job_postings,true
+job_007,C003,CYGN,Cloud Platform Engineer,Technology,Austin TX,Maintain cloud infrastructure and platform reliability.,2025-04-24,2025-05-01T12:00:00Z,https://synthetic.example/jobs/job_007,synthetic_job_postings,true
+job_008,C004,DAVA,HR Coordinator,People,Denver CO,Coordinate interviews and onboarding for corporate teams.,2025-04-25,2025-05-01T12:00:00Z,https://synthetic.example/jobs/job_008,synthetic_job_postings,true
+job_009,C004,DAVA,AI Product Manager,Product,San Francisco CA,Own AI product roadmap and customer research for automation features.,2025-04-26,2025-05-01T12:00:00Z,https://synthetic.example/jobs/job_009,synthetic_job_postings,true
+job_010,C005,ELMN,Vice President of Transformation,Executive,Boston MA,Set strategic priorities for operating model modernization.,,2025-05-01T12:00:00Z,https://synthetic.example/jobs/job_010,synthetic_job_postings,true
+job_011,C005,ELMN,Data Analyst,Analytics,Boston MA,Build dashboards and analytics datasets for finance teams.,2025-04-27,2025-05-01T12:00:00Z,https://synthetic.example/jobs/job_011,synthetic_job_postings,true
+job_012,C006,FARO,Marketing Specialist,Marketing,Seattle WA,Create campaign materials and coordinate launch events.,2025-04-28,2025-05-01T12:00:00Z,https://synthetic.example/jobs/job_012,synthetic_job_postings,true

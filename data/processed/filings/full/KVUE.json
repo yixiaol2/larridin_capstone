@@ -1,0 +1,50 @@
+{
+ "ticker": "KVUE",
+ "source_document_id": "0001944048-26-000030",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Effective implementation of our digital strategy has required, and will require, significant investments in our digital platforms, including information technology systems, and significant development and expansion of our digital capabilities, including data science, data analytics, artificial intelligence, machine learning",
+    "Developing, testing, and deploying resource-intensive artificial intelligence systems may require additional investment and increase our costs.",
+    "We continually assess these threats and make investments to increase internal protection, detection, and response capabilities"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We are piloting the use of systems and tools that incorporate artificial intelligence-based technologies, including generative artificial intelligence, in connection with supply chain and operations, content creation, as well as in various Kenvuer productivity enhancement use cases.",
+    "we have pursued a new digital strategy...including the Zyrtec AllergyCast app and the Neutrogena Skin360 app, that are outside of the traditional services and products we have historically provided"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "we continue to implement our artificial intelligence governance based on the National Institute of Standards and Technology Artificial Intelligence Risk Management Framework",
+    "in 2025 we matured our cybersecurity risk governance through the addition of an artificial intelligence governance program...enables oversight by our cybersecurity, privacy, legal, and data organizations",
+    "inadequate artificial intelligence governance, development, use, or deployment practices by us or third parties could result in unintended consequences...flawed deployments, producing erroneous or harmful outputs, which could damage our reputation and lead to regulatory complications and legal liabilities"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied to AI investment appear in the excerpts; investment intensity scored 3 based on named initiatives and vendor/capability references without quantified scale.",
+  "AI narrative concreteness scored 3 because use cases (supply chain, content creation, productivity) are named and described as pilots but no deployment metrics or quantified outcomes are disclosed.",
+  "Promotional/aspirational language present alongside risk disclosures; concreteness score reflects pilot/early-stage status as disclosed."
+ ],
+ "_meta": {
+  "accession": "0001944048-26-000030",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1944048/000194404826000030/kvue-20251228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T18:23:16.758801+00:00"
+ }
+}

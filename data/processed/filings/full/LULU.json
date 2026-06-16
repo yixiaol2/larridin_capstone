@@ -1,0 +1,52 @@
+{
+ "ticker": "LULU",
+ "source_document_id": "0001397187-26-000020",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Sovereign AI initiatives… could limit our ability to deploy centralized AI tools globally and may require significant investment in region-specific infrastructure.",
+    "our increasing use of AI tools and technologies, including generative AI, introduces new security risks",
+    "Chief AI Technology Officer ('CATO')… cybersecurity sub-committee… reviews our cybersecurity risk assessments"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We may not efficiently and effectively implement and leverage technological advancements such as AI to support these interactions",
+    "if we do not effectively leverage AI… we could lose guests",
+    "The rapid rise of artificial intelligence ('AI') enabled shopping tools may reduce our control over consumer decision making and brand loyalty"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "adversarial manipulation of AI models, unintended data exposure through AI systems, or reliance on AI outputs that may be inaccurate or biased",
+    "Emerging laws and regulations governing AI, including the European Union AI Act, China's generative AI regulations… may impose new compliance obligations, restrict certain uses of AI technology",
+    "audit committee… responsible for overseeing… risks related to information security, cybersecurity, data protection, and AI… cybersecurity sub-committee… comprised of our Chief AI Technology Officer"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI spend, headcount, or capex figures appear in the excerpts; score 3 reflects named AI roles (CATO) and named infrastructure concerns but no dollar or capacity figures.",
+  "ai_narrative_concreteness: AI use cases are framed almost entirely as risks or aspirational obligations rather than deployed initiatives with operating detail; score 2 reflects aspirational/risk framing without named production deployments.",
+  "capex_mentions: No dollar or quantity figures tied to AI/compute investment found in the excerpts.",
+  "Excerpts are risk-factor and governance sections only; business/MD&A sections describing actual AI deployments or investment budgets may exist in the full filing but are not present here."
+ ],
+ "_meta": {
+  "accession": "0001397187-26-000020",
+  "filing_date": "2026-03-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1397187/000139718726000020/lulu-20260201.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T18:28:02.664461+00:00"
+ }
+}

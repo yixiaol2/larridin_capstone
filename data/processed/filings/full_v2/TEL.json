@@ -1,0 +1,50 @@
+{
+ "ticker": "TEL",
+ "source_document_id": "0001104659-25-109150",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "our broad range of connectivity and sensor solutions enable the distribution of power, signal, and data to advance next-generation transportation, energy networks, automated factories, data centers enabling artificial intelligence",
+    "connectivity solutions for the Internet of Things, smartphones, tablet computers, virtual reality, and artificial intelligence/machine learning applications to help our customers meet their current challenges"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Digital data networks — Our organic net sales increased 72.6% in fiscal 2025 due primarily to growth in AI and cloud applications",
+    "Digital data networks — Our organic net sales increased 10.2% in fiscal 2024 due to growth in AI applications, partially offset by reduced demand resulting from inventory corrections",
+    "overall market trends of increased data connectivity and continued movement to artificial intelligence (AI) and cloud applications have had a favorable impact on demand"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms and training methodologies may be flawed, and datasets may be overbroad, insufficient, or contain biased information. Moreover, the use of AI may give rise to risks related to harmful content, accuracy, bias, intellectual property infringement or misappropriation, defamation, data privacy, cybersecurity",
+    "risks associated with cybersecurity incidents and other disruptions to our information technology infrastructure, including as a result of AI",
+    "we face significant competition, including from our own clients, who may develop their own internal AI-related capabilities, which can lead to reduced demand for our products"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-attributable R&D or capex figures disclosed in the excerpts; TE Connectivity is a component supplier/enabler of AI infrastructure rather than a direct AI investor, and no dedicated AI investment programs or dollar amounts are cited.",
+  "ai_narrative_concreteness: Quantified revenue results (72.6% organic growth in digital data networks attributed to AI) are disclosed, but these reflect sales outcomes rather than deployed AI use cases within TE Connectivity's own operations; scored 4 rather than 5 as the AI-driven results pertain to customer demand, not internal AI deployments with quantified operational outcomes.",
+  "capex_mentions: No AI-attributable capital expenditure figures appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001104659-25-109150",
+  "filing_date": "2025-11-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/1385157/000110465925109150/tel-20250926x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:36:24.525626+00:00"
+ }
+}

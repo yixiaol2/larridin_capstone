@@ -1,0 +1,52 @@
+{
+ "ticker": "SPGI",
+ "source_document_id": "0000064040-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have made significant investments in various AI initiatives. There is no guarantee that these investments will lead to the development of products and services that achieve market acceptance",
+    "acquisition of ProntoNLP, a leading provider of generative artificial intelligence tooling... ProntoNLP s proprietary models and LLM-based signal tools will bolster S P Global s textual data analytics capabilities",
+    "acquisition of TeraHelix... strengthens our customer-centric approach to data, technology, and AI by meaningfully enhancing the ability to link datasets across classes and platforms"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Amplify Enterprise Capabilities and AI... integrating and scaling new technology and AI into our products and our operations, and leveraging strategic collaborations and new potential commercial models",
+    "ProntoNLP s proprietary models and LLM-based signal tools will bolster S P Global s textual data analytics capabilities",
+    "AI-related issuance drove billed issuance increases in investment grade"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our competitors are deploying AI in ways that could materially reduce demand for our products and services... by deploying AI in ways that make collection and processing of information relatively inexpensive or free",
+    "our products and services with AI capabilities may contain errors or defects that lead to privacy concerns, accuracy issues, unintended biases or discriminatory outputs",
+    "AI is being utilized by malign actors to launch increasingly sophisticated cyber attacks against us and our third-party service providers"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific budget figures for AI investment are disclosed in the excerpts; investment intensity scored 3 based on named initiatives and acquisitions without quantified scale.",
+  "ai_narrative_concreteness scored 4 based on named deployed use cases (ProntoNLP LLM tools, AI-driven issuance impact) with some operating detail, but quantified business results (e.g., revenue attributable to AI products) are absent from the excerpts.",
+  "capex_mentions is empty as no specific dollar or capacity figures tied to AI/compute investment appear in the excerpts.",
+  "Some AI language in the filing is promotional/strategic (e.g., 'Amplify Enterprise Capabilities and AI'); confidence adjusted accordingly."
+ ],
+ "_meta": {
+  "accession": "0000064040-26-000013",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/64040/000006404026000013/spgi-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 15,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T18:53:40.709520+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "MSCI",
+ "source_document_id": "0001408198-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We also partner with global technology companies to accelerate the development of our AI capabilities to enhance our solutions, insights and the client experience.",
+    "In 2025, we introduced an AI Upskilling Framework to provide targeted learning opportunities ranging from foundational skills to technical specialization.",
+    "Advancing data processing, content quality and product development through data science, machine learning and AI. These capabilities and technologies enable more efficient data collection, enhance content and support quality-control processes."
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We have developed AI-enabled solutions including AI Portfolio Insights, which features a generative AI-powered interface to help deliver risk and portfolio insights, and GeoSpatial Asset Intelligence, which incorporates AI-driven data processing.",
+    "AI Portfolio Insights offering calculates, stores, and delivers a broad range of risk, performance, climate, and sustainability measures... The tool features a generative AI-powered chatbot to deliver risk insights.",
+    "We designed our AI governance framework, which includes review and approval processes for AI uses, to provide oversight designed to support responsible use, data protection and risk management."
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI-enabled tools may allow clients... to develop in-house capabilities to replace our products such as custom indexes, risk analytics, and sustainability and climate data... could impair our ability to compete effectively and put pressure on our revenues.",
+    "If the content, analyses, or recommendations produced by AI are, or are perceived to be, biased, inaccurate, misleading... our business may be adversely affected... we could face client losses, reputational damage and potential legal liability.",
+    "Emerging AI regulations, such as the European Union's Artificial Intelligence Act, impose requirements for transparency, fairness and oversight... may increase costs, impact our product development, restrict the use of certain applications of AI."
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount figures, or capex/R&D spend tied specifically to AI were found in the excerpts; investment intensity scored 3 (named programs but no quantified scale).",
+  "ai_narrative_concreteness scored 4 (deployed use cases with operating detail) rather than 5 because no quantified business results (%, $, time saved, volume) were disclosed for the named AI products.",
+  "capex_mentions list is empty as no dollar or quantity figures tied to AI investment appeared in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001408198-26-000011",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1408198/000140819826000011/msci-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 20,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-15T21:07:23.459739+00:00"
+ }
+}

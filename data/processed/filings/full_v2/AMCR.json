@@ -1,0 +1,48 @@
+{
+ "ticker": "AMCR",
+ "source_document_id": "0001748790-25-000023",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-15",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "Excerpts contain no discussion of AI investment, R&D, capex, or AI product development; only AI-related cybersecurity risk is mentioned."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "No AI use cases, initiatives, or deployments described in the excerpts; AI appears only in a risk context."
+   ]
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Emerging artificial intelligence technologies may intensify these cybersecurity risks.",
+    "We face threats from sophisticated nation-state and nation-state-supported actors who engage in attacks, including advanced persistent threat intrusions."
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts are limited to a single cybersecurity risk passage; no AI investment or use-case material is present, making investment intensity and narrative concreteness unscoreable.",
+  "Risk disclosure score is based solely on the AI-cybersecurity linkage; broader AI risk categories (e.g., model errors, regulatory, workforce) may exist elsewhere in the filing but are not visible in these excerpts.",
+  "The AI risk mention is brief and company-specific only in the sense of naming the threat vector; no quantified risk treatment or named governance body is disclosed."
+ ],
+ "_meta": {
+  "accession": "0001748790-25-000023",
+  "filing_date": "2025-08-15",
+  "url": "https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T20:07:47.911160+00:00"
+ }
+}

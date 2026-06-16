@@ -1,0 +1,49 @@
+{
+ "ticker": "GILD",
+ "source_document_id": "0000882095-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "adopt and scale artificial intelligence to transform how we work — listed as a named strategic priority refreshed in late 2025",
+    "CIO is responsible for implementing enterprise-wide IT and AI strategies for the company"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "adopt and scale artificial intelligence to transform how we work — named strategic priority but no deployment status or metrics provided",
+    "Kite Konnect platform is critical to maintain chain of identity and chain of custody for our cell therapies — IT system named but AI link not explicit"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Recent developments in the threat landscape include the use of increasingly sophisticated and evolving AI and machine learning tools — specific threat mechanism named",
+    "unauthorized use of AI tools, can result in the exposure of or misuse of sensitive data, including our intellectual property or trade secrets",
+    "European Medicines Agency and FDA jointly established new AI principles in drug development... may lead to future regulatory guidance and requirements in various jurisdictions, which could affect the use of AI in our business"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable spend, headcount, or capex figures appear in the excerpts; investment intensity capped at 3 (named but unquantified).",
+  "AI narrative is largely aspirational/strategic-priority language with no deployed use cases or quantified outcomes described in the excerpts.",
+  "Risk section excerpts present; score reflects company-specific risk scenarios (regulatory, cybersecurity threat mechanisms, insider misuse) with some mechanistic detail but no quantification or named governance body beyond CIO/CISO roles."
+ ],
+ "_meta": {
+  "accession": "0000882095-26-000006",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000006/gild-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:50:18.037155+00:00"
+ }
+}

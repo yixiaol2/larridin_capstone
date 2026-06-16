@@ -1,0 +1,47 @@
+{
+ "ticker": "CZR",
+ "source_document_id": "0001590895-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9,
+   "limitations": [
+    "Excerpts contain no discussion of AI investment, R&D, or deployment spend by Caesars; AI appears only as a threat vector in risk factors."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9,
+   "limitations": [
+    "No AI use cases, initiatives, or products described in the excerpts; AI is referenced only as an external threat tool used by adversaries."
+   ]
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "new tools used by threat actors (including artificial intelligence)... substantially increase the risk of successful cyberattacks and security breaches in the future that can cause operational disruption (e.g., ransomware)"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Only a single risk-factor excerpt was provided; no investment, operations, or MD&A sections are present, so ai_investment_intensity and ai_narrative_concreteness cannot be scored.",
+  "AI risk disclosure scores 3 (named risk category — AI-enabled cyberattacks — specific to the company's threat environment and linked to a prior data incident), but the mechanism is described at a general level without quantification or named governance bodies, capping the score below 4.",
+  "Promotional language not applicable here; the sole AI reference is adversarial/threat-oriented."
+ ],
+ "_meta": {
+  "accession": "0001590895-26-000011",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1590895/000159089526000011/czr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:22:25.053152+00:00"
+ }
+}

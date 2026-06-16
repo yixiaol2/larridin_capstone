@@ -1,0 +1,49 @@
+{
+ "ticker": "MPWR",
+ "source_document_id": "0001437749-26-006113",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Our success depends on our investment of significant resources in research and development. We may have to invest more resources in research and development than anticipated",
+    "Enterprise Data Cloud-based and on-premises CPU servers and workstations, and artificial intelligence (AI) systems 25.2% 32.5% 17.7%"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "DC to DC solutions are used to convert and control voltages within a broad range of electronic systems, such as cloud-based and on-premises CPU servers and workstations, AI systems, memory, storage solutions",
+    "Enterprise Data Cloud-based and on-premises CPU servers and workstations, and artificial intelligence (AI) systems 25.2%"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the increasing focus on the risks and strategic importance of AI technologies has resulted in regulatory restrictions that target products and services capable of enabling or facilitating AI",
+    "Such use of AI tools poses potential risks relating to intellectual property and data protection, including cybersecurity risks, exposure of our proprietary information to unauthorized recipients",
+    "Governments around the world have adopted, and may continue to adopt, laws and regulations related to AI, including the European Union's Artificial Intelligence Act"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific capex or dedicated AI budget disclosed in excerpts; MPWR is a semiconductor supplier to AI infrastructure rather than a direct AI infrastructure investor — R&D investment mentioned generically without AI-specific dollar amounts.",
+  "ai_narrative_concreteness: AI use cases described at product-category level (DC-DC converters for AI systems) with revenue mix data, but no deployment metrics or quantified business outcomes from AI-specific products; revenue percentages reflect end-market mix, not AI product performance.",
+  "ai_risk_disclosure_depth: Risk section is present and contains named, company-specific AI risk scenarios (regulatory compliance, unauthorized employee use of AI tools, IP exposure, export restrictions on AI-enabling products) with mechanisms described, warranting score 4; no quantified risk exposure or named governance body found in excerpts."
+ ],
+ "_meta": {
+  "accession": "0001437749-26-006113",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1280452/000143774926006113/mpwr20251231_10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-11T18:35:14.135807+00:00"
+ }
+}

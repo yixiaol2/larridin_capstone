@@ -1,0 +1,50 @@
+{
+ "ticker": "CAT",
+ "source_document_id": "0000018230-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "research and development for automation, electronics and software for machines and engines and digital investments for new customer and dealer solutions that integrate data analytics with state-of-the-art digital technologies",
+    "digital investments for new customer and dealer solutions that integrate data analytics with state-of-the-art digital technologies while transforming the buying experience"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we anticipate growth in Power Generation for both reciprocating engines and turbines...driven by increasing energy demand to support data center build-out related to cloud computing and generative Artificial Intelligence (AI)",
+    "Power Generation Sales increased in large reciprocating engines, primarily data center applications",
+    "orders for prime power trend higher as data center customers look for alternative power solutions to keep pace with their growth"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Our CIO leads a cross-functional cybersecurity team comprised of professionals from our product, cybersecurity, legal and compliance organizations who focus on managing the security of our connected solutions",
+    "This team manages the Company s global IT systems, IT risk management, cybersecurity, global infrastructure and IT transformations"
+   ],
+   "confidence": 0.55
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts or quantified AI-attributable R&D/capex found in excerpts; named programs exist but scale is unquantified, limiting score to 3.",
+  "ai_narrative_concreteness: AI is discussed primarily as a demand driver for CAT's power generation products (data center customers), not as an internal AI deployment; score reflects named, deployed use-case context (data center sales) with operating detail but no quantified AI-specific business results.",
+  "ai_risk_disclosure_depth: Risk-factor section excerpts focus on cybersecurity governance rather than AI-specific risks; AI is mentioned in business context but no dedicated AI risk category is named in the risk section excerpts provided, limiting confidence.",
+  "Excerpts are pre-filtered; additional AI risk disclosures or capex figures may exist elsewhere in the full filing but are not visible here."
+ ],
+ "_meta": {
+  "accession": "0000018230-26-000008",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-15T18:27:39.932478+00:00"
+ }
+}

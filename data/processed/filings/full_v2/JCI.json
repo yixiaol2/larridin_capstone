@@ -1,0 +1,51 @@
+{
+ "ticker": "JCI",
+ "source_document_id": "0000833444-25-000097",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-14",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Company's OpenBlue platform combines the Company's building expertise with cutting-edge technology, including artificial intelligence and machine learning-powered service solutions such as remote diagnostics, predictive maintenance, workplace management, compliance monitoring and advanced risk assessments.",
+    "increased maturity and adoption of AI and high-performance computing is currently impacting the microchip and data center industry...driving technology innovation, which has led to increased demand for hyperscale and data center cooling solutions",
+    "We are incorporating artificial intelligence technologies into our products, services and processes."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "OpenBlue platform combines the Company's building expertise with cutting-edge technology, including artificial intelligence and machine learning-powered service solutions such as remote diagnostics, predictive maintenance, workplace management, compliance monitoring and advanced risk assessments.",
+    "The Company leverages its install base, together with data-driven products and services, to offer outcome-based solutions to customers with a focus on generating accelerated growth in services and recurring revenue.",
+    "introduction of these technologies, particularly generative AI, into internal processes and/or new and existing offerings"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "introduction of these technologies, particularly generative AI, into internal processes and/or new and existing offerings may result in new or expanded risks and liabilities, including due to enhanced governmental or regulatory scrutiny, litigation, compliance issues, ethical concerns, confidentiality or security risks",
+    "Use of AI in the development of our products and services could also cause loss or theft of intellectual property, as well as subject us to risks related to intellectual property infringement or misappropriation, data privacy and cybersecurity.",
+    "AI can lead to unintended consequences, including generating content that appears correct but is factually inaccurate, misleading or otherwise flawed, or that results in unintended biases and discriminatory outcomes, which could harm our stakeholders"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "Narrative concreteness scored 4 based on named deployed platform (OpenBlue) with operational detail, but no quantified business results (e.g., % efficiency gains, revenue from AI services) appear in the excerpts.",
+  "Risk disclosure scored 4 due to company-specific risk mechanisms described (IP loss, regulatory scrutiny, bias/inaccuracy harms, competitive disadvantage), but no quantified risk exposure or named governance/oversight body is disclosed in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000833444-25-000097",
+  "filing_date": "2025-11-14",
+  "url": "https://www.sec.gov/Archives/edgar/data/833444/000083344425000097/jci-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T21:01:33.153445+00:00"
+ }
+}

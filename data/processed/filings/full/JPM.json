@@ -1,0 +1,50 @@
+{
+ "ticker": "JPM",
+ "source_document_id": "0001628280-26-008131",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "The Firm offers voluntary training programs and educational resources to all employees covering a broad variety of topics such as leadership and management, artificial intelligence, data literacy and operational and professional skills.",
+    "New technologies have required and could require JPMorganChase to increase expenditures to modify its products to attract and retain clients and customers or to match products and services offered by its competitors."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "The Firm uses models and other analytical and judgment-based estimations, including those based upon machine learning or artificial intelligence techniques, across various businesses and functions.",
+    "A dedicated independent function, Model Risk Governance and Review (MRGR), defines and governs the Firm s policies relating to the management of model risk and risks associated with certain analytical and judgment-based estimations.",
+    "The rapid development and deployment of advanced technologies, including generative and agentic AI systems, present a range of risks to JPMorganChase s businesses and operations."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI system failures, inappropriate use of AI systems, lack of transparency in AI systems, or inaccurate or biased output from AI systems resulting from rapid deployment, insufficient testing, erroneous data, ineffective model design or insufficient controls, which could disrupt operations, cause erroneous transactions, compromise data privacy.",
+    "Competitive disadvantage if competitors are able to deploy AI more quickly or effectively, potentially gaining advantages in cost efficiency, client and customer experience, or product innovation, which could result in a loss of market share.",
+    "It is also possible that JPMorganChase could miscalibrate its workforce planning and employee training efforts either because of over-reliance on AI or the failure to appropriately adopt AI."
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific capex, headcount, or named vendor/infrastructure partnerships disclosed in the excerpts; only generic references to potential increased expenditures and employee training programs. Score reflects disclosed content only.",
+  "ai_narrative_concreteness: Named use cases (ML/AI-based model estimations, generative and agentic AI) and a named governance function (MRGR) are referenced, but no deployment metrics, production volumes, or quantified business outcomes are provided. Promotional/risk-framing language dominates.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains detailed, company-specific AI risk scenarios with described mechanisms (operational disruption, cyber exposure, regulatory compliance costs, workforce miscalibration, competitive displacement). Governance body (MRGR) is named but no quantified risk treatment or formal AI oversight committee with mandate is disclosed, limiting score to 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008131",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T18:21:17.966526+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "BLDR",
+ "source_document_id": "0001193125-26-054643",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have started to assess the use of AI technology to drive productivity and data analytics.",
+    "ability to drive growth by incorporating artificial intelligence and machine learning solutions into its platform",
+    "we allocate capital to opportunities that we believe maximize returns on investment, including value-added products, digital solutions, and automation"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Our development, integration and use of AI technology in our operations remains in the early phases. We have started to assess the use of AI technology to drive productivity and data analytics.",
+    "ability to drive growth by incorporating artificial intelligence and machine learning solutions into its platform"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "risks include, but are not limited to, ethical considerations, public perception, intellectual property protection, regulatory compliance, privacy concerns and data security",
+    "we may ultimately be unsuccessful in identifying or resolving issues, such as accuracy errors, cybersecurity vulnerabilities, unintended biases, and discriminatory outputs",
+    "if the content, analyses, or recommendations that AI applications assist in producing are, or are alleged to be deficient, inaccurate, or biased, our reputation, business, financial condition, and results of operations may be materially adversely affected"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts or headcount figures disclosed in the excerpts; investment intensity scored 3 based on named but unquantified initiatives.",
+  "AI narrative is largely aspirational and early-stage; no deployed use cases or production metrics described.",
+  "ERP system investment mentioned as a major financial undertaking but not explicitly linked to AI, so excluded from AI investment scoring.",
+  "Risk disclosure is company-specific with named risk mechanisms (accuracy errors, cybersecurity vulnerabilities, biases, regulatory compliance) and revenue/reputation impact pathways, but no quantification or named governance body for AI risk specifically, limiting score to 4."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-054643",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1316835/000119312526054643/bldr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T20:19:52.576918+00:00"
+ }
+}

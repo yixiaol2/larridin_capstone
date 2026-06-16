@@ -1,0 +1,49 @@
+{
+ "ticker": "BNY",
+ "source_document_id": "0001390777-26-000033",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "In 2025 we built out our AI training offerings so all employees can develop this important future skill and contribute to our AI everywhere for everyone philosophy",
+    "statements about...artificial intelligence...investments in technology"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "In 2025 we built out our AI training offerings so all employees can develop this important future skill and contribute to our AI everywhere for everyone philosophy",
+    "innovation in products and services, artificial intelligence...transition to a platforms operating model"
+   ],
+   "confidence": 0.55
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the development and use of artificial intelligence present risks and challenges that may materially adversely impact our business",
+    "limitations of the models we use to measure, monitor and manage risk could lead to unexpected losses and adverse business impacts"
+   ],
+   "confidence": 0.7
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-attributable spend, headcount, or capex figures appear in the excerpts; named initiative (AI training build-out) supports score 3 but not 4.",
+  "ai_narrative_concreteness: 'AI everywhere for everyone' and training build-out are named initiatives but no deployment metrics or production use-case detail are provided; score 3 reflects named program without quantified outcomes.",
+  "ai_risk_disclosure_depth: Risk-section material is present and names AI as a specific risk category with a mechanism ('materially adversely impact our business'), but no quantified risk scenarios or named governance/oversight bodies appear in the excerpts, capping at score 3.",
+  "Excerpts are limited; fuller filing sections (e.g., detailed risk factors, MD&A) may contain additional AI investment or risk detail not visible here."
+ ],
+ "_meta": {
+  "accession": "0001390777-26-000033",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000033/bk-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.6,
+  "extracted_at": "2026-06-15T20:14:43.132703+00:00"
+ }
+}

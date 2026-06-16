@@ -1,0 +1,51 @@
+{
+ "ticker": "RL",
+ "source_document_id": "0001628280-26-037074",
+ "source_type": "sec_filing",
+ "source_date": "2026-05-21",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "our Next Generation Transformation project...entails upgrading and enhancing our technology infrastructure, including AI and machine learning capabilities, to better enable us to implement process changes to improve productivity",
+    "effectively leverage AI, the efforts of which typically require significant capital investments",
+    "we continue to enhance our solutions for advanced analytics, furthering our use of AI, both predictive and generative, and machine learning for areas such as planning, marketing, and personalization"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Ask Ralph, a conversational artificial intelligence ('AI') shopping experience that invites consumers to engage with, and be inspired by, Ralph Lauren's unique and iconic take on style",
+    "furthering our use of AI, both predictive and generative, and machine learning for areas such as planning, marketing, and personalization",
+    "AI augmented security monitoring, endpoint protection, and identity and access management"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI tools and systems may be unavailable, fail to perform as intended, or produce inaccurate or misleading outputs...could result in errors, inefficiencies, operational disruptions, or diminished customer experiences",
+    "emerging AI technologies may further facilitate the unauthorized replication, imitation, and distribution of products, branding, logos, marketing materials",
+    "The legal and regulatory environment governing AI is rapidly evolving. Emerging laws and regulations...may impose new obligations, limit the use of AI, or require changes to our products, processes, or controls"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-specific capex figures appear in the excerpts; investment intensity scored 3 based on named programs and qualitative references to 'significant capital investments'.",
+  "Narrative concreteness scored 4 based on named deployed features (Ask Ralph) and described production use cases, but no quantified business results (e.g., conversion lift, revenue impact) are disclosed in the excerpts.",
+  "Risk disclosure is detailed and company-specific with named mechanisms (IP infringement, regulatory compliance costs, talent competition, data privacy), but no quantified risk exposure or named governance oversight body is cited, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-037074",
+  "filing_date": "2026-05-21",
+  "url": "https://www.sec.gov/Archives/edgar/data/1037038/000162828026037074/rl-20260328.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T18:50:19.732822+00:00"
+ }
+}

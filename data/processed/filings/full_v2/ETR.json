@@ -1,0 +1,69 @@
+{
+ "ticker": "ETR",
+ "source_document_id": "0000065984-26-000174",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "certain Utility operating companies are making or are planning to make significant infrastructure investments in new solar projects, natural gas power plants, and other transmission and generation assets to power new large-scale data centers",
+    "filing requested LPSC certification of three new combined cycle combustion turbine generation resources totaling 2,262 MW... a new 500 kV transmission line, and 500 kV substation upgrades",
+    "estimated costs are approximately $2,027 million for the Waterford 6 Power Station and $2,091 million for the Westlake Power Station"
+   ],
+   "confidence": 0.82
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Entergy Mississippi executed a large customer supply and service agreement to serve two data center campuses... in which Amazon Web Services is investing",
+    "Entergy Arkansas filed an application... for a long-term special rate contract between Altitude, LLC, a subsidiary of Alphabet, Inc. (Google) and Entergy Arkansas for the sale of electricity to a new large-scale data center",
+    "infrastructure investments are being made primarily in connection with electric service agreements... to provide power for new data centers being constructed to support artificial intelligence and other technology capabilities"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "concentration of business and credit risk with a small number of customers in an industry based on emerging technologies, including artificial intelligence and machine learning",
+    "advances in artificial intelligence technologies that could reduce the expected electricity demand for these technologies and data centers",
+    "threats fueled by artificial intelligence, Entergy s technology systems remain inherently vulnerable despite implementations and enhancements of the multiple layers of security and controls"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "estimated costs are approximately $2,027 million for the Waterford 6 Power Station",
+   "context": "New generation capacity to serve data center (AI) load, Louisiana"
+  },
+  {
+   "quote": "$2,091 million for the Westlake Power Station",
+   "context": "New generation capacity to serve data center (AI) load, Louisiana"
+  },
+  {
+   "quote": "three new combined cycle combustion turbine generation resources totaling 2,262 MW... a new 500 kV transmission line, and 500 kV substation upgrades",
+   "context": "Generation and transmission resources for Meta Platforms data center in north Louisiana"
+  },
+  {
+   "quote": "$10.8 million of project costs related to the Bayou Power Station project",
+   "context": "Expensed project costs for canceled data center transmission project, Louisiana"
+  }
+ ],
+ "limitations": [
+  "Entergy is a utility, not an AI developer; AI investment intensity reflects infrastructure build-out to serve AI-driven data center customers, not direct AI R&D or AI product development.",
+  "No single consolidated AI-attributable capex figure is disclosed; dollar amounts are project-level estimates for individual power stations.",
+  "ai_narrative_concreteness scored 4 (not 5) because no quantified business results (revenue, volume, savings) from AI-related data center service agreements are disclosed in the excerpts.",
+  "Risk disclosure is company-specific and mechanism-level (stranded assets, credit concentration, demand reduction from AI efficiency gains, cybersecurity threats from AI), supporting score 4; no quantified risk figures or named governance bodies specific to AI risk were found."
+ ],
+ "_meta": {
+  "accession": "0000065984-26-000174",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000174/etr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 31,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:40:14.099395+00:00"
+ }
+}

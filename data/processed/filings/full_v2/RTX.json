@@ -1,0 +1,49 @@
+{
+ "ticker": "RTX",
+ "source_document_id": "0000101829-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we continue to invest in the integration of artificial intelligence technologies into our processes and business operations",
+    "we are investing in artificial intelligence, among other advanced technologies, and our business may be adversely affected if we are unable to successfully integrate the technology"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we continue to invest in the integration of artificial intelligence technologies into our processes and business operations",
+    "implementing advanced manufacturing capabilities including digital initiatives and automation"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The methods and processes we use to develop, deploy or otherwise use artificial intelligence systems may be found to not be in compliance with rapidly evolving regulatory standards thereby preventing or frustrating our use",
+    "Improper use of artificial intelligence could also lead to data breaches, undetected cyber-attacks, regulatory action, and reputational risks",
+    "the sophistication, availability, and use of artificial intelligence by threat actors present an increased level of risk"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no dollar amounts, headcount, or quantified AI-attributable spend disclosed in excerpts; named initiative present but unquantified, capping score at 3",
+  "ai_narrative_concreteness: AI use cases described only at a high level (process integration, manufacturing automation) with no deployment status metrics or quantified outcomes; promotional/aspirational framing noted",
+  "ai_risk_disclosure_depth: risk-section material is present; risks are company-specific with named mechanisms (regulatory non-compliance, data breaches, IP misappropriation, cyber threat actors) but no quantification or named governance/oversight bodies, capping at 4"
+ ],
+ "_meta": {
+  "accession": "0000101829-26-000006",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/rtx-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:26:38.478186+00:00"
+ }
+}

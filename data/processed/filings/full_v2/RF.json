@@ -1,0 +1,51 @@
+{
+ "ticker": "RF",
+ "source_document_id": "0001281761-26-000019",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We and our third-party vendors, clients or counterparties develop, deploy and incorporate AI technology in certain business processes, services and products.",
+    "We currently rely, and expect to continue to rely, on AI models developed by third parties",
+    "automation, cognitive technologies and the open talent economy are reshaping the future of work, Regions makes available to technology associates courses on-demand"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We utilize quantitative models and machine learning models to assist in measuring risks and estimating or predicting certain financial values.",
+    "Models may be used in processes such as determining the pricing of various products, grading loans and extending credit, measuring interest rate and other market risks, preventing fraud, strengthening customer authentication processes, generating marketing analytics"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI models, particularly generative AI models, may produce output that is incorrect, result in the release of personal, confidential or proprietary information, reflect or introduce discrimination, errors or biases included in the data on which they are trained",
+    "The legal and regulatory environment relating to AI is uncertain and rapidly evolving...could require changes in our implementation of AI technology and increase our compliance costs and the risk of non-compliance.",
+    "We are also exposed to risks arising from the use of AI technologies by bad actors to commit fraud and misappropriate funds and to facilitate cyber-attacks and other similar incidents."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 based on named deployment activities only.",
+  "AI use cases are named (fraud prevention, credit grading, marketing analytics) but no deployment metrics or quantified outcomes are disclosed; concreteness capped at 3.",
+  "Data center figures in loan tables reflect lending exposure to data center clients, not Regions' own AI infrastructure spend, and were excluded from capex_mentions.",
+  "Promotional/aspirational language is present alongside risk disclosures; risk disclosure section is substantive and company-specific, supporting score of 4."
+ ],
+ "_meta": {
+  "accession": "0001281761-26-000019",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000019/rf-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T21:27:56.818273+00:00"
+ }
+}

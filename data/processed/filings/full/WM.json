@@ -1,0 +1,51 @@
+{
+ "ticker": "WM",
+ "source_document_id": "0001104659-26-012049",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-09",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "investing in automation to improve processes and drive operational efficiency combined with a focus on the cost to serve our customers will yield an attractive profit margin",
+    "the market for employees that serve on our digital team and support our investments in our technology-led automation and optimization strategy is highly competitive",
+    "We remain focused on our automation and optimization investments to enhance our operational efficiency and change the way we interact with our customers"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Inability to adapt to and manage the benefits and risks of artificial intelligence could expose us to liability or put us at a disadvantage",
+    "use and governance of artificial intelligence, including oversight of our artificial intelligence policies and procedures",
+    "Technology Risk Oversight Committee chaired by our CISO...provides oversight and guidance to technology risks, including cybersecurity, and our policies and procedures related to our development, deployment and monitoring of artificial intelligence"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Inability to adapt to and manage the benefits and risks of artificial intelligence could expose us to liability or put us at a disadvantage. Artificial intelligence technologies are subject to a variety of laws and compliance risk, including intellectual property, data protection and privacy",
+    "If we are not able to effectively govern the use and manage the risks of artificial intelligence, we may suffer harm to our results of operations and reputation",
+    "Technological advancements, including the progression of the capabilities of artificial intelligence, also increase the risk, likelihood and precision of cyber incidents"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, GPU counts, or quantified AI-specific capex found in excerpts; automation investments are discussed qualitatively but not attributed specifically to AI or quantified; score reflects generic digital/automation language without named AI systems or partners.",
+  "ai_narrative_concreteness: AI is named in risk and governance contexts but no specific AI use cases are described as deployed with operating detail; automation initiatives (recycling, residential collection) are described concretely but not explicitly labeled as AI-driven, limiting score to 3.",
+  "capex_mentions: No dollar figures tied specifically to AI or compute infrastructure appear in the excerpts; general automation investment figures are not broken out for AI."
+ ],
+ "_meta": {
+  "accession": "0001104659-26-012049",
+  "filing_date": "2026-02-09",
+  "url": "https://www.sec.gov/Archives/edgar/data/823768/000110465926012049/wm-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T19:11:47.974721+00:00"
+ }
+}

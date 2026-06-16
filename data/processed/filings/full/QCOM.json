@@ -1,0 +1,51 @@
+{
+ "ticker": "QCOM",
+ "source_document_id": "0000804328-25-000085",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We conduct broad, leading research and development across AI, including generative AI, from fundamental research to platform and applied research, with the goal of advancing AI core capabilities to run on-device",
+    "we intend to continue to make substantial investments in these new and expanded product areas, industries and applications, and in developing related products and technologies",
+    "We are also investing in research and development of data center products"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "The Qualcomm AI Engine, featured in our Snapdragon platforms and many of our other products, includes dedicated hardware capable of running complex AI use cases at high performance and low power on device",
+    "The Qualcomm AI Stack is a unified AI software portfolio designed to help developers optimize and deploy AI models quickly using our chipset solutions",
+    "AI-focused PCs, including those powered by our Snapdragon X Series platforms, allow for increased productivity and enhanced use cases enabled by on-device AI processing at low power"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "as AI continues to evolve, cyber-attackers could also use AI to develop malicious code and increasingly sophisticated phishing attempts",
+    "increasing use of AI by our employees and in our internal systems may create new attack surfaces or methods for malicious actors, and may increase the risk of unintended or inadvertent transmission of our proprietary or confidential information",
+    "the intellectual property ownership and license rights, including copyrights and patents, surrounding AI technologies...have not been fully addressed by U.S. or foreign courts, laws or regulations, and the use of AI in the development of our products and services could result in our loss of, or failure to obtain, intellectual property rights"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts, GPU/data-center scale, or percentage of capex tied specifically to AI disclosed in the excerpts; named programs and 'substantial investments' language present but unquantified, capping score at 3",
+  "ai_narrative_concreteness: Named deployed platforms (Snapdragon X Series, Qualcomm AI Engine, AI Hub) described with operating detail but no quantified business results (e.g., units shipped, revenue attributable, performance benchmarks) disclosed in excerpts",
+  "capex_mentions: No specific dollar or capacity figures for AI/compute investment found in the provided excerpts"
+ ],
+ "_meta": {
+  "accession": "0000804328-25-000085",
+  "filing_date": "2025-11-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T18:49:20.822174+00:00"
+ }
+}

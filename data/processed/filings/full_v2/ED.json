@@ -1,0 +1,49 @@
+{
+ "ticker": "ED",
+ "source_document_id": "0001047862-26-000031",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Developing, testing, and deploying resource-intensive AI systems may require additional investment and increase the Companies costs.",
+    "Generative AI technologies are still in their early stages of development and deployment."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "AI is an emerging area of technology that has the potential to impact various aspects of the Companies business operations and customer interactions.",
+    "Generative AI technologies are still in their early stages of development and deployment."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms that the Companies or their third-party vendors use may be flawed or may be based on datasets that are biased or insufficient.",
+    "While the Companies seek contractual protections with third-party vendors regarding the use of AI technology, the Companies may not have full awareness of, or control or visibility over, the quality, performance, security or compliance.",
+    "The rapidly evolving nature of AI technologies may cause new laws and regulations to be enacted which could dramatically affect business practices, including the costs to comply."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity: no named AI programs, dollar amounts, or headcount disclosed; only forward-looking cost acknowledgment present — scored 2 (generic statements).",
+  "AI narrative concreteness: excerpts contain only risk-section and aspirational language; no named deployed use cases or operational metrics found.",
+  "AI risk disclosure depth: excerpts are from the risk/business section and contain company-specific risk mechanisms (vendor opacity, algorithmic bias, regulatory cost, operational disruption), justifying score 4; no quantification or named governance body found to reach score 5."
+ ],
+ "_meta": {
+  "accession": "0001047862-26-000031",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1047862/000104786226000031/ed-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:29:49.495330+00:00"
+ }
+}

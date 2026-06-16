@@ -1,0 +1,51 @@
+{
+ "ticker": "UAL",
+ "source_document_id": "0000100517-26-000023",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "making significant investments... in startups developing technologies in aerospace, next-generation air traffic control and aviation infrastructure, energy transition and AI-driven travel innovation",
+    "may require significant expenditures, human resources, the development of effective internal controls and the transformation of business and financial processes",
+    "significant resources to develop, test and maintain our AI platform and services to help us implement AI in a compliant and ethical manner"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "The Company depends on technology and automated systems, including artificial intelligence ('AI'), to operate its business, including... demand prediction software, flight operations systems",
+    "Automated systems and technologies, including AI, are becoming increasingly important in our operations over time",
+    "Our use of AI applications has resulted in certain immaterial cybersecurity incidents"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if AI is improperly utilized, including if the content, analyses, or recommendations that AI applications assist in producing are or are alleged to be deficient, inaccurate, or biased, we would be exposed to new or expanded risks and liabilities",
+    "Our competitors or other third parties may incorporate AI into their products more quickly or more successfully than us, which could impair our ability to compete effectively",
+    "Our use of AI applications has resulted in certain immaterial cybersecurity incidents and may in the future result in additional cybersecurity incidents, including incidents that implicate the personal data of our customers"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI capex or budget figures appear in the excerpts; investment intensity scored 3 based on named initiatives and named vendor/technology categories without dollar amounts",
+  "AI use cases are named (demand prediction, flight operations, AI platform) but no deployment metrics or quantified business results are disclosed; concreteness capped at 3",
+  "Excerpts are exclusively from risk_factors section; no business or MD&A sections available to assess broader deployment detail or investment quantification"
+ ],
+ "_meta": {
+  "accession": "0000100517-26-000023",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T19:06:31.972924+00:00"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "ticker": "GNRC",
+ "source_document_id": "0001437749-26-004568",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we continued our new product development efforts by introducing a new line of large mega-watt diesel generator products to address the significant data center market opportunity",
+    "we expect to increase our manufacturing, test cell, and packaging capacity even further to be able to win market share and serve data center customers globally",
+    "investments in automation, including alternator production, engine assembly, robotic lasers welding, sheet metal fabrication, and other assembly line automation"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "revenue from products sold to data center customers... increase in international segment sales primarily driven by revenue to data center customers",
+    "Generac s recent entrance into the data center end market was enabled by the introduction of our large mega-watt diesel generator product line",
+    "the market for large-megawatt backup generators has become significantly supply-constrained. This presents a very large incremental opportunity for our recently introduced large-megawatt diesel generator offering"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Growth of the data center market is difficult to project and may not be sustaining... Our expectations regarding this market may not prove to be accurate or the market may not be sustainable",
+    "There is also increasing use of data analytics, machine learning, and artificial intelligence software, which our competitors may be able to use or implement more effectively than we are able to do",
+    "Use of artificial intelligence software may also create risks from the unintentional disclosure of proprietary, confidential, personal or otherwise sensitive information"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts or quantified AI-attributable capex/R&D figures appear in the excerpts; investment in data center capacity expansion is described qualitatively only, limiting score to 3.",
+  "ai_investment_intensity: Generac is primarily an AI-demand beneficiary (selling backup power to data centers) rather than an AI builder; internal AI R&D spend is not disclosed in these excerpts.",
+  "capex_mentions: No specific dollar figures tied to AI-attributable investment were found in the excerpts.",
+  "ai_narrative_concreteness: Revenue contribution from data center customers is noted directionally but no specific dollar amounts or growth percentages are broken out for the AI/data center segment, preventing a score of 5.",
+  "ai_risk_disclosure_depth: Risk disclosures name relevant categories (competitive AI adoption, data-center market uncertainty, cybersecurity from AI use) but do not quantify risk exposure or name formal AI governance bodies."
+ ],
+ "_meta": {
+  "accession": "0001437749-26-004568",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926004568/gnrc20251231_10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T20:49:27.174846+00:00"
+ }
+}

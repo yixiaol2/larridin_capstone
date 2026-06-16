@@ -1,0 +1,51 @@
+{
+ "ticker": "TROW",
+ "source_document_id": "0001628280-26-008002",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Our strategic investments include hiring investment and distribution professionals, adopting new technologies, offering new products, and growing and diversifying our business",
+    "We might be required to make significant capital expenditures to maintain a competitive technology stack",
+    "We or our third-party vendors, clients or counterparties have developed, and may continue to develop or incorporate AI technology in certain business processes, services or products"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We use various quantitative models (including ones supported by AI and machine-learning algorithms) to support investment decisions and investment processes, including those related to portfolio management and portfolio risk analysis",
+    "adopt new or adapt existing technologies to meet client, industry, and regulatory demands, including, for example, generative AI technology",
+    "AI technologies may also disrupt the competitive landscape for investment management and technology services, including in commercial and operational areas such as data aggregation and quantitative models"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Any errors in the underlying models or model assumptions could have unanticipated and adverse consequences on our business and reputation",
+    "any failure to properly safeguard and maintain personal data in connection with our use of AI creates potential risk of violating applicable privacy laws and regulations...could subject us to disclosure obligations, regulatory investigations, actions or fines",
+    "we may face competition from investment managers who use AI in lieu of human managers, which may lead to lower cost solutions which could impact our business"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/cloud partnerships disclosed in excerpts; only generic references to technology investment and a conditional capex statement.",
+  "ai_narrative_concreteness: Named use cases (portfolio management, risk analysis, generative AI adoption) are described but no deployment status metrics or quantified outcomes are provided; score reflects named initiatives without production detail.",
+  "capex_mentions: No dollar amounts or quantified AI/compute/data-center investment figures appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008002",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026008002/trow-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T18:59:51.802026+00:00"
+ }
+}

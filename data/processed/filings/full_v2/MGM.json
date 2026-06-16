@@ -1,0 +1,49 @@
+{
+ "ticker": "MGM",
+ "source_document_id": "0000789570-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have also invested heavily in technology and in the development of algorithms that detect early signs among players that can indicate a risk for unsound gaming.",
+    "We have launched a tool based on machine learning and algorithms that help in the creation of risk profiles for customers who are at risk of developing a gaming problem."
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We have launched a tool based on machine learning and algorithms that help in the creation of risk profiles for customers who are at risk of developing a gaming problem.",
+    "invested heavily in technology and in the development of algorithms that detect early signs among players that can indicate a risk for unsound gaming."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The rapid evolution and increased adoption of artificial intelligence technologies amplifies these concerns.",
+    "There has been an increase in criminal cybersecurity attacks against companies where systems have been breached, businesses disrupted, and customer, employee, and other company information has been compromised or destroyed."
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: 'invested heavily' is qualitative; no dollar amounts, headcount, or quantified scale disclosed in these excerpts — score capped at 3.",
+  "ai_narrative_concreteness: the ML-based responsible gaming tool is described as deployed/in production with operational detail, but no quantified business results (e.g., % reduction in problem gambling, volume of profiles created) are present — score capped at 4.",
+  "ai_risk_disclosure_depth: AI risk is named (amplified cybersecurity threat from AI adoption) but the mechanism is generic; no company-specific scenario, quantification, or named governance body is disclosed — score 3.",
+  "Excerpts are limited to two risk-factor passages; broader AI investment or use-case disclosures elsewhere in the filing are not visible here."
+ ],
+ "_meta": {
+  "accession": "0000789570-26-000018",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/789570/000078957026000018/mgm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T21:07:05.100107+00:00"
+ }
+}

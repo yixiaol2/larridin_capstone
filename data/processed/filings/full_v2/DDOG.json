@@ -1,0 +1,51 @@
+{
+ "ticker": "DDOG",
+ "source_document_id": "0001628280-26-008819",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have created an AI Research Lab to develop novel solutions, and engineers across our research and development organization are tasked with using AI and developing AI capabilities within their platform and product areas",
+    "we are making investments in expanding our artificial intelligence capabilities, which will require significant investment in infrastructure and personnel",
+    "As of December 31, 2025, we had approximately 3,900 employees in our research and development organization. We intend to continue to invest in our research and development capabilities"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "in 2025 we launched OnCall, Product Analytics, and Bits AI SRE Agent to autonomously investigate alerts, surface root causes, and draft summaries about incidents",
+    "LLM Observability provides end-to-end tracing of LLM chains with visibility into input-output, errors, token usage, and latency at each step",
+    "AI-native cohort...represented approximately seven percentage points of our year-over-year revenue growth for the quarter ended December 31, 2025"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the issue of intellectual property ownership and license rights surrounding AI technologies has not been fully addressed by U.S. courts...could expose us to intellectual property claims",
+    "the European Union's Artificial Intelligence Act...came into effect in August 2024...contains numerous requirements regarding the development and use of AI and imposes significant monetary fines",
+    "our business may be disrupted if any of the third-party AI services we use become unavailable due to extended outages or commercially unreasonable terms of service"
+   ],
+   "confidence": 0.83
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No specific dollar amounts for AI-attributable R&D or capex were disclosed in the excerpts; the AI Research Lab and infrastructure investment references are qualitative only, capping investment intensity at 3",
+  "The ~7 percentage points of revenue growth from AI-native cohort is a revenue metric, not a quantified AI investment figure",
+  "Concreteness score reflects named deployed products with one quantified business metric (revenue growth contribution); full quantified outcome data (e.g., % time saved, error reduction rates) not present in excerpts"
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008819",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026008819/ddog-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:33:12.226013+00:00"
+ }
+}

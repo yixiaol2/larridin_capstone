@@ -1,0 +1,52 @@
+{
+ "ticker": "T",
+ "source_document_id": "0000732717-26-000120",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-09",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are using and intend to further use AI-driven efficiencies in our network design and operations, software development, sales, marketing, customer support services and general and administrative costs",
+    "We also expect cost savings through AI-driven efficiencies in network design and operations, software development, sales, marketing, customer support services and general and administrative costs",
+    "We hold a 16.6% interest in DriveNets, which designs and builds high-scale networking solutions for service providers and AI infrastructures"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we are using and intend to further use AI-driven efficiencies in our network design and operations, software development, sales, marketing, customer support services and general and administrative costs",
+    "AI are expected to continue to drive greater demand for broadband, which we believe will allow us to capitalize on our fiber and 5G deployments",
+    "An increasing number of our customers are using mobile devices for using AI-enabled applications and as their primary means of viewing video"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The models used in those products or operations, particularly generative AI models, may produce output or take action that is incorrect, release private or confidential information, reflect biases included in the data on which they are trained, infringe on the intellectual property rights of others",
+    "AI-related laws and regulations continue to remain uncertain and may vary from jurisdiction to jurisdiction. There can be no assurance that the usage of AI will meaningfully enhance our products or operations",
+    "the use of artificial intelligence and machine learning by cybercriminals may increase the frequency and severity of cybersecurity attacks against us or our suppliers, vendors and other service providers"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 rather than 4 or 5 as a result.",
+  "AI use cases are named (network design, operations, software development, sales, marketing, customer support) but no deployment metrics or quantified outcomes are disclosed; concreteness capped at 3.",
+  "Risk disclosure describes specific mechanisms (model errors, bias, IP infringement, regulatory uncertainty, cybercriminal AI use) and links them to operational/legal/reputational consequences, supporting a score of 4; no quantified risk figures or named governance bodies were found to justify a score of 5.",
+  "The DriveNets equity investment ($819M additional investments noted in the table) is not explicitly broken out as AI-attributable capex in the excerpts, so it was not included in capex_mentions."
+ ],
+ "_meta": {
+  "accession": "0000732717-26-000120",
+  "filing_date": "2026-02-09",
+  "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000120/t-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:03:56.752831+00:00"
+ }
+}

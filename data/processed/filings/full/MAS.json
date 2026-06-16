@@ -1,0 +1,42 @@
+{
+ "ticker": "MAS",
+ "source_document_id": "0000062996-26-000005",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "cybersecurity vulnerabilities...may be increasingly exacerbated by the proliferation of and advance in artificial intelligence, pose a risk to our information technology systems",
+    "we may be harmed if our proprietary or confidential information regarding our business is exposed through the unauthorized use of artificial intelligence technologies"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no AI investment, capex, or infrastructure spending discussed in the provided excerpts",
+  "ai_narrative_concreteness: no AI use cases, initiatives, or deployment details present in the excerpts; AI appears only in risk-factor context",
+  "ai_risk_disclosure_depth: scored 3 rather than 4 because the excerpts name specific risk categories (cybersecurity amplification by AI, IP exposure via unauthorized AI use) but do not describe mechanisms by which these risks would hit revenue/operations/compliance in quantified or detailed operational terms"
+ ],
+ "_meta": {
+  "accession": "0000062996-26-000005",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/62996/000006299626000005/mas-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T18:30:23.745784+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "PG",
+ "source_document_id": "0000080424-25-000076",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-04",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Periodically, we and/or our suppliers also upgrade IT/OT systems or adopt new technologies, including those enabled by machine learning or artificial intelligence.",
+    "failure to continually innovate... including the timely, responsible and effective adoption of emerging technologies such as artificial intelligence, could compromise our competitive position"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "failure to continually innovate... including the timely, responsible and effective adoption of emerging technologies such as artificial intelligence, could compromise our competitive position",
+    "Periodically, we and/or our suppliers also upgrade IT/OT systems or adopt new technologies, including those enabled by machine learning or artificial intelligence."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "misuse of artificial intelligence and machine learning technologies... could interrupt product supply and... have an adverse impact on our business, financial condition",
+    "If such a new system or technology does not function properly, provides flawed or inaccurate outputs or exposes us to increased cybersecurity incidents... it could affect our ability to order materials, make and ship orders",
+    "subject to a wide variety of laws, regulations... involving... artificial intelligence... across the countries in which we do business"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or named AI programs appear in the excerpts; investment intensity scored 2 based on generic adoption language only.",
+  "Excerpts are predominantly from risk_factors and mdna forward-looking cautionary sections; no operational or business-segment detail describing deployed AI use cases with metrics is present.",
+  "AI risk disclosure covers named risk categories (misuse, flawed outputs, regulatory exposure, cybersecurity) but lacks quantification or named governance bodies, capping the score at 3."
+ ],
+ "_meta": {
+  "accession": "0000080424-25-000076",
+  "filing_date": "2025-08-04",
+  "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000076/pg-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T21:24:21.628317+00:00"
+ }
+}

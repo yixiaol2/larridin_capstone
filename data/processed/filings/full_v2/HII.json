@@ -1,0 +1,52 @@
+{
+ "ticker": "HII",
+ "source_document_id": "0001501585-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We also develop, test, and integrate leading-edge AI and machine learning algorithms to optimize and accelerate the nation's mission-critical systems and platforms.",
+    "Mission Technologies segment provides... the application of artificial intelligence and machine learning to battlefield decisions... unmanned autonomous systems",
+    "We have implemented an AI Governance and Enablement Program to oversee the use of AI in our business."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "application of artificial intelligence and machine learning to battlefield decisions; defense and offensive cyberspace strategies and electronic warfare; unmanned autonomous systems",
+    "develop, test, and integrate leading-edge AI and machine learning algorithms to optimize and accelerate the nation's mission-critical systems and platforms",
+    "utilize artificial intelligence, including generative artificial intelligence, machine learning... to enhance productivity and operational efficiency and optimize processes"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If the AI tools that we use are deficient, incomplete, inaccurate, biased... we could incur operational inefficiencies, competitive harm, legal liability, brand or reputational harm",
+    "degraded or flawed performance of the AI tools... may result from adversarial attacks that include data poisoning, malware risks, and evasion techniques which are not readily detectable",
+    "AI regulation is rapidly evolving worldwide... We may not be able to anticipate how to respond to these rapidly evolving frameworks, and we may need to expend resources to adjust our operations"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3 due to absence of quantification.",
+  "AI narrative concreteness scored 4 based on named deployed use cases (battlefield AI, cyberspace operations, autonomous systems) with operational detail, but no quantified business results (%, $, volume) are present to justify a score of 5.",
+  "Risk section material is present in the excerpts (mdna section contains explicit AI risk discussion); risk disclosure scored 4 for company-specific risk mechanisms (data poisoning, adversarial attacks, regulatory fragmentation, IP liability) but no quantification or named oversight body beyond the AI Governance and Enablement Program.",
+  "Excerpts are pre-filtered; full filing may contain additional AI investment or risk detail not visible here."
+ ],
+ "_meta": {
+  "accession": "0001501585-26-000006",
+  "filing_date": "2026-02-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000006/hii-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:55:37.014832+00:00"
+ }
+}

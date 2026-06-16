@@ -1,0 +1,49 @@
+{
+ "ticker": "WTW",
+ "source_document_id": "0001193125-26-069307",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we may invest in and develop technologies such as AI, digital platforms, data analytics, robotics and blockchain",
+    "incorporating artificial intelligence (AI) into certain product offerings is becoming more important in our operations"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "incorporating artificial intelligence (AI) into certain product offerings is becoming more important in our operations",
+    "we may invest in and develop technologies such as AI, digital platforms, data analytics, robotics and blockchain"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "rapid advances in generative and agentic AI may enable certain clients to perform internally, automate, or obtain through low-cost digital tools analytical, benchmarking, modeling, drafting or other work",
+    "use of third-party generative AI tools by our employees...presents a risk that confidential, personal or proprietary information could be inadvertently disclosed through prompts or uploads",
+    "The Risk Committee assists the board...in its oversight of...cybersecurity, technology, information security, privacy, and artificial intelligence risk"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no quantified AI spend, headcount, or named vendor/infrastructure commitments disclosed in excerpts; language is aspirational and conditional",
+  "ai_narrative_concreteness: no named deployed AI initiatives or production use cases with operating detail found in excerpts; language is generic and forward-looking",
+  "ai_risk_disclosure_depth: scored 4 because risk-section excerpts identify company-specific risk mechanisms (client self-service displacement, IP leakage via third-party AI tools, cybersecurity attack surface expansion) and name a governance body (Risk Committee) with explicit AI risk oversight mandate, though no quantified risk treatment is disclosed"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-069307",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1140536/000119312526069307/wtw-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T19:13:53.295321+00:00"
+ }
+}

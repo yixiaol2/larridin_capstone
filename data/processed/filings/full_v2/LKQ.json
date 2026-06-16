@@ -1,0 +1,44 @@
+{
+ "ticker": "LKQ",
+ "source_document_id": "0001065696-26-000012",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "organic investments in automation, productivity improvements, talent development, and strategic acquisitions"
+   ],
+   "confidence": 0.45
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "initiatives to improve operating efficiencies, enhance margins and leverage the intellectual capital opportunities that exist across our operating segments"
+   ],
+   "confidence": 0.4
+  },
+  "ai_risk_disclosure_depth": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts contain no explicit mention of AI or artificial intelligence — only generic references to automation and productivity; ai_investment_intensity scored 2 based on automation language but AI-attributability is weak.",
+  "ai_narrative_concreteness scored 2 due to aspirational/generic language with no named AI initiatives or use cases.",
+  "No risk-section content appears in the excerpts; ai_risk_disclosure_depth scored null — absence from excerpts is not absence from the filing.",
+  "Excerpt is truncated; fuller context may change scores."
+ ],
+ "_meta": {
+  "accession": "0001065696-26-000012",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T21:04:10.237214+00:00"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "ticker": "HAL",
+ "source_document_id": "0000045012-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Landmark Software and Services: provides cloud based digital services and artificial intelligence solutions on an open architecture for subsurface insights, integrated well construction, and reservoir and production management.",
+    "Continue to drive differentiation and efficiencies through the deployment of digital and automation technologies, both internally and for our customers."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Landmark Software and Services: provides cloud based digital services and artificial intelligence solutions on an open architecture for subsurface insights, integrated well construction, and reservoir and production management.",
+    "utilizing our Zeus IQ electric fracturing platform, our iCruise rotary steerable systems and LOGIX automation."
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The increased use of artificial intelligence by threat actors has heightened risks, as AI-driven cyberattacks can automate the discovery of vulnerabilities, generate highly convincing phishing attempts, and evade traditional detection methods.",
+    "technology trends, including artificial intelligence and machine learning, our business and consolidated results of operations could be materially and adversely affected, and the value of our intellectual property may be reduced."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "Maintain our capital expenditures at about $1.1 billion",
+   "context": "2026 capital efficiency focus; not explicitly AI-attributable, tied to technology and process improvements broadly"
+  }
+ ],
+ "limitations": [
+  "The $1.1 billion capex figure is not explicitly AI-attributable; it covers all capital expenditures, so it was not scored as AI investment intensity evidence.",
+  "AI investment intensity scored 3 (named programs, no quantified AI-specific spend); no dollar amounts are tied specifically to AI R&D or AI product build-out.",
+  "Narrative concreteness scored 4 based on named deployed platforms (Landmark AI solutions, LOGIX automation) with operational detail, but no quantified business results (e.g., revenue, efficiency %) are present in the excerpts.",
+  "Risk disclosure includes both AI-as-threat-vector (cybersecurity) and AI-as-competitive-risk mechanisms, supporting score 4, but no quantified risk exposure or named governance body is disclosed in these excerpts."
+ ],
+ "_meta": {
+  "accession": "0000045012-26-000015",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/45012/000004501226000015/hal-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:51:57.577959+00:00"
+ }
+}

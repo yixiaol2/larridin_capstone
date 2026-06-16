@@ -1,0 +1,48 @@
+{
+ "ticker": "TXN",
+ "source_document_id": "0000097476-26-000059",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "data center markets, is expected to continue well into the future... we continued qualifying and ramping production at our newest 300mm wafer fabs",
+    "we invested $3.94 billion in R&D and SG&A, invested $4.55 billion in capital expenditures"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "growth of semiconductor content in electronics has continued to drive demand for our products, particularly in the automotive, industrial and data center end markets",
+    "As the digitization of electronics continues, there is a growing need and opportunity for analog chips to provide the power to run devices"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "incidents relating to our information technology systems... could be caused by factors such as... use of artificial intelligence (AI) tools, or human error",
+    "These events could... compromise our information technology networks; result in corrupt or lost data or the unauthorized release of... confidential or proprietary information"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: TXN is an analog/embedded semiconductor supplier, not an AI-focused builder. The $4.55B capex and $3.94B R&D are not explicitly attributed to AI; they relate to 300mm fab expansion broadly. Data center is named as a market (9% of revenue) but no AI-specific investment dollar is quoted. Score reflects generic AI-adjacent positioning only.",
+  "ai_narrative_concreteness: AI is not named as a product or initiative; data center demand is referenced as a growth driver but no AI-specific use case or deployment is described. Score reflects aspirational/market-level language.",
+  "ai_risk_disclosure_depth: Risk-section material is present. AI is mentioned specifically as a cybersecurity threat vector (use of AI tools by bad actors), with named risk mechanisms (data compromise, operational disruption). No quantification or formal AI governance body is disclosed beyond CIO/CISO oversight structure, which is framed around cybersecurity broadly."
+ ],
+ "_meta": {
+  "accession": "0000097476-26-000059",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000059/txn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:38:10.203004+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "ADI",
+ "source_document_id": "0000006281-25-000153",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we incorporate AI capabilities across our technologies, business operations, products and services to enhance performance and drive smarter, more efficient solutions",
+    "we recently introduced an upgrade to our open-source embedded development platform, CodeFusion Studio 2.0, designed to support embedded system design through integrated workflows",
+    "These platforms are part of our broader Physical Intelligence vision, which seeks to leverage our deep expertise in electro-physical systems to develop and fine-tune foundational AI models"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "In fiscal 2025, we also launched Power Studio, a digital simulation and design ecosystem integrating new system-level and IC-level design capabilities into a single product family",
+    "CodeFusion Studio 2.0 facilitates prototyping and deployment of applications on ADI platforms and is intended to reduce development time and improve system integration",
+    "growth in the wireline sub-market from data center infrastructure expansion in support of AI applications"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our use of AI may also increase vulnerability to cybersecurity risks, including through unauthorized use or misuse of AI tools and bad inputs or logic or the introduction of malicious code incorporated into AI generated code",
+    "Evolving rules, regulations and industry standards governing AI may require us to incur greater compliance costs and restrict the use of AI in our products or technologies... including the European Union's AI Act",
+    "the use of AI in the development of our products and services...could cause loss of intellectual property, or subject us to risks related to intellectual property infringement or misappropriation, data privacy or cybersecurity"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; investment intensity scored 3 based on named initiatives and platforms without dollar amounts or headcount figures.",
+  "ai_narrative_concreteness scored 4 based on named deployed products (CodeFusion Studio 2.0, Power Studio) with operational detail, but no quantified business results (e.g., % time saved, revenue attributed) were disclosed, preventing a score of 5.",
+  "Some AI language in the business section is promotional/aspirational (e.g., 'Physical Intelligence vision'); confidence adjusted accordingly."
+ ],
+ "_meta": {
+  "accession": "0000006281-25-000153",
+  "filing_date": "2025-11-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628125000153/adi-20251101.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:23:25.159313+00:00"
+ }
+}

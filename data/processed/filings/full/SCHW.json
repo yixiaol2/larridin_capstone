@@ -1,0 +1,49 @@
+{
+ "ticker": "SCHW",
+ "source_document_id": "0000316709-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Industry and competitive trends including artificial intelligence, digital assets, private company securities and other alternative investments",
+    "Schwab manages model risk, including use of artificial intelligence, through use of policies, standards, and controls"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Model uses at Schwab include...identifying and preventing fraud and other financial crimes, and providing guidance in the management of client portfolios",
+    "Prior to the use of any artificial intelligence, we employ procedures which require cross-functional review from applicable oversight functions"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Increasing sophistication in artificial intelligence...has resulted in increased risk of external fraud by enhanced or novel techniques, including those involving impersonation to gain access to client accounts",
+    "use of artificial intelligence technologies, of organized crime, activists, hackers and other external parties, including foreign state actors",
+    "Model risk is the potential for adverse consequences from decisions based on incorrect or misused model outputs"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI capex, headcount, or budget figures appear in the excerpts; investment intensity scored 2 based on generic strategic mentions only.",
+  "AI narrative concreteness is limited to named use cases (fraud detection, portfolio guidance) with no deployment metrics or quantified outcomes; scored 3.",
+  "Risk section excerpts are present (mdna/item_8 labels) and contain substantive AI risk discussion; risk score reflects company-specific mechanisms (fraud impersonation, model error consequences) but no quantification or named governance body beyond cross-functional review procedures."
+ ],
+ "_meta": {
+  "accession": "0000316709-26-000009",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:38:39.559620+00:00"
+ }
+}

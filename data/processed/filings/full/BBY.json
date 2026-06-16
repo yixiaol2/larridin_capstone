@@ -1,0 +1,49 @@
+{
+ "ticker": "BBY",
+ "source_document_id": "0000764478-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have already activated on ways to bring our products to life through artificial intelligence (AI) platforms, which will continue to grow during fiscal 2027",
+    "We are also partnering with various platform providers to create a more seamless agentic shopping journey"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we have already activated on ways to bring our products to life through artificial intelligence (AI) platforms, which will continue to grow during fiscal 2027",
+    "partnering with various platform providers to create a more seamless agentic shopping journey, making it easier for customers to both find and purchase directly from our product catalog"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The integration of AI into our operations introduces cybersecurity and privacy risks (including unauthorized or misuse of AI tools) and could lead to potential unauthorized access...or challenge the stability of our platforms",
+    "as threat actor use of adversarial AI technology increases, vulnerabilities may be identified and exploited at a more rapid pace, which will make maintaining our system integrity more challenging",
+    "Inability to quickly adapt to changes in customer behavior (e.g., AI-driven search, AI shopping bots) could have an adverse impact on our financial results"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI capex, headcount, or budget figures appear in the excerpts; investment intensity scored 3 based on named initiatives and partnerships only",
+  "AI narrative concreteness scored 3 because named initiatives (agentic shopping journey, AI platform activations) are described without deployment metrics or quantified business results",
+  "Risk disclosure scored 4 based on company-specific risk mechanisms (cybersecurity, competitive impact, regulatory lag, AI-driven fraud) with operational detail, but no quantified risk figures or named governance bodies appear in the excerpts"
+ ],
+ "_meta": {
+  "accession": "0000764478-26-000009",
+  "filing_date": "2026-03-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000009/bby-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:29:44.049799+00:00"
+ }
+}

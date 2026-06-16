@@ -1,0 +1,50 @@
+{
+ "ticker": "CEG",
+ "source_document_id": "0001868275-26-000032",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our implementation of generative AI to improve business and operational performance has led to the introduction of enhanced technologies",
+    "Continued implementation of advanced digital technologies, including generative AI and machine learning, increases the potentially unfavorable impacts"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we have benefited from increased demand for our generation as a result of the developing data economy, including demand driven by data centers and AI and other high-performance computing applications",
+    "evidenced by the execution of long-term contracts with technology companies as well as increased interest in prospective contracts from our customers",
+    "Our implementation of generative AI to improve business and operational performance has led to the introduction of enhanced technologies"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI systems...may produce inaccurate, biased or misleading outputs or experience errors, security vulnerabilities or other failures, which could result in operational disruptions, flawed decision making, data loss, cybersecurity incidents or reputational harm",
+    "the legal and regulatory landscape governing AI technologies is rapidly evolving and uncertain, and compliance with new or changing requirements may impose significant costs or limit our ability to develop, deploy or use AI",
+    "Demand associated with data centers and AI applications may be subject to technological change, shifts in customer behavior, regulatory developments, or changes in capital investment cycles"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific capex, headcount, or budget figures appear in the excerpts; generative AI deployment is named but not sized — scored 3 rather than 4/5.",
+  "ai_narrative_concreteness: Long-term contracts with technology companies are cited as evidence of AI-driven demand benefit, but no quantified business results (revenue, volume, %) are disclosed; scored 4 rather than 5.",
+  "capex_mentions: No dollar or capacity figures tied specifically to AI or compute infrastructure appear in the provided excerpts."
+ ],
+ "_meta": {
+  "accession": "0001868275-26-000032",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000032/ceg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T17:43:47.272700+00:00"
+ }
+}

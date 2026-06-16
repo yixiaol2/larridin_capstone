@@ -1,0 +1,52 @@
+{
+ "ticker": "TRMB",
+ "source_document_id": "0000864749-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our platform investments allow us to extend our differentiation in positioning and sensing, modeling, AI machine learning, and analytics into emerging industry solutions",
+    "software and services, which already accounts for over 70% of our R&D investment... AI and machine learning... among key technology areas covered by 1,000+ patents",
+    "Our AI strategy requires substantial investment in technology and talent, and there can be no assurance that our investments will be beneficial to our business"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI-assisted daily reports in construction management; AI-powered model rendering and synchronous collaboration in architectural design; generative AI for fabrication models in BIM engineering",
+    "next-gen Trimble TMS along with a suite of new AI agents and workflows... automate mission-critical workflows such as order intake and carrier vetting to provide predictive insights",
+    "expanded the Trimble Reality capture platform service... introducing additional AI-based data classification and point cloud to model inspection tools enabling construction quality assurance"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI-related laws and regulations in the U.S. and other countries are rapidly evolving... could impose significant compliance costs, restrict certain AI applications, or require us to alter our AI-related practices",
+    "AI may produce erroneous or misleading content... failure by our personnel, contractors, or partners to adhere to our AI policies could result in violations of confidentiality obligations, jeopardize IP rights, expose us to data privacy risks",
+    "our use of AI and machine learning relies on access to large datasets... Evolving laws governing AI may impose new restrictions on how we collect and use data to train our models, potentially limiting our ability to innovate"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No specific dollar amounts or quantified AI R&D/capex figures disclosed in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "ai_narrative_concreteness scored 4 (deployed use cases with operating detail) but no quantified business results (%, $, time saved) were provided, preventing a score of 5.",
+  "Risk disclosure is detailed and company-specific with named mechanisms (regulatory, IP, data privacy, competitive), but no quantified risk exposure or named governance oversight body was cited, preventing a score of 5.",
+  "Promotional language present throughout business section; evidence of claims rather than independently verified outcomes."
+ ],
+ "_meta": {
+  "accession": "0000864749-26-000015",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/864749/000086474926000015/trmb-20260102.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 20,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:40:10.214166+00:00"
+ }
+}

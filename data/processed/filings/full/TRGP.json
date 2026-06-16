@@ -1,0 +1,45 @@
+{
+ "ticker": "TRGP",
+ "source_document_id": "0001193125-26-059296",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": 1,
+   "evidence": [
+    "rapid changes and innovation in the field of artificial intelligence... may result in a compromise or breach of the technology we use to safeguard confidential, personal, or otherwise protected information",
+    "the breadth and complexity of the technologies we use continue to grow, including as a result of the use of artificial intelligence"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Advances in computer capabilities, rapid changes and innovation in the field of artificial intelligence, cryptography... may result in a compromise or breach of the technology we use",
+    "as a result of the use of artificial intelligence, mobile devices, cloud computing... the potential risk of security breaches and cybersecurity attacks also increases"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity not scorable: excerpts contain no discussion of AI capital expenditure, named AI systems, vendors, or dedicated AI budgets",
+  "ai_narrative_concreteness scored 1: AI is mentioned only in the context of cybersecurity risk boilerplate with no named AI use cases or initiatives by the company itself",
+  "ai_risk_disclosure_depth scored 3: AI is named as a specific risk vector (cybersecurity threat amplifier) within what appears to be risk-factor/MD&A material, but no quantified risk treatment or named governance body is disclosed; risk mechanism is described generically rather than with company-specific operational detail"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-059296",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1389170/000119312526059296/trgp-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-11T19:01:04.618090+00:00"
+ }
+}

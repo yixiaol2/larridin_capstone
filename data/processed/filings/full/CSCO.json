@@ -1,0 +1,56 @@
+{
+ "ticker": "CSCO",
+ "source_document_id": "0000858877-25-000111",
+ "source_type": "sec_filing",
+ "source_date": "2025-09-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "R&D expenses increased primarily due to higher headcount-related expenses reflecting our investments in AI, share-based compensation expense, cash compensation expenses from acquisitions",
+    "R&D expenses: $9,300M in fiscal 2025 vs $7,983M in fiscal 2024, a $1,317M (16%) increase",
+    "we also intend to invest in personnel and other resources related to our engineering, sales, service and marketing functions as we realign and dedicate resources on key priority areas, such as AI, cloud, and cybersecurity"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We provide network infrastructure to power AI training and inference workloads for both webscale providers and enterprises",
+    "revenue increase in our service provider and cloud market was driven by AI infrastructure revenue from webscale customers",
+    "Cisco Hypershield, our cloud-native and AI-powered approach to highly distributed security for AI-scale data centers that is built into the fabric of the network, is the first service offering available embedded on these new switches"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms and training methodologies may be flawed... AI-related legal and regulatory landscape is constantly evolving... Our obligations to comply with the evolving legal and regulatory landscape could entail significant costs or limit our ability to incorporate certain AI capabilities",
+    "emergence and maturation of AI capabilities has led to new and/or more effective methods of cyber attacks",
+    "U.S. copyright or patent protection for inventions or works developed in part or wholly by generative AI tools may be limited, or not available at all"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "R&D expenses increased primarily due to higher headcount-related expenses reflecting our investments in AI",
+   "context": "R&D expenses rose $1,317M (16%) YoY to $9,300M in fiscal 2025, partially attributed to AI investment"
+  }
+ ],
+ "limitations": [
+  "No explicit dollar amount is ring-fenced exclusively for AI capex or AI infrastructure spend; the $1,317M R&D increase is attributed to AI among other factors (acquisitions, compensation), so ai_investment_intensity scored 4 rather than 5 due to lack of a dedicated, quantified AI-only budget or multi-year commitment figure",
+  "ai_narrative_concreteness scored 4 rather than 5 because while AI infrastructure revenue growth from webscale customers is cited directionally, no specific quantified business results (%, $, volume) for individual AI use cases are disclosed in the excerpts",
+  "Risk section material is present in the excerpts; ai_risk_disclosure_depth scored 4 because specific risk mechanisms (regulatory cost, IP limitations, cyber attack vectors) are described with operational detail, but no quantified risk figures or named governance/oversight bodies are disclosed"
+ ],
+ "_meta": {
+  "accession": "0000858877-25-000111",
+  "filing_date": "2025-09-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000111/csco-20250726.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 20,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T17:40:51.141649+00:00"
+ }
+}

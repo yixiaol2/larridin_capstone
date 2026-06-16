@@ -1,0 +1,50 @@
+{
+ "ticker": "CMG",
+ "source_document_id": "0001058090-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-04",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Modernize our business model with industry-leading technology, including leveraging AI and relaunching our Rewards Program, to elevate the experience for our guests and teams",
+    "We continue to invest in and utilize emerging technologies that have potential to make business tasks easier, more efficient and less labor intensive, including artificial intelligence and machine learning."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Modernize our business model with industry-leading technology, including leveraging AI and relaunching our Rewards Program, to elevate the experience for our guests and teams",
+    "We are an investor in Vebu Inc., a developer of restaurant automation technology... purchases from Vebu were $5,561 [thousand in 2025]"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "These new technologies may not deliver the expected efficiencies and could expose us to new risks, including risks related to cybersecurity, data privacy, inaccuracies, hallucinations, bias or discrimination and claims of intellectual property infringement.",
+    "We expect that the rapid evolution and increased adoption of artificial intelligence have heightened and will continue to heighten those risks [of cyber-attacks and security threats].",
+    "privacy and data security (including regulations governing the protection of personal information... artificial intelligence, health-related information and financial information)"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-specific investment figures disclosed in the excerpts; AI investment intensity scored 3 based on named strategic pillar and ongoing investment language only.",
+  "AI narrative concreteness is limited: the Rewards Program relaunch and AI modernization are named but no deployment status or operational metrics are provided; Vebu automation investment is quantified but not explicitly labeled as AI.",
+  "Promotional/strategic language ('industry-leading technology') is treated as a claim, not a confirmed outcome, reducing confidence in concreteness score.",
+  "Capex mentions list is empty as no AI-attributable dollar amounts for investment or capex were found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001058090-26-000009",
+  "filing_date": "2026-02-04",
+  "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:25:48.468143+00:00"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "ticker": "BF-A",
+ "source_document_id": "0000014693-25-000062",
+ "source_type": "sec_filing",
+ "source_date": "2025-06-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9,
+   "limitations": [
+    "No AI investment, capex, or infrastructure commitment discussed in the excerpts; only risk-factor content present"
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9,
+   "limitations": [
+    "No AI use cases, initiatives, or deployment details appear in the excerpts; AI is referenced only as a cyber-risk factor"
+   ]
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "new technology like generative artificial intelligence, further increases our exposure to cyber risk",
+    "data protection and AI regulations in the European Union, and other similar regulations that may change or be added to frequently"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts are limited to a single risk-factors passage; no investment, strategy, or MD&A sections are present, so ai_investment_intensity and ai_narrative_concreteness cannot be scored.",
+  "AI risk disclosure scores 3 (named risk categories: generative AI as cyber-risk vector, AI regulation in EU) but stops short of company-specific risk mechanisms or quantified/governance-backed treatment."
+ ],
+ "_meta": {
+  "accession": "0000014693-25-000062",
+  "filing_date": "2025-06-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/14693/000001469325000062/bfb-20250430.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-11T17:32:48.524143+00:00"
+ }
+}

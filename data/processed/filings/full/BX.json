@@ -1,0 +1,49 @@
+{
+ "ticker": "BX",
+ "source_document_id": "0001193125-26-082531",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "our employees can utilize internal generative AI-powered applications to help summarize, search or translate documents or gather information on a wide variety of topics",
+    "Some of our competitors may be more successful than we are in the development and implementation of new technologies, including services and platforms based on artificial intelligence"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "our employees can utilize internal generative AI-powered applications to help summarize, search or translate documents or gather information on a wide variety of topics",
+    "AI Technologies could significantly disrupt the business models, investment strategies, operational processes, and markets in which we operate"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "advancements in computing and AI Technologies, including efficiency improvements, without related increases in the adoption and development of such technologies, could negatively impact demand for, and the valuation of, digital infrastructure assets",
+    "a user may input confidential information, including material non-public information or personal identifiable information, into AI Technology applications, resulting in such information becoming part of a dataset accessible by third-party AI Technology applications",
+    "the EU adopted the Artificial Intelligence Act in 2024, which applies to certain AI Technologies...which may create additional compliance burdens, higher administrative costs and significant penalties"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific capex, headcount, or budget figures disclosed in the excerpts; the only named AI use is an internal generative AI tool for document summarization/search with no scale or spend disclosed; score reflects named initiative without quantification.",
+  "ai_narrative_concreteness: The one named deployed use case (internal generative AI applications for document summarization/search/translation) lacks any quantified business results; score capped at 3.",
+  "capex_mentions: No dollar or quantity figures tied to AI/compute investment appear in the excerpts; 'Blackstone Holdings AI L.P.' references are legal entity names, not AI investment disclosures."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-082531",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T17:30:32.933300+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "TRV",
+ "source_document_id": "0000086312-26-000065",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "the Company has invested significant additional resources in many of its claims handling operations, including digital, analytics, artificial intelligence and automation capabilities",
+    "Artificial intelligence, in particular, may become more expensive in the future given the resources necessary to develop that technology",
+    "our business success and profitability depend, in part, on effective information technology systems and on continuing to develop and implement improvements in technology, including artificial intelligence"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "the Company has invested significant additional resources in many of its claims handling operations, including digital, analytics, artificial intelligence and automation capabilities",
+    "our competitive position could be impacted if we are unable to deploy...technology such as artificial intelligence and machine learning that collects and analyzes a wide variety of data points to help make underwriting or other decisions",
+    "the Company provides regular targeted training on topics such as artificial intelligence related risks, phishing and secure application development"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "new technology, such as artificial intelligence, could create unforeseen exposures or coverage issues under the policies we write and aggravate claims fraud and cybercrime",
+    "the impact of external data sources, artificial intelligence, algorithms and predictive models on protected classes of customers, and a number of states have begun rulemaking efforts in response",
+    "the increased use of artificial intelligence by threat actors to perpetrate these attacks...the sophistication of these threats continues to increase, including because of the rapid evolution of artificial intelligence"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-specific investment figures appear in the excerpts; investment intensity scored 3 (named but unquantified).",
+  "AI use cases are named (claims handling, underwriting analytics) but no deployment metrics or quantified business results are disclosed; concreteness capped at 3.",
+  "Risk disclosure is company-specific with named mechanisms (fraud, regulatory, cyber, coverage issues, protected-class bias) but no quantified risk figures or named formal AI governance body beyond general training programs, supporting score 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0000086312-26-000065",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 22,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-15T21:39:54.345052+00:00"
+ }
+}

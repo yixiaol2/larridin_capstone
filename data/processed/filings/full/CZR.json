@@ -1,0 +1,41 @@
+{
+ "ticker": "CZR",
+ "source_document_id": "0001590895-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "new tools used by threat actors (including artificial intelligence)... substantially increase the risk of successful cyberattacks and security breaches in the future that can cause operational disruption (e.g., ransomware)"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no AI investment, capex, or infrastructure commitment discussed in the excerpts.",
+  "ai_narrative_concreteness: no AI use cases, initiatives, or deployment details discussed in the excerpts; AI appears only as an external threat vector.",
+  "ai_risk_disclosure_depth: AI is mentioned only as a threat-actor tool in the cybersecurity risk context, not as a company-operated technology; score reflects named risk category (AI-enabled cyberattacks) specific to the company's prior Data Incident, but no mechanism detail on how AI specifically would hit revenue/operations beyond general cyberattack framing."
+ ],
+ "_meta": {
+  "accession": "0001590895-26-000011",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1590895/000159089526000011/czr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T17:35:30.422576+00:00"
+ }
+}

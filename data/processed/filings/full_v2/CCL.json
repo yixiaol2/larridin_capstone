@@ -1,0 +1,50 @@
+{
+ "ticker": "CCL",
+ "source_document_id": "0000815097-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "leveraging AI to improve marketing effectiveness, deliver personalized experiences and drive efficiency gains across all our cruise lines",
+    "A failure to adopt the appropriate technology, including AI, or a failure, disruption or obsolescence in the technology that we do adopt, could have adverse effects"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "enhancing our commercial strategies by leveraging AI to improve marketing effectiveness, deliver personalized experiences and drive efficiency gains across all our cruise lines",
+    "refining their focus on target markets, sharpening marketing messages and reaching target consumers more efficiently"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "rapid evolution and growing adoption of AI technologies by various threat actors may enhance their ability to conduct attacks which are more difficult to prevent, detect or remediate",
+    "integrating AI into our operations may increase our cybersecurity and data privacy risks",
+    "AI impersonation, targeted and coordinated attacks of our systems... have led to and may continue to lead to disruptions in our business operations; unauthorized access... financial losses; regulatory investigations"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts or headcount figures appear in the excerpts; investment intensity scored 3 (named but unquantified).",
+  "AI narrative describes named use cases (marketing, personalization, efficiency) as active/ongoing but provides no quantified business results; scored 4 rather than 5.",
+  "Promotional language present in MD&A section ('we believe these initiatives will increase same ship revenues'); concreteness confidence moderated accordingly.",
+  "No AI governance bodies or quantified risk metrics disclosed; risk depth scored 4 (specific mechanisms described) rather than 5."
+ ],
+ "_meta": {
+  "accession": "0000815097-26-000007",
+  "filing_date": "2026-01-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T20:23:31.920478+00:00"
+ }
+}

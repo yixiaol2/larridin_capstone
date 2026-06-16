@@ -1,0 +1,51 @@
+{
+ "ticker": "LHX",
+ "source_document_id": "0000202058-26-000015",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we need to continue to design, develop, manufacture, assemble, test, market and support new products and services, which will require the investment of significant financial resources in new technologies such as AI",
+    "We have allocated funds for such investments through customer-funded and internal R&D, strategic alliances and other teaming arrangements",
+    "competing in our markets requires the ability to fuse hardware, software and artificial intelligence (AI)"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "strategic partnerships with Palantir Technologies, Shield Capital, Anduril and Amazon Kuiper to develop new capabilities to meet the demands of our customers",
+    "we are modernizing our infrastructure, applications, and information ecosystem, inclusive of cloud migrations, increasing automation and expanding the use of AI",
+    "a robust counterintelligence and insider threat program that utilizes cutting-edge data analytics and machine learning"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "These risks may increase as AI capabilities improve... heightened risk of a security breach or disruption from threats to gain unauthorized access",
+    "Our competitors, including non-traditional new entrants, may incorporate AI technologies into their products or services more quickly or more successfully than us, which could impair our ability to compete",
+    "integrating AI capabilities could increase technical complexity, potentially exacerbating these challenges... operational resiliency issues, delivery delays, cost overruns, additional expenses, reputational harm, legal and regulatory actions"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 rather than 4 or 5.",
+  "AI narrative concreteness is based on named initiatives and partnerships but no deployment metrics or quantified outcomes are disclosed in the excerpts.",
+  "Risk disclosure excerpts span both [mdna] and [item_1b] sections; named risk mechanisms (competitive displacement, cybersecurity amplification, digital transformation complexity) support score 4, but no quantified risk exposure or named governance body for AI risk was found."
+ ],
+ "_meta": {
+  "accession": "0000202058-26-000015",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000015/hrs-20260102.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T21:04:03.786224+00:00"
+ }
+}

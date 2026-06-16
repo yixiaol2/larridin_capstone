@@ -1,0 +1,57 @@
+{
+ "ticker": "VRSN",
+ "source_document_id": "0001014473-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "our use of AI technology, tools, and services could expose us to cybersecurity, operational, intellectual property and regulatory risks",
+    "our decision to adopt AI technologies in a low-risk manner could result in slower adoption of AI technology",
+    "the Company s use of AI, including in the cybersecurity area, is managed pursuant to a corporate AI policy by a cross-functional AI Steering Committee"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "our use of AI technology, if not effectively governed, could result in unintended consequences, including errors, biased, and otherwise unreliable outputs",
+    "we have established AI policies and procedures",
+    "a cross-functional AI Steering Committee comprised of senior Verisign technology, cybersecurity and legal resources"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "the Cybersecurity Committee conducts oversight on behalf of the Board of our use of AI and AI risks, including as it pertains to cybersecurity and data governance",
+    "AI is subject to increasing regulatory scrutiny and evolving laws, rules and regulations, which may increase our compliance costs",
+    "recent advances in AI-based tools have made, and will continue to make, cyber-attacks more sophisticated, harder to defend, and easier and faster to launch"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "rapid increase in demand for compute and network hardware, including servers, chips, memory and other technology, caused by new demand from AI companies, is increasing our costs",
+   "context": "AI-driven hardware cost pressure on Verisign's capital and operating costs, no dollar amount specified"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/cloud partnerships disclosed; Verisign describes a cautious, low-risk AI adoption posture with a named steering committee but no budget figures, warranting score 2 rather than 3.",
+  "ai_narrative_concreteness: Named governance structures (AI Steering Committee, AI policy) and named risk categories exist, but no deployed AI use cases with operational detail or metrics are described; AI is discussed primarily in the context of threats and risk management rather than internal deployment.",
+  "ai_risk_disclosure_depth: Risk-section material is present and highly specific; named oversight bodies (Cybersecurity Committee, AI Steering Committee), named risk categories (IP, regulatory, cybersecurity, operational), and governance mechanisms are all disclosed, supporting score 5.",
+  "Excerpts are pre-filtered; additional AI investment or use-case detail may exist elsewhere in the filing not captured here."
+ ],
+ "_meta": {
+  "accession": "0001014473-26-000006",
+  "filing_date": "2026-02-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1014473/000101447326000006/vrsn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T19:08:03.107700+00:00"
+ }
+}

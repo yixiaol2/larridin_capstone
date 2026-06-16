@@ -1,0 +1,51 @@
+{
+ "ticker": "XYZ",
+ "source_document_id": "0001628280-26-012254",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We apply data, automation, and AI to improve the speed, accuracy, and usability of our products.",
+    "We are focused on enabling growth by leveraging AI to increase productivity and outcomes for our sales and marketing, customer service, and engineering efforts.",
+    "We plan to continue to operate at this smaller size and are continuing to look at ways to improve our efficiency through a combination of AI automation, prioritization of our scope."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Square's AI-enabled tools are designed to reduce manual work, support sellers' decision-making, and enable sellers to manage their operations and finances more effectively.",
+    "We have incorporated and expect to continue to incorporate AI technologies, including generative AI and AI agents, into our products and technologies.",
+    "we have made other technology we developed, such as AI agents, available under such licenses, and we include open source software in our products."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our use of AI depends on third-party large language models that we do not control, and these models may generate inaccurate, biased, or unexpected outputs that conflict with our business objectives.",
+    "AI-enabled features in our products may generate outputs that could be interpreted as regulated advice...we could face reputational harm, regulatory scrutiny, enforcement actions or liability claims.",
+    "evolving and inconsistent legal frameworks governing AI across different jurisdictions, such as the EU AI Act...may impose additional costs on us, increase our risk of liability and fines, and may require us to modify, limit, or withdraw certain AI-enabled products."
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3 (named programs, no quantified scale).",
+  "Narrative concreteness scored 4 rather than 5 because no quantified business results (%, $, time saved, volume) are disclosed for AI use cases; deployment is described operationally but without metrics.",
+  "AI risk disclosure is detailed and company-specific with named mechanisms (regulatory, reputational, vendor dependence, compliance), but no quantified risk figures or named governance oversight bodies are disclosed, limiting score to 4."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-012254",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 23,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T20:17:57.345459+00:00"
+ }
+}

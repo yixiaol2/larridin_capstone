@@ -1,0 +1,13 @@
+company_id,ticker,name,sector,industry,cik,exchange,market_cap,source_name
+C001,AIVA,Aiva Systems Inc.,Information Technology,Application Software,0000001001,NASDAQ,82000000000,synthetic_sample
+C002,BRIO,Brio Retail Group,Consumer Discretionary,Specialty Retail,0000001002,NYSE,24500000000,synthetic_sample
+C003,CYGN,Cygnus Capital Corp.,Financials,Asset Management,0000001003,NYSE,18700000000,synthetic_sample
+C004,DYNA,DynaHealth Labs,Health Care,Health Care Technology,0000001004,NASDAQ,31200000000,synthetic_sample
+C005,ELIX,Elixia Foods Co.,Consumer Staples,Packaged Foods,0000001005,NYSE,15600000000,synthetic_sample
+C006,FRAY,Frayline Industrial,Industrials,Industrial Machinery,0000001006,NYSE,22100000000,synthetic_sample
+C007,GRIT,GritGrid Energy,Energy,Renewable Energy,0000001007,NASDAQ,17400000000,synthetic_sample
+C008,HALO,HaloMedia Networks,Communication Services,Interactive Media,0000001008,NASDAQ,29600000000,synthetic_sample
+C009,IONX,Ionix Semiconductors,Information Technology,Semiconductors,0000001009,NASDAQ,63500000000,synthetic_sample
+C010,JUNO,Juno Logistics,Industrials,Air Freight and Logistics,0000001010,NYSE,12800000000,synthetic_sample
+C011,KORA,Kora Bankshares,Financials,Regional Banks,0000001011,NYSE,9600000000,synthetic_sample
+C012,LUMA,Luma Care Partners,Health Care,Managed Care,0000001012,NYSE,27500000000,synthetic_sample

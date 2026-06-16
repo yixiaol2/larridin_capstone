@@ -1,0 +1,49 @@
+{
+ "ticker": "TPR",
+ "source_document_id": "0001116132-25-000019",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-14",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we continued to enhance our artificial intelligence, both predictive and generative, and machine learning models for areas such as data analytics, planning, marketing, customer journey personalization, pricing and product creation",
+    "We are continually enhancing our digital technology platforms to elevate our e-commerce capabilities... leveraging modern and cloud-based technologies"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "enhance our artificial intelligence, both predictive and generative, and machine learning models for areas such as data analytics, planning, marketing, customer journey personalization, pricing and product creation",
+    "improve our customer capture and segmentation capabilities for more tailored and effective engagement"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "As artificial intelligence becomes increasingly integrated into business systems, concerns about data exposure and privacy risks are intensifying. Additionally, artificial intelligence is being used to carry out advanced social engineering attacks",
+    "new privacy and security and artificial intelligence laws and global government regulations, individually or in accumulation, could have a material effect on our business",
+    "identifying and adapting to changes in technology, including the successful utilization of data analytics, artificial intelligence, and machine learning... A failure to compete effectively... could adversely affect our growth and profitability"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex, headcount, or budget figures appear in the excerpts; investment intensity scored 3 based on named use cases and ongoing enhancement language without dollar amounts.",
+  "Narrative concreteness scored 4 based on named deployed use cases with operational detail, but no quantified business results (e.g., % improvement, revenue lift) are disclosed in the excerpts.",
+  "AI risk disclosure scored 4 because specific risk mechanisms are described (data exposure, social engineering attacks, regulatory compliance, system integration failure) with linkage to financial/operational impact, though no quantified risk exposure or named governance body is cited."
+ ],
+ "_meta": {
+  "accession": "0001116132-25-000019",
+  "filing_date": "2025-08-14",
+  "url": "https://www.sec.gov/Archives/edgar/data/1116132/000111613225000019/tpr-20250628.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T19:00:54.776478+00:00"
+ }
+}

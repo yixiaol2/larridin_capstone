@@ -1,0 +1,52 @@
+{
+ "ticker": "HIG",
+ "source_document_id": "0000874766-26-000012",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Accelerating artificial intelligence enablement and responsibly leveraging data, analytics, and digital capabilities to deliver smarter, faster outcomes across the businesses",
+    "continuing to invest in its underwriting systems and capabilities...expanding its use of data analytics, artificial intelligence capabilities and third party data",
+    "The Company seeks to drive greater efficiency, shorten the quoting process and improve the customer s experience through expanded use of digital and artificial intelligence capabilities"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Through its industry-leading ICON quoting tool, The Hartford quotes over 75% of new business policies from admitted markets without human intervention.",
+    "Emerging artificial intelligence-enabled capabilities are raising customer and distributor expectations for speed and automation and may further reshape how small business customers shop for coverage.",
+    "expanding its use of data analytics, artificial intelligence capabilities and third party data to make expert risk selection and pricing decisions"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 5,
+   "evidence": [
+    "The NAIC adopted a Model Bulletin on the Use of Artificial Intelligence Systems by Insurers. About 25 states have adopted some form of the Model Bulletin.",
+    "Use of artificial intelligence by us or by such third parties could also result in inadvertent disclosure of our confidential information...could result in legal liability, regulatory action and reputational harm.",
+    "Executive Artificial Intelligence Governance Council [listed as named oversight body under ERCC enterprise risk governance structure]"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts, GPU counts, or explicit AI-dedicated budget figures appear in the excerpts; investment intensity scored 3 (named initiatives, no quantified scale).",
+  "The ICON quoting tool statistic (75% of policies without human intervention) is the primary quantified operational metric; most other AI narrative is directional rather than outcome-quantified, limiting concreteness confidence.",
+  "Capex_mentions list is empty because no dollar or capacity figures tied to AI/compute investment appear in the excerpts.",
+  "Risk disclosure scored 5 based on named governance body (Executive AI Governance Council), named regulatory frameworks (NAIC Model Bulletin, ~25 states), and specific risk mechanisms (confidentiality breach, regulatory action, reputational harm); however, no quantified risk exposure figures are disclosed."
+ ],
+ "_meta": {
+  "accession": "0000874766-26-000012",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/874766/000087476626000012/hig-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-11T18:12:47.600460+00:00"
+ }
+}

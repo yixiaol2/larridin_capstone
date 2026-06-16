@@ -1,0 +1,49 @@
+{
+ "ticker": "STE",
+ "source_document_id": "0001628280-26-039136",
+ "source_type": "sec_filing",
+ "source_date": "2026-05-29",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we continue to invest in smart manufacturing to drive structural cost reduction in our facilities, including... digital initiatives, automation and robots",
+    "some that employ artificial intelligence (AI), some of which are managed, hosted, provided and/or used by third-parties or their vendors"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "implementing advanced manufacturing capabilities such as digital initiatives, automation and robots",
+    "some [platforms] that employ artificial intelligence (AI), some of which are managed, hosted, provided and/or used by third-parties"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "generative AI and other artificial intelligence technologies may be used by malicious actors to create more targeted phishing narratives, develop sophisticated malware, spread false information",
+    "governments and regulatory bodies worldwide are actively developing new laws... governing AI use, including the European Union's Artificial Intelligence Act. Compliance with evolving and potentially inconsistent AI regulations across jurisdictions may be costly",
+    "If our competitors deploy AI technologies more effectively than we do, we may lose market share or be unable to maintain our competitive position"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/cloud partnerships disclosed in excerpts; investment references are generic and embedded in broader digital transformation language.",
+  "ai_narrative_concreteness: AI use cases are described only at a generic level (third-party platforms employing AI, automation in manufacturing); no named initiatives, deployment status, or metrics provided.",
+  "ai_risk_disclosure_depth: Risk-section material is present and discusses AI risks with company-specific mechanisms (competitive displacement, regulatory penalties, cybersecurity attack vectors), but no quantification of risk exposure or named governance/oversight bodies, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-039136",
+  "filing_date": "2026-05-29",
+  "url": "https://www.sec.gov/Archives/edgar/data/1757898/000162828026039136/ste-20260331.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 2.4,
+  "extracted_at": "2026-06-11T18:58:05.718008+00:00"
+ }
+}

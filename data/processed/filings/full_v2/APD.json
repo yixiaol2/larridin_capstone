@@ -1,0 +1,46 @@
+{
+ "ticker": "APD",
+ "source_document_id": "0000002969-25-000055",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "if we are unsuccessful in developing new technologies, including development and application of artificial intelligence, our development activities do not keep pace with those of our competitors"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "if we are unsuccessful in developing new technologies, including development and application of artificial intelligence, our development activities do not keep pace with those of our competitors"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "advancements in, and the deployment of, intelligent automation, including artificial intelligence tooling and bots, may increase our and our vendors vulnerability to such attacks",
+    "if we are unsuccessful in developing new technologies, including development and application of artificial intelligence...our competitive position and operating results may be negatively affected"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity: no named AI programs, dollar amounts, or quantified commitments disclosed in excerpts; AI mentioned only as a risk factor and generic competitive concern",
+  "AI narrative concreteness: no deployed AI use cases or named initiatives described; references are aspirational/risk-framed only",
+  "Excerpts are limited to risk_factors and item_1b sections; business/operations sections with potential AI deployment detail are not present, so scores may understate actual activity"
+ ],
+ "_meta": {
+  "accession": "0000002969-25-000055",
+  "filing_date": "2025-11-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296925000055/apd-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T20:05:15.709637+00:00"
+ }
+}

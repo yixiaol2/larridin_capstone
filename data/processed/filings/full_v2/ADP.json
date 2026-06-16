@@ -1,0 +1,56 @@
+{
+ "ticker": "ADP",
+ "source_document_id": "0000008670-25-000037",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "During the fiscal years ended June 30, 2025, 2024 and 2023, we invested approximately $1.388 billion, $1.276 billion, and $1.195 billion, respectively, in research and development... including investments in generative AI",
+    "we continued deploying AI tools in our products and across our sales, service, and research and development functions to improve the client experience and drive internal productivity gains",
+    "We have made and expect to continue to make significant investments in product development and new technologies"
+   ],
+   "confidence": 0.82
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "ADP Assist validates payroll information, checking for payroll anomalies and using generative AI to identify and help resolve missing tax registrations",
+    "we extended AI tools to all of our product developers for coding, testing, and documentation",
+    "ADP DataCloud analyzes aggregated, anonymized and timely HCM and compensation data from more than one million organizations across the U.S., powering solutions that provide clients with in-depth workforce and business insights"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if the data used to train a model or the model s output is inaccurate or biased, or alleged to be inaccurate or biased, we could be subject to reputational damage or litigation",
+    "Our use of generative AI in our products and operations also introduces additional risks, including risks related to accuracy, bias, transparency, security, and privacy",
+    "use of AI tools may result in the release of confidential or proprietary information which could limit our ability to protect... our intellectual property rights"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "invested approximately $1.388 billion, $1.276 billion, and $1.195 billion, respectively, in research and development... including investments in generative AI",
+   "context": "R&D spend for fiscal years 2025, 2024, 2023 respectively, explicitly including generative AI investments"
+  }
+ ],
+ "limitations": [
+  "R&D figures are total R&D, not AI-only; AI-attributable share is not separately quantified, reducing precision of investment intensity score",
+  "ai_narrative_concreteness scored 4 rather than 5 because no quantified business outcomes (%, $, time saved) are provided for deployed AI use cases — awards and product descriptions are present but metrics are absent",
+  "Risk disclosure includes named risk categories and specific mechanisms (bias/litigation, IP leakage, regulatory compliance costs) justifying score 4; no quantified risk exposure or named oversight body with formal mandate beyond the AI Data Ethics Committee advisory role"
+ ],
+ "_meta": {
+  "accession": "0000008670-25-000037",
+  "filing_date": "2025-08-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/8670/000000867025000037/adp-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:13:40.085110+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "GPN",
+ "source_document_id": "0001123360-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "investing in AI capabilities and strategic partnerships to position our platforms to support agent-driven commerce",
+    "We are exploring opportunities to expand our portfolio with AI capabilities to strengthen our market position, expand our teams' technological capabilities"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "investing in AI capabilities and strategic partnerships to position our platforms to support agent-driven commerce",
+    "we anticipate the increased use of AI in the payments industry",
+    "Incorporating AI, including machine learning technologies, into our businesses presents numerous risks and uncertainties"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "algorithms and datasets are flawed or may be insufficient or contain biased information... could result in inaccurate and ineffective decisions, predictions or analysis, which could subject us to competitive harm, legal liability, increased regulatory scrutiny",
+    "These threats may be facilitated and exacerbated by the use of AI technologies, which may increase system complexity, expand data usage, and introduce new attack surfaces",
+    "EU Artificial Intelligence Regulation, new state laws in the United States... could limit our ability to use and share personal or other data and increase costs related to compliance"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases are named at a strategic/aspirational level (agent-driven commerce, customer experience) but no deployed production metrics or quantified results are disclosed; concreteness capped at 3.",
+  "Risk disclosure is company-specific with named mechanisms (algorithm bias, cybersecurity attack surfaces, regulatory cost) but no quantified risk exposure or named governance/oversight body found in excerpts; scored 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0001123360-26-000008",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000008/gpn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-15T20:50:29.661779+00:00"
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "ticker": "TER",
+ "source_document_id": "0001193125-26-059002",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "we will invest approximately $157 million in exchange for 75% ownership of MLTP... being created to serve the growing demand from the AI Data Center equipment market",
+    "we acquired privately held Quantifi Photonics... a leader in PIC test solutions for a total purchase price of $127.2 million",
+    "Our results reflect our focused investments in AI applications and VIP customers, with benefits from these initiatives materializing throughout 2025"
+   ],
+   "confidence": 0.88
+  },
+  "ai_narrative_concreteness": {
+   "score": 5,
+   "evidence": [
+    "AI related customer demand driving the majority of our revenue in the second half of 2025",
+    "increase in Semiconductor Test revenues of $399.8 million, or 18.8%, was driven primarily by higher sales in compute related to artificial intelligence applications",
+    "AI related customer demand to continue to represent the bulk of our revenues in the first quarter [of 2026]"
+   ],
+   "confidence": 0.9
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our use of AI tools may subject us to significant competitive, legal, regulatory and other risks... flawed algorithms... data quality and bias... reliance on third-party AI vendors",
+    "Our use of AI tools, or our customers uses of our products that incorporate AI, could also result in the loss of confidential information or intellectual property",
+    "jurisdictions in which we conduct business have and may adopt laws and regulations related to AI, which could cause us to incur greater compliance costs, limit our use of AI tools, or subject us to legal liabilities"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "invest approximately $157 million in exchange for 75% ownership of MLTP",
+   "context": "Joint venture with MultiLane to serve AI Data Center equipment market test solutions"
+  },
+  {
+   "quote": "total purchase price of $127.2 million",
+   "context": "Acquisition of Quantifi Photonics, a PIC test solutions company serving AI-related markets"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity scored 4 rather than 5: the two quantified investments ($157M JV, $127.2M acquisition) are discrete transactions rather than a disclosed multi-year AI capex program; ongoing R&D spend on AI is referenced qualitatively but not quantified.",
+  "Risk disclosure scored 4: risks are named and mechanisms described (IP loss, regulatory compliance costs, third-party vendor dependence, cybersecurity), but no quantification of risk exposure or formal named AI risk governance body beyond the general Cybersecurity Steering Committee is disclosed."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-059002",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526059002/ter-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T21:37:56.520076+00:00"
+ }
+}

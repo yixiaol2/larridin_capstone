@@ -1,0 +1,52 @@
+{
+ "ticker": "CRM",
+ "source_document_id": "0001108524-26-000060",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-02",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "significant additional investments, including in human capital software, agentic AI and other technologies, will be required to scale our operations and increase productivity",
+    "We have experienced challenges with significant competition in talent recruitment and retention, particularly for engineers with experience in AI",
+    "The acquisition of Informatica closed in the fourth quarter of fiscal 2026, significantly expanding our trusted data foundations... enabling customers to discover, integrate, govern, and deliver trusted data at scale"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Agentforce automatically routes cases to the best service agent for the job, responds to customers with personalized, relevant answers grounded in company data and performs tasks like auto-summarizing support cases",
+    "By pairing Large Language Model (LLM) reasoning with deterministic logic, Agentforce delivers more accurate, reliable outcomes within our trust layer",
+    "FDEs are embedded within customer teams to build tailored AI agents, integrate complex data streams, and ensure that our latest innovations, such as Agentforce, are operationalized rapidly"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "vulnerabilities arising from new technologies and infrastructures, including those from acquisitions... and the adoption and deployment of AI technologies within our products, services, internal systems, which may introduce novel security, data governance, or operational risks",
+    "threat actors are using and exploiting these technologies to enhance the sophistication, scale, speed and effectiveness of security threats that may be more difficult to detect and defend against",
+    "increased energy consumption, including as a result of AI adoption... may increase the operational costs related to inputs across our value chain, including for data centers"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount figures, or quantified capex/R&D spend tied specifically to AI are disclosed in the excerpts; Informatica acquisition cost not mentioned; score capped at 3.",
+  "ai_narrative_concreteness: Multiple named, deployed use cases described with operational detail (routing, summarization, LLM+deterministic pairing), but no quantified business results (%, $, time saved) appear in the excerpts; score capped at 4.",
+  "capex_mentions: No specific dollar figures for AI-attributable investment found in the provided excerpts.",
+  "Excerpts are pre-filtered; financial statements and MD&A sections with potential dollar disclosures may not be fully represented."
+ ],
+ "_meta": {
+  "accession": "0001108524-26-000060",
+  "filing_date": "2026-03-02",
+  "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 20,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T21:30:33.083501+00:00"
+ }
+}

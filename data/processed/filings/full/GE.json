@@ -1,0 +1,49 @@
+{
+ "ticker": "GE",
+ "source_document_id": "0000040545-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-29",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "our use of emerging and evolving technologies such as artificial intelligence and machine learning, which we expect to continue to increase over time",
+    "a need for additional investment in product designs"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "our business may be adversely affected if we cannot successfully integrate these technologies into our business processes and product and service offerings in a timely, cost-effective, compliant and responsible manner",
+    "our use of emerging and evolving technologies such as artificial intelligence and machine learning, which we expect to continue to increase over time"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "risks related to data sourcing, design flaws, integration issues, security threats, privacy protections and the ability to develop sufficient protection measures",
+    "threat actors increasingly use artificial intelligence and other techniques to circumvent security controls, evade detection and remove forensic evidence",
+    "U.S. and non-U.S. governments have focused and continue to focus on include cybersecurity, data privacy and sovereignty, artificial intelligence, anti-corruption"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/infrastructure partnerships disclosed in the excerpts; language is generic and forward-looking.",
+  "ai_narrative_concreteness: No named AI initiatives or deployed use cases appear in the excerpts; all AI references are aspirational or risk-framed rather than describing concrete programs.",
+  "ai_risk_disclosure_depth: Risk-section material is present and names specific risk categories (data sourcing, design flaws, integration, cybersecurity, regulatory), but no quantified risk exposure or named governance/oversight bodies are disclosed, capping the score at 3."
+ ],
+ "_meta": {
+  "accession": "0000040545-26-000008",
+  "filing_date": "2026-01-29",
+  "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/ge-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:07:59.337190+00:00"
+ }
+}

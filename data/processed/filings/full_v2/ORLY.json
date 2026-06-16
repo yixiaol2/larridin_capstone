@@ -1,0 +1,49 @@
+{
+ "ticker": "ORLY",
+ "source_document_id": "0000898173-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "our information technology systems, infrastructure, and personnel require substantial investments, such as replacing systems, maintaining or enhancing systems, or designing or acquiring new systems or functionality, including artificial intelligence"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "designing or acquiring new systems or functionality, including artificial intelligence",
+    "the increased adoption of artificial intelligence could heighten certain of these risks"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the increased adoption of artificial intelligence could heighten certain of these risks",
+    "designing or acquiring new systems or functionality, including artificial intelligence... failure of the systems to operate as designed, potential loss or corruption of data, incurring more costs than expected",
+    "security control failures, reputational harm, and increased costs, all of which could have a material adverse impact on our results of operations, financial condition, and cash flows"
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity scored 3 because the filing references AI-related IT investment but provides no quantified dollar amounts or program names; the mention is embedded in a risk disclosure context rather than a dedicated investment discussion.",
+  "AI narrative concreteness is limited to aspirational/risk-framing language; no named AI initiatives, deployed use cases, or operational details are present in the excerpts.",
+  "Only one excerpt section is available; broader business or MD&A sections describing AI strategy or deployment may exist in the full filing but are not present here.",
+  "Risk disclosure scored 4 because the filing identifies specific risk mechanisms (system failure, data loss, cost overruns, security control failures, reputational harm) tied to AI adoption, though no quantification or named governance body is disclosed."
+ ],
+ "_meta": {
+  "accession": "0000898173-26-000009",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/898173/000089817326000009/orly-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-15T21:18:36.269028+00:00"
+ }
+}

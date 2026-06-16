@@ -1,0 +1,52 @@
+{
+ "ticker": "ALGN",
+ "source_document_id": "0001097149-26-000014",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we continue to invest in AI infrastructure, specialized talent, and strategic partnerships to further enhance the capabilities of the Align Digital Platform",
+    "innovations powered by AI enabling more personalized care",
+    "We may be unable to devote adequate financial resources to develop or acquire new AI technologies and systems in the future"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "launch in European Union countries and the United Kingdom of Align X-ray Insights, a new software-based (CADe*) computer aided detection solution that uses artificial intelligence (AI) to automatically analyze 2D radiographs",
+    "Invisalign Virtual Care AI and My Invisalign app... Doctors can remotely track their patients treatment between visits",
+    "AI and machine-learning based CAD/CAM software, vision systems, CT scanning, stereolithography and automated custom clear aligner fabrication equipment"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our or our vendors AI technologies may be developed using inaccurate, incomplete, flawed or biased algorithms, training methodologies or data, which could lead to dissemination of false information and result in competitive harm, regulatory penalties, legal liability",
+    "EU AI Act entered into force on August 1, 2024 which will become fully effective on August 2, 2026... restrictions and obligations under this regulation, to the extent applicable to us, could have a negative impact on our business",
+    "as we offer more third-party AI models in our solutions, we face risks inherent in how third-party AI models used in our solutions have been developed and deployed, including situations in which the third party may lack a proper license"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific budget figures for AI investment were found in the excerpts; investment intensity scored 3 (named infrastructure/talent/partnerships but no quantified scale).",
+  "Narrative concreteness scored 4 based on named deployed use cases with operational detail; no quantified business results (e.g., % improvement, volume handled) were disclosed in the excerpts to warrant a score of 5.",
+  "capex_mentions is empty as no specific dollar or capacity figures tied to AI/compute investment appear in the excerpts.",
+  "Some AI investment language (e.g., 'commit to AI') is promotional/aspirational; confidence adjusted accordingly."
+ ],
+ "_meta": {
+  "accession": "0001097149-26-000014",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1097149/000109714926000014/algn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T17:19:43.049024+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "AXP",
+ "source_document_id": "0000004962-26-000080",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we need to continue to invest in technology across all areas of our business, including in transaction processing, data management and analytics, AI ML (including agentic commerce)",
+    "effectively utilizing AI ML and increasing automation, including to enhance our products, develop new capabilities and address servicing and other business and customer needs",
+    "our ability to realize operational efficiencies, including through increased scale and automation and continued adoption of AI technologies"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "continue to explore ways to deploy new and developing technologies to enhance our payments platform and customer experience, such as uses for generative artificial intelligence (AI) and the integration of our products and services in agentic commerce",
+    "effectively utilizing AI ML and increasing automation, including to enhance our products, develop new capabilities and address servicing and other business and customer needs",
+    "our ability to successfully invest in, benefit from and expand the use of technological developments, digital payments, servicing, travel dining solutions, generative AI and other technological capabilities"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "flaws in models or datasets that may result in biased or inaccurate results, especially as generative AI has been known to produce false or hallucinatory inferences or outputs",
+    "Adverse consequences of AI ML remain uncertain but could include flaws in the decisions, predictions, outputs or analysis such technologies produce, subjecting us to competitive harm, legal liability, heightened regulatory scrutiny",
+    "our own usage of generative AI and other emerging technologies may increase our vulnerabilities or limit our ability to detect intrusion"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts, GPU/data-center scale, or headcount figures tied to AI investment appear in the excerpts; named initiatives and investment intent are described but without quantification, capping score at 3.",
+  "ai_narrative_concreteness: Use cases (agentic commerce, generative AI for customer experience, automation, servicing) are named but no deployment status metrics or quantified business results are disclosed; language remains largely aspirational/forward-looking.",
+  "capex_mentions: No specific dollar or capacity figures for AI/compute investment found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000004962-26-000080",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:21:42.564515+00:00"
+ }
+}

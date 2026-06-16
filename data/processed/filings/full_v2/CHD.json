@@ -1,0 +1,50 @@
+{
+ "ticker": "CHD",
+ "source_document_id": "0001193125-26-048139",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We incur significant costs on an ongoing basis to upgrade and maintain various facilities, equipment, or technologies, including data management, improved equipment, and artificial intelligence to upgrade our operations and increase productivity.",
+    "Investments in our facilities and operations, including investments in new facilities, equipment, technologies and digital transformation, may result in periods of decreased production or increased costs"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The Company's ability to timely adopt and adapt to this emerging technology in an effective and ethical manner may impact its reputation and ability to compete",
+    "competitors...may therefore, have the capacity to...adopt new technologies, such as artificial intelligence and machine learning, more quickly, successfully and effectively"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The use of generative artificial intelligence tools may compromise confidential or sensitive information, put the Company's intellectual property at risk, or subject the Company to claims of intellectual property infringement",
+    "Cyberattacks have also become more difficult to detect...since they increasingly exploit AI and machine learning techniques, such as generative AI-phishing, deepfake impersonations, automated vulnerability discovery, adaptive malware",
+    "The rapid evolution and increased adoption of artificial intelligence technologies may intensify our cybersecurity risks."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-attributable investment figures appear in the excerpts; investment intensity scored 3 based on named but unquantified AI operational investment.",
+  "AI narrative is largely framed through competitive and risk language rather than named internal initiatives or deployment status; concreteness score reflects aspirational/cautionary framing.",
+  "Risk section excerpts are present and scored; risk disclosure is company-specific with named mechanisms (IP infringement, cybersecurity attack vectors, regulatory landscape) but no quantified risk exposure or named governance body, capping score at 4.",
+  "Excerpts appear to be drawn primarily from the risk factors / business section; no use-case deployment detail or quantified AI business results are present."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-048139",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/313927/000119312526048139/chd-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:26:12.891961+00:00"
+ }
+}

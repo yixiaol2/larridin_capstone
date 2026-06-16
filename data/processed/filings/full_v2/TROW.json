@@ -1,0 +1,57 @@
+{
+ "ticker": "TROW",
+ "source_document_id": "0001628280-26-008002",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We or our third-party vendors, clients or counterparties have developed, and may continue to develop or incorporate AI technology in certain business processes, services or products.",
+    "We use various quantitative models (including ones supported by AI and machine-learning algorithms) to support investment decisions and investment processes, including those related to portfolio management.",
+    "our continued success depends on our ability to effectively integrate operations across many systems and/or countries, and to adopt new or adapt existing technologies, including, for example, generative AI technology."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We use various quantitative models (including ones supported by AI and machine-learning algorithms) to support investment decisions and investment processes, including those related to portfolio management and portfolio risk analysis.",
+    "We or our third-party vendors, clients or counterparties have developed, and may continue to develop or incorporate AI technology in certain business processes, services or products.",
+    "AI technologies may also disrupt the competitive landscape for investment management and technology services, including in commercial and operational areas such as data aggregation and quantitative models."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The legal and regulatory environment relating to AI is uncertain and rapidly evolving... any failure to properly safeguard and maintain personal data in connection with our use of AI creates potential risk of violating applicable privacy laws.",
+    "AI models, particularly generative AI models, may produce output... that result in the release of personal, confidential or proprietary information, that reflect biases included in the data on which they are trained.",
+    "We may face competition from investment managers who use AI in lieu of human managers, which may lead to lower cost solutions which could impact our business."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "We might be required to make significant capital expenditures to maintain a competitive technology stack",
+   "context": "Risk factor discussing need to adopt generative AI and other technologies to remain competitive"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity: no dollar amounts or quantified resource commitments to AI disclosed in excerpts; named use cases (quantitative models, generative AI adoption) present but unquantified, limiting score to 3.",
+  "AI narrative concreteness: use cases named (portfolio management models, risk analysis) but no deployment metrics or quantified outcomes disclosed; score capped at 3.",
+  "AI risk disclosure depth: risk scenarios are company-specific with described mechanisms (regulatory, competitive, data privacy, model error, fraud), but no quantified risk exposure or named governance/oversight bodies disclosed, limiting score to 4 rather than 5.",
+  "Market trends section references AI-related businesses as a market theme, not as a T. Rowe Price investment commitment."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008002",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026008002/trow-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T21:36:08.690616+00:00"
+ }
+}

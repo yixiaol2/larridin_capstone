@@ -1,0 +1,49 @@
+{
+ "ticker": "BNY",
+ "source_document_id": "0001390777-26-000033",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "In 2025 we built out our AI training offerings so all employees can develop this important future skill and contribute to our AI everywhere for everyone philosophy",
+    "intentions (including those regarding our capital returns and expenses, including our investments in technology and pension expense)"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "In 2025 we built out our AI training offerings so all employees can develop this important future skill and contribute to our AI everywhere for everyone philosophy",
+    "innovation in products and services, artificial intelligence, acquisitions, related integration and divestiture activity, transition to a platforms operating model"
+   ],
+   "confidence": 0.55
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the development and use of artificial intelligence present risks and challenges that may materially adversely impact our business",
+    "limitations of the models we use to measure, monitor and manage risk could lead to unexpected losses and adverse business impacts"
+   ],
+   "confidence": 0.7
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or infrastructure commitments found in excerpts; named initiative (AI training build-out) and general technology investment references support score 3 only.",
+  "ai_narrative_concreteness: 'AI everywhere for everyone' and training build-out are named initiatives but no deployment status, production metrics, or quantified outcomes are disclosed in these excerpts; score 3 reflects named initiative without deployment detail.",
+  "ai_risk_disclosure_depth: Risk-section material is present (forward-looking/risk excerpt); AI risk is named but described generically ('risks and challenges') without specific mechanisms linking to revenue/operations/compliance impact, supporting score 3 over 4.",
+  "Excerpts are limited and may not capture full AI disclosure in the filing; capex and detailed use-case sections may exist elsewhere in the document."
+ ],
+ "_meta": {
+  "accession": "0001390777-26-000033",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000033/bk-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.6,
+  "extracted_at": "2026-06-11T17:00:07.172418+00:00"
+ }
+}

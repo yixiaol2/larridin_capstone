@@ -1,0 +1,49 @@
+{
+ "ticker": "OTIS",
+ "source_document_id": "0001781335-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we invest substantial amounts in research and development efforts to pursue advancements in technologies, products and services",
+    "Our business and financial performance depend on continued substantial investment in information technology infrastructure"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "development and execution of advanced technologies, including artificial intelligence ('AI'), for the benefit of our New Equipment or Service segment",
+    "as we integrate emerging and rapidly evolving technologies, including AI, into our products and services"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "we face evolving risks related to safety, data governance, regulatory compliance and intellectual property and may not be able to anticipate or identify vulnerabilities, design flaws or security threats",
+    "As global standards and regulations relating to AI increase and change, they could result in additional costs, regulatory scrutiny, legal liability and reputational harm",
+    "misuse of sensitive data used in AI models may lead to privacy violations or non-compliance with data protection laws"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/infrastructure partnerships disclosed in excerpts; only generic R&D and IT investment language present.",
+  "ai_narrative_concreteness: AI use cases named at segment level (New Equipment, Service) but no deployment status, production detail, or quantified results provided in excerpts.",
+  "ai_risk_disclosure_depth: Risk-section material is present; risks are company-specific with named mechanisms (regulatory compliance, data governance, IP, safety vulnerabilities) but no quantification or formal named AI risk oversight body beyond board briefings and NACD training, which partially supports a score of 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0001781335-26-000011",
+  "filing_date": "2026-02-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1781335/000178133526000011/otis-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T18:42:21.702530+00:00"
+ }
+}

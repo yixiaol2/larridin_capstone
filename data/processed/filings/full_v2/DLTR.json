@@ -1,0 +1,49 @@
+{
+ "ticker": "DLTR",
+ "source_document_id": "0000935703-26-000025",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-16",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We utilize artificial intelligence-enabled technologies in our business, and advancements in technology may allow us to expand the use or applications of artificial intelligence",
+    "The rapid evolution of artificial intelligence...may require significant resources to develop, test and maintain our implementations of artificial intelligence."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We utilize artificial intelligence-enabled technologies in our business...advancements in technology may allow us to expand the use or applications of artificial intelligence, including generative artificial intelligence, into key operational and/or administrative aspects",
+    "Our competitors or other third parties may incorporate artificial intelligence into their businesses more quickly or more successfully than us"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if the types of information that artificial intelligence applications assist in producing are or are alleged to be deficient, inaccurate, or biased, our business, financial condition, and results of operations may be adversely affected",
+    "The continued evolution and increased usage of artificial intelligence technologies may further increase these risks",
+    "potential government regulation of artificial intelligence, may require significant resources to develop, test and maintain our implementations of artificial intelligence"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts, headcount, or named AI programs disclosed in the excerpts; investment intensity scored 2 based on generic statements only.",
+  "AI use cases are described aspirationally ('may allow us to expand') with no named deployed initiatives or metrics; concreteness capped at 2.",
+  "Risk section is present and discusses AI risks with named mechanisms (inaccuracy/bias, regulatory burden, competitive disadvantage, cybersecurity amplification), supporting a score of 4, but no quantified risk exposure or named governance body is disclosed to reach score 5."
+ ],
+ "_meta": {
+  "accession": "0000935703-26-000025",
+  "filing_date": "2026-03-16",
+  "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000025/dltr-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:35:42.863865+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "YUM",
+ "source_document_id": "0001041061-26-000084",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We continue to allocate significant resources to develop, accelerate and implement our digital, technology, and innovation capabilities, including various AI capabilities.",
+    "In 2025, we introduced our Byte by Yum! platform, a comprehensive collection of proprietary software as a service and artificial intelligence (AI) driven products"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "The Byte by Yum! platform includes online and mobile app ordering, point of sale, kitchen and delivery optimization, menu management, inventory and labor management and team member tools.",
+    "In 2025, our system restaurants generated digital sales approaching both $40 billion and 60% of overall system sales.",
+    "implementation of Byte by Yum! is also designed to enable a faster and more impactful adoption of AI by YUM and its brands"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if we do not successfully implement our AI initiatives, or if we encounter other failures in our AI systems or initiatives, this could result in legal and regulatory risk, brand or reputational harm",
+    "we are subject to increasing legal requirements with respect to the use of AI and machine learning applications and tools (including in relation to hiring and employment practices and in digitally marketing our Concepts)",
+    "if we fail to leverage AI technologies as effectively or rapidly as our peers, our competitiveness and financial results could be adversely impacted"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no dollar amounts, GPU counts, or quantified capex tied specifically to AI disclosed in excerpts; 'significant resources' is qualitative only",
+  "ai_narrative_concreteness: $40 billion digital sales figure reflects overall digital sales, not an AI-specific outcome metric; scored 4 rather than 5 because no AI-attributable quantified result is isolated",
+  "ai_risk_disclosure_depth: risk scenarios describe mechanisms (legal/regulatory, reputational, competitive harm) but no quantification or named governance/oversight body for AI risk is present in excerpts"
+ ],
+ "_meta": {
+  "accession": "0001041061-26-000084",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1041061/000104106126000084/yum-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T19:15:04.574254+00:00"
+ }
+}

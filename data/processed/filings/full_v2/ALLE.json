@@ -1,0 +1,55 @@
+{
+ "ticker": "ALLE",
+ "source_document_id": "0001579241-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Allegion Ventures announced a second fund with an additional allocation of $100 million to focus on investing in technologies like artificial intelligence, video monitoring, machine learning and cybersecurity",
+    "we expect continued growth in connected security products and solutions as end-users continue to adopt newer technologies, including mobile solutions and artificial intelligence"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "we expect continued growth in connected security products and solutions as end-users continue to adopt newer technologies, including mobile solutions and artificial intelligence, in their facilities",
+    "The continual development of new technologies, such as artificial intelligence and machine learning, by existing and new competitors...could adversely affect our ability to sustain operating margins"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI enabled methods, including automated vulnerability discovery, automated credential stuffing, deepfake assisted social engineering and other generative AI techniques, could make attacks more successful and harder to detect",
+    "our own or third party use of AI could introduce new classes of vulnerabilities...increase the likelihood and potential impact of disruptions, unauthorized disclosures...harm our reputation and subject us to regulatory or legal liability",
+    "monitoring emerging AI-driven threats and adapting our detection, prevention and response capabilities to address them"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "a second fund with an additional allocation of $100 million to focus on investing in technologies like artificial intelligence, video monitoring, machine learning and cybersecurity",
+   "context": "Allegion Ventures second fund announced December 2021, focused on AI and related technologies"
+  }
+ ],
+ "limitations": [
+  "The $100 million Ventures fund was announced in December 2021; this 2026 10-K references it historically, so it may not represent current-period AI investment commitment.",
+  "AI narrative concreteness is low: excerpts describe AI primarily as a market trend and competitive risk rather than named internal initiatives or deployed products with metrics.",
+  "No internal AI product deployments or quantified business outcomes from AI use are described in the excerpts; concreteness score reflects aspirational/market-trend framing.",
+  "Risk disclosure depth scored 4 based on specific attack mechanism descriptions and named CISO oversight, but no quantified risk exposure or formal governance body beyond CISO role is cited."
+ ],
+ "_meta": {
+  "accession": "0001579241-26-000007",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1579241/000157924126000007/alle-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T20:07:02.726202+00:00"
+ }
+}

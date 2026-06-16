@@ -1,0 +1,49 @@
+{
+ "ticker": "NDSN",
+ "source_document_id": "0000072331-25-000144",
+ "source_type": "sec_filing",
+ "source_date": "2025-12-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We may be incorporating artificial intelligence technologies into our products, services and processes.",
+    "The introduction of artificial intelligence ('AI') and machine-learning technologies, particularly generative AI, into internal processes, third-party services and/or new and existing offerings"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We may be incorporating artificial intelligence technologies into our products, services and processes.",
+    "The introduction of...generative AI, into internal processes, third-party services and/or new and existing offerings may result in new or expanded risks"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "use of AI in third-party services...could cause loss of intellectual property, as well as subject us to risks related to intellectual property infringement or misappropriation, data privacy and cybersecurity",
+    "our personnel could, unbeknownst to us, improperly utilize AI and machine learning-technology while carrying out their responsibilities",
+    "generating content that appears correct but is factually inaccurate, misleading or otherwise flawed, or that results in unintended biases and discriminatory outcomes, which could harm our reputation"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity: excerpts contain only risk-factor language with hedged/conditional framing ('may be incorporating'); no named programs, dollar amounts, or confirmed deployments disclosed in available excerpts.",
+  "AI narrative concreteness: no use-case deployment details or metrics present in excerpts; language is aspirational/conditional throughout.",
+  "AI risk disclosure depth scored 4 based on multiple company-specific risk mechanisms (IP loss, personnel misuse, regulatory scrutiny, inaccurate outputs) with described impact pathways, though no quantification or named governance bodies appear in these excerpts."
+ ],
+ "_meta": {
+  "accession": "0000072331-25-000144",
+  "filing_date": "2025-12-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/72331/000007233125000144/ndsn-20251031.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 2.4,
+  "extracted_at": "2026-06-15T21:17:12.972223+00:00"
+ }
+}

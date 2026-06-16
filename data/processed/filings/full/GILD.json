@@ -1,0 +1,50 @@
+{
+ "ticker": "GILD",
+ "source_document_id": "0000882095-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "adopt and scale artificial intelligence to transform how we work",
+    "CIO is responsible for implementing enterprise-wide IT and AI strategies for the company"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "adopt and scale artificial intelligence to transform how we work",
+    "our Kite Konnect platform is critical to maintain chain of identity and chain of custody for our cell therapies",
+    "AI principles in drug development that provide broad guidance on AI use in evidence generation and monitoring across all phases"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "unauthorized use of AI tools, can result in the exposure of or misuse of sensitive data, including our intellectual property or trade secrets or the personal information of our employees",
+    "Recent developments in the threat landscape include the use of increasingly sophisticated and evolving AI and machine learning tools",
+    "AI principles may lead to future regulatory guidance and requirements in various jurisdictions, which could affect the use of AI in our business"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex, headcount, or budget figures appear in the excerpts; investment intensity scored on named strategic priority and named AI leadership role only.",
+  "AI use cases are named at a high level (drug development, cell therapy chain of custody) but no deployment status or metrics are disclosed in these excerpts; concreteness capped at 3.",
+  "Risk section excerpts are present and contain company-specific AI risk mechanisms (regulatory, cybersecurity, data misuse), supporting a score of 4, but no quantified risk exposure or named governance body beyond CIO/CISO roles is disclosed."
+ ],
+ "_meta": {
+  "accession": "0000882095-26-000006",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000006/gild-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:10:43.367810+00:00"
+ }
+}

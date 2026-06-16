@@ -1,0 +1,51 @@
+{
+ "ticker": "BR",
+ "source_document_id": "0001628280-25-037656",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we continue to make investments in initiatives focused on the further development and deployment of these technologies [AI, machine learning, Generative AI]",
+    "We have integrated AI capabilities into several of our solutions and provide our associates with access to internal AI tools aimed at transforming our approach to the product development process",
+    "Our AI Academy offers voluntary learning paths and courses for our associates to establish a robust foundation in AI"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we have introduced a number of AI-driven solutions such as BondGPT and OpsGPT with agentic capabilities while continuing to develop new AI applications to create a more efficient trading process",
+    "leading across capital markets in the application of artificial intelligence (AI) as a service",
+    "integrating the use of AI, to improve the overall client experience across the entire front-, middle- and back-office wealth management lifecycle"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "use of AI in our product initiatives...may give rise to risks related to accuracy, bias, discrimination, intellectual property infringement, misappropriation or leakage of proprietary, confidential and personal information, defamation, data privacy, and cybersecurity",
+    "Any error, defect, or vulnerability in our AI-powered products or business processes could undermine the quality of our products and services, adversely impact our clients businesses, subject us or our clients to regulatory scrutiny, fines or litigation",
+    "The absence of a unified regulatory framework, and the risk of divergent or conflicting regulations across jurisdictions...could increase the complexity and costs of compliance for us and our clients"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts or headcount figures tied specifically to AI investment are disclosed in the excerpts; named programs (BondGPT, OpsGPT, AI Academy) exist but no spend scale is provided, capping score at 3",
+  "capex_mentions: Data center expense figures ($254.8M in FY2025) and future commitments ($579.2M) are disclosed but are not attributed to AI specifically — they cover broad IT infrastructure — so they are excluded per the anti-inflation rule",
+  "ai_narrative_concreteness: Named deployed products (BondGPT, OpsGPT) described with operating detail but no quantified business results (e.g., revenue, time saved, volume) are provided, limiting score to 4 rather than 5"
+ ],
+ "_meta": {
+  "accession": "0001628280-25-037656",
+  "filing_date": "2025-08-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1383312/000162828025037656/br-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:19:19.757057+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "CRWD",
+ "source_document_id": "0001535527-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-05",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we intend to continue to make significant investments to increase capacity and to develop and implement new technologies, including those involving AI, in our service and cloud infrastructure operations",
+    "Unifying data from our modules and customers into a single cloud infrastructure gives us significant advantages in developing and delivering innovative AI capabilities to detect and prevent threats",
+    "innovations like Charlotte AI represent a significant advancement in agentic AI delivering autonomous security decisions within customer-defined guardrails"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Charlotte AI transforms hours of routine investigation into minutes, addressing critical skills gaps and enhancing operational efficiency",
+    "AI Detection and Response (AIDR) provides visibility and governance into how employees use AI and how AI agents operate by mapping relationships between users, prompts, models, agents, and MCP servers",
+    "Threat Graph continually looks for malicious activity by combining AI with behavioral pattern-matching techniques to look beyond file features and track the behaviors of every OS process"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Our competitors may more successfully incorporate AI into their products, gain or leverage superior access to certain AI technologies, and achieve higher market acceptance of their AI solutions",
+    "we intend to continue to make significant investments to increase capacity and to develop and implement new technologies, including those involving AI... These technologies... are often advanced, complex, new and untested. We may not be successful"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were present in the excerpts; investment intensity scored 3 rather than 4/5 due to absence of quantified AI-attributable spend.",
+  "ai_narrative_concreteness scored 4 rather than 5 because Charlotte AI time-savings claims ('hours into minutes') are stated without quantified business metrics (e.g., % reduction, volume handled, customer count); language is partially promotional.",
+  "ai_risk_disclosure_depth: risk-factor excerpts are present and name AI-specific risk categories (competitive AI adoption, technology implementation risk) but do not provide quantified risk scenarios or named governance/oversight bodies, capping score at 3."
+ ],
+ "_meta": {
+  "accession": "0001535527-26-000010",
+  "filing_date": "2026-03-05",
+  "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-15T20:31:28.289685+00:00"
+ }
+}

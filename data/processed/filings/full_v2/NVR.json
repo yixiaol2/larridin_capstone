@@ -1,0 +1,47 @@
+{
+ "ticker": "NVR",
+ "source_document_id": "0000906163-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9,
+   "limitations": [
+    "No AI investment, R&D, capex, or resource commitment to AI discussed in the excerpts; AI is mentioned only as an external risk factor."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 1,
+   "evidence": [
+    "The rapid evolution and increased adoption of artificial intelligence technologies may also heighten our cybersecurity risks by making cyber-attacks more difficult to detect, contain, and mitigate."
+   ],
+   "confidence": 0.85
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The rapid evolution and increased adoption of artificial intelligence technologies may also heighten our cybersecurity risks by making cyber-attacks more difficult to detect, contain, and mitigate."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts are limited to a single cybersecurity-risk passage; no AI investment or use-case material is present.",
+  "ai_investment_intensity scored null because AI is referenced only as an external threat vector, not as an area of company investment or deployment.",
+  "ai_narrative_concreteness scored 1 because AI appears only in boilerplate cybersecurity risk language with no named AI initiative or use case.",
+  "ai_risk_disclosure_depth scored 3 because the filing names a specific risk category (AI-heightened cybersecurity threats) tied to the company's data-protection obligations, but provides no quantification or named governance/mitigation program."
+ ],
+ "_meta": {
+  "accession": "0000906163-26-000018",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000018/nvr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 1.0,
+  "extracted_at": "2026-06-15T21:14:40.104268+00:00"
+ }
+}

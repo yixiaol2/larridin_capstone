@@ -1,0 +1,56 @@
+{
+ "ticker": "V",
+ "source_document_id": "0001403161-25-000089",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "In December 2024, Visa acquired Featurespace Limited, a developer of real-time artificial intelligence payments protection technology...for a purchase consideration of $946 million.",
+    "Visa s commitment to innovation and collaboration is reflected in how we equip employees with GenAI capabilities...our internal GenAI hub that serves as an easy-to-access entry point to AI models, applications and developer tools.",
+    "VCA is comprised of specialized advisory practices such as strategy and commercial money movement, portfolio optimization, digital, AI, stablecoin, cybersecurity, risk and implementation support."
+   ],
+   "confidence": 0.82
+  },
+  "ai_narrative_concreteness": {
+   "score": 5,
+   "evidence": [
+    "From its launch in March 2025 through the fiscal year ended September 30, 2025, it has been embraced by nearly 26,000 employees launching over 261,000 AI-powered chats to get answers, automate tasks and accelerate outcomes.",
+    "Visa Consumer Authentication Service provides an AI-powered, real-time, network-agnostic risk score that enables clients to reduce fraud and false declines for intelligent authentication decisions.",
+    "In 2025, we deployed a pilot program that processed live agentic token transactions within the ecommerce and enterprise environments."
+   ],
+   "confidence": 0.88
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The adoption of agentic commerce...presents novel and complex regulatory, privacy and cybersecurity risks...we may see increased instances of erroneous or disputed payments, increased chargebacks and reputational harm.",
+    "Reliance on agentic AI introduces challenges in monitoring cross-border, prohibited or high-risk transactions, where conflicting regulatory requirements may apply.",
+    "The EU has adopted a comprehensive AI Act...with key provisions for high-risk AI systems taking effect in August 2026. Meanwhile, several U.S. states...have adopted AI-specific frameworks."
+   ],
+   "confidence": 0.87
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "acquired Featurespace Limited...for a purchase consideration of $946 million",
+   "context": "Fiscal 2025 acquisition of AI payments protection technology company, December 2024"
+  }
+ ],
+ "limitations": [
+  "No multi-year AI capex program or quantified ongoing AI infrastructure spend disclosed beyond the Featurespace acquisition; investment intensity capped at 4 rather than 5.",
+  "Risk disclosure is detailed and company-specific with named mechanisms (chargebacks, cross-border monitoring, regulatory fragmentation) but no quantified risk exposure or named internal AI governance body, keeping score at 4 rather than 5.",
+  "Promotional language present in some AI narrative sections (e.g., 'innovative offering', 'empowering partners'); scored on deployed use cases with quantified metrics where available."
+ ],
+ "_meta": {
+  "accession": "0001403161-25-000089",
+  "filing_date": "2025-11-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 18,
+  "maturity_index": 5.0,
+  "extracted_at": "2026-06-11T19:09:28.303967+00:00"
+ }
+}

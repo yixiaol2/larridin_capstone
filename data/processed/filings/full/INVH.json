@@ -1,0 +1,51 @@
+{
+ "ticker": "INVH",
+ "source_document_id": "0001687229-26-000016",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have made significant investments in processes and systems across leasing and property management, construction management, property and corporate accounting, asset management, and data analysis",
+    "we consistently advance cloud-based digital technologies and the pragmatic use of AI to benefit both our residents and our associates",
+    "Our associates are able to support and manage requests for critical functions such as leasing and maintenance through easy-to-use digital tools and AI services"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we utilize standardized online applications, national lease agreements... and an AI leasing assistant",
+    "We currently use traditional and generative AI solutions for certain marketing, operational, administrative, and other functions",
+    "Our associates are able to support and manage requests for critical functions such as leasing and maintenance through easy-to-use digital tools and AI services"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "our use of emerging technologies such as AI could disrupt our business and present business, reputational, legal, and compliance risks",
+    "Our competitors or other third parties may incorporate generative AI into their information systems more quickly or more successfully than us, which could impair our ability to compete effectively and adversely affect our results of operations",
+    "Generative AI programs may be costly and require significant expertise to develop, may be difficult to set up and manage, and require periodic upgrades"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied to AI investment were found in the excerpts; investment intensity scored 3 based on named systems and described commitments only.",
+  "AI narrative concreteness scored 4 based on named deployed use cases (AI leasing assistant, generative AI for marketing/operations) with operational detail, but no quantified business results (e.g., efficiency %, cost savings) were disclosed.",
+  "Risk disclosure scored 4 due to company-specific risk mechanisms described (competitive disadvantage, compliance exposure, cost/expertise burden), but no quantified risk figures or named governance/oversight bodies were present in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001687229-26-000016",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1687229/000168722926000016/invh-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-11T18:20:19.704660+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "MPC",
+ "source_document_id": "0001510295-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.8,
+   "limitations": [
+    "Excerpts contain only risk-factor disclosures about AI integration; no investment amounts, named AI programs, R&D spend, or capex tied to AI are mentioned."
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "As we integrate artificial intelligence technologies into our processes, these technologies may present business, compliance and reputational risks.",
+    "Recent and continuously evolving technological advances in artificial intelligence (AI) and machine-learning technology present new opportunities and also pose new risks."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "advanced artificial intelligence attacks, which can compromise our ability to operate, and the confidentiality, availability, and integrity of data in our systems",
+    "Such risks and liabilities include enhanced governmental or regulatory scrutiny, litigation, compliance issues, ethical concerns, confidentiality or security risks",
+    "The use of AI can lead to unintended consequences, including generating content that is inaccurate, misleading or otherwise flawed, or that results in unintended biases and discriminatory outcomes, which could harm our reputation"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity is null: excerpts are limited to risk-factor sections with no disclosure of AI-attributable spending, programs, or resource commitments.",
+  "ai_narrative_concreteness scored low (2): AI integration is referenced only in aspirational/risk framing with no named initiatives, use cases, or deployment details.",
+  "Risk disclosure is company-specific in naming mechanisms (regulatory scrutiny, IP infringement, inaccurate outputs, cybersecurity attacks) but lacks quantification or named governance bodies, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0001510295-26-000009",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.1,
+  "extracted_at": "2026-06-15T21:07:46.813817+00:00"
+ }
+}

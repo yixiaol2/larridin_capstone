@@ -1,0 +1,51 @@
+{
+ "ticker": "DDOG",
+ "source_document_id": "0001628280-26-008819",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have created an AI Research Lab to develop novel solutions, and engineers across our research and development organization are tasked with using AI and developing AI capabilities",
+    "we are making investments in expanding our artificial intelligence capabilities, which will require significant investment in infrastructure and personnel",
+    "building them requires significant investment in infrastructure and personnel with no assurance that we will realize the desired or anticipated benefits"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Bits AI SRE is an always-on, AI-enabled SRE agent built to handle complex troubleshooting. Powered by Datadog's vast dataset and developed against thousands of real-world incidents, Bits AI SRE pinpoints root causes quickly",
+    "LLM Observability provides end-to-end tracing of LLM chains with visibility into input-output, errors, token usage, and latency at each step",
+    "AI-native cohort...represented approximately seven percentage points of our year-over-year revenue growth for the quarter ended December 31, 2025"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the European Union's Artificial Intelligence Act...came into effect in August 2024...contains numerous requirements regarding the development and use of AI and imposes significant monetary fines",
+    "Our use of AI may also lead to novel cybersecurity or privacy risks...the Federal Trade Commission has required other companies to disgorge valuable insights or trainings generated through the use of AI",
+    "our business may be disrupted if any of the third-party AI services we use become unavailable due to extended outages or commercially unreasonable terms of service"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts or specific budget figures for AI investment disclosed in the excerpts; AI Research Lab and infrastructure investment described qualitatively only, limiting score to 3.",
+  "ai_narrative_concreteness: The AI-native cohort revenue growth figure (seven percentage points of YoY growth for Q4 2025) is a partial business result tied to customer usage rather than a direct product-level outcome metric; scored 4 rather than 5 as no direct product-level quantified results (e.g., time saved, accuracy %) are disclosed.",
+  "capex_mentions: No specific dollar amounts tied to AI/compute/data-center investment found in the excerpts; equipment purchases of $7.27M noted in financials but not attributed to AI specifically."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008819",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026008819/ddog-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:47:15.969672+00:00"
+ }
+}

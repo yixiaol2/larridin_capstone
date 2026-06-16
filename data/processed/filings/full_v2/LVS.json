@@ -1,0 +1,48 @@
+{
+ "ticker": "LVS",
+ "source_document_id": "0001300514-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "Excerpts contain no discussion of AI investment, spending, or resource commitment by LVS; only AI use by threat actors and employees is mentioned"
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "No AI use cases, initiatives, or deployments by LVS are described in the excerpts; AI is referenced only in the context of external threat actors and employee risk"
+   ]
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "increased use of artificial intelligence by threat actors, increases the risk of cyber-attacks and data breaches. Cyber-attacks can occur more quickly and evolve more rapidly when artificial intelligence is used",
+    "the use of artificial intelligence by our employees, whether authorized or unauthorized, increases the risk that our intellectual property and other proprietary information will be unintentionally disclosed"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts are limited to a single risk-adjacent passage in item_8; no AI investment or use-case material is present, making investment intensity and narrative concreteness unscorable.",
+  "Risk disclosure score is based solely on this one excerpt; broader risk-factor section (item_1A) content is not present in the excerpts, so full risk disclosure depth may be understated.",
+  "The excerpt is truncated mid-sentence, potentially omitting additional risk detail."
+ ],
+ "_meta": {
+  "accession": "0001300514-26-000013",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1300514/000130051426000013/lvs-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 3.1,
+  "extracted_at": "2026-06-15T21:04:52.733166+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "DG",
+ "source_document_id": "0001104659-26-032325",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "risks associated with our continued integration of artificial intelligence and machine learning within our technology systems",
+    "Changes related to immigration, artificial intelligence, and workforce policies and practices, may also impact us."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "if our competitors or third parties incorporate artificial intelligence into their businesses more quickly or more successfully than us, it could impair our ability to compete effectively",
+    "continued integration of artificial intelligence and machine learning within our technology systems (for example, if the types of information that applications with embedded artificial intelligence assist in producing are or are alleged to be deficient, inaccurate, or biased)"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Audit Committee discusses with management...most significant financial and other risk exposures, including...artificial intelligence...and the steps management has taken to monitor and control such exposures",
+    "education has included: an overview of Company-specific cyber-related risks considerations; an overview of various artificial intelligence considerations, including those related to risk management, governance and ethics",
+    "if the types of information that applications with embedded artificial intelligence assist in producing are or are alleged to be deficient, inaccurate, or biased, our business, financial condition, and results of operations may be adversely affected"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No named AI programs, dollar amounts, headcount, or quantified resource commitments disclosed in excerpts; only passing references to ongoing integration and competitive risk.",
+  "ai_narrative_concreteness: No named AI initiatives or deployed use cases described; AI references are framed primarily as risk factors and competitive concerns rather than strategic programs.",
+  "ai_risk_disclosure_depth: Governance mechanisms (Audit Committee oversight, quarterly updates, AI education) and company-specific risk scenarios (inaccurate/biased AI outputs harming operations) are described, but no quantification of AI risk exposure is provided, limiting score to 4."
+ ],
+ "_meta": {
+  "accession": "0001104659-26-032325",
+  "filing_date": "2026-03-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/29534/000110465926032325/dg-20260130x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-15T20:35:30.387092+00:00"
+ }
+}

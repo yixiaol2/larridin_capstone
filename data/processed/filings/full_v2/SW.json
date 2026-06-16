@@ -1,0 +1,51 @@
+{
+ "ticker": "SW",
+ "source_document_id": "0001628280-26-012555",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We also utilize and intend to expand our use of automation, robotics and machine learning in many of our products, including consumer-facing features, and we leverage generative artificial intelligence in our business processes.",
+    "Trialing such technology can take an extended period of time, with little to no returns in the short or medium terms."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We leverage generative artificial intelligence in our business processes.",
+    "We have been involved in trialing new and evolving technology, but doing so may require significant investments of capital, and such innovations are subject to long lead times and failure.",
+    "We also utilize and intend to expand our use of automation, robotics and machine learning in many of our products, including consumer-facing features."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Uncertainty in the legal and regulatory regime relating to artificial intelligence may require significant resources to modify and maintain business practices to comply with international laws and regulations.",
+    "Data sourcing, technology, integration and process issues, bias in decision-making algorithms, concerns over intellectual property, reputational implications if use becomes controversial, system security concerns, or the protection of privacy could impair adoption.",
+    "The rapid evolution and increased availability of artificial intelligence may intensify cybersecurity risks by making targeted attacks more convincing and cybersecurity incidents more difficult to detect, contain, and mitigate."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts (dollar figures, headcount, or capex) appear in the excerpts; investment intensity scored 3 based on named programs without quantification.",
+  "AI use cases are named (generative AI in business processes, ML in products) but no deployment metrics or quantified outcomes are disclosed; concreteness capped at 3.",
+  "Risk disclosure covers multiple named AI risk categories with mechanisms (regulatory, cybersecurity, competitive, IP, bias) justifying score 4, but no quantified risk exposure or named governance body is present to reach score 5.",
+  "Excerpts are pre-filtered; additional AI investment or use-case detail may exist elsewhere in the filing."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-012555",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/2005951/000162828026012555/smur-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T21:32:26.338572+00:00"
+ }
+}

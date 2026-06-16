@@ -1,0 +1,50 @@
+{
+ "ticker": "SWKS",
+ "source_document_id": "0000004127-25-000085",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-07",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Although we are evaluating, and where we believe appropriate, incorporating AI tools into our operations",
+    "accelerating AI trends could catalyze the smartphone transformation with incremental content driving unprecedented functional and physical densities"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We believe AI can be a catalyst for more efficient and effective wireless communications. From endpoint devices to data centers, generative AI applications will drive the need for higher speed and higher bandwidth networks",
+    "The first wave of AI-capable phones is reaching scale, and early demand signals are encouraging.",
+    "accelerating AI trends could catalyze the smartphone transformation with incremental content driving unprecedented functional and physical densities"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Our use of AI tools could also result in the loss of confidential information or intellectual property... subject us to risks related to intellectual property infringement or misappropriation, data privacy, cybersecurity",
+    "The jurisdictions in which we conduct business have and may adopt laws and regulations related to AI that could cause us to incur greater compliance costs, limit our use of AI tools, or subject us to legal liabilities",
+    "Our competitors may be more successful in their use of AI tools, including by developing superior products or improving their operations with the assistance of AI"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex, headcount, or budget figures appear in the excerpts; investment intensity scored 2 based on evaluative/generic language only.",
+  "AI narrative is largely aspirational and market-opportunity framing rather than deployed use cases with metrics; named initiatives are absent.",
+  "Risk disclosure is company-specific in naming mechanisms (IP loss, regulatory compliance costs, competitive disadvantage) but lacks quantification or named governance bodies, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0000004127-25-000085",
+  "filing_date": "2025-11-07",
+  "url": "https://www.sec.gov/Archives/edgar/data/4127/000000412725000085/swks-20251003.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T18:55:52.293463+00:00"
+ }
+}

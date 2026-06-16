@@ -1,0 +1,48 @@
+{
+ "ticker": "SFM",
+ "source_document_id": "0001575515-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we continue to evaluate and integrate emerging technologies such as artificial intelligence, machine learning, and cloud computing to support automation, generate more timely insights, and enhance scalability"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "we continue to evaluate and integrate emerging technologies such as artificial intelligence, machine learning, and cloud computing to support automation, generate more timely insights, and enhance scalability",
+    "Emerging technologies, including artificial intelligence and machine learning, may not deliver expected efficiencies and could introduce new risks"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "such threats may continue to increase and evolve with the rapid evolution of artificial intelligence and machine learning technologies",
+    "Emerging technologies, including artificial intelligence and machine learning, may not deliver expected efficiencies and could introduce new risks",
+    "If our systems are improperly implemented, breached, damaged, cease to function properly, do not function or provide benefits as anticipated...we may have to make significant investments to fix or replace them"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts, headcount, or program budgets disclosed; investment intensity scored 2 due to generic evaluative language only.",
+  "AI use cases named at a high level (demand forecasting, supply chain automation) but no deployment status or metrics provided; concreteness capped at 2.",
+  "Risk disclosure names specific risk categories (cybersecurity threat evolution via AI, implementation failure, regulatory compliance) but lacks quantification or named governance bodies; scored 3."
+ ],
+ "_meta": {
+  "accession": "0001575515-26-000008",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1575515/000157551526000008/sfm-20251228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:33:26.038254+00:00"
+ }
+}

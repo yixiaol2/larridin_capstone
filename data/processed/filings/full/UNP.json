@@ -1,0 +1,46 @@
+{
+ "ticker": "UNP",
+ "source_document_id": "0000100885-26-000037",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We will continue to transform our railroad using technology and automation to further improve our service product, improve resource utilization, and lower our overall cost structure."
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We will continue to transform our railroad using technology and automation to further improve our service product, improve resource utilization, and lower our overall cost structure."
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The rapid evolution and increased availability of artificial intelligence may intensify cybersecurity risks by making cyber-attacks more sophisticated and cybersecurity incidents more difficult to detect, contain, and mitigate."
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No named AI systems, vendors, partners, or quantified spend disclosed in these excerpts; only generic 'technology and automation' language.",
+  "ai_narrative_concreteness: No named AI initiatives or deployment details present; language is aspirational and generic.",
+  "ai_risk_disclosure_depth: Risk-section material (item_8) is present and names AI specifically in the context of cybersecurity risk, qualifying as a named risk category; however, no quantified risk treatment or named governance bodies are disclosed in these excerpts.",
+  "Excerpts are limited; broader filing may contain additional AI investment or use-case detail not captured here."
+ ],
+ "_meta": {
+  "accession": "0000100885-26-000037",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000037/unp-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T19:06:20.902358+00:00"
+ }
+}

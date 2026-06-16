@@ -1,0 +1,50 @@
+{
+ "ticker": "SYF",
+ "source_document_id": "0001601712-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Our marketing teams offer expertise and experience in omnichannel strategy and planning, utilizing a comprehensive set of marketing technology tools and machine learning algorithms, often tailored to the portfolio or product",
+    "our information security program is designed to adapt to an evolving landscape of emerging and available technology and related threats, such as artificial intelligence ('AI')"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "machine learning algorithms, often tailored to the portfolio or product, focused on expanding and optimizing customer relationships through data-led personalization capabilities",
+    "Training topics include social engineering (such as phishing), AI, including AI-related threats, and outbound data sharing. We routinely review and update our training programs",
+    "security controls are adjusted on an as needed basis... evaluation of data gathered from external sources about emerging threats and incidents, assessments of internal incidents and strategic technology investments"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "agentic commerce, which utilizes artificial intelligence ('AI') shopping agents to act on behalf of consumers... If our competitors secure and maintain advantaged positions with these new agent-driven purchase paths, we may be unable to maintain our existing relationships",
+    "the growing sophistication of artificial intelligence technologies, such as generative artificial intelligence, may increase our susceptibility to fraud. For example, perpetrators of fraud may use artificial intelligence to create convincing false identities",
+    "risks related to the use of generative AI... Risk Committee receives reports and briefings on our information security and enterprise risk management programs at least quarterly"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 based on named programs only.",
+  "AI narrative concreteness scored 4 based on described deployments (ML algorithms in marketing, security program adaptations) but no quantified business results (e.g., % improvement, dollar savings) are disclosed in the excerpts.",
+  "Risk disclosure includes named governance body (Risk Committee, CISO) and specific risk mechanisms (fraud via AI-generated identities, agentic commerce competitive displacement, generative AI cybersecurity threats), supporting score 4; no quantified risk exposure figures present to warrant score 5."
+ ],
+ "_meta": {
+  "accession": "0001601712-26-000006",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000006/syf-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T21:35:11.101350+00:00"
+ }
+}

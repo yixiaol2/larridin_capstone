@@ -1,0 +1,50 @@
+{
+ "ticker": "LIN",
+ "source_document_id": "0001628280-26-011430",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "she served as Senior Vice President of Communications, AI, and Corporate Procurement beginning in 2024",
+    "implementing advanced security technologies, internal controls, network and data center resiliency and recovery processes"
+   ],
+   "confidence": 0.45
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "she served as Senior Vice President of Communications, AI, and Corporate Procurement beginning in 2024",
+    "systems that utilize advanced technologies for business and operational activities"
+   ],
+   "confidence": 0.4
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "data protection including artificial intelligence",
+    "Linde is subject to regulations in the following areas... data protection including artificial intelligence",
+    "systems susceptible to outages... increasingly sophisticated cyber attacks and disruptions"
+   ],
+   "confidence": 0.65
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named AI systems disclosed in excerpts; the only AI reference is an executive title and generic technology language, yielding a score of 2.",
+  "ai_narrative_concreteness: No named AI initiatives, use cases, or deployment details appear in the excerpts; AI is referenced only via an executive role title and generic 'advanced technologies' language — aspirational/organizational at best.",
+  "ai_risk_disclosure_depth: Risk-section material is present; AI is named specifically as a regulatory/data-protection risk category, but no company-specific mechanism or quantified scenario is described, supporting score 3.",
+  "Excerpts are heavily weighted toward cybersecurity and HR biography; limited AI-specific content overall reduces confidence across all dimensions."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-011430",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1707925/000162828026011430/lin-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:27:10.647327+00:00"
+ }
+}

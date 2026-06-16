@@ -1,0 +1,51 @@
+{
+ "ticker": "ALL",
+ "source_document_id": "0000899051-26-000031",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Using generative and agentic artificial intelligence to improve customer value",
+    "Deploying an advanced technology ecosystem to deliver affordable, simple, and connected experiences and products at a lower cost",
+    "Increasing sophistication and investment in customer acquisition by centralizing lead management and using data and advanced computing capabilities"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Using generative and agentic artificial intelligence to improve customer value",
+    "We use technology algorithms, machine based learning, artificial intelligence and data to perform necessary business functions",
+    "deployment of artificial intelligence and the development of enterprise resilience capabilities that protect against cyber threats"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Regulatory restrictions on the use or development of artificial intelligence may impose additional compliance or reporting obligations, which may materially adversely affect our operations or ability to write business profitably",
+    "Executing our strategy to advance and innovate technology, including leveraging artificial intelligence, has and may continue to impact our workforce as we require new and different skills",
+    "Integrated operational risk and return management processes and practices may not be sufficient to timely detect, mitigate and respond to cybersecurity operational risks, including those posed by the use of...artificial intelligence"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3",
+  "AI use cases are named (generative AI, agentic AI, ML for business functions) but no deployment metrics or quantified outcomes are disclosed; concreteness capped at 3",
+  "Risk disclosure includes named categories (regulatory, workforce, cybersecurity/vendor, competitive) with mechanisms described (revenue/operations impact, compliance obligations), supporting score 4; no quantified risk figures or formal named AI governance body beyond the ERRC general mandate"
+ ],
+ "_meta": {
+  "accession": "0000899051-26-000031",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000031/all-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:07:28.727559+00:00"
+ }
+}

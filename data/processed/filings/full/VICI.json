@@ -1,0 +1,46 @@
+{
+ "ticker": "VICI",
+ "source_document_id": "0001705696-26-000034",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "the adoption of AI tools by us or by third parties",
+    "We use software and platforms designed to detect such cybersecurity threats"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Threat actors may use AI technology and tools to develop new, more sophisticated attacks or automate or increase the frequency of such attacks",
+    "these risks are exacerbated with the advancement and accessibility of artificial intelligence (AI) technology, including the adoption of AI tools by us or by third parties"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no AI capex, infrastructure commitment, or investment amounts disclosed in the excerpts; null is appropriate",
+  "ai_narrative_concreteness: AI is mentioned only in the context of cybersecurity risk, with no named AI initiatives or use cases beyond generic reference to 'AI tools'; scored 2 for aspirational/generic framing rather than named initiatives",
+  "ai_risk_disclosure_depth: risk-section material is present; AI risk is named and tied to specific threat mechanisms (sophisticated attacks, increased frequency), warranting score 3, but no quantification or named governance body is disclosed",
+  "Only one excerpt provided; broader filing context may contain additional AI disclosures not visible here"
+ ],
+ "_meta": {
+  "accession": "0001705696-26-000034",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1705696/000170569626000034/vici-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T19:09:09.461550+00:00"
+ }
+}

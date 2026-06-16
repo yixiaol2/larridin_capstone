@@ -1,0 +1,48 @@
+{
+ "ticker": "WYNN",
+ "source_document_id": "0001174922-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-02",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9,
+   "limitations": [
+    "No AI investment, R&D, capex, or resource commitment to AI discussed in the excerpts"
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9,
+   "limitations": [
+    "No AI use cases, initiatives, or deployment described in the excerpts; AI is mentioned only in the context of cybersecurity risk"
+   ]
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The rapid evolution of artificial intelligence has increased the complexity and frequency of such attempts [unauthorized access/cyber attacks].",
+    "We face cybersecurity risks including cyber and physical security breaches, system failure, phishing attacks, computer viruses, worms, ransomware, malicious software programs."
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts are limited to a single cybersecurity-risk passage; no AI investment or use-case material is present.",
+  "AI risk disclosure is named and company-context-specific (AI enabling more sophisticated cyberattacks against Wynn's customer/employee data), justifying score 3, but no quantification or named governance body is present to warrant score 4 or 5.",
+  "Only one excerpt provided; broader risk-factor section or other filing sections may contain additional AI-related disclosures not visible here."
+ ],
+ "_meta": {
+  "accession": "0001174922-26-000013",
+  "filing_date": "2026-03-02",
+  "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000013/wynn-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T21:49:31.483465+00:00"
+ }
+}

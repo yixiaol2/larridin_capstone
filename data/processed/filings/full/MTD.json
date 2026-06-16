@@ -1,0 +1,51 @@
+{
+ "ticker": "MTD",
+ "source_document_id": "0001037646-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We continue to invest in global market trends around automation and digitalization, as well as technologies related to artificial intelligence (AI).",
+    "Over the last three years, we have invested $574 million in research and development ($199 million in 2025, $189 million in 2024, and $185 million in 2023)",
+    "We devote a substantial proportion of our research and development budget to software development."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "AI-driven image recognition solutions for fresh goods",
+    "We have several initiatives that further strengthen our capabilities to serve customers, and we continue to advance the digital capability of our products and software",
+    "As we introduce AI and machine learning into our technology platform (as well as those of our customers through provision of our services)"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The rapid evolution and increased adoption of artificial intelligence technologies amplify these [cybersecurity] concerns.",
+    "challenges with properly managing the use of AI could result in reputational harm, competitive harm, and legal liability, and adversely affect our results of operations",
+    "if we fail to adopt these new technologies, we may face price pressure from competitors using lower-cost AI systems"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: The $574M R&D figure is total R&D spend over three years, not AI-specific; no AI-dedicated budget or capex amount is disclosed, so score reflects named AI initiatives without quantified AI-specific spend.",
+  "ai_narrative_concreteness: AI image recognition for retail fresh goods is the only named deployed use case; other AI initiatives lack deployment status or quantified results, keeping score at 3.",
+  "ai_risk_disclosure_depth: Risk-section excerpts are present and contain company-specific AI risk scenarios with described mechanisms (regulatory compliance burden, competitive disadvantage, reputational/legal harm, cybersecurity amplification), but no quantification or named governance body, capping at 4."
+ ],
+ "_meta": {
+  "accession": "0001037646-26-000011",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000011/mtd-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T18:32:46.314502+00:00"
+ }
+}

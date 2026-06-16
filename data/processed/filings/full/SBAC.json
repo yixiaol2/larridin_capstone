@@ -1,0 +1,51 @@
+{
+ "ticker": "SBAC",
+ "source_document_id": "0001034054-26-000002",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are exploring ways to participate in edge computing infrastructure to support existing and future customers increasing need to deploy computing capabilities to locations closer to their end users",
+    "SBA currently owns two regional data centers in the U.S. and one regional data center in Brazil, as well as tower-based data centers, which were acquired as part of our broader efforts to learn and evaluate developing technologies",
+    "we are exploring and investing in ancillary services and emerging technologies, including our mobile edge computing initiative and private networks"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "increased use of artificial intelligence and emerging high-performance applications may drive increased need for reliable, secure, and interconnected wireless solutions",
+    "Consumers are increasing their demand for wireless connectivity due to the adoption of bandwidth-intensive wireless data applications, such as high-definition streaming, generative artificial intelligence",
+    "those investments may not prove to be profitable"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "any failure on our part to evolve with developments in artificial intelligence, which is potentially more power-intensive and which may require levels of power that our facilities may not be designed to provide, may reduce the demand for our wireless infrastructure",
+    "adverse impacts of artificial intelligence, catastrophic events such as natural disasters, and other events beyond our control",
+    "those investments may not prove to be profitable"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; investment intensity scored 3 based on named initiatives (edge computing, data centers) without dollar amounts or headcount.",
+  "AI narrative is largely aspirational and demand-side (AI as a driver of customer wireless traffic); no deployed AI use cases within SBA's own operations are described with metrics.",
+  "Risk disclosure names specific mechanisms (power requirements, competitive disadvantage, cyber/AI adverse impacts) but provides no quantification or named governance bodies, capping score at 3."
+ ],
+ "_meta": {
+  "accession": "0001034054-26-000002",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1034054/000103405426000002/sbac-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T18:53:56.271971+00:00"
+ }
+}

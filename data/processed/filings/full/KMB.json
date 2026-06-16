@@ -1,0 +1,49 @@
+{
+ "ticker": "KMB",
+ "source_document_id": "0001628280-26-007567",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "develop and fund technological innovations (including advancements such as artificial intelligence, machine learnings and augmented reality, which may become critical in understanding consumer preferences in the future)",
+    "capital investments to drive durable growth in our business... investment in three key areas... value stream simplification, network optimization, and scalable automation"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "advancements such as artificial intelligence, machine learnings and augmented reality, which may become critical in understanding consumer preferences in the future",
+    "fail to perfect or successfully assert our intellectual property rights (including in response to developments in artificial intelligence technologies)"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the rapid evolution and increased adoption of artificial intelligence technologies may intensify our cybersecurity risks",
+    "if we fail to perfect or successfully assert our intellectual property rights (including in response to developments in artificial intelligence technologies), we may be less competitive",
+    "develop and fund technological innovations (including advancements such as artificial intelligence... which may become critical in understanding consumer preferences in the future)"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/infrastructure partnerships disclosed in excerpts; AI references are aspirational or risk-framed only.",
+  "ai_narrative_concreteness: AI mentions are forward-looking and aspirational ('may become critical'); no named deployed initiatives or production use cases with metrics found in excerpts.",
+  "ai_risk_disclosure_depth: Risk categories are named (cybersecurity intensification, IP/competitive risk, consumer-preference technology gap) but mechanisms are described only at a general level without quantification or named governance bodies; scored 3 rather than 4."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-007567",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/55785/000162828026007567/kmb-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T18:24:15.127448+00:00"
+ }
+}

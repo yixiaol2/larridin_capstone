@@ -1,0 +1,51 @@
+{
+ "ticker": "UPS",
+ "source_document_id": "0001628280-26-008432",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are increasing our utilization of artificial intelligence ('AI') to optimize our operations, improve the customer experience and support decision-making",
+    "we continued to execute on our Network of the Future and other operational efficiency initiatives",
+    "increased spending on buildings, facilities and plant equipment and information technology, as we continued to execute on our Network of the Future"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We leverage advanced and emerging technologies, including artificial intelligence ('AI')... enable data analysis automation, automated agents, personalization and customized pricing",
+    "RFID-enabled Smart Package Smart Facility technology, enable us to optimize network efficiency asset utilization, and to enhance end-to-end visibility",
+    "increasing our utilization of artificial intelligence ('AI') to optimize our operations, improve the customer experience and support decision-making"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If our AI systems are compromised through cyberattacks or unauthorized access, it could result in data breaches, a loss of proprietary information, or violations of data protection laws",
+    "leveraging AI capabilities for our internal functions may introduce additional operational vulnerabilities by producing inaccurate outcomes, recommendations or other suggestions based on flaws in the underlying data",
+    "The Risk Committee... responsibilities include assisting the Board in overseeing management's identification and evaluation of strategic enterprise risks, including risks associated with privacy, technology, information security, AI, cybersecurity"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; general capex discussion references Network of the Future and IT spending but does not isolate AI dollar amounts, capping investment intensity at 3",
+  "AI use cases are named (automated agents, personalization, pricing, operations optimization) but no deployment metrics or quantified business results are disclosed, capping narrative concreteness at 3",
+  "Risk disclosure includes both named risk mechanisms (data breach, operational errors, regulatory violations) and a named governance body (Risk Committee with explicit AI oversight mandate), supporting a score of 4; no quantified risk exposure found to justify 5"
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008432",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026008432/ups-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-11T19:05:38.011705+00:00"
+ }
+}

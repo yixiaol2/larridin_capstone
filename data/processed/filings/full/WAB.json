@@ -1,0 +1,56 @@
+{
+ "ticker": "WAB",
+ "source_document_id": "0001628280-26-008067",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have a multi-year initiative to build on our existing expertise and technologies in the Digital Intelligence space.",
+    "A significant portion of our investment is expected to be focused on three customer-centric areas of innovation: advanced supply chain visibility, automation and digitization and low-to-zero emissions operations.",
+    "Inspection Technologies leading industry presence... adding advanced automated inspection capabilities, driving technology in a space where data acquisition, analytics and automation are critical."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we have partnered with a customer, as well as an artificial intelligence and robotics institution, to create technologies that will further decarbonize freight rail transport, improve freight safety",
+    "We continue to emphasize innovation and development funding... such as alternatively fueled locomotive, vehicle monitoring and data analytics, and nondestructive testing.",
+    "Inspection Technologies reports within the Digital Intelligence product line of the Freight Segment."
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The advancement of artificial intelligence technologies may significantly accelerate the pace and broaden the scope of technological innovation impacting the industry.",
+    "Any failure by us to quickly adapt to and adopt new innovations in products and processes desired by our customers may result in a significant loss of demand for our product and service offerings.",
+    "advances in technology may require us to increase investments in order to remain competitive, and our customers may not be willing to accept higher prices to cover the cost of these investments."
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "acquisition... for approximately $1.788 billion",
+   "context": "Acquisition of Inspection Technologies (automated inspection, data analytics, automation) funded with cash and debt proceeds"
+  }
+ ],
+ "limitations": [
+  "ai_investment_intensity: multi-year Digital Intelligence initiative named but no dollar amounts or headcount quantified for AI specifically; acquisition cost of $1.788B is for Inspection Technologies broadly, not purely AI/ML spend",
+  "ai_narrative_concreteness: named use cases (Digital Intelligence, automated inspection, AI/robotics partnership) described at initiative level without deployment status metrics or quantified business results",
+  "ai_risk_disclosure_depth: risk-factor section present and contains AI-specific risk language, but risks are framed at industry/competitive level without company-specific mechanisms, quantification, or named governance bodies"
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008067",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/943452/000162828026008067/wab-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-11T19:10:48.788911+00:00"
+ }
+}

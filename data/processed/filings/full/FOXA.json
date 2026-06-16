@@ -1,0 +1,49 @@
+{
+ "ticker": "FOXA",
+ "source_document_id": "0001628280-25-038077",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "our ability to compete could be negatively affected if our efforts to enhance the value of our offerings with these technologies are not successful",
+    "the legal and regulatory landscape governing new technologies such as AI remains unsettled and is an area of increasing regulatory focus"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "the development and use of generative AI, including large language model applications, and the advantages and risks associated with its use are largely uncertain",
+    "our ability to compete could be negatively affected if our efforts to enhance the value of our offerings with these technologies are not successful"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Generative AI may enable new competitors to rapidly produce large volumes of content and replicate or imitate our proprietary content without authorization, attribution or compensation. This could dilute the value of our content",
+    "FOX s brands, credibility and reputation also could be adversely impacted if AI tools misattribute incorrect information to the Company or if the Company s use of AI in its own products and services produces content...alleged to be deficient, inaccurate, biased, harmful",
+    "the increasing use of AI may intensify cybersecurity risks...the Audit Committee of the Board is responsible for...overseeing the Company s policies and practices with respect to risk assessment and risk management, including with respect to cybersecurity and the use of AI"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No named AI systems, vendor partnerships, dedicated AI budgets, or quantified AI spend disclosed in excerpts; language is generic and regulatory/risk-oriented rather than investment-oriented.",
+  "ai_narrative_concreteness: No named AI initiatives or deployed use cases described; all AI references are aspirational, risk-framed, or regulatory in nature. Scored 2 rather than null because the document does reference potential use of AI in products/services but without any named initiative or deployment detail.",
+  "capex_mentions: No dollar amounts or quantified AI/compute investment figures appear in any excerpt."
+ ],
+ "_meta": {
+  "accession": "0001628280-25-038077",
+  "filing_date": "2025-08-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828025038077/fox-20250630.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-11T18:07:23.751288+00:00"
+ }
+}

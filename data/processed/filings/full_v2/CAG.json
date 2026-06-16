@@ -1,0 +1,49 @@
+{
+ "ticker": "CAG",
+ "source_document_id": "0001558370-25-009180",
+ "source_type": "sec_filing",
+ "source_date": "2025-07-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have committed to investing in automation, connected data, improved equipment, and artificial intelligence to upgrade our operations and increase productivity.",
+    "We could experience shortages of employees with specialized skills, such as skills in emerging technologies including artificial intelligence and data analytics."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We have committed to investing in automation, connected data, improved equipment, and artificial intelligence to upgrade our operations and increase productivity.",
+    "Our initiatives to continue to modernize our operations, increase data digitalization and improve connectively of our production facilities may increase our potential exposure to cybersecurity risks."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Negative or inaccurate posts or comments...inaccurate information contained in shopping, health or product evaluation applications which may use outputs derived from artificial intelligence applications could seriously damage our brands and reputation.",
+    "Rapid development and increased adoption of artificial intelligence technology may create the need for rapid modifications to our cybersecurity program and increase our cybersecurity risks.",
+    "If we do not adequately monitor their performance, including their use of new artificial intelligence technologies, we may not be able to achieve the expected cost savings or we may have to incur additional costs."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-attributable investment figures appear in the excerpts; investment intensity scored 3 based on named commitment without quantification.",
+  "All AI narrative content appears in risk-factor disclosures framed as potential risks rather than operational deployment descriptions; concreteness scored 2 as language is aspirational/commitment-stage with no named deployed initiatives or metrics.",
+  "Risk disclosure scored 4 because multiple company-specific risk mechanisms are described (brand/reputation damage from AI-generated misinformation, cybersecurity program modification needs, third-party AI monitoring failures affecting cost savings), but no quantification or named governance bodies are present to warrant a 5."
+ ],
+ "_meta": {
+  "accession": "0001558370-25-009180",
+  "filing_date": "2025-07-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/23217/000155837025009180/tmb-20250525x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T20:29:32.338659+00:00"
+ }
+}

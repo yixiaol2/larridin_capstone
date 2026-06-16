@@ -1,0 +1,52 @@
+{
+ "ticker": "KO",
+ "source_document_id": "0001628280-26-010047",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "one of our top priorities is to digitalize the Coca-Cola system by...digitalizing operations through the use of data, artificial intelligence, automation, robotics and digital devices",
+    "we are increasing our investments in e-commerce to support retail and meal delivery servi[ces]",
+    "We may not be able to successfully compete for...employees with advanced technology, artificial intelligence and digital marketing skills"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "creating more relevant and more personalized experiences wherever our system interacts with consumers...finding ways to create more powerful digital tools and capabilities for the Coca-Cola system s retail customers",
+    "digitalizing operations through the use of data, artificial intelligence, automation, robotics and digital devices to increase efficiency and productivity",
+    "continuously strengthen our capabilities in marketing, data analytics (including artificial intelligence and machine learning) and innovation to understand and maintain consumer interest"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The legal and regulatory landscape for certain new technologies, such as artificial intelligence, is uncertain and evolving, and our compliance obligations could increase our costs or limit how we may use these technologies",
+    "cybercriminals have increasingly demonstrated advanced capabilities, such as use of zero-day vulnerabilities and rapid integration of new technology such as generative artificial intelligence",
+    "laws and regulations relating to...machine learning and artificial intelligence (including generative artificial intelligence), personal data protection and privacy, and data security"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases are named (personalization, operations digitalization, digital tools for retailers) but no deployment status metrics or quantified outcomes are disclosed; concreteness capped at 3.",
+  "Risk disclosures identify specific mechanisms (regulatory compliance costs, cybersecurity via generative AI, usage limitations) but no quantification of risk exposure or named governance/oversight bodies, capping risk depth at 4.",
+  "Excerpts are pre-filtered; full risk-factor section may contain additional AI risk detail not visible here."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-010047",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:28:21.628039+00:00"
+ }
+}

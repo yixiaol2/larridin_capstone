@@ -1,0 +1,52 @@
+{
+ "ticker": "SOLV",
+ "source_document_id": "0001964738-26-000007",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Solventum intends to devote significant resources to develop and deploy cloud, edge and software solutions in its healthcare solutions.",
+    "The deployment of AI, machine learning or other emerging technologies into Solventum's products and services will require additional investment and increase its costs.",
+    "Solventum has incorporated AI into certain products in the Health Information Systems business segment and certain of its digital offerings and expects to continue to build AI into additional products."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Health Information Systems provides healthcare systems with software solutions including computer-assisted physician documentation, direct-to-bill and coding automation, classification methodologies, speech recognition, and data visualization platforms.",
+    "Solventum has incorporated AI into certain products in the Health Information Systems business segment and certain of its digital offerings.",
+    "Our solutions integrate digital processes, AI-enabled capabilities and data in multiple ways and across different parts of the healthcare industry."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Any disruption or failure in the AI, machine learning, or other emerging technologies...could adversely impact Solventum's business, including as a result of flawed AI algorithms, insufficient or biased datasets, malfunctions or manipulations, unintentional release of confidential information.",
+    "The emergence of new AI-enabled competitors and business model disruption, particularly for our HIS business; changes in the business environment related to disruptive technologies, such as AI.",
+    "Solventum is required to comply with increasingly complex and changing legal and regulatory requirements...including for the development and use of AI...the European Union's Artificial Intelligence Act and various other country-specific requirements."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific dollar amounts or headcount figures disclosed in the excerpts; investment intensity scored 3 (named but unquantified).",
+  "The $500 million restructuring program ('Transform for the Future') mentions automation but is not explicitly AI-attributable and therefore excluded from capex_mentions.",
+  "Narrative concreteness is scored 4 (deployed with operating detail) but no quantified business results (e.g., productivity %, revenue impact) are provided in the excerpts.",
+  "Risk disclosure is detailed and company-specific with named mechanisms, but no quantified risk exposure or named governance/oversight body is disclosed, limiting score to 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0001964738-26-000007",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000007/solv-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:32:52.542458+00:00"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "ticker": "FISV",
+ "source_document_id": "0000798354-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We expect to continue to make significant investments in research, development, and marketing for new and existing products, services, and technologies, including embedded finance, stablecoin and artificial intelligence based products and services.",
+    "Through Project Elevate, our business transformation initiative, we are enhancing our operations through the use of AI and by simplifying and standardizing business processes.",
+    "We are modernizing our technology infrastructure, enhancing resiliency, and reengineering our operating model through AI and advanced automation."
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We are embedding artificial intelligence (AI) capabilities in our account processing solutions, led by Finxact.",
+    "security, risk and fraud management solutions, which incorporate machine learning-based predictive technology, that help financial institutions operate and grow their business by preventing fraud.",
+    "Through Project Elevate, our business transformation initiative, we are enhancing our operations through the use of AI and by simplifying and standardizing business processes."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If the content, analyses or recommendations that artificial intelligence applications assist in producing are or are alleged to be inaccurate, deficient or biased, our business, financial condition and results of operations may be adversely affected.",
+    "our services that integrate third-party artificial intelligence models may rely on certain safeguards implemented by the third-party providers...and these safeguards may be insufficient.",
+    "Legislation and regulations governing the development or use of artificial intelligence...may impose obligations related to our development, offering, and use of artificial intelligence, particularly those use cases that are deemed by the law to be high risk, and expose us to increased risk of regulatory enforcement and litigation."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific budget figures for AI investment were found in the excerpts; investment intensity scored 3 (named initiatives, no quantified scale).",
+  "ai_narrative_concreteness scored 4 based on named deployed use cases (Finxact AI embedding, ML-based fraud detection, Project Elevate) with operational detail, but no quantified business results (e.g., cost savings, efficiency %) were disclosed in the excerpts.",
+  "Promotional/aspirational language is present alongside named initiatives; confidence adjusted accordingly.",
+  "No capex dollar amounts tied to AI or data center investment appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000798354-26-000009",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-11T18:06:11.693974+00:00"
+ }
+}

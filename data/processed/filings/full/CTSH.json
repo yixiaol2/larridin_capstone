@@ -1,0 +1,51 @@
+{
+ "ticker": "CTSH",
+ "source_document_id": "0001058290-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have incurred and plan to continue to incur significant development and operational costs to build and support our AI capabilities",
+    "investments to scale our AI capabilities; our recruiting, training and retention model",
+    "we have upskilled more than 330,000 associates on GenAI via more than 1,000 learning programs"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Our Intuitive Operations and Automation practice helps clients build and run modern operations through two main vehicles: AI-led automation...and business process outsourcing services",
+    "Cognizant Moment delivers intelligent ecosystem orchestration...enabling clients to leverage GenAI's content generation capabilities alongside human ingenuity to innovate and differentiate",
+    "AI and analytics, which helps clients identify and adopt the best AI use cases for their enterprise and formulate actionable insights from unstructured data"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If our clients do not accept new pricing models that reflect the value of our AI-enabled solutions, we may fail to recoup our investments in AI and our financial performance...may be adversely impacted",
+    "reliance on outputs that reflect biased, incomplete or inaccurate information; unauthorized disclosure of sensitive information; operational inefficiencies leading to decreased productivity",
+    "the EU AI Act may increase costs or impact the operation of our AI services...Regulatory approaches may differ or conflict across jurisdictions, which could require us to expend resources to tailor or limit certain AI-related offerings"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific capex figures for AI investment were disclosed in the excerpts; investment intensity scored 3 based on named programs and partnerships (Google, Microsoft, Anthropic, NVIDIA) without quantified scale.",
+  "Narrative concreteness scored 4 based on named deployed practices and described operating models, but no quantified business results (%, $, time saved) were present in the excerpts to warrant a score of 5.",
+  "Risk disclosure scored 4 based on company-specific risk mechanisms (pricing model risk, regulatory compliance costs, data quality/bias risks, EU AI Act impact); no quantified risk figures or named governance body with formal oversight mandate were present to warrant a score of 5, though a 'responsible AI framework' is mentioned without detail."
+ ],
+ "_meta": {
+  "accession": "0001058290-26-000008",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/1058290/000105829026000008/ctsh-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:42:29.036838+00:00"
+ }
+}

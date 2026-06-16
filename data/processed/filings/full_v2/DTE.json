@@ -1,0 +1,54 @@
+{
+ "ticker": "DTE",
+ "source_document_id": "0000936340-26-000054",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Increasing intensity of windstorms and other weather events, coupled with increasing electric vehicle adoption and future data center load, will drive a continued need for substantial grid investment over the long-term.",
+    "In October 2025, DTE Electric entered into a 1.4 gigawatt data center agreement. Capital investments required to support this agreement are included in DTE Electric's 5-year capital investment plan."
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Technological developments, including advances in artificial intelligence, could have the potential to increase the Registrants' vulnerability to these threats.",
+    "future data center load, will drive a continued need for substantial grid investment over the long-term"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Technological developments, including advances in artificial intelligence, could have the potential to increase the Registrants' vulnerability to these threats.",
+    "All of the Registrants' technology systems are vulnerable to disability or failures due to cyber incidents, physical security threats, acts of war or terrorism, and other causes."
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "1.4 gigawatt data center agreement. Capital investments required to support this agreement are included in DTE Electric's 5-year capital investment plan",
+   "context": "October 2025 data center capacity agreement; capex included in 5-year plan but no AI-specific dollar amount disclosed"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity: DTE is a utility, not an AI builder. The data center agreement and grid investment are demand-driven infrastructure plays, not AI R&D or AI-attributable capex by DTE itself; no dollar amount is tied specifically to AI. Score reflects generic statements about data center load driving grid investment.",
+  "AI narrative concreteness: AI is mentioned only in the context of cybersecurity risk and as an indirect demand driver (data centers); no named AI initiatives or deployments by DTE are described.",
+  "Capex mentions: The 1.4 GW data center agreement involves grid infrastructure investment to serve data center customers, not AI-attributable spend by DTE; included for completeness but AI-attributability is indirect.",
+  "Promotional language: references to data center load and grid investment are forward-looking and demand-driven, not evidence of DTE's own AI adoption or AI product development."
+ ],
+ "_meta": {
+  "accession": "0000936340-26-000054",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/936340/000093634026000054/dte-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-15T20:32:19.622634+00:00"
+ }
+}

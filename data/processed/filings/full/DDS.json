@@ -1,0 +1,49 @@
+{
+ "ticker": "DDS",
+ "source_document_id": "0000028917-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "to keep pace with changing technology (including artificial intelligence), we must continuously provide for the design and implementation of new information technology systems",
+    "inability to effectively utilize advancements in technology, including artificial intelligence"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 1,
+   "evidence": [
+    "to keep pace with changing technology (including artificial intelligence), we must continuously provide for the design and implementation of new information technology systems",
+    "inability to effectively utilize advancements in technology, including artificial intelligence"
+   ],
+   "confidence": 0.85
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "to keep pace with changing technology (including artificial intelligence), we must continuously provide for the design and implementation of new information technology systems and enhancements",
+    "inability to effectively utilize advancements in technology, including artificial intelligence",
+    "Such difficulties could lead to significant expenses or to losses due to disruption in our business"
+   ],
+   "confidence": 0.72
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI is mentioned only in passing within generic IT risk language and a forward-looking risk list; no named AI initiatives, vendors, budgets, or deployment details are disclosed, limiting investment intensity and concreteness scores.",
+  "Risk disclosure names AI as a specific risk category (inability to utilize AI, keeping pace with AI) but provides no quantified scenarios or governance mechanisms, capping the risk depth score at 3.",
+  "Excerpts are limited to risk_factors and item_8 boilerplate; no MD&A, capex tables, or operational sections were provided, so investment intensity may be understated."
+ ],
+ "_meta": {
+  "accession": "0000028917-26-000006",
+  "filing_date": "2026-03-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000006/dds-20260131x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-11T17:49:37.849312+00:00"
+ }
+}

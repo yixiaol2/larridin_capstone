@@ -1,0 +1,51 @@
+{
+ "ticker": "HCA",
+ "source_document_id": "0001193125-26-044769",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are investing in digital, data, and artificial intelligence capabilities to improve clinical quality, enhance the experience of our patients and colleagues, and drive operational efficiency at scale.",
+    "Our strategy also emphasizes investments that seek to advance our clinical systems and digital capabilities, transform care models with innovative care solutions",
+    "advance our digital and artificial intelligence (AI) capabilities"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "our physicians are adopting the use of generative AI to assist with the taking of patient medical notes, among other tasks",
+    "We may also use AI in health care-related administrative tasks, including in the collection of patient accounts receivable.",
+    "developing and deploying secure, enterprise-grade digital and AI-enabled solutions that support clinical decision-making, streamline workflows, reduce administrative burden"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Increasing use of AI technologies in our internal systems may create new attack surfaces or methods for threat actors, and threat actors may use AI technologies to make cyberattacks more difficult to detect",
+    "AI models used by us or third-party vendors may be based on biased, inaccurate or deficient datasets, which could result in inaccurate or misleading outputs",
+    "CMS is implementing a new payment and service delivery model, the WISeR model, under which technology vendors will use enhanced technologies, including AI, to address compliance with Medicare coverage criteria"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts, GPU counts, or percentage-of-capex figures tied to AI investment appear in the excerpts; investment intensity scored 3 (named initiatives, no quantified scale).",
+  "AI narrative concreteness scored 4 based on named deployed use cases (generative AI for medical notes, AR collection, clinical decision support) with operational detail but no quantified business results (e.g., time saved, cost reduction percentages).",
+  "Risk disclosure scored 4 due to company-specific risk mechanisms described (cyberattack surface expansion, model bias affecting patient care, regulatory compliance costs, WISeR model reimbursement impact), but no quantified risk exposure or formal named AI governance body beyond Audit and Compliance Committee periodic review of AI."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-044769",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/860730/000119312526044769/hca-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:11:58.855705+00:00"
+ }
+}

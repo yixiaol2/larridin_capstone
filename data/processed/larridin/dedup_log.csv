@@ -1,0 +1,26 @@
+action,name,id,kept_id
+drop_test_row,Test Company,518a8e1e-2118-4449-bd98-93d4132b6417,
+drop_duplicate_name,Micron Technology,ffb62f19-99ae-4077-a9ff-2f9452b93a28,bbdfda16-0d5d-4fd5-acbf-31abf115756b
+drop_duplicate_name,UnitedHealth Group,14ab1a77-1fce-4809-96ec-d3c2ee0b9532,f5a1ed9f-4e8e-405a-a677-6beb35b1a13f
+drop_duplicate_name,Abbott Laboratories,4f02a563-8303-45af-a433-27481d6c1405,6abebb2d-a379-4252-bd7e-73d0fc962296
+drop_duplicate_name,Gilead Sciences,192b7acd-c9aa-4a6f-8b90-e9de0598cf2d,e1a18ac6-392a-490b-a62b-63d94f105eec
+drop_duplicate_name,CVS Health,ad0c6d46-c9fa-4d29-b8de-9af41fd2b56d,ff61aec6-9743-4a3a-934e-83b27819971c
+drop_duplicate_name,Thermo Fisher Scientific,1cc4d6ea-a8ff-4b4c-b6bc-50377e5ba00c,5797e1ef-bd8f-4afb-872f-25c2ba5ef499
+drop_duplicate_name,Vertex Pharmaceuticals,3df0ba92-addb-4b8e-84e1-d5fbbb4f1360,65b3050c-a3cd-41e7-8b2a-43726b1a8918
+drop_duplicate_name,S&P Global,b5548ad9-8f6e-4938-b70d-f01798cd1a9a,c81c8634-0205-4edc-aa9a-29e87d20c091
+drop_duplicate_name,JPMorgan Chase,6650f426-db5e-4bf5-b77f-9b2b6b34d954,75f3f245-dcd8-4693-b123-c460b36feeb6
+drop_duplicate_name,Best Buy,a347c8d7-101b-44df-a1ee-e848faed8ebc,8b2323f9-a64b-41a7-9836-5cda92226956
+drop_duplicate_name,Booking Holdings,bd2f36f9-c497-4a49-b7a6-0e5ac7f36ee8,ff1cb2cf-0a52-4f91-af77-aa9b52b20ba5
+drop_duplicate_name,Home Depot,3db41b62-1333-4b18-a8ab-7a9667d735b3,71f7ddcf-c521-464f-899a-640a40152f05
+drop_duplicate_name,Ross Stores,7aba64a7-5b86-474e-8f91-a826dba80c4d,3955b6f3-f28d-42d8-8dbe-615d4a80d5f4
+drop_duplicate_name,TJX Companies,b3bad437-d6fd-4c2a-a903-b19dfabc54eb,e3824a85-39a4-4c86-ad1c-15bb13c334b7
+drop_duplicate_name,Dollar General,9bd20c98-ac6b-4ab0-af71-5aae14f8256d,dfe74aca-9829-4860-b52c-ddcf9abd46b6
+drop_duplicate_name,Meta Platforms,2782a86b-ed28-46a9-9d7e-86e8fb38426d,1772f5cc-9b4d-49ff-a320-65ab8a68d8b4
+drop_duplicate_name,PepsiCo,755c9143-4ef8-416a-8166-316597b68d39,27822f9d-f334-4cb9-b76c-3e17f486efe1
+drop_duplicate_name,Philip Morris International,e0a0bd6d-3ff9-49f8-b41f-8c1bbef5f6a3,a507cdf5-bdcc-417a-9553-d9f9ca7ad2e7
+drop_duplicate_name,T-Mobile US,b3b930c0-1393-4609-898d-6a3ae635a492,2ab2ac93-06f4-47e5-8ac4-401267ad44f1
+drop_duplicate_name,Costco,519edca9-3a1a-4e50-b15a-3f1c9b91639c,50ecfce2-57bf-4444-b842-5fff07aa8ac3
+drop_duplicate_name,Dollar Tree,3b854fa7-24fe-4b35-a20a-34571991afae,0adb0389-15ac-4d96-9900-37b4709f0c9e
+drop_duplicate_name,Southern Company,e9375fbd-eeef-446e-b830-9dcb9c92e3be,8ac6f54e-4204-44ce-946c-96e8425fb9ff
+drop_duplicate_name,Regeneron Pharmaceuticals,25492630-b3ab-4a45-84d6-21f59f62a84e,b39a54b6-07a6-4377-ab0d-12e67ee928e4
+drop_duplicate_name,Mondelez International,6e0c7b58-4152-49bb-a90c-432b5e6b7a3e,11a0c7bf-a0bf-4cbb-a3f8-05b67ec8853f

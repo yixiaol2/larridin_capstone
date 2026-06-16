@@ -1,0 +1,49 @@
+{
+ "ticker": "JNJ",
+ "source_document_id": "0000200406-26-000016",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-11",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Company leverages the use of data science, machine learning and other forms of AI and emerging technologies across varying parts of its business and operations",
+    "Our investments in these technologies may not result in the benefits we anticipate or enable us to obtain or maintain a competitive advantage."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The application of AI in our business is emerging and evolving alongside new laws and regulations that may entail significant costs or ultimately limit our ability to continue the use of these technologies.",
+    "The Company leverages the use of data science, machine learning and other forms of AI and emerging technologies across varying parts of its business and operations"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI technology is continuously evolving, and the AI technologies we develop and adopt may become obsolete earlier than planned.",
+    "The application of AI in our business is emerging and evolving alongside new laws and regulations that may entail significant costs or ultimately limit our ability to continue the use of these technologies.",
+    "The increasing use of AI and other emerging technology could also increase these risks... reputational, competitive, operational or other business harm as well as financial costs and regulatory action."
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts, headcount, or program-level detail tied to AI investment disclosed in these excerpts; named only as a general practice across business operations.",
+  "ai_narrative_concreteness: Excerpts are drawn from risk-factor sections; no deployment details, named AI products, or use-case metrics are provided — language is largely aspirational and risk-oriented.",
+  "ai_risk_disclosure_depth: Risk mechanisms are described (regulatory cost, obsolescence, cybersecurity amplification, competitive disadvantage) with company-specific context, but no quantification or named governance bodies appear in these excerpts, limiting score to 4."
+ ],
+ "_meta": {
+  "accession": "0000200406-26-000016",
+  "filing_date": "2026-02-11",
+  "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-15T21:01:19.431452+00:00"
+ }
+}

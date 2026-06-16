@@ -1,0 +1,49 @@
+{
+ "ticker": "BXP",
+ "source_document_id": "0001037540-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We use artificial intelligence and machine learning technology (collectively, AI) capabilities with the goal of enhancing efficiencies in conducting our business.",
+    "We have implemented guidelines and policies specifically governing the use of AI tools in the workplace."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Our deployment and application of AI remains ongoing. While these AI tools hold promise in optimizing our work processes and driving efficiencies...",
+    "We use artificial intelligence and machine learning technology capabilities with the goal of enhancing efficiencies in conducting our business."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the release, leak or disclosure of proprietary, confidential, sensitive or otherwise valuable information as a result of or in connection with our use of AI tools",
+    "the production of incomplete, inaccurate or otherwise flawed outputs...reliance on such outputs which could result in...reputational and competitive harm, customer loss, legal liability, errors in our decision-making",
+    "the evolving legal regulations relating to AI, which may require significant resources to modify and maintain business practices to comply with applicable law"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount, or named AI programs disclosed; only generic efficiency-enhancement language and policy implementation mentioned.",
+  "ai_narrative_concreteness: AI use described as 'ongoing' with no named initiatives, deployed use cases, or quantified outcomes; language is largely aspirational.",
+  "ai_risk_disclosure_depth: Risk scenarios are company-specific with named mechanisms (data leakage, flawed outputs, regulatory compliance costs, reputational harm), but no quantification or named governance body beyond 'guidelines and policies'; scored 4 rather than 5 due to absence of quantified risk treatment or formal oversight structure."
+ ],
+ "_meta": {
+  "accession": "0001037540-26-000006",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000006/bxp-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:14:53.155578+00:00"
+ }
+}

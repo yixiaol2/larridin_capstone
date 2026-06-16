@@ -1,0 +1,56 @@
+{
+ "ticker": "C",
+ "source_document_id": "0000831001-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "transformation-related expenses increased 14% from the prior year to approximately $3.3 billion, largely driven by increased spending on data, as well as on controls",
+    "applied technology solutions leveraging AI to support governance of data reported in key regulatory reports",
+    "Technology Committee...responsibilities include reviewing and assessing significant technology investments and expenditures, overseeing and reviewing information from management regarding Citi s approach to Generative AI"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Citi has used AI and machine learning tools for many years and has more recently begun to broadly deploy Generative AI, including within its technology platforms and services",
+    "applied technology solutions leveraging AI to support governance of data reported in key regulatory reports",
+    "In the future, Citi expects to more broadly integrate Generative AI tools within its systems, businesses and functions, including advanced AI capabilities, such as autonomous agents and sophisticated user interactions"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "ineffective, inadequate or faulty Generative AI development or deployment practices...could result in adverse consequences, such as AI algorithms that produce inaccurate or incomplete output...infringe on intellectual property rights...involve data exfiltration risks",
+    "Citi may also rely on AI models developed by third parties and be exposed to risks arising from their development and training methods...over which Citi may have limited visibility or control",
+    "AI has added competitive pressure while productivity assumptions tied to AI-driven operation model changes may materialize more slowly than expected or require additional unforeseen upfront investment"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "transformation-related expenses increased 14% from the prior year to approximately $3.3 billion, largely driven by increased spending on data, as well as on controls",
+   "context": "2025 transformation program expenses including AI-related data and controls spending"
+  }
+ ],
+ "limitations": [
+  "The $3.3 billion transformation expense figure is not exclusively AI-related; it covers broader data and controls spending, making AI-specific capex difficult to isolate — investment intensity scored 3 rather than 4 due to lack of AI-specific quantification",
+  "Narrative concreteness scored 4 based on named deployed use cases (AI for regulatory data governance, Generative AI in technology platforms), but no quantified business results (e.g., cost savings, efficiency metrics) were disclosed in the excerpts, precluding a score of 5",
+  "Risk disclosure excerpts are clearly from risk-factor sections and contain highly specific AI risk scenarios with mechanisms; governance oversight (Technology Committee) is named but no quantified risk metrics or formal risk quantification program is disclosed, precluding a score of 5"
+ ],
+ "_meta": {
+  "accession": "0000831001-26-000011",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/c-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:41:11.524478+00:00"
+ }
+}

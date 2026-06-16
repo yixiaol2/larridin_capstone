@@ -1,0 +1,51 @@
+{
+ "ticker": "IDXX",
+ "source_document_id": "0000874716-26-000038",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We also use and are investing in AI tools for our internal business operations, including to generate code, develop products and services, and increase operational efficiency.",
+    "Although we continue to invest in AI, those investments may be substantial, and there can be no assurance that our investments will be beneficial to our business.",
+    "we invest substantial funds and efforts into research and development... to continue to incorporate AI, machine learning and automation into our products and services"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Several of these point-of-care analyzers, including the Catalyst One Chemistry analyzer, ProCyte One hematology analyzer, SediVue Dx Analyzer, and IDEXX inVue Dx Cellular Analyzer, utilize proprietary AI capabilities in their image capture systems.",
+    "VetConnect PLUS enables greater medical insight and enhanced decision-making through IDEXX DecisionIQ, an analytical tool... that utilizes proprietary technology, including AI, to aid practitioners in making medical diagnoses.",
+    "The IDEXX ImageVue DR50 Plus, which launched in North America in January 2026, combines high definition, AI-powered imaging with a lower dose of radiation."
+   ],
+   "confidence": 0.85
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms and models may be flawed. Datasets may be insufficient or contain information that is non-representative, infringing, or otherwise subject to legal challenge.",
+    "Our products that use generative or other forms of artificial intelligence may also be subject to new and emerging law and regulations, including the European Union's Artificial Intelligence Act enacted in August 2024.",
+    "Our use of AI may also lead to novel cybersecurity or privacy risks... Failure to properly remediate AI usage issues may cause public confidence in AI to be undermined, which could slow adoption of AI in our offerings."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or specific budget figures for AI investment are disclosed in the excerpts; investment intensity scored 3 based on named systems and dedicated AI development activity without quantified scale.",
+  "ai_narrative_concreteness scored 4 (deployed with operating detail) based on multiple named, production-deployed AI products; no quantified business results (e.g., accuracy rates, time saved, revenue attributed) were found in the excerpts to warrant a score of 5.",
+  "ai_risk_disclosure_depth scored 4 based on company-specific risk mechanisms (model flaws, dataset issues, regulatory compliance costs, cybersecurity, competitive displacement); no quantified risk exposure or named governance oversight body was found to warrant a score of 5."
+ ],
+ "_meta": {
+  "accession": "0000874716-26-000038",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/874716/000087471626000038/idxx-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 20,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:17:28.359491+00:00"
+ }
+}

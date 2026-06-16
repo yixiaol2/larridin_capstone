@@ -1,0 +1,50 @@
+{
+ "ticker": "CMS",
+ "source_document_id": "0000811156-26-000004",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "the ability to implement and integrate technology successfully, including artificial intelligence",
+    "Rapid expansion of data centers associated with increasing demand for cloud services, artificial intelligence, and other applications could lead to an unprecedented increase in demand for electric power"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "reached an agreement with a new data center expected to add more than 1 GW of incremental load growth in our service territory",
+    "expanded the use of drone technology enabling faster, safer inspections of 400 miles of hard-to-reach power lines",
+    "changes associated with artificial intelligence technologies and related sectors, including the risk that a significant decline in investor confidence could lead to broader economic disruption"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the risk that anticipated demand growth from data center expansion may not materialize as expected",
+    "changes associated with artificial intelligence technologies and related sectors, including the risk that a significant decline in investor confidence could lead to broader economic disruption, reductions in customer demand, tightening of capital markets, higher financing costs",
+    "even when data center customers enter into contracts to purchase utility service, there is a risk they may not fulfill their contractual or tariff obligations"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific capex or dedicated AI budget disclosed in excerpts; AI is referenced only in the context of technology integration and as a demand driver for data centers, not as a direct investment target for CMS/Consumers itself.",
+  "ai_narrative_concreteness: The 1 GW data center agreement and drone deployment are the most concrete named initiatives, but AI-specific use cases internal to CMS operations are not described with deployment status or metrics beyond the drone example.",
+  "capex_mentions: No dollar or quantity figures explicitly tied to AI or compute infrastructure investment by CMS/Consumers were found in the excerpts; the $100M statewide aid and $60M energy-bill assistance figures are unrelated to AI capex."
+ ],
+ "_meta": {
+  "accession": "0000811156-26-000004",
+  "filing_date": "2026-02-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000004/cms-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-11T17:34:39.968370+00:00"
+ }
+}

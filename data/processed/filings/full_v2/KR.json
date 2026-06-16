@@ -1,0 +1,49 @@
+{
+ "ticker": "KR",
+ "source_document_id": "0001104659-26-037723",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-31",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are utilizing AI and machine learning capabilities across our business",
+    "we may need to increase investments in new capabilities and processes incorporating AI, as well as develop appropriate protections, safeguards, and policies"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "we are utilizing AI and machine learning capabilities across our business",
+    "The emergence of artificial intelligence-powered agentic shopping tools, in which AI agents autonomously research, compare and purchase products on behalf of consumers could further disrupt traditional grocery retail"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "If customers increasingly delegate purchasing decisions to AI agents that prioritize price, speed or other factors over retailer preference or brand loyalty, we could become disintermediated from the customer relationship. This could result in reduced visibility into customer behavior, increased margin pressure",
+    "Rapidly evolving technological and regulatory developments related to artificial intelligence (AI) and related technologies may increase competitive, legal, and security risks facing the Company",
+    "The rapid evolution and increased adoption of AI and related technologies may also intensify the risk that our technology systems are targeted"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: no dollar amounts, headcount figures, or named AI programs disclosed; score reflects named but unquantified deployment across the business",
+  "ai_narrative_concreteness: AI use described only in general terms ('across our business') with no named initiatives, products, or deployment metrics; agentic shopping discussion is framed as an external risk, not an internal initiative",
+  "capex_mentions: no AI-attributable dollar figures appear in the excerpts"
+ ],
+ "_meta": {
+  "accession": "0001104659-26-037723",
+  "filing_date": "2026-03-31",
+  "url": "https://www.sec.gov/Archives/edgar/data/56873/000110465926037723/kr-20260131x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-15T21:03:53.852415+00:00"
+ }
+}

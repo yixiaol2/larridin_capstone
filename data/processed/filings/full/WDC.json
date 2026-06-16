@@ -1,0 +1,51 @@
+{
+ "ticker": "WDC",
+ "source_document_id": "0000106040-25-000038",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-14",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we anticipate that digital transformation, including the AI data-cycle, will drive improved market conditions in the long term",
+    "expectations regarding capital expenditure plans and investments",
+    "We continually evaluate which steps in the manufacturing process would benefit from automation and how automated manufacturing processes can improve productivity"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "HDDs occupy a unique place in the market by providing an economical means to create, store and utilize an increasing amount of data in the age of AI",
+    "we enable cloud, Internet and social media infrastructure players to build more powerful, cost-effective and efficient data centers",
+    "higher shipments of our high-capacity enterprise products stemming from data center expansions"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI capabilities continue to evolve...we may face increasingly sophisticated cyberattacks that leverage AI technologies. These may include highly convincing phishing or social engineering attacks that use AI-generated deepfakes",
+    "the AI technologies that we employ for business purposes may be vulnerable to prompt-injection or other adversarial attacks, which could result in unauthorized access to or leakage of sensitive information",
+    "Our use of AI technology may create new privacy and security risks...The use of AI may raise ethical concerns, lead to flawed outcomes, or present other privacy and security risks"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific capex or named AI infrastructure partnerships disclosed in the excerpts; WDC positions itself as a beneficiary/supplier of AI-driven storage demand rather than an AI investor itself; score reflects generic investment language only.",
+  "ai_narrative_concreteness: AI use cases are framed around HDD storage demand driven by AI adoption at customers, not WDC's own AI deployments; no quantified business results from AI initiatives disclosed.",
+  "capex_mentions: No dollar amounts or quantified AI/compute investment figures appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000106040-25-000038",
+  "filing_date": "2025-08-14",
+  "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-06-11T19:13:01.601385+00:00"
+ }
+}

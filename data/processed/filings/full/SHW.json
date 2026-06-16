@@ -1,0 +1,43 @@
+{
+ "ticker": "SHW",
+ "source_document_id": "0000089800-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Cybersecurity incidents, threats and attacks are increasingly sophisticated, including due to advances in artificial intelligence (AI) capabilities",
+    "advances in AI technology and increasingly widespread use of generative AI tools may increase the risk of unauthorized access to intellectual property",
+    "cyber attacks (including AI-powered cyberattacks)... may introduce potential liability from the use of AI tools"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: excerpts contain no discussion of AI capex, infrastructure, or investment commitments; null is appropriate.",
+  "ai_narrative_concreteness: excerpts contain no AI use-case or initiative descriptions — AI is referenced only in risk contexts; null is appropriate.",
+  "ai_risk_disclosure_depth: risk-section material is present and names specific AI risk categories (AI-powered cyberattacks, generative AI IP risks, potential liability from AI tool use), supporting score 3; however, no quantified risk scenarios or named governance/oversight bodies are disclosed in these excerpts, precluding a higher score."
+ ],
+ "_meta": {
+  "accession": "0000089800-26-000008",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/89800/000008980026000008/shw-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-11T18:55:28.535122+00:00"
+ }
+}

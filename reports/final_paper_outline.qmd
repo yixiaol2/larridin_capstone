@@ -1,0 +1,25 @@
+---
+title: "Do AI Adoption Signals Predict Company Performance?"
+author: "CMU AI Capstone × Larridin"
+format: html
+---
+
+# Abstract
+
+# 1. Introduction
+
+# 2. Data
+
+# 3. Signal Construction
+
+# 4. Methodology
+
+# 5. Results
+
+# 6. Robustness and Bias Analysis
+
+# 7. Dashboard and Decision Intelligence System
+
+# 8. Limitations
+
+# 9. Conclusion

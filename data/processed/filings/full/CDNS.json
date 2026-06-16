@@ -1,0 +1,52 @@
+{
+ "ticker": "CDNS",
+ "source_document_id": "0000813672-26-000016",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are making significant investments in AI initiatives, including expanding our generative AI platform and applications, to enable our customers to optimize their products performance",
+    "We expect that increased investment will be required in the future to continuously improve our development and use of AI Technologies.",
+    "we remain committed to significant investments in Research and Development"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "agentic AI technology purpose built for semiconductor development...reducing verification cycles from weeks to days and enabling customers to scale productivity",
+    "Allegro X AI is our generative AI solution designed to provide significant cycle-time compression for PCB design, enhancing an engineer s productivity",
+    "Optimality Intelligent System Explorer is the industry s first generative AI-driven multiphysics optimization solution. It delivers additional productivity, automation, and improved system-level power, performance and area"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Such other companies may develop AI Technologies that are similar or superior to ours...Any inability to develop, offer or deploy new AI Technologies as effectively...could have a materially adverse impact on our operating results",
+    "EU AI Act...includes fines for breach of up to 7% of worldwide annual turnover...IP ownership and license rights, including copyright, surrounding AI Technologies have not been fully addressed",
+    "AI Technologies malfunctioning, producing biased, misleading or inaccurate content...ethical concerns, privacy violations and negative public perception"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts, GPU counts, or specific budget figures for AI investment disclosed in the excerpts; named initiatives and stated commitment present but unquantified, capping score at 3.",
+  "capex_mentions: No specific dollar or quantity figures tied to AI/compute/data-center investment appear in the excerpts.",
+  "ai_narrative_concreteness: Several deployed use cases described with operational detail (weeks-to-days cycle reduction) but quantified business results (%, $, volume) are largely absent; score reflects deployed-with-operating-detail level.",
+  "ai_risk_disclosure_depth: Risk section material is present; risks are company-specific with described mechanisms (revenue/compliance/competitive impact), but no quantified risk exposure or named governance/oversight body disclosed, capping at 4."
+ ],
+ "_meta": {
+  "accession": "0000813672-26-000016",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:35:21.957497+00:00"
+ }
+}

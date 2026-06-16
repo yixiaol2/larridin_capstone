@@ -1,0 +1,52 @@
+{
+ "ticker": "COR",
+ "source_document_id": "0001140859-25-000131",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we are seeking to use AI to improve our business operations, financial position, and results of operations",
+    "We continue to make substantial investments in our data centers, third-party cloud-based environments and services, distribution centers and information systems",
+    "We continue to invest in cybersecurity capabilities as a key priority to improve and enhance our cyber resiliency"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Our businesses rely on sophisticated information systems and AI to obtain, rapidly process, analyze, and manage data to facilitate the purchase and distribution of thousands of inventory items",
+    "we are seeking to use AI to improve our business operations, financial position, and results of operations",
+    "we invest in and continue to implement warehouse automation technology, adopt best practices in warehousing activities"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "as AI continues to evolve, cyber attackers could also use AI to develop malicious code and sophisticated phishing attempts, and our use of AI could increase cybersecurity and data protection risks",
+    "Our use of AI, or the use of AI by our service providers or third-party business partners, could also result in the misappropriation of, unauthorized access to, or disclosure of such information",
+    "the EU's Artificial Intelligence Act imposes requirements on AI system providers, importers, distributors, and users... Non-compliance may be subject to fines"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-specific investment figures appear in the excerpts; investment intensity scored 3 (named but unquantified).",
+  "AI use cases are named at a high level (data processing, distribution operations) but no deployment metrics or quantified outcomes are disclosed; concreteness capped at 3.",
+  "Capex mentions list is empty because no AI-attributable dollar figures were found in the excerpts.",
+  "Some language around AI investment is aspirational ('seeking to use AI'), which tempers confidence in both investment intensity and concreteness scores."
+ ],
+ "_meta": {
+  "accession": "0001140859-25-000131",
+  "filing_date": "2025-11-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1140859/000114085925000131/cor-20250930.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T20:24:11.533859+00:00"
+ }
+}

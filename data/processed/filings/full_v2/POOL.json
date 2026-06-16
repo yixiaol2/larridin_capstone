@@ -1,0 +1,50 @@
+{
+ "ticker": "POOL",
+ "source_document_id": "0001193125-26-074833",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "As part of our broader digital transformation strategy, we are integrating artificial intelligence to support our internal business functions and exploring additional uses for the future.",
+    "In recent years, we have increased our investment in technology and automation enabling us to operate more efficiently and better serve our customers."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We are integrating artificial intelligence to support our internal business functions and exploring additional uses for the future.",
+    "AI presents risks and challenges and may result in unintended consequences, including producing inaccurate data."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms and training methodologies may be flawed... AI-related legal and regulatory landscape is evolving... could entail significant costs or limit our ability to incorporate certain AI capabilities.",
+    "AI-related issues, deficiencies and failures could also give rise to legal or regulatory action... damage our reputation or otherwise materially harm our business.",
+    "The emergence of artificial intelligence and its role in accelerating cybersecurity attacks will only make this area of risk more dynamic and difficult to prevent."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No AI-attributable dollar amounts or quantified investment figures found in excerpts; capex_mentions list is empty.",
+  "AI investment described only in generic terms ('integrating AI to support internal business functions') with no named programs, products, or dollar amounts, limiting investment intensity score to 2.",
+  "AI narrative is aspirational and exploratory; no named deployed use cases or quantified outcomes disclosed in excerpts.",
+  "Capital expenditure figures cited (~1% of net sales) are tied to general technology and automation, not specifically AI-attributable per the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-074833",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/945841/000119312526074833/pool-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-06-15T21:24:01.088232+00:00"
+ }
+}

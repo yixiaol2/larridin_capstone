@@ -1,0 +1,52 @@
+{
+ "ticker": "XYL",
+ "source_document_id": "0001524472-26-000012",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "invest in manufacturing, research and development, engineering, sales, marketing, systems modernization, AI, and digitization of customer solution and support tools",
+    "developing skills for strategically important capabilities, such as product management, artificial intelligence and leadership competence",
+    "we are continuing to implement AI... subject to data privacy and cybersecurity laws, including... the EU's AI Act"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We provide certain digitally enabled or internet-connected products, which may include the use of AI, such as pumps, controllers, meters, intelligent solutions, remote monitoring and condition assessment capabilities",
+    "enhance and differentiate our offerings... through efficiency, security, and the addition of innovative features or technologies, such as AI",
+    "connected products and services and digital technologies and solutions have increased our exposure to intellectual property litigation and to evolving AI, data privacy and cybersecurity laws"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "changes to applicable laws related to artificial intelligence (AI)... theft, compromise, misappropriation or challenges in protecting our technology... including from cybersecurity and AI threats",
+    "generative AI models continue to evolve, such incidents may occur more frequently... threat actors leveraging these technologies to develop new attack methods that are increasingly automated, targeted, coordinated",
+    "Defects or quality issues in the manufacture, design, software, AI capabilities, security or service of our products... could result in product safety, product security, regulatory or environmental risks, personal injury, death"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 based on named programs and initiatives without dollar figures.",
+  "AI use cases are named (connected products, meters, remote monitoring) but no deployment metrics or quantified business results are disclosed; concreteness capped at 3.",
+  "Board member listed as 'Head of Artificial Intelligence Strategy' at NEA is noted but not scored as company AI investment evidence.",
+  "Capex mentions list is empty as no dollar amounts tied to AI investment appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001524472-26-000012",
+  "filing_date": "2026-02-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1524472/000152447226000012/xyl-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 11,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-15T21:50:00.968000+00:00"
+ }
+}

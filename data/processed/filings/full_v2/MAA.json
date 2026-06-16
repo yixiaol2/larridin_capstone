@@ -1,0 +1,50 @@
+{
+ "ticker": "MAA",
+ "source_document_id": "0001193125-26-041208",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Our business continues and will continue to demand the use of sophisticated systems, software and technology, including artificial intelligence.",
+    "The rapid evolution and increased adoption of artificial intelligence technologies, by us and our third-party service providers..."
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Our business continues and will continue to demand the use of sophisticated systems, software and technology, including artificial intelligence.",
+    "we may not achieve the benefits that we anticipate from any new system, software or technology"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The rapid evolution and increased adoption of artificial intelligence technologies...may also heighten our cybersecurity risks by making cyber attacks more difficult to detect, contain and mitigate.",
+    "rise in new technologies, such as ransomware and generative artificial intelligence, and the increased sophistication and activities of the perpetrators of attempted attacks",
+    "if we are unable to do so on a timely basis or at a reasonable cost, or fail to do so, our business could suffer"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts are limited to risk-factor sections only; no operational, MD&A, or financial sections are present, so AI investment intensity and narrative concreteness cannot be fully assessed.",
+  "AI investment intensity scored 2 because only generic statements about AI adoption appear with no named programs, products, or quantified spend.",
+  "AI narrative concreteness scored 2 because AI use is described aspirationally ('continues and will continue to demand') with no named initiatives or deployment details.",
+  "Promotional language absent; risk disclosures are the primary AI content in these excerpts."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-041208",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/912595/000119312526041208/maa-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-15T21:12:02.553341+00:00"
+ }
+}

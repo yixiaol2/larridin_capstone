@@ -1,0 +1,46 @@
+{
+ "ticker": "DIS",
+ "source_document_id": "0001744489-25-000155",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "Regulations governing new technological developments, such as developments in artificial intelligence (AI), including generative AI and large language model tools, remain unsettled",
+    "the legal and regulatory landscape for certain new technologies, such as AI, is uncertain and evolving and our compliance obligations could increase our costs or limit how we may use these technologies"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the availability of certain AI tools has facilitated the creation of infringing works based on the unauthorized use of our IP",
+    "Technological developments, including developments in generative AI tools that can be used to create competing low-cost content and products...increase competition in these areas",
+    "the proliferation of AI tools...efforts to overcome security measures become more sophisticated...risk of a potentially material incident as a result of unauthorized access"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: excerpts contain no disclosure of AI-specific capex, named infrastructure investments, vendor/cloud partnerships, or dedicated AI budgets; null is appropriate",
+  "ai_narrative_concreteness: excerpts are drawn almost entirely from risk-factor and regulatory-context sections; no named AI initiatives, use cases, or deployment details are disclosed — score reflects aspirational/cautionary framing only",
+  "ai_risk_disclosure_depth: risk-section material is present and discusses multiple company-specific AI risk mechanisms (IP infringement via AI tools, competitive content creation, cybersecurity proliferation, regulatory uncertainty affecting revenue/operations); scored 4 for named mechanisms linking AI risks to specific revenue/operational/compliance impacts, though no quantification or named governance body is disclosed"
+ ],
+ "_meta": {
+  "accession": "0001744489-25-000155",
+  "filing_date": "2025-11-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/dis-20250927.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T19:11:17.462435+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "M",
+ "source_document_id": "0001628280-26-021721",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We are making, and expect to continue to make, substantial investments in our information technology systems, infrastructure and personnel, in some cases with the assistance of strategic partners",
+    "adoption of generative and agentic artificial intelligence ('AI') in certain processes",
+    "We opened our new state-of-the-art fulfillment and store replenishment center, China Grove, which incorporates automation, robotics and artificial intelligence into our delivery ecosystem"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI tools assist us in areas such as customer service, supply chain, personalization, coding, human resources queries, security, marketing and advertising",
+    "We are applying artificial intelligence to how customers discover, shop and engage with our brands through intelligent shopping assistance, agentic commerce and hyper-personalized experience",
+    "We are also experimenting with AI in merchandising, planning and marketing to optimize inventory and demand decisions"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The autonomous nature of agentic AI may present challenges in aligning with current AI governance, including testing protocols, and increase risk that agents may learn to circumvent guardrails",
+    "use of AI can produce incorrect output, release private or confidential personal or business information used to train models, create algorithmic bias and unintentional discrimination",
+    "We also face uncertainty regarding evolving federal or state regulation of AI. These risks could have adverse business, legal or regulatory impact or harm our reputation"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or headcount figures tied specifically to AI investment were found in the excerpts; investment intensity scored 3 rather than 4 or 5.",
+  "AI narrative includes some aspirational/experimental language ('experimenting with AI') alongside deployed use cases; score reflects the balance toward deployed but without quantified business results.",
+  "Promotional language present in some AI use-case descriptions; concreteness score reflects operational detail disclosed, not verified outcomes."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-021721",
+  "filing_date": "2026-03-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/794367/000162828026021721/m-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 3.3,
+  "extracted_at": "2026-06-11T18:29:05.596547+00:00"
+ }
+}

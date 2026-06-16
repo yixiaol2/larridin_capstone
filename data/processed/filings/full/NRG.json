@@ -1,0 +1,51 @@
+{
+ "ticker": "NRG",
+ "source_document_id": "0001013871-26-000004",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Company has used and expects to expand the use of AI technologies, including GenAI, in its operations, services and products.",
+    "A smart home has multiple devices integrated into a single expandable platform that incorporates artificial intelligence (AI) and machine-learning in its operating system",
+    "any failure by the Company to effectively and timely develop and implement AI technologies, or to attract and retain AI talent, could impair the Company s ability to compete"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Vivint Smart Home's single, expandable platform incorporates artificial intelligence and machine learning into its operating system",
+    "The Company has used and expects to expand the use of AI technologies, including GenAI, in its operations, services and products.",
+    "NRG combines these solutions with energy products to unlock value at the intersection of energy and smart home, scale the Company s residential VPP"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "deficient AI development, governance, or deployment practices by NRG or third-party vendors...could result in unintended consequences...GenAI technologies can create inaccurate, offensive, incomplete, or misleading outputs",
+    "The Company s usage of third-party AI models, platforms, or cloud services introduces additional risks, including performance failures, service outages, and insufficient indemnities.",
+    "rapid advancement and integration of AI and machine learning technologies present new and evolving risks...exploited by malicious actors to enhance the sophistication and scale of cyberattacks"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific capex or budget figures appear in the excerpts; investment intensity scored 3 based on named AI infrastructure (Vivint platform) and stated expansion intent without dollar amounts.",
+  "AI narrative concreteness scored 3: Vivint platform and GenAI use cases are named but no deployment metrics or quantified business results are disclosed in the excerpts.",
+  "The $2.6 billion Vivint acquisition price is mentioned but relates to the full acquisition (2023), not a dedicated AI investment line item, so excluded from capex_mentions."
+ ],
+ "_meta": {
+  "accession": "0001013871-26-000004",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000004/nrg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 3.4,
+  "extracted_at": "2026-06-11T18:36:42.990709+00:00"
+ }
+}

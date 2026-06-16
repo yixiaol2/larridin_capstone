@@ -1,0 +1,51 @@
+{
+ "ticker": "CAT",
+ "source_document_id": "0000018230-26-000008",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "digital investments for new customer and dealer solutions that integrate data analytics with state-of-the-art digital technologies while transforming the buying experience",
+    "research and development for automation, electronics and software for machines and engines moved from Resource Industries to the All Other Segment"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "we anticipate growth in Power Generation...driven by increasing energy demand to support data center build-out related to cloud computing and generative Artificial Intelligence (AI)",
+    "Power Generation Sales increased in large reciprocating engines, primarily data center applications",
+    "digital investments for new customer and dealer solutions that integrate data analytics with state-of-the-art digital technologies"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Our CIO leads a cross-functional cybersecurity team comprised of professionals from our product, cybersecurity, legal and compliance organizations who focus on managing the security of our connected solutions",
+    "This team manages the Company s global IT systems, IT risk management, cybersecurity, global infrastructure and IT transformations",
+    "The Company s Chief Information Officer...attends all bimonthly AC meetings and provides cybersecurity updates to the AC and board"
+   ],
+   "confidence": 0.65
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific capex, headcount, or named AI vendor/chip partnerships disclosed in the excerpts; AI references are primarily about downstream demand for Caterpillar's products (power generation for data centers) rather than Caterpillar's own AI infrastructure spend.",
+  "ai_narrative_concreteness: AI is discussed mainly as a demand driver for Caterpillar's power generation products, not as an internal AI deployment; named use cases are commercial/market-facing rather than operational AI initiatives with deployment status.",
+  "ai_risk_disclosure_depth: Risk-section excerpts focus on cybersecurity governance and IT risk management with named oversight structures, but do not specifically address AI-model risk, AI regulation, or generative AI risks; scored on cybersecurity/IT risk specificity as the closest proxy present in the risk-factor sections.",
+  "No quantified AI business results or dollar amounts tied to AI investment appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000018230-26-000008",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T17:37:12.718515+00:00"
+ }
+}

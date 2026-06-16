@@ -1,0 +1,64 @@
+{
+ "ticker": "AMD",
+ "source_document_id": "0000002488-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-04",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 5,
+   "evidence": [
+    "In October 2025, we entered into a product purchase agreement with OpenAI OpCo, LLC, (OpenAI) to deploy 6 gigawatts of AMD GPUs, with the deployment of the first gigawatt of capacity powered by our AMD Instinct MI450 series products.",
+    "We strengthened our AI leadership through a number of strategic acquisitions during the year... acquired ZT Group Int l, Inc. (ZT Systems)... to deliver end-to-end AI solutions and accelerate the design and deployment of AMD-powered AI infrastructure.",
+    "We continue to invest in software capabilities and the open ecosystem through the AMD ROCm platform, delivering new features for high-performance AI training and inference."
+   ],
+   "confidence": 0.95
+  },
+  "ai_narrative_concreteness": {
+   "score": 5,
+   "evidence": [
+    "Demand for our data center AI accelerator products was strong as large hyperscale customers, OEMs and ODMs deployed our AMD Instinct MI350X Series GPUs.",
+    "In October 2025, we entered into a product purchase agreement with OpenAI... to deploy 6 gigawatts of AMD GPUs, with the deployment of the first gigawatt of capacity powered by our AMD Instinct MI450 series products.",
+    "We launched AMD Ryzen AI 300 Series processors featuring a next generation NPU supporting Microsoft Copilot+ PCs... In January 2026, we launched our Ryzen AI 400 series processors, the next generation of processors for AI PCs."
+   ],
+   "confidence": 0.9
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Issues related to the responsible use of AI may result in reputational, competitive and financial harm and liability.",
+    "Nvidia Corporation (Nvidia) leverages its market position in data center GPU, financial resources, and proprietary software ecosystem to promote its systems and influences customers who do business with us.",
+    "We may encounter competition from customers who internally develop products to support similar AI workloads to those supported by ours."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "deploy 6 gigawatts of AMD GPUs, with the deployment of the first gigawatt of capacity powered by our AMD Instinct MI450 series products",
+   "context": "Multiyear strategic partnership with OpenAI for GPU deployment, October 2025"
+  },
+  {
+   "quote": "acquired ZT Group Int l, Inc. (ZT Systems)... retained certain intellectual property and employees associated with the design operations",
+   "context": "Strategic acquisition in March 2025 to enable end-to-end AI infrastructure solutions"
+  },
+  {
+   "quote": "We made other strategic acquisitions during the year to advance our software capabilities... support co-packaged optics solutions for next-generation AI systems, and bring deep expertise in high-speed inference and reasoning-based AI technologies",
+   "context": "Multiple AI-focused acquisitions in 2025"
+  }
+ ],
+ "limitations": [
+  "No specific R&D dollar amounts or total capex figures for AI were disclosed in the excerpts; the 6-gigawatt OpenAI agreement is a product purchase/deployment commitment rather than a traditional capex figure, but represents a quantified, large-scale AI commitment.",
+  "Risk disclosure depth scored 4 based on named competitive mechanisms (Nvidia ecosystem lock-in, customer self-development of AI chips) and reputational/financial harm from AI misuse, but no quantified risk exposure or named internal AI governance body was found in the excerpts.",
+  "Excerpts are pre-filtered; additional financial detail (e.g., R&D spend breakdown, total capex) may exist in MD&A or financial statement sections not included here."
+ ],
+ "_meta": {
+  "accession": "0000002488-26-000018",
+  "filing_date": "2026-02-04",
+  "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T18:26:25.629552+00:00"
+ }
+}

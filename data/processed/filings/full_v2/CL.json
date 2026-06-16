@@ -1,0 +1,52 @@
+{
+ "ticker": "CL",
+ "source_document_id": "0000021665-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "leading in capabilities such as data, analytics and artificial intelligence (AI); and evolving our high-impact, inclusive culture",
+    "We have concluded our 2025 strategic plan, delivering increased capabilities in areas such as science-led core and premium innovation, digital, data, analytics and artificial intelligence (AI)",
+    "We continue to embed new ways of working to drive innovation and operational efficiency and adopt and leverage technologies such as AI"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Our ability to launch new products is also impacted by our ability to successfully adopt and effectively leverage AI, including machine learning and generative AI",
+    "leading in capabilities such as data, analytics and AI; and evolving our high-impact, inclusive culture are the keys to accelerating growth",
+    "the ability to develop innovative new products and successfully leverage AI and other new and emerging technologies"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI-aided category pricing pressures and algorithms, limitations on access to shelf space (including the digital shelf), delisting of our products",
+    "outputs from generative AI models could be, among other things, false, biased or inconsistent with our values or strategies... use of generative AI tools may compromise our confidential or sensitive information or put our intellectual property at risk",
+    "the rapid evolution and increased adoption of AI and other technologies will continue to intensify these [cybersecurity] risks"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases are named (generative AI for product development, data analytics, omni-channel demand generation) but no deployment metrics or quantified business results are disclosed; concreteness capped at 3.",
+  "Risk disclosures identify specific mechanisms (retailer AI pricing algorithms, generative AI output risks, IP exposure, cybersecurity intensification) but no quantified risk figures or named governance/oversight bodies are cited, capping risk depth at 4.",
+  "Promotional/aspirational language is prevalent throughout; evidence reflects claims rather than confirmed outcomes."
+ ],
+ "_meta": {
+  "accession": "0000021665-26-000006",
+  "filing_date": "2026-02-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/21665/000002166526000006/cl-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 16,
+  "maturity_index": 4.6,
+  "extracted_at": "2026-06-15T20:29:09.030870+00:00"
+ }
+}

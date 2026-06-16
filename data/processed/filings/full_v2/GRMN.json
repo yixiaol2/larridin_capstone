@@ -1,0 +1,46 @@
+{
+ "ticker": "GRMN",
+ "source_document_id": "0001193125-26-056028",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Garmin is a tier-one supplier of domain controllers, offering remote computing modules that control various systems including infotainment, instrumentation, key advanced driver-assistance systems (ADAS) functionality",
+    "Garmin s automation and advanced production processes provide in-service robustness and consistent reliability standards"
+   ],
+   "confidence": 0.4
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Garmin is a tier-one supplier of domain controllers, offering remote computing modules that control various systems including infotainment, instrumentation, key advanced driver-assistance systems (ADAS) functionality",
+    "The Garmin EmpirBus products provide power distribution and control solutions which enable advanced logic controls and automation to add smart electrical system features"
+   ],
+   "confidence": 0.4
+  },
+  "ai_risk_disclosure_depth": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.9
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "Excerpts contain no explicit mentions of 'artificial intelligence', 'machine learning', 'LLM', or 'generative AI'; AI-investment and concreteness scores are inferred from ADAS and automation references, which are adjacent but not explicitly AI-attributed — scores may overstate AI-specific commitment.",
+  "No risk-section content appears in the excerpts; ai_risk_disclosure_depth scored null — absence from excerpts is not absence from the filing.",
+  "No quantified AI-attributable spend, headcount, or R&D figures appear in the excerpts; capex_mentions is empty.",
+  "Promotional/product-description language dominates; concreteness score reflects named product categories, not confirmed AI deployment outcomes."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-056028",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1121788/000119312526056028/grmn-20251227.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 2,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-15T20:48:31.971898+00:00"
+ }
+}

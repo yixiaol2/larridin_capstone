@@ -1,0 +1,57 @@
+{
+ "ticker": "APTV",
+ "source_document_id": "0001521332-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "sensing and perception technologies enhanced through artificial intelligence and machine learning, as well as the underlying architecture technologies capable of supporting safety-critical applications",
+    "Aptiv previously made KRW-denominated investments in StradVision totaling approximately $40 million in the first half of 2025 and approximately $108 million in prior years",
+    "commencing partnerships with leading technology companies to commercialize our intelligent edge portfolio, including ServiceNow, Capgemini, Robust.AI, Vecna Robotics, Nota AI, SiMa.ai, DEEPX and others"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Wind River is a global leader in delivering software for the intelligent edge for multiple industries, including automotive, by leveraging mixed-criticality software products and solutions enabling customers to develop in the cloud, deploy OTA",
+    "StradVision, a provider of deep learning-based camera perception software for automotive applications... common equity interest of approximately 41% in StradVision",
+    "commencing partnerships with leading technology companies to commercialize our intelligent edge portfolio, including ServiceNow, Capgemini, Robust.AI, Vecna Robotics, Nota AI, SiMa.ai, DEEPX"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "some actors are using artificial intelligence technology to launch more automated, targeted and coordinated attacks which further heightens these risks",
+    "Evolving technology areas related to the trends of automation, electrification, and digitalization present numerous risks, including high development costs, uncertainty regarding the timing of customer and consumer adoption",
+    "increased competition from entrants outside our traditional industries, and evolving regulations, such as the guidance for automated driving systems published by the U.S. Department of Transportation"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "investments in StradVision totaling approximately $40 million in the first half of 2025 and approximately $108 million in prior years",
+   "context": "Aptiv's equity investment in StradVision, a deep learning-based camera perception software provider for automotive applications"
+  }
+ ],
+ "limitations": [
+  "AI investment intensity score reflects named partnerships and quantified equity investments in AI-adjacent companies (StradVision), but no explicit AI-attributable R&D or capex dollar totals are disclosed; score of 4 is driven primarily by the StradVision investment figures",
+  "Narrative concreteness is scored 4 based on named deployed partnerships and products, but quantified business results (revenue, efficiency gains) from AI use cases are absent from the excerpts",
+  "Risk disclosure includes named risk categories (cyberattack amplification via AI, regulatory uncertainty for automated driving, competitive disruption) but lacks quantified risk exposure or named governance bodies; score of 3 reflects named but not mechanistically detailed risks",
+  "Excerpts do not include a dedicated risk-factors section focused solely on AI; AI risk appears embedded within broader technology and cybersecurity risk discussions"
+ ],
+ "_meta": {
+  "accession": "0001521332-26-000009",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1521332/000152133226000009/aptv-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:11:45.046965+00:00"
+ }
+}

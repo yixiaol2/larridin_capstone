@@ -1,0 +1,49 @@
+{
+ "ticker": "VLTO",
+ "source_document_id": "0001967680-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We are in the early stages of incorporating artificial intelligence (AI) into our business activities and our product and service offerings.",
+    "the development and deployment of AI will require additional investment and increase our costs"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We are in the early stages of incorporating artificial intelligence (AI) into our business activities and our product and service offerings.",
+    "any failure to successfully develop and deploy AI in our business activities, products and services could adversely affect our competitiveness"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms may be flawed or may be based on datasets that are biased or insufficient.",
+    "any disruption or failure in the AI functionality we incorporate into our business activities, products or services could adversely impact our business or result in delays or errors",
+    "Compliance with new or changing laws, regulations or industry standards relating to AI may impose significant costs and may limit our ability to develop, deploy or use AI technologies."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 2 based on early-stage acknowledgment only.",
+  "AI narrative is entirely forward-looking and risk-framed with no named deployed use cases or metrics; concreteness scored 2.",
+  "Risk disclosure is company-specific in mechanism (algorithm bias, product failure, regulatory compliance costs) but lacks quantification or named governance bodies, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0001967680-26-000011",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000011/vlto-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T19:07:44.803064+00:00"
+ }
+}

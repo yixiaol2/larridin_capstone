@@ -1,0 +1,50 @@
+{
+ "ticker": "WBD",
+ "source_document_id": "0001437107-26-000020",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "new technology, including generative artificial intelligence (AI), is evolving rapidly and becoming more prevalent in business operations and content generation",
+    "If our competitors are able to adopt the use of these tools more rapidly than us, potential advertisers may prefer to advertise with them"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "AI is a new technology for which the advantages and risks associated with its use in our industry are currently largely uncertain and unregulated",
+    "Regulations governing new technological developments, such as AI, remain unsettled, and these developments could affect aspects of our business model"
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "advances in AI, such as generative AI and large language model applications and the recent emergence of AI video generation platforms... increase the threat of infringement of our intellectual property",
+    "The risk of cyberattacks is significant... cyber criminals conduct their attacks using more sophisticated methods, including those which use AI",
+    "If our competitors are able to adopt the use of these tools more rapidly than us, potential advertisers may prefer to advertise with them, which could lead to declines in our advertising revenue"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or named AI programs disclosed in the excerpts; investment intensity scored 2 based on generic aspirational language only.",
+  "AI narrative is entirely risk-framed and regulatory-focused; no named internal AI initiatives, deployments, or use cases with operating detail are described.",
+  "Risk disclosure names specific categories (IP infringement, advertising competition, cybersecurity, regulatory uncertainty) but provides no quantified risk exposure or named governance/oversight bodies, capping score at 3.",
+  "Excerpts appear to be pre-filtered; additional AI investment or use-case detail may exist elsewhere in the filing but is not visible here."
+ ],
+ "_meta": {
+  "accession": "0001437107-26-000020",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1437107/000143710726000020/wbd-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:46:54.078896+00:00"
+ }
+}

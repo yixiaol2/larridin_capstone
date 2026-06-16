@@ -1,0 +1,51 @@
+{
+ "ticker": "TDY",
+ "source_document_id": "0001094285-26-000017",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We currently incorporate machine learning and AI capabilities into certain of our products and solutions and may seek to expand the use of AI in our offerings in the future.",
+    "Some of our product sales are tied to artificial intelligence (AI)-related capital expenditures and data center infrastructure.",
+    "The rapid evolution of AI will require the application of resources by us to develop, test and maintain our products, services and operations."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We currently incorporate machine learning and AI capabilities into certain of our products and solutions and may seek to expand the use of AI in our offerings in the future.",
+    "Some of our product sales are tied to artificial intelligence (AI)-related capital expenditures and data center infrastructure.",
+    "leveraging AI capabilities to potentially improve internal functions and operations presents further risks and challenges."
+   ],
+   "confidence": 0.68
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI algorithms and training methodologies may be flawed. These deficiencies and other failures of AI systems could subject us to competitive harm, regulatory action, legal liability, and brand or reputational harm.",
+    "incorporating AI could give rise to litigation risk and risk of non-compliance and unknown cost of compliance, as AI is an emerging technology for which the legal and regulatory landscape is not fully developed.",
+    "our competitors might move faster than us to gain efficiencies by incorporating AI into their design and development processes, and our products and/or cost structure could become less competitive."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3.",
+  "AI use cases in products are named (machine learning/AI in products and solutions) but no deployment metrics or quantified business results are disclosed; concreteness capped at 3.",
+  "Risk disclosure is company-specific with named mechanisms (competitive harm, regulatory action, data privacy, IP liability) but no quantified risk figures or formally named AI governance body beyond the general Audit Committee cybersecurity oversight; scored 4 rather than 5."
+ ],
+ "_meta": {
+  "accession": "0001094285-26-000017",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1094285/000109428526000017/tdy-20251228.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-06-15T21:37:40.708344+00:00"
+ }
+}

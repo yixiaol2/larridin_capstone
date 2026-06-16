@@ -1,0 +1,50 @@
+{
+ "ticker": "HON",
+ "source_document_id": "0000773840-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "proprietary machine learning and artificial intelligence algorithms in products and projects which are digitally enabled through our industry leading industrial Internet of Things (IoT) platform, Honeywell Forge",
+    "identify and evolve with emerging technological and broader industry trends, including technologies such as artificial intelligence and machine learning in our target end markets"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "proprietary machine learning and artificial intelligence algorithms in products and projects which are digitally enabled through our industry leading industrial Internet of Things (IoT) platform, Honeywell Forge",
+    "Forge provides connectivity, data integration, and software solutions powered by deep expertise across ESS which serve customer asset productivity and efficiency needs",
+    "Emerging technology, such as generative and agentic artificial intelligence, is complex and rapidly evolving, and while we aim to develop and use artificial intelligence responsibly"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "generative and agentic artificial intelligence...technologies that we develop or use may ultimately be flawed...expose us to risks related to potential infringement of others' intellectual property, biases, inaccuracies or errors in outputs",
+    "artificial intelligence capabilities continue to improve...may be used to identify vulnerabilities and craft increasingly sophisticated cybersecurity attacks, including the use of generative artificial intelligence to conduct more sophisticated social engineering attacks",
+    "EU AI Act, the Colorado Artificial Intelligence Act, and the California AI Transparency Act are adopting rules that impose heightened transparency, risk management, monitoring, and human oversight obligations...Failure to comply could result in regulatory scrutiny, fines, or reputational harm"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific capex or dedicated AI budget disclosed in excerpts; the $10.0 billion figure cited covers all capital expenditures, dividends, share repurchases, and M&A combined, with no AI-specific allocation stated.",
+  "ai_narrative_concreteness: Named platforms (Honeywell Forge) and use cases (ML/AI in industrial IoT, building automation) are mentioned but no deployment metrics or quantified business outcomes are provided in the excerpts.",
+  "capex_mentions: No dollar amounts specifically tied to AI or compute infrastructure found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000773840-26-000013",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000013/hon-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 26,
+  "maturity_index": 3.6,
+  "extracted_at": "2026-06-11T18:14:51.553465+00:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "OKE",
+ "source_document_id": "0001039684-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": null,
+   "evidence": [],
+   "confidence": 0.85,
+   "limitations": [
+    "No AI capex, infrastructure spend, vendor partnerships, or budget figures mentioned in the excerpts"
+   ]
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "The use of emerging technologies, including the use of Cloud Services and Artificial Intelligence, is governed by our End-User Computing Policy"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "The use of emerging technologies, including the use of Cloud Services and Artificial Intelligence, is governed by our End-User Computing Policy",
+    "The Security Advisory Team meets regularly to evaluate ongoing security threats and incidents, to define policy and to prioritize initiatives",
+    "our vice president of cybersecurity and physical security...supervises efforts to prevent, detect, mitigate and remediate cybersecurity risks"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity not scorable: excerpts contain no AI spend, capex, or infrastructure commitment disclosures",
+  "ai_narrative_concreteness scored low (2): AI is mentioned only in the context of governance/policy, with no named AI initiatives, use cases, or deployment details",
+  "ai_risk_disclosure_depth scored 3: AI is named as a governed technology category within a cybersecurity risk framework with named oversight roles, but no quantified risk scenarios or formal AI-specific risk mechanisms are described",
+  "Excerpts are limited to a single risk-factors passage; broader AI discussion elsewhere in the filing may not be captured"
+ ],
+ "_meta": {
+  "accession": "0001039684-26-000006",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/1039684/000103968426000006/oke-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 1,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-11T18:42:10.438827+00:00"
+ }
+}

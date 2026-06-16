@@ -1,0 +1,57 @@
+{
+ "ticker": "AMD",
+ "source_document_id": "0000002488-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-04",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 4,
+   "evidence": [
+    "In October 2025, we entered into a product purchase agreement with OpenAI OpCo, LLC, (OpenAI) to deploy 6 gigawatts of AMD GPUs, with the deployment of the first gigawatt of capacity powered by our AMD Instinct MI450 series products.",
+    "We strengthened our AI leadership through a number of strategic acquisitions during the year. In March 2025, we acquired ZT Group Int l, Inc. (ZT Systems)... This acquisition enables us to deliver end-to-end AI solutions.",
+    "We continue to invest in software capabilities and the open ecosystem through the AMD ROCm platform, delivering new features for high-performance AI training and inference."
+   ],
+   "confidence": 0.82
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Demand for our data center AI accelerator products was strong as large hyperscale customers, OEMs and ODMs deployed our AMD Instinct MI350X Series GPUs.",
+    "In 2025, we launched AMD Ryzen AI 300 Series processors featuring a next generation NPU supporting Microsoft Copilot+ PCs... In January 2026, we launched our Ryzen AI 400 series processors.",
+    "In 2025, we introduced key optimizations and expanded support for frameworks and libraries, improving performance for generative AI workloads and simplifying the developer experience."
+   ],
+   "confidence": 0.8
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Nvidia Corporation (Nvidia) leverages its market position in data center GPU, financial resources, and proprietary software ecosystem to promote its systems and influences customers who do business with us.",
+    "Issues related to the responsible use of AI may result in reputational, competitive and financial harm and liability.",
+    "We may encounter competition from customers who internally develop products to support similar AI workloads to those supported by ours."
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "deploy 6 gigawatts of AMD GPUs, with the deployment of the first gigawatt of capacity powered by our AMD Instinct MI450 series products",
+   "context": "Multiyear strategic partnership with OpenAI for GPU deployment, announced October 2025"
+  }
+ ],
+ "limitations": [
+  "No explicit dollar-amount capex figures for AMD's own AI R&D or infrastructure build-out were found in the excerpts; the 6-gigawatt OpenAI agreement is a product purchase/deployment commitment rather than AMD's own capex, so intensity scored 4 rather than 5.",
+  "The OpenAI agreement is described as 'multiyear' which could support a score of 5, but no dollar value or multi-year capex program budget is quantified in the excerpts.",
+  "Narrative concreteness is scored 4 (deployed with operating detail) rather than 5 because no quantified business results (revenue figures, units shipped, % performance gains attributed to AI products) appear in the excerpts.",
+  "Risk disclosure scored 4 based on company-specific mechanisms (Nvidia ecosystem lock-in, customer self-development of AI chips, responsible-use liability) but no quantified risk exposure or named governance/oversight body was found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000002488-26-000018",
+  "filing_date": "2026-02-04",
+  "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:17:02.085304+00:00"
+ }
+}

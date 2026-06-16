@@ -1,0 +1,49 @@
+{
+ "ticker": "VRTX",
+ "source_document_id": "0000875320-26-000056",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "we seek to leverage artificial intelligence to optimize productivity and efficiency in various aspects of the organization",
+    "our ability to effectively implement artificial intelligence systems and tools"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "we seek to leverage artificial intelligence to optimize productivity and efficiency in various aspects of the organization",
+    "We also face competitive risks if we do not implement artificial intelligence or other machine learning technologies in a timely fashion"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Flaws, biases, or malfunctions in these systems could lead to operational disruptions, data loss, or erroneous decision-making, impacting our operations, financial condition, and reputation.",
+    "Ethical and legal challenges may arise, including biases or discrimination in generated outcomes, non-compliance with data protection regulations and laws specifically governing the use of artificial intelligence",
+    "deployment of artificial intelligence systems could expose us to increased cybersecurity threats, such as data breaches and unauthorized access"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No named AI programs, dollar amounts, headcount, or quantified resource commitments disclosed in excerpts; only generic aspirational language about leveraging AI for productivity.",
+  "ai_narrative_concreteness: No specific deployed use cases, named initiatives, or quantified outcomes described; language is aspirational and risk-oriented rather than operational.",
+  "ai_risk_disclosure_depth: Excerpts are from the mdna/risk section and contain company-specific AI risk mechanisms (operational disruption, regulatory non-compliance, cybersecurity exposure, competitive risk), justifying score 4; however, no quantified risk exposure or named governance/oversight bodies are disclosed, precluding score 5."
+ ],
+ "_meta": {
+  "accession": "0000875320-26-000056",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000056/vrtx-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T21:44:10.917292+00:00"
+ }
+}

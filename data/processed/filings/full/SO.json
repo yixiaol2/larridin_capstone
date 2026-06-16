@@ -1,0 +1,50 @@
+{
+ "ticker": "SO",
+ "source_document_id": "0000092122-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The majority of this demand is driven by the power needs and projected power needs of data centers to serve an increasingly digital economy and to support artificial intelligence.",
+    "Extending service to these customers necessitates significant capital expenditures, which in turn requires sufficient access to sources of capital."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "The traditional electric operating companies are experiencing projected demand that significantly exceeds recent experience, creating the need for new power generating resources and transmission facilities.",
+    "The majority of this demand is driven by the power needs and projected power needs of data centers... to support artificial intelligence."
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Use of generative artificial intelligence has also increased the frequency, scale, and sophistication of cyber attacks and increased the capability of less sophisticated actors.",
+    "The increased concentration of business within a single industry based on emerging technologies, and uncertainties on the actual capacity required to satisfy the projected new demands... creates risks.",
+    "As generative artificial intelligence continues to evolve, new technologies and increased computing power could cause these trends to continue or exacerbate."
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, GPU counts, or quantified capex figures tied specifically to AI infrastructure appear in the excerpts; score reflects named infrastructure context (data centers, new generation/transmission) without quantification.",
+  "ai_narrative_concreteness: AI discussed primarily as a demand driver for utility load growth, not as an internally deployed technology; no internal AI use cases or deployment metrics disclosed in excerpts.",
+  "capex_mentions: Significant capital expenditures referenced qualitatively but no specific dollar amounts tied to AI/data center investment appear in the excerpts.",
+  "Excerpts are pre-filtered and may not represent the full filing; additional AI-related disclosures may exist elsewhere in the document."
+ ],
+ "_meta": {
+  "accession": "0000092122-26-000006",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000006/so-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T18:56:45.668768+00:00"
+ }
+}

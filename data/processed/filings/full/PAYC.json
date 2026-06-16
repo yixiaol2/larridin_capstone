@@ -1,0 +1,51 @@
+{
+ "ticker": "PAYC",
+ "source_document_id": "0001193125-26-059372",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have made significant investments in developing, testing, deploying and supporting AI-powered tools in our solution.",
+    "We have invested, and intend to continue to invest, significant time and resources in our automation initiatives",
+    "system development and programming costs (including those related our full solution automation and AI initiatives)"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Our industry-first AI engine, IWant, provides instant and accurate access to employee data without requiring the user to navigate or learn our software.",
+    "Ask Here also includes an AI-powered search engine that can instantly answer frequent workplace questions by searching company resource documents and saved HR responses.",
+    "We have licensed and deployed a third-party large language model (LLM) on our own internal network and AI-powered tools."
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Rapid advancements in technology could quickly render our existing LLM-powered tools obsolete, requiring the licensing and training of a replacement LLM at significant cost to us.",
+    "The third-party LLM we license was trained on large datasets that may contain biases, and these biases can be reflected in the output of our LLM, leading to potential harm to our employees and/or customers.",
+    "In November 2025, we obtained a certification based on ISO/IEC 42001:2023 criteria, a standard for...ensuring responsible development and use of AI systems. The certification is valid until November 2028."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No dollar amounts or quantified AI-specific capex figures appear in the excerpts; investment intensity scored 3 based on named AI systems and stated commitment without quantification.",
+  "ai_narrative_concreteness scored 4 based on named deployed use cases (IWant, Ask Here, LLM deployment) with operational detail, but no quantified business results (e.g., time saved, % efficiency gain) were disclosed in the excerpts.",
+  "ISO/IEC 42001 AIMS certification treated as governance-backed risk mitigation, supporting score of 4 on risk disclosure depth; no quantified risk exposure figures were provided."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-059372",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526059372/payc-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 19,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:45:31.754871+00:00"
+ }
+}

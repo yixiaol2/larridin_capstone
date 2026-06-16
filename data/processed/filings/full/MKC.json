@@ -1,0 +1,50 @@
+{
+ "ticker": "MKC",
+ "source_document_id": "0000063754-26-000037",
+ "source_type": "sec_filing",
+ "source_date": "2026-01-22",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "The team devotes significant resources to our cybersecurity risk management, which focuses on developing and implementing strategies and processes to protect the confidentiality, integrity, and availability of our assets",
+    "We have adopted governance policies and procedures related to artificial intelligence development, deployment and monitoring."
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We have adopted governance policies and procedures related to artificial intelligence development, deployment and monitoring.",
+    "identify potential and emerging security risks such as those due to the increased availability of artificial intelligence and develop mitigation strategies for those risks",
+    "Certain competitors may also be more successful at utilizing data analytics, artificial intelligence, and other new and emerging technologies and digital experiences as part of their advertising practices."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Cybercriminals have increasingly demonstrated advanced capabilities, such as use of zero-day vulnerabilities, and rapid integration of new technology such as generative artificial intelligence.",
+    "cyber-threats are constantly evolving, are becoming more sophisticated including through the increased adoption of artificial intelligence and are being made by groups of individuals with a wide range of expertise and motives",
+    "We are subject to numerous laws and regulations relating to...machine learning and artificial intelligence...Changes in global trade policies...may result in increased compliance costs"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/infrastructure partnerships disclosed in excerpts; generic resource commitment language only.",
+  "ai_narrative_concreteness: AI use cases are named (cybersecurity risk mitigation, governance policies, competitive advertising analytics) but no deployment metrics or quantified outcomes are provided; scored 3 rather than 4.",
+  "ai_risk_disclosure_depth: Risk-section material is present and discusses AI risks with company-specific mechanisms (competitive disadvantage, cybersecurity exploitation, regulatory compliance costs), supporting score 4; however no quantified risk treatment or named oversight body beyond the Executive Cybersecurity Steering Committee is disclosed, limiting score to 4."
+ ],
+ "_meta": {
+  "accession": "0000063754-26-000037",
+  "filing_date": "2026-01-22",
+  "url": "https://www.sec.gov/Archives/edgar/data/63754/000006375426000037/mkc-20251130.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T18:31:08.317962+00:00"
+ }
+}

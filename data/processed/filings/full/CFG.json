@@ -1,0 +1,50 @@
+{
+ "ticker": "CFG",
+ "source_document_id": "0000759944-26-000028",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "By leveraging artificial intelligence and advanced learning platforms we are accelerating personalized learning and building capacity for skill development.",
+    "advances in automation, artificial intelligence, and robotics, could significantly affect the competition for financial services"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "By leveraging artificial intelligence and advanced learning platforms we are accelerating personalized learning and building capacity for skill development.",
+    "we launched a new learning operating model that creates a more streamlined learner experience and expands learning solutions across the enterprise"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Evolving technologies, including the introduction of Generative Artificial Intelligence and Large Language Models...present a significant information security risk to large financial institutions such as us.",
+    "new, unexpected technological changes, including those related to artificial intelligence, could have a transformative effect on the way banks offer products and services",
+    "advances in automation, artificial intelligence, and robotics, could significantly affect the competition for financial services...could result in the loss of fee income, as well as the loss of customer deposits"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/infrastructure partnerships disclosed in excerpts; only generic references to AI use in learning platforms.",
+  "ai_narrative_concreteness: AI use in internal learning/talent platform is named and described as launched/in-production but no quantified business results (e.g., time saved, adoption rates) are provided.",
+  "ai_risk_disclosure_depth: Risk-section material (mdna) is present and includes named AI-specific risk categories (GenAI/LLM cybersecurity, competitive disintermediation, regulatory compliance) with described mechanisms of revenue/deposit impact, supporting score of 4; no quantified risk exposure or named governance body found in excerpts.",
+  "Data center loan balance ($736M in 2025) reflects CRE lending exposure, not CFG's own AI/compute capex, and is excluded from capex_mentions."
+ ],
+ "_meta": {
+  "accession": "0000759944-26-000028",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000028/cfg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 7,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-11T17:41:27.290039+00:00"
+ }
+}

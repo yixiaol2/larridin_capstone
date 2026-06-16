@@ -1,0 +1,49 @@
+{
+ "ticker": "SNA",
+ "source_document_id": "0000091440-26-000045",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-12",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "Further building our proprietary databases to enhance software solutions, including using artificial intelligence (AI) to accelerate expansion in that arena",
+    "we continue to invest in data security and address these risks...by implementing security technologies, internal controls, network and data center resiliency"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Further building our proprietary databases to enhance software solutions, including using artificial intelligence (AI) to accelerate expansion in that arena",
+    "technological developments and enhancements of products and service offerings in our industry may require our expanded use of artificial intelligence"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Techniques used to breach information technology systems are growing in sophistication from emerging technologies, such as advanced forms of AI, and increasingly come from threat actors of all types",
+    "increasing global regulation of privacy rights and use of AI, may also adversely affect the customers to which, and the markets into which, we sell our products",
+    "supply and demand imbalances (including due to the proliferation of AI data centers)...Energy price increases raise both our operating costs and the costs of our materials"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/cloud partnerships disclosed in excerpts; security investment mention is not AI-specific; score reflects generic named-initiative level only.",
+  "ai_narrative_concreteness: AI use case (database/software enhancement) is named and tied to a strategic priority but no deployment status, metrics, or quantified outcomes are provided.",
+  "ai_risk_disclosure_depth: Risk-section material (item_16) is present; multiple company-specific AI risk mechanisms are described (cybersecurity threat vector, regulatory exposure, energy cost via AI data centers), warranting score 4 for named mechanisms linking AI risks to operational/financial impact, though no quantification or named governance body is disclosed."
+ ],
+ "_meta": {
+  "accession": "0000091440-26-000045",
+  "filing_date": "2026-02-12",
+  "url": "https://www.sec.gov/Archives/edgar/data/91440/000009144026000045/sna-20260103.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 2.7,
+  "extracted_at": "2026-06-11T18:56:16.700128+00:00"
+ }
+}

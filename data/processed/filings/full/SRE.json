@@ -1,0 +1,51 @@
+{
+ "ticker": "SRE",
+ "source_document_id": "0001032208-26-000010",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "driving adoption of artificial intelligence and modern technologies... shift our workforce toward higher-value roles through talent reskilling and upskilling",
+    "we make significant investments in risk management, technology resiliency and cybersecurity measures for the protection of our systems and data",
+    "We will continue to incur costs related to our deployment of artificial intelligence and compliance with applicable laws and regulations"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "increasing deployment of new technologies, such as advanced forms of automation and artificial intelligence and virtualization of many business activities",
+    "Our current and potential future uses of such tools (and use by our vendors and agents) may expose us to heightened security and privacy risks",
+    "need to manage our data with the aim to meet regulatory requirements and create a foundation for the use of artificial intelligence tools"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Data produced by or contained in artificial intelligence tools may contain inaccuracies, and our investments in such technologies... may not deliver the expected benefits, which could result in operational disruptions, inefficiencies, unexpected costs and regulatory disallowances",
+    "Beginning in January 2027, our businesses subject to the California Consumer Privacy Act will also be subject to new regulations related to... use of artificial intelligence tools to automate certain decisions",
+    "Adversaries increasingly use artificial intelligence to develop new hacking tools, exploit vulnerabilities, obscure malicious activities and increase the difficulty of detecting threats"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-specific dollar amounts, GPU counts, or dedicated AI budget figures appear in the excerpts; investment intensity scored 3 based on named initiatives and deployment language without quantification.",
+  "AI use cases are named (automation, data governance, cybersecurity) but no deployment metrics or quantified business results are disclosed; concreteness capped at 3.",
+  "Risk disclosure includes company-specific mechanisms (regulatory disallowances, CCPA AI regulations effective Jan 2027, adversarial AI hacking) and operational impact pathways, supporting score 4, but no quantified risk figures or named governance bodies appear in excerpts."
+ ],
+ "_meta": {
+  "accession": "0001032208-26-000010",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1032208/000103220826000010/sre-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 1.6,
+  "extracted_at": "2026-06-11T18:55:03.693731+00:00"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "ticker": "D",
+ "source_document_id": "0001193125-26-063120",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-23",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "projects necessary to meet the projected demand growth driven by data centers and artificial intelligence, including to address the concentration of data centers primarily in Loudoun County, Virginia",
+    "Increased energy demand or significant accelerated growth in demand due to new data centers, expanded use of artificial intelligence... could require enhancements to the Companies infrastructure",
+    "PJM has projected a 5.4% average peak annual load growth over the next ten years for the PJM DOM Zone"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Data centers have been a source of significant increase in demand which is expected to continue over the next decade. The concentration of data centers primarily in Loudoun County, Virginia represents a unique challenge",
+    "projects necessary to meet the projected demand growth driven by data centers and artificial intelligence"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Emerging technologies, such as advanced forms of automation and artificial intelligence... may result in an increase in the frequency and sophistication of cyber attacks",
+    "Increased energy demand or significant accelerated growth in demand due to new data centers, expanded use of artificial intelligence... could require enhancements to the Companies infrastructure",
+    "A successful cyber attack through third-party or insider action on the systems that control the Companies electric generation... could severel[y impact operations]"
+   ],
+   "confidence": 0.78
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts or quantified AI-attributable capex found in excerpts; Dominion is an AI demand beneficiary (utility), not an AI builder — investment scored on infrastructure build-out driven by AI/data center demand, but no specific AI-linked spend figures disclosed in these excerpts",
+  "ai_narrative_concreteness: AI is discussed primarily as a demand driver for electricity infrastructure rather than as a technology Dominion deploys; no deployed AI use cases or quantified outcomes described",
+  "ai_risk_disclosure_depth: Risk-section material (mdna) is present; AI risks are named with specific mechanisms (cyber attack sophistication, grid reliability, franchise erosion) but no quantification or named governance/oversight bodies for AI risk mitigation",
+  "capex_mentions: No specific dollar figures tied to AI-attributable investment appear in the provided excerpts"
+ ],
+ "_meta": {
+  "accession": "0001193125-26-063120",
+  "filing_date": "2026-02-23",
+  "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526063120/d-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-06-15T20:35:54.635817+00:00"
+ }
+}

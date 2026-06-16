@@ -1,0 +1,50 @@
+{
+ "ticker": "BLDR",
+ "source_document_id": "0001193125-26-054643",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We allocate capital to opportunities that we believe maximize returns on investment, including value-added products, digital solutions, and automation.",
+    "the Company s ability to drive growth by incorporating artificial intelligence and machine learning solutions into its platform"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We have started to assess the use of AI technology to drive productivity and data analytics.",
+    "Our development, integration and use of AI technology in our operations remains in the early phases.",
+    "during 2025, we began the implementation of a new ERP system... to better leverage automation and process efficiency and enable productivity enhancements"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "risks include, but are not limited to, ethical considerations, public perception, intellectual property protection, regulatory compliance, privacy concerns and data security",
+    "accuracy errors, cybersecurity vulnerabilities, unintended biases, and discriminatory outputs, before they arise",
+    "if the content, analyses, or recommendations that AI applications assist in producing are, or are alleged to be deficient, inaccurate, or biased, our reputation, business, financial condition, and results of operations may be materially adversely affected"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified AI-specific spend, headcount, or named vendor/cloud partnerships disclosed in excerpts; ERP investment is described as substantial but not AI-specific and no dollar amounts are provided.",
+  "ai_narrative_concreteness: AI use cases are named (productivity, data analytics) but described as in early assessment phases with no deployment confirmation or quantified results; ERP system is the most concrete initiative but is not AI-specific.",
+  "ai_risk_disclosure_depth: Risk-section material is present and contains named AI risk categories with described mechanisms (reputational, financial, compliance harm); scored 4 rather than 5 as no quantification of risk exposure or named governance/oversight body specific to AI is disclosed."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-054643",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1316835/000119312526054643/bldr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 6,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-06-11T17:33:02.244985+00:00"
+ }
+}

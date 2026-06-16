@@ -1,0 +1,50 @@
+{
+ "ticker": "NSY",
+ "source_document_id": "0001628280-26-008586",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Advancing Agility Automation Initiative… leverage new technology and business models to further simplify and automate processes, and generate long-term savings",
+    "compliance with new and evolving laws, regulations or industry standards relating to AI may require significant investment and resources"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "our business may be adversely affected if we cannot successfully integrate AI into our business in a timely, cost-effective, and compliant manner",
+    "Our competitors may incorporate AI into their business more successfully than us, which could have an adverse effect on our competitive position"
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "AI technologies may amplify certain existing technology-related risks such as cybersecurity threats, data privacy concerns, and intellectual property challenges",
+    "compliance with new and evolving laws, regulations or industry standards relating to AI may require significant investment and resources, and may limit our ability to use AI",
+    "Our competitors may incorporate AI into their business more successfully than us, which could have an adverse effect on our competitive position, reputation and operations"
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "The AAA Initiative is described as automation/technology-focused but is not explicitly labeled as an AI investment; AI-attributable spend cannot be isolated from the $200M–$250M total program cost estimate.",
+  "AI investment intensity scored 3 (named initiative with technology/automation link) rather than 4 because no dollar amount is explicitly tied to AI specifically.",
+  "AI narrative concreteness is aspirational/risk-framed; no named AI use cases in production or deployment details are disclosed in these excerpts.",
+  "Ticker echoed as NSY per input; note the standard ticker for The Hershey Company is HSY."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008586",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/hsy-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 9,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-06-15T20:53:06.822997+00:00"
+ }
+}

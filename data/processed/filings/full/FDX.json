@@ -1,0 +1,52 @@
+{
+ "ticker": "FDX",
+ "source_document_id": "0001048911-25-000011",
+ "source_type": "sec_filing",
+ "source_date": "2025-07-21",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "FedEx Dataworks had approximately 700 employees. FedEx Dataworks is an operating segment that is included in Corporate, other, and eliminations in our segment reporting.",
+    "FedEx Dataworks is working to centralize data onto a single enterprise platform. By adopting this single platform where machine learning models are reusable and self-learning we are able to solve problems and deliver value at speed, scale.",
+    "Advancements in technology...may necessitate that we increase investments in order to remain competitive"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "an advanced machine learning and artificial intelligence model developed by FedEx Dataworks has enhanced tracking capabilities on fedex.com, delivering greater estimated delivery date accuracy",
+    "FedEx Virtual Assistant on fedex.com is an artificial-intelligence-enabled service that provides answers to customer shipping questions",
+    "dynamic scheduling tools at many U.S. surface facilities to match sort staffing with volumes...machine learning and algorithms to develop more detailed and accurate volume forecasts"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "the rapid ongoing evolution and increased adoption of emerging technologies such as artificial intelligence and machine learning may make it more difficult to anticipate and implement protective measures to recognize, detect, and prevent...cyber events",
+    "increased legislative and regulatory activity related to artificial intelligence...including the European Union's Artificial Intelligence Act, the Colorado AI Act...failure to comply...may expose us to litigation, fines, sanctions",
+    "our ability to mitigate the technological, operational, legal and regulatory, and reputational risks related to autonomous technology and artificial intelligence"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts or GPU/data-center scale figures for AI investment found in excerpts; headcount of ~700 FedEx Dataworks employees is the only quantitative proxy for AI investment scale, insufficient for score 4 or 5.",
+  "ai_narrative_concreteness scored 4 (deployed use cases with operating detail) but no quantified business results (%, $, time saved) were found in excerpts, precluding score 5.",
+  "capex_mentions is empty as no dollar figures tied to AI/compute investment appear in the provided excerpts.",
+  "Risk disclosure scored 4 based on named company-specific risk mechanisms (cyber, regulatory compliance, reputational) but no quantified risk figures or formal named AI governance body beyond CyTOC oversight were found to support score 5; CyTOC oversight is noted but described in cybersecurity governance context rather than a dedicated AI risk quantification program."
+ ],
+ "_meta": {
+  "accession": "0001048911-25-000011",
+  "filing_date": "2025-07-21",
+  "url": "https://www.sec.gov/Archives/edgar/data/1048911/000104891125000011/fdx-20250531.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 15,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-06-11T17:59:54.142076+00:00"
+ }
+}

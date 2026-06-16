@@ -1,0 +1,49 @@
+{
+ "ticker": "REG",
+ "source_document_id": "0001193125-26-051668",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-13",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "The costs of implementing new technologies, including AI-driven property management tools, smart building systems, and data analytics platforms, may be substantial.",
+    "ongoing significant investments in technology and training we make relating to cybersecurity"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "AI-driven property management tools, smart building systems, and data analytics platforms, may be substantial. The effectiveness of these tools are being evaluated in an ongoing manner.",
+    "in the retail industry AI is increasingly being adopted for personalized marketing, inventory management, customer service, pricing optimization"
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "'deep fakes' generated through the use of AI tools... threat actors are becoming increasingly sophisticated in using techniques and tools including AI that trick humans into taking unwarranted actions",
+    "Sensitive, proprietary, or confidential information could be leaked...if information is used to train the third party's AI or machine learning models",
+    "AI or machine learning models may create incomplete, inaccurate, or otherwise flawed outputs...could lead us to make flawed decisions...exposure to reputational and competitive harm, customer loss, and legal liability"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No quantified dollar amounts or specific budget allocations for AI investment disclosed; language is aspirational and cost-risk framing rather than committed spend.",
+  "ai_narrative_concreteness: Named use cases (AI-driven property management tools, smart building systems) are mentioned but described as being evaluated, not deployed; industry-level examples (personalized marketing, inventory management) appear to describe tenant/retail sector trends rather than Regency's own deployments.",
+  "ai_risk_disclosure_depth: Risk section is present and contains detailed AI risk discussion; scored 4 because specific risk mechanisms are described (data leakage into third-party models, flawed outputs leading to bad decisions, regulatory compliance costs), though no quantified risk exposure or named governance body is disclosed."
+ ],
+ "_meta": {
+  "accession": "0001193125-26-051668",
+  "filing_date": "2026-02-13",
+  "url": "https://www.sec.gov/Archives/edgar/data/910606/000119312526051668/reg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 2.4,
+  "extracted_at": "2026-06-11T18:51:03.825768+00:00"
+ }
+}

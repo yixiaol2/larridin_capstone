@@ -1,0 +1,51 @@
+{
+ "ticker": "WDAY",
+ "source_document_id": "0001327811-26-000014",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we expanded our AI capabilities through the acquisitions of FlowiseAI, Inc., Paradox, Inc., Sana Labs AB, and Pipedream, Inc. in fiscal 2026",
+    "we have made and continue to make significant investments in platform offerings and AI, including generative AI and agentic capabilities",
+    "We invest primarily in early-stage enterprise software companies that are transforming their industries, developing innovative AI-powered technology"
+   ],
+   "confidence": 0.78
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we introduced new Workday AI agents to accelerate hiring, enhance frontline worker experiences, simplify financial processes, and improve employee information access",
+    "we introduced Flex Credits, a new subscription-based flexible pricing model for certain AI solutions and platform capabilities",
+    "Workday Sana enables organizations to leverage AI for knowledge management and search, take action with AI-powered productivity tools, and automate across enterprise systems"
+   ],
+   "confidence": 0.82
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "if Workday's AI-powered solutions, including our current and planned agentic AI solutions, fail to be delivered as planned or at all, fail to operate as expected or to meet customer expectations, if we fail to successfully monetize our AI-powered solutions",
+    "We may also face greater competition from non-specialist solutions relying on generic large language models (LLMs), generative AI, and general-purpose agents to address a broad range of business needs",
+    "risks and challenges presented by the use of innovative technologies that we acquire, such as AI; potential write-offs of acquired assets"
+   ],
+   "confidence": 0.83
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts, GPU counts, or percentage-of-capex figures tied to AI investment appear in the excerpts; investment intensity scored 3 based on named programs and acquisitions without disclosed spend figures.",
+  "Narrative concreteness scored 4 based on named deployed products and operational detail, but no quantified business results (e.g., % productivity gains, time saved) appear in the excerpts to support a score of 5.",
+  "Risk disclosure scored 4 based on company-specific risk scenarios with described mechanisms (monetization failure, competitive displacement by LLMs, acquisition integration risk); no quantified risk exposure or named governance/oversight body found in excerpts to support a score of 5."
+ ],
+ "_meta": {
+  "accession": "0001327811-26-000014",
+  "filing_date": "2026-03-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/wday-20260131.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 17,
+  "maturity_index": 4.6,
+  "extracted_at": "2026-06-11T19:14:11.523658+00:00"
+ }
+}
