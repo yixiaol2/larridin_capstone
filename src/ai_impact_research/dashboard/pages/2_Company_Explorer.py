@@ -1,118 +1,58 @@
+"""Company Explorer — all signals and outcomes for one ticker (real data)."""
+
 from __future__ import annotations
 
-import plotly.express as px
+# ruff: noqa: E402, I001
+
+import sys
+from pathlib import Path
+
+import pandas as pd
 import streamlit as st
 
-from ai_impact_research.dashboard.components import (
-    configure_page,
-    first_existing,
-    format_number,
-    load_data_from_sidebar,
-    show_research_caveat,
-    stop_if_panel_missing,
-)
-from ai_impact_research.dashboard.data_loader import SIGNAL_COLUMNS
+SRC_PATH = Path(__file__).resolve().parents[3]
+if str(SRC_PATH) not in sys.path:
+    sys.path.insert(0, str(SRC_PATH))
 
-configure_page("Company Explorer")
+from ai_impact_research.dashboard.real_data import SIGNALS, load_table
 
+st.set_page_config(page_title="Company Explorer", layout="wide")
 st.title("Company Explorer")
-show_research_caveat()
 
-data = load_data_from_sidebar()
-stop_if_panel_missing(data)
-panel = data.panel
+df = load_table()
+options = df.dropna(subset=["maturity_index"]).sort_values("ticker")
+label = {t: f"{t} — {n}" for t, n in zip(options["ticker"], options["name"])}  # noqa: B905 — py3.8 compat
+ticker = st.selectbox("Company", options["ticker"], format_func=lambda t: label.get(t, t))
 
-ticker_col = first_existing(list(panel.columns), ["ticker", "company_id"])
-if ticker_col is None:
-    st.warning("The panel does not include ticker or company_id.")
-    st.stop()
+row = df[df["ticker"] == ticker].iloc[0]
+sector = row["sector_larridin"]
+peers = df[df["sector_larridin"] == sector]
 
-ticker = st.selectbox("Ticker", sorted(panel[ticker_col].dropna().unique()))
-company_panel = panel.loc[panel[ticker_col] == ticker].copy()
-quarter_col = first_existing(list(panel.columns), ["score_quarter", "quarter", "snapshot_date"])
-if quarter_col:
-    company_panel = company_panel.sort_values(quarter_col)
+st.subheader(f"{row['name']}  ({ticker})")
+st.caption(f"Sector: {sector}  ·  AI value-chain category: {row.get('category', '—')}")
 
-latest = company_panel.iloc[-1]
-company_name = latest.get("company_name", ticker)
-st.subheader(str(company_name))
+c1, c2, c3, c4 = st.columns(4)
+c1.metric("Larridin maturity", f"{row['maturity_index']:.1f}" if pd.notna(row["maturity_index"]) else "—")
+c2.metric("Concreteness (10-K)", f"{row['conc']:.0f}" if pd.notna(row["conc"]) else "—")
+c3.metric("Investment intensity", f"{row['inv']:.0f}" if pd.notna(row["inv"]) else "—")
+c4.metric("AI-hiring builder rate", f"{row['builder_rate']:.0%}" if pd.notna(row["builder_rate"]) else "—")
 
-score_cols = [col for col in SIGNAL_COLUMNS if col in company_panel.columns]
-if score_cols:
-    cols = st.columns(len(score_cols))
-    for col, score_col in zip(cols, score_cols, strict=False):
-        col.metric(score_col.replace("_", " "), format_number(latest.get(score_col)))
-else:
-    st.info("No AI score columns are available for this company.")
+c1, c2, c3 = st.columns(3)
+c1.metric("Revenue growth YoY (Q1-26)",
+          f"{row['rev_growth_yoy']:+.1%}" if pd.notna(row["rev_growth_yoy"]) else "—")
+c2.metric("Margin change YoY",
+          f"{row['op_margin_delta_yoy']:+.1%}" if pd.notna(row["op_margin_delta_yoy"]) else "—")
+c3.metric("4-month return", f"{row['fwd_ret_4m']:+.1%}" if pd.notna(row["fwd_ret_4m"]) else "—")
 
-st.subheader("Score History")
-if quarter_col and score_cols:
-    long_scores = company_panel[[quarter_col, *score_cols]].melt(
-        id_vars=quarter_col,
-        value_vars=score_cols,
-        var_name="signal",
-        value_name="score",
-    )
-    st.plotly_chart(
-        px.line(long_scores, x=quarter_col, y="score", color="signal", markers=True),
-        use_container_width=True,
-    )
-else:
-    st.info("Score history needs quarter and signal columns.")
+st.divider()
+st.subheader(f"Rank within {sector} peers (n={len(peers)})")
 
-st.subheader("Financial Outcome History")
-outcome_cols = [
-    col
-    for col in [
-        "fwd_return_1q",
-        "fwd_return_2q",
-        "future_revenue_growth_qoq",
-        "future_operating_margin_delta_qoq",
-        "future_revenue_per_employee_growth_qoq",
-    ]
-    if col in company_panel.columns
-]
-if quarter_col and outcome_cols:
-    long_outcomes = company_panel[[quarter_col, *outcome_cols]].melt(
-        id_vars=quarter_col,
-        value_vars=outcome_cols,
-        var_name="outcome",
-        value_name="value",
-    )
-    st.plotly_chart(
-        px.line(long_outcomes, x=quarter_col, y="value", color="outcome", markers=True),
-        use_container_width=True,
-    )
-else:
-    st.info("Financial outcome history is unavailable for this company.")
+rank_rows = []
+for col, name in SIGNALS.items():
+    if pd.notna(row.get(col)):
+        pct = (peers[col] < row[col]).mean()
+        rank_rows.append({"Signal": name, "Value": round(float(row[col]), 2),
+                          "Sector percentile": f"{pct:.0%}"})
+st.dataframe(pd.DataFrame(rank_rows), hide_index=True, use_container_width=True)
 
-st.subheader("Sector Peer Rank")
-rank_signal = st.selectbox("Rank signal", score_cols) if score_cols else None
-if rank_signal and "sector" in panel.columns:
-    sector = latest.get("sector")
-    peers = panel.loc[panel["sector"] == sector].copy()
-    if quarter_col:
-        peers = peers.loc[peers[quarter_col] == latest.get(quarter_col)]
-    peers = peers.dropna(subset=[rank_signal])
-    if peers.empty:
-        st.info("Peer rank is unavailable because peer signal data is missing.")
-    else:
-        peers["sector_rank"] = peers[rank_signal].rank(ascending=False, method="min")
-        rank_row = peers.loc[peers[ticker_col] == ticker]
-        if rank_row.empty:
-            st.info("Selected company is missing from the peer rank universe.")
-        else:
-            rank = int(rank_row["sector_rank"].iloc[0])
-            st.metric("Sector rank", f"{rank} of {len(peers)}")
-            st.dataframe(
-                peers[[ticker_col, "company_name", "sector", rank_signal, "sector_rank"]]
-                .sort_values("sector_rank")
-                .reset_index(drop=True),
-                use_container_width=True,
-                hide_index=True,
-            )
-else:
-    st.info("Sector peer rank needs sector and signal data.")
-
-if company_panel[outcome_cols].isna().any().any() if outcome_cols else True:
-    st.warning("Some company outcomes are missing. Interpret trends and peer ranks with care.")
+st.caption("Missing values indicate the company is outside that signal's coverage (see Overview).")

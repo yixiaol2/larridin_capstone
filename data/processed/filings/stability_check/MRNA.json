@@ -1,0 +1,51 @@
+{
+ "ticker": "MRNA",
+ "source_document_id": "0001682852-26-000033",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-20",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "investments in digital capabilities and artificial intelligence technologies, and buildout of global commercial, regulatory, sales and marketing infrastructure and manufacturing facilities will require significant cash outflows",
+    "In December 2021, we launched our AI Academy... In 2025, we delivered a targeted learning portfolio focused on practical AI skills",
+    "We plan to leverage our global production network, artificial intelligence (AI) and digital tools to improve cost efficiency"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 5,
+   "evidence": [
+    "we leverage a series of fully autonomous, integrated AI algorithms in connection with manufacturing intismeran autogene (mRNA-4157). Our machine-learning based algorithms design the specific therapy for each individual patient",
+    "multiple integrated algorithms that leverage artificial intelligence and machine learning optimize manufacturability, reduce failures and increase quality of mRNA sequences",
+    "our Dose ID GPT uses ChatGPT Enterprise's Advanced Data Analytics feature to further evaluate the optimal vaccine dose selected by the clinical study team"
+   ],
+   "confidence": 0.88
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "new and emerging regulations, such as the EU AI Act, impose enhanced obligations... may subject us to significant fines, penalties, operational restrictions, or changes to our business practices if we fail to comply",
+    "The use of GenAI models in our internal or third-party systems may create new attack surfaces or methods for adversaries... GenAI's potential for producing false, misleading or biased outputs",
+    "integration of AI Technologies into our and our vendors systems (potentially without the vendor disclosing such use to us) subjects us to the risk that providers may not meet existing or evolving legal, regulatory or industry standards"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No specific dollar amounts or quantified AI-attributable capex/R&D figures were found in the excerpts; investment intensity scored 3 (named programs, no quantified scale).",
+  "ai_narrative_concreteness scored 5 based on deployed use cases with operational detail (intismeran manufacturing algorithms, Dose ID GPT); quantified throughput metrics (e.g., 1,000 lots/month) are platform-level rather than AI-outcome-specific, but AI deployment in production is clearly described.",
+  "Risk disclosure is detailed and company-specific with named regulatory mechanisms (EU AI Act, FDA guidance, state laws) and specific harm pathways, but no quantified risk exposure or named internal oversight body was found, limiting score to 4."
+ ],
+ "_meta": {
+  "accession": "0001682852-26-000033",
+  "filing_date": "2026-02-20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000033/mrna-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 10,
+  "maturity_index": 4.6,
+  "extracted_at": "2026-07-06T23:15:26.597574+00:00"
+ }
+}

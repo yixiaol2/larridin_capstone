@@ -25,6 +25,8 @@ from pathlib import Path
 import requests
 from dotenv import load_dotenv
 
+_UTC = dt.timezone.utc  # noqa: UP017 — py3.10 compat (datetime.UTC needs 3.11)
+
 TABLES = [
     "agent_completion",
     "ai_tool_agent_completions",
@@ -91,7 +93,7 @@ def main() -> int:
 
     manifest = {
         "supabase_url": base_url,
-        "fetched_at": dt.datetime.now(dt.UTC).isoformat(),
+        "fetched_at": dt.datetime.now(_UTC).isoformat(),
         "tables": {},
     }
     for table in TABLES:

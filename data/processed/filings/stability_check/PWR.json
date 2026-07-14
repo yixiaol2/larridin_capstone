@@ -1,0 +1,48 @@
+{
+ "ticker": "PWR",
+ "source_document_id": "0001050915-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-19",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "the investment of capital into the build out of data centers by technology customers in order to, among other things, expand cloud-based services and develop artificial intelligence (AI) training and inference, increases demand for our solutions offerings",
+    "Our acquisition of Cupertino Electric, Inc. (CEI) during 2024 also resulted in increased demand for our critical path electrical design and installation solutions from the technology and data center industry"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "Quanta is well positioned to provide turnkey infrastructure solutions for these facilities, such as critical-path low-voltage electrical infrastructure solutions inside data centers; high-voltage substation, transformer and transmission interconnection infrastructure",
+    "acquisition of Dynamic Systems (DSI), LLC during 2025 expanded our capabilities and solutions related to turnkey mechanical, plumbing and process infrastructure solutions. We see strong demand for these services by data center, manufacturing, semiconductor and other large load facilities"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "threat actors are increasingly using tools, including artificial intelligence, that are designed to circumvent controls and evade detection. As a result, we may be required to expend significant resources to protect against the threat of system disruptions and security breaches"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: Quanta is an infrastructure services provider (builder/enabler for AI data centers), not an AI developer; AI-attributable investment is indirect — no dollar amounts tied specifically to AI-related capex or R&D are disclosed in the excerpts, limiting score to 3.",
+  "ai_narrative_concreteness: Named use cases and acquisitions described as deployed/in production with operating detail, but no quantified business results (revenue share, margins, volumes) attributable to AI-related work are provided in the excerpts.",
+  "ai_risk_disclosure_depth: Risk-section material is present; AI risk is mentioned specifically in the context of cybersecurity threat actors using AI tools — a named, company-specific risk category — but no quantified risk treatment or named governance body is disclosed.",
+  "capex_mentions: No specific dollar amounts tied to AI-attributable investment appear in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0001050915-26-000006",
+  "filing_date": "2026-02-19",
+  "url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000006/pwr-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 2.1,
+  "extracted_at": "2026-07-06T23:16:37.410258+00:00"
+ }
+}

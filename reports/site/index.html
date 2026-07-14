@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Specificity Is the Signal — AI Adoption & Company Performance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<script src="data.js"></script>
+<style>
+:root{
+  --paper:#FAF8F5; --ink:#16130F; --muted:#6B645C; --line:#E5E0D8;
+  --red:#C41230; --red-soft:#F6E3E7; --card:#FFFFFF;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:'Inter',sans-serif;font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+::selection{background:var(--red-soft)}
+.serif{font-family:'Fraunces',serif}
+.wrap{max-width:1060px;margin:0 auto;padding:0 32px}
+
+/* nav */
+nav{position:sticky;top:0;z-index:50;background:rgba(250,248,245,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+nav .brand{font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+nav .brand em{color:var(--red);font-style:normal}
+nav ul{display:flex;gap:26px;list-style:none}
+nav a{color:var(--muted);text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.05em;padding-bottom:4px;border-bottom:2px solid transparent;transition:.2s}
+nav a:hover,nav a.active{color:var(--ink);border-color:var(--red)}
+nav a.cta{color:#fff;background:var(--red);padding:8px 14px;border-radius:999px;border:none}
+nav a.cta:hover{background:#A30E28;border:none}
+
+/* hero */
+header{padding:110px 0 80px;border-bottom:1px solid var(--line)}
+.overline{font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--red);margin-bottom:26px}
+h1{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(44px,7vw,84px);line-height:1.03;letter-spacing:-.01em;max-width:15ch}
+.lede{margin-top:30px;font-size:19px;color:var(--muted);max-width:62ch}
+.lede b{color:var(--ink)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:56px}
+.stat{background:var(--paper);padding:22px 24px}
+.stat .num{font-family:'Fraunces',serif;font-size:36px;font-weight:600;line-height:1.1}
+.stat .num span{color:var(--red)}
+.stat .lab{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+
+/* sections */
+section{padding:88px 0;border-bottom:1px solid var(--line)}
+.kicker{display:flex;align-items:baseline;gap:14px;margin-bottom:18px}
+.kicker .no{font-family:'Fraunces',serif;color:var(--red);font-size:15px;font-weight:600}
+.kicker .kt{font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+h2{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(28px,4vw,44px);line-height:1.12;max-width:24ch;margin-bottom:22px}
+.prose{max-width:66ch;color:#3c362e}
+.prose p+p{margin-top:14px}
+.prose b{color:var(--ink)}
+.note{font-size:13px;color:var(--muted);margin-top:14px;max-width:70ch}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.reveal.visible{opacity:1;transform:none}
+
+/* ladder */
+.gauntlet-controls{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:30px 0 8px}
+.play{background:var(--red);color:#fff;border:none;font:700 15px 'Inter';padding:13px 22px;border-radius:999px;cursor:pointer;box-shadow:0 6px 18px rgba(196,18,48,.28);transition:.2s}
+.play:hover{transform:translateY(-1px);background:#A30E28}
+.hint{font-size:13px;color:var(--muted)}
+.seg .step{display:inline-flex;width:18px;height:18px;border-radius:50%;background:rgba(0,0,0,.12);font-size:11px;align-items:center;justify-content:center;margin-right:7px}
+.seg.on .step{background:rgba(255,255,255,.25)}
+.segs{display:flex;gap:8px;flex-wrap:wrap;margin:30px 0 8px}
+.seg{border:1px solid var(--line);background:var(--card);padding:10px 18px;border-radius:999px;font-size:14px;font-weight:600;cursor:pointer;transition:.18s;color:var(--muted)}
+.seg:hover{border-color:var(--red)}
+.seg.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.seg.on.final{background:var(--red);border-color:var(--red)}
+#ladderChart{height:520px;margin-top:8px}
+.ladder-cap{font-size:14px;color:var(--muted);min-height:44px;max-width:74ch}
+.ladder-cap b{color:var(--red)}
+
+/* explorer */
+.explorer{display:grid;grid-template-columns:400px 1fr;gap:44px;margin-top:34px;align-items:start}
+.searchbox{position:relative}
+.searchbox input{width:100%;padding:14px 18px;font:600 15px 'Inter';border:1.5px solid var(--line);border-radius:10px;background:var(--card);outline:none;transition:.2s}
+.searchbox input:focus{border-color:var(--red)}
+.dropdown{position:absolute;top:calc(100% + 6px);left:0;right:0;background:var(--card);border:1px solid var(--line);border-radius:10px;max-height:280px;overflow:auto;box-shadow:0 12px 32px rgba(22,19,15,.10);display:none;z-index:20}
+.dropdown div{padding:10px 16px;font-size:14px;cursor:pointer}
+.dropdown div:hover{background:var(--red-soft)}
+.dropdown .tk{font-weight:700;margin-right:8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px;margin-top:18px}
+.card h3{font-family:'Fraunces',serif;font-size:24px;font-weight:600}
+.chips{display:flex;gap:8px;margin:10px 0 20px;flex-wrap:wrap}
+.chip{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:var(--paper);border:1px solid var(--line);color:var(--muted)}
+.chip.red{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.sigrow{margin-bottom:14px}
+.sigrow .top{display:flex;justify-content:space-between;font-size:13.5px;margin-bottom:5px}
+.sigrow .top .v{font-weight:700}
+.bar{height:6px;background:var(--paper);border:1px solid var(--line);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--red);border-radius:99px;transition:width .6s cubic-bezier(.2,.8,.2,1)}
+.outs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px}
+.out{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.out .l{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.out .v{font-family:'Fraunces',serif;font-size:22px;font-weight:600;margin-top:2px}
+.out .v.pos{color:#1D7A3E}.out .v.neg{color:var(--red)}
+#scatter{height:470px}
+
+/* value chain */
+.vc{display:grid;grid-template-columns:1fr 380px;gap:44px;align-items:start;margin-top:30px}
+#catChart{height:340px}
+.callout{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--red);border-radius:12px;padding:20px 22px;margin-bottom:16px}
+.callout .big{font-family:'Fraunces',serif;font-size:30px;font-weight:600;color:var(--red)}
+.callout p{font-size:14px;color:var(--muted);margin-top:6px}
+#concBins{height:300px;margin-top:26px}
+
+/* method */
+.badges{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:32px}
+.badge{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+.badge .bv{font-family:'Fraunces',serif;font-size:27px;font-weight:600;color:var(--red)}
+.badge .bl{font-size:13px;color:var(--muted);margin-top:4px;line-height:1.45}
+
+.bigcta{display:inline-block;background:var(--red);color:#fff;text-decoration:none;font:700 16px 'Inter';padding:16px 30px;border-radius:999px;box-shadow:0 8px 24px rgba(196,18,48,.3);transition:.2s}
+.bigcta:hover{transform:translateY(-2px);background:#A30E28}
+footer{padding:52px 0 70px;color:var(--muted);font-size:13px;max-width:80ch}
+footer b{color:var(--ink)}
+@media(max-width:900px){.explorer,.vc{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}.badges{grid-template-columns:1fr 1fr}nav ul{display:none}}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <div class="brand">CMU <em>×</em> LARRIDIN</div>
+  <ul>
+    <li><a href="#finding">The Finding</a></li>
+    <li><a href="#ladder">The Gauntlet</a></li>
+    <li><a href="#valuechain">Value Chain</a></li>
+    <li><a href="#method">Method</a></li>
+    <li><a href="explore.html" class="cta">Company Explorer →</a></li>
+  </ul>
+</div></nav>
+
+<header><div class="wrap">
+  <div class="overline">AI Capstone · Do AI Adoption Signals Predict Company Performance? · July 2026</div>
+  <h1>Specificity is the&nbsp;signal.</h1>
+  <p class="lede">We measured AI adoption across ~500 large U.S. companies — scores, filings, and
+  30,861 classified job postings — and tested it against real financial outcomes.
+  <b>What predicts growth is not how loudly a company talks about AI, but how concretely.</b></p>
+  <div class="stats">
+    <div class="stat"><div class="num" data-count="564">0</div><div class="lab">Companies</div></div>
+    <div class="stat"><div class="num" data-count="30861">0</div><div class="lab">Postings classified</div></div>
+    <div class="stat"><div class="num" data-count="478">0</div><div class="lab">10-K filings scored</div></div>
+    <div class="stat"><div class="num"><span>+8.7</span>pp</div><div class="lab">Growth gap, low→high (p=.007)</div></div>
+  </div>
+</div></header>
+
+<section id="finding"><div class="wrap reveal">
+  <div class="kicker"><span class="no">01</span><span class="kt">The Finding</span></div>
+  <h2>AI adoption is visible in fundamentals — if you measure deeply enough.</h2>
+  <div class="prose">
+    <p>Every evidence-based adoption signal we tested — Larridin's Tracker scores and the
+    dimensions we built to extend them — is associated with faster revenue growth. The phenomenon
+    is real. But the signals separate sharply once you demand more of them.</p>
+    <p><b>Narrative concreteness</b> — whether a company's own 10-K reports <i>named, deployed
+    AI use cases with quantified results</i>, rather than aspirational language — survives every
+    control we impose: sector, firm size, and prior growth momentum. Moving from the least to the
+    most concrete discloser is worth <b>+8.7 points of year-over-year revenue growth</b>
+    (p&nbsp;=&nbsp;0.007). Composite scores capture the phenomenon; evidence-anchored depth
+    is what sharpens it into signal.</p>
+    <p>Meanwhile, none of these public signals predicts <b>stock returns</b> — the market has
+    already priced them — and <b>margins</b> show no effect yet. AI, today, is a growth story,
+    not a cost story.</p>
+  </div>
+</div></section>
+
+<section id="ladder"><div class="wrap reveal">
+  <div class="kicker"><span class="no">02</span><span class="kt">The Gauntlet</span></div>
+  <h2>Add the controls yourself. Watch which signal survives.</h2>
+  <p class="prose">Each control asks a harder question. <b>Sector:</b> is this just “tech companies grow faster”?
+  <b>Size:</b> just a big-company effect? <b>Momentum:</b> were these companies simply growing already?</p>
+  <div class="gauntlet-controls">
+    <button class="play" id="playBtn">▶&nbsp; Run the gauntlet</button>
+    <span class="hint">or add each control yourself:</span>
+    <div class="segs" id="segs">
+      <button class="seg on" data-spec="0"><span class="step">1</span>Raw</button>
+      <button class="seg" data-spec="1"><span class="step">2</span>+ Sector</button>
+      <button class="seg" data-spec="2"><span class="step">3</span>+ Size</button>
+      <button class="seg" data-spec="3"><span class="step">4</span>+ Momentum</button>
+    </div>
+  </div>
+  <div id="ladderChart"></div>
+  <div class="ladder-cap" id="ladderCap"></div>
+</div></section>
+
+<section id="valuechain"><div class="wrap reveal">
+  <div class="kicker"><span class="no">03</span><span class="kt">The Value Chain</span></div>
+  <h2>Who captured the value — and where the signal works hardest.</h2>
+  <div class="vc">
+    <div>
+      <div id="catChart"></div>
+      <div id="concBins"></div>
+    </div>
+    <div>
+      <div class="callout"><div class="big">+36.8pp</div>
+        <p>AI-infrastructure suppliers outperformed sector- and size-matched peers over four months
+        (p&lt;0.0001). AI’s market-value creation has been narrowly concentrated in the suppliers.</p></div>
+      <div class="callout"><div class="big">p = 0.029</div>
+        <p>The concreteness→growth link holds <i>within</i> physical-asset-heavy late adopters
+        (n=214) — precisely where AI claims are cheapest to make and hardest to verify,
+        concrete disclosure separates genuine adopters from laggards.</p></div>
+      <div class="callout"><div class="big">7.3% → 52%</div>
+        <p>Mean revenue growth rises monotonically across concreteness score bins (chart below left).</p></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="ctaband"><div class="wrap reveal" style="text-align:center">
+  <h2 style="max-width:none">Want to look up a specific company?</h2>
+  <p class="prose" style="margin:0 auto 26px">518 companies, every signal, peer ranks, hiring momentum, and what the study's findings imply for each — in the interactive explorer.</p>
+  <a class="bigcta" href="explore.html">Open the Company Explorer →</a>
+</div></section>
+
+<section id="method"><div class="wrap reveal">
+  <div class="kicker"><span class="no">04</span><span class="kt">Method & Validation</span></div>
+  <h2>Built evidence-first. Stress-tested before we believed it.</h2>
+  <p class="prose">Signals enter as cross-sectional percentile ranks; regressions use HC3 robust errors,
+  1%/99% winsorization, and Benjamini–Hochberg false-discovery control. Every LLM-extracted score must
+  cite verbatim source evidence. The design is a single cross-section — associations, not causal claims.</p>
+  <div class="badges">
+    <div class="badge"><div class="bv">~90%</div><div class="bl">classifier agreement vs. 657 independently labeled postings</div></div>
+    <div class="badge"><div class="bv">87–90%</div><div class="bl">of LLM evidence quotes verify verbatim in source filings</div></div>
+    <div class="badge"><div class="bv">ρ = 0.83</div><div class="bl">hiring signal reproduces Larridin’s independent POC ordering</div></div>
+    <div class="badge"><div class="bv">ρ = 0.54</div><div class="bl">month-over-month test–retest reliability (Jun ↔ Jul)</div></div>
+    <div class="badge"><div class="bv">0 / 500</div><div class="bl">permutations beat the real coefficient; placebo signal null</div></div>
+    <div class="badge"><div class="bv">93%</div><div class="bl">exact score agreement on full LLM re-scoring (100% within ±1)</div></div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <p><b>Exploratory research — not investment advice.</b> Produced by the CMU AI Capstone team
+  (Yixiao Li, Siru Tao, Xin Xu, Hanzhe Hong) in collaboration with Larridin, July 2026. All signals
+  derive from public data; results are conditional associations from a single cross-section.
+  Full methodology and appendix tables in the accompanying working paper.</p>
+</div></footer>
+
+<script>
+const D = window.DATA;
+const RED='#C41230', INK='#16130F', MUTED='#6B645C', LINE='#E5E0D8';
+const FONT={fontFamily:'Inter', color:MUTED};
+
+/* reveal + counters */
+const io=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add('visible')),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+const cio=new IntersectionObserver(es=>es.forEach(e=>{
+  if(!e.isIntersecting)return;
+  const el=e.target,end=+el.dataset.count,t0=performance.now();
+  (function tick(t){const k=Math.min((t-t0)/1200,1),v=Math.round(end*(1-Math.pow(1-k,3)));
+    el.textContent=v.toLocaleString();if(k<1)requestAnimationFrame(tick);})(t0);
+  cio.unobserve(el);
+}),{threshold:.5});
+document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
+
+/* ===== THE GAUNTLET (7 signals) ===== */
+const SPECS=['1_univariate','2_sector','3_size','4_full'];
+const SIGS=[
+  {k:'conc', n:'Narrative concreteness — ours', hero:true},
+  {k:'inv', n:'Investment intensity — ours'},
+  {k:'builder_rate', n:'AI-hiring builder rate — ours'},
+  {k:'adoption_score', n:'Adoption — Larridin'},
+  {k:'impact_score', n:'Impact — Larridin'},
+  {k:'proficiency_score', n:'Proficiency — Larridin'},
+  {k:'maturity_index', n:'Maturity index — Larridin'},
+];
+const CAPS=[
+  'Step 1 — raw: every score- and filings-based signal is significantly associated with revenue growth. The phenomenon is real. (Hiring postdates the outcome quarter — shown for completeness.)',
+  'Step 2 — within sector: most signals still hold. This is not just “tech grows faster.”',
+  'Step 3 — add firm size: the composite Tracker dimensions fade — they aggregate scale-correlated components. The evidence-anchored filings dimensions hold on.',
+  'Step 4 — add growth momentum, the hardest test. <b>Only narrative concreteness survives: +8.7pp, p = 0.007.</b> Specificity is the signal.'
+];
+function tag(p){
+  if(p<0.05) return {txt:'  SURVIVES', col:RED};
+  if(p<0.10) return {txt:'  marginal', col:'#8A8177'};
+  return {txt:'  eliminated', col:'#B9B1A6'};
+}
+const ladderChart=echarts.init(document.getElementById('ladderChart'));
+function drawLadder(spec){
+  const rows=SIGS.map(s=>{const d=D.ladder[s.k][SPECS[spec]];return{name:s.n,c:d.c,p:d.p,hero:s.hero};}).reverse();
+  ladderChart.setOption({
+    animationDurationUpdate:650,animationEasingUpdate:'cubicOut',
+    grid:{left:255,right:185,top:8,bottom:44},
+    xAxis:{min:-0.05,max:0.15,axisLabel:{...FONT,formatter:v=>(v*100).toFixed(0)+'pp'},
+      splitLine:{lineStyle:{color:LINE}},axisLine:{show:false},axisTick:{show:false},
+      name:'revenue-growth gap (low → high rank)',nameLocation:'middle',nameGap:30,nameTextStyle:FONT},
+    yAxis:{type:'category',data:rows.map(r=>r.name),
+      axisLabel:{...FONT,color:INK,fontSize:13},
+      axisLine:{show:false},axisTick:{show:false}},
+    series:[{type:'bar',barWidth:22,
+      data:rows.map(r=>{const tg=tag(r.p);return{value:r.c,
+        itemStyle:{color:r.p<0.05?(r.hero?RED:'#D98793'):(r.p<0.10?'#B9B1A6':'#E4DED5'),borderRadius:[0,6,6,0]},
+        label:{show:true,position:'right',fontFamily:'Inter',fontWeight:700,fontSize:12,
+          formatter:()=> (r.c>=0?'+':'')+(r.c*100).toFixed(1)+'pp{t|'+tg.txt+'}',
+          rich:{t:{color:tg.col,fontWeight:800,fontSize:11,padding:[0,0,0,4]}},
+          color:r.p<0.05?INK:MUTED}};})}]
+  });
+  document.getElementById('ladderCap').innerHTML=CAPS[spec];
+  document.querySelectorAll('.seg').forEach((b,i)=>{b.classList.toggle('on',i<=spec);b.classList.toggle('final',i<=spec&&spec===3);});
+}
+document.getElementById('segs').addEventListener('click',e=>{
+  const b=e.target.closest('.seg'); if(b) drawLadder(+b.dataset.spec);
+});
+document.getElementById('playBtn').addEventListener('click',()=>{
+  drawLadder(0);[1,2,3].forEach((s,i)=>setTimeout(()=>drawLadder(s),1300*(i+1)));
+});
+drawLadder(0);
+let played=false;
+new IntersectionObserver(es=>es.forEach(e=>{
+  if(e.isIntersecting&&!played){played=true;[1,2,3].forEach((s,i)=>setTimeout(()=>drawLadder(s),1400*(i+1)));}
+}),{threshold:.5}).observe(document.getElementById('ladderChart'));
+
+/* ===== VALUE CHAIN ===== */
+const catChart=echarts.init(document.getElementById('catChart'));
+const cs=[...D.catStats].sort((a,b)=>a.ret-b.ret);
+catChart.setOption({
+  title:{text:'Mean 4-month return by value-chain position',textStyle:{fontFamily:'Inter',fontSize:14,fontWeight:700,color:INK}},
+  grid:{left:150,right:130,top:44,bottom:24},
+  xAxis:{axisLabel:{...FONT,formatter:v=>(v*100).toFixed(0)+'%'},splitLine:{lineStyle:{color:LINE}},axisLine:{show:false},axisTick:{show:false}},
+  yAxis:{type:'category',data:cs.map(c=>c.cat),axisLabel:{...FONT,color:INK},axisLine:{show:false},axisTick:{show:false}},
+  series:[{type:'bar',barWidth:24,data:cs.map(c=>({value:c.ret,
+    itemStyle:{color:c.cat==='AI-Infra'?RED:'#D9D2C7',borderRadius:[0,6,6,0]},
+    label:{show:true,position:'right',fontWeight:700,fontFamily:'Inter',fontSize:12.5,color:INK,
+      formatter:()=> (c.ret>0?'+':'')+(c.ret*100).toFixed(1)+'%  (n='+c.n+')'}}))}]
+});
+const binChart=echarts.init(document.getElementById('concBins'));
+binChart.setOption({
+  title:{text:'Revenue growth by concreteness score',textStyle:{fontFamily:'Inter',fontSize:14,fontWeight:700,color:INK}},
+  grid:{left:56,right:18,top:44,bottom:30},
+  xAxis:{type:'category',data:D.concBins.map(b=>b.score),name:'score',nameTextStyle:FONT,axisLabel:{...FONT,fontWeight:700},axisLine:{lineStyle:{color:LINE}},axisTick:{show:false}},
+  yAxis:{axisLabel:{...FONT,formatter:v=>(v*100).toFixed(0)+'%'},splitLine:{lineStyle:{color:LINE}},axisLine:{show:false},axisTick:{show:false}},
+  series:[{type:'bar',barWidth:44,data:D.concBins.map(b=>({value:b.mean,
+    itemStyle:{color:b.score>=4?RED:'#D9D2C7',borderRadius:[6,6,0,0]},
+    label:{show:true,position:'top',fontWeight:700,fontFamily:'Inter',fontSize:12,color:MUTED,
+      formatter:()=> (b.mean*100).toFixed(0)+'%  n='+b.n}}))}]
+});
+
+/* nav active */
+const secs=[...document.querySelectorAll('section')];
+const nio=new IntersectionObserver(es=>es.forEach(e=>{
+  if(e.isIntersecting){document.querySelectorAll("nav a[href^='#']").forEach(a=>
+    a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id));}
+}),{rootMargin:'-45% 0px -50% 0px'});
+secs.forEach(s=>nio.observe(s));
+window.addEventListener('resize',()=>[ladderChart,catChart,binChart].forEach(c=>c.resize()));
+</script>
+</body>
+</html>

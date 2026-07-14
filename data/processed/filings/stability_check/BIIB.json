@@ -1,0 +1,49 @@
+{
+ "ticker": "BIIB",
+ "source_document_id": "0000875045-26-000013",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-06",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "our incorporation of technologies using AI into some of our processes",
+    "AI-based software is increasingly used in the biopharmaceutical industry, including by us, for research, marketing, manufacturing and commercialization, and we anticipate increasing our usage"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "AI-based software is increasingly used...including by us, for research, marketing, manufacturing and commercialization",
+    "our incorporation of technologies using AI into some of our processes"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "algorithms may be flawed, data sets may be insufficient, of poor quality or contain biased information; and inappropriate or controversial data practices could impair results",
+    "Use of AI-based software internally, by third parties or by threat actors may also lead to cybersecurity risks or the release of confidential proprietary information, including personal data",
+    "Since the use of AI is subject to new or evolving laws and regulations, compliance may impose operational costs and limit our ability to use AI-based software, and failure to comply may result in potential government actions, litigation, fines"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount, or named AI programs disclosed in excerpts; only generic statements about incorporating AI into processes and anticipated increased usage.",
+  "ai_narrative_concreteness: Named functional areas (research, marketing, manufacturing, commercialization) are mentioned but no deployment status, metrics, or specific initiative names are provided; score reflects named use-case domains without operational detail.",
+  "ai_risk_disclosure_depth: Risk-factor sections are present and contain detailed AI risk discussion; scored 4 for company-specific risk mechanisms (competitive harm, legal liability, cybersecurity, data privacy, regulatory compliance) though no quantification or named governance body is disclosed."
+ ],
+ "_meta": {
+  "accession": "0000875045-26-000013",
+  "filing_date": "2026-02-06",
+  "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504526000013/biib-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-07-06T23:12:03.380787+00:00"
+ }
+}

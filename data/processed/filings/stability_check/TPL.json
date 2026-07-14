@@ -1,0 +1,54 @@
+{
+ "ticker": "TPL",
+ "source_document_id": "0001811074-26-000018",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "$50.0 million minority investment in Bolt Data Energy, Inc. pursuant to a strategic agreement to develop and enable large scale data center campuses and supporting infrastructure across our land.",
+    "Bolt is a data energy infrastructure company co-founded by Eric Schmidt, former CEO and Chairman of Google."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "Strategic agreement to develop and enable large scale data center campuses and supporting infrastructure across our land; received equity interest, warrants, and right of first refusal to supply water.",
+    "Projects include evaluation of data centers, power generation, grid-connected batteries, and carbon capture; structured with multi-year terms for feasibility and commercial suitability."
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "Continually evaluate emerging threats and improved mitigation methods, including but not limited to, generative and agentic artificial intelligence and machine learning.",
+    "Minority investments inherently involve a lesser degree of control over business operations, thereby potentially increasing the financial, legal, operational and/or compliance risks associated with the minority investment."
+   ],
+   "confidence": 0.68
+  }
+ },
+ "capex_mentions": [
+  {
+   "quote": "$50.0 million in Bolt pursuant to a strategic agreement to develop and enable large scale data center campuses",
+   "context": "December 2025 minority equity investment in Bolt Data Energy, Inc. for data center infrastructure on TPL land"
+  }
+ ],
+ "limitations": [
+  "TPL is a land company, not an AI builder; the $50M Bolt investment is AI-adjacent (data center infrastructure) but Bolt's AI specificity is not detailed in the excerpts — scored 3 rather than 4 because the investment is in a data center enabler, not directly AI compute or AI R&D, and no AI-attributable dollar amounts beyond this single investment are disclosed.",
+  "Narrative concreteness is limited: data center campuses are named but no deployed AI use cases or quantified business results are present; the Bolt initiative is pre-commercial/feasibility stage.",
+  "Risk disclosure references generative and agentic AI as an emerging cybersecurity threat category (named risk), but no company-specific AI risk scenarios with revenue/operational mechanisms are described, capping the score at 3.",
+  "Promotional language present around Bolt (Eric Schmidt co-founder noted); reflects claims, not confirmed outcomes."
+ ],
+ "_meta": {
+  "accession": "0001811074-26-000018",
+  "filing_date": "2026-02-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1811074/000181107426000018/tpl-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 2.3,
+  "extracted_at": "2026-07-06T23:17:11.813293+00:00"
+ }
+}

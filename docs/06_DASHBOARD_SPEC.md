@@ -1,92 +1,48 @@
-# Dashboard Spec
+# Dashboard Spec (Real-Data Version — July 2026)
 
-The Streamlit dashboard is a local research interface for exploring whether AI adoption signals relate to future company performance. It does not call live APIs, require a database, expose secrets, claim causality, or present investment advice.
+The Streamlit dashboard is a local research interface over the study's **real**
+datasets. It reads processed parquet/CSV artifacts only — no live API calls, no
+database, no secrets. It presents exploratory research and is not investment
+advice.
 
 Run locally:
 
 ```bash
-streamlit run src/ai_impact_research/dashboard/app.py
+make dashboard
+# or: PYTHONPATH=src python3 -m streamlit run src/ai_impact_research/dashboard/app.py
 ```
 
-Default inputs:
+Data inputs (all produced by the pipeline — see `HANDOFF.md` §4):
 
-- `data/processed/analytic_panel.csv`
-- `data/processed/analysis/ic_summary.csv`
-- `data/processed/analysis/ic_by_quarter.csv`
-- `data/processed/analysis/regression_results.csv`
-- `data/processed/analysis/backtest_metrics.csv`
-- `data/processed/analysis/backtest_quintile_returns.csv`
-- `data/processed/analysis/backtest_long_short_returns.csv`
+- `data/processed/analysis_table_v4.parquet` — company × signals × outcomes ×
+  controls × AI value-chain category
+- `data/processed/analysis_crosssection.parquet` — names/sectors/identifiers
+- `data/processed/analysis/controls_regressions.csv` — specification-ladder results
+- `data/processed/hiring/<snapshot>/company_hiring_signal.parquet` — monthly hiring signal
 
-The sidebar allows local path overrides for the analytic panel and analysis output directory.
+Data access lives in `dashboard/real_data.py` (cached loaders). The legacy
+`data_loader.py` remains only to serve the original synthetic-sample tests.
 
-If files are missing, the dashboard shows friendly setup instructions:
+## Pages
 
-```bash
-python scripts/bootstrap_from_samples.py
-python scripts/build_panel.py
-python scripts/run_baseline_analysis.py
-```
+1. **Home** (`app.py`) — status metrics and the headline finding.
+2. **Overview** — variable coverage table (with missingness reasons), sector
+   coverage, distributions of maturity and concreteness.
+3. **Company Explorer** — ticker selector → all signals (Larridin pillars,
+   concreteness, investment, hiring), outcomes, and sector-percentile ranks.
+4. **Signal Analysis** — interactive signal × outcome scatter with OLS trend,
+   live Spearman IC, full IC table.
+5. **Results** (file `4_Backtest.py`) — specification-ladder table from the
+   saved regression results, concreteness/maturity sorts, value-chain
+   heterogeneity, headline callout.
+6. **Methodology** — design, signal construction, the validation stack
+   (classifier agreement, evidence verification, reliability, placebo /
+   permutation / leave-one-sector-out / rerun-stability), limitations,
+   disclaimer.
 
-## Page 1: Overview
+## Implementation notes
 
-- Company count
-- Quarter count
-- Sector count and coverage table
-- Sector coverage bar chart
-- AI score distributions
-- Missingness summary
-
-## Page 2: Company Explorer
-
-- Ticker selector
-- Latest AI scores
-- AI score history
-- Financial outcome history
-- Sector peer rank for a selected signal
-- Caveats when company outcome data is missing
-
-## Page 3: Signal Analysis
-
-- Signal selector
-- Outcome selector
-- Signal/outcome scatter plot with sector coloring when available
-- IC summary table
-- IC by quarter chart
-- Regression result table when available
-
-## Page 4: Backtest
-
-- Signal selector
-- Quintile return table
-- Quintile return chart
-- Cumulative long-short chart
-- Sharpe ratio, max drawdown, cumulative return, and rebalance count
-- Prominent warning that the backtest is hypothetical research and not investment advice
-
-## Page 5: Methodology
-
-- Data sources
-- Feature timing
-- Look-ahead bias controls
-- Limitations
-- Responsible AI caveats
-- Links/excerpts from project methodology docs
-
-## Ticker-Level Report Generator
-
-The deterministic report generator is available as a companion CLI workflow rather than a dashboard page in the current Streamlit structure:
-
-```bash
-python scripts/generate_company_report.py --ticker AIVA --panel data/processed/analytic_panel.csv --output reports/AIVA_report.md
-```
-
-The report generator uses local analytical-panel fields, peer/rank tools, optional saved backtest metrics, and optional saved LLM extraction evidence. A future dashboard integration can add a download button or report-preview page once the Streamlit runtime environment is stable.
-
-## Implementation Notes
-
-- Use Plotly for charts.
-- Use Streamlit caching for dashboard data loading.
-- Keep data loading in `dashboard/data_loader.py` pure enough for offline tests.
-- Keep page code research-oriented and avoid hardcoded company conclusions.
-- Surface missing analysis files without failing the whole dashboard.
+- Plotly for charts; Streamlit caching (`st.cache_data`) for all loads.
+- Pages bootstrap `sys.path` so the app runs from the repo root.
+- Keep page code thin; anything reusable belongs in `real_data.py`.
+- Every results view carries the exploratory-research caveat.

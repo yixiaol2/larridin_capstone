@@ -1,0 +1,51 @@
+{
+ "ticker": "MMM",
+ "source_document_id": "0000066740-26-000014",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-03",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "Artificial intelligence (AI) technologies support a range of the Company s activities, including research and development, operational processes, customer facing tools, and other business functions.",
+    "Rapid advances in AI may also create competitive pressures or require ongoing investment to maintain effectiveness",
+    "Emerging and evolving regulations related to AI use... may require additional investment, changes to existing processes"
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "AI technologies support a range of the Company s activities, including research and development, operational processes, customer facing tools, and other business functions.",
+    "changes in the business environment related to disruptive technologies, such as artificial intelligence and machine learning technologies, block-chain, expanded analytics"
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI systems may produce inaccurate, biased, or incomplete outputs, which could lead to operational errors, reduced product or service quality, or unintentional impacts on business decisions.",
+    "Use of AI tools, including third party platforms, increases the risk of unauthorized disclosure, loss, or misuse of confidential, personal, or commercially sensitive information.",
+    "Emerging and evolving regulations related to AI use, transparency, safety, and accountability may require additional investment, changes to existing processes, or limitations on the development and application"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable investment amounts (dollar figures, headcount, or capex) appear in the excerpts; investment intensity scored 3 based on named use areas without financial scale.",
+  "AI narrative concreteness is limited to named functional areas (R&D, operations, customer tools) with no deployment metrics or quantified outcomes disclosed in these excerpts.",
+  "Risk disclosure is detailed and company-specific but lacks quantification of risk exposure or named governance bodies, capping the score at 4 rather than 5.",
+  "Excerpts are pre-filtered; broader business strategy or MD&A sections discussing AI investment scale may not be represented here."
+ ],
+ "_meta": {
+  "accession": "0000066740-26-000014",
+  "filing_date": "2026-02-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000014/mmm-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-07-06T23:11:21.198119+00:00"
+ }
+}

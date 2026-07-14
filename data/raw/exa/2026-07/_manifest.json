@@ -1,0 +1,10 @@
+{
+  "snapshot": "2026-07",
+  "window_start": "2026-06-04T00:00:00.000Z",
+  "companies_total": 536,
+  "collected": 536,
+  "skipped_existing": 0,
+  "saturation_topups": 0,
+  "exa_cost_dollars": 11.729,
+  "finished_at": "2026-07-05T18:53:31.592432+00:00"
+}

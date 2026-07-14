@@ -1,0 +1,50 @@
+{
+ "ticker": "SWK",
+ "source_document_id": "0000093556-26-000009",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Company s businesses increasingly leverage artificial intelligence solutions to optimize their operations, improve customer experiences, and enhance their products and services.",
+    "The Company has invested and continues to invest in risk management and information security and data protection measures... including employee and critical service provider training, organizational investments"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "The Company s businesses increasingly leverage artificial intelligence solutions to optimize their operations, improve customer experiences, and enhance their products and services.",
+    "The use of artificial intelligence in the development of the Company's products and services could also impact its intellectual property protections."
+   ],
+   "confidence": 0.6
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The Company s artificial intelligence efforts may subject it to heightened compliance and legal as well as other risks related to technology integration, accuracy, program bias, data sourcing, intellectual property infringement or misappropriation, data privacy, and cybersecurity",
+    "The Company may experience brand or reputational harm if it fails to appropriately manage its use of artificial intelligence in compliance with applicable laws and regulations",
+    "New vulnerabilities may be introduced as cybersecurity threats continue to evolve and if the Company or its third-party vendors increase their use of, or reliance on, emerging technologies, such as generative artificial intelligence and machine learning."
+   ],
+   "confidence": 0.8
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount figures, or quantified AI-specific spend disclosed in the excerpts; named AI use cases exist but investment scale is unquantified, limiting score to 3.",
+  "ai_narrative_concreteness: AI use cases named (operations optimization, customer experience, product development) but no deployment metrics, production status details, or quantified outcomes provided; score capped at 3.",
+  "ai_risk_disclosure_depth: Risk mechanisms are named and company-specific (bias, IP, data privacy, regulatory, reputational, competitive harm) with some causal linkage to operations/results, but no quantification of risk exposure or named governance/oversight bodies, limiting score to 4.",
+  "capex_mentions: No AI-attributable dollar figures found in the excerpts."
+ ],
+ "_meta": {
+  "accession": "0000093556-26-000009",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/93556/000009355626000009/swk-20260103.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 5,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-07-06T23:16:48.799661+00:00"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "ticker": "SYY",
+ "source_document_id": "0000096021-25-000099",
+ "source_type": "sec_filing",
+ "source_date": "2025-08-22",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "we have incorporated artificial intelligence and/or generative artificial intelligence to manage inventory, optimize warehouse logistics, route customer deliveries more efficiently and enable more analytics for our sales consultants",
+    "We have and are continuing to incorporate artificial intelligence, including machine learning, in certain of our operations, such as sales, support and supply chain operations"
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "we have incorporated artificial intelligence and/or generative artificial intelligence to manage inventory, optimize warehouse logistics, route customer deliveries more efficiently and enable more analytics for our sales consultants",
+    "may incorporate emerging artificial intelligence solutions into our platform, offerings, services and features, and these applications may become important in our operations over time"
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Flaws, breaches or malfunctions in these systems could lead to operational disruptions, data loss, or erroneous decision-making, impacting our operations, financial condition and reputation",
+    "deployment of artificial intelligence systems could expose us to increased cybersecurity threats, such as data breaches and unauthorized access leading to financial losses, legal liabilities, and reputational damage",
+    "The legal and regulatory landscape and industry standards surrounding artificial intelligence technologies is rapidly evolving and remains uncertain, and compliance may impose significant operational costs"
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI-attributable dollar amounts, headcount, or capex figures appear in the excerpts; investment intensity capped at 3",
+  "AI use cases are named and described as deployed but no quantified business results (%, $, time saved) are provided; concreteness capped at 4",
+  "Risk disclosure includes named company-specific scenarios with mechanisms (operational disruption, financial losses, compliance costs) but no quantification or named governance bodies; capped at 4",
+  "Excerpts are pre-filtered; broader capex or R&D disclosures elsewhere in the filing may not be represented here"
+ ],
+ "_meta": {
+  "accession": "0000096021-25-000099",
+  "filing_date": "2025-08-22",
+  "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602125000099/syy-20250628.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-07-06T23:16:58.158046+00:00"
+ }
+}

@@ -10,9 +10,12 @@ stale — trust this file and the scripts under `scripts/`.
 
 We test whether **AI-adoption signals predict company financial performance**.
 Larridin provides AI-adoption scores for public companies; we cleaned them,
-linked them to markets, and built additional signals (hiring, filings). The work
-so far is **data collection + signal extension**; the statistical analysis is
-the next phase.
+linked them to markets, built additional signals (hiring, filings), and ran the
+full controlled analysis. **Status (July 2026): analysis complete, paper
+drafted (`reports/paper/main.tex`), dashboard serves real data.** Headline:
+disclosure concreteness predicts revenue growth through sector/size/momentum
+controls (+8.7pp, p=0.007); composite scores attenuate under size; returns and
+margins show no effects; see §6.
 
 **Key reality to internalize:** Larridin's scores are a **single snapshot
 (January 2026)** — there is no multi-quarter history. So this is currently a
@@ -74,11 +77,14 @@ possible). Run from the repo root. Outputs go under `data/` (gitignored).
 | 8 | `validate_job_classifier.py` | (QA) classifier vs Larridin's 657 labeled postings → agreement metrics |
 | 9 | `extract_filings_signals.py --all` | 10-K → 3 filings signals (filings-v2 prompt) → `data/processed/filings/filings_signals.parquet` |
 | 10 | `pull_sec_fundamentals.py` | SEC Q1-2026 fundamentals (outcome vars) → `data/processed/fundamentals/q1_outcomes.parquet` |
+| 11 | `pull_controls.py` | Regression controls: prior revenue growth (momentum) + market cap at t0 → `data/processed/fundamentals/controls.parquet` |
+| 12 | `run_controls_analysis.py` | Builds `analysis_table_v3.parquet` and runs the specification-ladder regressions → `data/processed/analysis/controls_regressions.csv` |
 
-> ⚠️ **Not yet a committed script:** the final merge of all signals + outcomes
-> into one analysis table (`analysis_table_v2.parquet`) and the
-> signal-vs-outcome correlation matrix were done ad-hoc. Formalizing this into a
-> script is a good first task for the next phase.
+> Note: the value-chain category merge (`analysis_table_v4.parquet`, from the
+> teammate's S&P 500 classification) and the heterogeneity/stress-test runs
+> were executed ad-hoc; their outputs are saved artifacts and the numbers are
+> reported in the paper. The hiring pipeline (6–7) has been run for snapshots
+> `2026-06` and `2026-07` — rerun monthly with a new `--snapshot`.
 
 ---
 
@@ -102,16 +108,24 @@ cheap-but-capable models; the full runs cost ~$10–12 each.
 
 ---
 
-## 6. Preliminary findings & caveats (do NOT over-claim)
+## 6. Final results (July 2026 — details & tables in `reports/paper/`)
 
-- Early pattern: AI signals (both Larridin's and ours) are **significantly
-  associated with Q1 revenue growth**, but **not** with margin change or
-  short-term stock returns — consistent across signal sources.
-- ⚠️ **This is not yet a result.** It must be re-checked controlling for company
-  **size and prior growth momentum** — high-growth firms tend to score high on
-  AI *and* keep growing, so the relationship may be confounded. This control is
-  the #1 next task.
-- Single cross-section → no statistical power for a multi-period backtest yet.
+- **Headline:** narrative concreteness survives the full specification ladder
+  (sector FE + size + momentum): **+0.087, p=0.007, n=399**; passes BH-FDR in
+  the primary family. Robustness: placebo null, permutation p<0.002,
+  significant in all 12 leave-one-sector-out runs, LLM rerun stability 93%
+  exact / conc ρ=0.94.
+- Larridin composite scores: significant raw and with sector controls;
+  attenuate under the size control (framed constructively in the paper as
+  "measurement depth" — concreteness is the sharpened dimension).
+- Returns: no positive predictability (consistent with market efficiency);
+  margins: null everywhere ("growth channel, not cost channel").
+- Heterogeneity: AI-Infra category +36.8pp return vs peers with controls
+  (p<0.0001, descriptive); conc→growth significant within Physical/Late
+  adopters (p=0.029, n=214).
+- Hiring: not testable against Q1 (timing); delivered as validation (ρ=0.83 vs
+  POC), reliability (Jun↔Jul ρ=0.54), and movers dynamics.
+- Design remains a single cross-section — associations, not causal claims.
 
 ---
 
@@ -129,11 +143,12 @@ cheap-but-capable models; the full runs cost ~$10–12 each.
 
 ---
 
-## 8. Next steps
+## 8. Remaining work / future extensions
 
-1. Formalize the final merge + analysis into a script; add size & momentum
-   controls and multiple-testing correction; test the revenue-growth finding.
-2. July hiring snapshot (second time point) — re-run scripts 6–7 with
-   `--snapshot 2026-07`.
-3. Press / news signal (free via GDELT; can backfill history with timestamps).
-4. Earnings-call transcripts (deferred — would enrich the filings signal).
+1. Final presentation deck (weekly deck exists: `reports/Weekly_Update.pptx`).
+2. Paper polish after team/client review (`reports/paper/main.tex`).
+3. Monthly hiring snapshots going forward (scripts 6–7 with a new `--snapshot`);
+   each Larridin score vintage converts the cross-section into a panel.
+4. Press / news signal (free via GDELT; timestamps allow legitimate backfill).
+5. Earnings-call transcripts (deferred — would enrich the filings signal).
+6. Productivity outcome (employee counts extractable from cached 10-K texts).

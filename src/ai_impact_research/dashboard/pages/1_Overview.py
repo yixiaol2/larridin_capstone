@@ -1,64 +1,60 @@
+"""Overview — universe composition and signal coverage (real data)."""
+
 from __future__ import annotations
 
-import pandas as pd
+# ruff: noqa: E402, I001
+
+import sys
+from pathlib import Path
+
 import plotly.express as px
 import streamlit as st
 
-from ai_impact_research.dashboard.components import (
-    configure_page,
-    load_data_from_sidebar,
-    metric_row,
-    show_missing_data_message,
-    show_research_caveat,
-)
-from ai_impact_research.dashboard.data_loader import available_signals, summarize_panel
+SRC_PATH = Path(__file__).resolve().parents[3]
+if str(SRC_PATH) not in sys.path:
+    sys.path.insert(0, str(SRC_PATH))
 
-configure_page("Overview")
+from ai_impact_research.dashboard.real_data import coverage, load_table
 
-st.title("Overview")
-show_research_caveat()
+st.set_page_config(page_title="Overview", layout="wide")
+st.title("Overview: Universe & Coverage")
 
-data = load_data_from_sidebar()
-show_missing_data_message(data)
-if data.panel.empty:
-    st.stop()
+df = load_table()
 
-panel = data.panel
-summary = summarize_panel(panel)
-metric_row(summary)
+left, right = st.columns([1, 1])
 
-st.subheader("Sector Coverage")
-coverage = summary["sector_coverage"]
-if coverage.empty:
-    st.warning("Sector coverage is unavailable.")
-else:
-    col1, col2 = st.columns([1, 2])
-    col1.dataframe(coverage, use_container_width=True, hide_index=True)
-    col2.plotly_chart(
-        px.bar(coverage, x="sector", y="company_count", title="Company Coverage by Sector"),
-        use_container_width=True,
+with left:
+    st.subheader("Coverage by variable")
+    st.dataframe(coverage(df), hide_index=True, use_container_width=True)
+    st.caption(
+        "Missingness is documented and non-random: banks lack comparable revenue "
+        "concepts, foreign filers lack 10-Ks, thin hiring samples (<5 postings) are excluded."
     )
 
-st.subheader("Score Distributions")
-signals = available_signals(panel)
-if signals:
-    signal = st.selectbox("Signal", signals)
-    st.plotly_chart(
-        px.histogram(panel, x=signal, color="sector" if "sector" in panel.columns else None, nbins=5),
-        use_container_width=True,
-    )
-else:
-    st.info("No AI score columns were found.")
+with right:
+    st.subheader("Companies by sector")
+    sec = df["sector_larridin"].value_counts().reset_index()
+    sec.columns = ["Sector", "Companies"]
+    fig = px.bar(sec, x="Companies", y="Sector", orientation="h",
+                 color_discrete_sequence=["#C41230"])
+    fig.update_layout(height=420, margin=dict(l=10, r=10, t=10, b=10),
+                      yaxis=dict(autorange="reversed"))
+    st.plotly_chart(fig, use_container_width=True)
 
-st.subheader("Missingness Summary")
-missingness = pd.DataFrame(
-    [{"column": col, "missing_rows": count} for col, count in summary["missingness"].items()]
-)
-if missingness.empty:
-    st.info("No expected dashboard columns were found for missingness reporting.")
-else:
-    st.dataframe(
-        missingness.sort_values("missing_rows", ascending=False),
-        use_container_width=True,
-        hide_index=True,
-    )
+st.divider()
+
+c1, c2 = st.columns(2)
+with c1:
+    st.subheader("Larridin maturity distribution")
+    fig = px.histogram(df.dropna(subset=["maturity_index"]), x="maturity_index", nbins=20,
+                       color_discrete_sequence=["#C41230"])
+    fig.update_layout(height=320, xaxis_title="Maturity index (1–5)",
+                      yaxis_title="Companies", margin=dict(l=10, r=10, t=10, b=10))
+    st.plotly_chart(fig, use_container_width=True)
+with c2:
+    st.subheader("Narrative concreteness distribution")
+    fig = px.histogram(df.dropna(subset=["conc"]), x="conc", nbins=5,
+                       color_discrete_sequence=["#C41230"])
+    fig.update_layout(height=320, xaxis_title="Concreteness score (1–5)",
+                      yaxis_title="Companies", margin=dict(l=10, r=10, t=10, b=10))
+    st.plotly_chart(fig, use_container_width=True)

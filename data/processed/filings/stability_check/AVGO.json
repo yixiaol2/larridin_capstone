@@ -1,0 +1,51 @@
+{
+ "ticker": "AVGO",
+ "source_document_id": "0001730168-25-000121",
+ "source_type": "sec_filing",
+ "source_date": "2025-12-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 5,
+   "evidence": [
+    "In order to remain competitive, we have made, and expect to continue to make, significant investments in research and development, expand our business strategy or adopt new business models.",
+    "Failure to successfully develop increasingly advanced technologies, including our custom AI accelerators or XPUs, network switches and other AI-related products, or execute on new strategies or models such as the sale or leasing of AI racks or systems based on our XPUs could impair our competitive position.",
+    "our AI-related product engineers and cybersecurity experts, are a significant asset. Competition for these employees is significant in many areas of the world in which we operate, particularly in Silicon Valley and Southeast Asia."
+   ],
+   "confidence": 0.82
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "We provide advanced technology and IP platforms for customers to design and develop ASICs for AI and high-performance computing... Our custom silicon solutions provide the platform to integrate embedded logic, high-bandwidth memory, serializer/deserializer technology.",
+    "VMware Private AI: This capability, when added to VCF, enables the use of generative AI technologies while addressing data privacy and compliance needs of our customers.",
+    "Our Tanzu solutions provide an AI application development platform with built-in best practices, configurations and optimizations that allow developers to focus on building and deploying applications."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Some of these AI customers may have constrained resources or capital and may be unable to pay for their required AI infrastructure and/or seek alternative financings or novel or deferred payment models from their vendors and suppliers.",
+    "The emergence and maturation of AI capabilities may also lead to new and/or more sophisticated methods of attack, including fraud that relies upon deep fake impersonation technology or other forms of generative automation.",
+    "The sale or leasing of AI racks or systems based on our XPUs will likely increase our operating margin but compress or lower future gross margin, which would adversely impact our stock price."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No specific dollar amounts for AI R&D or capex were found in the provided excerpts; investment intensity scored 5 based on core-business-scale AI product development (XPUs, AI ASICs, AI networking silicon) as primary business focus rather than quantified spend figures.",
+  "ai_narrative_concreteness scored 4 (deployed with operating detail) rather than 5 because no quantified business results (%, $, volume) for AI products were present in the excerpts.",
+  "capex_mentions is empty because no specific dollar figures tied to AI investment appeared in the provided excerpts; financial tables were not included in the pre-filtered sections."
+ ],
+ "_meta": {
+  "accession": "0001730168-25-000121",
+  "filing_date": "2025-12-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 21,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-07-06T23:12:32.155426+00:00"
+ }
+}

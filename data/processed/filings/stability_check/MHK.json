@@ -1,0 +1,50 @@
+{
+ "ticker": "MHK",
+ "source_document_id": "0000851968-26-000011",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-24",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "The Company utilizes AI and machine learning technologies in various aspects of its operations, including production planning, predictive maintenance, quality control, and supply chain optimization.",
+    "Such initiatives may require substantial investment, could result in operational disruptions during implementation, and may not achieve anticipated benefits."
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "The Company utilizes AI and machine learning technologies in various aspects of its operations, including production planning, predictive maintenance, quality control, and supply chain optimization.",
+    "The Company s reliance on AI-driven automation may increase vulnerability to cybersecurity threats, data breaches, or unauthorized access to proprietary information."
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI systems may produce inaccurate or biased outputs, fail to integrate effectively with existing processes, or experience technical malfunctions. Such issues could disrupt manufacturing operations, reduce efficiency, or lead to product quality concerns.",
+    "Regulatory frameworks governing AI use are evolving rapidly. Future laws or regulations may impose restrictions, increase compliance costs, or limit certain applications of AI in manufacturing.",
+    "The Company s reliance on AI-driven automation may increase vulnerability to cybersecurity threats, data breaches, or unauthorized access to proprietary information."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No dollar amounts, headcount figures, or quantified AI-specific spend disclosed in the excerpts; named use cases exist but scale is unquantified, capping score at 3.",
+  "ai_narrative_concreteness: Named deployed use cases (production planning, predictive maintenance, quality control, supply chain optimization) described as in use, but no quantified business results (%, $, time saved) are provided, capping score at 4.",
+  "capex_mentions: No AI-attributable dollar figures appear in the excerpts.",
+  "General: Excerpts are pre-filtered; additional AI investment or risk detail may exist elsewhere in the full filing."
+ ],
+ "_meta": {
+  "accession": "0000851968-26-000011",
+  "filing_date": "2026-02-24",
+  "url": "https://www.sec.gov/Archives/edgar/data/851968/000085196826000011/mhk-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 4.4,
+  "extracted_at": "2026-07-06T23:15:35.995938+00:00"
+ }
+}

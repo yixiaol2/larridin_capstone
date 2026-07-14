@@ -1,0 +1,49 @@
+{
+ "ticker": "MNST",
+ "source_document_id": "0001104659-26-020831",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We rely on artificial intelligence (AI) technologies to support and enhance various aspects of our products, services, and internal operations.",
+    "If we are unable to effectively implement, monitor, and manage these technologies, our business, financial condition, and results of operations could be adversely affected."
+   ],
+   "confidence": 0.72
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We rely on artificial intelligence (AI) technologies to support and enhance various aspects of our products, services, and internal operations.",
+    "artificial intelligence shopping agents may autonomously recommend products that are not ours and, in some cases, directly compete with our products."
+   ],
+   "confidence": 0.75
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "AI models can generate inaccurate, biased, or unpredictable outputs, and failures in data quality, system design, or oversight could result in operational disruptions, security or privacy incidents, reputational challenges.",
+    "changes in the way AI is regulated including potential new requirements governing transparency, accountability, data usage, and model controls could increase our compliance costs, limit the use of certain technologies.",
+    "artificial intelligence shopping agents may autonomously recommend products that are not ours and, in some cases, directly compete with our products."
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No named AI programs, dollar amounts, headcount, or quantified resource commitments disclosed in excerpts; only generic statements about relying on AI technologies.",
+  "ai_narrative_concreteness: AI use is described in general terms (products, services, internal operations) with no named initiatives, deployment status, or metrics; aspirational/risk-framing language dominates.",
+  "ai_risk_disclosure_depth: Risk-section material is present and discusses AI risks with company-specific mechanisms (operational disruptions, compliance costs, competitive displacement via AI shopping agents), but no quantified risk exposure or named governance/oversight bodies are disclosed, capping score at 4."
+ ],
+ "_meta": {
+  "accession": "0001104659-26-020831",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926020831/mnst-20251231x10k.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 1.0,
+  "extracted_at": "2026-07-06T23:15:45.182474+00:00"
+ }
+}

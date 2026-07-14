@@ -1,0 +1,48 @@
+{
+ "ticker": "TSN",
+ "source_document_id": "0000100493-25-000095",
+ "source_type": "sec_filing",
+ "source_date": "2025-11-10",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We conduct continuous research and development activities which include new product innovation, product improvements, ingredient simplification, manual process automation in our processing facilities",
+    "we have a Manufacturing Automation Center in Springdale, Arkansas, designed to develop new manufacturing solutions and to enhance team member training on new technology"
+   ],
+   "confidence": 0.55
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "manual process automation in our processing facilities and grow-out operations",
+    "Manufacturing Automation Center in Springdale, Arkansas, designed to develop new manufacturing solutions"
+   ],
+   "confidence": 0.5
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "new technologies, such as artificial intelligence and quantum computing, may present new technological risks or vulnerabilities",
+    "We may not be able to anticipate or react to new types of cyber attacks or vulnerabilities and we may face delays in our detection or remediation"
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "ai_investment_intensity: No AI-specific dollar amounts or named AI programs disclosed; automation references are generic and not explicitly tied to AI/ML. Score reflects aspirational/generic framing only.",
+  "ai_narrative_concreteness: Automation initiatives are named but not described as AI-driven; no deployment status or metrics provided. 'AI' in the business section refers to avian influenza, not artificial intelligence.",
+  "ai_risk_disclosure_depth: Risk-section material is present and names AI as a technology risk category with a specific mechanism (new vulnerabilities, cyber attack vectors), but no quantification or named governance/mitigation program beyond general cybersecurity measures."
+ ],
+ "_meta": {
+  "accession": "0000100493-25-000095",
+  "filing_date": "2025-11-10",
+  "url": "https://www.sec.gov/Archives/edgar/data/100493/000010049325000095/tsn-20250927.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 3.7,
+  "extracted_at": "2026-07-06T23:17:20.654107+00:00"
+ }
+}

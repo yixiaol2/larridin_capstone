@@ -1,88 +1,59 @@
+"""Signal Analysis — interactive scatter, IC, and per-signal detail (real data)."""
+
 from __future__ import annotations
 
+# ruff: noqa: E402, I001
+
+import sys
+from pathlib import Path
+
+import pandas as pd
 import plotly.express as px
 import streamlit as st
+from scipy.stats import spearmanr
 
-from ai_impact_research.dashboard.components import (
-    configure_page,
-    load_data_from_sidebar,
-    show_research_caveat,
-    stop_if_panel_missing,
-)
-from ai_impact_research.dashboard.data_loader import available_outcomes, available_signals
+SRC_PATH = Path(__file__).resolve().parents[3]
+if str(SRC_PATH) not in sys.path:
+    sys.path.insert(0, str(SRC_PATH))
 
-configure_page("Signal Analysis")
+from ai_impact_research.dashboard.real_data import OUTCOMES, SIGNALS, load_table
 
+st.set_page_config(page_title="Signal Analysis", layout="wide")
 st.title("Signal Analysis")
-show_research_caveat()
 
-data = load_data_from_sidebar()
-stop_if_panel_missing(data)
-panel = data.panel
+df = load_table()
 
-signals = available_signals(panel)
-outcomes = available_outcomes(panel)
-if not signals or not outcomes:
-    st.warning("Signal analysis needs at least one AI signal and one outcome column in the panel.")
-    st.stop()
+c1, c2 = st.columns(2)
+sig = c1.selectbox("Signal", list(SIGNALS), format_func=SIGNALS.get)
+out = c2.selectbox("Outcome", list(OUTCOMES), format_func=OUTCOMES.get)
 
-col1, col2 = st.columns(2)
-signal = col1.selectbox("Signal", signals)
-outcome = col2.selectbox("Outcome", outcomes)
+sub = df[[sig, out, "sector_larridin", "name", "ticker"]].dropna()
+ic, p = spearmanr(sub[sig], sub[out])
 
-plot_df = panel.dropna(subset=[signal, outcome]).copy()
-if plot_df.empty:
-    st.warning("No rows have both the selected signal and outcome.")
-else:
-    st.plotly_chart(
-        px.scatter(
-            plot_df,
-            x=signal,
-            y=outcome,
-            color="sector" if "sector" in plot_df.columns else None,
-            hover_data=[col for col in ["ticker", "company_id", "score_quarter"] if col in plot_df.columns],
-            trendline="ols" if len(plot_df) >= 3 else None,
-            title=f"{signal} vs {outcome}",
-        ),
-        use_container_width=True,
-    )
+m1, m2, m3 = st.columns(3)
+m1.metric("Spearman IC", f"{ic:+.3f}")
+m2.metric("p-value", f"{p:.4f}")
+m3.metric("Companies", len(sub))
 
-st.subheader("IC Summary")
-ic_summary = data.ic_summary
-filtered_summary = (
-    ic_summary.loc[(ic_summary["signal"] == signal) & (ic_summary["outcome"] == outcome)]
-    if not ic_summary.empty and {"signal", "outcome"}.issubset(ic_summary.columns)
-    else ic_summary.iloc[0:0]
+fig = px.scatter(
+    sub, x=sig, y=out, color="sector_larridin", hover_data=["ticker", "name"],
+    trendline="ols", trendline_scope="overall", trendline_color_override="#C41230",
+    labels={sig: SIGNALS[sig], out: OUTCOMES[out], "sector_larridin": "Sector"},
 )
-if filtered_summary.empty:
-    st.info("No IC summary is available for this signal/outcome pair.")
-else:
-    st.dataframe(filtered_summary, use_container_width=True, hide_index=True)
+fig.update_layout(height=520, margin=dict(l=10, r=10, t=20, b=10))
+st.plotly_chart(fig, use_container_width=True)
 
-st.subheader("IC by Quarter")
-ic_by_quarter = data.ic_by_quarter
-filtered_ic = (
-    ic_by_quarter.loc[(ic_by_quarter["signal"] == signal) & (ic_by_quarter["outcome"] == outcome)]
-    if not ic_by_quarter.empty and {"signal", "outcome", "quarter", "ic"}.issubset(ic_by_quarter.columns)
-    else ic_by_quarter.iloc[0:0]
-)
-if filtered_ic.empty:
-    st.info("No quarterly IC output is available for this signal/outcome pair.")
-else:
-    st.plotly_chart(
-        px.line(filtered_ic, x="quarter", y="ic", markers=True, title="Spearman IC by Quarter"),
-        use_container_width=True,
-    )
-    st.dataframe(filtered_ic, use_container_width=True, hide_index=True)
-
-st.subheader("Regression Results")
-regressions = data.regression_results
-filtered_regressions = (
-    regressions.loc[(regressions["signal"] == signal) & (regressions["outcome"] == outcome)]
-    if not regressions.empty and {"signal", "outcome"}.issubset(regressions.columns)
-    else regressions.iloc[0:0]
-)
-if filtered_regressions.empty:
-    st.info("No regression results are available for this signal/outcome pair.")
-else:
-    st.dataframe(filtered_regressions, use_container_width=True, hide_index=True)
+st.divider()
+st.subheader("IC table — all signals × outcomes")
+rows = []
+for s, sname in SIGNALS.items():
+    r = {"Signal": sname}
+    for o, oname in OUTCOMES.items():
+        d = df[[s, o]].dropna()
+        icv, pv = spearmanr(d[s], d[o])
+        star = "**" if pv < 0.01 else ("*" if pv < 0.05 else "")
+        r[oname] = f"{icv:+.3f}{star} ({len(d)})"
+    rows.append(r)
+st.dataframe(pd.DataFrame(rows), hide_index=True, use_container_width=True)
+st.caption("Spearman rank correlations; */** = p<0.05/0.01; sample size in parentheses. "
+           "Unconditional associations — see Results for the controlled regressions.")

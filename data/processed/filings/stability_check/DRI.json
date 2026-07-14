@@ -1,0 +1,48 @@
+{
+ "ticker": "DRI",
+ "source_document_id": "0000940944-25-000038",
+ "source_type": "sec_filing",
+ "source_date": "2025-07-18",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 2,
+   "evidence": [
+    "We continue to drive automation of our supply chain by collaborating with our suppliers, logistics partners and distributors to improve optimization with information visibility and other technological advances.",
+    "We leverage public cloud computing where appropriate to enhance our capabilities and to leverage scale."
+   ],
+   "confidence": 0.6
+  },
+  "ai_narrative_concreteness": {
+   "score": 2,
+   "evidence": [
+    "We continue to drive automation of our supply chain by collaborating with our suppliers, logistics partners and distributors to improve optimization with information visibility and other technological advances.",
+    "technology-enabled business solutions to improve financial control, cost management, guest service and employee effectiveness, as well as enable e-commerce."
+   ],
+   "confidence": 0.65
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 3,
+   "evidence": [
+    "the rapid evolution and increased adoption of artificial intelligence technologies may intensify our and our service providers and key suppliers cybersecurity risks.",
+    "Unauthorized access, theft, use, destruction or other compromises are becoming increasingly sophisticated, more difficult to detect, contain and mitigate, and may occur through a variety of methods."
+   ],
+   "confidence": 0.75
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "AI investment intensity: no named AI programs, no dollar amounts, no AI-specific R&D or capex disclosed; automation and cloud references are generic with no explicit AI attribution beyond cybersecurity risk context.",
+  "AI narrative concreteness: no named AI initiatives or deployed AI use cases found in excerpts; technology references are aspirational or generic; scored 2 rather than null because named technology domains (supply chain automation, cloud, e-commerce) are present but lack AI-specific labeling.",
+  "AI risk disclosure: risk-section material is present and references AI specifically in the cybersecurity context, naming the mechanism (AI intensifying cyber risks); no quantification or named governance body found in excerpts."
+ ],
+ "_meta": {
+  "accession": "0000940944-25-000038",
+  "filing_date": "2025-07-18",
+  "url": "https://www.sec.gov/Archives/edgar/data/940944/000094094425000038/dri-20250525.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 3,
+  "maturity_index": 2.0,
+  "extracted_at": "2026-07-06T23:13:35.849703+00:00"
+ }
+}

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Company Explorer — AI Adoption & Company Performance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<script src="data.js"></script>
+<style>
+:root{
+  --paper:#FAF8F5; --ink:#16130F; --muted:#6B645C; --line:#E5E0D8;
+  --red:#C41230; --red-soft:#F6E3E7; --card:#FFFFFF; --green:#1D7A3E; --green-soft:#E3F0E7;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:'Inter',sans-serif;font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+::selection{background:var(--red-soft)}
+.serif{font-family:'Fraunces',serif}
+.wrap{max-width:1120px;margin:0 auto;padding:0 32px}
+
+nav{position:sticky;top:0;z-index:50;background:rgba(250,248,245,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+nav .brand{font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+nav .brand em{color:var(--red);font-style:normal}
+nav ul{display:flex;gap:26px;list-style:none}
+nav a{color:var(--muted);text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.05em;padding-bottom:4px;border-bottom:2px solid transparent;transition:.2s}
+nav a:hover,nav a.active{color:var(--ink);border-color:var(--red)}
+
+header{padding:64px 0 40px}
+.overline{font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--red);margin-bottom:16px}
+h1{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(34px,5vw,56px);line-height:1.06}
+.lede{margin-top:14px;font-size:17px;color:var(--muted);max-width:66ch}
+.lede b{color:var(--ink)}
+
+section{padding:44px 0;border-bottom:1px solid var(--line)}
+.kicker{display:flex;align-items:baseline;gap:14px;margin-bottom:14px}
+.kicker .no{font-family:'Fraunces',serif;color:var(--red);font-size:15px;font-weight:600}
+.kicker .kt{font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+h2{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(24px,3vw,34px);line-height:1.14;margin-bottom:14px}
+
+.searchbox{position:relative;max-width:520px}
+.searchbox input{width:100%;padding:16px 20px;font:600 16px 'Inter';border:1.5px solid var(--line);border-radius:12px;background:var(--card);outline:none;transition:.2s;box-shadow:0 3px 14px rgba(22,19,15,.05)}
+.searchbox input:focus{border-color:var(--red)}
+.dropdown{position:absolute;top:calc(100% + 6px);left:0;right:0;background:var(--card);border:1px solid var(--line);border-radius:10px;max-height:300px;overflow:auto;box-shadow:0 12px 32px rgba(22,19,15,.12);display:none;z-index:20}
+.dropdown div{padding:10px 16px;font-size:14px;cursor:pointer}
+.dropdown div:hover{background:var(--red-soft)}
+.dropdown .tk{font-weight:700;margin-right:8px}
+.quick{margin-top:10px;font-size:13px;color:var(--muted)}
+.quick a{color:var(--red);font-weight:700;text-decoration:none;margin-right:10px;cursor:pointer}
+
+.company{display:grid;grid-template-columns:430px 1fr;gap:26px;margin-top:30px;align-items:start}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px}
+.card h3{font-family:'Fraunces',serif;font-size:26px;font-weight:600}
+.chips{display:flex;gap:8px;margin:10px 0 20px;flex-wrap:wrap}
+.chip{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:var(--paper);border:1px solid var(--line);color:var(--muted)}
+.chip.red{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.chip.green{background:var(--green-soft);border-color:transparent;color:var(--green)}
+.grp{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:18px 0 10px;padding-top:14px;border-top:1px dashed var(--line)}
+.grp:first-of-type{border-top:none;padding-top:0;margin-top:6px}
+.sigrow{margin-bottom:13px}
+.sigrow .top{display:flex;justify-content:space-between;font-size:13.5px;margin-bottom:5px}
+.sigrow .top .v{font-weight:700}
+.sigrow .top .v small{font-weight:600;color:var(--muted)}
+.bar{height:6px;background:var(--paper);border:1px solid var(--line);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--red);border-radius:99px;transition:width .6s cubic-bezier(.2,.8,.2,1)}
+.bar i.dim{background:#C9C1B6}
+
+.outs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.out{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.out .l{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.out .v{font-family:'Fraunces',serif;font-size:22px;font-weight:600;margin-top:2px}
+.out .v.pos{color:var(--green)}.out .v.neg{color:var(--red)}
+.out .sub{font-size:11.5px;color:var(--muted);margin-top:2px}
+
+.insight{border-left:4px solid var(--red);background:var(--card);border:1px solid var(--line);border-left:4px solid var(--red);border-radius:12px;padding:22px 24px;margin-bottom:16px}
+.insight h4{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--red);margin-bottom:10px}
+.insight p{font-size:14.5px;color:#3c362e;margin-bottom:8px}
+.insight p b{color:var(--ink)}
+.insight p:last-child{margin-bottom:0}
+
+#scatter{height:520px;margin-top:8px}
+.toggle{display:flex;gap:8px;margin:16px 0 4px}
+.tbtn{border:1px solid var(--line);background:var(--card);padding:9px 16px;border-radius:999px;font-size:13.5px;font-weight:600;cursor:pointer;transition:.18s;color:var(--muted)}
+.tbtn:hover{border-color:var(--red)}
+.tbtn.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.note{font-size:13px;color:var(--muted);margin-top:8px;max-width:78ch}
+
+.movers{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px}
+.mv{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px}
+.mv h4{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+.mv .sub{font-size:12px;color:var(--muted);margin-bottom:12px}
+.mv table{width:100%;border-collapse:collapse;font-size:13.5px}
+.mv td{padding:7px 0;border-top:1px solid var(--paper)}
+.mv td.tk{font-weight:700;cursor:pointer;color:var(--ink)}
+.mv td.tk:hover{color:var(--red)}
+.mv td.val{text-align:right;font-weight:700}
+.mv td.val.pos{color:var(--green)}.mv td.val.neg{color:var(--red)}
+.mv td.nm{color:var(--muted);padding-left:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:130px}
+
+footer{padding:44px 0 64px;color:var(--muted);font-size:13px;max-width:80ch}
+footer b{color:var(--ink)}
+@media(max-width:940px){.company,.movers{grid-template-columns:1fr}nav ul{display:none}}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <div class="brand">CMU <em>×</em> LARRIDIN</div>
+  <ul>
+    <li><a href="index.html">← The Research</a></li>
+    <li><a href="#lookup" class="active">Company Lookup</a></li>
+    <li><a href="#map">Signal Map</a></li>
+    <li><a href="#movers">Movers</a></li>
+  </ul>
+</div></nav>
+
+<header><div class="wrap">
+  <div class="overline">Interactive Tools · 518 Companies · Data as of July 2026</div>
+  <h1>Company Explorer</h1>
+  <p class="lede">Every company in the study — all seven AI-adoption signals, financial outcomes,
+  sector context, and month-over-month hiring momentum. <b>Read the research first</b> on the
+  <a href="index.html" style="color:var(--red)">main page</a>; explore what it implies for any company here.</p>
+</div></header>
+
+<section id="lookup"><div class="wrap">
+  <div class="kicker"><span class="no">01</span><span class="kt">Company Lookup</span></div>
+  <h2>Search any company.</h2>
+  <div class="searchbox">
+    <input id="search" type="text" placeholder="Type a ticker or company name — e.g. NVDA, Walmart, JPMorgan…" autocomplete="off">
+    <div class="dropdown" id="dropdown"></div>
+  </div>
+  <div class="quick">Try: <a data-t="MSFT">MSFT</a><a data-t="NVDA">NVDA</a><a data-t="WMT">WMT</a><a data-t="JPM">JPM</a><a data-t="CAT">CAT</a><a data-t="MRK">MRK</a></div>
+
+  <div class="company">
+    <div class="card" id="sigCard"></div>
+    <div>
+      <div class="insight" id="insightCard"></div>
+      <div class="outs" id="outsRow"></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="map"><div class="wrap">
+  <div class="kicker"><span class="no">02</span><span class="kt">Signal Map</span></div>
+  <h2>Where every company sits — signal vs. outcome.</h2>
+  <div class="toggle" id="xToggle">
+    <button class="tbtn on" data-x="conc">X: Narrative concreteness (10-K)</button>
+    <button class="tbtn" data-x="mat">X: Larridin maturity index</button>
+  </div>
+  <div id="scatter"></div>
+  <p class="note">Each dot is one company; click a dot to load it in the lookup above. Red dots are
+  AI-infrastructure suppliers. Concreteness scores are jittered horizontally for visibility.
+  The dashed line is the fitted trend on the full sample.</p>
+</div></section>
+
+<section id="movers"><div class="wrap">
+  <div class="kicker"><span class="no">03</span><span class="kt">Movers & Standouts</span></div>
+  <h2>Who's moving — and who walks the talk.</h2>
+  <div class="movers">
+    <div class="mv"><h4 style="color:var(--green)">▲ Hiring momentum — rising</h4>
+      <div class="sub">Largest June→July gains in AI-builder share of engineering hiring (within-month percentile rank)</div>
+      <table id="mvUp"></table></div>
+    <div class="mv"><h4 style="color:var(--red)">▼ Hiring momentum — cooling</h4>
+      <div class="sub">Largest June→July declines in AI-builder share of engineering hiring</div>
+      <table id="mvDown"></table></div>
+    <div class="mv"><h4>★ Most concrete disclosers</h4>
+      <div class="sub">Score 5/5 on narrative concreteness — named, deployed AI use cases with quantified results in the 10-K</div>
+      <table id="mvConc"></table></div>
+  </div>
+  <p class="note">Hiring momentum compares each company's within-month percentile rank of AI-builder
+  hiring between the June and July snapshots (levels aren't comparable across months). Momentum is a
+  monitoring signal — it postdates the outcome quarter and carries no predictive claim in the study.</p>
+</div></section>
+
+<footer><div class="wrap">
+  <p><b>Exploratory research — not investment advice.</b> Produced by the CMU AI Capstone team
+  (Yixiao Li, Siru Tao, Xin Xu, Hanzhe Hong) in collaboration with Larridin, July 2026. All signals
+  derive from public data; per-company readings are descriptive context around a single
+  cross-section, not forecasts. Methodology on the <a href="index.html#method" style="color:var(--red)">main page</a>.</p>
+</div></footer>
+
+<script>
+const D=window.DATA;
+const RED='#C41230',INK='#16130F',MUTED='#6B645C',LINE='#E5E0D8',GREEN='#1D7A3E';
+const FONT={fontFamily:'Inter',color:MUTED};
+const C=D.companies;
+const byT=Object.fromEntries(C.map(c=>[c.t,c]));
+const secName=s=>s?s.split('-').map(w=>w[0].toUpperCase()+w.slice(1)).join(' '):'—';
+const pctFmt=v=>(v>=0?'+':'')+(v*100).toFixed(1)+'%';
+
+/* sector percentile of a field */
+function sectorPct(row,f){
+  const peers=C.filter(c=>c.s===row.s&&c[f]!=null);
+  if(row[f]==null||peers.length<5)return null;
+  const less=peers.filter(c=>c[f]<row[f]).length, eq=peers.filter(c=>c[f]===row[f]).length;
+  return (less+0.5*eq)/peers.length;
+}
+function ordinal(p){const n=Math.round(p*100);return n+(n%10==1&&n!=11?'st':n%10==2&&n!=12?'nd':n%10==3&&n!=13?'rd':'th');}
+
+/* ===== company card ===== */
+const SIGDEFS=[
+  {grp:'Our filings signals (10-K, LLM-extracted)'},
+  {k:'conc',n:'Narrative concreteness',max:5,hero:true},
+  {k:'inv',n:'Investment intensity',max:5},
+  {grp:'Larridin Tracker dimensions'},
+  {k:'adp',n:'Adoption',max:5},
+  {k:'prof',n:'Proficiency',max:5},
+  {k:'imp',n:'Impact',max:5},
+  {k:'mat',n:'Maturity index',max:5},
+  {grp:'AI hiring (Exa job postings)'},
+  {k:'br',n:'AI-builder rate · June',max:1,rate:true},
+  {k:'brJul',n:'AI-builder rate · July',max:1,rate:true},
+];
+function renderCard(r){
+  let h=`<h3>${r.n} <span style="color:var(--muted);font-size:18px">· ${r.t}</span></h3>`;
+  const chips=[`<span class="chip">${secName(r.s)}</span>`];
+  if(r.cat==='AI-Infra')chips.push('<span class="chip red">AI-Infrastructure supplier</span>');
+  else if(r.cat)chips.push(`<span class="chip">${r.cat==='Physical/Late'?'Physical-asset / late adopter':r.cat}</span>`);
+  if(r.hshift!=null){
+    if(r.hshift>0.05)chips.push('<span class="chip green">▲ Hiring momentum</span>');
+    else if(r.hshift<-0.05)chips.push('<span class="chip red">▼ Hiring cooling</span>');
+    else chips.push('<span class="chip">Hiring steady</span>');
+  }
+  h+=`<div class="chips">${chips.join('')}</div>`;
+  for(const d of SIGDEFS){
+    if(d.grp){h+=`<div class="grp">${d.grp}</div>`;continue;}
+    const v=r[d.k];
+    if(v==null){h+=`<div class="sigrow"><div class="top"><span>${d.n}</span><span class="v"><small>not covered</small></span></div><div class="bar"><i class="dim" style="width:0%"></i></div></div>`;continue;}
+    const pct=sectorPct(r,d.k);
+    const disp=d.rate?(v*100).toFixed(0)+'%':v.toFixed(1)+' / 5';
+    const pctTxt=pct!=null?` <small>· ${ordinal(pct)} pctile in sector</small>`:'';
+    h+=`<div class="sigrow"><div class="top"><span>${d.n}</span><span class="v" ${d.hero&&v>=4?'style="color:var(--red)"':''}>${disp}${pctTxt}</span></div>
+        <div class="bar"><i style="width:${(v/d.max*100).toFixed(0)}%"></i></div></div>`;
+  }
+  document.getElementById('sigCard').innerHTML=h;
+}
+
+/* ===== outcomes ===== */
+function renderOuts(r){
+  const med=D.sectorMed[r.s]||{};
+  const cell=(lab,v,medv,fmt)=>{
+    const cls=v==null?'':(v>=0?'pos':'neg');
+    const sub=(v!=null&&medv!=null)?`sector median ${fmt(medv)}`:'';
+    return `<div class="out"><div class="l">${lab}</div><div class="v ${cls}">${v==null?'—':fmt(v)}</div><div class="sub">${sub}</div></div>`;
+  };
+  document.getElementById('outsRow').innerHTML=
+    cell('Revenue growth YoY · Q1-26',r.rg,med.rg,pctFmt)+
+    cell('Margin change YoY',r.mg,null,pctFmt)+
+    cell('Return · Feb–May 2026',r.ret,med.ret,pctFmt);
+}
+
+/* ===== auto-insight ===== */
+function renderInsight(r){
+  const med=D.sectorMed[r.s]||{};
+  const ps=[];
+  // concreteness — the study's surviving signal
+  if(r.conc!=null){
+    if(r.conc>=4)ps.push(`<p><b>${r.t} fits the profile that predicted growth in our study.</b> Its 10-K scores ${r.conc.toFixed(0)}/5 on narrative concreteness — named, deployed AI use cases${r.conc>=5?' with quantified results':''} rather than aspirational language. Across ~480 filings, this was the only signal to survive sector, size, and momentum controls (+8.7pp revenue-growth gap, p&nbsp;=&nbsp;0.007).</p>`);
+    else if(r.conc>=3)ps.push(`<p><b>Middle of the disclosure pack.</b> ${r.t}'s 10-K scores 3/5 on narrative concreteness — real AI initiatives are named, but without the deployed-and-quantified specificity that distinguished the fastest growers in our study.</p>`);
+    else ps.push(`<p><b>AI disclosure is still aspirational.</b> ${r.t}'s 10-K scores ${r.conc.toFixed(0)}/5 on narrative concreteness — AI is discussed in general or forward-looking terms, without named deployments. In our cross-section, companies at this level grew materially slower than concrete disclosers.</p>`);
+  } else ps.push(`<p><b>No 10-K signal.</b> ${r.t} is outside our filings coverage (non-US filer or filing unavailable), so the study's headline concreteness signal can't be read for it.</p>`);
+  // growth vs sector
+  if(r.rg!=null&&med.rg!=null){
+    const d=r.rg-med.rg;
+    ps.push(`<p>Q1-2026 revenue grew <b>${pctFmt(r.rg)}</b> year-over-year — ${Math.abs(d)<0.005?'in line with':(d>0?`<b>${pctFmt(d)} above</b>`:`<b>${pctFmt(d)} below</b>`)} the ${secName(r.s)} median of ${pctFmt(med.rg)}.</p>`);
+  }
+  // Larridin maturity vs sector
+  if(r.mat!=null&&med.mat!=null){
+    const d=r.mat-med.mat;
+    ps.push(`<p>Larridin's Tracker rates its overall AI maturity <b>${r.mat.toFixed(1)}/5</b>, ${Math.abs(d)<0.15?'in line with':(d>0?'above':'below')} its sector median (${med.mat.toFixed(1)}). ${r.conc!=null&&r.mat>=3.5&&r.conc<=2?'The gap between a high maturity score and vague filings language is exactly the pattern our concreteness dimension was built to catch.':''}</p>`);
+  }
+  // category
+  if(r.cat==='AI-Infra')ps.push(`<p>As an <b>AI-infrastructure supplier</b>, ${r.t} sits on the sell side of the AI trade — the group that outperformed sector- and size-matched peers by +36.8pp over four months in our sample.</p>`);
+  // hiring momentum
+  if(r.hshift!=null){
+    const jl=r.brJul!=null?` July snapshot: ${(r.brJul*100).toFixed(0)}% of AI-relevant engineering postings are builder roles.`:'';
+    if(r.hshift>0.05)ps.push(`<p><b>Hiring momentum is rising.</b> ${r.t}'s within-universe rank for AI-builder hiring rose ${(r.hshift*100).toFixed(0)} percentile points from June to July.${jl}</p>`);
+    else if(r.hshift<-0.05)ps.push(`<p><b>Hiring momentum is cooling.</b> ${r.t}'s within-universe rank for AI-builder hiring fell ${Math.abs(r.hshift*100).toFixed(0)} percentile points from June to July.${jl}</p>`);
+    else ps.push(`<p>AI-builder hiring rank held <b>steady</b> from June to July.${jl}</p>`);
+  }
+  document.getElementById('insightCard').innerHTML=`<h4>What the study says about ${r.t}</h4>${ps.join('')}`;
+}
+
+/* ===== select & search ===== */
+let currentT='MSFT';
+function select(t){
+  const r=byT[t];if(!r)return;
+  currentT=t;renderCard(r);renderOuts(r);renderInsight(r);
+  document.getElementById('search').value=`${r.t} — ${r.n}`;
+  drawScatter();
+}
+const inp=document.getElementById('search'),dd=document.getElementById('dropdown');
+inp.addEventListener('input',()=>{
+  const q=inp.value.trim().toLowerCase();
+  if(!q){dd.style.display='none';return;}
+  const hits=C.filter(c=>c.t.toLowerCase().startsWith(q)||c.n.toLowerCase().includes(q)).slice(0,12);
+  dd.innerHTML=hits.map(c=>`<div data-t="${c.t}"><span class="tk">${c.t}</span>${c.n}</div>`).join('');
+  dd.style.display=hits.length?'block':'none';
+});
+inp.addEventListener('focus',()=>inp.select());
+dd.addEventListener('click',e=>{const el=e.target.closest('[data-t]');if(el){select(el.dataset.t);dd.style.display='none';}});
+document.addEventListener('click',e=>{if(!e.target.closest('.searchbox'))dd.style.display='none';});
+document.querySelector('.quick').addEventListener('click',e=>{const a=e.target.closest('[data-t]');if(a)select(a.dataset.t);});
+
+/* ===== scatter ===== */
+let xMode='conc';
+const scatter=echarts.init(document.getElementById('scatter'));
+function jitter(t,amt){let h=0;for(const ch of t)h=(h*31+ch.charCodeAt(0))%997;return (h/997-0.5)*amt;}
+function drawScatter(){
+  const isConc=xMode==='conc';
+  const pts=C.filter(c=>c[isConc?'conc':'mat']!=null&&c.rg!=null);
+  const mk=f=>pts.filter(f).map(c=>({value:[isConc?c.conc+jitter(c.t,0.5):c.mat, c.rg],name:c.t,
+    symbolSize:c.t===currentT?18:8,
+    itemStyle:c.t===currentT?{color:'#16130F',borderColor:'#fff',borderWidth:2}:undefined,
+    label:c.t===currentT?{show:true,position:'top',formatter:c.t,fontWeight:700,fontFamily:'Inter',color:INK}:undefined}));
+  // trend line on full sample
+  const xs=pts.map(c=>isConc?c.conc:c.mat),ys=pts.map(c=>c.rg);
+  const n=xs.length,mx=xs.reduce((a,b)=>a+b)/n,my=ys.reduce((a,b)=>a+b)/n;
+  const b=xs.reduce((a,x,i)=>a+(x-mx)*(ys[i]-my),0)/xs.reduce((a,x)=>a+(x-mx)**2,0),a0=my-b*mx;
+  const x0=Math.min(...xs),x1=Math.max(...xs);
+  scatter.setOption({
+    grid:{left:80,right:30,top:56,bottom:52},
+    tooltip:{trigger:'item',formatter:p=>{const c=byT[p.name];return c?`<b>${c.t}</b> — ${c.n}<br>${isConc?'Concreteness':'Maturity'}: ${(isConc?c.conc:c.mat).toFixed(1)}<br>Rev growth: ${pctFmt(c.rg)}`:'';},
+      textStyle:{fontFamily:'Inter'}},
+    legend:{top:0,right:0,textStyle:FONT,itemWidth:14,itemGap:22},
+    xAxis:{name:isConc?'Narrative concreteness (1–5, jittered)':'Larridin maturity index (1–5)',
+      nameLocation:'middle',nameGap:34,nameTextStyle:FONT,min:isConc?0.5:1,max:5.4,
+      axisLabel:FONT,splitLine:{lineStyle:{color:LINE}},axisLine:{show:false},axisTick:{show:false}},
+    yAxis:{name:'Revenue growth YoY (Q1-26)',nameTextStyle:{...FONT,align:'left'},nameGap:14,axisLabel:{...FONT,formatter:v=>(v*100).toFixed(0)+'%'},
+      splitLine:{lineStyle:{color:LINE}},axisLine:{show:false},axisTick:{show:false}},
+    series:[
+      {name:'AI-Infra suppliers',type:'scatter',data:mk(c=>c.cat==='AI-Infra'),itemStyle:{color:RED,opacity:.85}},
+      {name:'All other companies',type:'scatter',data:mk(c=>c.cat!=='AI-Infra'),itemStyle:{color:'#B9B1A6',opacity:.55}},
+      {name:'Trend',type:'line',data:[[x0,a0+b*x0],[x1,a0+b*x1]],showSymbol:false,
+        lineStyle:{color:INK,width:2,type:'dashed'},tooltip:{show:false}}
+    ]
+  },true);
+}
+scatter.on('click',p=>{if(p.componentType==='series'&&byT[p.name])select(p.name);});
+document.getElementById('xToggle').addEventListener('click',e=>{
+  const b=e.target.closest('.tbtn');if(!b)return;
+  xMode=b.dataset.x;
+  document.querySelectorAll('.tbtn').forEach(x=>x.classList.toggle('on',x===b));
+  drawScatter();
+});
+
+/* ===== movers ===== */
+function moverRows(list,valFn,cls){
+  return list.map(c=>`<tr><td class="tk" onclick="select('${c.t}');window.scrollTo({top:0,behavior:'smooth'})">${c.t}</td><td class="nm">${c.n}</td><td class="val ${cls(c)}">${valFn(c)}</td></tr>`).join('');
+}
+const withShift=C.filter(c=>c.hshift!=null);
+const up=[...withShift].sort((a,b)=>b.hshift-a.hshift).slice(0,8);
+const down=[...withShift].sort((a,b)=>a.hshift-b.hshift).slice(0,8);
+document.getElementById('mvUp').innerHTML=moverRows(up,c=>'+'+(c.hshift*100).toFixed(0)+' pts',()=>'pos');
+document.getElementById('mvDown').innerHTML=moverRows(down,c=>(c.hshift*100).toFixed(0)+' pts',()=>'neg');
+const conc5=C.filter(c=>c.conc===5&&c.rg!=null).sort((a,b)=>b.rg-a.rg);
+document.getElementById('mvConc').innerHTML=moverRows(conc5,c=>pctFmt(c.rg),c=>c.rg>=0?'pos':'neg');
+
+/* init */
+select('MSFT');
+window.addEventListener('resize',()=>scatter.resize());
+</script>
+</body>
+</html>

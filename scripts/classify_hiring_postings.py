@@ -26,6 +26,8 @@ import pandas as pd
 import requests
 from dotenv import load_dotenv
 
+_UTC = dt.timezone.utc  # noqa: UP017 — py3.10 compat (datetime.UTC needs 3.11)
+
 DEFAULT_MODEL = "anthropic/claude-haiku-4.5"
 BATCH_SIZE = 25
 PROMPT_PATH = Path("src/ai_impact_research/llm/prompts/job_posting_classification.md")
@@ -138,7 +140,7 @@ def main() -> int:
             json.dumps(
                 {"ticker": ticker, "company": doc["company"], "snapshot": args.snapshot,
                  "model": args.model, "prompt_version": "jobclass-v1",
-                 "classified_at": dt.datetime.now(dt.UTC).isoformat(), "postings": rows},
+                 "classified_at": dt.datetime.now(_UTC).isoformat(), "postings": rows},
                 ensure_ascii=False,
             )
         )

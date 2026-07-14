@@ -1,0 +1,50 @@
+{
+ "ticker": "IFF",
+ "source_document_id": "0000051253-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-27",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have been increasingly using AI tools in our operations, research and development and other areas.",
+    "AI is already changing the way we and our competitors do business by, among other things, accelerating research and development, creating efficiencies, improving supply chain, productivity and other processes"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We have been increasingly using AI tools in our operations, research and development and other areas.",
+    "AI is already changing the way we and our competitors do business by...accelerating research and development, creating efficiencies, improving supply chain, productivity and other processes, customer experience, talent management"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The use of AI by us, our employees or any of our third-party partners may create risks, such as unauthorized disclosure of personal data, privacy risks, trade secrets, or confidential information, and potential receipt or use of third-party proprietary data",
+    "AI may also weaken IP rights, where AI-generated inventions or creations may not be properly attributed to the rightful inventors, potentially resulting in additional disputes over intellectual property ownership",
+    "analyses, results or business processes relying on AI may also be deficient, inaccurate, or biased and we may fail to identify in a timely fashion or at all, if or to the extent that is the case"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 based on named operational and R&D use areas without dollar figures.",
+  "AI narrative concreteness is limited to named functional areas (R&D, supply chain, talent management) with no deployment metrics or quantified outcomes; scored 3.",
+  "Risk disclosure is detailed and company-specific (IP ownership, data privacy, bias in AI outputs, competitive disadvantage from under-adoption) but no quantified risk exposure or named governance/oversight body is disclosed, capping score at 4.",
+  "Excerpts are heavily weighted toward risk factors and MD&A risk language; limited operational or financial detail on AI programs is available."
+ ],
+ "_meta": {
+  "accession": "0000051253-26-000006",
+  "filing_date": "2026-02-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/51253/000005125326000006/iff-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 4,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-07-06T23:15:02.787749+00:00"
+ }
+}

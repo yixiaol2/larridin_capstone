@@ -1,0 +1,51 @@
+{
+ "ticker": "CI",
+ "source_document_id": "0001739940-26-000006",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-26",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We have a dedicated team and governance structure in place, known as Enterprise Model Governance ('EMG'). Our EMG team oversees the development, deployment and monitoring of AI models.",
+    "Our AI Center of Enablement ('AI COE') expands on EMG and brings together individuals from across our technology, privacy, data governance, security, legal, compliance, marketing and other teams.",
+    "We use artificial intelligence to support health care transformation by helping to enable the next generation of accessible, effective, affordable and enhanced health care solutions."
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 4,
+   "evidence": [
+    "AI models can facilitate personalized solutions for individuals, inform earlier interventions and simplify health care experiences. There is human engagement in claims reviews, including expert decisions made by physicians.",
+    "The combination of our predictive analytics, and our machine learning and deep learning capabilities help to uncover trends, anticipate needs and create actionable intelligence that assists health care professionals.",
+    "We are currently subject to litigation claiming that we improperly used AI in the claims evaluation process."
+   ],
+   "confidence": 0.78
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "Generative AI has been known to produce false or hallucinatory inferences or output... can produce inaccurate, incomplete or misleading content; unintended biases... any of which may not be easily detectable.",
+    "Our use of AI/ML technologies has resulted and could continue to result in additional compliance costs, regulatory investigations and actions, and lawsuits.",
+    "If we are unable to use AI/ML, or if regulators restrict our ability to use AI/ML for certain purposes, it could make our business less efficient, result in competitive disadvantages."
+   ],
+   "confidence": 0.85
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts, headcount figures, or capex tied specifically to AI investment were found in the excerpts; investment intensity scored 3 based on named programs and dedicated teams without quantified scale.",
+  "Narrative concreteness scored 4 based on named deployed use cases (claims evaluation, predictive analytics, personalized care) with operational detail, but no quantified business results (e.g., cost savings %, volume handled) were disclosed in the excerpts.",
+  "Risk disclosure scored 4 due to company-specific risk scenarios with described mechanisms (hallucination, bias, regulatory restriction, ongoing litigation), but no quantified risk exposure or formal named oversight body beyond EMG/AI COE governance structure."
+ ],
+ "_meta": {
+  "accession": "0001739940-26-000006",
+  "filing_date": "2026-02-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1739940/000173994026000006/ci-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 8,
+  "maturity_index": 4.0,
+  "extracted_at": "2026-07-06T23:13:00.690956+00:00"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "ticker": "AJG",
+ "source_document_id": "0001628280-26-008662",
+ "source_type": "sec_filing",
+ "source_date": "2026-02-17",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "We use AI in our business, including with respect to services provided to our clients. We have internal policies and controls governing development, procurement, deployment and the use of AI by our employees",
+    "Competition for talent is intense in many areas of our business, particularly in our claims management business, IT and in rapidly developing fields such as AI and data engineering.",
+    "new applications or insurance-related services based on AI (e.g., generative AI, machine learning), robotics, blockchain, or new approaches to data mining that impact the nature of how we generate revenue"
+   ],
+   "confidence": 0.65
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "We use AI in our business, including with respect to services provided to our clients. We have internal policies and controls governing development, procurement, deployment and the use of AI by our employees",
+    "new applications or insurance-related services based on AI (e.g., generative AI, machine learning), robotics, blockchain, or new approaches to data mining that impact the nature of how we generate revenue",
+    "Failure to apply technology, data analytics and artificial intelligence (which we refer to as AI) effectively in driving value for our clients through technology-based solutions, or failure to gain internal efficiencies"
+   ],
+   "confidence": 0.7
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The increasing adoption of AI technologies by cyber threat actors presents a significant and evolving risk... advanced phishing schemes, malware, and data exfiltration techniques, which could compromise our controls and systems, client data... resulting in operational disruptions, financial losses, reputational damage, regulatory scrutiny",
+    "We also expect to be subject to a variety of laws and regulations governing AI, such as the E.U. AI Act which was enacted in 2024... the Colorado AI Act, and the California AI Transparency Act",
+    "third-party models underlying our AI tools may be inadequately designed, implemented or trained... data sets within these models will contain information that has inaccuracies and errors, and potential biases... leading to outputs surfacing third-party intellectual property or that contain information that is biased, unethical, discriminatory"
+   ],
+   "confidence": 0.88
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified AI investment amounts, headcount, or capex figures appear in the excerpts; investment intensity scored 3 based on named programs and deployment acknowledgment only.",
+  "Narrative concreteness is limited to risk-framing context; no deployed use cases with operational metrics or quantified business results are described in the excerpts.",
+  "AI risk disclosure is detailed and company-specific with named regulatory regimes and risk mechanisms, but no quantified risk exposure or named internal governance body (e.g., AI risk committee) is cited, limiting score to 4 rather than 5.",
+  "Excerpts appear heavily weighted toward risk factors and MD&A compliance discussion; business/operations sections describing AI product deployments or investment programs may exist in the full filing but are not present here."
+ ],
+ "_meta": {
+  "accession": "0001628280-26-008662",
+  "filing_date": "2026-02-17",
+  "url": "https://www.sec.gov/Archives/edgar/data/354190/000162828026008662/ajg-20251231.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 13,
+  "maturity_index": 2.6,
+  "extracted_at": "2026-07-06T23:11:53.928652+00:00"
+ }
+}

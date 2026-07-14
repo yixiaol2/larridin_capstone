@@ -27,6 +27,8 @@ import pandas as pd
 import requests
 from dotenv import load_dotenv
 
+_UTC = dt.timezone.utc  # noqa: UP017 — py3.10 compat (datetime.UTC needs 3.11)
+
 MODEL = "anthropic/claude-sonnet-4.6"
 PROMPT_PATH = Path("src/ai_impact_research/llm/prompts/filings_ai_signals.md")
 AI_TERMS = re.compile(
@@ -181,7 +183,7 @@ def main() -> int:
             continue
         parsed["_meta"] = {**meta, "model": MODEL, "n_excerpts": len(excerpts),
                            "maturity_index": float(row["maturity_index"]),
-                           "extracted_at": dt.datetime.now(dt.UTC).isoformat()}
+                           "extracted_at": dt.datetime.now(_UTC).isoformat()}
         out_path.write_text(json.dumps(parsed, ensure_ascii=False, indent=1))
         dims = parsed.get("dimensions", {})
         scores = {k: (v or {}).get("score") for k, v in dims.items()}

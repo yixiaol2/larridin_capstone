@@ -1,83 +1,54 @@
+"""Methodology — design, validation, and limitations (real data study)."""
+
 from __future__ import annotations
 
 import streamlit as st
 
-from ai_impact_research.dashboard.components import (
-    configure_page,
-    read_markdown,
-    show_research_caveat,
-)
-
-configure_page("Methodology")
-
+st.set_page_config(page_title="Methodology", layout="wide")
 st.title("Methodology")
-show_research_caveat()
 
-st.header("Data Sources")
 st.markdown(
     """
-The dashboard reads local processed files from `data/processed` by default. It does not use live APIs,
-databases, credentials, or private data during the MVP workflow.
+## Design
 
-Primary dashboard inputs:
+Cross-sectional study: AI-adoption signals measured January--March 2026 are related to
+outcomes realized afterward (Q1-2026 fundamentals, reported April--May; forward returns
+from the January 19 score date). Signals enter as cross-sectional percentile ranks.
+Every regression controls for **sector** (12 fixed effects), **firm size** (log market
+cap at the score date), and **growth momentum** (pre-signal revenue growth), with HC3
+robust standard errors, 1%/99% winsorization, and Benjamini--Hochberg FDR control.
 
-- `data/processed/analytic_panel.csv`
-- `data/processed/analysis/ic_summary.csv`
-- `data/processed/analysis/ic_by_quarter.csv`
-- `data/processed/analysis/regression_results.csv`
-- `data/processed/analysis/backtest_metrics.csv`
-- `data/processed/analysis/backtest_quintile_returns.csv`
-- `data/processed/analysis/backtest_long_short_returns.csv`
+## Signals
+
+| Signal | Source | Construction |
+|---|---|---|
+| Larridin scores | AI Transformation Tracker (Jan 2026) | Evidence-based LLM research pipeline, 3 pillars + maturity, 1–5 |
+| Narrative concreteness | 10-K filings | LLM extraction with mandatory verbatim evidence; 1–5 anchored rubric |
+| Investment intensity | 10-K filings | Same pipeline; building **or** buying AI both count |
+| AI-hiring builder rate | 31k job postings (Jun + Jul 2026) | Per-posting LLM classification → company AI-builder share |
+
+## Validation stack
+
+- Posting classifier vs. **657 independently labeled postings**: ~90% agreement (core class)
+- **87–90%** of LLM evidence quotes verify **verbatim** against source filings
+- Hiring signal reproduces Larridin's independent POC ordering: Spearman **ρ = 0.83**
+- Month-over-month test–retest reliability: **ρ = 0.54** (n = 226)
+- Placebo signal through the same pipeline: null (p = 0.70)
+- Permutation test: real concreteness coefficient exceeds **all 500** shuffled runs
+- Leave-one-sector-out: significant in **all 12** re-estimations
+- LLM re-scoring stability (30-company rerun): **93% exact**, 100% within ±1, concreteness rerun ρ = 0.94
+
+## Limitations
+
+Single score vintage (cross-sectional design, not time-series backtest); the outcome
+quarter overlaps the score date by ~2 weeks (near-term association, not strict
+prediction); disclosure-based signals cannot see silent adopters; conditional
+associations, not causal estimates. Panel accumulation across quarterly vintages is
+the designed remedy.
 """
 )
 
-st.header("Feature Timing")
-st.markdown(
-    """
-Every model feature should have an observation date or `available_at` timestamp. Larridin scores use
-`snapshot_date` and `score_available_at`; fundamentals use `available_at`; market outcomes begin after
-the prediction date. Rows with ambiguous timing should be flagged and excluded in strict analysis mode.
-"""
+st.caption(
+    "Exploratory research produced in an academic–industry collaboration. "
+    "Nothing herein constitutes investment advice."
 )
-
-st.header("Look-Ahead Bias Controls")
-st.markdown(
-    """
-- Features may only use data available on or before `prediction_date`.
-- Forward return windows begin after `prediction_date`.
-- Fundamentals must not be used before their `available_at` timestamp.
-- Backtests are cross-sectional research exercises and should be audited before interpretation.
-"""
-)
-
-st.header("Limitations")
-st.markdown(
-    """
-- Synthetic sample data is for reproducibility checks only and does not represent real company results.
-- Small samples can make IC, regression, and quintile statistics unstable.
-- Associations shown in charts are not causal evidence.
-- Hypothetical backtests are not investment advice.
-- Disclosure-heavy companies may appear more AI mature than quieter adopters.
-"""
-)
-
-st.header("Responsible AI Caveats")
-st.markdown(
-    """
-LLM-derived fields must preserve source evidence, prompt version, model name, source document ID, schema
-version, confidence, and extraction timestamp. Unsupported dimensions should remain null rather than being
-filled with invented scores.
-"""
-)
-
-with st.expander("Project documentation excerpts", expanded=False):
-    for path in [
-        "docs/03_DATA_SOURCES.md",
-        "docs/05_BACKTESTING_METHODOLOGY.md",
-        "docs/08_LLM_SIGNAL_RUBRIC.md",
-        "docs/07_RESPONSIBLE_AI_AND_RISKS.md",
-    ]:
-        text = read_markdown(path)
-        if text:
-            st.subheader(path)
-            st.markdown(text)

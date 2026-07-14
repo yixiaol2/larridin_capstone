@@ -1,0 +1,51 @@
+{
+ "ticker": "CHWY",
+ "source_document_id": "0001766502-26-000034",
+ "source_type": "sec_filing",
+ "source_date": "2026-03-25",
+ "prompt_version": "filings-v1",
+ "dimensions": {
+  "ai_investment_intensity": {
+   "score": 3,
+   "evidence": [
+    "our investments in automation and artificial intelligence (AI) technologies within our fulfillment centers drive efficiency across our distribution network",
+    "We expect to invest in technology, automation, and product innovation over time to continue scaling our platform, customer support, marketing efforts and supply chain",
+    "an infrastructure that enables the use of artificial intelligence and other system advancements that will create further efficiencies for our team members"
+   ],
+   "confidence": 0.75
+  },
+  "ai_narrative_concreteness": {
+   "score": 3,
+   "evidence": [
+    "our investments in automation and artificial intelligence (AI) technologies within our fulfillment centers drive efficiency across our distribution network",
+    "We commenced a project in Fiscal Year 2024 to modernize our finance information technology architecture... an infrastructure that enables the use of artificial intelligence",
+    "The project will not require meaningful capital investment... we expect that this project will go live towards the end of Fiscal Year 2026"
+   ],
+   "confidence": 0.72
+  },
+  "ai_risk_disclosure_depth": {
+   "score": 4,
+   "evidence": [
+    "The integration of AI technologies into our operations could also increase cybersecurity and privacy risks and could lead to potential unauthorized access, misuse, acquisition, release, disclosure",
+    "if there are changes in the usage and functioning of search engines... as a result of the continued development of AI technologies, this could negatively impact our websites",
+    "As our competitors develop and expand their strategic use of AI, our operations and profitability could be adversely impacted if we fail to utilize those technologies"
+   ],
+   "confidence": 0.82
+  }
+ },
+ "capex_mentions": [],
+ "limitations": [
+  "No quantified dollar amounts tied specifically to AI investment are disclosed in the excerpts; the finance IT modernization project is explicitly described as not requiring meaningful capital investment.",
+  "AI use cases in fulfillment centers are named but lack deployment metrics or quantified outcomes, capping concreteness at 3.",
+  "Risk disclosures describe specific mechanisms (cybersecurity, competitive disadvantage, search traffic loss) but no quantification or named governance bodies, capping risk depth at 4."
+ ],
+ "_meta": {
+  "accession": "0001766502-26-000034",
+  "filing_date": "2026-03-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1766502/000176650226000034/chwy-20260201.htm",
+  "model": "anthropic/claude-sonnet-4.6",
+  "n_excerpts": 12,
+  "maturity_index": 3.0,
+  "extracted_at": "2026-07-06T23:12:44.343297+00:00"
+ }
+}
