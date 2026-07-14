@@ -35,10 +35,12 @@ working draft with appendix).
   (company × signals × outcomes × controls × value-chain category),
   `analysis/controls_regressions.csv` (specification-ladder results).
 - **Paper**: `reports/paper/` (LaTeX, real numbers throughout).
-- **Presentation website** (`reports/site/`): static two-page site, no server needed —
-  `index.html` (research narrative: finding, control-ladder "gauntlet", value chain,
-  methodology) and `explore.html` (interactive Company Explorer: per-company signals,
-  auto-generated insights, signal map, hiring movers). Open directly in a browser.
+- **Presentation website** (`reports/site/`): static two-page site — `index.html`
+  (research narrative: finding, control-ladder "gauntlet", value chain, methodology)
+  and `explore.html` (interactive Company Explorer: per-company signals,
+  auto-generated insights, signal map, hiring movers). **Live at
+  <https://yixiaol2.github.io/larridin_capstone/>** (published from the
+  `gh-pages` branch); or open the files directly in a browser.
 - **Interactive dashboard** (real data, Streamlit): see below.
 - **Decks**: `reports/AI_Signals_Progress.pptx` (June), `reports/Weekly_Update.pptx` (July).
 

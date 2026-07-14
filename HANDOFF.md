@@ -1,6 +1,6 @@
 # HANDOFF — Start Here
 
-This is the accurate, current-state guide to the project as of June 2026.
+This is the accurate, current-state guide to the project as of July 2026.
 The other `docs/` files describe the **original scaffold design** and are partly
 stale — trust this file and the scripts under `scripts/`.
 
@@ -12,7 +12,9 @@ We test whether **AI-adoption signals predict company financial performance**.
 Larridin provides AI-adoption scores for public companies; we cleaned them,
 linked them to markets, built additional signals (hiring, filings), and ran the
 full controlled analysis. **Status (July 2026): analysis complete, paper
-drafted (`reports/paper/main.tex`), dashboard serves real data.** Headline:
+drafted (`reports/paper/main.tex`), dashboard serves real data, presentation
+site live at <https://yixiaol2.github.io/larridin_capstone/> (source in
+`reports/site/`, published via the `gh-pages` branch).** Headline:
 disclosure concreteness predicts revenue growth through sector/size/momentum
 controls (+8.7pp, p=0.007); composite scores attenuate under size; returns and
 margins show no effects; see §6.
@@ -63,7 +65,8 @@ privately, not in git):
 ## 4. The pipeline (scripts in run order)
 
 All scripts are self-contained and idempotent (re-runnable; cached/skipped where
-possible). Run from the repo root. Outputs go under `data/` (gitignored).
+possible). Run from the repo root. Outputs go under `data/` (tracked in git —
+collected data is pushed so teammates can run the analysis without API keys).
 
 | # | Script | Produces |
 |---|---|---|
@@ -110,14 +113,17 @@ cheap-but-capable models; the full runs cost ~$10–12 each.
 
 ## 6. Final results (July 2026 — details & tables in `reports/paper/`)
 
+- **Seven signals tested** through the specification ladder: all four Larridin
+  Tracker dimensions (adoption, proficiency, impact, maturity index) plus our
+  concreteness, investment intensity, and hiring builder rate.
 - **Headline:** narrative concreteness survives the full specification ladder
-  (sector FE + size + momentum): **+0.087, p=0.007, n=399**; passes BH-FDR in
-  the primary family. Robustness: placebo null, permutation p<0.002,
-  significant in all 12 leave-one-sector-out runs, LLM rerun stability 93%
-  exact / conc ρ=0.94.
-- Larridin composite scores: significant raw and with sector controls;
-  attenuate under the size control (framed constructively in the paper as
-  "measurement depth" — concreteness is the sharpened dimension).
+  (sector FE + size + momentum): **+0.087, p=0.007, n=399**; passes BH-FDR
+  across the seven-signal primary family. Robustness: placebo null, permutation
+  p<0.002, significant in all 12 leave-one-sector-out runs, LLM rerun stability
+  93% exact / conc ρ=0.94.
+- All four Larridin composite dimensions: significant raw and with sector
+  controls; attenuate under the size control (framed constructively in the
+  paper as "measurement depth" — concreteness is the sharpened dimension).
 - Returns: no positive predictability (consistent with market efficiency);
   margins: null everywhere ("growth channel, not cost channel").
 - Heterogeneity: AI-Infra category +36.8pp return vs peers with controls
@@ -132,9 +138,11 @@ cheap-but-capable models; the full runs cost ~$10–12 each.
 ## 7. Known limitations / gaps
 
 - **Hiring samples are thin** (~half the companies have <5 usable postings,
-  because Exa search depth is budget-limited to 25 results/company). A July
-  snapshot + more Exa credit would help; also consider normalizing by company
-  size (employee count from SEC is sparse — revenue is a usable denominator).
+  because Exa search depth is budget-limited to 25–60 results/company). The
+  July snapshot exists (536 companies / 17,344 postings); note that Exa's
+  index is **not level-stationary across months**, so cross-month comparisons
+  must use within-month ranks, never raw levels. Consider normalizing by
+  company size (employee count from SEC is sparse — revenue works).
 - **Filings:** `concreteness` is the strongest dimension; `risk` is nearly
   degenerate (most large firms disclose AI risk similarly).
 - **Coverage:** hiring ≈ all tradable companies (536); filings = 478 (needs a

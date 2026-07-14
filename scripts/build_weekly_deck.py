@@ -8,6 +8,8 @@ Usage:
     python scripts/build_weekly_deck.py
 """
 
+# ruff: noqa: E702, E741 — compact slide-layout statements; l = left inches
+
 from __future__ import annotations
 
 from pathlib import Path
