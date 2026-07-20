@@ -21,6 +21,8 @@ Usage:
   python scripts/run_exclusion_analysis.py --exclude NVDA,AVGO   # custom list
 """
 
+# ruff: noqa: UP031, E741
+
 from __future__ import annotations
 
 import argparse
@@ -147,9 +149,6 @@ def main() -> int:
     # headline side-by-side: revenue growth ladder, full vs excluded
     print("\n=== HEADLINE: revenue-growth ladder, FULL vs EX-SEMIS (coef / p) ===")
     rev = res[res["dv"] == PRIMARY_DV].copy()
-    piv = rev.pivot_table(index=["signal"], columns=["sample", "spec"],
-                          values=["coef", "p"], aggfunc="first")
-    # reorder for readability: signal rows, show full-spec emphasis
     for sig in SIGNALS:
         block = rev[rev["signal"] == sig]
         f4 = block[(block["sample"] == "full") & (block["spec"] == "4_full")]

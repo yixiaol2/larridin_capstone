@@ -17,6 +17,8 @@ Usage:
   python scripts/regenerate_paper_numbers.py
 """
 
+# ruff: noqa: UP031, E741
+
 from __future__ import annotations
 
 import importlib.util
