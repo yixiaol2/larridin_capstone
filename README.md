@@ -15,14 +15,20 @@ and run a controlled cross-sectional analysis.
 
 **Narrative concreteness — whether a company's 10-K reports named, deployed AI
 use cases with quantified results — predicts Q1-2026 revenue growth through
-sector, size, and momentum controls** (+8.7pp low→high, p = 0.007; passes FDR,
+sector, size, and momentum controls** (+8.0pp low→high, p = 0.009; passes FDR,
 placebo/permutation/leave-one-sector-out/rerun-stability checks). Composite
 adoption scores capture the phenomenon unconditionally but attenuate under a
 size control. No signal predicts risk-adjusted returns (consistent with market
 efficiency); margins show no effect. AI-infrastructure suppliers outperformed
-sector/size-matched peers by ~37pp over the window.
+sector/size-matched peers by ~32pp over the window.
 
-Full write-up: **`reports/paper/main.tex`** (compiles with `tectonic`; 12-page
+> **Analysis base:** the main analysis **excludes the five largest
+> AI-semiconductors** (NVDA, AVGO, AMD, MU, INTC) so no handful of names drives
+> the cross-section; the full sample including them is a disclosed appendix and
+> every conclusion holds (concreteness +8.7pp there). All paper numbers are
+> regenerated for both bases by `scripts/regenerate_paper_numbers.py`.
+
+Full write-up: **`reports/paper/main.tex`** (compiles with `tectonic`;
 working draft with appendix).
 
 ## What's here

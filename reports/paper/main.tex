@@ -41,14 +41,17 @@ scores from Larridin's AI Transformation Tracker, (ii) two novel signal families
 that we construct from primary sources---LLM-extracted disclosure signals from
 10-K filings and an AI-hiring intensity signal built from 30{,}000+ classified
 job postings---and (iii) realized financial outcomes from SEC filings and market
-data. Three findings emerge. First, the measurement thesis is validated: every score- and
+data. The analysis sample excludes the five largest AI-semiconductor firms
+(Nvidia, Broadcom, AMD, Micron, Intel) so that no handful of names drives the
+cross-section; every finding is unchanged on the full sample (appendix).
+Three findings emerge. First, the measurement thesis is validated: every score- and
 disclosure-based adoption signal in the study is significantly associated with
 revenue growth, and the association strengthens with measurement depth. Its
 sharpest expression is \emph{narrative concreteness}---a new dimension we
 construct within the same evidence-first measurement framework, capturing
 whether a firm reports named, deployed use cases with quantified results
 rather than aspirational language. Moving from the least to the most concrete
-disclosure is associated with 8.7 percentage points higher year-over-year
+disclosure is associated with 8.0 percentage points higher year-over-year
 revenue growth ($p<0.01$), an effect that survives sector, size, and
 growth-momentum controls; composite scores, which aggregate several
 scale-correlated components, capture the same phenomenon unconditionally,
@@ -59,9 +62,9 @@ impounding public AI-adoption information; margin effects are likewise absent,
 indicating that AI currently operates through the growth channel rather than
 the cost channel. Third, an AI value-chain decomposition shows the association
 is present \emph{within} physical-asset-heavy late adopters
-($p=0.03$)---precisely where AI narratives vary most in credibility and
+($p<0.05$)---precisely where AI narratives vary most in credibility and
 structured measurement is most needed---and that AI-infrastructure suppliers
-outperformed sector- and size-matched peers by 37 percentage points over the
+outperformed sector- and size-matched peers by 32 percentage points over the
 sample window. We contribute a validated, reproducible pipeline for measuring
 corporate AI adoption from public data, an immediately deployable new scoring
 dimension, and the first test--retest reliability estimates for signals of
@@ -122,12 +125,13 @@ separate by granularity. Composite scores, which by construction aggregate
 several scale-correlated components (deployment breadth, vendor footprint,
 enablement infrastructure), largely attenuate as sector and size controls enter. The disclosure-concreteness dimension---the
 deepest, most evidence-anchored measurement in the set---survives everything:
-its full-specification coefficient of \coef{0.087} \pval{0.007} implies that
+its full-specification coefficient of \coef{0.080} \pval{0.009} implies that
 moving from the bottom to the top of the concreteness distribution is
-associated with 8.7 percentage points higher revenue growth, holding sector,
+associated with 8.0 percentage points higher revenue growth, holding sector,
 size, and momentum fixed, and the effect passes a Benjamini--Hochberg false
 discovery correction within our pre-specified primary hypothesis family.
-Investment intensity sits in between (marginally significant). The practical
+Investment intensity is positive throughout but loses significance once size
+enters. The practical
 reading is constructive: the information is real, and it concentrates in
 verifiable specifics---which is precisely what a structured,
 evidence-first measurement system is built to capture, and what naive
@@ -145,10 +149,10 @@ Finally, a four-category AI value-chain classification of the S\&P 500
 (infrastructure suppliers, software platforms, data-rich adopters, and
 physical-asset-heavy late adopters) reveals two forms of heterogeneity. First,
 AI-infrastructure suppliers outperformed sector- and size-matched peers by
-approximately 37 percentage points over four months---a striking decomposition
+approximately 32 percentage points over four months---a striking decomposition
 of the H1-2026 AI rally. Second, and more subtly, the concreteness--growth
 association is significant \emph{within} the physical-asset-heavy late-adopter
-group ($n=214$, $p=0.029$): among companies where AI claims are cheapest to
+group ($n=214$, $p=0.025$): among companies where AI claims are cheapest to
 make and hardest to verify, concrete disclosure best separates genuine adopters
 from laggards.
 
@@ -176,7 +180,13 @@ spanning all twelve sectors. Every listed company is mapped to its ticker and
 SEC Central Index Key through a three-stage procedure (exact name match against
 the S\&P constituent list, exact match against the SEC registry, then a
 conservative fuzzy pass with manual review); all 542 Larridin companies
-resolve. Where one company lists multiple share classes, one line is retained.
+resolve. Where one company lists multiple share classes, one line is retained. From
+this universe we form the \textbf{analysis sample by excluding the five largest
+AI-semiconductor firms}---Nvidia, Broadcom, AMD, Micron, and Intel---whose
+extreme H1-2026 revenue and return realizations would otherwise let a few names
+dominate a cross-section of this size. All main-text results use this exclusion
+sample; the full sample retaining these five firms is reported in Appendix
+Table~\ref{tab:fullsample}, where every conclusion is unchanged.
 
 \subsection{Larridin AI-adoption scores}
 
@@ -317,13 +327,21 @@ errors:
 \end{align*}
 where $g^{\text{prior}}_i$ is pre-signal revenue growth. Surviving
 specification (4) requires a signal to carry information beyond sector
-membership, firm size, and growth persistence. Each estimate uses all firms
+membership, firm size, and growth persistence. Because a handful of
+AI-semiconductor mega-caps posted revenue and return realizations far outside
+the rest of the cross-section in this window, our analysis sample excludes the
+five largest of them---Nvidia, Broadcom, AMD, Micron, and Intel---so that no
+small cluster of names can drive the estimates; the full sample including these
+firms is reported as a robustness appendix (Table~\ref{tab:fullsample}) and
+leaves every conclusion intact (the headline concreteness coefficient is
+\coef{0.080} here versus \coef{0.087} with them). Each estimate uses all firms
 with complete data for that specification (missingness is documented and
 non-random: banks lack comparable margin data, foreign filers lack 10-Ks); a
 complete-case robustness sample is reported in the appendix. Revenue growth was
 designated the primary outcome before testing; within the primary family of
 five signal tests we apply Benjamini--Hochberg FDR control at $q=0.05$, and we
-also report the correction across the full $7\times3$ signal--outcome matrix.
+also report the correction across the full five-signal, three-outcome
+(fifteen-test) matrix.
 Rank-based information coefficients and quintile portfolio sorts complement the
 regressions.
 
@@ -349,11 +367,11 @@ aggregate several components that naturally scale with firm size---remain
 significant with sector controls but attenuate once size enters. Third,
 \textbf{narrative concreteness, the deepest single dimension in the
 measurement stack, survives everything}: its full-specification coefficient of
-\coef{0.087} \pval{0.007} implies an 8.7-point revenue-growth gap between the
+\coef{0.080} \pval{0.009} implies an 8.0-point revenue-growth gap between the
 least and most concrete AI disclosers, holding sector, size, and momentum
 fixed. It is the only signal to clear the Benjamini--Hochberg threshold within
-the primary family; investment intensity is directionally positive but
-marginal \pval{0.10}.
+the primary family; investment intensity is positive throughout but loses
+significance once size enters \pval{0.14}.
 
 \begin{table}[t]
 \centering
@@ -365,20 +383,20 @@ marginal \pval{0.10}.
 \toprule
  & (1) Univariate & (2) +Sector & (3) +Size & (4) +Momentum & $n_{(4)}$\\
 \midrule
-Narrative concreteness (ours) & 0.148*** & 0.094*** & 0.084** & \textbf{0.087***} & 399\\
- & (0.000) & (0.005) & (0.011) & (0.007) & \\
-Investment intensity (ours) & 0.129*** & 0.076** & 0.057* & 0.048* & 387\\
- & (0.000) & (0.020) & (0.071) & (0.100) & \\
-Larridin adoption & 0.115*** & 0.075** & 0.049 & 0.037 & 433\\
- & (0.000) & (0.015) & (0.133) & (0.235) & \\
-Larridin maturity index & 0.103*** & 0.060** & 0.032 & 0.024 & 433\\
- & (0.000) & (0.042) & (0.295) & (0.427) & \\
-Larridin impact & 0.102*** & 0.063** & 0.041 & 0.023 & 433\\
- & (0.001) & (0.029) & (0.156) & (0.393) & \\
-Larridin proficiency & 0.075*** & 0.022 & $-0.013$ & $-0.012$ & 433\\
- & (0.007) & (0.489) & (0.710) & (0.710) & \\
-AI-hiring builder rate (ours) & 0.026 & 0.017 & $-0.013$ & $-0.033$ & 215\\
- & (0.393) & (0.590) & (0.712) & (0.108) & \\
+Narrative concreteness (ours) & 0.129*** & 0.083*** & 0.075** & \textbf{0.080***} & 395\\
+ & (0.000) & (0.010) & (0.018) & (0.009) & \\
+Investment intensity (ours) & 0.106*** & 0.063** & 0.048 & 0.041 & 383\\
+ & (0.001) & (0.043) & (0.115) & (0.141) & \\
+Larridin adoption & 0.108*** & 0.075** & 0.051 & 0.038 & 429\\
+ & (0.000) & (0.013) & (0.106) & (0.201) & \\
+Larridin maturity index & 0.095*** & 0.058** & 0.032 & 0.024 & 429\\
+ & (0.001) & (0.044) & (0.278) & (0.401) & \\
+Larridin impact & 0.096*** & 0.062** & 0.042 & 0.025 & 429\\
+ & (0.001) & (0.028) & (0.138) & (0.346) & \\
+Larridin proficiency & 0.066** & 0.022 & $-0.011$ & $-0.011$ & 429\\
+ & (0.015) & (0.493) & (0.749) & (0.735) & \\
+AI-hiring builder rate (ours) & 0.026 & 0.021 & $-0.004$ & $-0.027$ & 212\\
+ & (0.400) & (0.505) & (0.892) & (0.165) & \\
 \bottomrule
 \end{tabular}
 \begin{tablenotes}\footnotesize
@@ -422,19 +440,24 @@ sources.
 Two findings emerge from the value-chain segmentation
 (Table~\ref{tab:hetero}). First, the concreteness--growth association is
 concentrated where AI credibility is scarcest: it is significant within
-\emph{Physical-Asset-Heavy / Late Adopters} (\coef{0.064}, \pval{0.029},
-$n=214$) and within \emph{AI Software \& Platforms} (\coef{0.074}, $p=0.050$), while composite scores are insignificant within every category.
+\emph{Physical-Asset-Heavy / Late Adopters} (\coef{0.065}, \pval{0.025},
+$n=214$) and within \emph{AI Software \& Platforms} (\coef{0.074}, $p=0.049$), while composite scores are insignificant within every category.
 Among the mass of ``ordinary'' companies---where AI claims are cheapest to make
 and hardest to verify---concrete disclosure best separates genuine adopters
 from laggards.
 
 Second, the market leg of the story is a value-chain story: AI-infrastructure
-suppliers returned $+48.9\%$ on average over four months, versus roughly flat
+suppliers returned $+44.9\%$ on average over four months, versus roughly flat
 for every other category, and the gap survives sector and size controls at
-$+36.8$ percentage points ($p<0.0001$). We present this as a descriptive
-decomposition of the H1-2026 AI rally---the classification is made with
-knowledge of these firms---rather than as an ex-ante trading result; even so,
-it quantifies how narrowly concentrated AI's market-value creation has been.
+$+31.6$ percentage points ($p=0.005$). Because our analysis sample already
+excludes the five largest AI-semiconductors, this premium is carried by the
+remaining twenty-five infrastructure names rather than a few marquee stocks
+(the full sample including the five gives $+34.2$pp;
+Table~\ref{tab:fullsample}). We present it as a descriptive decomposition of
+the H1-2026 AI rally---the classification is made with knowledge of these
+firms---rather than as an ex-ante trading result; even so, it shows how
+narrowly AI's market-value creation concentrated in one segment of the value
+chain.
 
 \begin{table}[t]
 \centering
@@ -448,18 +471,19 @@ it quantifies how narrowly concentrated AI's market-value creation has been.
 \cmidrule(lr){2-3}\cmidrule(lr){4-5}
 Category & coef.\ ($p$) & $n$ & raw & $n$\\
 \midrule
-AI Infrastructure \& Hardware & $+0.146$ (0.143) & 26 & $+48.9\%$ & 30\\
-AI Software \& Platforms & $+0.074$ (0.050) & 35 & $-3.8\%$ & 38\\
-Data-Rich Adopters & $+0.093$ (0.198) & 101 & $-3.5\%$ & 132\\
-Physical-Asset-Heavy / Late & $+0.064$ (0.029) & 214 & $+1.8\%$ & 278\\
+AI Infrastructure \& Hardware & $+0.149$ (0.305) & 22 & $+44.9\%$ & 25\\
+AI Software \& Platforms & $+0.074$ (0.049) & 35 & $-3.8\%$ & 38\\
+Data-Rich Adopters & $+0.090$ (0.198) & 101 & $-3.5\%$ & 132\\
+Physical-Asset-Heavy / Late & $+0.065$ (0.025) & 214 & $+1.8\%$ & 278\\
 \bottomrule
 \end{tabular}
 \begin{tablenotes}\footnotesize
 \item Left panel: within-category regressions of revenue growth on
 concreteness rank with size and momentum controls (sector effects omitted
 within category). Right panel: mean four-month forward return from the score
-date. The infrastructure-vs-late-adopter return gap is $+36.8$pp with sector
-and size controls ($p<0.0001$).
+date. The infrastructure-vs-late-adopter return gap is $+31.6$pp with sector
+and size controls ($p=0.005$); the full sample including the five excluded
+semiconductors gives $+34.2$pp.
 \end{tablenotes}
 \end{threeparttable}
 \end{table}
@@ -500,23 +524,27 @@ study (monthly hiring measurement across 536 companies; filings scoring across
 
 \paragraph{Robustness.} The headline concreteness result is stable across
 winsorization choices, survives sector-neutral rank correlation
-(IC $=+0.15$, $p=0.002$; Appendix Table~\ref{tab:ic}), and passes
-primary-family FDR control; across the full fifteen-test matrix it clears
-$q=0.10$ but not $q=0.05$, which we report plainly. In the strict
+(IC $=+0.15$, $p=0.004$; Appendix Table~\ref{tab:ic}), and passes
+primary-family FDR control at $q=0.05$; across the broader fifteen-test matrix
+it falls just short of the $q=0.10$ threshold---which it cleared only
+marginally in the full sample---and we report this plainly. In the strict
 complete-case subsample---firms with every signal, outcome, and control
-observed, which halves the sample to 199---the coefficient is essentially
-unchanged (\coef{0.076} vs.\ \coef{0.087}) with precision reduced accordingly
-($p=0.11$; Appendix Table~\ref{tab:cc}), consistent with a loss of power
+observed, which halves the sample to 196---the coefficient attenuates but stays
+positive (\coef{0.061} vs.\ \coef{0.080}) with precision reduced accordingly
+($p=0.15$; Appendix Table~\ref{tab:cc}), consistent with a loss of power
 rather than sensitivity to sample composition. Score-bin sorts show the
-association is monotone (Appendix Table~\ref{tab:sorts}). Four further checks
+association is monotone (Appendix Table~\ref{tab:sorts}). Five further checks
 support the result: a placebo signal (company-name length) run through the
-identical pipeline is null ($p=0.70$); in a permutation test, the observed
-concreteness coefficient exceeds all 500 label-shuffled re-estimates
-(permutation $p<0.002$); the coefficient remains significant when any single
-sector is excluded (worst case: dropping technology, \coef{0.073}, $p=0.030$);
-and re-scoring a random 30-company subsample yields 93\% exact score agreement
-(100\% within one point; concreteness rerun rank correlation $0.94$),
-indicating the LLM scoring itself is stable. Evidence citation audits,
+identical pipeline is null ($p=0.84$); in a permutation test, the observed
+concreteness coefficient exceeds all but two of 1{,}000 label-shuffled
+re-estimates (permutation $p=0.002$); the coefficient remains significant when
+any single sector is excluded (worst case: dropping consumer discretionary,
+\coef{0.075}, $p=0.029$); it is likewise stable when the five excluded
+AI-semiconductors are added back---the full 500-company sample gives
+\coef{0.087}, $p=0.007$ (Table~\ref{tab:fullsample}); and re-scoring a random
+30-company subsample yields 93\% exact score agreement (100\% within one point;
+concreteness rerun rank correlation $0.94$), indicating the LLM scoring itself
+is stable. Evidence citation audits,
 classifier validation against independent labels, and cross-month reliability
 estimates are reported alongside each signal.
 
@@ -584,20 +612,20 @@ and weekly guidance, and the CMU AI Capstone faculty for supervision.
  & Revenue growth & Margin change & 4-mo.\ return & Sector-neutral IC\\
 Signal & (YoY) & (YoY) & & (revenue growth)\\
 \midrule
-Narrative concreteness & $+0.236$*** & $+0.032$ & $+0.001$ & $+0.153$***\\
- & (401) & (319) & (461) & \\
-Investment intensity & $+0.164$*** & $+0.027$ & $+0.003$ & $+0.062$\\
- & (389) & (310) & (446) & \\
-Larridin adoption & $+0.189$*** & $+0.045$ & $-0.059$ & $+0.116$**\\
- & (435) & (346) & (502) & \\
-Larridin maturity index & $+0.184$*** & $+0.068$ & $-0.053$ & $+0.107$**\\
- & (435) & (346) & (502) & \\
-Larridin impact & $+0.177$*** & $+0.065$ & $-0.042$ & $+0.111$**\\
- & (435) & (346) & (502) & \\
-Larridin proficiency & $+0.126$*** & $+0.047$ & $-0.056$ & $+0.039$\\
- & (435) & (346) & (502) & \\
-AI-hiring builder rate & $+0.012$ & $+0.038$ & $+0.027$ & $-0.076$\\
- & (216) & (177) & (251) & \\
+Narrative concreteness & $+0.222$*** & $+0.019$ & $-0.026$ & $+0.145$***\\
+ & (397) & (315) & (456) & \\
+Investment intensity & $+0.145$*** & $+0.017$ & $-0.033$ & $+0.051$\\
+ & (385) & (306) & (441) & \\
+Larridin adoption & $+0.184$*** & $+0.042$ & $-0.073$ & $+0.118$**\\
+ & (431) & (342) & (497) & \\
+Larridin maturity index & $+0.176$*** & $+0.060$ & $-0.066$ & $+0.104$**\\
+ & (431) & (342) & (497) & \\
+Larridin impact & $+0.173$*** & $+0.057$ & $-0.049$ & $+0.115$**\\
+ & (431) & (342) & (497) & \\
+Larridin proficiency & $+0.118$** & $+0.043$ & $-0.074$ & $+0.041$\\
+ & (431) & (342) & (497) & \\
+AI-hiring builder rate & $+0.012$ & $+0.048$ & $+0.006$ & $-0.070$\\
+ & (213) & (174) & (247) & \\
 \bottomrule
 \end{tabular}
 \begin{tablenotes}\footnotesize
@@ -620,21 +648,21 @@ correlating. */**/*** denote $p<0.10/0.05/0.01$.
 \cmidrule(r){1-3}\cmidrule(l){4-6}
 Score & Mean growth & $n$ & Quintile & Mean growth & $n$\\
 \midrule
-1 & $-9.4\%$ & 2 & Q1 (low) & $8.5\%$ & 88\\
-2 & $7.3\%$ & 100 & Q2 & $8.1\%$ & 91\\
-3 & $9.1\%$ & 141 & Q3 & $11.6\%$ & 85\\
-4 & $13.5\%$ & 151 & Q4 & $11.0\%$ & 81\\
-5 & $52.2\%$ & 7 & Q5 (high) & $16.6\%$ & 90\\
+1 & $-9.4\%$ & 2 & Q1 (low) & $8.5\%$ & 87\\
+2 & $7.3\%$ & 100 & Q2 & $8.1\%$ & 86\\
+3 & $9.1\%$ & 141 & Q3 & $11.4\%$ & 86\\
+4 & $13.4\%$ & 149 & Q4 & $10.0\%$ & 86\\
+5 & $46.2\%$ & 5 & Q5 (high) & $16.2\%$ & 86\\
 \midrule
-\multicolumn{3}{l}{High (4--5) $-$ low (1--2): $+8.2$pp ($t=4.18$)} &
-\multicolumn{3}{l}{Q5 $-$ Q1: $+8.1$pp}\\
+\multicolumn{3}{l}{High (4--5) $-$ low (1--2): $+7.5$pp ($t=3.97$)} &
+\multicolumn{3}{l}{Q5 $-$ Q1: $+7.8$pp}\\
 \bottomrule
 \end{tabular}
 \begin{tablenotes}\footnotesize
 \item Mean year-over-year revenue growth of the first post-score fiscal
 quarter, winsorized at 1\%/99\%. Unconditional sorts (no controls); top-quintile
 maturity firms grew roughly twice as fast as bottom-quintile firms. Four-month
-return sorts show no monotone pattern (Q1 $+2.6\%$ to Q5 $-0.7\%$).
+return sorts show no monotone pattern (Q1 $+2.7\%$ to Q5 $-1.1\%$).
 \end{tablenotes}
 \end{threeparttable}
 \end{table}
@@ -647,21 +675,22 @@ return sorts show no monotone pattern (Q1 $+2.6\%$ to Q5 $-0.7\%$).
 \small
 \begin{tabular}{lcc}
 \toprule
-Signal & Coefficient ($p$) & Full-sample coefficient ($p$)\\
+Signal & Complete-case coef.\ ($p$) & Main-sample coef.\ ($p$)\\
 \midrule
-Narrative concreteness & $+0.076$ (0.110) & $+0.087$ (0.007)\\
-Investment intensity & $+0.000$ (0.994) & $+0.048$ (0.100)\\
-Larridin adoption & $+0.026$ (0.716) & $+0.037$ (0.235)\\
-Larridin maturity index & $+0.018$ (0.769) & $+0.024$ (0.427)\\
-AI-hiring builder rate & $-0.033$ (0.154) & $-0.033$ (0.108)\\
+Narrative concreteness & $+0.061$ (0.148) & $+0.080$ (0.009)\\
+Investment intensity & $-0.014$ (0.595) & $+0.041$ (0.141)\\
+Larridin adoption & $+0.038$ (0.583) & $+0.038$ (0.201)\\
+Larridin maturity index & $+0.026$ (0.666) & $+0.024$ (0.401)\\
+AI-hiring builder rate & $-0.027$ (0.224) & $-0.027$ (0.165)\\
 \bottomrule
 \end{tabular}
 \begin{tablenotes}\footnotesize
-\item The complete-case subsample ($n=199$) requires every signal, the primary
+\item The complete-case subsample ($n=196$) requires every signal, the primary
 outcome, and all controls to be observed. Specification (4) of
 Table~\ref{tab:ladder}: sector fixed effects, log market capitalization, and
-prior revenue growth, HC3 standard errors. The concreteness coefficient is
-essentially unchanged while precision falls with the halved sample.
+prior revenue growth, HC3 standard errors. Main-sample column is the analysis
+sample of Table~\ref{tab:ladder}. The concreteness coefficient attenuates
+modestly while precision falls with the halved sample.
 \end{tablenotes}
 \end{threeparttable}
 \end{table}
@@ -669,26 +698,64 @@ essentially unchanged while precision falls with the halved sample.
 \begin{table}[H]
 \centering
 \begin{threeparttable}
-\caption{Variable coverage in the analysis sample ($n=518$ listed companies)}
+\caption{Variable coverage in the analysis sample ($n=513$ listed companies)}
 \label{tab:coverage}
 \small
 \begin{tabular}{lcl}
 \toprule
 Variable & $n$ & Principal reason for missingness\\
 \midrule
-Larridin maturity / adoption & 514 & four firms unscored in vintage\\
-Narrative concreteness / investment & 462 / 447 & no U.S.\ 10-K (foreign filers); no AI content\\
-AI-hiring builder rate & 253 & fewer than five matched postings\\
-Revenue growth (YoY) & 438 & non-comparable revenue concepts (banks)\\
-Operating-margin change (YoY) & 348 & banks and insurers\\
-Four-month forward return & 506 & delistings\\
-Log market capitalization & 508 & missing shares data\\
-Prior revenue growth & 500 & insufficient reported history\\
+Larridin maturity / adoption & 509 & four firms unscored in vintage\\
+Narrative concreteness / investment & 457 / 442 & no U.S.\ 10-K (foreign filers); no AI content\\
+AI-hiring builder rate & 249 & fewer than five matched postings\\
+Revenue growth (YoY) & 434 & non-comparable revenue concepts (banks)\\
+Operating-margin change (YoY) & 344 & banks and insurers\\
+Four-month forward return & 501 & delistings\\
+Log market capitalization & 503 & missing shares data\\
+Prior revenue growth & 495 & insufficient reported history\\
 \bottomrule
 \end{tabular}
 \begin{tablenotes}\footnotesize
 \item Missingness is non-random and documented; each analysis uses all firms
 with complete data for that analysis, with per-cell counts reported throughout.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{threeparttable}
+\caption{Full-sample specification ladder including the five AI-semiconductor firms}
+\label{tab:fullsample}
+\small
+\begin{tabular}{lccccc}
+\toprule
+ & (1) Univariate & (2) +Sector & (3) +Size & (4) +Momentum & $n_{(4)}$\\
+\midrule
+Narrative concreteness (ours) & 0.147*** & 0.094*** & 0.084** & \textbf{0.087***} & 399\\
+ & (0.000) & (0.005) & (0.011) & (0.007) & \\
+Investment intensity (ours) & 0.129*** & 0.076** & 0.057* & 0.048* & 387\\
+ & (0.000) & (0.020) & (0.071) & (0.100) & \\
+Larridin adoption & 0.115*** & 0.075** & 0.049 & 0.037 & 433\\
+ & (0.000) & (0.015) & (0.133) & (0.235) & \\
+Larridin maturity index & 0.103*** & 0.060** & 0.032 & 0.024 & 433\\
+ & (0.000) & (0.042) & (0.295) & (0.427) & \\
+Larridin impact & 0.102*** & 0.063** & 0.041 & 0.023 & 433\\
+ & (0.001) & (0.029) & (0.156) & (0.393) & \\
+Larridin proficiency & 0.075*** & 0.022 & $-0.013$ & $-0.012$ & 433\\
+ & (0.007) & (0.489) & (0.710) & (0.710) & \\
+AI-hiring builder rate (ours) & 0.026 & 0.017 & $-0.013$ & $-0.033$ & 215\\
+ & (0.393) & (0.590) & (0.712) & (0.108) & \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item Identical specifications to Table~\ref{tab:ladder}, estimated on the full
+sample that \emph{includes} Nvidia, Broadcom, AMD, Micron, and Intel---the five
+firms excluded from the main analysis. Every qualitative conclusion is
+unchanged: concreteness is the only signal to survive the full specification
+(\coef{0.087}, $p=0.007$), and the AI-infrastructure four-month return premium
+in this sample is $+34.2$pp ($p=0.003$). HC3 $p$-values in parentheses;
+*/**/*** denote $p<0.10/0.05/0.01$.
 \end{tablenotes}
 \end{threeparttable}
 \end{table}

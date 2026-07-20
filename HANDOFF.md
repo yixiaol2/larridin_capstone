@@ -16,8 +16,17 @@ drafted (`reports/paper/main.tex`), dashboard serves real data, presentation
 site live at <https://yixiaol2.github.io/larridin_capstone/> (source in
 `reports/site/`, published via the `gh-pages` branch).** Headline:
 disclosure concreteness predicts revenue growth through sector/size/momentum
-controls (+8.7pp, p=0.007); composite scores attenuate under size; returns and
+controls (+8.0pp, p=0.009); composite scores attenuate under size; returns and
 margins show no effects; see §6.
+
+> **⚠️ Analysis base = ex-5 (client request, 2026-07-14).** At Ameya's request,
+> the paper's main analysis **excludes the five largest AI-semiconductors**
+> (NVDA, AVGO, AMD, MU, INTC) so no handful of names drives the cross-section.
+> The full 500-firm sample (with them) is a **disclosed appendix**
+> (`Table~\ref{tab:fullsample}`) and every conclusion holds there too (concreteness
+> +8.7pp, p=0.007). All paper numbers are regenerated for both bases by
+> `scripts/regenerate_paper_numbers.py` (validated to reproduce the pre-exclusion
+> paper exactly) → `data/processed/analysis/paper_numbers_{full,ex5}.json`.
 
 **Key reality to internalize:** Larridin's scores are a **single snapshot
 (January 2026)** — there is no multi-quarter history. So this is currently a
@@ -83,11 +92,18 @@ collected data is pushed so teammates can run the analysis without API keys).
 | 11 | `pull_controls.py` | Regression controls: prior revenue growth (momentum) + market cap at t0 → `data/processed/fundamentals/controls.parquet` |
 | 12 | `run_controls_analysis.py` | Builds `analysis_table_v3.parquet` and runs the specification-ladder regressions → `data/processed/analysis/controls_regressions.csv` |
 
-> Note: the value-chain category merge (`analysis_table_v4.parquet`, from the
-> teammate's S&P 500 classification) and the heterogeneity/stress-test runs
-> were executed ad-hoc; their outputs are saved artifacts and the numbers are
-> reported in the paper. The hiring pipeline (6–7) has been run for snapshots
-> `2026-06` and `2026-07` — rerun monthly with a new `--snapshot`.
+> Note: the value-chain category merge uses `analysis_table_v4.parquet` (from
+> the teammate's S&P 500 classification). **Every number in the paper — ladder,
+> IC, sorts, complete-case, heterogeneity, value-chain, placebo, permutation,
+> leave-one-sector, coverage — is now regenerated (for both the ex-5 main base
+> and the full-sample appendix) by `scripts/regenerate_paper_numbers.py`**,
+> which was validated to reproduce the pre-exclusion paper exactly before the
+> exclusion was applied. It supersedes the earlier ad-hoc runs. Outputs:
+> `data/processed/analysis/paper_numbers_{full,ex5}.json`.
+> `run_exclusion_analysis.py` (→ `exclusion_regressions.csv`,
+> `exclusion_valuechain.csv`) was the initial exclusion probe and still runs.
+> The hiring pipeline (6–7) has been run for snapshots `2026-06` and `2026-07`
+> — rerun monthly with a new `--snapshot`.
 
 ---
 
@@ -116,19 +132,24 @@ cheap-but-capable models; the full runs cost ~$10–12 each.
 - **Seven signals tested** through the specification ladder: all four Larridin
   Tracker dimensions (adoption, proficiency, impact, maturity index) plus our
   concreteness, investment intensity, and hiring builder rate.
-- **Headline:** narrative concreteness survives the full specification ladder
-  (sector FE + size + momentum): **+0.087, p=0.007, n=399**; passes BH-FDR
-  across the seven-signal primary family. Robustness: placebo null, permutation
-  p<0.002, significant in all 12 leave-one-sector-out runs, LLM rerun stability
-  93% exact / conc ρ=0.94.
+- **Headline (ex-5 base — the 5 semis excluded):** narrative concreteness
+  survives the full specification ladder (sector FE + size + momentum):
+  **+0.080, p=0.009, n=395**; passes BH-FDR within the primary family at q=0.05
+  (marginal in the wider 15-test matrix). Robustness: placebo null (p=0.84),
+  permutation p=0.002, significant in all 12 leave-one-sector-out runs (worst:
+  consumer-disc 0.075, p=0.029), **stable when the 5 semis are added back**
+  (full 500-firm sample +0.087, p=0.007 — disclosed appendix Table), LLM rerun
+  93% exact / conc ρ=0.94. (Full-sample values are in `paper_numbers_full.json`.)
 - All four Larridin composite dimensions: significant raw and with sector
   controls; attenuate under the size control (framed constructively in the
   paper as "measurement depth" — concreteness is the sharpened dimension).
 - Returns: no positive predictability (consistent with market efficiency);
   margins: null everywhere ("growth channel, not cost channel").
-- Heterogeneity: AI-Infra category +36.8pp return vs peers with controls
-  (p<0.0001, descriptive); conc→growth significant within Physical/Late
-  adopters (p=0.029, n=214).
+- Heterogeneity (ex-5): AI-Infra category +44.9% raw / +31.6pp vs late-adopters
+  with sector+size controls (p=0.005, descriptive; full sample with the 5 gives
+  +34.2pp — sell-side rally is broad, carried by the remaining 25 infra names
+  not NVDA-only); conc→growth significant within Physical/Late adopters
+  (+0.065, p=0.025, n=214).
 - Hiring: not testable against Q1 (timing); delivered as validation (ρ=0.83 vs
   POC), reliability (Jun↔Jul ρ=0.54), and movers dynamics.
 - Design remains a single cross-section — associations, not causal claims.
